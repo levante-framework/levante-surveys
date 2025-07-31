@@ -76,7 +76,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
 import { useSurveyStore } from '@/stores/survey'
-import { loadAllSurveys, loadSurveyFromBucket, type SurveyFileKey } from '@/helpers/surveyLoader'
+import { type SurveyFileKey } from '@/helpers/surveyLoader'
 import SurveyCreatorComponent from '@/components/SurveyCreatorComponent.vue'
 
 const surveyStore = useSurveyStore()
@@ -95,32 +95,49 @@ const currentSurveyJson = ref<any>(null)
 
 // Load all surveys from GCS
 const loadAllSurveysAction = async () => {
+  // Prevent multiple simultaneous calls
+  if (surveyStore.isLoading) {
+    console.log('🔍 Already loading surveys, skipping...')
+    return
+  }
+
   try {
     surveyStore.isLoading = true
     surveyStore.error = null
 
-    console.log('🔍 DEBUG: About to call loadAllSurveys()')
-    console.log('🔍 DEBUG: loadAllSurveys function =', loadAllSurveys)
-    console.log('🔍 DEBUG: typeof loadAllSurveys =', typeof loadAllSurveys)
-    const surveysObject = await loadAllSurveys()
-    console.log('🔍 DEBUG: Received surveysObject =', surveysObject)
-    console.log('🔍 DEBUG: typeof surveysObject =', typeof surveysObject)
-    console.log('🔍 DEBUG: surveysObject === null =', surveysObject === null)
-    console.log('🔍 DEBUG: surveysObject === undefined =', surveysObject === undefined)
+            console.log('🔍 Starting to load surveys...')
 
-    if (!surveysObject) {
-      throw new Error('loadAllSurveys returned null or undefined')
+    // Import the module directly to avoid naming conflicts
+    const surveyLoaderModule = await import('@/helpers/surveyLoader')
+    console.log('🔍 Loaded module:', surveyLoaderModule)
+    console.log('🔍 Module loadAllSurveys:', surveyLoaderModule.loadAllSurveys)
+
+    // Call the imported function directly
+    console.log('🔍 About to call surveyLoaderModule.loadAllSurveys...')
+    const surveysObject = await surveyLoaderModule.loadAllSurveys()
+    console.log('🔍 Received surveys:', surveysObject)
+    console.log('🔍 Surveys object type:', typeof surveysObject)
+
+    if (!surveysObject || typeof surveysObject !== 'object') {
+      throw new Error('Invalid surveys data received')
     }
 
     // Update store with loaded surveys
-    Object.keys(surveysObject).forEach((key) => {
+    const surveyKeys = Object.keys(surveysObject)
+    if (surveyKeys.length === 0) {
+      console.warn('No surveys found in the response')
+      return
+    }
+
+    surveyKeys.forEach((key) => {
       surveyStore.setSurvey(key as SurveyFileKey, surveysObject[key])
     })
 
-    console.log(`Loaded ${Object.keys(surveysObject).length} surveys`)
-  } catch (err) {
-    surveyStore.error = `Failed to load surveys: ${err.message}`
-    console.error('Error loading surveys:', err)
+    console.log(`✅ Successfully loaded ${surveyKeys.length} surveys`)
+  } catch (err: any) {
+    const errorMsg = err?.message || 'Unknown error occurred'
+    surveyStore.error = `Failed to load surveys: ${errorMsg}`
+    console.error('❌ Error loading surveys:', err)
   } finally {
     surveyStore.isLoading = false
   }
@@ -136,7 +153,8 @@ const selectSurvey = async (surveyKey: SurveyFileKey) => {
 
     // If not already loaded, fetch from GCS
     if (!surveyData) {
-      const response = await loadSurveyFromBucket(surveyKey)
+      const surveyLoaderModule = await import('@/helpers/surveyLoader')
+      const response = await surveyLoaderModule.loadSurveyFromBucket(surveyKey)
       surveyData = response.data
       surveyStore.setSurvey(surveyKey, surveyData)
     }
@@ -219,6 +237,9 @@ onMounted(() => {
 .survey-manager {
   display: flex;
   height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
   background: #f8f9fa;
 }
 
@@ -236,6 +257,9 @@ onMounted(() => {
   background: white;
   display: flex;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
+  min-width: 0; /* Allows flex item to shrink below content size */
 }
 
 .panel-header h1 {
@@ -401,6 +425,9 @@ onMounted(() => {
   flex: 1;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .creator-placeholder {
@@ -431,6 +458,9 @@ onMounted(() => {
 .creator-wrapper {
   flex: 1;
   overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 1024px) {

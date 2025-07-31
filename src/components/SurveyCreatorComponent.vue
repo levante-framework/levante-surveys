@@ -1,0 +1,196 @@
+<template>
+  <div class="survey-creator">
+    <div ref="creatorContainer" class="creator-container">
+      <SurveyCreatorVue
+        v-if="isReady"
+        :model="creatorModel"
+        @surveyChanged="onSurveyChanged"
+      />
+      <div v-else class="loading-placeholder">
+        <div class="loading-content">
+          <h3>🎨 Initializing Survey Creator...</h3>
+          <p>Setting up the visual survey editor</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { ref, onMounted, watch, nextTick } from 'vue'
+import { SurveyCreatorComponent as SurveyCreatorVue } from 'survey-creator-vue'
+import { SurveyCreatorModel } from 'survey-creator-core'
+import 'survey-creator-core/survey-creator-core.css'
+
+interface Props {
+  json?: any
+}
+
+interface Emits {
+  (e: 'surveyChanged', json: any): void
+  (e: 'creatorReady', creator: SurveyCreatorModel): void
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  json: () => ({})
+})
+
+const emit = defineEmits<Emits>()
+
+const creatorContainer = ref<HTMLElement>()
+const isReady = ref(false)
+let creatorModel: SurveyCreatorModel | null = null
+
+// Initialize the SurveyJS Creator
+const initializeCreator = async () => {
+  try {
+    // Create SurveyCreator instance
+    creatorModel = new SurveyCreatorModel()
+
+    // Configure creator options
+    creatorModel.showLogicTab = true
+    creatorModel.showJSONEditorTab = true
+    creatorModel.showTestSurveyTab = true
+    creatorModel.showEmbeddedSurveyTab = false
+    creatorModel.showTranslationTab = true
+
+    // Handle survey changes
+    creatorModel.onModified.add((sender: SurveyCreatorModel) => {
+      const surveyJSON = sender.JSON
+      emit('surveyChanged', surveyJSON)
+    })
+
+    // Set initial JSON if provided
+    if (props.json && Object.keys(props.json).length > 0) {
+      creatorModel.JSON = props.json
+    }
+
+    // Mark as ready
+    isReady.value = true
+
+    emit('creatorReady', creatorModel)
+
+    console.log('SurveyJS Creator initialized successfully')
+  } catch (error) {
+    console.error('Error initializing SurveyJS Creator:', error)
+  }
+}
+
+// Update creator when JSON prop changes
+watch(() => props.json, (newJson) => {
+  if (creatorModel && newJson && Object.keys(newJson).length > 0) {
+    creatorModel.JSON = newJson
+  }
+}, { deep: true })
+
+// Handle survey changes from the Vue component
+const onSurveyChanged = (newJson: any) => {
+  emit('surveyChanged', newJson)
+}
+
+// Expose creator methods
+const getCreatorJSON = () => {
+  return creatorModel?.JSON || {}
+}
+
+const setCreatorJSON = (json: any) => {
+  if (creatorModel) {
+    creatorModel.JSON = json
+  }
+}
+
+const isModified = () => {
+  return creatorModel?.isModified || false
+}
+
+// Lifecycle
+onMounted(async () => {
+  await nextTick()
+  initializeCreator()
+})
+
+// Expose methods to parent
+defineExpose({
+  getCreatorJSON,
+  setCreatorJSON,
+  isModified,
+  creator: () => creatorModel
+})
+</script>
+
+<style scoped>
+.survey-creator {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.creator-container {
+  height: 100%;
+  width: 100%;
+}
+
+.loading-placeholder {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+}
+
+.loading-content {
+  text-align: center;
+  color: #6c757d;
+  max-width: 300px;
+  padding: 2rem;
+}
+
+.loading-content h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.loading-content p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Override some SurveyJS Creator styles */
+:deep(.svc-creator) {
+  height: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+:deep(.svc-creator__content) {
+  height: calc(100% - 60px) !important;
+  width: 100% !important;
+}
+
+:deep(.sv-action-bar) {
+  background: #fff !important;
+  border-bottom: 1px solid #e9ecef !important;
+}
+
+:deep(.svc-tab-designer .svc-tabbed-menu-wrapper) {
+  background: #f8f9fa !important;
+}
+
+:deep(.svc-tab-designer) {
+  width: 100% !important;
+}
+
+:deep(.svc-creator__area) {
+  width: 100% !important;
+}
+
+:deep(.sv-action--pressed) {
+  background: #667eea !important;
+  color: white !important;
+}
+
+:deep(.sv-action:hover) {
+  background: rgba(102, 126, 234, 0.1) !important;
+}
+</style>

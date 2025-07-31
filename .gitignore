@@ -28,3 +28,6 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+# Local survey files (downloaded from GCS bucket)
+# surveys/

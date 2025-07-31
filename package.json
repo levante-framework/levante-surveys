@@ -12,7 +12,8 @@
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "download-surveys": "node scripts/download-surveys.js"
   },
   "dependencies": {
     "@primevue/core": "^4.3.6",

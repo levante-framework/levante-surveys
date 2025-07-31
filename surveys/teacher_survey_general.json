@@ -1,0 +1,1120 @@
+{
+  "logoPosition": "right",
+  "pages": [
+    {
+      "name": "Introduction",
+      "elements": [
+        {
+          "type": "html",
+          "name": "TeacherSurveyIntro",
+          "html": {
+            "default": "<b><font face=\"Verdana\" size=\"4\">Thank you for taking the time (~10 minutes) to respond to this survey!</b><br> <br> <p><font face=\"Verdana\" size=\"4\">Some students who you teach are participating in a research project studying how children learn and develop. Your responses in this survey should apply to your classroom, school, and professional beliefs rather than to any one specific child. <br><br><b><font face=\"Verdana\" size=\"4\">This survey has two parts: Part A and Part B.</b><br> <br> <p><font face=\"Verdana\" size=\"4\">In Part A, the questions relate to your background and beliefs. <br><br>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>Thank you for your participation! Your responses provide invaluable insight into the education of your students. <br><br>When you are ready to begin, select the “Start Survey” button. <br><br><b><font face=\"Verdana\" size=\"4\">Thank you!",
+            "es": "<b><font face=\"Verdana\" size=\"4\">¡Gracias por dedicarnos unos minutos de su tiempo (aproximadamente 10 minutos) para responder esta encuesta!</b><br> <br> <p><font face=\"Verdana\" size=\"4\">Algunos de sus alumnos están participando en un proyecto de investigación que estudia cómo aprenden y se desarrollan los niños. Por favor conteste esta encuesta pensando para sus respuestas en su salón, colegio y creencias profesionales, pero no en un niño(a) en particular.<br><br><b><font face=\"Verdana\" size=\"4\">Esta encuesta consta de dos partes: Parte A y Parte B.</b><br> <br> <p><font face=\"Verdana\" size=\"4\">En la Parte A las preguntas indagan por sus antecedentes y creencias.<br><br>En la Parte B, las preguntas indagan por un aula en concreto. Si imparte clases a más de un grupo, responda a las preguntas considerando los salones en los que imparte clases en donde hay alumnos que participan en este proyecto. <br><br>Si enseña una sola asignatura, responda las preguntas relacionadas con otras asignaturas con la información que tenga disponible o consulte a un colega solo para indagar por esos detalles.<br><br>Gracias por su participación. Sus respuestas proporcionan una valiosa información sobre la educación de sus alumnos.<br><br>Cuando desee empezar, seleccione el botón \"Comenzar Encuesta\".<br><br><b><font face=\"Verdana\" size=\"4\">¡Gracias!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "html",
+          "name": "TeacherIntroPartA",
+          "html": {
+            "default": "<b><font face=\"Verdana\" size=\"3\">PART A: </b><font face=\"Verdana\" size=\"3\">The following questions ask about your background, the school where you teach, your feelings about your job, and your beliefs about teaching and children.",
+            "es": "<b><font face=\"Verdana\" size=\"3\">PARTE A: </b><font face=\"Verdana\" size=\"3\">Las siguientes preguntas se refieren a sus antecedentes, el colegio en el que enseña, lo que piensa de su trabajo y sus creencias sobre la enseñanza y la niñez."
+          }
+        },
+        {
+          "type": "panel",
+          "name": "TeacherBackground",
+          "title": {
+            "default": "<b>This set of questions asks about your background.</b>",
+            "es": "<b>Este grupo de preguntas indaga por sus antecedentes.</b>"
+          },
+          "elements": [
+            {
+              "type": "text",
+              "name": "TeacherAge",
+              "title": {
+                "default": "What is your current age?",
+                "es": "¿Cuál es su edad?"
+              },
+              "showNumber": false,
+              "inputType": "number",
+              "max": 100,
+              "placeholder": {
+                "default": "years of age",
+                "es": "años"
+              }
+            },
+            {
+              "type": "radiogroup",
+              "name": "TeacherGender",
+              "title": {
+                "default": "What is your gender?",
+                "es": "¿Cuál es su género?"
+              },
+              "showNumber": false,
+              "choices": [
+                {
+                  "value": "Female",
+                  "text": {
+                    "es": "Femenino"
+                  }
+                },
+                {
+                  "value": "Male",
+                  "text": {
+                    "es": "Masculino"
+                  }
+                },
+                {
+                  "value": "Nonbinary",
+                  "text": {
+                    "es": "No binario"
+                  }
+                }
+              ],
+              "showOtherItem": true,
+              "otherText": {
+                "default": "Other (please describe)",
+                "es": "Otro, describa"
+              },
+              "allowClear": true
+            },
+            {
+              "type": "radiogroup",
+              "name": "TeacherEducation",
+              "title": {
+                "default": "What is the highest level of education you have completed?",
+                "es": "¿Cuál es el nivel más alto de estudios que ha completado?"
+              },
+              "showNumber": false,
+              "choices": [
+                {
+                  "value": "UpToHighSchool",
+                  "text": {
+                    "default": "Less than high school",
+                    "es": "Primaria o bachillerato incompleto"
+                  }
+                },
+                {
+                  "value": "GEDHSdiploma",
+                  "text": {
+                    "default": "GED or High school equivalency",
+                    "es": "Grado de bachiller o validación del bachillerato académico"
+                  }
+                },
+                {
+                  "value": "SomeCollege",
+                  "text": {
+                    "default": "Some college but no degree",
+                    "es": "Inició estudios universitarios, pero no se ha graduado"
+                  }
+                },
+                {
+                  "value": "HSdiplomaTechnical",
+                  "text": {
+                    "default": "High school diploma or equivalent, plus technical training or certificate",
+                    "es": "Grado de bachillerato técnico"
+                  }
+                },
+                {
+                  "value": "Associate",
+                  "text": {
+                    "default": "Associate's degree",
+                    "es": "Grado de programa técnico o tecnólogo"
+                  }
+                },
+                {
+                  "value": "Bachelor",
+                  "text": {
+                    "default": "Bachelor's degree",
+                    "es": "Grado de programa de pregrado"
+                  }
+                },
+                {
+                  "value": "Master",
+                  "text": {
+                    "default": "Master's degree",
+                    "es": "Grado de programa de maestría"
+                  }
+                },
+                {
+                  "value": "Doctorate",
+                  "text": {
+                    "default": "Doctoral degree",
+                    "es": "Grado de programa de doctorado"
+                  }
+                }
+              ],
+              "allowClear": true
+            },
+            {
+              "type": "checkbox",
+              "name": "TeacherUndergrad",
+              "visibleIf": "({TeacherEducation} = Associate) or ({TeacherEducation} = Bachelor)",
+              "title": {
+                "default": "Indicate your undergraduate field of study. Mark ALL that apply.",
+                "es": "Indique su área de estudios en la licenciatura o el pregrado. Marque TODAS las que procedan."
+              },
+              "showNumber": false,
+              "choices": [
+                {
+                  "value": "EarlyChildEd",
+                  "text": {
+                    "default": "Early childhood education",
+                    "es": "Educación de la primera infancia"
+                  }
+                },
+                {
+                  "value": "ElemEd",
+                  "text": {
+                    "default": "Elementary education",
+                    "es": "Educación primaria"
+                  }
+                },
+                {
+                  "value": "SpecialEd",
+                  "text": {
+                    "default": "Special education",
+                    "es": "Educación especial"
+                  }
+                },
+                {
+                  "value": "ChildDev",
+                  "text": {
+                    "default": "Child development",
+                    "es": "Desarrollo infantil"
+                  }
+                },
+                {
+                  "value": "ReadSpecial",
+                  "text": {
+                    "default": "Reading specialist",
+                    "es": "Especialista en lectoescritura"
+                  }
+                },
+                {
+                  "value": "CurriculumInstruct",
+                  "text": {
+                    "default": "Curriculum and instruction",
+                    "es": "Currículo y enseñanza"
+                  }
+                },
+                {
+                  "value": "BilingualEd",
+                  "text": {
+                    "default": "Bilingual/bicultural education",
+                    "es": "Educación bilingüe y multicultural"
+                  }
+                },
+                {
+                  "value": "OtherEd",
+                  "text": {
+                    "default": "Other education related major (ex: secondary education, educational psychology, education administration, music education, etc.). Please specify:",
+                    "es": "Otra especialidad de educación (p. ej.: Educación secundaria, Psicología educativa, Administración educativa, Educación musical, etc.). Especifique:"
+                  }
+                },
+                {
+                  "value": "OtherNonEd",
+                  "text": {
+                    "default": "Non-education major. Please specify:",
+                    "es": "Carrera o especialidad no educativa. Especifique:"
+                  }
+                },
+                {
+                  "value": "Other",
+                  "text": {
+                    "default": "Other. Please specify:",
+                    "es": "Otra. Especifique:"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "name": "TeacherUndergradOtherEd",
+              "visibleIf": "{TeacherUndergrad} allof [OtherEd]",
+              "title": {
+                "default": "Please specify other education related major:",
+                "es": "Especifique otra especialidad relacionada con la educación:"
+              },
+              "showNumber": false
+            },
+            {
+              "type": "text",
+              "name": "TeacherUndergradNonEd",
+              "visibleIf": "{TeacherUndergrad} allof [OtherNonEd]",
+              "title": {
+                "default": "Please specify non-education major:",
+                "es": "Especifique alguna especialidad no educativa:"
+              },
+              "showNumber": false
+            },
+            {
+              "type": "text",
+              "name": "TeacherUndergradOther",
+              "visibleIf": "{TeacherUndergrad} allof [Other]",
+              "title": {
+                "default": "Please specify other major:",
+                "es": "Especifique otra especialidad:"
+              },
+              "showNumber": false
+            },
+            {
+              "type": "checkbox",
+              "name": "TeacherGrad",
+              "visibleIf": "({TeacherEducation} = Master) or ({TeacherEducation} = Doctorate)",
+              "title": {
+                "default": "Indicate the major field of study of your highest graduate degree. Mark ALL that apply.",
+                "es": "Indique el área de estudios del grado más alto obtenido por usted.  Marque TODAS las que procedan."
+              },
+              "showNumber": false,
+              "choicesFromQuestion": "TeacherUndergrad",
+              "choices": [
+                {
+                  "value": "1",
+                  "text": {
+                    "default": "Early childhood education",
+                    "es": "Educación de la primera infancia"
+                  }
+                },
+                {
+                  "value": "2",
+                  "text": {
+                    "default": "Elementary education",
+                    "es": "Educación primaria"
+                  }
+                },
+                {
+                  "value": "3",
+                  "text": {
+                    "default": "Special education",
+                    "es": "Educación especial"
+                  }
+                },
+                {
+                  "value": "4",
+                  "text": {
+                    "default": "Child development",
+                    "es": "Desarrollo infantil"
+                  }
+                },
+                {
+                  "value": "5",
+                  "text": {
+                    "default": "Reading specialist",
+                    "es": "Especialista en lectoescritura"
+                  }
+                },
+                {
+                  "value": "6",
+                  "text": {
+                    "default": "Curriculum and instruction",
+                    "es": "Currículo y enseñanza"
+                  }
+                },
+                {
+                  "value": "7",
+                  "text": {
+                    "default": "Bilingual/bicultural education",
+                    "es": "Educación bilingüe y multicultural"
+                  }
+                },
+                {
+                  "value": "8",
+                  "text": {
+                    "default": "Other education related major (ex: secondary education, educational psychology, education administration, music education, etc.). Please specify:",
+                    "es": "Otra especialidad de educación (p. ej.: Educación secundaria, Psicología educativa, Administración educativa, Educación musical, etc.). Especifique:"
+                  }
+                },
+                {
+                  "value": "9",
+                  "text": {
+                    "default": "Non-education major. Please specify:",
+                    "es": "Carrera o especialidad no educativa. Especifique:"
+                  }
+                },
+                {
+                  "value": "10",
+                  "text": {
+                    "default": "Other. Please specify:",
+                    "es": "Otra. Especifique:"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "name": "TeacherGradOtherEd",
+              "visibleIf": "{TeacherGrad} allof [8]",
+              "title": {
+                "default": "Please specify other education related major:",
+                "es": "Especifique otra especialidad relacionada con la educación:"
+              },
+              "showNumber": false
+            },
+            {
+              "type": "text",
+              "name": "TeacherGradNonEd",
+              "visibleIf": "{TeacherGrad} allof [9]",
+              "title": {
+                "default": "Please specify non-education major:",
+                "es": "Especifique alguna especialidad no educativa:"
+              },
+              "showNumber": false
+            },
+            {
+              "type": "text",
+              "name": "TeacherGradOther",
+              "visibleIf": "{TeacherGrad} allof [10]",
+              "title": {
+                "default": "Please specify other major:",
+                "es": "Especifique otra especialidad:"
+              },
+              "showNumber": false
+            },
+            {
+              "type": "radiogroup",
+              "name": "TeacherYears",
+              "title": {
+                "default": "Counting this school year, how many years have you been a schoolteacher? (please round to the nearest year)",
+                "es": "Contando este año escolar, ¿durante cuántos años ha sido docente escolar? (por favor redondee hacia arriba al calcular al medio año )"
+              },
+              "showNumber": false,
+              "choices": [
+                {
+                  "value": "Less1",
+                  "text": {
+                    "default": "Less than one year",
+                    "es": "Menos de un año"
+                  }
+                },
+                {
+                  "value": "1_2",
+                  "text": {
+                    "default": "1 to 2 years",
+                    "es": "1 a 2 años"
+                  }
+                },
+                {
+                  "value": "3_5",
+                  "text": {
+                    "default": "3 to 5 years",
+                    "es": "3 a 5 años"
+                  }
+                },
+                {
+                  "value": "6_10",
+                  "text": {
+                    "default": "6 to 10 years",
+                    "es": "6 a 10 años"
+                  }
+                },
+                {
+                  "value": "Over10",
+                  "text": {
+                    "default": "Over 10 years",
+                    "es": "Más de 10 años"
+                  }
+                }
+              ],
+              "allowClear": true
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "TeacherSchool",
+          "title": {
+            "default": "<b>This set of questions asks about the school where you currently teach.</b> ",
+            "es": "<b>Este grupo de preguntas indaga por el colegio en el que enseña actualmente.</b>"
+          },
+          "elements": [
+            {
+              "type": "radiogroup",
+              "name": "TeacherYearsSchool",
+              "title": {
+                "default": "Counting this school year, how many years have you been teaching <b>at this school</b>? (please round to the nearest year)",
+                "es": "Contando este año escolar, ¿durante cuántos años ha sido docente escolar <b>en este colegio</b>?"
+              },
+              "showNumber": false,
+              "choicesFromQuestion": "TeacherYears",
+              "choices": [
+                "Item 1",
+                "Item 2",
+                "Item 3"
+              ],
+              "allowClear": true
+            },
+            {
+              "type": "matrix",
+              "name": "TeacherClimateItems",
+              "title": {
+                "default": "Please indicate how much you agree or disagree with the following statements about this school.",
+                "es": "Por favor, indique en qué medida está de acuerdo o en desacuerdo con las siguientes afirmaciones sobre este colegio."
+              },
+              "showNumber": false,
+              "alternateRows": true,
+              "columns": [
+                {
+                  "value": "0",
+                  "text": {
+                    "default": "Strongly Disagree",
+                    "es": "Completamente en desacuerdo"
+                  }
+                },
+                {
+                  "value": "1",
+                  "text": {
+                    "default": "Disagree",
+                    "es": "En desacuerdo"
+                  }
+                },
+                {
+                  "value": "2",
+                  "text": {
+                    "default": "Agree",
+                    "es": "De acuerdo"
+                  }
+                },
+                {
+                  "value": "3",
+                  "text": {
+                    "default": "Strongly Agree",
+                    "es": "Completamente de acuerdo"
+                  }
+                }
+              ],
+              "rows": [
+                {
+                  "value": "TeacherClimate1",
+                  "text": {
+                    "default": "I feel accepted and respected as a colleague by most staff members.",
+                    "es": "Me siento aceptado y respetado como colega por la mayoría de los miembros del personal."
+                  }
+                },
+                {
+                  "value": "TeacherClimate2",
+                  "text": {
+                    "default": "Parents are supportive of school staff.",
+                    "es": "Los padres apoyan al personal del colegio."
+                  }
+                },
+                {
+                  "value": "TeacherClimate3",
+                  "text": {
+                    "default": "Students feel supported and comfortable in this school.",
+                    "es": "Los alumnos se sienten apoyados y a gusto en este colegio."
+                  }
+                },
+                {
+                  "value": "TeacherClimate4",
+                  "text": {
+                    "default": "Staff feel supported and comfortable in this school.",
+                    "es": "El personal se siente apoyado y a gusto en este colegio."
+                  }
+                },
+                {
+                  "value": "TeacherClimate5",
+                  "text": {
+                    "default": "Students are safe when here at this school.",
+                    "es": "Los alumnos están seguros cuando están en este colegio. "
+                  }
+                },
+                {
+                  "value": "TeacherClimate6",
+                  "text": {
+                    "default": "Staff are safe when here at this school.",
+                    "es": "El personal está seguro cuando está en este colegio. "
+                  }
+                },
+                {
+                  "value": "TeacherClimate7a",
+                  "text": {
+                    "default": "The facilities and property of this school are kept up well.",
+                    "es": "Las instalaciones y la propiedad de este colegio están bien mantenidos."
+                  }
+                },
+                {
+                  "value": "TeacherClimate7b",
+                  "text": {
+                    "default": "The facilities and property of this school are clean.",
+                    "es": "Las instalaciones y la propiedad de este colegio están limpios."
+                  }
+                },
+                {
+                  "value": "TeacherClimate8",
+                  "text": {
+                    "default": "Ongoing collaboration is something adults in this school do well.",
+                    "es": "La colaboración continua es algo que los adultos de este colegio hacen bien."
+                  }
+                },
+                {
+                  "value": "TeacherClimate9",
+                  "text": {
+                    "default": "Adults working in this school have strong professional relationships.",
+                    "es": "Los adultos que trabajan en este colegio mantienen buenas relaciones personales."
+                  }
+                },
+                {
+                  "value": "TeacherClimate10",
+                  "text": {
+                    "default": "Adults working in this school are respectful and supportive of one another.",
+                    "es": "Los adultos que trabajan en este colegio son respetuosos y se apoyan mutuamente."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "TeacherFeelJob",
+          "title": {
+            "default": "<b>With this set of items, we wish to learn more about teachers' feelings about their job.</b>",
+            "es": "<b>Con el siguiente grupo de preguntas queremos conocer cómo se sienten los docentes con relación a su trabajo.</b>"
+          },
+          "elements": [
+            {
+              "type": "matrix",
+              "name": "TeacherFeelJobItems",
+              "title": {
+                "default": "Please select one answer that indicates how often you agree with each of the following statements.",
+                "es": "Por favor, seleccione una respuesta que indique con qué frecuencia usted está de acuerdo con cada una de las siguientes afirmaciones."
+              },
+              "showNumber": false,
+              "alternateRows": true,
+              "columns": [
+                {
+                  "value": "0",
+                  "text": {
+                    "default": "Never",
+                    "es": "Nunca"
+                  }
+                },
+                {
+                  "value": "1",
+                  "text": {
+                    "default": "A few times a year or less",
+                    "es": "Algunas veces o menos al año"
+                  }
+                },
+                {
+                  "value": "2",
+                  "text": {
+                    "default": "Once a month or less",
+                    "es": "Una vez o menos al mes"
+                  }
+                },
+                {
+                  "value": "3",
+                  "text": {
+                    "default": "A few times a month",
+                    "es": "Algunas veces al mes"
+                  }
+                },
+                {
+                  "value": "4",
+                  "text": {
+                    "default": "Once a week",
+                    "es": "Una vez a la semana"
+                  }
+                },
+                {
+                  "value": "5",
+                  "text": {
+                    "default": "A few times a week",
+                    "es": "Algunas veces a la semana"
+                  }
+                },
+                {
+                  "value": "6",
+                  "text": {
+                    "default": "Everyday",
+                    "es": "Todos los días"
+                  }
+                }
+              ],
+              "rows": [
+                {
+                  "value": "TeacherFeelJob1",
+                  "text": {
+                    "default": "I feel emotionally drained from my work.",
+                    "es": "Me siento emocionalmente agotado(a) por mi trabajo."
+                  }
+                },
+                {
+                  "value": "TeacherFeelJob2",
+                  "text": {
+                    "default": "I feel fatigued when I get up in the morning and have to face another day on the job.",
+                    "es": "Me siento fatigado(a) cuando me levanto por la mañana y tengo que afrontar otro día en el trabajo."
+                  }
+                },
+                {
+                  "value": "TeacherFeelJob3",
+                  "text": {
+                    "default": "I can easily understand how my students feel about things.",
+                    "es": "Puedo comprender fácilmente cómo se sienten mis alumnos."
+                  }
+                },
+                {
+                  "value": "TeacherFeelJob5",
+                  "text": {
+                    "default": "I deal very effectively with the problems of my students.",
+                    "es": "Manejo de forma eficaz los problemas de mis alumnos."
+                  }
+                },
+                {
+                  "value": "TeacherFeelJob6",
+                  "text": {
+                    "default": "I feel burned out from my work.",
+                    "es": "Me siento agotado(a) por mi trabajo."
+                  }
+                },
+                {
+                  "value": "TeacherFeelJob7",
+                  "text": {
+                    "default": "I feel I'm positively influencing other people's lives through my work.",
+                    "es": "Siento que a través de mi trabajo influyo positivamente en la vida de otras personas. "
+                  }
+                },
+                {
+                  "value": "TeacherFeelJob9",
+                  "text": {
+                    "default": "I feel frustrated by my job.",
+                    "es": "Me siento frustrado(a) por mi trabajo."
+                  }
+                },
+                {
+                  "value": "TeacherFeelJob10",
+                  "text": {
+                    "default": "I feel I'm working too hard on my job.",
+                    "es": "Siento que estoy estoy haciendo un esfuerzo muy grande en mi trabajo."
+                  }
+                },
+                {
+                  "value": "TeacherFeelJob12",
+                  "text": {
+                    "default": "I can easily create a relaxed atmosphere with my students.",
+                    "es": "Puedo crear fácilmente un ambiente relajado con mis alumnos."
+                  }
+                },
+                {
+                  "value": "TeacherFeelJob13",
+                  "text": {
+                    "default": "I feel exhilarated after working closely with my students.",
+                    "es": "Me siento eufórico(a) después de trabajar de manera cercana con mis alumnos."
+                  }
+                },
+                {
+                  "value": "TeacherFeelJob14",
+                  "text": {
+                    "default": "I have accomplished many worthwhile things in this job.",
+                    "es": "En este trabajo he logrado muchas cosas que valen la pena. "
+                  }
+                },
+                {
+                  "value": "TeacherFeelJob15",
+                  "text": {
+                    "default": "I feel like I'm at the end of my rope.",
+                    "es": "Siento que estoy al límite de mis fuerzas."
+                  }
+                },
+                {
+                  "value": "TeacherFeelJob16",
+                  "text": {
+                    "default": "In my work, I deal with emotional problems very calmly.",
+                    "es": "En mi trabajo afronto los problemas emocionales con mucha calma."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "TeacherBeliefTeach",
+          "title": {
+            "default": "<b>This set of questions is designed to help us gain a better understanding of the kinds of things that create difficulties for teachers in their school activities.</b> ",
+            "es": "<b>El siguiente grupo de preguntas está diseñado para ayudarnos a comprender los aspectos que les generan dificultades a los docentes en sus actividades escolares.</b>"
+          },
+          "elements": [
+            {
+              "type": "matrix",
+              "name": "TeacherBeliefTeachItemsInfluence",
+              "title": {
+                "default": "<b>How much influence do you have...</b>",
+                "es": "<b>¿Cuánta influencia tiene usted...</b>"
+              },
+              "showNumber": false,
+              "alternateRows": true,
+              "columns": [
+                {
+                  "value": "0",
+                  "text": {
+                    "default": "Never",
+                    "es": "Nada de influencia"
+                  }
+                },
+                {
+                  "value": "1",
+                  "text": {
+                    "default": "Very Little",
+                    "es": "Muy poca influencia"
+                  }
+                },
+                {
+                  "value": "2",
+                  "text": {
+                    "default": "Some Influence",
+                    "es": "Algo de influencia"
+                  }
+                },
+                {
+                  "value": "3",
+                  "text": {
+                    "default": "Quite a Bit",
+                    "es": "Suficiente influencia"
+                  }
+                },
+                {
+                  "value": "4",
+                  "text": {
+                    "default": "A Great Deal",
+                    "es": "Bastante influencia"
+                  }
+                }
+              ],
+              "rows": [
+                {
+                  "value": "TeacherBeliefTeach1",
+                  "text": {
+                    "default": "on disruptive behavior in the classroom?",
+                    "es": "en el comportamiento disruptivo en el salón?"
+                  }
+                },
+                {
+                  "value": "TeacherBeliefTeach2",
+                  "text": {
+                    "default": "to motivate children who show low interest in activities?",
+                    "es": "para motivar a los niños(as) que muestran poco interés por las actividades?"
+                  }
+                },
+                {
+                  "value": "TeacherBeliefTeach3",
+                  "text": {
+                    "default": "to get children to believe they can do well on activities?",
+                    "es": "en que los niños(as) crean que pueden hacer bien las actividades?"
+                  }
+                },
+                {
+                  "value": "TeacherBeliefTeach4",
+                  "text": {
+                    "default": "to help children in your classroom(s) value learning?",
+                    "es": "para ayudar a los niños(as) de su(s) aula(s) a valorar el aprendizaje?"
+                  }
+                },
+                {
+                  "value": "TeacherBeliefTeach6",
+                  "text": {
+                    "default": "on getting children to follow classroom rules?",
+                    "es": "para lograr que los niños(as) sigan las normas del salón?"
+                  }
+                },
+                {
+                  "value": "TeacherBeliefTeach7",
+                  "text": {
+                    "default": "on calming a child who is disruptive or noisy?",
+                    "es": "para calmar a un niño(a) problemático(a) o ruidoso(a)?"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matrix",
+              "name": "TeacherBeliefTeachItemsWell",
+              "title": {
+                "default": "<b>How well can you...</b>",
+                "es": "<b>¿Qué tan bien puede usted...</b>"
+              },
+              "showNumber": false,
+              "alternateRows": true,
+              "columns": [
+                {
+                  "value": "0",
+                  "text": {
+                    "default": "Not At All",
+                    "es": "Nada bien"
+                  }
+                },
+                {
+                  "value": "1",
+                  "text": {
+                    "default": "Very Little",
+                    "es": "Un poco bien"
+                  }
+                },
+                {
+                  "value": "2",
+                  "text": {
+                    "default": "Somewhat",
+                    "es": "Algo bien"
+                  }
+                },
+                {
+                  "value": "3",
+                  "text": {
+                    "default": "Quite a Bit",
+                    "es": "Suficientemente bien"
+                  }
+                },
+                {
+                  "value": "4",
+                  "text": {
+                    "default": "A Great Deal",
+                    "es": "Bastante bien"
+                  }
+                }
+              ],
+              "rows": [
+                {
+                  "value": "TeacherBeliefTeach8",
+                  "text": {
+                    "default": "establish a classroom management system?",
+                    "es": "establecer un sistema de gestión de aula?"
+                  }
+                },
+                {
+                  "value": "TeacherBeliefTeach9",
+                  "text": {
+                    "default": "use a variety of assessment strategies?",
+                    "es": "utilizar diversas estrategias de evaluación?"
+                  }
+                },
+                {
+                  "value": "TeacherBeliefTeach10",
+                  "text": {
+                    "default": "provide alternative explanations or examples when children are confused?",
+                    "es": "proporcionar explicaciones alternativas o ejemplos cuando los niños(as) están confundidos?"
+                  }
+                },
+                {
+                  "value": "TeacherBeliefTeach11",
+                  "text": {
+                    "default": "assist families in helping their children do well in school?",
+                    "es": "ayudar a las familias a que sus hijos(as) les vaya bien en el colegio?"
+                  }
+                },
+                {
+                  "value": "TeacherBeliefTeach12",
+                  "text": {
+                    "default": "implement alternative strategies in your classroom(s)?",
+                    "es": "implementar estrategias alternas en su(s) aulas?"
+                  }
+                },
+                {
+                  "value": "TeacherBeliefTeach5",
+                  "text": {
+                    "default": "create good questions for children in your classroom(s)?",
+                    "es": "elaborar buenas preguntas para los niños(as) de su(s) aula(s)?"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "TeacherIdeasChildren",
+          "title": {
+            "default": "<b>With this set of items, we wish to learn more about teachers' ideas and beliefs about children.</b>",
+            "es": "<b>Con el siguiente grupo de preguntas deseamos conocer las ideas y creencias de los docentes sobre los niños(as).</b>"
+          },
+          "elements": [
+            {
+              "type": "matrix",
+              "name": "TeacherIdeasChildrenItems",
+              "title": {
+                "default": "Please select one answer that indicates how strongly you agree with each of the following statements.",
+                "es": "Por favor, seleccione una respuesta que indique hasta qué punto usted está de acuerdo con cada una de las siguientes afirmaciones."
+              },
+              "showNumber": false,
+              "alternateRows": true,
+              "columns": [
+                {
+                  "value": "0",
+                  "text": {
+                    "default": "Strongly Disagree",
+                    "es": "Completamente en desacuerdo"
+                  }
+                },
+                {
+                  "value": "1",
+                  "text": {
+                    "default": "Mildly Disagree",
+                    "es": "En desacuerdo"
+                  }
+                },
+                {
+                  "value": "2",
+                  "text": {
+                    "default": "Mildly Agree",
+                    "es": "De acuerdo"
+                  }
+                },
+                {
+                  "value": "3",
+                  "text": {
+                    "default": "Strongly Agree",
+                    "es": "Completamente de acuerdo"
+                  }
+                }
+              ],
+              "rows": [
+                {
+                  "value": "TeacherIdeasChildren1",
+                  "text": {
+                    "default": "Since parents lack special training in education, they should not question the teacher's teaching methods.",
+                    "es": "Dado que los padres carecen de formación especial en educación, no deberían cuestionar los métodos de enseñanza del docente."
+                  }
+                },
+                {
+                  "value": "TeacherIdeasChildren2",
+                  "text": {
+                    "default": "Children should be treated the same regardless of differences among them.",
+                    "es": "Los niños(as) deben recibir el mismo trato a pesar de sus diferencias."
+                  }
+                },
+                {
+                  "value": "TeacherIdeasChildren3",
+                  "text": {
+                    "default": "Children should always obey the teacher.",
+                    "es": "Los niños(as) siempre deben obedecer al docente."
+                  }
+                },
+                {
+                  "value": "TeacherIdeasChildren4",
+                  "text": {
+                    "default": "Preparing for the future is more important for a child than enjoying today.",
+                    "es": "Prepararse para el futuro es más importante para un niño(a) que disfrutar del presente."
+                  }
+                },
+                {
+                  "value": "TeacherIdeasChildren5",
+                  "text": {
+                    "default": "Children will not do the right thing unless they must.",
+                    "es": "Los niños(as) no harán lo correcto a menos que tengan que hacerlo."
+                  }
+                },
+                {
+                  "value": "TeacherIdeasChildren6",
+                  "text": {
+                    "default": "Children should be allowed to disagree with their parents if they feel their own ideas are better.",
+                    "es": "Los niños(as) deberían poder estar en desacuerdo con sus padres si creen que sus ideas son mejores."
+                  }
+                },
+                {
+                  "value": "TeacherIdeasChildren7",
+                  "text": {
+                    "default": "Children should be kept busy with work and study at home and at school.",
+                    "es": "Los niños(as) deberían mantenerse ocupados con tareas y estudio en la casa y en el colegio."
+                  }
+                },
+                {
+                  "value": "TeacherIdeasChildren8",
+                  "text": {
+                    "default": "The major goal of education is to put basic information into the minds of the children.",
+                    "es": "El principal objetivo de la educación es introducir información básica en la mente de los niños(as)."
+                  }
+                },
+                {
+                  "value": "TeacherIdeasChildren9",
+                  "text": {
+                    "default": "In order to be fair, a teacher must treat all children alike.",
+                    "es": "Para ser justo, un docente debe tratar a todos los niños(as) por igual."
+                  }
+                },
+                {
+                  "value": "TeacherIdeasChildren10",
+                  "text": {
+                    "default": "The most important thing to teach children is absolute obedience to whoever is in authority.",
+                    "es": "La lección más importante para enseñarle a un niño(a) es obediencia absoluta a quien tiene la autoridad."
+                  }
+                },
+                {
+                  "value": "TeacherIdeasChildren11",
+                  "text": {
+                    "default": "Children learn best by doing things themselves rather than listening to others.",
+                    "es": "Los niños(as) aprenden mejor haciendo las cosas ellos(as) mismos(as) que escuchando a otros(as)."
+                  }
+                },
+                {
+                  "value": "TeacherIdeasChildren12",
+                  "text": {
+                    "default": "Children must be carefully trained early in life or their natural impulses will make them unmanageable.",
+                    "es": "Los niños(as) deben ser entrenados(as) cuidadosamente desde muy pequeños o sus impulsos naturales los harán inmanejables."
+                  }
+                },
+                {
+                  "value": "TeacherIdeasChildren13",
+                  "text": {
+                    "default": "Children have a right to their own point of view and should be allowed to express it.",
+                    "es": "Los niños(as) tienen derecho a tener su propio punto de vista y se les debe permitir expresarlo."
+                  }
+                },
+                {
+                  "value": "TeacherIdeasChildren14",
+                  "text": {
+                    "default": "Children's learning results mainly from being presented basic information again and again.",
+                    "es": "El aprendizaje en los niños(as) resulta de que se les presente información básica una y otra vez."
+                  }
+                },
+                {
+                  "value": "TeacherIdeasChildren15",
+                  "text": {
+                    "default": "Children like to teach other children.",
+                    "es": "A los niños(as) les gusta enseñarle a otros niños(as)."
+                  }
+                },
+                {
+                  "value": "TeacherIdeasChildren16",
+                  "text": {
+                    "default": "The most important thing to teach children is absolute obedience to parents.",
+                    "es": "Lo más importante que hay que enseñar a los niños(as) es la obediencia absoluta a los padres."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "showPageNumbers": true,
+  "showProgressBar": true,
+  "progressBarLocation": "both",
+  "startSurveyText": {
+    "default": "Start Survey",
+    "de": "Umfrage starten",
+    "es": "Comenzar Encuesta"
+  },
+  "pagePrevText": {
+    "default": "Previous",
+    "es": "Anterior",
+    "de": "Zurück"
+  },
+  "pageNextText": {
+    "default": "Next",
+    "es": "Siguiente",
+    "de": "Weiter"
+  },
+  "completeText": {
+    "default": "Finish",
+    "es": "Terminar",
+    "de": "Beenden"
+  },
+  "firstPageIsStartPage": true
+}
