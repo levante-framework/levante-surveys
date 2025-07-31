@@ -24,15 +24,13 @@ import ConfirmDialog from 'primevue/confirmdialog'
 import ProgressSpinner from 'primevue/progressspinner'
 import Divider from 'primevue/divider'
 
-// PrimeVue Styles
-import 'primevue/resources/themes/aura-light-green/theme.css'
-import 'primevue/resources/primevue.min.css'
+// PrimeIcons
 import 'primeicons/primeicons.css'
-import 'primeflex/primeflex.css'
 
-// SurveyJS styles
-import 'survey-core/defaultV2.min.css'
+// SurveyJS styles and Vue plugin
+import 'survey-core/survey-core.min.css'
 import 'survey-creator-core/survey-creator-core.min.css'
+import { surveyCreatorPlugin } from 'survey-creator-vue'
 
 // Create Vue app
 const app = createApp(App)
@@ -41,13 +39,13 @@ const app = createApp(App)
 const pinia = createPinia()
 pinia.use(piniaPluginPersistedstate)
 
-// Configure PrimeVue
+// Configure PrimeVue with Aura theme
 app.use(PrimeVue, {
   theme: {
     preset: Aura,
     options: {
       prefix: 'p',
-      darkModeSelector: 'system',
+      darkModeSelector: false,
       cssLayer: false
     }
   }
@@ -64,6 +62,9 @@ app.component('Toast', Toast)
 app.component('ConfirmDialog', ConfirmDialog)
 app.component('ProgressSpinner', ProgressSpinner)
 app.component('Divider', Divider)
+
+// Register SurveyJS Creator plugin
+app.use(surveyCreatorPlugin)
 
 // Use plugins
 app.use(pinia)

@@ -9,7 +9,7 @@
 
       <div class="survey-list">
         <div class="actions">
-          <button @click="loadAllSurveys" :disabled="isLoading" class="btn btn-primary">
+          <button @click="loadAllSurveysAction" :disabled="isLoading" class="btn btn-primary">
             {{ isLoading ? 'Loading...' : 'Load Surveys' }}
           </button>
           <button @click="createNewSurvey" class="btn btn-secondary">
@@ -99,12 +99,25 @@ const loadAllSurveysAction = async () => {
     surveyStore.isLoading = true
     surveyStore.error = null
 
-    const surveys = await loadAllSurveys()
-    surveys.forEach((surveyData, key) => {
-      surveyStore.surveys.set(key, surveyData)
+    console.log('🔍 DEBUG: About to call loadAllSurveys()')
+    console.log('🔍 DEBUG: loadAllSurveys function =', loadAllSurveys)
+    console.log('🔍 DEBUG: typeof loadAllSurveys =', typeof loadAllSurveys)
+    const surveysObject = await loadAllSurveys()
+    console.log('🔍 DEBUG: Received surveysObject =', surveysObject)
+    console.log('🔍 DEBUG: typeof surveysObject =', typeof surveysObject)
+    console.log('🔍 DEBUG: surveysObject === null =', surveysObject === null)
+    console.log('🔍 DEBUG: surveysObject === undefined =', surveysObject === undefined)
+
+    if (!surveysObject) {
+      throw new Error('loadAllSurveys returned null or undefined')
+    }
+
+    // Update store with loaded surveys
+    Object.keys(surveysObject).forEach((key) => {
+      surveyStore.setSurvey(key as SurveyFileKey, surveysObject[key])
     })
 
-    console.log(`Loaded ${surveys.size} surveys`)
+    console.log(`Loaded ${Object.keys(surveysObject).length} surveys`)
   } catch (err) {
     surveyStore.error = `Failed to load surveys: ${err.message}`
     console.error('Error loading surveys:', err)
@@ -119,18 +132,17 @@ const selectSurvey = async (surveyKey: SurveyFileKey) => {
     surveyStore.isLoading = true
     surveyStore.error = null
 
-    let surveyData = surveyStore.surveys.get(surveyKey)
+    let surveyData = surveyStore.surveys[surveyKey]
 
     // If not already loaded, fetch from GCS
     if (!surveyData) {
       const response = await loadSurveyFromBucket(surveyKey)
       surveyData = response.data
-      surveyStore.surveys.set(surveyKey, surveyData)
+      surveyStore.setSurvey(surveyKey, surveyData)
     }
 
     // Set current survey
-    surveyStore.currentSurveyKey = surveyKey
-    surveyStore.currentSurvey = surveyData
+    surveyStore.setCurrentSurvey(surveyKey, surveyData)
     currentSurveyJson.value = surveyData
 
     // Initialize creator
@@ -160,8 +172,7 @@ const createNewSurvey = () => {
     }]
   }
 
-  surveyStore.currentSurveyKey = null
-  surveyStore.currentSurvey = newSurvey
+  surveyStore.setCurrentSurvey(null, newSurvey)
   currentSurveyJson.value = newSurvey
   isCreatorReady.value = true
 }
@@ -170,7 +181,7 @@ const createNewSurvey = () => {
 const onSurveyChanged = (newJson: any) => {
   currentSurveyJson.value = newJson
   if (surveyStore.currentSurveyKey) {
-    surveyStore.surveys.set(surveyStore.currentSurveyKey, newJson)
+    surveyStore.setSurvey(surveyStore.currentSurveyKey, newJson)
   }
 }
 
@@ -190,7 +201,7 @@ const saveSurvey = () => {
 
 // Get survey title by key
 const getSurveyTitle = (key: SurveyFileKey) => {
-  const survey = surveyStore.surveys.get(key)
+  const survey = surveyStore.surveys[key]
   return survey?.title || key.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
 }
 

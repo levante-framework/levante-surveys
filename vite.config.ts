@@ -15,4 +15,8 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  define: {
+    // Set default environment variables if not provided
+    'import.meta.env.VITE_FIREBASE_PROJECT': JSON.stringify(process.env.VITE_FIREBASE_PROJECT || 'road-dashboard')
+  }
 })
