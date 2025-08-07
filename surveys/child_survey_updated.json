@@ -8,11 +8,11 @@
           "type": "html",
           "name": "ChildSurveyIntro",
           "html": {
-            "default": "These questions ask you about how you feel at school and some of the things you do at school. There are no right or wrong answers. Choose the answer that best describes what you think. No, never; Yes, some of the time; Yes, most of the time; Yes, all of the time. The first two are for practice.",
-            "es": "Estas preguntas se refieren a cómo te sientes en la escuela, y a algunas de las cosas que haces en la escuela. No hay respuestas correctas ni incorrectas. Elige la respuesta que mejor diga lo que tú piensas. No, nunca; Sí, algunas veces; Sí, muchas veces; Sí, siempre. Las dos primeras preguntas son de práctica.",
-            "de": "In diesen Fragen geht es darum, wie du dich in der Schule fühlst und was du in der Schule machst. Es gibt keine richtigen oder falschen Antworten. Wähle die Antwort, die am besten beschreibt, was du denkst. Nein, nie; Ja, manchmal; Ja, meistens; Ja, immer. Die ersten beiden Fragen sind zum Üben.",
-            "fr": "Ces questions vous demandent comment vous vous sentez à l'école et certaines choses que vous faites à l'école. Il n'y a pas de bonnes ou de mauvaises réponses. Choisissez la réponse qui décrit le mieux ce que vous pensez. Non, jamais ; Oui, quelquefois ; Oui, la plupart du temps ; Oui, tout le temps. Les deux premiers sont pour la pratique.",
-            "nl": "Deze vragen gaan over hoe je je op school voelt en over een aantal dingen die je op school doet. Er zijn geen goede of foute antwoorden. Kies het antwoord dat het beste beschrijft wat je denkt. Nee, nooit; Ja, soms; Ja, meestal; Ja, altijd. De eerste twee zijn om te oefenen."
+            "default": "<font face=\"Verdana\" size=\"4\">These questions ask you about how you feel at school and some of the things you do at school. There are no right or wrong answers. Choose the answer that best describes what you think. <b><font face=\"Verdana\" size=\"4\">No, never; Yes, some of the time; Yes, most of the time; Yes, all of the time.<br><br>The first two are for practice.",
+            "es": "<font face=\"Verdana\" size=\"4\">Estas preguntas se refieren a cómo te sientes en la escuela y a lo que haces en la escuela. No hay respuestas correctas ni incorrectas. Elige la respuesta que más se acerque a lo que piensas. <br><b><font face=\"Verdana\" size=\"4\"> No, nunca; Sí, algunas veces; Sí, muchas veces; Sí, siempre. <br><br>Ensaya con las dos primeras preguntas cómo responder.",
+            "de": "<font face=\"Verdana\" size=\"4\">In diesen Fragen geht es darum, wie du dich in der Schule fühlst und was du in der Schule machst. Es gibt keine richtigen oder falschen Antworten. Wähle die Antwort, die am besten beschreibt, was du denkst.<b><font face=\"Verdana\" size=\"4\"> Nein, nie; Ja, manchmal; Ja, meistens; Ja, immer.<br><br>Die ersten beiden Fragen sind zum Üben.",
+            "fr": "<font face=\"Verdana\" size=\"4\">Ces questions vous demandent comment vous vous sentez à l'école et certaines choses que vous faites à l'école. Il n'y a pas de bonnes ou de mauvaises réponses. Choisissez la réponse qui décrit le mieux ce que vous pensez. <b><font face=\"Verdana\" size=\"4\">Non, jamais; Oui, quelquefois; Oui, la plupart du temps; Oui, tout le temps.<br><br>Les deux premiers sont pour la pratique.",
+            "nl": "<font face=\"Verdana\" size=\"4\">Deze vragen gaan over hoe je je voelt op school en over dingen die je op school doet. Er zijn geen goede of foute antwoorden. Kies het antwoord dat het beste beschrijft wat je denkt. <b><font face=\"Verdana\" size=\"4\">Nee, nooit; Ja, soms; Ja, meestal; Ja, altijd.<br><br>De eerste twee zijn voor oefening."
           }
         }
       ]
@@ -33,47 +33,47 @@
                 "es": "¿Te gusta leer historietas (comics)?",
                 "de": "Liest du gerne Comics?",
                 "fr": "Aimez-vous lire des bandes dessinées ?",
-                "nl": "Lees je graag stripboeken?"
+                "nl": "Houd je van het lezen van stripboeken?"
               },
               "choices": [
                 {
                   "value": "0",
                   "text": {
-                    "default": "Do you like to read comic books?",
-                    "es": "¿Te gusta leer historietas (comics)?",
-                    "de": "Liest du gerne Comics?",
-                    "fr": "Aimez-vous lire des bandes dessinées ?",
-                    "nl": "Lees je graag stripboeken?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Do you like to read comic books?",
-                    "es": "¿Te gusta leer historietas (comics)?",
-                    "de": "Liest du gerne Comics?",
-                    "fr": "Aimez-vous lire des bandes dessinées ?",
-                    "nl": "Lees je graag stripboeken?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, quelquefois",
+                    "nl": "Ja, soms"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Do you like to read comic books?",
-                    "es": "¿Te gusta leer historietas (comics)?",
-                    "de": "Liest du gerne Comics?",
-                    "fr": "Aimez-vous lire des bandes dessinées ?",
-                    "nl": "Lees je graag stripboeken?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, meestal"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Do you like to read comic books?",
-                    "es": "¿Te gusta leer historietas (comics)?",
-                    "de": "Liest du gerne Comics?",
-                    "fr": "Aimez-vous lire des bandes dessinées ?",
-                    "nl": "Lees je graag stripboeken?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -86,47 +86,47 @@
                 "es": "¿Eres limpio y ordenado en el colegio?",
                 "de": "Bist du in der Schule ordentlich?",
                 "fr": "Êtes-vous soigneux et ordonné à l'école ?",
-                "nl": "Ben jij netjes en opgeruimd op school?"
+                "nl": "Ben je netjes en opgeruimd op school?"
               },
               "choices": [
                 {
                   "value": "0",
                   "text": {
-                    "default": "Are you neat and tidy at school?",
-                    "es": "¿Eres limpio y ordenado en el colegio?",
-                    "de": "Bist du in der Schule ordentlich?",
-                    "fr": "Êtes-vous soigneux et ordonné à l'école ?",
-                    "nl": "Ben jij netjes en opgeruimd op school?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Are you neat and tidy at school?",
-                    "es": "¿Eres limpio y ordenado en el colegio?",
-                    "de": "Bist du in der Schule ordentlich?",
-                    "fr": "Êtes-vous soigneux et ordonné à l'école ?",
-                    "nl": "Ben jij netjes en opgeruimd op school?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Are you neat and tidy at school?",
-                    "es": "¿Eres limpio y ordenado en el colegio?",
-                    "de": "Bist du in der Schule ordentlich?",
-                    "fr": "Êtes-vous soigneux et ordonné à l'école ?",
-                    "nl": "Ben jij netjes en opgeruimd op school?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Are you neat and tidy at school?",
-                    "es": "¿Eres limpio y ordenado en el colegio?",
-                    "de": "Bist du in der Schule ordentlich?",
-                    "fr": "Êtes-vous soigneux et ordonné à l'école ?",
-                    "nl": "Ben jij netjes en opgeruimd op school?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -139,47 +139,47 @@
                 "es": "¿Te trata bien tu profesor?",
                 "de": "Ist dein Lehrer nett zu dir?",
                 "fr": "Votre enseignant est-il gentil avec vous ?",
-                "nl": "Is je leraar aardig tegen je?"
+                "nl": "Is je leraar aardig voor je?"
               },
               "choices": [
                 {
                   "value": "0",
                   "text": {
-                    "default": "Is your teacher nice to you?",
-                    "es": "¿Te trata bien tu profesor?",
-                    "de": "Ist dein Lehrer nett zu dir?",
-                    "fr": "Votre enseignant est-il gentil avec vous ?",
-                    "nl": "Is je leraar aardig tegen je?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Is your teacher nice to you?",
-                    "es": "¿Te trata bien tu profesor?",
-                    "de": "Ist dein Lehrer nett zu dir?",
-                    "fr": "Votre enseignant est-il gentil avec vous ?",
-                    "nl": "Is je leraar aardig tegen je?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Is your teacher nice to you?",
-                    "es": "¿Te trata bien tu profesor?",
-                    "de": "Ist dein Lehrer nett zu dir?",
-                    "fr": "Votre enseignant est-il gentil avec vous ?",
-                    "nl": "Is je leraar aardig tegen je?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Is your teacher nice to you?",
-                    "es": "¿Te trata bien tu profesor?",
-                    "de": "Ist dein Lehrer nett zu dir?",
-                    "fr": "Votre enseignant est-il gentil avec vous ?",
-                    "nl": "Is je leraar aardig tegen je?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -192,47 +192,47 @@
                 "es": "¿Le caes bien a tu profesor?",
                 "de": "Mag dich dein Lehrer?",
                 "fr": "Votre enseignant vous aime-t-il ?",
-                "nl": "Vindt je leraar je aardig?"
+                "nl": "Vindt je leraar je leuk?"
               },
               "choices": [
                 {
                   "value": "0",
                   "text": {
-                    "default": "Does your teacher like you?",
-                    "es": "¿Le caes bien a tu profesor?",
-                    "de": "Mag dich dein Lehrer?",
-                    "fr": "Votre enseignant vous aime-t-il ?",
-                    "nl": "Vindt je leraar je aardig?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Does your teacher like you?",
-                    "es": "¿Le caes bien a tu profesor?",
-                    "de": "Mag dich dein Lehrer?",
-                    "fr": "Votre enseignant vous aime-t-il ?",
-                    "nl": "Vindt je leraar je aardig?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Does your teacher like you?",
-                    "es": "¿Le caes bien a tu profesor?",
-                    "de": "Mag dich dein Lehrer?",
-                    "fr": "Votre enseignant vous aime-t-il ?",
-                    "nl": "Vindt je leraar je aardig?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Does your teacher like you?",
-                    "es": "¿Le caes bien a tu profesor?",
-                    "de": "Mag dich dein Lehrer?",
-                    "fr": "Votre enseignant vous aime-t-il ?",
-                    "nl": "Vindt je leraar je aardig?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -245,47 +245,47 @@
                 "es": "¿Te escucha tu profesor?",
                 "de": "Hört dein Lehrer dir zu?",
                 "fr": "Votre enseignant vous écoute-t-il ?",
-                "nl": "Luistert jouw leraar naar jou?"
+                "nl": "Luistert je leraar naar je?"
               },
               "choices": [
                 {
                   "value": "0",
                   "text": {
-                    "default": "Does your teacher listen to you?",
-                    "es": "¿Te escucha tu profesor?",
-                    "de": "Hört dein Lehrer dir zu?",
-                    "fr": "Votre enseignant vous écoute-t-il ?",
-                    "nl": "Luistert jouw leraar naar jou?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Does your teacher listen to you?",
-                    "es": "¿Te escucha tu profesor?",
-                    "de": "Hört dein Lehrer dir zu?",
-                    "fr": "Votre enseignant vous écoute-t-il ?",
-                    "nl": "Luistert jouw leraar naar jou?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Does your teacher listen to you?",
-                    "es": "¿Te escucha tu profesor?",
-                    "de": "Hört dein Lehrer dir zu?",
-                    "fr": "Votre enseignant vous écoute-t-il ?",
-                    "nl": "Luistert jouw leraar naar jou?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Does your teacher listen to you?",
-                    "es": "¿Te escucha tu profesor?",
-                    "de": "Hört dein Lehrer dir zu?",
-                    "fr": "Votre enseignant vous écoute-t-il ?",
-                    "nl": "Luistert jouw leraar naar jou?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -304,41 +304,41 @@
                 {
                   "value": "0",
                   "text": {
-                    "default": "Is school fun?",
-                    "es": "¿Te diviertes en el colegio?",
-                    "de": "Macht die Schule Spaß?",
-                    "fr": "L'école est-elle amusante ?",
-                    "nl": "Is school leuk?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Is school fun?",
-                    "es": "¿Te diviertes en el colegio?",
-                    "de": "Macht die Schule Spaß?",
-                    "fr": "L'école est-elle amusante ?",
-                    "nl": "Is school leuk?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Is school fun?",
-                    "es": "¿Te diviertes en el colegio?",
-                    "de": "Macht die Schule Spaß?",
-                    "fr": "L'école est-elle amusante ?",
-                    "nl": "Is school leuk?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Is school fun?",
-                    "es": "¿Te diviertes en el colegio?",
-                    "de": "Macht die Schule Spaß?",
-                    "fr": "L'école est-elle amusante ?",
-                    "nl": "Is school leuk?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -357,41 +357,41 @@
                 {
                   "value": "0",
                   "text": {
-                    "default": "Do you enjoy school?",
-                    "es": "¿Te gusta la escuela?",
-                    "de": "Magst du es, in die Schule zu gehen?",
-                    "fr": "Aimez-vous l'école ?",
-                    "nl": "Vind je school leuk?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Do you enjoy school?",
-                    "es": "¿Te gusta la escuela?",
-                    "de": "Magst du es, in die Schule zu gehen?",
-                    "fr": "Aimez-vous l'école ?",
-                    "nl": "Vind je school leuk?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Do you enjoy school?",
-                    "es": "¿Te gusta la escuela?",
-                    "de": "Magst du es, in die Schule zu gehen?",
-                    "fr": "Aimez-vous l'école ?",
-                    "nl": "Vind je school leuk?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Do you enjoy school?",
-                    "es": "¿Te gusta la escuela?",
-                    "de": "Magst du es, in die Schule zu gehen?",
-                    "fr": "Aimez-vous l'école ?",
-                    "nl": "Vind je school leuk?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -410,41 +410,41 @@
                 {
                   "value": "0",
                   "text": {
-                    "default": "Are you happy at school?",
-                    "es": "¿Te sientes feliz en la escuela?",
-                    "de": "Bist du glücklich in der Schule?",
-                    "fr": "Êtes-vous heureux à l'école ?",
-                    "nl": "Ben je blij op school?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Are you happy at school?",
-                    "es": "¿Te sientes feliz en la escuela?",
-                    "de": "Bist du glücklich in der Schule?",
-                    "fr": "Êtes-vous heureux à l'école ?",
-                    "nl": "Ben je blij op school?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Are you happy at school?",
-                    "es": "¿Te sientes feliz en la escuela?",
-                    "de": "Bist du glücklich in der Schule?",
-                    "fr": "Êtes-vous heureux à l'école ?",
-                    "nl": "Ben je blij op school?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Are you happy at school?",
-                    "es": "¿Te sientes feliz en la escuela?",
-                    "de": "Bist du glücklich in der Schule?",
-                    "fr": "Êtes-vous heureux à l'école ?",
-                    "nl": "Ben je blij op school?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -463,41 +463,41 @@
                 {
                   "value": "0",
                   "text": {
-                    "default": "Do you feel safe at school?",
-                    "es": "¿Te sientes seguro o segura en el colegio?",
-                    "de": "Fühlst du dich in der Schule sicher?",
-                    "fr": "Vous sentez-vous en sécurité à l'école ?",
-                    "nl": "Voel je je veilig op school?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Do you feel safe at school?",
-                    "es": "¿Te sientes seguro o segura en el colegio?",
-                    "de": "Fühlst du dich in der Schule sicher?",
-                    "fr": "Vous sentez-vous en sécurité à l'école ?",
-                    "nl": "Voel je je veilig op school?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Do you feel safe at school?",
-                    "es": "¿Te sientes seguro o segura en el colegio?",
-                    "de": "Fühlst du dich in der Schule sicher?",
-                    "fr": "Vous sentez-vous en sécurité à l'école ?",
-                    "nl": "Voel je je veilig op school?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Do you feel safe at school?",
-                    "es": "¿Te sientes seguro o segura en el colegio?",
-                    "de": "Fühlst du dich in der Schule sicher?",
-                    "fr": "Vous sentez-vous en sécurité à l'école ?",
-                    "nl": "Voel je je veilig op school?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -516,41 +516,41 @@
                 {
                   "value": "0",
                   "text": {
-                    "default": "Do you have friends in your class?",
-                    "es": "¿Tienes amigos o amigas en tu clase?",
-                    "de": "Hast du Freunde in deiner Klasse?",
-                    "fr": "Avez-vous des amis dans votre classe ?",
-                    "nl": "Heb je vrienden in je klas?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Do you have friends in your class?",
-                    "es": "¿Tienes amigos o amigas en tu clase?",
-                    "de": "Hast du Freunde in deiner Klasse?",
-                    "fr": "Avez-vous des amis dans votre classe ?",
-                    "nl": "Heb je vrienden in je klas?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Do you have friends in your class?",
-                    "es": "¿Tienes amigos o amigas en tu clase?",
-                    "de": "Hast du Freunde in deiner Klasse?",
-                    "fr": "Avez-vous des amis dans votre classe ?",
-                    "nl": "Heb je vrienden in je klas?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Do you have friends in your class?",
-                    "es": "¿Tienes amigos o amigas en tu clase?",
-                    "de": "Hast du Freunde in deiner Klasse?",
-                    "fr": "Avez-vous des amis dans votre classe ?",
-                    "nl": "Heb je vrienden in je klas?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -563,47 +563,47 @@
                 "es": "¿Te ayudan los niños y las niñas de tu clase cuando lo necesitas?",
                 "de": "Helfen dir die Kinder in deiner Klasse, wenn du Hilfe brauchst?",
                 "fr": "Les enfants de votre classe vous aident-ils quand vous en avez besoin ?",
-                "nl": "Helpen de kinderen in jouw klas jou als dat nodig is?"
+                "nl": "Helpen de kinderen in je klas je wanneer je het nodig hebt?"
               },
               "choices": [
                 {
                   "value": "0",
                   "text": {
-                    "default": "Do the kids in your class help you when you need it?",
-                    "es": "¿Te ayudan los niños y las niñas de tu clase cuando lo necesitas?",
-                    "de": "Helfen dir die Kinder in deiner Klasse, wenn du Hilfe brauchst?",
-                    "fr": "Les enfants de votre classe vous aident-ils quand vous en avez besoin ?",
-                    "nl": "Helpen de kinderen in jouw klas jou als dat nodig is?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Do the kids in your class help you when you need it?",
-                    "es": "¿Te ayudan los niños y las niñas de tu clase cuando lo necesitas?",
-                    "de": "Helfen dir die Kinder in deiner Klasse, wenn du Hilfe brauchst?",
-                    "fr": "Les enfants de votre classe vous aident-ils quand vous en avez besoin ?",
-                    "nl": "Helpen de kinderen in jouw klas jou als dat nodig is?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Do the kids in your class help you when you need it?",
-                    "es": "¿Te ayudan los niños y las niñas de tu clase cuando lo necesitas?",
-                    "de": "Helfen dir die Kinder in deiner Klasse, wenn du Hilfe brauchst?",
-                    "fr": "Les enfants de votre classe vous aident-ils quand vous en avez besoin ?",
-                    "nl": "Helpen de kinderen in jouw klas jou als dat nodig is?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Do the kids in your class help you when you need it?",
-                    "es": "¿Te ayudan los niños y las niñas de tu clase cuando lo necesitas?",
-                    "de": "Helfen dir die Kinder in deiner Klasse, wenn du Hilfe brauchst?",
-                    "fr": "Les enfants de votre classe vous aident-ils quand vous en avez besoin ?",
-                    "nl": "Helpen de kinderen in jouw klas jou als dat nodig is?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -616,47 +616,47 @@
                 "es": "¿Los niños y las niñas de tu clase juegan contigo?",
                 "de": "Spielen die Kinder in deiner Klasse mit dir?",
                 "fr": "Les enfants de votre classe jouent-ils avec vous ?",
-                "nl": "Spelen de kinderen in jouw klas met jou?"
+                "nl": "Spelen de kinderen in je klas met je?"
               },
               "choices": [
                 {
                   "value": "0",
                   "text": {
-                    "default": "Do the kids in your class play with you?",
-                    "es": "¿Los niños y las niñas de tu clase juegan contigo?",
-                    "de": "Spielen die Kinder in deiner Klasse mit dir?",
-                    "fr": "Les enfants de votre classe jouent-ils avec vous ?",
-                    "nl": "Spelen de kinderen in jouw klas met jou?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Do the kids in your class play with you?",
-                    "es": "¿Los niños y las niñas de tu clase juegan contigo?",
-                    "de": "Spielen die Kinder in deiner Klasse mit dir?",
-                    "fr": "Les enfants de votre classe jouent-ils avec vous ?",
-                    "nl": "Spelen de kinderen in jouw klas met jou?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Do the kids in your class play with you?",
-                    "es": "¿Los niños y las niñas de tu clase juegan contigo?",
-                    "de": "Spielen die Kinder in deiner Klasse mit dir?",
-                    "fr": "Les enfants de votre classe jouent-ils avec vous ?",
-                    "nl": "Spelen de kinderen in jouw klas met jou?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Do the kids in your class play with you?",
-                    "es": "¿Los niños y las niñas de tu clase juegan contigo?",
-                    "de": "Spielen die Kinder in deiner Klasse mit dir?",
-                    "fr": "Les enfants de votre classe jouent-ils avec vous ?",
-                    "nl": "Spelen de kinderen in jouw klas met jou?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -669,47 +669,47 @@
                 "es": "¿Los niños y las niñas de tu clase son amables contigo?",
                 "de": "Sind die Kinder in deiner Klasse nett zu dir?",
                 "fr": "Les enfants de votre classe sont-ils gentils avec vous ?",
-                "nl": "Zijn de kinderen in jouw klas aardig tegen je?"
+                "nl": "Zijn de kinderen in je klas aardig voor je?"
               },
               "choices": [
                 {
                   "value": "0",
                   "text": {
-                    "default": "Are the kids in your class nice to you?",
-                    "es": "¿Los niños y las niñas de tu clase son amables contigo?",
-                    "de": "Sind die Kinder in deiner Klasse nett zu dir?",
-                    "fr": "Les enfants de votre classe sont-ils gentils avec vous ?",
-                    "nl": "Zijn de kinderen in jouw klas aardig tegen je?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Are the kids in your class nice to you?",
-                    "es": "¿Los niños y las niñas de tu clase son amables contigo?",
-                    "de": "Sind die Kinder in deiner Klasse nett zu dir?",
-                    "fr": "Les enfants de votre classe sont-ils gentils avec vous ?",
-                    "nl": "Zijn de kinderen in jouw klas aardig tegen je?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Are the kids in your class nice to you?",
-                    "es": "¿Los niños y las niñas de tu clase son amables contigo?",
-                    "de": "Sind die Kinder in deiner Klasse nett zu dir?",
-                    "fr": "Les enfants de votre classe sont-ils gentils avec vous ?",
-                    "nl": "Zijn de kinderen in jouw klas aardig tegen je?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Are the kids in your class nice to you?",
-                    "es": "¿Los niños y las niñas de tu clase son amables contigo?",
-                    "de": "Sind die Kinder in deiner Klasse nett zu dir?",
-                    "fr": "Les enfants de votre classe sont-ils gentils avec vous ?",
-                    "nl": "Zijn de kinderen in jouw klas aardig tegen je?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -722,47 +722,47 @@
                 "es": "¿Te sientes solo o sola en el colegio?",
                 "de": "Fühlst du dich in der Schule einsam?",
                 "fr": "Vous sentez-vous seul à l'école ?",
-                "nl": "Voel jij je eenzaam op school?"
+                "nl": "Voel je je eenzaam op school?"
               },
               "choices": [
                 {
                   "value": "0",
                   "text": {
-                    "default": "Do you feel lonely at school?",
-                    "es": "¿Te sientes solo o sola en el colegio?",
-                    "de": "Fühlst du dich in der Schule einsam?",
-                    "fr": "Vous sentez-vous seul à l'école ?",
-                    "nl": "Voel jij je eenzaam op school?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Do you feel lonely at school?",
-                    "es": "¿Te sientes solo o sola en el colegio?",
-                    "de": "Fühlst du dich in der Schule einsam?",
-                    "fr": "Vous sentez-vous seul à l'école ?",
-                    "nl": "Voel jij je eenzaam op school?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Do you feel lonely at school?",
-                    "es": "¿Te sientes solo o sola en el colegio?",
-                    "de": "Fühlst du dich in der Schule einsam?",
-                    "fr": "Vous sentez-vous seul à l'école ?",
-                    "nl": "Voel jij je eenzaam op school?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Do you feel lonely at school?",
-                    "es": "¿Te sientes solo o sola en el colegio?",
-                    "de": "Fühlst du dich in der Schule einsam?",
-                    "fr": "Vous sentez-vous seul à l'école ?",
-                    "nl": "Voel jij je eenzaam op school?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -772,50 +772,50 @@
               "name": "LearningGood",
               "title": {
                 "default": "Are you good at learning things in school?",
-                "es": "¿Te queda fácil aprender en el colegio?",
+                "es": "¿Eres bueno o buena para aprender en el colegio?",
                 "de": "Bist du gut darin, in der Schule etwas zu lernen?",
                 "fr": "Êtes-vous bon pour apprendre des choses à l'école ?",
-                "nl": "Ben je goed in het leren op school?"
+                "nl": "Ben je goed in het leren van dingen op school?"
               },
               "choices": [
                 {
                   "value": "0",
                   "text": {
-                    "default": "Are you good at learning things in school?",
-                    "es": "¿Te queda fácil aprender en el colegio?",
-                    "de": "Bist du gut darin, in der Schule etwas zu lernen?",
-                    "fr": "Êtes-vous bon pour apprendre des choses à l'école ?",
-                    "nl": "Ben je goed in het leren op school?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Are you good at learning things in school?",
-                    "es": "¿Te queda fácil aprender en el colegio?",
-                    "de": "Bist du gut darin, in der Schule etwas zu lernen?",
-                    "fr": "Êtes-vous bon pour apprendre des choses à l'école ?",
-                    "nl": "Ben je goed in het leren op school?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Are you good at learning things in school?",
-                    "es": "¿Te queda fácil aprender en el colegio?",
-                    "de": "Bist du gut darin, in der Schule etwas zu lernen?",
-                    "fr": "Êtes-vous bon pour apprendre des choses à l'école ?",
-                    "nl": "Ben je goed in het leren op school?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Are you good at learning things in school?",
-                    "es": "¿Te queda fácil aprender en el colegio?",
-                    "de": "Bist du gut darin, in der Schule etwas zu lernen?",
-                    "fr": "Êtes-vous bon pour apprendre des choses à l'école ?",
-                    "nl": "Ben je goed in het leren op school?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -825,50 +825,50 @@
               "name": "SchoolGiveUp",
               "title": {
                 "default": "When schoolwork is hard, do you give up right away?",
-                "es": "Cuando las tareas escolares son difíciles, ¿te rindes enseguida?",
+                "es": "Cuando las tareas del colegio son difíciles, ¿te rindes en seguida?",
                 "de": "Gibst du sofort auf, wenn dir die Schularbeit schwer fällt?",
                 "fr": "Abandonnez-vous tout de suite quand le travail scolaire est difficile ?",
-                "nl": "Geef je meteen op als schoolwerk moeilijk is?"
+                "nl": "Wanneer schoolwerk moeilijk is, geef je dan meteen op?"
               },
               "choices": [
                 {
                   "value": "0",
                   "text": {
-                    "default": "When schoolwork is hard, do you give up right away?",
-                    "es": "Cuando las tareas escolares son difíciles, ¿te rindes enseguida?",
-                    "de": "Gibst du sofort auf, wenn dir die Schularbeit schwer fällt?",
-                    "fr": "Abandonnez-vous tout de suite quand le travail scolaire est difficile ?",
-                    "nl": "Geef je meteen op als schoolwerk moeilijk is?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "When schoolwork is hard, do you give up right away?",
-                    "es": "Cuando las tareas escolares son difíciles, ¿te rindes enseguida?",
-                    "de": "Gibst du sofort auf, wenn dir die Schularbeit schwer fällt?",
-                    "fr": "Abandonnez-vous tout de suite quand le travail scolaire est difficile ?",
-                    "nl": "Geef je meteen op als schoolwerk moeilijk is?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "When schoolwork is hard, do you give up right away?",
-                    "es": "Cuando las tareas escolares son difíciles, ¿te rindes enseguida?",
-                    "de": "Gibst du sofort auf, wenn dir die Schularbeit schwer fällt?",
-                    "fr": "Abandonnez-vous tout de suite quand le travail scolaire est difficile ?",
-                    "nl": "Geef je meteen op als schoolwerk moeilijk is?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "When schoolwork is hard, do you give up right away?",
-                    "es": "Cuando las tareas escolares son difíciles, ¿te rindes enseguida?",
-                    "de": "Gibst du sofort auf, wenn dir die Schularbeit schwer fällt?",
-                    "fr": "Abandonnez-vous tout de suite quand le travail scolaire est difficile ?",
-                    "nl": "Geef je meteen op als schoolwerk moeilijk is?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -881,47 +881,47 @@
                 "es": "¿Te gusta hacer actividades de lectura en el colegio?",
                 "de": "Macht es dir Spaß in der Schule zu lesen?",
                 "fr": "Aimez-vous faire des activités de lecture à l'école ?",
-                "nl": "Vindt u het leuk om op school te lezen?"
+                "nl": "Vind je het leuk om leesactiviteiten te doen op school?"
               },
               "choices": [
                 {
                   "value": "0",
                   "text": {
-                    "default": "Do you enjoy doing reading activities at school?",
-                    "es": "¿Te gusta hacer actividades de lectura en el colegio?",
-                    "de": "Macht es dir Spaß in der Schule zu lesen?",
-                    "fr": "Aimez-vous faire des activités de lecture à l'école ?",
-                    "nl": "Vindt u het leuk om op school te lezen?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Do you enjoy doing reading activities at school?",
-                    "es": "¿Te gusta hacer actividades de lectura en el colegio?",
-                    "de": "Macht es dir Spaß in der Schule zu lesen?",
-                    "fr": "Aimez-vous faire des activités de lecture à l'école ?",
-                    "nl": "Vindt u het leuk om op school te lezen?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Do you enjoy doing reading activities at school?",
-                    "es": "¿Te gusta hacer actividades de lectura en el colegio?",
-                    "de": "Macht es dir Spaß in der Schule zu lesen?",
-                    "fr": "Aimez-vous faire des activités de lecture à l'école ?",
-                    "nl": "Vindt u het leuk om op school te lezen?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Do you enjoy doing reading activities at school?",
-                    "es": "¿Te gusta hacer actividades de lectura en el colegio?",
-                    "de": "Macht es dir Spaß in der Schule zu lesen?",
-                    "fr": "Aimez-vous faire des activités de lecture à l'école ?",
-                    "nl": "Vindt u het leuk om op school te lezen?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -934,47 +934,47 @@
                 "es": "¿Te gusta hacer actividades de matemáticas en el colegio?",
                 "de": "Hast du Spaß am Fach Mathe?",
                 "fr": "Aimez-vous faire des activités de mathématiques à l'école ?",
-                "nl": "Vindt u het leuk om rekenactiviteiten op school te doen?"
+                "nl": "Vind je het leuk om wiskundeactiviteiten te doen op school?"
               },
               "choices": [
                 {
                   "value": "0",
                   "text": {
-                    "default": "Do you enjoy doing math activities at school?",
-                    "es": "¿Te gusta hacer actividades de matemáticas en el colegio?",
-                    "de": "Hast du Spaß am Fach Mathe?",
-                    "fr": "Aimez-vous faire des activités de mathématiques à l'école ?",
-                    "nl": "Vindt u het leuk om rekenactiviteiten op school te doen?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Do you enjoy doing math activities at school?",
-                    "es": "¿Te gusta hacer actividades de matemáticas en el colegio?",
-                    "de": "Hast du Spaß am Fach Mathe?",
-                    "fr": "Aimez-vous faire des activités de mathématiques à l'école ?",
-                    "nl": "Vindt u het leuk om rekenactiviteiten op school te doen?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Do you enjoy doing math activities at school?",
-                    "es": "¿Te gusta hacer actividades de matemáticas en el colegio?",
-                    "de": "Hast du Spaß am Fach Mathe?",
-                    "fr": "Aimez-vous faire des activités de mathématiques à l'école ?",
-                    "nl": "Vindt u het leuk om rekenactiviteiten op school te doen?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Do you enjoy doing math activities at school?",
-                    "es": "¿Te gusta hacer actividades de matemáticas en el colegio?",
-                    "de": "Hast du Spaß am Fach Mathe?",
-                    "fr": "Aimez-vous faire des activités de mathématiques à l'école ?",
-                    "nl": "Vindt u het leuk om rekenactiviteiten op school te doen?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -993,41 +993,41 @@
                 {
                   "value": "0",
                   "text": {
-                    "default": "Are you good at reading?",
-                    "es": "¿Eres bueno o buena para la lectura?",
-                    "de": "Bist du gut im Lesen?",
-                    "fr": "Êtes-vous bon en lecture ?",
-                    "nl": "Ben je goed in lezen?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Are you good at reading?",
-                    "es": "¿Eres bueno o buena para la lectura?",
-                    "de": "Bist du gut im Lesen?",
-                    "fr": "Êtes-vous bon en lecture ?",
-                    "nl": "Ben je goed in lezen?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Are you good at reading?",
-                    "es": "¿Eres bueno o buena para la lectura?",
-                    "de": "Bist du gut im Lesen?",
-                    "fr": "Êtes-vous bon en lecture ?",
-                    "nl": "Ben je goed in lezen?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Are you good at reading?",
-                    "es": "¿Eres bueno o buena para la lectura?",
-                    "de": "Bist du gut im Lesen?",
-                    "fr": "Êtes-vous bon en lecture ?",
-                    "nl": "Ben je goed in lezen?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -1040,47 +1040,47 @@
                 "es": "¿Eres bueno o buena para las matemáticas?",
                 "de": "Bist du gut in Mathe?",
                 "fr": "Êtes-vous bon en maths ?",
-                "nl": "Ben jij goed in wiskunde?"
+                "nl": "Ben je goed in wiskunde?"
               },
               "choices": [
                 {
                   "value": "0",
                   "text": {
-                    "default": "Are you good at math?",
-                    "es": "¿Eres bueno o buena para las matemáticas?",
-                    "de": "Bist du gut in Mathe?",
-                    "fr": "Êtes-vous bon en maths ?",
-                    "nl": "Ben jij goed in wiskunde?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Are you good at math?",
-                    "es": "¿Eres bueno o buena para las matemáticas?",
-                    "de": "Bist du gut in Mathe?",
-                    "fr": "Êtes-vous bon en maths ?",
-                    "nl": "Ben jij goed in wiskunde?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Are you good at math?",
-                    "es": "¿Eres bueno o buena para las matemáticas?",
-                    "de": "Bist du gut in Mathe?",
-                    "fr": "Êtes-vous bon en maths ?",
-                    "nl": "Ben jij goed in wiskunde?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Are you good at math?",
-                    "es": "¿Eres bueno o buena para las matemáticas?",
-                    "de": "Bist du gut in Mathe?",
-                    "fr": "Êtes-vous bon en maths ?",
-                    "nl": "Ben jij goed in wiskunde?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -1093,47 +1093,47 @@
                 "es": "Algunos niños y niñas piensan que pueden ser más inteligentes si se esfuerzan mucho. ¿Crees que tú puedes ser más inteligente si te esfuerzas mucho?",
                 "de": "Manche Kinder glauben, dass sie schlauer werden können, wenn sie sich anstrengen. Bist du auch der Meinung, dass du schlauer werden kannst, wenn du dich anstrengst?",
                 "fr": "Certains enfants pensent qu'ils peuvent devenir plus intelligents s'ils travaillent très dur. Pensez-vous que vous pouvez devenir plus intelligent si vous travaillez très dur ?",
-                "nl": "Sommige kinderen denken dat ze slimmer kunnen worden als ze heel hard werken. Denk jij dat je slimmer kunt worden als je heel hard werkt?"
+                "nl": "Sommige kinderen denken dat ze slimmer kunnen worden als ze heel hard werken. Denk je dat je slimmer kunt worden als je heel hard werkt?"
               },
               "choices": [
                 {
                   "value": "0",
                   "text": {
-                    "default": "Some kids think they can get smarter if they work really hard. Do you think that you can get smarter if you work really hard?",
-                    "es": "Algunos niños y niñas piensan que pueden ser más inteligentes si se esfuerzan mucho. ¿Crees que tú puedes ser más inteligente si te esfuerzas mucho?",
-                    "de": "Manche Kinder glauben, dass sie schlauer werden können, wenn sie sich anstrengen. Bist du auch der Meinung, dass du schlauer werden kannst, wenn du dich anstrengst?",
-                    "fr": "Certains enfants pensent qu'ils peuvent devenir plus intelligents s'ils travaillent très dur. Pensez-vous que vous pouvez devenir plus intelligent si vous travaillez très dur ?",
-                    "nl": "Sommige kinderen denken dat ze slimmer kunnen worden als ze heel hard werken. Denk jij dat je slimmer kunt worden als je heel hard werkt?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Some kids think they can get smarter if they work really hard. Do you think that you can get smarter if you work really hard?",
-                    "es": "Algunos niños y niñas piensan que pueden ser más inteligentes si se esfuerzan mucho. ¿Crees que tú puedes ser más inteligente si te esfuerzas mucho?",
-                    "de": "Manche Kinder glauben, dass sie schlauer werden können, wenn sie sich anstrengen. Bist du auch der Meinung, dass du schlauer werden kannst, wenn du dich anstrengst?",
-                    "fr": "Certains enfants pensent qu'ils peuvent devenir plus intelligents s'ils travaillent très dur. Pensez-vous que vous pouvez devenir plus intelligent si vous travaillez très dur ?",
-                    "nl": "Sommige kinderen denken dat ze slimmer kunnen worden als ze heel hard werken. Denk jij dat je slimmer kunt worden als je heel hard werkt?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Some kids think they can get smarter if they work really hard. Do you think that you can get smarter if you work really hard?",
-                    "es": "Algunos niños y niñas piensan que pueden ser más inteligentes si se esfuerzan mucho. ¿Crees que tú puedes ser más inteligente si te esfuerzas mucho?",
-                    "de": "Manche Kinder glauben, dass sie schlauer werden können, wenn sie sich anstrengen. Bist du auch der Meinung, dass du schlauer werden kannst, wenn du dich anstrengst?",
-                    "fr": "Certains enfants pensent qu'ils peuvent devenir plus intelligents s'ils travaillent très dur. Pensez-vous que vous pouvez devenir plus intelligent si vous travaillez très dur ?",
-                    "nl": "Sommige kinderen denken dat ze slimmer kunnen worden als ze heel hard werken. Denk jij dat je slimmer kunt worden als je heel hard werkt?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Some kids think they can get smarter if they work really hard. Do you think that you can get smarter if you work really hard?",
-                    "es": "Algunos niños y niñas piensan que pueden ser más inteligentes si se esfuerzan mucho. ¿Crees que tú puedes ser más inteligente si te esfuerzas mucho?",
-                    "de": "Manche Kinder glauben, dass sie schlauer werden können, wenn sie sich anstrengen. Bist du auch der Meinung, dass du schlauer werden kannst, wenn du dich anstrengst?",
-                    "fr": "Certains enfants pensent qu'ils peuvent devenir plus intelligents s'ils travaillent très dur. Pensez-vous que vous pouvez devenir plus intelligent si vous travaillez très dur ?",
-                    "nl": "Sommige kinderen denken dat ze slimmer kunnen worden als ze heel hard werken. Denk jij dat je slimmer kunt worden als je heel hard werkt?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -1146,47 +1146,47 @@
                 "es": "Algunos niños y niñas creen que pueden mejorar en lectura si se esfuerzan mucho. ¿Crees que tú puedes mejorar en lectura si te esfuerzas mucho?",
                 "de": "Manche Kinder glauben, dass sie besser lesen können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass du besser lesen kannst, wenn du dich richtig anstrengst?",
                 "fr": "Certains enfants pensent qu'ils peuvent s'améliorer en lecture s'ils travaillent très dur. Pensez-vous que vous pouvez vous améliorer en lecture si vous travaillez très dur ?",
-                "nl": "Sommige kinderen denken dat ze beter kunnen worden in lezen als ze heel hard werken. Denk jij dat je beter kunt worden in lezen als je heel hard werkt?"
+                "nl": "Sommige kinderen denken dat ze beter kunnen worden in lezen als ze heel hard werken. Denk je dat je beter kunt worden in lezen als je heel hard werkt?"
               },
               "choices": [
                 {
                   "value": "0",
                   "text": {
-                    "default": "Some kids think they can get better at reading if they work really hard. Do you think that you can get better at reading if you work really hard?",
-                    "es": "Algunos niños y niñas creen que pueden mejorar en lectura si se esfuerzan mucho. ¿Crees que tú puedes mejorar en lectura si te esfuerzas mucho?",
-                    "de": "Manche Kinder glauben, dass sie besser lesen können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass du besser lesen kannst, wenn du dich richtig anstrengst?",
-                    "fr": "Certains enfants pensent qu'ils peuvent s'améliorer en lecture s'ils travaillent très dur. Pensez-vous que vous pouvez vous améliorer en lecture si vous travaillez très dur ?",
-                    "nl": "Sommige kinderen denken dat ze beter kunnen worden in lezen als ze heel hard werken. Denk jij dat je beter kunt worden in lezen als je heel hard werkt?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Some kids think they can get better at reading if they work really hard. Do you think that you can get better at reading if you work really hard?",
-                    "es": "Algunos niños y niñas creen que pueden mejorar en lectura si se esfuerzan mucho. ¿Crees que tú puedes mejorar en lectura si te esfuerzas mucho?",
-                    "de": "Manche Kinder glauben, dass sie besser lesen können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass du besser lesen kannst, wenn du dich richtig anstrengst?",
-                    "fr": "Certains enfants pensent qu'ils peuvent s'améliorer en lecture s'ils travaillent très dur. Pensez-vous que vous pouvez vous améliorer en lecture si vous travaillez très dur ?",
-                    "nl": "Sommige kinderen denken dat ze beter kunnen worden in lezen als ze heel hard werken. Denk jij dat je beter kunt worden in lezen als je heel hard werkt?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Some kids think they can get better at reading if they work really hard. Do you think that you can get better at reading if you work really hard?",
-                    "es": "Algunos niños y niñas creen que pueden mejorar en lectura si se esfuerzan mucho. ¿Crees que tú puedes mejorar en lectura si te esfuerzas mucho?",
-                    "de": "Manche Kinder glauben, dass sie besser lesen können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass du besser lesen kannst, wenn du dich richtig anstrengst?",
-                    "fr": "Certains enfants pensent qu'ils peuvent s'améliorer en lecture s'ils travaillent très dur. Pensez-vous que vous pouvez vous améliorer en lecture si vous travaillez très dur ?",
-                    "nl": "Sommige kinderen denken dat ze beter kunnen worden in lezen als ze heel hard werken. Denk jij dat je beter kunt worden in lezen als je heel hard werkt?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Some kids think they can get better at reading if they work really hard. Do you think that you can get better at reading if you work really hard?",
-                    "es": "Algunos niños y niñas creen que pueden mejorar en lectura si se esfuerzan mucho. ¿Crees que tú puedes mejorar en lectura si te esfuerzas mucho?",
-                    "de": "Manche Kinder glauben, dass sie besser lesen können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass du besser lesen kannst, wenn du dich richtig anstrengst?",
-                    "fr": "Certains enfants pensent qu'ils peuvent s'améliorer en lecture s'ils travaillent très dur. Pensez-vous que vous pouvez vous améliorer en lecture si vous travaillez très dur ?",
-                    "nl": "Sommige kinderen denken dat ze beter kunnen worden in lezen als ze heel hard werken. Denk jij dat je beter kunt worden in lezen als je heel hard werkt?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
@@ -1197,49 +1197,49 @@
               "title": {
                 "default": "Some kids think they can get better at math if they work really hard. Do you think that you can get better at math if you work really hard?",
                 "es": "Algunos niños y niñas creen que pueden mejorar en matemáticas si se esfuerzan mucho. ¿Crees que tú puedes mejorar en matemáticas si te esfuerzas mucho?",
-                "de": "Manche Kinder glauben, dass sie in Mathematik besser werden können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass man in Mathe besser wird, wenn man sich richtig anstrengt?",
+                "de": "Manche Kinder glauben, dass sie in Mathe besser werden können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass man in Mathe besser wird, wenn man sich richtig anstrengt?",
                 "fr": "Certains enfants pensent qu'ils peuvent s'améliorer en maths s'ils travaillent très dur. Pensez-vous que vous pouvez vous améliorer en maths si vous travaillez très dur ?",
-                "nl": "Sommige kinderen denken dat ze beter worden in wiskunde als ze heel hard werken. Denk jij dat je beter wordt in wiskunde als je heel hard werkt?"
+                "nl": "Sommige kinderen denken dat ze beter kunnen worden in wiskunde als ze heel hard werken. Denk je dat je beter kunt worden in wiskunde als je heel hard werkt?"
               },
               "choices": [
                 {
                   "value": "0",
                   "text": {
-                    "default": "Some kids think they can get better at math if they work really hard. Do you think that you can get better at math if you work really hard?",
-                    "es": "Algunos niños y niñas creen que pueden mejorar en matemáticas si se esfuerzan mucho. ¿Crees que tú puedes mejorar en matemáticas si te esfuerzas mucho?",
-                    "de": "Manche Kinder glauben, dass sie in Mathematik besser werden können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass man in Mathe besser wird, wenn man sich richtig anstrengt?",
-                    "fr": "Certains enfants pensent qu'ils peuvent s'améliorer en maths s'ils travaillent très dur. Pensez-vous que vous pouvez vous améliorer en maths si vous travaillez très dur ?",
-                    "nl": "Sommige kinderen denken dat ze beter worden in wiskunde als ze heel hard werken. Denk jij dat je beter wordt in wiskunde als je heel hard werkt?"
+                    "default": "No, never",
+                    "es": "No, nunca",
+                    "de": "Nein, nie",
+                    "fr": "Non, jamais",
+                    "nl": "Nee, nooit"
                   }
                 },
                 {
                   "value": "1",
                   "text": {
-                    "default": "Some kids think they can get better at math if they work really hard. Do you think that you can get better at math if you work really hard?",
-                    "es": "Algunos niños y niñas creen que pueden mejorar en matemáticas si se esfuerzan mucho. ¿Crees que tú puedes mejorar en matemáticas si te esfuerzas mucho?",
-                    "de": "Manche Kinder glauben, dass sie in Mathematik besser werden können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass man in Mathe besser wird, wenn man sich richtig anstrengt?",
-                    "fr": "Certains enfants pensent qu'ils peuvent s'améliorer en maths s'ils travaillent très dur. Pensez-vous que vous pouvez vous améliorer en maths si vous travaillez très dur ?",
-                    "nl": "Sommige kinderen denken dat ze beter worden in wiskunde als ze heel hard werken. Denk jij dat je beter wordt in wiskunde als je heel hard werkt?"
+                    "default": "Yes, some of the time",
+                    "es": "Sí, algunas veces",
+                    "de": "Ja, manchmal",
+                    "fr": "Oui, parfois",
+                    "nl": "Ja, een deel van de tijd"
                   }
                 },
                 {
                   "value": "2",
                   "text": {
-                    "default": "Some kids think they can get better at math if they work really hard. Do you think that you can get better at math if you work really hard?",
-                    "es": "Algunos niños y niñas creen que pueden mejorar en matemáticas si se esfuerzan mucho. ¿Crees que tú puedes mejorar en matemáticas si te esfuerzas mucho?",
-                    "de": "Manche Kinder glauben, dass sie in Mathematik besser werden können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass man in Mathe besser wird, wenn man sich richtig anstrengt?",
-                    "fr": "Certains enfants pensent qu'ils peuvent s'améliorer en maths s'ils travaillent très dur. Pensez-vous que vous pouvez vous améliorer en maths si vous travaillez très dur ?",
-                    "nl": "Sommige kinderen denken dat ze beter worden in wiskunde als ze heel hard werken. Denk jij dat je beter wordt in wiskunde als je heel hard werkt?"
+                    "default": "Yes, most of the time",
+                    "es": "Sí, muchas veces",
+                    "de": "Ja, meistens",
+                    "fr": "Oui, la plupart du temps",
+                    "nl": "Ja, het grootste deel van de tijd"
                   }
                 },
                 {
                   "value": "3",
                   "text": {
-                    "default": "Some kids think they can get better at math if they work really hard. Do you think that you can get better at math if you work really hard?",
-                    "es": "Algunos niños y niñas creen que pueden mejorar en matemáticas si se esfuerzan mucho. ¿Crees que tú puedes mejorar en matemáticas si te esfuerzas mucho?",
-                    "de": "Manche Kinder glauben, dass sie in Mathematik besser werden können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass man in Mathe besser wird, wenn man sich richtig anstrengt?",
-                    "fr": "Certains enfants pensent qu'ils peuvent s'améliorer en maths s'ils travaillent très dur. Pensez-vous que vous pouvez vous améliorer en maths si vous travaillez très dur ?",
-                    "nl": "Sommige kinderen denken dat ze beter worden in wiskunde als ze heel hard werken. Denk jij dat je beter wordt in wiskunde als je heel hard werkt?"
+                    "default": "Yes, always",
+                    "es": "Sí, siempre",
+                    "de": "Ja, immer",
+                    "fr": "Oui, toujours",
+                    "nl": "Ja, altijd"
                   }
                 }
               ]
