@@ -277,6 +277,8 @@ unset VITE_FIREBASE_PROJECT
 
 ### **4. Supported Languages**
 
+Language configuration is centralized in [`src/constants/languages.js`](./src/constants/languages.js) for consistency across all scripts and components.
+
 | Language | Code | CSV Column | JSON Property |
 |----------|------|------------|---------------|
 | English | `en` | `en` | `default` |
@@ -284,6 +286,13 @@ unset VITE_FIREBASE_PROJECT
 | German | `de` | `de` | `de` |
 | French | `fr` | `fr-CA` | `fr` |
 | Dutch | `nl` | `nl` | `nl` |
+
+#### **Adding New Languages**
+To add support for a new language:
+1. Update `SUPPORTED_LANGUAGES` array in `src/constants/languages.js`
+2. Add language metadata to `LANGUAGE_INFO` object
+3. Update mapping objects (`CSV_TO_JSON_MAPPING`, etc.)
+4. All scripts will automatically use the new language configuration
 
 ### **5. Translation Statistics**
 

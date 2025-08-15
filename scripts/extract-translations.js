@@ -14,24 +14,18 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import {
+  SUPPORTED_LANGUAGES,
+  JSON_LANGUAGE_MAPPING,
+  JSON_TO_CSV_MAPPING,
+  isValidJsonLanguageKey,
+  jsonKeyToCsvColumn
+} from '../src/constants/languages.js'
 
 // Get current directory
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const projectRoot = path.resolve(__dirname, '..')
-
-// Supported languages (order matters for CSV columns)
-const SUPPORTED_LANGUAGES = ['en', 'es', 'de', 'fr', 'nl']
-
-// Language mapping (some surveys use 'default' instead of 'en')
-const LANGUAGE_MAPPING = {
-  'default': 'en',
-  'en': 'en',
-  'es': 'es',
-  'de': 'de',
-  'fr': 'fr',
-  'nl': 'nl'
-}
 
 /**
  * Check if an object contains multilingual text
@@ -43,7 +37,7 @@ function isMultilingualObject(obj) {
 
   // Check if it has language keys
   const keys = Object.keys(obj)
-  return keys.some(key => Object.keys(LANGUAGE_MAPPING).includes(key))
+  return keys.some(key => isValidJsonLanguageKey(key))
 }
 
 /**
@@ -59,8 +53,8 @@ function extractTextFromMultilingualObject(obj) {
 
   // Extract text for each available language
   for (const [key, value] of Object.entries(obj)) {
-    if (LANGUAGE_MAPPING[key]) {
-      const targetLanguage = LANGUAGE_MAPPING[key]
+    if (isValidJsonLanguageKey(key)) {
+      const targetLanguage = JSON_LANGUAGE_MAPPING[key]
       if (SUPPORTED_LANGUAGES.includes(targetLanguage)) {
         result[targetLanguage] = String(value || '').trim()
       }

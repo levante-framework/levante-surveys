@@ -15,6 +15,10 @@ import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import axios from 'axios'
+import {
+  CSV_TO_JSON_MAPPING,
+  isValidJsonLanguageKey
+} from '../src/constants/languages.js'
 
 // Get current directory
 const __filename = fileURLToPath(import.meta.url)
@@ -23,15 +27,6 @@ const projectRoot = path.resolve(__dirname, '..')
 
 // GitHub CSV URL for translations
 const TRANSLATED_TEXT_URL = "https://raw.githubusercontent.com/levante-framework/levante_translations/l10n_pending/text/translated_prompts.csv"
-
-// Supported languages mapping (GitHub CSV format to survey JSON format)
-const LANGUAGE_MAPPING = {
-  'en': 'default', // Map en back to default for JSON
-  'es-CO': 'es',   // GitHub uses es-CO, surveys use es
-  'de': 'de',
-  'fr-CA': 'fr',   // GitHub uses fr-CA, surveys use fr
-  'nl': 'nl'
-}
 
 /**
  * Parse CSV content into an array of objects
@@ -107,8 +102,7 @@ function isMultilingualObject(obj) {
   }
 
   const keys = Object.keys(obj)
-  const multilingualKeys = ['default', 'en', 'es', 'de', 'fr', 'nl']
-  return keys.some(key => multilingualKeys.includes(key))
+  return keys.some(key => isValidJsonLanguageKey(key))
 }
 
 /**
@@ -129,7 +123,7 @@ function updateMultilingualTexts(obj, translationsMap, elementName = '', results
       const translation = matchingTranslations[0]
 
       // Update each language if translation exists
-      for (const [csvLang, jsonLang] of Object.entries(LANGUAGE_MAPPING)) {
+      for (const [csvLang, jsonLang] of Object.entries(CSV_TO_JSON_MAPPING)) {
         if (translation[csvLang] && translation[csvLang].trim()) {
           obj[jsonLang] = translation[csvLang].trim()
         }

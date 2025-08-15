@@ -4,6 +4,10 @@ import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import puppeteer from 'puppeteer'
+import {
+  isValidJsonLanguageKey,
+  getLanguageDisplayName
+} from '../src/constants/languages.js'
 
 // Get current directory
 const __filename = fileURLToPath(import.meta.url)
@@ -24,6 +28,7 @@ function extractText(obj, language = 'default') {
     return obj;
   }
   if (typeof obj === 'object' && obj !== null) {
+    // Try the requested language first, then fallback to common languages
     return obj[language] || obj.default || obj.en || Object.values(obj)[0] || '';
   }
   return '';

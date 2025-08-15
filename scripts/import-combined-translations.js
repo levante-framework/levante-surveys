@@ -16,6 +16,11 @@ import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import { Storage } from '@google-cloud/storage'
+import {
+  CSV_TO_JSON_MAPPING,
+  isValidJsonLanguageKey,
+  isValidCsvLanguageColumn
+} from '../src/constants/languages.js'
 
 // Get current directory
 const __filename = fileURLToPath(import.meta.url)
@@ -24,15 +29,6 @@ const projectRoot = path.resolve(__dirname, '..')
 
 // Google Cloud Storage configuration
 const BUCKET_NAME = 'levante-dashboard-dev'
-
-// Supported languages mapping (CSV format to survey JSON format)
-const LANGUAGE_MAPPING = {
-  'en': 'default', // Map en back to default for JSON
-  'es-CO': 'es',   // CSV uses es-CO, surveys use es
-  'de': 'de',
-  'fr-CA': 'fr',   // CSV uses fr-CA, surveys use fr
-  'nl': 'nl'
-}
 
 // Survey file mapping
 const SURVEY_FILES = {
@@ -179,8 +175,7 @@ function isMultilingualObject(obj) {
   }
 
   const keys = Object.keys(obj)
-  const multilingualKeys = ['default', 'en', 'es', 'de', 'fr', 'nl']
-  return keys.some(key => multilingualKeys.includes(key))
+  return keys.some(key => isValidJsonLanguageKey(key))
 }
 
 /**
@@ -247,7 +242,7 @@ function updateMultilingualTexts(obj, translationsMap, elementName = '', results
 
       if (bestMatch) {
         // Update each language if translation exists
-        for (const [csvLang, jsonLang] of Object.entries(LANGUAGE_MAPPING)) {
+        for (const [csvLang, jsonLang] of Object.entries(CSV_TO_JSON_MAPPING)) {
           if (bestMatch[csvLang] && bestMatch[csvLang].trim()) {
             obj[jsonLang] = bestMatch[csvLang].trim()
           }
