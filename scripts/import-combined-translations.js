@@ -23,9 +23,7 @@ const __dirname = path.dirname(__filename)
 const projectRoot = path.resolve(__dirname, '..')
 
 // Google Cloud Storage configuration
-const BUCKET_NAME = process.env.VITE_FIREBASE_PROJECT === 'DEV'
-  ? 'levante-dashboard-dev'
-  : 'road-dashboard'
+const BUCKET_NAME = 'levante-dashboard-dev'
 
 // Supported languages mapping (CSV format to survey JSON format)
 const LANGUAGE_MAPPING = {
@@ -517,7 +515,6 @@ Arguments:
 
 Environment Variables:
   VITE_FIREBASE_PROJECT=DEV    → uploads to levante-dashboard-dev
-  VITE_FIREBASE_PROJECT!=DEV   → uploads to road-dashboard
 
 Supported Surveys: ${Object.keys(SURVEY_FILES).join(', ')}
 CSV Format: identifier,labels,en,es-CO,de,fr-CA,nl,context

@@ -17,6 +17,6 @@ export default defineConfig({
   },
   define: {
     // Set default environment variables if not provided
-    'import.meta.env.VITE_FIREBASE_PROJECT': JSON.stringify(process.env.VITE_FIREBASE_PROJECT || 'road-dashboard')
+    'import.meta.env.VITE_FIREBASE_PROJECT': JSON.stringify(process.env.VITE_FIREBASE_PROJECT)
   }
 })

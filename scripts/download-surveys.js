@@ -16,9 +16,8 @@ const projectRoot = path.resolve(__dirname, '..')
 const surveysDir = path.join(projectRoot, 'surveys')
 
 // Configuration (mirroring src/constants/bucket.ts)
-const LEVANTE_BUCKET_URL = process.env.VITE_FIREBASE_PROJECT === 'DEV'
-  ? 'https://storage.googleapis.com/levante-dashboard-dev'
-  : 'https://storage.googleapis.com/road-dashboard'
+const LEVANTE_BUCKET_URL = process.env.VITE_FIREBASE_PROJECT ==
+  'https://storage.googleapis.com/levante-dashboard-dev'
 
 const SURVEY_FILES = {
   PARENT_FAMILY: 'parent_survey_family.json',

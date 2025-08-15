@@ -22,7 +22,8 @@
     "import-translations:all": "npm run import-translations surveys/child_survey.json && npm run import-translations surveys/parent_survey_family.json && npm run import-translations surveys/parent_survey_child.json && npm run import-translations surveys/teacher_survey_general.json && npm run import-translations surveys/teacher_survey_classroom.json",
     "import-combined": "node scripts/import-combined-translations.js",
     "import-combined:surveys": "node scripts/import-combined-translations.js surveys/surveys.csv",
-    "import-combined:upload": "node scripts/import-combined-translations.js surveys/surveys.csv --upload"
+    "import-combined:upload": "node scripts/import-combined-translations.js surveys/surveys.csv --upload",
+    "generate-pdfs": "node scripts/generate-survey-pdfs.js"
   },
   "dependencies": {
     "@google-cloud/storage": "^7.16.0",
@@ -31,10 +32,11 @@
     "axios": "^1.5.1",
     "lodash": "^4.17.21",
     "pinia": "^3.0.3",
-    "pinia-plugin-persistedstate": "^3.1.0",
+    "pinia-plugin-persistedstate": "^4.0.0",
     "primeflex": "^4.0.0",
     "primeicons": "^7.0.0",
     "primevue": "^4.3.6",
+    "puppeteer": "^24.16.1",
     "survey-core": "^2.0.2",
     "survey-creator-core": "^2.0.2",
     "survey-creator-vue": "^2.0.2",

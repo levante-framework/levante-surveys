@@ -20,12 +20,10 @@ This is a comprehensive TypeScript Vue.js application for managing surveys used 
 **Primary Goals:**
 - Create a standalone survey management application separate from the main levante-dashboard
 - Load existing surveys from Google Cloud Storage (GCS) buckets
-- Provide a visual interface to edit surveys using SurveyJS Creator
-- Allow creation of new surveys from scratch
+- (TBD) Provide a visual interface to edit surveys using SurveyJS Creator
 - Maintain compatibility with the existing survey format used in the main platform
 
 **Core Features:**
-- 📋 **Survey Management**: Visual interface for creating, editing, and managing surveys
 - 🌍 **Translation System**: Complete automated workflow for multilingual deployment
 - ☁️ **Cloud Integration**: Seamless Google Cloud Storage integration
 - 🔍 **Survey Preview**: Real-time preview as respondents would see them
@@ -118,10 +116,7 @@ scripts/
 
 ## Environment Configuration
 
-The app automatically detects the environment and uses the appropriate GCS bucket:
-
 - **Development**: `https://storage.googleapis.com/levante-dashboard-dev`
-- **Production**: `https://storage.googleapis.com/road-dashboard`
 
 Environment detection is based on the `VITE_FIREBASE_PROJECT` environment variable.
 
@@ -279,7 +274,6 @@ unset VITE_FIREBASE_PROJECT
 
 #### **Bucket Configuration**
 - **Development**: `gs://levante-dashboard-dev`
-- **Production**: `gs://road-dashboard`
 
 ### **4. Supported Languages**
 
