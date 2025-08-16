@@ -8,9 +8,11 @@
           "type": "html",
           "name": "CaregiverSurveyIntroB",
           "html": {
-            "default": "<block><b><font face=\"Verdana\" size=\"4\">\nThank you again for participating in this research project!</b><br> <br> <p><font face=\"Verdana\" size=\"4\">The following survey will take approximately 20-30 minutes to complete and will ask questions about your home and yourself.<br><br>We appreciate you answering as completely and accurately as possible with the information you have available to you. If you have questions about this survey, please reach out to the research coordinator. <br><br>When you are ready to begin, select the “start survey” button. <br><br><b><font face=\"Verdana\" size=\"4\">Thank you!",
-            "de": "<block><b><font face=\"Verdana\" size=\"4\">Nochmals vielen Dank für die Teilnahme an diesem Forschungsprojekt! </b><br> <br> <p><font face=\"Verdana\" size=\"4\">Dieser Teil der Umfrage dauert etwa 20-30 Minuten und enthält Fragen zu Ihnen selbst und zu Ihrem häuslichen Umfeld.<br><br>Wir bitten Sie, die Fragen so vollständig und genau wie möglich zu beantworten. Wenn Sie Fragen zu dieser Umfrage haben, wenden Sie sich bitte an die Forschungskoordinatorin (luise_hornoff@eva.mpg.de).<br><br>Wenn Sie bereit sind zu beginnen, klicken Sie auf \"Umfrage starten\".<br><br><b><font face=\"Verdana\" size=\"4\">Vielen Dank!",
-            "es": "<block><b><font face=\"Verdana\" size=\"4\"> ¡Gracias de nuevo por participar en este proyecto de investigación! </b><br> <br> <p><font face=\"Verdana\" size=\"4\">Estimamos que diligenciar la siguiente parte de la encuesta le tomará aproximadamente 20-30 minutos. En esta encuesta se le harán preguntas sobre su hogar y sobre usted mismo(a).<br><br>Le agradecemos que responda la encuesta de la forma más precisa posible con la información que tiene disponible. Si tiene alguna duda, comuníquesela a quien coordina esta aplicación. <br><br>Cuando esté listo(a) para empezar, seleccione el botón \"Comenzar Encuesta\".<br><br><b><font face=\"Verdana\" size=\"4\">¡Muchas gracias!"
+            "default": "<block><b><font face=Verdana size=4>",
+            "de": "<block><b><font face=Verdana size=4>",
+            "es": "<block><b><font face=Verdana size=4>",
+            "fr": "<block><b><font face=Verdana size=4>",
+            "nl": "<block><b><font face=Verdana size=4>"
           }
         }
       ]
@@ -551,7 +553,7 @@
                   "value": "1",
                   "text": {
                     "default": "Somewhat Untrue",
-                    "es": "Algo falso",
+                    "es": "Totalmente falso",
                     "de": "Eher unwahr",
                     "fr": "Plutôt faux",
                     "nl": "Enigszins onwaar"
@@ -1247,7 +1249,7 @@
           "title": {
             "default": "Please select Yes or No to indicate whether each event has happened to you <b>in the past year</b>.",
             "es": "Indique con Sí o No si le ha sucedido alguna de las siguientes cosas <b>en el último año</b>.",
-            "de": "Bitte wählen Sie \"Ja\" oder\"Nein\", um anzugeben, ob Ihnen das jeweilige Ereignis im vergangenen Jahr widerfahren ist.",
+            "de": "Bitte wählen Sie \"Ja\" oder \"Nein\", um anzugeben, ob Ihnen das jeweilige Ereignis im vergangenen Jahr widerfahren ist.",
             "fr": "Veuillez sélectionner Oui ou Non pour indiquer si chaque événement vous est arrivé <b>l'année passée</b>.",
             "nl": "Selecteer Ja of Nee om aan te geven of elk evenement u is overkomen <b>in het afgelopen jaar</b>."
           },
@@ -2659,7 +2661,7 @@
                   "title": {
                     "default": "Change of school or college.",
                     "es": "Cambio de colegio o universidad.",
-                    "de": "Schul- oder Hochschulwechsel",
+                    "de": "Schul- oder Hochschulwechsel.",
                     "fr": "Changement d'école ou d'université.",
                     "nl": "Verandering van school of opleiding."
                   },

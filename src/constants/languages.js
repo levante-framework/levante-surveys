@@ -11,41 +11,60 @@
  * Supported languages in order of preference
  * Order matters for CSV column generation
  */
-export const SUPPORTED_LANGUAGES = ['en', 'es', 'de', 'fr', 'nl']
+export const SUPPORTED_LANGUAGES = [
+ 'en',
+ 'es',
+ 'de',
+ 'fr',
+ 'nl',
+ 'it',
+ 'pt' ]
 
 /**
  * Language metadata with display names and regional variants
  */
 export const LANGUAGE_INFO = {
-  en: {
-    name: 'English',
-    nativeName: 'English',
-    region: 'US',
-    rtl: false
+  "en": {
+   "name": "English",
+   "nativeName": "English",
+   "region": "US",
+   "rtl": false
   },
-  es: {
-    name: 'Spanish',
-    nativeName: 'Español',
-    region: 'CO',
-    rtl: false
+  "es": {
+   "name": "Spanish",
+   "nativeName": "Español",
+   "region": "ES",
+   "rtl": false
   },
-  de: {
-    name: 'German',
-    nativeName: 'Deutsch',
-    region: 'DE',
-    rtl: false
+  "de": {
+   "name": "German",
+   "nativeName": "Deutsch",
+   "region": "DE",
+   "rtl": false
   },
-  fr: {
-    name: 'French',
-    nativeName: 'Français',
-    region: 'CA',
-    rtl: false
+  "fr": {
+   "name": "French",
+   "nativeName": "Français",
+   "region": "FR",
+   "rtl": false
   },
-  nl: {
-    name: 'Dutch',
-    nativeName: 'Nederlands',
-    region: 'NL',
-    rtl: false
+  "nl": {
+   "name": "Dutch",
+   "nativeName": "Nederlands",
+   "region": "NL",
+   "rtl": false
+  },
+  "it": {
+   "name": "Italian",
+   "nativeName": "Italiano",
+   "region": "IT",
+   "rtl": false
+  },
+  "pt": {
+   "name": "Portuguese",
+   "nativeName": "Português",
+   "region": "PT",
+   "rtl": false
   }
 }
 
@@ -68,11 +87,23 @@ export const JSON_LANGUAGE_MAPPING = {
  * Maps CSV column names to survey JSON property names
  */
 export const CSV_TO_JSON_MAPPING = {
-  'en': 'default',     // CSV 'en' → JSON 'default'
-  'es-CO': 'es',       // CSV 'es-CO' → JSON 'es'
-  'de': 'de',          // CSV 'de' → JSON 'de'
-  'fr-CA': 'fr',       // CSV 'fr-CA' → JSON 'fr'
-  'nl': 'nl'           // CSV 'nl' → JSON 'nl'
+  "en": "default",
+  "en-GB": "default",
+  "en-GH": "default",
+  "es-CO": "es",
+  "es-AR": "es",
+  "es-ES": "es",
+  "de": "de",
+  "de-CH": "de",
+  "de-AT": "de",
+  "fr-CA": "fr",
+  "fr-FR": "fr",
+  "nl": "nl",
+  "nl-NL": "nl",
+  "es": "es",
+  "fr": "fr",
+  "it": "it",
+  "pt": "pt"
 }
 
 /**
@@ -80,12 +111,14 @@ export const CSV_TO_JSON_MAPPING = {
  * Maps survey JSON property names to CSV column names
  */
 export const JSON_TO_CSV_MAPPING = {
-  'default': 'en',     // JSON 'default' → CSV 'en'
-  'en': 'en',          // JSON 'en' → CSV 'en'
-  'es': 'es-CO',       // JSON 'es' → CSV 'es-CO'
-  'de': 'de',          // JSON 'de' → CSV 'de'
-  'fr': 'fr-CA',       // JSON 'fr' → CSV 'fr-CA'
-  'nl': 'nl'           // JSON 'nl' → CSV 'nl'
+ "default": "en",
+ "en": "en",
+ "es": "es",
+ "de": "de",
+ "fr": "fr",
+ "nl": "nl",
+ "it": "it",
+ "pt": "pt"
 }
 
 /**

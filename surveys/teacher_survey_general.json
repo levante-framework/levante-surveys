@@ -8,8 +8,8 @@
           "type": "html",
           "name": "TeacherSurveyIntro",
           "html": {
-            "default": "<b><font face=\"Verdana\" size=\"4\">Thank you for taking the time (~10 minutes) to respond to this survey!</b><br> <br> <p><font face=\"Verdana\" size=\"4\">Some students who you teach are participating in a research project studying how children learn and develop. Your responses in this survey should apply to your classroom, school, and professional beliefs rather than to any one specific child. <br><br><b><font face=\"Verdana\" size=\"4\">This survey has two parts: Part A and Part B.</b><br> <br> <p><font face=\"Verdana\" size=\"4\">In Part A, the questions relate to your background and beliefs. <br><br>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>Thank you for your participation! Your responses provide invaluable insight into the education of your students. <br><br>When you are ready to begin, select the “Start Survey” button. <br><br><b><font face=\"Verdana\" size=\"4\">Thank you!",
-            "es": "<b><font face=\"Verdana\" size=\"4\">¡Gracias por dedicarnos unos minutos de su tiempo (aproximadamente 10 minutos) para responder esta encuesta!</b><br> <br> <p><font face=\"Verdana\" size=\"4\">Algunos de sus alumnos están participando en un proyecto de investigación que estudia cómo aprenden y se desarrollan los niños. Por favor conteste esta encuesta pensando para sus respuestas en su salón, colegio y creencias profesionales, pero no en un niño(a) en particular.<br><br><b><font face=\"Verdana\" size=\"4\">Esta encuesta consta de dos partes: Parte A y Parte B.</b><br> <br> <p><font face=\"Verdana\" size=\"4\">En la Parte A las preguntas indagan por sus antecedentes y creencias.<br><br>En la Parte B, las preguntas indagan por un aula en concreto. Si imparte clases a más de un grupo, responda a las preguntas considerando los salones en los que imparte clases en donde hay alumnos que participan en este proyecto. <br><br>Si enseña una sola asignatura, responda las preguntas relacionadas con otras asignaturas con la información que tenga disponible o consulte a un colega solo para indagar por esos detalles.<br><br>Gracias por su participación. Sus respuestas proporcionan una valiosa información sobre la educación de sus alumnos.<br><br>Cuando desee empezar, seleccione el botón \"Comenzar Encuesta\".<br><br><b><font face=\"Verdana\" size=\"4\">¡Gracias!"
+            "default": "<b><font face=Verdana size=4>Thank you for taking the time (~10 minutes) to respond to this survey!</b><br> <br> <p><font face=Verdana size=4>Some students who you teach are participating in a research project studying how children learn and develop. Your responses in this survey should apply to your classroom, school, and professional beliefs rather than to any one specific child. <br><br><b><font face=Verdana size=4>This survey has two parts: Part A and Part B.</b><br> <br> <p><font face=Verdana size=4>In Part A, the questions relate to your background and beliefs. <br><br>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>Thank you for your participation! Your responses provide invaluable insight into the education of your students. <br><br>When you are ready to begin, select the “Start Survey” button. <br><br><b><font face=Verdana size=4>Thank you!",
+            "es": "<b><font face=Verdana size=4>¡Gracias por dedicarnos unos minutos de su tiempo (aproximadamente 10 minutos) para responder esta encuesta!</b><br> <br> <p><font face=Verdana size=4>Algunos de sus alumnos están participando en un proyecto de investigación que estudia cómo aprenden y se desarrollan los niños. Por favor conteste esta encuesta pensando para sus respuestas en su salón, colegio y creencias profesionales, pero no en un niño(a) en particular.<br><br><b><font face=Verdana size=4>Esta encuesta consta de dos partes: Parte A y Parte B.</b><br> <br> <p><font face=Verdana size=4>En la Parte A las preguntas indagan por sus antecedentes y creencias.<br><br>En la Parte B, las preguntas indagan por un aula en concreto. Si imparte clases a más de un grupo, responda a las preguntas considerando los salones en los que imparte clases en donde hay alumnos que participan en este proyecto. <br><br>Si enseña una sola asignatura, responda las preguntas relacionadas con otras asignaturas con la información que tenga disponible o consulte a un colega solo para indagar por esos detalles.<br><br>Gracias por su participación. Sus respuestas proporcionan una valiosa información sobre la educación de sus alumnos.<br><br>Cuando desee empezar, seleccione el botón Comenzar Encuesta.<br><br><b><font face=Verdana size=4>¡Gracias!"
           }
         }
       ]
@@ -21,8 +21,8 @@
           "type": "html",
           "name": "TeacherIntroPartA",
           "html": {
-            "default": "<b><font face=\"Verdana\" size=\"3\">PART A: </b><font face=\"Verdana\" size=\"3\">The following questions ask about your background, the school where you teach, your feelings about your job, and your beliefs about teaching and children.",
-            "es": "<b><font face=\"Verdana\" size=\"3\">PARTE A: </b><font face=\"Verdana\" size=\"3\">Las siguientes preguntas se refieren a sus antecedentes, el colegio en el que enseña, lo que piensa de su trabajo y sus creencias sobre la enseñanza y la niñez."
+            "default": "<b><font face=Verdana size=3>PART A: </b><font face=Verdana size=3>The following questions ask about your background, the school where you teach, your feelings about your job, and your beliefs about teaching and children.",
+            "es": "<b><font face=Verdana size=3>PARTE A: </b><font face=Verdana size=3>Las siguientes preguntas se refieren a sus antecedentes, el colegio en el que enseña, lo que piensa de su trabajo y sus creencias sobre la enseñanza y la niñez."
           }
         },
         {
@@ -66,13 +66,13 @@
                 {
                   "value": "Male",
                   "text": {
-                    "es": "Masculino"
+                    "es": "Femenino"
                   }
                 },
                 {
                   "value": "Nonbinary",
                   "text": {
-                    "es": "No binario"
+                    "es": "Femenino"
                   }
                 }
               ],
@@ -429,7 +429,7 @@
           "type": "panel",
           "name": "TeacherSchool",
           "title": {
-            "default": "<b>This set of questions asks about the school where you currently teach.</b> ",
+            "default": "<b>This set of questions asks about the school where you currently teach.</b>",
             "es": "<b>Este grupo de preguntas indaga por el colegio en el que enseña actualmente.</b>"
           },
           "elements": [
@@ -521,14 +521,14 @@
                   "value": "TeacherClimate5",
                   "text": {
                     "default": "Students are safe when here at this school.",
-                    "es": "Los alumnos están seguros cuando están en este colegio. "
+                    "es": "Los alumnos están seguros cuando están en este colegio."
                   }
                 },
                 {
                   "value": "TeacherClimate6",
                   "text": {
                     "default": "Staff are safe when here at this school.",
-                    "es": "El personal está seguro cuando está en este colegio. "
+                    "es": "El personal está seguro cuando está en este colegio."
                   }
                 },
                 {
@@ -678,7 +678,7 @@
                   "value": "TeacherFeelJob7",
                   "text": {
                     "default": "I feel I'm positively influencing other people's lives through my work.",
-                    "es": "Siento que a través de mi trabajo influyo positivamente en la vida de otras personas. "
+                    "es": "Siento que a través de mi trabajo influyo positivamente en la vida de otras personas."
                   }
                 },
                 {
@@ -713,7 +713,7 @@
                   "value": "TeacherFeelJob14",
                   "text": {
                     "default": "I have accomplished many worthwhile things in this job.",
-                    "es": "En este trabajo he logrado muchas cosas que valen la pena. "
+                    "es": "En este trabajo he logrado muchas cosas que valen la pena."
                   }
                 },
                 {
@@ -738,7 +738,7 @@
           "type": "panel",
           "name": "TeacherBeliefTeach",
           "title": {
-            "default": "<b>This set of questions is designed to help us gain a better understanding of the kinds of things that create difficulties for teachers in their school activities.</b> ",
+            "default": "<b>This set of questions is designed to help us gain a better understanding of the kinds of things that create difficulties for teachers in their school activities.</b>",
             "es": "<b>El siguiente grupo de preguntas está diseñado para ayudarnos a comprender los aspectos que les generan dificultades a los docentes en sus actividades escolares.</b>"
           },
           "elements": [

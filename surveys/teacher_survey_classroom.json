@@ -8,8 +8,8 @@
           "type": "html",
           "name": "TeacherSurveyIntro",
           "html": {
-            "default": "<b><font face=\"Verdana\" size=\"4\">This is Part B of the survey.</b><br> <br> <p><font face=\"Verdana\" size=\"4\">In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>When you are ready to begin, select the “Next” button. <br><br><b><font face=\"Verdana\" size=\"4\">Thank you!",
-            "es": "<b><font face=\"Verdana\" size=\"4\">Esta es la Parte B de la encuesta. </b><br> <br> <p><font face=\"Verdana\" size=\"4\">En esta parte las preguntas son específicas a cada salón. Si usted enseña en más de un salón, debe completar esta parte por cada salón en donde tenga estudiantes participando en el proyecto. <br><br>Si enseña una sola asignatura, debe completar las preguntas que se refieren a otras asignaturas según su saber o consulte con un colega sólo para esos detalles.<br><br>Cuando esté listo para empezar, seleccione el botón \"Siguiente\".<br><br><b><font face=\"Verdana\" size=\"4\"> Muchas gracias."
+            "default": "<b><font face=Verdana size=4>This is Part B of the survey.</b><br> <br> <p><font face=Verdana size=4>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>When you are ready to begin, select the “Next” button. <br><br><b><font face=Verdana size=4>Thank you!",
+            "es": "<b><font face=Verdana size=4>Esta es la Parte B de la encuesta. </b><br> <br> <p><font face=Verdana size=4>En esta parte las preguntas son específicas a cada salón. Si usted enseña en más de un salón, debe completar esta parte por cada salón en donde tenga estudiantes participando en el proyecto. <br><br>Si enseña una sola asignatura, debe completar las preguntas que se refieren a otras asignaturas según su saber o consulte con un colega sólo para esos detalles.<br><br>Cuando esté listo para empezar, seleccione el botón Siguiente.<br><br><b><font face=Verdana size=4> Muchas gracias."
           }
         }
       ]
@@ -401,7 +401,7 @@
             {
               "value": "en",
               "text": {
-                "default": "English ",
+                "default": "English",
                 "es": "Inglés"
               }
             },
@@ -429,7 +429,7 @@
             {
               "value": "es",
               "text": {
-                "default": "Spanish ",
+                "default": "Spanish",
                 "es": "Español"
               }
             },
@@ -559,7 +559,7 @@
             {
               "value": "Daily",
               "text": {
-                "es": "A diario"
+                "es": "Nunca"
               }
             }
           ],

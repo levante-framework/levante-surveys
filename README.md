@@ -58,7 +58,7 @@ This is a comprehensive TypeScript Vue.js application for managing surveys used 
 - [x] **SurveyJS Creator Component** (`src/components/SurveyCreatorComponent.vue`): Wrapper for survey editor
 
 ### ✅ Translation System
-- [x] **Translation Extractor** (`scripts/extract-translations.js`): Converts JSON surveys to CSV format
+- [x] **Survey Extractor** (`scripts/extract-translations.js`): Converts JSON surveys to CSV format
 - [x] **Translation Importer** (`scripts/import-combined-translations.js`): Imports and deploys translations
 - [x] **Cloud Storage Integration**: Automated upload to GCS buckets with proper authentication
 - [x] **Multi-format Support**: Handles individual and combined CSV translation files
@@ -207,11 +207,11 @@ Extract translations from survey JSON files to CSV format for translation teams:
 
 ```bash
 # Extract specific survey
-npm run extract-translations:child
-npm run extract-translations surveys/parent_survey_family.json
+npm run extract-surveys:child
+npm run extract-surveys surveys/parent_survey_family.json
 
 # Extract all surveys to individual CSVs
-npm run extract-translations:all
+npm run extract-surveys:all
 ```
 
 **Output**: Individual CSV files in `surveys/` folder:
@@ -225,28 +225,95 @@ npm run extract-translations:all
 
 Import updated translations back into survey JSON files:
 
-#### **From Individual GitHub CSV** (deprecated)
+### **🚀 End-to-End Survey Deployment Pipeline** (recommended)
+
+**Complete automated workflow from Crowdin CSV files to deployed surveys:**
+
 ```bash
-npm run import-translations:child
-npm run import-translations:all
+# Full deployment to DEV environment (downloads latest CSVs)
+npm run deploy-surveys:dev
+
+# Full deployment to PROD environment  
+npm run deploy-surveys:prod
+
+# Preview changes without deploying
+npm run deploy-surveys:dry-run
+
+# Use existing CSV files (skip download)
+npm run deploy-surveys:skip-download
+
+# Force deployment even with validation warnings
+npm run deploy-surveys:force
 ```
 
-#### **From Combined CSV** (recommended)
+**Pipeline includes:**
+- ✅ **Crowdin CSV download** - Automatically downloads latest translation files from `levante_translations` repo
+- ✅ **CSV validation** - Ensures all required translation files exist
+- ✅ **Language auto-detection** - Automatically configures new languages from Crowdin
+- ✅ **Translation import** - Updates all survey JSON files with latest translations
+- ✅ **Survey validation** - Validates JSON structure and multilingual objects
+- ✅ **Cloud backup** - Automatically backs up existing surveys before deployment
+- ✅ **Cloud deployment** - Uploads updated surveys to Google Cloud Storage
+- ✅ **Post-deployment validation** - Confirms deployed surveys are valid
+- ✅ **Comprehensive reporting** - Detailed success/failure reporting with metrics
+
+#### **Manual Crowdin CSV Download**
+
+Download the latest survey translation files from Crowdin manually:
+
 ```bash
-# Import without uploading to cloud
-npm run import-combined:surveys
+# Download all survey CSV files from l10n_pending branch
+npm run download-crowdin
+
+# Force overwrite existing files
+npm run download-crowdin:force
+
+# Backup existing files before downloading
+npm run download-crowdin:backup
+```
+
+**Source**: `https://github.com/levante-framework/levante_translations/tree/l10n_pending/text/`
+
+#### **From Individual GitHub CSV** (deprecated)
+```bash
+npm run import-surveys:child
+npm run import-surveys:all
+```
+
+#### **From Individual Survey CSV Files** (recommended)
+```bash
+# Import all surveys from individual CSV files
+npm run import-surveys-individual:all
 
 # Import AND upload to Google Cloud Storage  
-npm run import-combined:upload
+npm run import-surveys-individual:upload
+
+# Import specific survey
+npm run import-surveys-individual:child
+npm run import-surveys-individual:parent-family
+npm run import-surveys-individual:parent-child
+npm run import-surveys-individual:teacher-general
+npm run import-surveys-individual:teacher-classroom
+```
+
+#### **From Combined CSV** (legacy)
+```bash
+# Import without uploading to cloud
+npm run import-surveys-combined:legacy
+
+# Import AND upload to Google Cloud Storage  
+npm run import-surveys-combined:upload
 
 # Custom CSV file
-npm run import-combined surveys/my-translations.csv --upload
+npm run import-surveys-combined surveys/my-translations.csv --upload
 ```
 
 **Output**: Updated survey JSON files:
 - `surveys/child_survey_updated.json`
 - `surveys/parent_survey_child_updated.json`
 - `surveys/parent_survey_family_updated.json`
+- `surveys/teacher_survey_general_updated.json`
+- `surveys/teacher_survey_classroom_updated.json`
 
 ### **3. Cloud Storage Integration**
 
@@ -288,11 +355,28 @@ Language configuration is centralized in [`src/constants/languages.js`](./src/co
 | Dutch | `nl` | `nl` | `nl` |
 
 #### **Adding New Languages**
-To add support for a new language:
+
+**Automatic Detection (Recommended):**
+```bash
+# Analyze and auto-add languages from Crowdin CSV
+npm run detect-languages surveys/surveys.csv
+
+# Analyze all CSV files in surveys/ directory
+npm run detect-languages:all
+```
+
+**Manual Configuration:**
+To add support for a new language manually:
 1. Update `SUPPORTED_LANGUAGES` array in `src/constants/languages.js`
 2. Add language metadata to `LANGUAGE_INFO` object
 3. Update mapping objects (`CSV_TO_JSON_MAPPING`, etc.)
 4. All scripts will automatically use the new language configuration
+
+The automatic detection script will:
+- ✅ Detect new language codes from CSV headers
+- ✅ Automatically infer language metadata (names, regions)
+- ✅ Update all configuration mappings
+- ✅ Support 50+ languages with proper native names
 
 ### **5. Translation Statistics**
 
@@ -310,7 +394,7 @@ Current translation coverage across surveys:
 
 The system is designed to work seamlessly with Crowdin:
 
-1. **Export**: Use `npm run extract-translations:all` to create CSV files
+1. **Export**: Use `npm run extract-surveys:all` to create CSV files
 2. **Upload**: Upload CSV files to Crowdin for translation
 3. **Download**: Download completed translations as combined CSV
 4. **Import**: Use `npm run import-combined:upload` to update surveys and deploy
@@ -346,10 +430,13 @@ The survey management interface will be available at `http://localhost:5173`
 4. **Open browser**: Navigate to `http://localhost:5173`
 
 ### For Translation Managers
-1. **Extract translations**: `npm run extract-translations:all`
-2. **Upload to Crowdin**: Use generated CSV files
-3. **Download updated**: Get completed translations as combined CSV
-4. **Deploy**: `VITE_FIREBASE_PROJECT=DEV npm run import-combined:upload`
+1. **Deploy latest surveys**: `VITE_FIREBASE_PROJECT=DEV npm run deploy-surveys:dev`
+   - Automatically downloads latest Crowdin CSVs from `l10n_pending` branch
+   - Imports translations and deploys to cloud
+2. **Manual process** (if needed):
+   - Extract: `npm run extract-surveys:all`
+   - Upload to Crowdin: Use generated CSV files  
+   - Deploy: `npm run deploy-surveys:dev` (downloads latest automatically)
 
 ## 📁 Project Structure
 

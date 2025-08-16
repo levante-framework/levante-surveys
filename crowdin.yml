@@ -1,0 +1,11 @@
+project_id: 'levantetranslations'
+api_token: 'your_api_token'    # Replace with your actual Crowdin API token
+base_path: '.'
+
+files:
+  - source: '/surveys/*_translations.csv'
+    dest: '/surveys'
+    first_line_contains_header: true
+    scheme: 'identifier,labels,en,es-CO,de,fr-CA,nl,de-CH,es-AR,en-GH'
+    # Adjust the scheme above to match your actual CSV column headers
+    # The scheme should match: item_id,labels,language_columns...

@@ -17,9 +17,7 @@ import { fileURLToPath } from 'url'
 import {
   SUPPORTED_LANGUAGES,
   JSON_LANGUAGE_MAPPING,
-  JSON_TO_CSV_MAPPING,
-  isValidJsonLanguageKey,
-  jsonKeyToCsvColumn
+  isValidJsonLanguageKey
 } from '../src/constants/languages.js'
 
 // Get current directory
@@ -124,7 +122,7 @@ function generateCSV(translations, surveyName) {
   const lines = []
 
   // CSV Header
-  const header = ['item_id', 'element_name', ...SUPPORTED_LANGUAGES].join(',')
+  const header = ['item_id', 'labels', ...SUPPORTED_LANGUAGES].join(',')
   lines.push(header)
 
   // CSV Rows

@@ -18,8 +18,7 @@ import { fileURLToPath } from 'url'
 import { Storage } from '@google-cloud/storage'
 import {
   CSV_TO_JSON_MAPPING,
-  isValidJsonLanguageKey,
-  isValidCsvLanguageColumn
+  isValidJsonLanguageKey
 } from '../src/constants/languages.js'
 
 // Get current directory
@@ -98,22 +97,20 @@ function parseCSV(csvContent) {
         row[header] = values[index] || ''
       })
 
-            // Only include rows with actual translation content (not just element names)
-      if (row.identifier && row.identifier.match(/^[a-z_]+_\d+$/) && (row.en || row['es-CO'] || row.de)) {
-
+      // Only include rows with actual translation content (not just element names)
+      if (row.identifier && row.identifier.match(/^[a-z_]+_\d+$/) && (row.en || row['es-CO'] || row.de || row['fr-CA'] || row.nl)) {
         // Method 1: Check if element name is in the labels column (parent surveys)
         if (row.labels && row.labels.trim() && !row.labels.match(/^[a-z_]+_\d+$/)) {
           row.elementName = row.labels.trim()
         }
-        // Method 2: Look ahead for element name on next line (child survey)
-        else if (i + 1 < lines.length) {
-          const nextLine = lines[i + 1]
-          const nextValues = nextLine.split(',')
-          const elementName = nextValues[0] ? nextValues[0].trim().replace(/"/g, '') : ''
-
-          // If next line looks like an element name (not numbered), add it
-          if (elementName && !elementName.match(/^[a-z_]+_\d+$/)) {
-            row.elementName = elementName
+        // Method 2: Derive element name from context second line
+        else if (row.context && row.context.trim()) {
+          const ctxLines = row.context.split('\n').map(s => s.trim()).filter(Boolean)
+          if (ctxLines.length >= 2) {
+            const candidate = ctxLines[1]
+            if (candidate && !candidate.match(/^[a-z_]+_\d+$/)) {
+              row.elementName = candidate
+            }
           }
         }
 
@@ -137,9 +134,7 @@ function getSurveyFromIdentifier(identifier) {
     return numberedMatch[1]
   }
 
-  // For element names, we need to map them to surveys based on content
-  // This is more complex and might require lookup in the original survey files
-  // For now, return null for element names without numbered prefixes
+  // For element names without numbered prefixes, skip
   return null
 }
 
@@ -178,6 +173,18 @@ function isMultilingualObject(obj) {
   return keys.some(key => isValidJsonLanguageKey(key))
 }
 
+/** Normalize text for matching: strip HTML, entities, collapse whitespace, lowercase */
+function normalizeForMatch(text) {
+  if (!text) return ''
+  let t = String(text)
+  t = t.replace(/<br\s*\/?>/gi, ' ')
+  t = t.replace(/<[^>]+>/g, '')
+  t = t.replace(/&nbsp;/gi, ' ')
+  t = t.replace(/&amp;/gi, '&').replace(/&lt;/gi, '<').replace(/&gt;/gi, '>').replace(/&quot;/gi, '"').replace(/&#39;/g, "'")
+  t = t.replace(/\s+/g, ' ').trim().toLowerCase()
+  return t
+}
+
 /**
  * Extract element name from identifier and context
  */
@@ -211,62 +218,52 @@ function getElementNameFromIdentifier(identifier, context) {
 /**
  * Recursively find and update multilingual objects in survey JSON
  */
-function updateMultilingualTexts(obj, translationsMap, elementName = '', results = []) {
+function updateMultilingualTexts(obj, maps, elementName = '', results = []) {
+  const langMap = maps.langMap || CSV_TO_JSON_MAPPING
   if (!obj || typeof obj !== 'object') {
     return results
   }
 
   // If this is a multilingual object, update it
   if (isMultilingualObject(obj)) {
-    // Try to find matching translations
-    const matchingTranslations = translationsMap[elementName] || []
+    const byElement = maps.byElement || {}
+    const byElementAndEn = maps.byElementAndEn || {}
 
-    if (matchingTranslations.length > 0) {
-      // Find the best matching translation by comparing English text
-      const currentEnglishText = obj.default || obj.en || ''
+    // Gather candidates by element name
+    const candidates = byElement[elementName] || []
+
+    if (candidates.length > 0) {
+      const currentEnglishText = normalizeForMatch(obj.default || obj.en)
+      const exactKey = `${elementName}||${currentEnglishText}`
+
+      // Prefer exact English text match when multiple options exist
       let bestMatch = null
-
-      // For single translation, use it directly
-      if (matchingTranslations.length === 1) {
-        bestMatch = matchingTranslations[0]
-            } else {
-        // For multiple translations, find exact text match
-        bestMatch = matchingTranslations.find(t => {
-          const translationEnText = t.en || ''
-          return translationEnText.trim() === currentEnglishText.trim()
-        })
-
-        // Don't use fallback if no exact match found - this prevents corruption
-        // bestMatch will remain null if no exact match is found
+      if (candidates.length === 1) {
+        bestMatch = candidates[0]
+      } else if (currentEnglishText) {
+        // Build a map with normalized English for lookup if not present
+        if (!byElementAndEn[exactKey]) {
+          for (const c of candidates) {
+            const k = `${elementName}||${normalizeForMatch(c.en)}`
+            if (!byElementAndEn[k]) byElementAndEn[k] = c
+          }
+        }
+        bestMatch = byElementAndEn[exactKey] || null
       }
 
       if (bestMatch) {
-        // Update each language if translation exists
-        for (const [csvLang, jsonLang] of Object.entries(CSV_TO_JSON_MAPPING)) {
-          if (bestMatch[csvLang] && bestMatch[csvLang].trim()) {
-            obj[jsonLang] = bestMatch[csvLang].trim()
+        for (const [csvLang, jsonLang] of Object.entries(langMap)) {
+          const v = bestMatch[csvLang]
+          if (v && String(v).trim()) {
+            obj[jsonLang] = String(v).trim()
           }
         }
-
-        results.push({
-          elementName,
-          updated: true,
-          translation: bestMatch,
-          matchType: matchingTranslations.length === 1 ? 'single' : 'exact_text'
-        })
+        results.push({ elementName, updated: true, translation: bestMatch, matchType: candidates.length === 1 ? 'single' : 'exact_text' })
       } else {
-        results.push({
-          elementName,
-          updated: false,
-          reason: 'No suitable translation match found'
-        })
+        results.push({ elementName, updated: false, reason: 'No suitable translation match found' })
       }
     } else {
-      results.push({
-        elementName,
-        updated: false,
-        reason: 'No matching translation found'
-      })
+      results.push({ elementName, updated: false, reason: 'No matching translation found' })
     }
 
     return results
@@ -274,13 +271,12 @@ function updateMultilingualTexts(obj, translationsMap, elementName = '', results
 
   // Recursively search through object properties
   if (Array.isArray(obj)) {
-    obj.forEach((item, index) => {
+    obj.forEach((item) => {
       let newElementName = elementName
       if (item && typeof item === 'object' && item.name) {
         newElementName = item.name
       }
-
-      updateMultilingualTexts(item, translationsMap, newElementName, results)
+      updateMultilingualTexts(item, maps, newElementName, results)
     })
   } else {
     for (const [key, value] of Object.entries(obj)) {
@@ -288,8 +284,7 @@ function updateMultilingualTexts(obj, translationsMap, elementName = '', results
       if (key === 'name' && typeof value === 'string') {
         newElementName = value
       }
-
-      updateMultilingualTexts(value, translationsMap, newElementName, results)
+      updateMultilingualTexts(value, maps, newElementName, results)
     }
   }
 
@@ -348,23 +343,49 @@ async function importSurveyTranslations(surveyKey, translations, outputDir, shou
     const surveyContent = fs.readFileSync(surveyPath, 'utf8')
     const surveyData = JSON.parse(surveyContent)
 
-    // Create translations map grouped by element name
-    const translationsMap = {}
+    // Create translations maps:
+    // 1) by elementName + English text (exact match)
+    // 2) by elementName (fallback when there is only one)
+    const translationsMapByElementAndEn = {}
+    const translationsMapByElement = {}
+
+    const normalize = (s) => String(s || '').replace(/\r/g, '').trim()
+
     translations.forEach(translation => {
       const elementName = translation.elementName || getElementNameFromIdentifier(translation.identifier, translation.context)
+      if (!elementName) return
 
-      if (elementName) {
-        if (!translationsMap[elementName]) {
-          translationsMap[elementName] = []
-        }
-        translationsMap[elementName].push(translation)
+      if (!translationsMapByElement[elementName]) {
+        translationsMapByElement[elementName] = []
       }
+      translationsMapByElement[elementName].push(translation)
+
+      const enText = normalizeForMatch(translation.en)
+      const key = `${elementName}||${enText}`
+      translationsMapByElementAndEn[key] = translation
     })
 
     console.log(`🔄 Updating ${surveyKey} with ${translations.length} translations...`)
 
+    // Derive language mapping dynamically from CSV columns present in translations
+    const sample = translations.find(t => !!t) || {}
+    const langMap = {}
+    Object.keys(sample).forEach(col => {
+      if (!col) return
+      const isMeta = ['identifier', 'labels', 'elementName', 'context'].includes(col)
+      const isLang = /^([a-z]{2})(?:-[A-Z]{2})?$/.test(col) || col === 'en'
+      if (isMeta || !isLang) return
+      if (col === 'en' || col.startsWith('en-')) {
+        langMap[col] = 'default'
+      } else if (col.includes('-')) {
+        langMap[col] = col.split('-')[0]
+      } else {
+        langMap[col] = col
+      }
+    })
+
     // Update the survey data
-    const updateResults = updateMultilingualTexts(surveyData, translationsMap)
+    const updateResults = updateMultilingualTexts(surveyData, { byElement: translationsMapByElement, byElementAndEn: translationsMapByElementAndEn, langMap })
 
     // Count successful updates
     const successfulUpdates = updateResults.filter(r => r.updated).length
@@ -385,7 +406,7 @@ async function importSurveyTranslations(surveyKey, translations, outputDir, shou
     const updatedJsonContent = JSON.stringify(surveyData, null, 2)
     fs.writeFileSync(outputPath, updatedJsonContent, 'utf8')
 
-        console.log(`✅ ${surveyKey}: Updated ${successfulUpdates} objects, saved to ${path.relative(projectRoot, outputPath)}`)
+    console.log(`✅ ${surveyKey}: Updated ${successfulUpdates} objects, saved to ${path.relative(projectRoot, outputPath)}`)
 
     if (failedUpdates > 0) {
       console.log(`⚠️  ${surveyKey}: Failed to update ${failedUpdates} objects`)
@@ -457,7 +478,7 @@ async function importCombinedTranslations(csvFile, outputDir, shouldUpload = fal
       }
     }
 
-        // Summary
+    // Summary
     console.log('\n📊 Import Summary:')
     results.forEach(result => {
       const uploadStatus = result.uploaded ? '☁️  uploaded' : (shouldUpload ? '❌ upload failed' : 'local only')
