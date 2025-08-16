@@ -98,7 +98,11 @@ function parseCSV(csvContent) {
       })
 
       // Only include rows with actual translation content (not just element names)
-      if (row.identifier && row.identifier.match(/^[a-z_]+_\d+$/) && (row.en || row['es-CO'] || row.de || row['fr-CA'] || row.nl)) {
+      const hasTranslationContent = headers.some(header => {
+        const isLangCol = /^([a-z]{2})(?:-[A-Z]{2})?$/.test(header) || header === 'en'
+        return isLangCol && row[header] && row[header].trim()
+      })
+      if (row.identifier && row.identifier.match(/^[a-z_]+_\d+$/) && hasTranslationContent) {
         // Method 1: Check if element name is in the labels column (parent surveys)
         if (row.labels && row.labels.trim() && !row.labels.match(/^[a-z_]+_\d+$/)) {
           row.elementName = row.labels.trim()
@@ -377,10 +381,10 @@ async function importSurveyTranslations(surveyKey, translations, outputDir, shou
       if (isMeta || !isLang) return
       if (col === 'en' || col.startsWith('en-')) {
         langMap[col] = 'default'
-      } else if (col.includes('-')) {
-        langMap[col] = col.split('-')[0]
       } else {
-        langMap[col] = col
+        // Preserve regional variants as separate language keys
+        // Convert to lowercase and replace hyphens with underscores for valid JSON keys
+        langMap[col] = col.toLowerCase().replace('-', '_')
       }
     })
 
