@@ -3,7 +3,9 @@
  * Uses environment variable to determine which bucket to use
  */
 export const LEVANTE_BUCKET_URL =
-  import.meta.env.VITE_FIREBASE_PROJECT === 'https://storage.googleapis.com/levante-dashboard-dev'
+  import.meta.env.VITE_FIREBASE_PROJECT === 'road-dashboard'
+    ? 'https://storage.googleapis.com/road-dashboard'
+    : 'https://storage.googleapis.com/levante-dashboard-dev'
 
 /**
  * Available survey files in the bucket

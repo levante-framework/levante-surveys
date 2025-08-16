@@ -102,22 +102,9 @@ function parseCSV(csvContent) {
         const isLangCol = /^([a-z]{2})(?:-[A-Z]{2})?$/.test(header) || header === 'en'
         return isLangCol && row[header] && row[header].trim()
       })
-      if (row.identifier && row.identifier.match(/^[a-z_]+_\d+$/) && hasTranslationContent) {
-        // Method 1: Check if element name is in the labels column (parent surveys)
-        if (row.labels && row.labels.trim() && !row.labels.match(/^[a-z_]+_\d+$/)) {
-          row.elementName = row.labels.trim()
-        }
-        // Method 2: Derive element name from context second line
-        else if (row.context && row.context.trim()) {
-          const ctxLines = row.context.split('\n').map(s => s.trim()).filter(Boolean)
-          if (ctxLines.length >= 2) {
-            const candidate = ctxLines[1]
-            if (candidate && !candidate.match(/^[a-z_]+_\d+$/)) {
-              row.elementName = candidate
-            }
-          }
-        }
-
+      if (row.identifier && row.identifier.trim() && hasTranslationContent) {
+        // Use identifier directly as element name
+        row.elementName = row.identifier.trim()
         data.push(row)
       }
     }
@@ -129,16 +116,22 @@ function parseCSV(csvContent) {
 /**
  * Determine which survey a translation row belongs to based on identifier
  */
-function getSurveyFromIdentifier(identifier) {
+function getSurveyFromIdentifier(identifier, labels) {
   if (!identifier) return null
 
-  // Check for numbered identifiers first (e.g., child_survey_001)
+  // Check for numbered identifiers first (e.g., child_survey_001) - legacy support
   const numberedMatch = identifier.match(/^([a-z_]+_survey(?:_[a-z]+)?)_\d+$/)
   if (numberedMatch) {
     return numberedMatch[1]
   }
 
-  // For element names without numbered prefixes, skip
+  // Check if labels column contains survey name
+  if (labels && labels.trim() && labels.includes('_survey')) {
+    return labels.trim()
+  }
+
+  // For element names without survey prefixes, we can't determine the survey
+  // Return null and let the import process handle all translations for all surveys
   return null
 }
 
@@ -150,7 +143,7 @@ function groupTranslationsBySurvey(translations) {
   const unmapped = []
 
   translations.forEach(translation => {
-    const survey = getSurveyFromIdentifier(translation.identifier)
+    const survey = getSurveyFromIdentifier(translation.identifier, translation.labels)
 
     if (survey) {
       if (!grouped[survey]) {
@@ -190,33 +183,11 @@ function normalizeForMatch(text) {
 }
 
 /**
- * Extract element name from identifier and context
+ * Extract element name from identifier
  */
-function getElementNameFromIdentifier(identifier, context) {
-  // If context contains the element name on the second line, use it
-  if (context && context.trim()) {
-    const lines = context.split('\n').map(line => line.trim()).filter(line => line)
-    // The element name is typically on the second line after the numbered ID
-    if (lines.length >= 2) {
-      const elementName = lines[1]
-      // Make sure it doesn't look like a numbered ID
-      if (elementName && !elementName.match(/^[a-z_]+_\d+$/)) {
-        return elementName
-      }
-    }
-    // Fallback: look for any line that doesn't contain underscores and numbers
-    const elementLine = lines.find(line => line && !line.includes('_') && !line.match(/^\d+$/))
-    if (elementLine) {
-      return elementLine
-    }
-  }
-
-  // For identifiers that are already element names (not numbered)
-  if (identifier && !identifier.match(/^[a-z_]+_\d+$/)) {
-    return identifier
-  }
-
-  return null
+function getElementNameFromIdentifier(identifier) {
+  // Identifier now directly contains the element name
+  return identifier && identifier.trim() ? identifier.trim() : null
 }
 
 /**
@@ -356,7 +327,7 @@ async function importSurveyTranslations(surveyKey, translations, outputDir, shou
     const normalize = (s) => String(s || '').replace(/\r/g, '').trim()
 
     translations.forEach(translation => {
-      const elementName = translation.elementName || getElementNameFromIdentifier(translation.identifier, translation.context)
+      const elementName = translation.elementName || getElementNameFromIdentifier(translation.identifier)
       if (!elementName) return
 
       if (!translationsMapByElement[elementName]) {
@@ -461,7 +432,7 @@ async function importCombinedTranslations(csvFile, outputDir, shouldUpload = fal
 
     console.log(`📋 Parsed ${allTranslations.length} total translation rows`)
 
-    // Group translations by survey
+    // Try to group translations by survey first
     const { grouped, unmapped } = groupTranslationsBySurvey(allTranslations)
 
     console.log(`🎯 Found translations for ${Object.keys(grouped).length} surveys:`)
@@ -473,12 +444,26 @@ async function importCombinedTranslations(csvFile, outputDir, shouldUpload = fal
       console.log(`⚠️  ${unmapped.length} translations could not be mapped to surveys`)
     }
 
-    // Process each survey
+    // Process grouped translations first
     const results = []
     for (const [surveyKey, translations] of Object.entries(grouped)) {
       const result = await importSurveyTranslations(surveyKey, translations, outputDir, shouldUpload)
-      if (result) {
+      if (result && result.successful > 0) {
         results.push(result)
+      }
+    }
+
+    // If we have unmapped translations, try them against all surveys
+    if (unmapped.length > 0) {
+      console.log(`\n🔄 Processing ${unmapped.length} unmapped translations against all surveys...`)
+      for (const surveyKey of Object.keys(SURVEY_FILES)) {
+        // Skip if we already processed this survey
+        if (grouped[surveyKey]) continue
+        
+        const result = await importSurveyTranslations(surveyKey, unmapped, outputDir, shouldUpload)
+        if (result && result.successful > 0) {
+          results.push(result)
+        }
       }
     }
 

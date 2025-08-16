@@ -14,11 +14,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import {
-  SUPPORTED_LANGUAGES,
-  JSON_LANGUAGE_MAPPING,
-  isValidJsonLanguageKey
-} from '../src/constants/languages.js'
+// No longer need language constants - using dynamic discovery
 
 // Get current directory
 const __filename = fileURLToPath(import.meta.url)
@@ -35,26 +31,71 @@ function isMultilingualObject(obj) {
 
   // Check if it has language keys
   const keys = Object.keys(obj)
-  return keys.some(key => isValidJsonLanguageKey(key))
+  return keys.some(key => isLanguageLikeKey(key))
+}
+
+/**
+ * Check if a key looks like a language code (more permissive than isValidJsonLanguageKey)
+ */
+function isLanguageLikeKey(key) {
+  // Match 'default', 2-letter codes, or 2-letter codes with country/region suffix
+  return key === 'default' || /^[a-z]{2}(_[a-z]{2})?$/i.test(key)
+}
+
+/**
+ * Discover all languages present in the survey data
+ */
+function discoverLanguagesInSurvey(obj, foundLanguages = new Set()) {
+  if (!obj || typeof obj !== 'object') {
+    return foundLanguages
+  }
+
+  if (Array.isArray(obj)) {
+    obj.forEach(item => discoverLanguagesInSurvey(item, foundLanguages))
+    return foundLanguages
+  }
+
+  // Check if this object has language-like keys
+  const keys = Object.keys(obj)
+  const hasLanguageKeys = keys.some(key => isLanguageLikeKey(key))
+  
+  if (hasLanguageKeys) {
+    // This looks like a multilingual object
+    keys.forEach(key => {
+      if (isLanguageLikeKey(key)) {
+        // Map 'default' to 'en' for CSV output
+        const csvKey = key === 'default' ? 'en' : key
+        foundLanguages.add(csvKey)
+      }
+    })
+  }
+
+  // Recursively check all properties
+  Object.values(obj).forEach(value => {
+    discoverLanguagesInSurvey(value, foundLanguages)
+  })
+
+  return foundLanguages
 }
 
 /**
  * Extract text from a multilingual object for all languages
  */
-function extractTextFromMultilingualObject(obj) {
+function extractTextFromMultilingualObject(obj, availableLanguages) {
   const result = {}
 
   // Initialize all languages as empty
-  SUPPORTED_LANGUAGES.forEach(lang => {
+  availableLanguages.forEach(lang => {
     result[lang] = ''
   })
 
   // Extract text for each available language
   for (const [key, value] of Object.entries(obj)) {
-    if (isValidJsonLanguageKey(key)) {
-      const targetLanguage = JSON_LANGUAGE_MAPPING[key]
-      if (SUPPORTED_LANGUAGES.includes(targetLanguage)) {
-        result[targetLanguage] = String(value || '').trim()
+    if (isLanguageLikeKey(key)) {
+      // Map 'default' to 'en' for CSV output
+      const csvKey = key === 'default' ? 'en' : key
+      if (availableLanguages.includes(csvKey)) {
+        result[csvKey] = String(value || '').trim()
       }
     }
   }
@@ -65,14 +106,14 @@ function extractTextFromMultilingualObject(obj) {
 /**
  * Recursively find all multilingual text objects in a survey
  */
-function findMultilingualTexts(obj, currentPath = '', elementName = '', results = []) {
+function findMultilingualTexts(obj, availableLanguages, currentPath = '', elementName = '', results = []) {
   if (!obj || typeof obj !== 'object') {
     return results
   }
 
   // If this is a multilingual object, extract it
   if (isMultilingualObject(obj)) {
-    const texts = extractTextFromMultilingualObject(obj)
+    const texts = extractTextFromMultilingualObject(obj, availableLanguages)
 
     // Only add if there's actually text content
     if (Object.values(texts).some(text => text.length > 0)) {
@@ -96,7 +137,7 @@ function findMultilingualTexts(obj, currentPath = '', elementName = '', results 
         newElementName = item.name
       }
 
-      findMultilingualTexts(item, newPath, newElementName, results)
+      findMultilingualTexts(item, availableLanguages, newPath, newElementName, results)
     })
   } else {
     for (const [key, value] of Object.entries(obj)) {
@@ -108,7 +149,7 @@ function findMultilingualTexts(obj, currentPath = '', elementName = '', results 
         newElementName = value
       }
 
-      findMultilingualTexts(value, newPath, newElementName, results)
+      findMultilingualTexts(value, availableLanguages, newPath, newElementName, results)
     }
   }
 
@@ -118,17 +159,19 @@ function findMultilingualTexts(obj, currentPath = '', elementName = '', results 
 /**
  * Generate CSV content from extracted translations
  */
-function generateCSV(translations, surveyName) {
+function generateCSV(translations, surveyName, availableLanguages) {
   const lines = []
 
   // CSV Header
-  const header = ['item_id', 'labels', ...SUPPORTED_LANGUAGES].join(',')
+  const header = ['identifier', 'labels', ...availableLanguages].join(',')
   lines.push(header)
 
   // CSV Rows
-  translations.forEach((translation, index) => {
-    const itemId = `${surveyName}_${String(index + 1).padStart(3, '0')}`
+  translations.forEach((translation) => {
     const elementName = translation.elementName || 'unknown'
+    // Use element name as identifier, survey name in labels
+    const identifier = elementName
+    const labels = surveyName // Survey name in labels column
 
     // Escape CSV values (handle quotes and commas)
     const escapeCSV = (value) => {
@@ -141,9 +184,9 @@ function generateCSV(translations, surveyName) {
     }
 
     const row = [
-      itemId,
-      escapeCSV(elementName),
-      ...SUPPORTED_LANGUAGES.map(lang => escapeCSV(translation.texts[lang]))
+      escapeCSV(identifier),
+      escapeCSV(labels),
+      ...availableLanguages.map(lang => escapeCSV(translation.texts[lang] || ''))
     ].join(',')
 
     lines.push(row)
@@ -173,8 +216,14 @@ async function extractTranslations(inputFile, outputFile) {
 
     console.log(`📝 Extracting translations from ${surveyName}...`)
 
+    // Discover available languages in the survey
+    const foundLanguages = discoverLanguagesInSurvey(surveyData)
+    const availableLanguages = Array.from(foundLanguages).sort()
+    
+    console.log(`🌍 Discovered ${availableLanguages.length} languages in survey: ${availableLanguages.join(', ')}`)
+
     // Find all multilingual texts
-    const translations = findMultilingualTexts(surveyData)
+    const translations = findMultilingualTexts(surveyData, availableLanguages)
 
     console.log(`✅ Found ${translations.length} translatable text items`)
 
@@ -182,12 +231,13 @@ async function extractTranslations(inputFile, outputFile) {
     if (translations.length > 0) {
       console.log('📋 Sample translations found:')
       translations.slice(0, 3).forEach((trans, i) => {
-        console.log(`  ${i + 1}. [${trans.elementName}] ${trans.texts.en.substring(0, 50)}...`)
+        const englishText = trans.texts.en || trans.texts.default || Object.values(trans.texts)[0] || ''
+        console.log(`  ${i + 1}. [${trans.elementName}] ${englishText.substring(0, 50)}...`)
       })
     }
 
     // Generate CSV
-    const csvContent = generateCSV(translations, surveyName)
+    const csvContent = generateCSV(translations, surveyName, availableLanguages)
 
         // Determine output file path
     const outputPath = outputFile
@@ -202,8 +252,8 @@ async function extractTranslations(inputFile, outputFile) {
 
     // Show language coverage
     const languageCounts = {}
-    SUPPORTED_LANGUAGES.forEach(lang => {
-      languageCounts[lang] = translations.filter(t => t.texts[lang].length > 0).length
+    availableLanguages.forEach(lang => {
+      languageCounts[lang] = translations.filter(t => t.texts[lang] && t.texts[lang].length > 0).length
     })
 
     console.log('🌍 Language coverage:')
@@ -261,4 +311,4 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   main()
 }
 
-export { extractTranslations, findMultilingualTexts, generateCSV }
+export { extractTranslations, findMultilingualTexts, generateCSV, discoverLanguagesInSurvey }
