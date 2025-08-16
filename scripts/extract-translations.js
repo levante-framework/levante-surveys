@@ -58,16 +58,21 @@ function discoverLanguagesInSurvey(obj, foundLanguages = new Set()) {
   // Check if this object has language-like keys
   const keys = Object.keys(obj)
   const hasLanguageKeys = keys.some(key => isLanguageLikeKey(key))
-  
+
   if (hasLanguageKeys) {
     // This looks like a multilingual object
-    keys.forEach(key => {
-      if (isLanguageLikeKey(key)) {
-        // Map 'default' to 'en' for CSV output
-        const csvKey = key === 'default' ? 'en' : key
-        foundLanguages.add(csvKey)
-      }
-    })
+         keys.forEach(key => {
+       if (isLanguageLikeKey(key)) {
+         // Map 'default' to 'en' for CSV output, and normalize country codes to uppercase
+         let csvKey = key === 'default' ? 'en' : key
+         // Convert country codes to uppercase (e.g., es_co -> es_CO, de_ch -> de_CH)
+         if (csvKey.includes('_')) {
+           const [lang, country] = csvKey.split('_')
+           csvKey = `${lang}_${country.toUpperCase()}`
+         }
+         foundLanguages.add(csvKey)
+       }
+     })
   }
 
   // Recursively check all properties
@@ -92,8 +97,13 @@ function extractTextFromMultilingualObject(obj, availableLanguages) {
   // Extract text for each available language
   for (const [key, value] of Object.entries(obj)) {
     if (isLanguageLikeKey(key)) {
-      // Map 'default' to 'en' for CSV output
-      const csvKey = key === 'default' ? 'en' : key
+      // Map 'default' to 'en' for CSV output, and normalize country codes to uppercase
+      let csvKey = key === 'default' ? 'en' : key
+      // Convert country codes to uppercase (e.g., es_co -> es_CO, de_ch -> de_CH)
+      if (csvKey.includes('_')) {
+        const [lang, country] = csvKey.split('_')
+        csvKey = `${lang}_${country.toUpperCase()}`
+      }
       if (availableLanguages.includes(csvKey)) {
         result[csvKey] = String(value || '').trim()
       }
@@ -219,7 +229,7 @@ async function extractTranslations(inputFile, outputFile) {
     // Discover available languages in the survey
     const foundLanguages = discoverLanguagesInSurvey(surveyData)
     const availableLanguages = Array.from(foundLanguages).sort()
-    
+
     console.log(`🌍 Discovered ${availableLanguages.length} languages in survey: ${availableLanguages.join(', ')}`)
 
     // Find all multilingual texts

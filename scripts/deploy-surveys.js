@@ -117,32 +117,32 @@ class PipelineResults {
  */
 async function downloadLatestCSVFiles(results, skipDownload = false) {
   console.log(`📥 Step 1: Downloading latest CSV files from Crowdin${skipDownload ? ' (SKIPPED)' : ''}...`)
-  
+
   if (skipDownload) {
     console.log('   ⏭️  Skipping download, using existing CSV files')
     results.addStep('download_csv', 'skipped', { reason: 'user_requested' })
     return true
   }
-  
+
   try {
     const downloadResult = await downloadCrowdinSurveys({ force: true })
-    
+
     const successful = downloadResult.results.filter(r => r.status === 'success').length
     const failed = downloadResult.results.filter(r => r.status === 'error').length
-    
+
     console.log(`   📊 Downloaded ${successful}/${REQUIRED_CSV_FILES.length} CSV files`)
-    
+
     if (failed > 0) {
       results.addWarning(`${failed} CSV files failed to download`, 'download_csv')
     }
-    
+
     results.addStep('download_csv', downloadResult.success ? 'success' : 'error', {
       successful,
       failed,
       total: REQUIRED_CSV_FILES.length,
       results: downloadResult.results
     })
-    
+
     return downloadResult.success
   } catch (error) {
     console.error(`   ❌ Download failed: ${error.message}`)
@@ -496,6 +496,7 @@ async function deploySurveys(results, bucketName, dryRun = false) {
       }
 
       try {
+        // Upload to main bucket
         await bucket.upload(localPath, {
           destination: jsonFile,
           metadata: {
@@ -505,6 +506,23 @@ async function deploySurveys(results, bucketName, dryRun = false) {
         })
 
         console.log(`   ✅ Deployed: ${updatedFile} → ${jsonFile}`)
+
+        // Also upload to levante-assets-dev bucket in surveys folder
+        try {
+          const assetsBucket = storage.bucket('levante-assets-dev')
+          await assetsBucket.upload(localPath, {
+            destination: `surveys/${jsonFile}`,
+            metadata: {
+              contentType: 'application/json',
+              cacheControl: 'public, max-age=3600'
+            }
+          })
+          console.log(`   📂 Copied to assets: surveys/${jsonFile}`)
+        } catch (assetsError) {
+          console.log(`   ⚠️  Failed to copy to assets bucket: ${assetsError.message}`)
+          // Don't fail the whole deployment if assets upload fails
+        }
+
         deployResults.push({ file: jsonFile, success: true })
       } catch (error) {
         console.log(`   ❌ Failed to deploy ${jsonFile}: ${error.message}`)
@@ -528,6 +546,7 @@ async function deploySurveys(results, bucketName, dryRun = false) {
       successful: successfulDeploys,
       total: SURVEY_JSON_FILES.length,
       bucketName,
+      assetsBucket: 'levante-assets-dev',
       results: deployResults
     })
 
@@ -722,8 +741,8 @@ async function main() {
 
   results.success = success
 
-  // Generate final report
-  const report = generateReport(results)
+  // Generate final report (logs to console)
+  generateReport(results)
 
   // Exit with appropriate code
   process.exit(success ? 0 : 1)
