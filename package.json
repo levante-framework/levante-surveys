@@ -46,7 +46,12 @@
     "deploy-surveys:skip-download": "node scripts/deploy-surveys.js --env=DEV --skip-download",
     "upload-crowdin": "crowdin upload sources",
     "upload-crowdin:check": "crowdin status",
-    "extract-and-upload": "npm run extract-surveys:all && npm run upload-crowdin"
+    "extract-and-upload": "npm run extract-surveys:all && npm run upload-crowdin",
+    "setup-test-surveys": "node scripts/setup-test-surveys.js",
+    "test:e2e": "npm run setup-test-surveys && cypress run",
+    "test:e2e:open": "npm run setup-test-surveys && cypress open",
+    "test:surveys": "npm run setup-test-surveys && cypress run --spec 'cypress/e2e/surveys.cy.js'",
+    "test:surveys:open": "npm run setup-test-surveys && cypress open --e2e --spec 'cypress/e2e/surveys.cy.js'"
   },
   "dependencies": {
     "@google-cloud/storage": "^7.16.0",
@@ -74,6 +79,7 @@
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/eslint-config-typescript": "^14.6.0",
     "@vue/tsconfig": "^0.7.0",
+    "cypress": "^13.17.0",
     "eslint": "^9.31.0",
     "eslint-plugin-vue": "~10.3.0",
     "jiti": "^2.4.2",
