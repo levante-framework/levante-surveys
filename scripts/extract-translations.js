@@ -63,8 +63,8 @@ function discoverLanguagesInSurvey(obj, foundLanguages = new Set()) {
     // This looks like a multilingual object
          keys.forEach(key => {
        if (isLanguageLikeKey(key)) {
-         // Map 'default' to 'en' for CSV output, and normalize country codes to uppercase
-         let csvKey = key === 'default' ? 'en' : key
+         // Map 'default' to 'source' for CSV output, and normalize country codes to uppercase
+         let csvKey = key === 'default' ? 'source' : key
          // Convert country codes to uppercase (e.g., es_co -> es_CO, de_ch -> de_CH)
          if (csvKey.includes('_')) {
            const [lang, country] = csvKey.split('_')
@@ -97,8 +97,8 @@ function extractTextFromMultilingualObject(obj, availableLanguages) {
   // Extract text for each available language
   for (const [key, value] of Object.entries(obj)) {
     if (isLanguageLikeKey(key)) {
-      // Map 'default' to 'en' for CSV output, and normalize country codes to uppercase
-      let csvKey = key === 'default' ? 'en' : key
+      // Map 'default' to 'source' for CSV output, and normalize country codes to uppercase
+      let csvKey = key === 'default' ? 'source' : key
       // Convert country codes to uppercase (e.g., es_co -> es_CO, de_ch -> de_CH)
       if (csvKey.includes('_')) {
         const [lang, country] = csvKey.split('_')

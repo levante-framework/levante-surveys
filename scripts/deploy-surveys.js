@@ -47,11 +47,11 @@ const projectRoot = path.resolve(__dirname, '..')
 
 // Configuration
 const REQUIRED_CSV_FILES = [
-  'child_survey_translations.csv',
-  'parent_survey_family_translations.csv',
-  'parent_survey_child_translations.csv',
-  'teacher_survey_general_translations.csv',
-  'teacher_survey_classroom_translations.csv'
+  'child_survey_crowdin_translations.csv',
+  'parent_survey_family_crowdin_translations.csv',
+  'parent_survey_child_crowdin_translations.csv',
+  'teacher_survey_general_crowdin_translations.csv',
+  'teacher_survey_classroom_crowdin_translations.csv'
 ]
 
 const SURVEY_JSON_FILES = [

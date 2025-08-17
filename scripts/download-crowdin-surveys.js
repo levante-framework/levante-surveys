@@ -38,20 +38,14 @@ const projectRoot = path.resolve(__dirname, '..')
 const CROWDIN_SOURCE_URL = 'https://raw.githubusercontent.com/levante-framework/levante_translations/l10n_pending/surveys.csv'
 
 const TARGET_CSV_FILES = [
-  'child_survey_translations.csv',
-  'parent_survey_family_translations.csv',
-  'parent_survey_child_translations.csv',
-  'teacher_survey_general_translations.csv',
-  'teacher_survey_classroom_translations.csv'
+  'child_survey_crowdin_translations.csv',
+  'parent_survey_family_crowdin_translations.csv',
+  'parent_survey_child_crowdin_translations.csv',
+  'teacher_survey_general_crowdin_translations.csv',
+  'teacher_survey_classroom_crowdin_translations.csv'
 ]
 
-const SURVEY_PREFIXES = {
-  'child_survey_translations.csv': 'child_survey',
-  'parent_survey_family_translations.csv': 'parent_survey_family',
-  'parent_survey_child_translations.csv': 'parent_survey_child',
-  'teacher_survey_general_translations.csv': 'teacher_survey_general',
-  'teacher_survey_classroom_translations.csv': 'teacher_survey_classroom'
-}
+// Element name patterns are now defined in splitCombinedCSV function
 
 /**
  * Download a file from URL to local path
@@ -168,6 +162,27 @@ function splitCombinedCSV(csvContent) {
     surveyFiles[filename] = [header]
   }
 
+  // Element name patterns to identify which survey they belong to
+  const ELEMENT_PATTERNS = {
+    'child_survey_crowdin_translations.csv': [
+      'ChildSurvey', 'Example1Comic', 'Example2Bike', 'ChildQ1', 'ChildQ2', 'ChildQ3', 'ChildQ4', 'ChildQ5',
+      'ChildQ6', 'ChildQ7', 'ChildQ8', 'ChildQ9', 'ChildQ10', 'ChildQ11', 'ChildQ12', 'ChildQ13', 'ChildQ14',
+      'ChildQ15', 'ChildQ16', 'ChildQ17', 'ChildQ18', 'ChildQ19', 'ChildQ20', 'ChildQ21', 'ChildQ22', 'ChildQ23'
+    ],
+    'parent_survey_family_crowdin_translations.csv': [
+      'ParentSurveyFamilyIntro', 'ParentFamily', 'PFQ'
+    ],
+    'parent_survey_child_crowdin_translations.csv': [
+      'ParentSurveyChildIntro', 'ParentChild', 'PCQ'
+    ],
+    'teacher_survey_general_crowdin_translations.csv': [
+      'TeacherSurveyGeneralIntro', 'TeacherGeneral', 'TGQ'
+    ],
+    'teacher_survey_classroom_crowdin_translations.csv': [
+      'TeacherSurveyClassroomIntro', 'TeacherClassroom', 'TCQ'
+    ]
+  }
+
   // Process each data row
   for (let i = 1; i < lines.length; i++) {
     const line = lines[i].trim()
@@ -179,12 +194,22 @@ function splitCombinedCSV(csvContent) {
 
     const identifier = line.substring(0, firstCommaIndex).replace(/"/g, '')
 
-    // Find which survey this row belongs to
-    for (const [filename, prefix] of Object.entries(SURVEY_PREFIXES)) {
-      if (identifier.startsWith(prefix)) {
-        surveyFiles[filename].push(line)
-        break
+    // Find which survey this row belongs to based on element name patterns
+    let matched = false
+    for (const [filename, patterns] of Object.entries(ELEMENT_PATTERNS)) {
+      for (const pattern of patterns) {
+        if (identifier.includes(pattern)) {
+          surveyFiles[filename].push(line)
+          matched = true
+          break
+        }
       }
+      if (matched) break
+    }
+
+    // If no pattern matched, log for debugging
+    if (!matched) {
+      console.log(`   ⚠️  Unmatched identifier: ${identifier}`)
     }
   }
 

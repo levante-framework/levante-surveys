@@ -341,7 +341,7 @@ async function main() {
     const surveysDir = path.join(projectRoot, 'surveys')
     const files = fs.readdirSync(surveysDir)
     filesToAnalyze = files
-      .filter(file => file.endsWith('_translations.csv'))
+      .filter(file => file.endsWith('_crowdin_translations.csv'))
       .map(file => path.join(surveysDir, file))
     console.log(`🔍 Found ${filesToAnalyze.length} survey translation files`)
   } else if (args.length > 0) {
@@ -352,7 +352,7 @@ async function main() {
     const surveysDir = path.join(projectRoot, 'surveys')
     const files = fs.readdirSync(surveysDir)
     filesToAnalyze = files
-      .filter(file => file.endsWith('_translations.csv'))
+      .filter(file => file.endsWith('_crowdin_translations.csv'))
       .map(file => path.join(surveysDir, file))
 
     if (filesToAnalyze.length === 0) {
@@ -360,7 +360,7 @@ async function main() {
       console.log('\nUsage:')
       console.log('  node scripts/detect-languages.js <csv-file>')
       console.log('  node scripts/detect-languages.js --analyze-all')
-      console.log('\nExpected files: *_translations.csv in surveys/ directory')
+      console.log('\nExpected files: *_crowdin_translations.csv in surveys/ directory')
       process.exit(1)
     }
     console.log(`🔍 Found ${filesToAnalyze.length} survey translation files (default mode)`)

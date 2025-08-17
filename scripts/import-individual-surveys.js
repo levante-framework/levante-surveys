@@ -30,11 +30,11 @@ const BUCKET_NAME = process.env.VITE_FIREBASE_PROJECT === 'DEV' ? 'levante-dashb
 
 // Survey file mapping - derive JSON filename from CSV filename
 const SURVEY_CSV_MAPPING = {
-  'child_survey_translations.csv': 'child_survey.json',
-  'parent_survey_child_translations.csv': 'parent_survey_child.json',
-  'parent_survey_family_translations.csv': 'parent_survey_family.json',
-  'teacher_survey_general_translations.csv': 'teacher_survey_general.json',
-  'teacher_survey_classroom_translations.csv': 'teacher_survey_classroom.json'
+  'child_survey_crowdin_translations.csv': 'child_survey.json',
+  'parent_survey_child_crowdin_translations.csv': 'parent_survey_child.json',
+  'parent_survey_family_crowdin_translations.csv': 'parent_survey_family.json',
+  'teacher_survey_general_crowdin_translations.csv': 'teacher_survey_general.json',
+  'teacher_survey_classroom_crowdin_translations.csv': 'teacher_survey_classroom.json'
 }
 
 /**

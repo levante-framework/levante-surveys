@@ -31,3 +31,6 @@ coverage
 
 # Local survey files (downloaded from GCS bucket)
 # surveys/
+
+# Crowdin configuration with API token
+crowdin.yml
