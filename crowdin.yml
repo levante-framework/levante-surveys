@@ -4,22 +4,77 @@ base_path: '.'
 
 files:
   - source: 'surveys/child_survey_translations.csv'
-    translation: 'surveys/child_survey_translations.csv'
+    translation: '/surveys/child_survey_translations_%locale%.csv'
     first_line_contains_header: true
-    scheme: 'identifier,labels,de,de_CH,source,es,es_AR,es_CO,fr,fr_CA,nl'
+    column_mapping:
+      identifier: 0
+      source_phrase: 10
+      translation:
+        de: 2
+        de-CH: 3
+        es: 4
+        es-AR: 5
+        es-CO: 6
+        fr: 7
+        fr-CA: 8
+        nl: 9
   - source: 'surveys/parent_survey_family_translations.csv'
-    translation: 'surveys/parent_survey_family_translations.csv'
+    translation: '/surveys/parent_survey_family_translations_%locale%.csv'
     first_line_contains_header: true
-    scheme: 'identifier,labels,de,de_CH,source,es,es_AR,es_CO,fr,fr_CA,nl'
+    column_mapping:
+      identifier: 0
+      source_phrase: 10
+      translation:
+        de: 2
+        de-CH: 3
+        es: 4
+        es-AR: 5
+        es-CO: 6
+        fr: 7
+        fr-CA: 8
+        nl: 9
   - source: 'surveys/parent_survey_child_translations.csv'
-    translation: 'surveys/parent_survey_child_translations.csv'
+    translation: '/surveys/parent_survey_child_translations_%locale%.csv'
     first_line_contains_header: true
-    scheme: 'identifier,labels,de,de_CH,source,es,es_AR,es_CO,fr,fr_CA,nl'
+    column_mapping:
+      identifier: 0
+      source_phrase: 10
+      translation:
+        de: 2
+        de-CH: 3
+        es: 4
+        es-AR: 5
+        es-CO: 6
+        fr: 7
+        fr-CA: 8
+        nl: 9
   - source: 'surveys/teacher_survey_general_translations.csv'
-    translation: 'surveys/teacher_survey_general_translations.csv'
+    translation: '/surveys/teacher_survey_general_translations_%locale%.csv'
     first_line_contains_header: true
-    scheme: 'identifier,labels,de,de_CH,source,es,es_AR,es_CO,fr,fr_CA,nl'
+    column_mapping:
+      identifier: 0
+      source_phrase: 10
+      translation:
+        de: 2
+        de-CH: 3
+        es: 4
+        es-AR: 5
+        es-CO: 6
+        fr: 7
+        fr-CA: 8
+        nl: 9
   - source: 'surveys/teacher_survey_classroom_translations.csv'
-    translation: 'surveys/teacher_survey_classroom_translations.csv'
+    translation: '/surveys/teacher_survey_classroom_translations_%locale%.csv'
     first_line_contains_header: true
-    scheme: 'identifier,labels,de,de_CH,source,es,es_AR,es_CO,fr,fr_CA,nl'
+    column_mapping:
+      identifier: 0
+      source_phrase: 10
+      translation:
+        de: 2
+        de-CH: 3
+        es: 4
+        es-AR: 5
+        es-CO: 6
+        fr: 7
+        fr-CA: 8
+        nl: 9

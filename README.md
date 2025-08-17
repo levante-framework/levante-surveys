@@ -2,14 +2,16 @@
 
 ## 🌟 **What's New: Complete Translation Management System**
 
-This application now includes a **production-ready translation workflow** that has successfully deployed **1,150+ multilingual objects** across 5 languages (EN, ES, DE, FR, NL) with a **98% success rate**. 
+This application now includes a **production-ready translation workflow** that has successfully processed **1,400+ multilingual objects** across 8 languages with comprehensive validation and testing.
 
 **Key Capabilities:**
-- 🔄 **Automated CSV extraction** from survey JSON files
-- 🌍 **Crowdin integration** for professional translation workflows  
-- ☁️ **One-command deployment** to Google Cloud Storage buckets
-- 📊 **Enterprise-grade error handling** and comprehensive reporting
-- 🚀 **Real-world tested** with 1,400+ translation items across 3 survey types
+- 🔄 **Automated CSV extraction** from survey JSON files to Crowdin-compatible format
+- 🌍 **Crowdin integration** with GitHub-based workflow for translation management  
+- 📥 **Smart import system** with labels-based survey grouping and validation
+- 🧪 **Comprehensive testing** with 26+ validation checks per workflow run
+- ☁️ **Dual-bucket deployment** to Google Cloud Storage with backup systems
+- 📊 **Language detection** with automatic configuration updates
+- 🚀 **Production-validated** across 5 survey types and 8+ language variants
 
 ## Project Overview
 
@@ -221,11 +223,66 @@ npm run extract-surveys:all
 - `teacher_survey_general_translations.csv` (144 items)
 - `teacher_survey_classroom_translations.csv` (120 items)
 
-### **2. Import Translations** (CSV → Survey JSON)
+### **2. Crowdin Integration Setup**
+
+The system integrates with Crowdin for professional translation management:
+
+**Source**: [levante_translations GitHub Repository](https://github.com/levante-framework/levante_translations)  
+**Branch**: `l10n_pending`  
+**File**: `surveys.csv` (combined file that gets split automatically)
+
+**Crowdin Configuration:**
+```bash
+# Copy the example configuration
+cp crowdin.yml.example crowdin.yml
+
+# Update with your project details:
+# - project_id: Your numeric Crowdin project ID
+# - api_token: Your Crowdin API token
+```
+
+**CSV Format:**
+- `identifier`: Element name from survey JSON
+- `labels`: Survey name for grouping (child_survey, parent_survey_family, etc.)
+- `source`: English source text
+- Language columns: `en`, `es-CO`, `de`, `fr-CA`, `nl`, `de-CH`, `es-AR`, `en-GH`
+
+### **3. Import Translations** (CSV → Survey JSON)
 
 Import updated translations back into survey JSON files:
 
-### **🚀 End-to-End Survey Deployment Pipeline** (recommended)
+### **🚀 Complete Translation Workflow: Crowdin → SurveyJS** (RECOMMENDED)
+
+**Validated end-to-end workflow from Crowdin translations to production-ready survey JSON files:**
+
+```bash
+# Step 1: Download latest CSV files from Crowdin GitHub repo
+npm run download-crowdin -- --force
+
+# Step 2: Import translations into survey JSON files  
+npm run import-surveys-individual:all
+
+# Step 3: Update language configuration automatically
+npm run detect-languages:all
+
+# Step 4: Validate all survey files with comprehensive tests
+npx cypress run --spec "cypress/e2e/survey-json-validation.cy.js"
+
+# Optional Step 5: Deploy to Google Cloud Storage
+npm run deploy-surveys:dev
+```
+
+**✅ This workflow has been tested and validates:**
+- All surveys have valid JSON structure
+- All surveys contain multilingual content with 8+ languages
+- Regional language variants (es-CO, de-CH, fr-CA, es-AR, en-GH)
+- No translation artifacts or corruption
+- Full SurveyJS compatibility
+- Cross-survey consistency
+
+---
+
+### **🚀 End-to-End Survey Deployment Pipeline** (alternative)
 
 **Complete automated workflow from Crowdin CSV files to deployed surveys:**
 

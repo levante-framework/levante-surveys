@@ -97,8 +97,10 @@ function parseCSV(csvContent) {
       row[col] = values[index] || ''
     })
 
-    // Extract element name from item_id or element_name column
-    if (row.element_name) {
+    // Extract element name from identifier, item_id, or element_name column
+    if (row.identifier) {
+      row.elementName = row.identifier
+    } else if (row.element_name) {
       row.elementName = row.element_name
     } else if (row.item_id) {
       // Extract element name from item_id (e.g., "parent_survey_family_001" -> from element_name column)

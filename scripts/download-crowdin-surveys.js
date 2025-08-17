@@ -162,58 +162,92 @@ function splitCombinedCSV(csvContent) {
     surveyFiles[filename] = [header]
   }
 
-  // Element name patterns to identify which survey they belong to
-  const ELEMENT_PATTERNS = {
-    'child_survey_crowdin_translations.csv': [
-      'ChildSurvey', 'Example1Comic', 'Example2Bike', 'ChildQ1', 'ChildQ2', 'ChildQ3', 'ChildQ4', 'ChildQ5',
-      'ChildQ6', 'ChildQ7', 'ChildQ8', 'ChildQ9', 'ChildQ10', 'ChildQ11', 'ChildQ12', 'ChildQ13', 'ChildQ14',
-      'ChildQ15', 'ChildQ16', 'ChildQ17', 'ChildQ18', 'ChildQ19', 'ChildQ20', 'ChildQ21', 'ChildQ22', 'ChildQ23'
-    ],
-    'parent_survey_family_crowdin_translations.csv': [
-      'ParentSurveyFamilyIntro', 'ParentFamily', 'PFQ'
-    ],
-    'parent_survey_child_crowdin_translations.csv': [
-      'ParentSurveyChildIntro', 'ParentChild', 'PCQ'
-    ],
-    'teacher_survey_general_crowdin_translations.csv': [
-      'TeacherSurveyGeneralIntro', 'TeacherGeneral', 'TGQ'
-    ],
-    'teacher_survey_classroom_crowdin_translations.csv': [
-      'TeacherSurveyClassroomIntro', 'TeacherClassroom', 'TCQ'
-    ]
+  // Survey name to filename mapping
+  const SURVEY_NAME_MAPPING = {
+    'child_survey': 'child_survey_crowdin_translations.csv',
+    'parent_survey_family': 'parent_survey_family_crowdin_translations.csv',
+    'parent_survey_child': 'parent_survey_child_crowdin_translations.csv',
+    'teacher_survey_general': 'teacher_survey_general_crowdin_translations.csv',
+    'teacher_survey_classroom': 'teacher_survey_classroom_crowdin_translations.csv'
   }
+
+  // Find the labels column index
+  const headerColumns = parseCSVLine(header)
+  const labelsIndex = headerColumns.indexOf('labels')
+  
+  if (labelsIndex === -1) {
+    console.log('   ⚠️  No labels column found, falling back to identifier patterns')
+    return splitByIdentifierPatterns(lines, header, surveyFiles)
+  }
+
+  console.log(`   📋 Using labels column (index ${labelsIndex}) for survey grouping`)
 
   // Process each data row
   for (let i = 1; i < lines.length; i++) {
     const line = lines[i].trim()
     if (!line) continue
 
-    // Extract identifier (first column)
-    const firstCommaIndex = line.indexOf(',')
-    if (firstCommaIndex === -1) continue
+    const columns = parseCSVLine(line)
+    if (columns.length <= labelsIndex) continue
 
-    const identifier = line.substring(0, firstCommaIndex).replace(/"/g, '')
+    const surveyName = columns[labelsIndex]
+    const filename = SURVEY_NAME_MAPPING[surveyName]
 
-    // Find which survey this row belongs to based on element name patterns
-    let matched = false
-    for (const [filename, patterns] of Object.entries(ELEMENT_PATTERNS)) {
-      for (const pattern of patterns) {
-        if (identifier.includes(pattern)) {
-          surveyFiles[filename].push(line)
-          matched = true
-          break
-        }
+    if (filename && surveyFiles[filename]) {
+      surveyFiles[filename].push(line)
+    } else {
+      // Try fallback patterns if survey name doesn't match
+      const identifier = columns[0] || ''
+      let matched = false
+      
+      // Simple fallback based on common patterns
+      if (identifier.toLowerCase().includes('child')) {
+        surveyFiles['child_survey_crowdin_translations.csv'].push(line)
+        matched = true
+      } else if (identifier.toLowerCase().includes('family')) {
+        surveyFiles['parent_survey_family_crowdin_translations.csv'].push(line)
+        matched = true
+      } else if (identifier.toLowerCase().includes('parent')) {
+        surveyFiles['parent_survey_child_crowdin_translations.csv'].push(line)
+        matched = true
+      } else if (identifier.toLowerCase().includes('teacher') && identifier.toLowerCase().includes('general')) {
+        surveyFiles['teacher_survey_general_crowdin_translations.csv'].push(line)
+        matched = true
+      } else if (identifier.toLowerCase().includes('teacher')) {
+        surveyFiles['teacher_survey_classroom_crowdin_translations.csv'].push(line)
+        matched = true
       }
-      if (matched) break
-    }
 
-    // If no pattern matched, log for debugging
-    if (!matched) {
-      console.log(`   ⚠️  Unmatched identifier: ${identifier}`)
+      if (!matched) {
+        console.log(`   ⚠️  Unmatched row - Survey: "${surveyName}", Identifier: "${identifier}"`)
+      }
     }
   }
 
   return surveyFiles
+}
+
+// Helper function to parse CSV line respecting quotes
+function parseCSVLine(line) {
+  const result = []
+  let current = ''
+  let inQuotes = false
+  
+  for (let i = 0; i < line.length; i++) {
+    const char = line[i]
+    
+    if (char === '"') {
+      inQuotes = !inQuotes
+    } else if (char === ',' && !inQuotes) {
+      result.push(current.trim())
+      current = ''
+    } else {
+      current += char
+    }
+  }
+  
+  result.push(current.trim())
+  return result
 }
 
 /**
