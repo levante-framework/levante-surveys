@@ -9,7 +9,7 @@ export default defineConfig({
     viewportHeight: 720,
     video: false,
     screenshotOnRunFailure: true,
-    setupNodeEvents(on, config) {
+    setupNodeEvents(/* on, config */) {
       // implement node event listeners here
     },
   },

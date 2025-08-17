@@ -147,7 +147,7 @@ function updateMultilingualTexts(obj, translationsMap, elementName = '', results
 
   // Recursively search through object properties
   if (Array.isArray(obj)) {
-    obj.forEach((item, index) => {
+    obj.forEach((item, /* index */) => {
       let newElementName = elementName
       if (item && typeof item === 'object' && item.name) {
         newElementName = item.name

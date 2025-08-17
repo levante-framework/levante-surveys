@@ -4,10 +4,6 @@ import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import puppeteer from 'puppeteer'
-import {
-  isValidJsonLanguageKey,
-  getLanguageDisplayName
-} from '../src/constants/languages.js'
 
 // Get current directory
 const __filename = fileURLToPath(import.meta.url)

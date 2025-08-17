@@ -2,7 +2,7 @@
   <div class="survey-test-page">
     <h1>Survey Testing Page</h1>
     <p>This page is used for e2e testing of survey JSON files.</p>
-    
+
     <div class="controls">
       <select v-model="selectedSurvey" @change="loadSelectedSurvey">
         <option value="">Select a survey...</option>
@@ -10,7 +10,7 @@
           {{ survey.label }}
         </option>
       </select>
-      
+
       <select v-model="selectedLanguage" @change="changeLanguage">
         <option value="en">English</option>
         <option value="es">Spanish</option>
@@ -25,8 +25,8 @@
       </select>
     </div>
 
-    <div 
-      id="survey-container" 
+    <div
+      id="survey-container"
       data-testid="survey-container"
       class="survey-container"
     >
@@ -76,13 +76,13 @@ const loadSelectedSurvey = async () => {
 
   try {
     surveyError.value = null
-    
+
     // Load survey JSON
     const response = await fetch(`/surveys/${selectedSurvey.value}.json`)
     if (!response.ok) {
       throw new Error(`Failed to load survey: ${response.status}`)
     }
-    
+
     const surveyData = await response.json()
     loadSurvey(surveyData)
   } catch (error) {
@@ -102,30 +102,30 @@ const loadSurvey = async (surveyData) => {
   try {
     // Clear any existing survey
     clearSurvey()
-    
+
     // Dynamically import SurveyJS to avoid blocking component render
     const { Survey } = await import('survey-vue3-ui')
     const { Model } = await import('survey-core')
-    
+
     // Create new survey instance
     currentSurvey = new Model(surveyData)
-    
+
     // Set initial language
     currentSurvey.locale = selectedLanguage.value
-    
+
     // Add to window for Cypress access
     window.testSurvey = currentSurvey
-    
+
     // Render survey
     const surveyContainer = document.getElementById('survey-container')
     if (surveyContainer) {
       const surveyComponent = new Survey(currentSurvey)
       surveyComponent.render(surveyContainer)
     }
-    
+
     // Update survey info
     updateSurveyInfo()
-    
+
   } catch (error) {
     console.error('Error creating survey:', error)
     surveyError.value = error.message
@@ -137,11 +137,11 @@ const updateSurveyInfo = () => {
     surveyInfo.value = null
     return
   }
-  
+
   // Extract language information from survey data
   const surveyString = JSON.stringify(currentSurvey.toJSON())
   const languages = []
-  
+
   // Check for various language patterns
   if (surveyString.includes('"default":') || surveyString.includes('"en":')) languages.push('en')
   if (surveyString.includes('"es":')) languages.push('es')
@@ -153,7 +153,7 @@ const updateSurveyInfo = () => {
   if (surveyString.includes('"de_CH":')) languages.push('de_CH')
   if (surveyString.includes('"fr_CA":')) languages.push('fr_CA')
   if (surveyString.includes('"en_GH":')) languages.push('en_GH')
-  
+
   surveyInfo.value = {
     pageCount: currentSurvey.pages.length,
     questionCount: currentSurvey.getAllQuestions().length,
@@ -175,12 +175,12 @@ const clearSurvey = () => {
 
 onMounted(async () => {
   console.log('SurveyTestView mounted')
-  
+
   try {
     // Dynamically import SurveyJS for Cypress tests
     const { Survey } = await import('survey-vue3-ui')
     const { Model } = await import('survey-core')
-    
+
     // Expose SurveyJS for Cypress tests
     window.Survey = { Model }
     window.SurveyVue = Survey
@@ -190,7 +190,7 @@ onMounted(async () => {
     window.Survey = { Model: {} }
     window.SurveyVue = {}
   }
-  
+
   window.loadSurveyFromData = loadSurvey
   window.clearTestSurvey = clearSurvey
   window.getSurveyInfo = () => surveyInfo.value

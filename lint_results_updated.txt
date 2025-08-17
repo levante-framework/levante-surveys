@@ -1,0 +1,59 @@
+
+> levante-surveys@0.0.0 lint
+> eslint . --fix
+
+
+/home/david/levante/levante-surveys/cypress/e2e/survey-json-validation.cy.js
+   25:11  error  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+   31:13  error  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+   54:11  error  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+   81:11  error  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  119:11  error  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  121:13  error  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  123:15  error  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  124:15  error  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+/home/david/levante/levante-surveys/cypress/e2e/surveys.cy.js
+   55:11  error  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+   63:11  error  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+   83:11  error  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+   88:13  error  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+   94:11  error  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  212:9   error  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+/home/david/levante/levante-surveys/src/components/SurveyCreatorComponent.vue
+  26:10  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  30:30  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  87:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  96:31  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/david/levante/levante-surveys/src/helpers/surveyLoader.ts
+    6:9   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   43:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   60:71  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   66:42  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   80:23  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  102:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  140:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  152:38  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/david/levante/levante-surveys/src/stores/survey.ts
+   17:9   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   27:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   28:29  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   33:29  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   89:70  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  105:60  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  109:74  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  124:37  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/david/levante/levante-surveys/src/views/HomeView.vue
+   94:31  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  137:17  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  199:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/david/levante/levante-surveys/src/views/SurveyTestView.vue
+  54:1  error  The 'lang' attribute of '<script>' is missing  vue/block-lang
+
+✖ 38 problems (38 errors, 0 warnings)
+

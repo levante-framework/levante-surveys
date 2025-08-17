@@ -84,7 +84,7 @@ const surveyCreator = ref()
 
 // Computed properties from store
 const currentSurveyKey = computed(() => surveyStore.currentSurveyKey)
-const currentSurvey = computed(() => surveyStore.currentSurvey)
+// const currentSurvey = computed(() => surveyStore.currentSurvey)
 const surveyList = computed(() => surveyStore.surveyList)
 const isLoading = computed(() => surveyStore.isLoading)
 const error = computed(() => surveyStore.error)

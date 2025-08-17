@@ -116,7 +116,7 @@ export async function checkSurveyExists(surveyKey: SurveyFileKey): Promise<boole
   try {
     const response = await axios.head(url, { timeout: 5000 })
     return response.status === 200
-  } catch (error: any) {
+  } catch {
     return false
   }
 }

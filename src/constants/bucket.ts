@@ -32,7 +32,7 @@ export function getSurveyUrl(surveyKey: SurveyFileKey): string {
  * Get survey key from filename
  */
 export function getSurveyKeyFromFilename(filename: SurveyFileName): SurveyFileKey | null {
-  const entry = Object.entries(SURVEY_FILES).find(([_, value]) => value === filename)
+  const entry = Object.entries(SURVEY_FILES).find(([/* _ */, value]) => value === filename)
   return entry ? entry[0] as SurveyFileKey : null
 }
 

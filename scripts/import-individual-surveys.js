@@ -191,7 +191,7 @@ function updateMultilingualTexts(obj, translationsMap, elementName = '', results
   }
 
   // Recursively process nested objects and arrays
-  for (const [key, value] of Object.entries(obj)) {
+  for (const [/* key */, value] of Object.entries(obj)) {
     if (value && typeof value === 'object') {
       // Pass down the current element name for nested objects
       updateMultilingualTexts(value, translationsMap, currentElementName, results)
@@ -210,7 +210,7 @@ async function uploadToGCS(filePath, fileName) {
     const bucket = storage.bucket(BUCKET_NAME)
     console.log(`☁️  Uploading ${fileName} to gs://${BUCKET_NAME}/...`)
 
-    const [file] = await bucket.upload(filePath, {
+    const [/* file */] = await bucket.upload(filePath, {
       destination: fileName,
       metadata: {
         contentType: 'application/json',
@@ -320,7 +320,7 @@ async function importAllSurveys(shouldUpload = false) {
 
   console.log('🌍 Processing all survey translation files...\n')
 
-  for (const [csvFile, jsonFile] of Object.entries(SURVEY_CSV_MAPPING)) {
+  for (const [csvFile, /* jsonFile */] of Object.entries(SURVEY_CSV_MAPPING)) {
     const csvPath = path.join(surveysDir, csvFile)
 
     if (fs.existsSync(csvPath)) {

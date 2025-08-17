@@ -86,7 +86,7 @@ export const useSurveyStore = defineStore('survey', () => {
   })
 
   // Actions
-  const loadSurvey = async (surveyKey: SurveyFileKey): Promise<any> => {
+  const loadSurvey = async (/* surveyKey: SurveyFileKey */): Promise<any> => {
     isLoading.value = true
     error.value = null
 

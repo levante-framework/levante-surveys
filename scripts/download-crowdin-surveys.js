@@ -274,16 +274,15 @@ async function downloadCrowdinSurveys(options = {}) {
     console.log('📋 Downloading combined surveys file...')
     console.log(`   ⬇️  Source: ${CROWDIN_SOURCE_URL}`)
 
-    const tempPath = path.join(surveysDir, 'temp_surveys.csv')
-    await downloadFile(CROWDIN_SOURCE_URL, tempPath)
+    const surveysPath = path.join(surveysDir, 'surveys.csv')
+    await downloadFile(CROWDIN_SOURCE_URL, surveysPath)
 
     // Read and split the CSV content
     console.log('   🔀 Splitting into individual survey files...')
-    const csvContent = fs.readFileSync(tempPath, 'utf8')
+    const csvContent = fs.readFileSync(surveysPath, 'utf8')
     const surveyFiles = splitCombinedCSV(csvContent)
 
-    // Clean up temp file
-    fs.unlinkSync(tempPath)
+    // Keep the combined file for import scripts
 
     const results = []
 

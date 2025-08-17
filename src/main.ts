@@ -56,12 +56,12 @@ app.use(ToastService)
 app.use(ConfirmationService)
 
 // Register PrimeVue Components
-app.component('Button', Button)
-app.component('Card', Card)
-app.component('Toast', Toast)
-app.component('ConfirmDialog', ConfirmDialog)
-app.component('ProgressSpinner', ProgressSpinner)
-app.component('Divider', Divider)
+app.component('PvButton', Button)
+app.component('PvCard', Card)
+app.component('PvToast', Toast)
+app.component('PvConfirmDialog', ConfirmDialog)
+app.component('PvProgressSpinner', ProgressSpinner)
+app.component('PvDivider', Divider)
 
 // Register SurveyJS Creator plugin
 app.use(surveyCreatorPlugin)

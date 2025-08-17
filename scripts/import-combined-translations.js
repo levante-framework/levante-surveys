@@ -278,7 +278,7 @@ async function uploadToGCS(filePath, fileName) {
     console.log(`☁️  Uploading ${fileName} to gs://${BUCKET_NAME}/...`)
 
     // Upload file
-    const [file] = await bucket.upload(filePath, {
+    await bucket.upload(filePath, {
       destination: fileName,
       metadata: {
         contentType: 'application/json',
@@ -324,8 +324,6 @@ async function importSurveyTranslations(surveyKey, translations, outputDir, shou
     const translationsMapByElementAndEn = {}
     const translationsMapByElement = {}
 
-    const normalize = (s) => String(s || '').replace(/\r/g, '').trim()
-
     translations.forEach(translation => {
       const elementName = translation.elementName || getElementNameFromIdentifier(translation.identifier)
       if (!elementName) return
@@ -350,7 +348,7 @@ async function importSurveyTranslations(surveyKey, translations, outputDir, shou
       const isMeta = ['identifier', 'labels', 'elementName', 'context'].includes(col)
       const isLang = /^([a-z]{2})(?:-[A-Z]{2})?$/.test(col) || col === 'en'
       if (isMeta || !isLang) return
-      if (col === 'en' || col.startsWith('en-')) {
+      if (col === 'en') {
         langMap[col] = 'default'
       } else {
         // Preserve regional variants as separate language keys
@@ -459,7 +457,7 @@ async function importCombinedTranslations(csvFile, outputDir, shouldUpload = fal
       for (const surveyKey of Object.keys(SURVEY_FILES)) {
         // Skip if we already processed this survey
         if (grouped[surveyKey]) continue
-        
+
         const result = await importSurveyTranslations(surveyKey, unmapped, outputDir, shouldUpload)
         if (result && result.successful > 0) {
           results.push(result)

@@ -122,7 +122,7 @@ describe('Survey JSON Files E2E Tests', () => {
                   survey.locale = locale
                   // If no error thrown, the locale is supported
                   cy.log(`Regional locale ${locale} is supported`)
-                } catch (error) {
+                } catch {
                   // Some regional variants might fall back to base language
                   cy.log(`Regional locale ${locale} falls back to base language`)
                 }
