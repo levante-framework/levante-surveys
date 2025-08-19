@@ -1,0 +1,341 @@
+identifier,translation
+CaregiverSurveyIntroB,<block><b><font face=Verdana size=4>
+HomeNeighborhood,Please answer the following questions about the community in which you live.
+HomeNSCHi7a,"In your neighborhood, are there sidewalks or walking paths?"
+HomeNSCHi7a,Yes
+HomeNSCHi7a,No
+HomeNSCHi7b,"In your neighborhood, is there a park or playground?"
+HomeNSCHi7b,Yes
+HomeNSCHi7b,No
+HomeNSCHi7c,"In your neighborhood, is there a community center or recreation center where families get together?"
+HomeNSCHi7c,Yes
+HomeNSCHi7c,No
+HomeNSCHi7d,"In your neighborhood, is there a library or other place to get free books?"
+HomeNSCHi7d,Yes
+HomeNSCHi7d,No
+HomeNSCHi7e,"In your neighborhood, is there litter or garbage on the street or sidewalk?"
+HomeNSCHi7e,Yes
+HomeNSCHi7e,No
+HomeNSCHi7f,In your neighborhood is there poorly kept or rundown housing?
+HomeNSCHi7f,Yes
+HomeNSCHi7f,No
+HomeNSCHi7g,"In your neighborhood, is there vandalism such as broken windows or graffiti?"
+HomeNSCHi7g,Yes
+HomeNSCHi7g,No
+HomeNSCHi8items,To what extent do you agree with these statements about your neighborhood or community?
+HomeNSCHi8items,Definitely Agree
+HomeNSCHi8items,Somewhat Agree
+HomeNSCHi8items,Somewhat Disagree
+HomeNSCHi8items,Definitely Disagree
+HomeNSCHi8items,People in your neighborhood help each other out.
+HomeNSCHi8items,People in your neighborhood watch out for each other's children.
+HomeNSCHi8items,Your child is safe in your neighborhood.
+HomeNSCHi8items,"When you encounter difficulties, you know where to go for help in your community."
+HomeNSCHi8items,Your child is safe at school.
+HomeFood,"These are statements people have made about their food situation. For these statements, please mark whether the statement was often true, sometimes true, or never true for your household in the <b>last 12 months</b>."
+HomeFoodLast,"The food that we bought just didn't last, and we didn't have enough money to get more."
+HomeFoodLast,Never true
+HomeFoodLast,Sometimes true
+HomeFoodLast,Often true
+HomeFoodBalanced,We couldn't afford to eat balanced meals.
+HomeFoodBalanced,Never true
+HomeFoodBalanced,Sometimes true
+HomeFoodBalanced,Often true
+HomeFoodSkipMeal,"In the <b>last 12 months</b>, did you or other adults in your household ever cut the size of your meals or skip meals because there wasn't enough money for food?"
+HomeFoodSkipMeal,Yes
+HomeFoodSkipMeal,No
+HomeFoodSkipMealAmount,"If yes, how often did this happen - almost every month, some months but not every month, or in only 1 or 2 months?"
+HomeFoodSkipMealAmount,Almost every month
+HomeFoodSkipMealAmount,Some months but not every month
+HomeFoodSkipMealAmount,Only 1 or 2 months
+HomeCHAOS,Below are statements about the environment in your home. Please indicate how much you agree that the statement is true of your home.
+HomeCHAOS4,We are usually able to stay on top of things.
+HomeCHAOS4,Definitely Untrue
+HomeCHAOS4,Somewhat Untrue
+HomeCHAOS4,Somewhat True
+HomeCHAOS4,Definitely True
+HomeCHAOS10,You can't hear yourself think in our home.
+HomeCHAOS10,Definitely Untrue
+HomeCHAOS10,Somewhat Untrue
+HomeCHAOS10,Somewhat True
+HomeCHAOS10,Definitely True
+HomeCHAOS14,The atmosphere in our home is calm.
+HomeCHAOS14,Definitely Untrue
+HomeCHAOS14,Somewhat Untrue
+HomeCHAOS14,Somewhat True
+HomeCHAOS14,Definitely True
+HomeCHAOS15,We have a regular morning routine at home.
+HomeCHAOS15,Definitely Untrue
+HomeCHAOS15,Somewhat Untrue
+HomeCHAOS15,Somewhat True
+HomeCHAOS15,Definitely True
+SelfParentStressNSCHh8,How well do you think you are handling the day-to-day demands of raising children?
+SelfParentStressNSCHh8,Very well
+SelfParentStressNSCHh8,Somewhat well
+SelfParentStressNSCHh8,Not very well
+SelfParentStressNSCHh8,Not well at all
+SelfAnxDep,"Over the <b>last two weeks</b>, how often have you been bothered by the following problems?"
+SelfAnxDep,Not at all
+SelfAnxDep,Several days
+SelfAnxDep,More than half of the days
+SelfAnxDep,Nearly every day
+SelfAnxDep,"Feeling nervous, anxious, or on edge"
+SelfAnxDep,Not being able to stop or control worrying
+SelfAnxDep,"Feeling down, depressed, or hopeless"
+SelfAnxDep,Little interest or pleasure in doing things
+SelfSupport,We are interested in how you feel about the following statements. Read each statement carefully. Indicate how you feel about each statement.
+SelfSupport,Very Strongly Disagree
+SelfSupport,Strongly Disagree
+SelfSupport,Mildly Disagree
+SelfSupport,Mildly Agree
+SelfSupport,Strongly Agree
+SelfSupport,Very Strongly Agree
+SelfSupport,"There is a special person (ex: spouse, partner, etc.) who is around when I am in need."
+SelfSupport,"There is a special person (ex: spouse, partner, etc.) with whom I can share joys and sorrows."
+SelfSupport,My family really tries to help me.
+SelfSupport,I get the emotional help & support I need from my family.
+SelfSupport,"I have a special person (ex: spouse, partner, etc.) who is a real source of comfort to me."
+SelfSupport,My friends really try to help me.
+SelfSupport,I can count on my friends when things go wrong.
+SelfSupport,I can talk about my problems with my family.
+SelfSupport,I have friends with whom I can share my joys and sorrows.
+SelfSupport,"There is a special person (ex: spouse, partner, etc.) in my life who cares about my feelings."
+SelfSupport,My family is willing to help me make decisions.
+SelfSupport,I can talk about my problems with my friends.
+SelfDiscrim,In your day-to-day life how often have any of the following things happened to you?
+SelfDiscrim,Never
+SelfDiscrim,Less than once a year
+SelfDiscrim,A few times a year
+SelfDiscrim,A few times a month
+SelfDiscrim,At least once a week
+SelfDiscrim,Almost everyday
+SelfDiscrim,You are treated with less courtesy or respect than other people.
+SelfDiscrim,You receive poorer service than other people at restaurants or stores.
+SelfDiscrim,People act as if they think you are not smart.
+SelfDiscrim,People act as if they are afraid of you.
+SelfDiscrim,You are threatened or harassed.
+SelfLifeChanges,Please select Yes or No to indicate whether each event has happened to you <b>in the past year</b>.
+SelfLifeChangesHealth,Health:
+SelfLifeChanges1,"An injury or illness which kept you in bed a week or more, or sent you to the hospital."
+SelfLifeChanges1,Yes
+SelfLifeChanges1,No
+SelfLifeChanges2,An injury or illness which was less serious than above but still sent you to the doctor or kept you in bed for a day or two.
+SelfLifeChanges2,Yes
+SelfLifeChanges2,No
+SelfLifeChanges3,Major dental work.
+SelfLifeChanges3,Yes
+SelfLifeChanges3,No
+SelfLifeChanges4,Major change in eating habits.
+SelfLifeChanges4,Yes
+SelfLifeChanges4,No
+SelfLifeChanges5,Major change in sleeping habits.
+SelfLifeChanges5,Yes
+SelfLifeChanges5,No
+SelfLifeChanges6,Major change in your usual type and/or amount of recreation.
+SelfLifeChanges6,Yes
+SelfLifeChanges6,No
+SelfLifeChangesWork,Work:
+SelfLifeChanges7,Change to a new type of work.
+SelfLifeChanges7,Yes
+SelfLifeChanges7,No
+SelfLifeChanges8,Change in your work hours or conditions.
+SelfLifeChanges8,Yes
+SelfLifeChanges8,No
+SelfLifeChanges9,Change in your responsibilities at work (more responsibilities).
+SelfLifeChanges9,Yes
+SelfLifeChanges9,No
+SelfLifeChanges10,Change in your responsibilities at work (fewer responsibilities).
+SelfLifeChanges10,Yes
+SelfLifeChanges10,No
+SelfLifeChanges11,Change in your responsibilities at work (promotion).
+SelfLifeChanges11,Yes
+SelfLifeChanges11,No
+SelfLifeChanges12,Change in your responsibilities at work (demotion).
+SelfLifeChanges12,Yes
+SelfLifeChanges12,No
+SelfLifeChanges13,Change in your responsibilities at work (transfer).
+SelfLifeChanges13,Yes
+SelfLifeChanges13,No
+SelfLifeChanges14,Troubles at work (with your boss).
+SelfLifeChanges14,Yes
+SelfLifeChanges14,No
+SelfLifeChanges15,Troubles at work (with your coworkers).
+SelfLifeChanges15,Yes
+SelfLifeChanges15,No
+SelfLifeChanges16,Troubles at work (with persons under your supervision).
+SelfLifeChanges16,Yes
+SelfLifeChanges16,No
+SelfLifeChanges17,Other work problems.
+SelfLifeChanges17,Yes
+SelfLifeChanges17,No
+SelfLifeChanges18,Major business adjustment.
+SelfLifeChanges18,Yes
+SelfLifeChanges18,No
+SelfLifeChanges19,Retirement.
+SelfLifeChanges19,Yes
+SelfLifeChanges19,No
+SelfLifeChanges20,Loss of a job (laid off from work).
+SelfLifeChanges20,Yes
+SelfLifeChanges20,No
+SelfLifeChanges21,Loss of a job (fired from work).
+SelfLifeChanges21,Yes
+SelfLifeChanges21,No
+SelfLifeChanges22,Taking a course to help you with your work.
+SelfLifeChanges22,Yes
+SelfLifeChanges22,No
+SelfLifeChangesHome,Home and Family:
+SelfLifeChanges23,Major change in living conditions.
+SelfLifeChanges23,Yes
+SelfLifeChanges23,No
+SelfLifeChanges24,Change in residence (move within the same town or city).
+SelfLifeChanges24,Yes
+SelfLifeChanges24,No
+SelfLifeChanges25,"Change in residence (move to a different town, city, or state)."
+SelfLifeChanges25,Yes
+SelfLifeChanges25,No
+SelfLifeChanges26,Change in family get-togethers.
+SelfLifeChanges26,Yes
+SelfLifeChanges26,No
+SelfLifeChanges27,Major change in health or behavior of family member.
+SelfLifeChanges27,Yes
+SelfLifeChanges27,No
+SelfLifeChanges28,Marriage.
+SelfLifeChanges28,Yes
+SelfLifeChanges28,No
+SelfLifeChanges29,Pregnancy.
+SelfLifeChanges29,Yes
+SelfLifeChanges29,No
+SelfLifeChanges31,Gain of a new family member (birth of a child).
+SelfLifeChanges31,Yes
+SelfLifeChanges31,No
+SelfLifeChanges32,Gain of a new family member (adoption of a child).
+SelfLifeChanges32,Yes
+SelfLifeChanges32,No
+SelfLifeChanges33,Gain of a new family member (a relative moving in with you).
+SelfLifeChanges33,Yes
+SelfLifeChanges33,No
+SelfLifeChanges34,Spouse beginning or ending work.
+SelfLifeChanges34,Yes
+SelfLifeChanges34,No
+SelfLifeChanges35,Child leaving home (to attend college).
+SelfLifeChanges35,Yes
+SelfLifeChanges35,No
+SelfLifeChanges36,Child leaving home (due to marriage).
+SelfLifeChanges36,Yes
+SelfLifeChanges36,No
+SelfLifeChanges37,Child leaving home (for other reasons).
+SelfLifeChanges37,Yes
+SelfLifeChanges37,No
+SelfLifeChanges38,Change in arguments with spouse.
+SelfLifeChanges38,Yes
+SelfLifeChanges38,No
+SelfLifeChanges39,In-law problems.
+SelfLifeChanges39,Yes
+SelfLifeChanges39,No
+SelfLifeChanges40,Change to the marital status of your parents (divorce).
+SelfLifeChanges40,Yes
+SelfLifeChanges40,No
+SelfLifeChanges41,Change to the marital status of your parents (remarriage).
+SelfLifeChanges41,Yes
+SelfLifeChanges41,No
+SelfLifeChanges42,Separation from spouse (due to work).
+SelfLifeChanges42,Yes
+SelfLifeChanges42,No
+SelfLifeChanges43,Separation from spouse (due to marital problems).
+SelfLifeChanges43,Yes
+SelfLifeChanges43,No
+SelfLifeChanges44,Divorce.
+SelfLifeChanges44,Yes
+SelfLifeChanges44,No
+SelfLifeChanges45,Birth of a grandchild.
+SelfLifeChanges45,Yes
+SelfLifeChanges45,No
+SelfLifeChanges46,Death of a spouse.
+SelfLifeChanges46,Yes
+SelfLifeChanges46,No
+SelfLifeChanges47,Death of other family member (child).
+SelfLifeChanges47,Yes
+SelfLifeChanges47,No
+SelfLifeChanges48,Death of other family member (brother or sister).
+SelfLifeChanges48,Yes
+SelfLifeChanges48,No
+SelfLifeChanges49,Death of other family member (parent).
+SelfLifeChanges49,Yes
+SelfLifeChanges49,No
+SelfLifeChangesPersonal,Personal and Social:
+SelfLifeChanges50,Change in personal habits.
+SelfLifeChanges50,Yes
+SelfLifeChanges50,No
+SelfLifeChanges51,Beginning or ending school or college.
+SelfLifeChanges51,Yes
+SelfLifeChanges51,No
+SelfLifeChanges52,Change of school or college.
+SelfLifeChanges52,Yes
+SelfLifeChanges52,No
+SelfLifeChanges53,Change in political beliefs.
+SelfLifeChanges53,Yes
+SelfLifeChanges53,No
+SelfLifeChanges54,Change in religious beliefs.
+SelfLifeChanges54,Yes
+SelfLifeChanges54,No
+SelfLifeChanges55,Change in social activities.
+SelfLifeChanges55,Yes
+SelfLifeChanges55,No
+SelfLifeChanges56,Vacation.
+SelfLifeChanges56,Yes
+SelfLifeChanges56,No
+SelfLifeChanges57,"New, close, personal relationship."
+SelfLifeChanges57,Yes
+SelfLifeChanges57,No
+SelfLifeChanges58,Engagement to marry.
+SelfLifeChanges58,Yes
+SelfLifeChanges58,No
+SelfLifeChanges59,Girlfriend or boyfriend problems.
+SelfLifeChanges59,Yes
+SelfLifeChanges59,No
+SelfLifeChanges61,Falling out of a close personal relationship.
+SelfLifeChanges61,Yes
+SelfLifeChanges61,No
+SelfLifeChanges62,An accident.
+SelfLifeChanges62,Yes
+SelfLifeChanges62,No
+SelfLifeChanges63,Minor violation of the law.
+SelfLifeChanges63,Yes
+SelfLifeChanges63,No
+SelfLifeChanges65,Death of a close friend.
+SelfLifeChanges65,Yes
+SelfLifeChanges65,No
+SelfLifeChanges66,Major decision regarding your immediate future.
+SelfLifeChanges66,Yes
+SelfLifeChanges66,No
+SelfLifeChanges67,Major personal achievement.
+SelfLifeChanges67,Yes
+SelfLifeChanges67,No
+SelfLifeChangesFinancial,Financial:
+SelfLifeChanges68,Major change in finances (increased income).
+SelfLifeChanges68,Yes
+SelfLifeChanges68,No
+SelfLifeChanges69,Major change in finances (decreased income).
+SelfLifeChanges69,Yes
+SelfLifeChanges69,No
+SelfLifeChanges70,Major change in finances (investment and/or credit difficulties).
+SelfLifeChanges70,Yes
+SelfLifeChanges70,No
+SelfLifeChanges71,Loss or damage of personal property.
+SelfLifeChanges71,Yes
+SelfLifeChanges71,No
+SelfLifeChanges72,Moderate purchase.
+SelfLifeChanges72,Yes
+SelfLifeChanges72,No
+SelfLifeChanges73,Major purchase.
+SelfLifeChanges73,Yes
+SelfLifeChanges73,No
+SelfLifeChanges74,Foreclosure on a mortgage or loan.
+SelfLifeChanges74,Yes
+SelfLifeChanges74,No
+SelfMcArthurCountry,"<b>Instructions:</b> Think of this line as representing where people stand in the <i>country where you live</i>. To the <b>right</b> are the people who are the best off - those who have the most money, the most education, and the most respected jobs. To the <b>left</b> are the people who are the worst off - those who have the least money, the least education, the least respected jobs, or no job. The further to the right you are on the line, the closer you are to the people at the very top; the further to the left you are, the closer you are to the people at the very bottom.<br><b>Where would you place yourself on this line?</b><br>Move the slider to where you think you stand at this time in your life relative to other people in your country."
+SelfMcArthurCommunity,<b>Instructions:</b> Think of this line as representing where people stand in their <i>communities</i>. People define community in different ways; please define it in whatever way is most meaningful to you. To the <b>right</b> are people who have the highest standing in their community. To the <b>left</b> are the people who have the lowest standing in their community.<br><b>Where would you place yourself on this line?</b><br>Move the slider to where you think you stand at this time in your life relative to other people in your community.
+unknown,Start Survey
+unknown,Previous
+unknown,Next
+unknown,Finish

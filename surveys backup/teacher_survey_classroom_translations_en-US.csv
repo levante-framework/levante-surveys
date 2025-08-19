@@ -1,0 +1,121 @@
+identifier,translation
+TeacherSurveyIntro,"<b><font face=Verdana size=4>This is Part B of the survey.</b><br> <br> <p><font face=Verdana size=4>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>When you are ready to begin, select the “Next” button. <br><br><b><font face=Verdana size=4>Thank you!"
+TeacherNumberClasses,How many classrooms do you teach that contain students participating in this research project?
+TeacherOtherAdult,"Is there another adult who is paid to help you in this classroom (e.g., teaching assistant, co-lead teacher, etc.)?"
+TeacherOtherAdult,Yes
+TeacherOtherAdult,No
+TeacherStudentsEnroll,How many students are enrolled in this classroom?
+TeacherStudentsEnroll,number of students
+TeacherStudentsGender,How many children of each gender are in this class?
+TeacherStudentsGenderGirls,number
+TeacherStudentsGenderGirls,Girls
+TeacherStudentsGenderBoys,number
+TeacherStudentsGenderBoys,Boys
+TeacherStudentsGenderNonbinary,number
+TeacherStudentsGenderNonbinary,Nonbinary
+TeacherStudentsGenderOther,number
+TeacherStudentsGenderOther,Other
+TeacherStudentsAges,"As of today's date, how many children in this class are each of the following age levels?"
+TeacherStudentsAges5,number
+TeacherStudentsAges5,5 years old or younger
+TeacherStudentsAges6,number
+TeacherStudentsAges6,6 years old
+TeacherStudentsAges7,number
+TeacherStudentsAges7,7 years old
+TeacherStudentsAges8,number
+TeacherStudentsAges8,8 years old
+TeacherStudentsAges9,number
+TeacherStudentsAges9,9 years old
+TeacherStudentsAges10,number
+TeacherStudentsAges10,10 years old
+TeacherStudentsAges11,number
+TeacherStudentsAges11,11 years old
+TeacherStudentsAges12,number
+TeacherStudentsAges12,12 years old
+TeacherStudentsAges13,number
+TeacherStudentsAges13,13 years old or older
+TeacherMultigrade,Do you currently teach a multigrade class?
+TeacherMultigrade,Yes
+TeacherMultigrade,No
+TeacherMultigradeLevels,"If yes, what grade levels are included in the class you teach? (select all that apply)"
+TeacherMultigradeLevels,Prekindergarten
+TeacherMultigradeLevels,Transitional (or readiness) kindergarten
+TeacherMultigradeLevels,Kindergarten
+TeacherMultigradeLevels,1st Grade
+TeacherMultigradeLevels,2nd Grade
+TeacherMultigradeLevels,3rd Grade
+TeacherMultigradeLevels,4th Grade
+TeacherMultigradeLevels,5th Grade
+TeacherMultigradeLevels,6th Grade
+TeacherMultigradeLevels,7th Grade
+TeacherMultigradeLevels,8th Grade
+TeacherGradeLevel,What grade level do you teach?
+TeacherLanguageStudents,What languages are spoken by students in this class (select all that apply)?
+TeacherLanguageStudents,Arabic
+TeacherLanguageStudents,Chinese
+TeacherLanguageStudents,English
+TeacherLanguageStudents,French
+TeacherLanguageStudents,German
+TeacherLanguageStudents,Korean
+TeacherLanguageStudents,Spanish
+TeacherLanguageStudents,Tagalog
+TeacherLanguageStudents,Vietnamese
+TeacherLanguageTeachers,What languages do you or your assistant teacher speak <b>in the classroom</b> (select all that apply)?
+TeacherReadingBelow,About how many children in this classroom are BELOW grade level in their reading skills?
+TeacherReadingBelow,number of children
+TeacherReadingAbove,About how many children in this classroom are ABOVE grade level in their reading skills?
+TeacherReadingAbove,number of children
+TeacherMathBelow,About how many children in this classroom are BELOW grade level in their math skills?
+TeacherMathBelow,number of children
+TeacherMathAbove,About how many children in this classroom are ABOVE grade level in their math skills?
+TeacherMathAbove,number of children
+TeacherReadingFrequency,"How often each week do children in this class usually work on lessons or projects in Reading and Language Arts, whether as a whole class, in small groups, or in individualized arrangements ?"
+TeacherReadingFrequency,
+TeacherReadingFrequency,Less than once per week
+TeacherReadingFrequency,1 -2 times per week
+TeacherReadingFrequency,3 - 4 times per week
+TeacherReadingFrequency,
+TeacherReadingTime,"How much time per day do children in this class usually work on lessons or projects in Reading and Language Arts, whether as a whole class, in small groups, or in individualized arrangements?"
+TeacherReadingTime,1 - 30 minutes a day
+TeacherReadingTime,31 - 60 minutes a day
+TeacherReadingTime,61 - 90 minutes a day
+TeacherReadingTime,More than 90 minutes a day
+TeacherMathFrequency,"How often each week do children in this class usually work on lessons or projects in Mathematics, whether as a whole class, in small groups, or in individualized arrangements?"
+TeacherMathFrequency,Never
+TeacherMathFrequency,Less than once per week
+TeacherMathFrequency,1 -2 times per week
+TeacherMathFrequency,3 - 4 times per week
+TeacherMathFrequency,Daily
+TeacherMathTime,"How much time per day do children in this class usually work on lessons or projects in Mathematics, whether as a whole class, in small groups, or in individualized arrangements?"
+TeacherMathTime,1 - 30 minutes a day
+TeacherMathTime,31 - 60 minutes a day
+TeacherMathTime,61 - 90 minutes a day
+TeacherMathTime,More than 90 minutes a day
+TeacherFamilySupport,Think about the families of the children in this class who you have taught this school year. For about how many families are each of the following statements true?
+TeacherFamilyOverwhelm,Families seem overwhelmed by trying to support their children's learning.
+TeacherFamilyOverwhelm,None
+TeacherFamilyOverwhelm,One or a few
+TeacherFamilyOverwhelm,Many
+TeacherFamilyOverwhelm,All or almost all
+TeacherFamilyHelping,Families are doing their part to support children's learning.
+TeacherFamilyHelping,None
+TeacherFamilyHelping,One or a few
+TeacherFamilyHelping,Many
+TeacherFamilyHelping,All or almost all
+TeacherComm,Please indicate how satisfied or dissatisfied you have been with the following this school year.
+TeacherCommFamily,Communication between you and families.
+TeacherCommFamily,Not satisfied at all
+TeacherCommFamily,Slightly satisfied
+TeacherCommFamily,Moderately satisfied
+TeacherCommFamily,Quite satisfied
+TeacherCommFamily,Very satisfied
+TeacherCommStudents,Communication between you and your students.
+TeacherCommStudents,Not satisfied at all
+TeacherCommStudents,Slightly satisfied
+TeacherCommStudents,Moderately satisfied
+TeacherCommStudents,Quite satisfied
+TeacherCommStudents,Very satisfied
+unknown,Start Survey
+unknown,Previous
+unknown,Next
+unknown,Finish

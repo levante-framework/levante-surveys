@@ -18,6 +18,7 @@ files:
         fr: 7
         fr-CA: 8
         nl: 9
+        en-US: 11
   - source: 'surveys/parent_survey_family_translations.csv'
     translation: '/surveys/parent_survey_family_translations_%locale%.csv'
     first_line_contains_header: true
@@ -33,6 +34,7 @@ files:
         fr: 7
         fr-CA: 8
         nl: 9
+        en-US: 11
   - source: 'surveys/parent_survey_child_translations.csv'
     translation: '/surveys/parent_survey_child_translations_%locale%.csv'
     first_line_contains_header: true
@@ -48,6 +50,7 @@ files:
         fr: 7
         fr-CA: 8
         nl: 9
+        en-US: 11
   - source: 'surveys/teacher_survey_general_translations.csv'
     translation: '/surveys/teacher_survey_general_translations_%locale%.csv'
     first_line_contains_header: true
@@ -63,6 +66,7 @@ files:
         fr: 7
         fr-CA: 8
         nl: 9
+        en-US: 11
   - source: 'surveys/teacher_survey_classroom_translations.csv'
     translation: '/surveys/teacher_survey_classroom_translations_%locale%.csv'
     first_line_contains_header: true
@@ -78,3 +82,4 @@ files:
         fr: 7
         fr-CA: 8
         nl: 9
+        en-US: 11

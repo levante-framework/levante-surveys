@@ -1,0 +1,708 @@
+identifier,translation
+CaregiverSurveyIntroA,<block><b><font face=Verdana size=4>
+CaregiverSectionIntro1,<block><b><font face=Verdana size=4>This section asks general information questions and questions about your child's health.
+CaregiverSectionIntro1,<block><b><font face=Verdana size=4>This section asks general information questions and questions about your child's health.
+RespondentRelationship,Please indicate your relationship to the child participating in this research project.
+RespondentRelationship,Biological or Adoptive Mother
+RespondentRelationship,Biological or Adoptive Father
+RespondentRelationship,Step-mother
+RespondentRelationship,Step-father
+RespondentRelationship,
+RespondentRelationship,
+RespondentRelationship,Foster Parent
+RespondentRelationship,Other Relative
+RespondentRelationship,Other Non-Relative
+RespondentRelationshipOtherSpecify,Please specify your relationship to the child.
+RespondentTimeCaring,Please indicate for how long you have been caring for this child.
+RespondentTimeCaring,years
+RespondentTimeCaring,years
+RespondentTimeCaringYears,months
+RespondentTimeCaringYears,months
+ChildAgeYears,What is your child's current age in years?
+ChildAgeYears,years of age
+ChildHeightCurrent,What is your child's CURRENT height? (please estimate to the best of your knowledge)
+ChildHeightCurrentFeet,meters
+ChildHeightCurrentFeet,meters
+ChildHeightCurrentInches,centimeters
+ChildHeightCurrentInches,centimeters
+ChildWeightCurrent,What is your child's CURRENT weight? (please estimate to the best of your knowledge)
+ChildWeightCurrentPounds,pounds
+ChildWeightCurrentPounds,pounds
+ChildBornEarly,Was your child born early (more than three weeks before due date)?
+ChildBornEarly,
+ChildBornEarly,
+ChildBornEarly,Don't know
+ChildWeightBirth,"How much did your child weigh at birth? (if you do not know, leave blank)"
+ChildWeightBirth,Grams
+ChildHealth,"In general, how would you describe your child's health?"
+ChildHealth,Excellent
+ChildHealth,Very Good
+ChildHealth,Good
+ChildHealth,Fair
+ChildHealth,Poor
+ChildTeeth,How would you describe the condition of your child's teeth?
+ChildTeeth,Excellent
+ChildTeeth,Very Good
+ChildTeeth,Good
+ChildTeeth,Fair
+ChildTeeth,Poor
+ChildPhysicalActivity,"<b>DURING THE PAST WEEK</b>, on how many days did your child exercise, play a sport, or participate in physical activity (either in school or outside of school) for at least 60 minutes?"
+ChildPhysicalActivity,0 days
+ChildPhysicalActivity,1 - 3 days
+ChildPhysicalActivity,4 - 6 days
+ChildPhysicalActivity,Every day
+ChildChronicHealth,"<b>DURING THE PAST 12 MONTHS</b>, has your child had FREQUENT or CHRONIC difficulty with any of the following?"
+ChildBreathing,Breathing or other respiratory problems (such as wheezing or shortness of breath)
+ChildBreathing,
+ChildBreathing,
+ChildBreathing,Don't know
+ChildEating,Eating or swallowing because of a health condition
+ChildEating,
+ChildEating,
+ChildEating,Don't know
+ChildDigestion,"Digesting food, including stomach/intestinal problems, constipation, or diarrhea"
+ChildDigestion,
+ChildDigestion,
+ChildDigestion,Don't know
+ChildPain,"Repeated or chronic physical pain, including headaches or other back or body pain"
+ChildPain,
+ChildPain,
+ChildPain,Don't know
+ChildToothache,Toothaches
+ChildToothache,
+ChildToothache,
+ChildToothache,Don't know
+ChildGums,Bleeding gums
+ChildGums,
+ChildGums,
+ChildGums,Don't know
+ChildCavities,Decayed teeth or cavities
+ChildCavities,
+ChildCavities,
+ChildCavities,Don't know
+ChildHealthOther,Does your child have any of the following?
+ChildConcentration,"Serious difficulty concentrating, remembering, or making decisions because of a physical, mental, or emotional condition"
+ChildConcentration,
+ChildConcentration,
+ChildConcentration,Don't know
+ChildStairs,Serious difficulty walking or climbing stairs
+ChildStairs,Yes
+ChildStairs,No
+ChildDressBathe,Difficulty dressing or bathing
+ChildDressBathe,Yes
+ChildDressBathe,No
+ChildHearing,Deafness or problems with hearing
+ChildHearing,Yes
+ChildHearing,No
+ChildEyesight,"Blindness or problems with seeing, even when wearing glasses"
+ChildEyesight,Yes
+ChildEyesight,No
+ChildVisionHearingOther,"Does your child have any other vision or hearing issues (e.g., frequent ear infections; nearsighted or farsighted)?"
+ChildVisionHearingOther,Yes
+ChildVisionHearingOther,No
+ChildVisionHearingExp,"If yes, please explain:"
+ChildGenetic,Has a doctor or other health care provider <b>EVER</b> told you that your child has a genetic or inherited condition?
+ChildGenetic,
+ChildGenetic,
+ChildGenetic,Don't know
+ChildGenetic,Prefer not to respond
+ChildGeneticExp,"If yes, please note or explain the condition:"
+ChildHealthConditions,"Has a doctor or other health care provider, or educator <b>EVER</b> told you that your child has any of the following:"
+ChildConduct,Behavioral or Conduct Problems
+ChildConduct,No
+ChildConduct,Yes
+ChildConduct,Don't know
+ChildConduct,Prefer not to respond
+ChildConductCurrent,Does your child <b>CURRENTLY</b > have Behavioral or Conduct Problems?
+ChildConductCurrent,Yes
+ChildConductCurrent,No
+ChildConductLevel,"Are the current Behavioral or Conduct Problems, Mild, Moderate, or Severe?"
+ChildConductLevel,Mild
+ChildConductLevel,Moderate
+ChildConductLevel,Severe
+ChildDevDelay,Developmental Delay
+ChildDevDelay,
+ChildDevDelay,
+ChildDevDelay,Don't know
+ChildDevDelay,Prefer not to respond
+ChildDevDelayCurrent,Does your child <b>CURRENTLY</b > have Developmental Delay?
+ChildDevDelayCurrent,Yes
+ChildDevDelayCurrent,No
+ChildDevDelayLevel,"Are the current Developmental Delays, Mild, Moderate, or Severe?"
+ChildDevDelayLevel,Mild
+ChildDevDelayLevel,Moderate
+ChildDevDelayLevel,Severe
+ChildIntellDis,Intellectual Disability
+ChildIntellDis,
+ChildIntellDis,
+ChildIntellDis,Don't know
+ChildIntellDis,Prefer not to respond
+ChildIntellDisCurrent,Does your child <b>CURRENTLY</b > have an Intellectual Disability?
+ChildIntellDisCurrent,Yes
+ChildIntellDisCurrent,No
+ChildIntellDisLevel,"Is the current Intellectual Disability, Mild, Moderate, or Severe?"
+ChildIntellDisLevel,Mild
+ChildIntellDisLevel,Moderate
+ChildIntellDisLevel,Severe
+ChildSpeechLang,Speech or other language disorder
+ChildSpeechLang,
+ChildSpeechLang,
+ChildSpeechLang,Don't know
+ChildSpeechLang,Prefer not to respond
+ChildSpeechLangCurrent,Does your child <b>CURRENTLY</b > have a Speech or other language disorder?
+ChildSpeechLangCurrent,Yes
+ChildSpeechLangCurrent,No
+ChildSpeechLangLevel,"Is the current Speech or other language disorder, Mild, Moderate, or Severe?"
+ChildSpeechLangLevel,Mild
+ChildSpeechLangLevel,Moderate
+ChildSpeechLangLevel,Severe
+ChildLearnDis,Learning Disability
+ChildLearnDis,
+ChildLearnDis,
+ChildLearnDis,Don't know
+ChildLearnDis,Prefer not to respond
+ChildLearnDisCurrent,Does your child <b>CURRENTLY</b > have a Learning Disability?
+ChildLearnDisCurrent,Yes
+ChildLearnDisCurrent,No
+ChildLearnDisLevel,"Is the current Learning Disability, Mild, Moderate, or Severe?"
+ChildLearnDisLevel,Mild
+ChildLearnDisLevel,Moderate
+ChildLearnDisLevel,Severe
+ChildAutism,Autism Spectrum Disorder (ASD) <br>(includes Asperger's Disorder or Pervasive Developmental Disorder (PDD))
+ChildAutism,
+ChildAutism,
+ChildAutism,Don't know
+ChildAutism,Prefer not to respond
+ChildAutismCurrent,Does your child <b>CURRENTLY</b > have an Autism Spectrum Disorder (ASD) (includes Asperger's Disorder or Pervasive Developmental Disorder (PDD))?
+ChildAutismCurrent,Yes
+ChildAutismCurrent,No
+ChildAutismLevel,"Is the current Autism Spectrum Disorder (includes Asperger's Disorder or Pervasive Developmental Disorder), Mild, Moderate, or Severe?"
+ChildAutismLevel,Mild
+ChildAutismLevel,Moderate
+ChildAutismLevel,Severe
+ChildADHD,Attention Deficit Disorder or Attention Deficit Hyperactivity Disorder (ADD or ADHD)
+ChildADHD,
+ChildADHD,
+ChildADHD,Don't know
+ChildADHD,Prefer not to respond
+ChildADHDCurrent,Does your child <b>CURRENTLY</b > have Attention Deficit Disorder or Attention Deficit Hyperactivity Disorder (ADD or ADHD)?
+ChildADHDCurrent,Yes
+ChildADHDCurrent,No
+ChildADHDLevel,"Is the current Attention Deficit Disorder or Attention Deficit Hyperactivity Disorder (ADD or ADHD), Mild, Moderate, or Severe?"
+ChildADHDLevel,Mild
+ChildADHDLevel,Moderate
+ChildADHDLevel,Severe
+ChildSexBirth,What was your child's sex at birth (i.e. on their birth certificate)?
+ChildSexBirth,
+ChildSexBirth,
+ChildSexBirth,Other (describe)
+ChildGenderIntro,The following set of questions asks about gender identity. <br><br>Would you like to answer these additional questions about gender? <br>(Note: your child will NOT be asked these questions)
+ChildGenderCurrent,What is your child's current gender identification?
+ChildGenderCurrent,What is your child's current gender identification?
+ChildGenderCurrent,What is your child's current gender identification?
+ChildGenderCurrent,What is your child's current gender identification?
+ChildBehGirls,"Over the last year, how frequently did your child engage in behaviors or express preferences that are more commonly associated with girls?"
+ChildBehGirls,Never
+ChildBehGirls,Rarely
+ChildBehGirls,Sometimes
+ChildBehGirls,Often
+ChildBehGirls,Always
+ChildBeGirl,"Over the last year, how frequently did your child state that they are, or want to be, a girl?"
+ChildBeGirl,Never
+ChildBeGirl,Rarely
+ChildBeGirl,Sometimes
+ChildBeGirl,Often
+ChildBeGirl,Always
+ChildBehBoys,"Over the last year, how frequently did your child engage in behaviors or express preferences that are more commonly associated with boys?"
+ChildBehBoys,Never
+ChildBehBoys,Rarely
+ChildBehBoys,Sometimes
+ChildBehBoys,Often
+ChildBehBoys,Always
+ChildBeBoy,"Over the last year, how frequently did your child state that they are, or want to be, a boy?"
+ChildBeBoy,Never
+ChildBeBoy,Rarely
+ChildBeBoy,Sometimes
+ChildBeBoy,Often
+ChildBeBoy,Always
+ChildPubertyYN,Has your child begun to show signs of puberty (even if very early)?
+ChildPubertyYN,Yes
+ChildPubertyYN,No
+ChildPubertyFemale,"For each question, please select the answer that best describes what is happening to your child right now."
+ChildPubertyGrowthFemale,Would you say that your child's growth in height (getting taller):
+ChildPubertyGrowthFemale,Has not yet begun to spurt (spurt means more growth than usual)
+ChildPubertyGrowthFemale,Has barely started to spurt
+ChildPubertyGrowthFemale,Has definitely started to happen but is not finished
+ChildPubertyGrowthFemale,Seems completed (child is about as tall as she is going to get)
+ChildPubertyHairFemale,How about the growth of body hair (e.g. under arms)? Would you say your child's body hair:
+ChildPubertyHairFemale,Has not started growing
+ChildPubertyHairFemale,Has barely started growing
+ChildPubertyHairFemale,Has definitely started growing but is not finished
+ChildPubertyHairFemale,Seems completed (child has as much body hair as she is going to get)
+ChildPubertySkinFemale,"Have you noticed any skin changes, especially pimples?"
+ChildPubertySkinFemale,Not yet started showing changes
+ChildPubertySkinFemale,Have barely started showing changes
+ChildPubertySkinFemale,Skin changes have definitely started but are not finished
+ChildPubertySkinFemale,Skin changes seem completed
+ChildPubertyBreastFemale,Have your child's breasts begun to grow?
+ChildPubertyBreastFemale,Not yet started growing
+ChildPubertyBreastFemale,Have barely started growing
+ChildPubertyBreastFemale,Breast growth has definitely started but is not finished
+ChildPubertyBreastFemale,Breast growth seems completed
+ChildPubertyMenstruate,Has your child begun to menstruate?
+ChildPubertyMenstruate,Yes
+ChildPubertyMenstruate,No
+ChildPubertyMenstruateAge,"If yes, how old was your child when she first got her period?"
+ChildPubertyMenstruateAge,years of age
+ChildPubertyMale,"For each question, please select the answer that best describes what is happening to your child right now."
+ChildPubertyGrowthMale,Would you say that your child's growth in height (getting taller):
+ChildPubertyGrowthMale,Has not yet begun to spurt (spurt means more growth than usual)
+ChildPubertyGrowthMale,Has barely started to spurt
+ChildPubertyGrowthMale,Has definitely started to happen but is not finished
+ChildPubertyGrowthMale,Seems completed (child is about as tall as she is going to get)
+ChildPubertyHairMale,How about the growth of body hair (e.g. under arms)? Would you say your child's body hair:
+ChildPubertyHairMale,Has not started growing
+ChildPubertyHairMale,Has barely started growing
+ChildPubertyHairMale,Has definitely started growing but is not finished
+ChildPubertyHairMale,Seems completed (child has as much body hair as she is going to get)
+ChildPubertySkinMale,"Have you noticed any skin changes, especially pimples?"
+ChildPubertySkinMale,Not yet started showing changes
+ChildPubertySkinMale,Have barely started showing changes
+ChildPubertySkinMale,Skin changes have definitely started but are not finished
+ChildPubertySkinMale,Skin changes seem completed
+ChildPubertyVoiceMale,Has your child's voice started to change?
+ChildPubertyVoiceMale,Not yet started to change
+ChildPubertyVoiceMale,Has barely started changing
+ChildPubertyVoiceMale,Voice change is definitely happening but is not finished
+ChildPubertyVoiceMale,Voice change seems completed
+ChildPubertyFaceHairMale,Has your child started to grow facial hair (beard or mustache)?
+ChildPubertyFaceHairMale,Not yet started growing facial hair
+ChildPubertyFaceHairMale,Has barely started growing facial hair
+ChildPubertyFaceHairMale,Hair growth has definitely started (enough to shave)
+ChildPubertyFaceHairMale,Probably grows now as fast as it will ever grow
+ChildSleep,Please respond to each statement about your child's sleep habits.
+ChildSleepHabits,In the <b>past 7 days</b>....
+ChildSleepHabits,Rarely (0-1 times per week)
+ChildSleepHabits,Sometimes (2-4 times per week)
+ChildSleepHabits,Usually (5 or more times per week)
+ChildSleepHabits,Your child had a hard time falling asleep (did not fall asleep within 20 minutes of going to bed).
+ChildSleepHabits,Your child had difficulty sleeping through the night (woke up once or more during the night).
+ChildSleepHabits,Your child went to bed at about the same time on the weeknights (Monday-Friday).
+ChildSleepHours,"<b>DURING THE PAST WEEK</b>, about how many hours of sleep per night did your child usually get on the weeknights (Monday-Friday)?"
+ChildSleepHours,Less than 6 hours
+ChildSleepHours,6 hours
+ChildSleepHours,7 hours
+ChildSleepHours,8 hours
+ChildSleepHours,9 hours
+ChildSleepHours,10 hours
+ChildSleepHours,11 hours or more
+CaregiverSectionIntro2,<block><b><font face=Verdana size=4>This section asks about your child's behavior and social interaction.
+ChildSDQitems,"For each item, please mark Not at all, Not very well, Somewhat well, or Very well to indicate <i>how well</i> the sentence applies to your child. Please answer all items as best you can even if you are not absolutely certain."
+ChildSDQitems,Not at all
+ChildSDQitems,Not very well
+ChildSDQitems,Somewhat well
+ChildSDQitems,Very well
+ChildSDQitems,Your child has difficulty staying still or shows periods of over-activity.
+ChildSDQitems,"Your child often complains about feeling sick (ex: headache, stomach ache)."
+ChildSDQitems,Your child avoids others or prefers to spend time alone.
+ChildSDQitems,Your child is often worried or anxious.
+ChildSDQitems,You child frequently fidgets.
+ChildSDQitems,Your child has one (or more) good friends.
+ChildSDQitems,"You child often seems sad, depressed, or down."
+ChildSDQitems,Your child gets along with other children.
+ChildSDQitems,Your child gets distracted easily or has trouble staying on task.
+ChildSDQitems,Your child is shy or clingy.
+ChildSDQitems,Your child treats younger children nicely.
+ChildSDQitems,"Your child often shows dishonest behavior (e.g. lying, cheating)."
+ChildSDQitems,"Your child has taken things without permission from home, school, or elsewhere."
+ChildSDQitems,Your child prefers adults to children.
+ChildSDQitems,Your child is often nervous or fearful.
+ChildSCSitems,Please indicate <i>how well</i> each statement describes your child.
+ChildSCSitems,Not at all
+ChildSCSitems,Not very well
+ChildSCSitems,Somewhat well
+ChildSCSitems,Very well
+ChildSCSitems,Your child accepts things when they do not go their way.
+ChildSCSitems,Your child copes well with failure.
+ChildSCSitems,Your child thinks before acting.
+ChildSCSitems,Your child resolves problems with friends on their own.
+ChildSCSitems,Your child can calm down when excited.
+ChildSCSitems,Your child does what they are told to do.
+ChildSCSitems,Your child is good at understanding others' feelings.
+ChildSCSitems,Your child controls their temper when there is a disagreement.
+ChildSCSitems,Your child shares things with others.
+ChildSCSitems,Your child is helpful to others.
+ChildSCSitems,Your child listens to others' points of view.
+ChildSCSitems,Your child can give suggestions without being bossy.
+ChildCBQitems,Please indicate <i>how well</i> each statement describes your child.
+ChildCBQitems,Not at all
+ChildCBQitems,Not very well
+ChildCBQitems,Somewhat well
+ChildCBQitems,Very well
+ChildCBQitems,Your child understands others' feelings.
+ChildCBQitems,Your child is socially aware of what is happening in a situation.
+ChildCBQitems,Your child accurately interprets what a peer is trying to do.
+ChildCBQitems,Your child exhibits good self-control in responding.
+ChildCBQitems,Your child generates <i>many</i> solutions to interpersonal problems.
+ChildCBQitems,Your child generates <i>good quality</i> solutions to interpersonal problems.
+ChildCBQitems,Your child is aware of the effects of his/her behavior on others.
+ChildCBQitems,Your child tries to make sad people happier.
+ChildCBQitems,Your child helps others with their homework.
+ChildCBQitems,Your child lets others use her/his toys or items.
+ChildJukesItems,Please indicate <i>how well</i> each statement describes your child.
+ChildJukesItems,Not at all
+ChildJukesItems,Not very well
+ChildJukesItems,Somewhat well
+ChildJukesItems,Very well
+ChildJukesItems,Your child is curious to investigate and understand new things.
+ChildJukesItems,Your child is able to make observations and deductions before being told an answer.
+ChildJukesItems,Your child gives unique responses that go beyond those of other children.
+ChildJukesItems,Your child often wants to learn new things.
+ChildJukesItems,Your child investigates new objects that appear in the household or community spaces.
+ChildJukesItems,Your child likes to ask many questions.
+ChildJukesItems,"If your child makes a mistake, they ask forgiveness."
+ChildJukesItems,Your child often plans their own tasks well.
+ChildJukesItems,Your child completes their own work without being asked or reminded to do so.
+ChildJukesItems,Your child works diligently when trying to complete tasks or chores.
+ChildJukesItems,"If your child cannot do something, they try again."
+ChildJukesItems,Your child likes to finish tasks properly.
+ChildJukesItems,Your child is slow and unhurried in deciding what to do next.
+ChildJukesItems,Your child continues with a task even when it is tiring.
+ChildJukesItems,Your child easily agrees to do tasks or errands.
+ChildJukesItems,Your child willingly follows instructions.
+ChildJukesItems,"When your child is directed to complete a task, they do it enthusiastically."
+ChildJukesItems,"When your child is sent to complete an errand, they return on time. (if this item does not apply to your child, please leave it blank)"
+ChildJukesItems,"If your child is told to do a chore, they do it."
+ChildJukesItems,Your child is respectful towards adults.
+ChildFriends,"Compared to other children their age, how much difficulty does your child have making or keeping friends?"
+ChildFriends,No difficulty
+ChildFriends,A little difficulty
+ChildFriends,A lot of difficulty
+ChildBullied,"DURING THE <b>PAST 12 MONTHS</b>, how often was your child bullied, picked on, or excluded by other children? If the frequency changed throughout the year, report the highest frequency."
+ChildBullied,Never (in the past 12 months)
+ChildBullied,1 - 2 times (in the past 12 months)
+ChildBullied,1 - 2 times per month
+ChildBullied,1 - 2 times per week
+ChildBullied,Almost every day
+ChildBullyOthers,"DURING THE <b>PAST 12 MONTHS</b>, how often did your child bully others, pick on them, or exclude them? If the frequency changed throughout the year, report the highest frequency."
+ChildBullyOthers,Never (in the past 12 months)
+ChildBullyOthers,1 - 2 times (in the past 12 months)
+ChildBullyOthers,1 - 2 times per month
+ChildBullyOthers,1 - 2 times per week
+ChildBullyOthers,Almost every day
+CaregiverSectionIntro3,<block><b><font face=Verdana size=4>This section asks questions related to learning.
+ChildELSitems,"If your child is in primary/elementary school (first grade or higher), think about the time before they started primary/elementary school. If your child has not yet started primary/elementary school, think about what happens right now."
+<br><br>,
+<b>How often did/do you or someone else in your home do the following activities with your child?</b>,
+ChildELSitems,Never or almost never
+ChildELSitems,Sometimes
+ChildELSitems,Often
+ChildELSitems,Read books
+ChildELSitems,Tell stories
+ChildELSitems,Sing songs
+ChildELSitems,"Play with alphabet toys (e.g., blocks with letters of the alphabet)"
+ChildELSitems,Talk about things you had done
+ChildELSitems,Talk about what you had read
+ChildELSitems,Play word games
+ChildELSitems,Write letters or words
+ChildELSitems,Read aloud signs and labels
+ChildELSitems,Say counting rhymes or sing counting songs
+ChildELSitems,"Play with number toys (e.g., blocks with numbers)"
+ChildELSitems,Count different things
+ChildELSitems,"Play games involving shapes (e.g., shape sorting toys, puzzles)"
+ChildELSitems,Play with building blocks or construction toys
+ChildELSitems,Play board or card games
+ChildELSitems,Write numbers
+ChildELSitems,Draw shapes
+ChildELSitems,"Measure or weigh things (e.g., when cooking)"
+ChildAttendEC,Did your child attend an early childhood education program or center for children <b>under age 3</b> before first grade?
+ChildAttendEC,Yes
+ChildAttendEC,No
+ChildAttendKinder,"Did your child attend a pre-primary educational program for children <b>age 3 or older</b>, <i>including kindergarten</i>, before first grade?"
+ChildAttendKinder,Yes
+ChildAttendKinder,No
+ChildAttendECKinderTime,Approximately how long was your child in these programs <i>all together</i> (before first grade)?
+ChildAttendECKinderTime,Did not attend
+ChildAttendECKinderTime,Less than 1 year
+ChildAttendECKinderTime,1 year
+ChildAttendECKinderTime,2 years
+ChildAttendECKinderTime,3 years
+ChildAttendECKinderTime,4 years or more
+ChildAttendPrimaryAge,How old was your child when he/she began the first grade of primary/elementary school?
+ChildAttendPrimaryAge,5 years old or younger
+ChildAttendPrimaryAge,6 years old
+ChildAttendPrimaryAge,7 years old
+ChildAttendPrimaryAge,8 years old or older
+ChildEdAchieve,How far in his/her education do you expect your child to go?
+ChildEdAchieve,Less than high school
+ChildEdAchieve,GED or high school equivalency
+ChildEdAchieve,Some college but no degree
+ChildEdAchieve,High school diploma (or equivalent) plus technical training or certificate
+ChildEdAchieve,Associate's degree
+ChildEdAchieve,Bachelor's degree
+ChildEdAchieve,Master's degree
+ChildEdAchieve,Doctoral degree
+ChildSchoolItems,How often does your child do the following:
+ChildSchoolItems,Never
+ChildSchoolItems,Sometimes
+ChildSchoolItems,Usually
+ChildSchoolItems,Always
+ChildSchoolItems,Show interest and curiosity in new topics at school?
+ChildSchoolItems,Work to finish school-related tasks they start?
+ChildSchoolItems,Stay calm and in control when faced with an academic challenge?
+ChildSchoolItems,Care about doing well in school?
+ChildSchoolItems,Do all required homework?
+ChildDeviceUse,"<b>ON MOST WEEKDAYS</b> (Monday-Friday), about how much time does your child spend in front of a TV, computer, cellphone, or other device watching programs, playing games, accessing the internet, or using social media? <i>Do not include time spent doing schoolwork.</i>"
+ChildDeviceUse,Less than 1 hour
+ChildDeviceUse,1 hour
+ChildDeviceUse,2 hours
+ChildDeviceUse,3 hours
+ChildDeviceUse,4 or more hours
+ChildPhone,Does your child have a smartphone?
+ChildPhone,Yes
+ChildPhone,No
+ChildPhoneAge,"If yes, at what age did they get it?"
+ChildPhoneAge,years of age
+ChildSocialMedia,"Does your child have an account on any social media website such as Instagram, Tiktok, Meta, or others?"
+ChildSocialMedia,Yes
+ChildSocialMedia,No
+ChildEFQintro,"<b>We are interested how often, independently, and easily your child shows each behavior when occasions call for it. Children who excel at a specific behavior should receive 4 (the highest rating), whereas most children will be between 3 and 2. Those who are still developing and need a lot of support should receive a rating of 1. </b><br><br><b>4</b> = Always on their own (No support needed)<br><br>"
+ChildEFQ1,<b>Pays attention when an adult is explaining or showing something<b/> (by listening carefully and/or watching with appropriate eye gaze/body orientation).
+ChildEFQ1,(4) Always on their own (No support needed)
+ChildEFQ1,(3) Mostly on their own (Brief reminders or support)
+ChildEFQ1,(2) Sometimes on their own (Regular reminders or moderate support needed)
+ChildEFQ1,(1) Not able on their own (Requires a lot of support)
+ChildEFQ7,"<b>Ignores irrelevant activity/noise</b> (e.g., crying sibling, TV, outside traffic) <b>when working on an assigned task.</b>"
+ChildEFQ12,"<b>Waits turn to speak</b> (e.g., does not interrupt others, does not blurt out answers, thinks before speaking)."
+ChildEFQ17,"<b>Completes activities that require multiple steps</b> (e.g., fetching multiple things in home or store/market, setting the table, cleaning a room by putting several things away)."
+ChildEFQ23,"<b>Comes up with new ways for solving challenges</b> (e.g., repurposes materials or toys, comes up with a new way to build a tower or fort after it collapses, solves a puzzle in a new way, comes up with a new strategy to complete a chore)."
+ChildEFQ29,"<b>Identifies and gathers necessary materials before an activity</b> (e.g., finds appropriate coat, shoes, hat before going outside; gathers lunch box, homework, and backpack before going to school)."
+ChildEFQ2,"<b>Finishes an assigned task that is repetitive</b> (e.g., picking up toys, putting away laundry)."
+ChildEFQ8,<b>Completes an assigned task before moving to a next task.</b>
+ChildEFQ13,"<b>Stops an undesirable behavior when asked</b> (e.g., stops fighting with sibling when asked by parent, stops misbehaving in the household)."
+ChildEFQ18,"<b>Completes activities that require remembering lengthy instructions</b> (e.g., rules of a game, household chores, cooking recipe)."
+ChildEFQ24,"<b>Expresses themselves in a new way when not understood by others</b> (e.g., tries different ways to communicate their needs and wants)."
+ChildEFQ30,"<b>Creates a strategy or plan for completing a task</b> (e.g., chore, homework, puzzle)."
+ChildEFQ3,"<b>Remains focused and engaged during lengthy adult-led activities</b> (e.g., religious or performance event, family meal time) <b>by listening carefully and contributing when appropriate.</b>"
+ChildEFQ9,"<b>Regains focus/focuses again on an assigned task when interrupted</b> (e.g., family member asks an unrelated question or needs brief assistance)."
+ChildEFQ14,"<b>Stops playing or doing something fun when asked</b> (e.g., stops playing with friends when parent asks, stops watching TV when parent asks)."
+ChildEFQ19,"<b>Communicates in an organized way</b> (e.g., retells the correct sequence of the events, explains how a game works so it is easy to understand)."
+ChildEFQ25,"<b>Adjusts when plans/schedules change</b> (e.g., follows along when daily schedule changes, does not complain when unexpected sickness leads to canceling a family vacation)."
+ChildEFQ31,"<b>Finishes tasks on time</b> (e.g., finishes homework on time and not at the last minute)."
+ChildEFQ4,"<b>Remains focused and engaged during collaborative child-led activities</b> (e.g., playing with siblings/peers)."
+ChildEFQ10,"<b>Ignores a preferred, fun activity</b> (e.g., playing) <b>when asked to complete an assigned task</b> (e.g., cleaning room)."
+ChildEFQ15,"<b>Waits for their turn to act</b> (e.g., waits patiently in line at a grocery store or when sharing a toy with sibling)."
+ChildEFQ20,"<b>Completes age-appropriate numerical mental calculation</b> (e.g., adds prices of goods, calculates time, how much they are older than someone else)."
+ChildEFQ26,"<b>Understands conflicting perspectives/ideas</b> (e.g., acknowledges a different point of view, accepts different ways of doing things, can see a situation from someone else’s perspective)."
+ChildEFQ32,"<b>Checks for mistakes before completing a task</b> (e.g., reviews and corrects errors on class assignments)."
+ChildEFQ5,"<b>Persists on a difficult cognitive/learning task</b> (e.g., homework) <b>by trying to figure things out, asking questions, and not quitting.</b>"
+ChildEFQ11,<b>Answers questions or tells a story without getting distracted by small details and/or losing train of thought.</b>
+ChildEFQ16,"<b>Stops and thinks before acting</b> (e.g., does not run out in front of a car, does not grab things they shouldn't)."
+ChildEFQ21,"<b>Remembers and considers all options when making a choice</b> (e.g., what to do when they get stuck on a household task or face a problem, food options)."
+ChildEFQ27,"<b>Connects ideas/experiences to other ideas/experiences</b> (e.g., identifies connections between books/movies and lived experiences, uses strategies learned at school to complete activities at home)."
+ChildEFQ33,"<b>Begins plans or routines without prompting</b> (e.g., takes an initiative to help a family member, starts daily household chores on their own)."
+ChildEFQ6,"<b>Gets deeply engaged in an activity they choose for themselves</b> (e.g., drawing, reading, cooking, building, sports, games)."
+ChildEFQ22,"<b>Remembers physical directions, patterns, and where things are</b> (e.g., knows walking routes, finds things in a grocery store, good at searching for a lost item or playing hide-and-seek)."
+ChildEFQ28,"<b>Adapts behavior based on what is required by the situation</b> (e.g., switches characters/roles while playing a game, changes behavior based on playtime or study time)."
+ChildEFQ34,"<b>Negotiates and incorporates peers' suggestions without conflict or resistance</b> (e.g., works with others to plan roles during pretend play, negotiates with sibling about how to complete chores together)."
+CaregiverSectionIntro4,<block><b><font face=Verdana size=4>This section asks about your home environment.
+HomeHOME1,About how many children's books are in your home?
+HomeHOME1,None
+HomeHOME1,20 or more
+HomeHOME2,How often does your child eat a meal with family members?
+HomeHOME2,More than once a day
+HomeHOME2,Once a day
+HomeHOME2,Several times a week
+HomeHOME2,Once a week
+HomeHOME2,Once a month or less
+HomeHOME2,Never
+HomeHOME3,About how many hours is the TV on in your house each day?
+HomeHOME3,hours per day
+HomeHOME4,Does your family have reliable access to the internet?
+HomeHOME4,Yes
+HomeHOME4,No
+HomeHOME5,How often does your whole family get together with relatives or friends?
+HomeHOME5,Once a week or more
+HomeHOME5,Two or three times a month
+HomeHOME5,Once a month
+HomeHOME5,A few times a year
+HomeHOME5,Once a year or less
+HomeHOME6,How often does your child spend time with you or another adult in your home doing outdoor activities?
+HomeHOME6,Once a day or more often
+HomeHOME6,At least four times a week
+HomeHOME6,Once a week
+HomeHOME6,Once a month
+HomeHOME6,A few times a year or less
+HomeHOME6,Never
+HomeHOME7,How often do you or another adult in your home get a chance to read stories to your child?
+HomeHOME7,Every day
+HomeHOME7,About 3 times a week
+HomeHOME7,Once a week
+HomeHOME7,Several times a month
+HomeHOME7,Several times a year
+HomeHOME7,Never
+HomeHOME9,How often do you or another adult in your home take your child to the grocery store?
+HomeHOME9,Twice a week or more
+HomeHOME9,Once a week
+HomeHOME9,Once a month
+HomeHOME9,Hardly ever
+HomeHOME15,Does your child have access to a tablet or smartphone that they regularly use to watch videos or listen to music?
+HomeHOME15,Yes
+HomeHOME15,No
+HomeHOME23,Does your family have a computer that your child has access to?
+HomeHOME23,Yes
+HomeHOME23,No
+HomeHOME22,"How often has any family member taken or arranged to take your child to any type of museum (children's, scientific, art, historical, etc.) in the past year?"
+HomeHOME22,About once a week or more
+HomeHOME22,About once a month or more
+HomeHOME22,Several times
+HomeHOME22,Once or twice
+HomeHOME22,Never
+HomeHOME24,"Sometimes children get so angry at their parents that they say things like I hate you or swear in a temper tantrum. If your child said something like I hate you or swore at you, would you..."
+HomeHOME24a,Ground him/her
+HomeHOME24a,Yes
+HomeHOME24a,No
+HomeHOME24b,Spank him/her
+HomeHOME24b,Yes
+HomeHOME24b,No
+HomeHOME24c,Talk with him/her
+HomeHOME24c,Yes
+HomeHOME24c,No
+HomeHOME24d,Give him/her a household chore
+HomeHOME24d,Yes
+HomeHOME24d,No
+HomeHOME24e,Ignore it
+HomeHOME24e,Yes
+HomeHOME24e,No
+HomeHOME24f,Send him/her to room for more than 1 hour
+HomeHOME24f,Yes
+HomeHOME24f,No
+HomeHOME24g,Take away his/her allowance
+HomeHOME24g,Yes
+HomeHOME24g,No
+HomeHOME24h,"Take away TV, phone, or other privileges"
+HomeHOME24h,Yes
+HomeHOME24h,No
+HomeHOME24i,Put him/her in a short time out
+HomeHOME24i,Yes
+HomeHOME24i,No
+HomeHOME24j,"Other, please specify"
+HomeHOME25,How often is your child expected to make his/her own bed?
+HomeHOME25,Almost always
+HomeHOME25,More than half the time
+HomeHOME25,Half the time
+HomeHOME25,Less than half the time
+HomeHOME25,Almost never
+HomeHOME26,How often is your child expected to clean his/her own room?
+HomeHOME26,Almost always
+HomeHOME26,More than half the time
+HomeHOME26,Half the time
+HomeHOME26,Less than half the time
+HomeHOME26,Almost never
+HomeHOME27,How often is your child expected to pick up after him/herself ?
+HomeHOME27,Almost always
+HomeHOME27,More than half the time
+HomeHOME27,Half the time
+HomeHOME27,Less than half the time
+HomeHOME27,Almost never
+HomeHOME28,"Is there a musical instrument (e.g. piano, drum, guitar, etc.) that your child can use at home?"
+HomeHOME28,Yes
+HomeHOME28,No
+HomeHOME29,How often does your child read for enjoyment?
+HomeHOME29,Every day
+HomeHOME29,Several times a week
+HomeHOME29,Several times a month
+HomeHOME29,Several times a year
+HomeHOME29,Never
+HomeHOME30,Does your family encourage your child to start and keep doing hobbies?
+HomeHOME30,Yes
+HomeHOME30,No
+HomeHOME31,"Does your child get special lessons or belong to any organization that encourages activities such as sports, music, art, dance, drama, etc.?"
+HomeHOME31,Yes
+HomeHOME31,No
+HomeHOME32,How often has a family member taken or arranged to take your child to any type of musical or theatrical performance within the last year?
+HomeHOME32,About once a week or more
+HomeHOME32,About once a month or more
+HomeHOME32,Several times
+HomeHOME32,Once or twice
+HomeHOME32,Never
+HomeHOME33,"When your family watches TV or views content online, do you or another adult in the home discuss it with your child?"
+HomeHOME33,Almost always
+HomeHOME33,More than half the time
+HomeHOME33,Half the time
+HomeHOME33,Less than half the time
+HomeHOME33,Almost never
+HomeHOME34,How often is your child expected to clean up after spills?
+HomeHOME34,Almost always
+HomeHOME34,More than half the time
+HomeHOME34,Half the time
+HomeHOME34,Less than half the time
+HomeHOME34,Almost never
+HomeHOME35,How often is your child expected to bathe him/herself?
+HomeHOME35,Almost always
+HomeHOME35,More than half the time
+HomeHOME35,Half the time
+HomeHOME35,Less than half the time
+HomeHOME35,Almost never
+HomeHOME36,How often is your child expected to help with keeping shared living areas neat and clean?
+HomeHOME36,Almost always
+HomeHOME36,More than half the time
+HomeHOME36,Half the time
+HomeHOME36,Less than half the time
+HomeHOME36,Almost never
+HomeHOME37,"How often is your child expected to do routine chores such as mow the lawn, help with dinner, wash dishes, etc.?"
+HomeHOME37,Almost always
+HomeHOME37,More than half the time
+HomeHOME37,Half the time
+HomeHOME37,Less than half the time
+HomeHOME37,Almost never
+HomeHOME38,"How often is your child expected to help manage his/her own time (get up on time, be ready for school, etc.)?"
+HomeHOME38,Almost always
+HomeHOME38,More than half the time
+HomeHOME38,Half the time
+HomeHOME38,Less than half the time
+HomeHOME38,Almost never
+SelfParentStressNCSHh9,"<b>DURING THE PAST MONTH</b>, how often have you felt..."
+SelfParentStressNCSHh9,Never
+SelfParentStressNCSHh9,Rarely
+SelfParentStressNCSHh9,Sometimes
+SelfParentStressNCSHh9,Usually
+SelfParentStressNCSHh9,Always
+SelfParentStressNCSHh9,that your child is much harder to care for than most children their age?
+SelfParentStressNCSHh9,that your child does things that really bother you a lot?
+SelfParentStressNCSHh9,angry with your child?
+SelfParentRohner,"These statements describe ways different caregivers act toward their children. Please think about how well each statement describes the way you treat your child. Respond as to whether you do each item almost never, once a month, once a week, every day."
+SelfParentRohner,Never or almost never
+SelfParentRohner,Once a month
+SelfParentRohner,Once a week
+SelfParentRohner,Every day
+SelfParentRohner,I see to it that my child knows exactly what (s)he may or may not do.
+SelfParentRohner,I always tell my child how (s)he should behave.
+SelfParentRohner,I insist that my child do exactly as (s)he is told.
+SelfParentRohner,I make my child feel wanted and needed.
+SelfParentRohner,I let my child do anything (s)he wants to do.
+SelfParentRohner,I make my child feel what (s)he does is important.
+SelfParentRohner,I care about what my child thinks and encourage her/him to talk about it.
+SelfParentRohner,I want to control whatever my child does.
+SelfParentRohner,I let my child know I love him/her.
+SelfParentRohner,I treat my child gently and kindly.
+SelfParentMICS,All adults use certain ways to teach children the right behavior or to address a behavior problem. Please read the following methods that are used and select whether you or anyone else in your household has used this with your child in the <b>past month</b>.
+SelfParentMICS1,"Took away privileges, forbade something my child liked, or did not allow him/her to leave the house."
+SelfParentMICS1,Yes
+SelfParentMICS1,No
+SelfParentMICS2,Explained why something (the behavior) was wrong.
+SelfParentMICS2,Yes
+SelfParentMICS2,No
+SelfParentMICS4,"Shouted, yelled at or screamed at him/her."
+SelfParentMICS4,Yes
+SelfParentMICS4,No
+SelfParentMICS6,"Spanked, hit, or slapped him/her."
+SelfParentMICS6,Yes
+SelfParentMICS6,No
+SelfParentMICS12,"Do you believe that in order to bring up (raise, educate) your child properly, you need to physically punish him/her?"
+SelfParentMICS12,Yes
+SelfParentMICS12,No
+unknown,Start Survey
+unknown,Previous
+unknown,Next
+unknown,Finish

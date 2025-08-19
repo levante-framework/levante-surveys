@@ -1,0 +1,145 @@
+identifier,translation
+TeacherSurveyIntro,"<b><font face=Verdana size=4>Thank you for taking the time (~10 minutes) to respond to this survey!</b><br> <br> <p><font face=Verdana size=4>Some students who you teach are participating in a research project studying how children learn and develop. Your responses in this survey should apply to your classroom, school, and professional beliefs rather than to any one specific child. <br><br><b><font face=Verdana size=4>This survey has two parts: Part A and Part B.</b><br> <br> <p><font face=Verdana size=4>In Part A, the questions relate to your background and beliefs. <br><br>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>Thank you for your participation! Your responses provide invaluable insight into the education of your students. <br><br>When you are ready to begin, select the “Start Survey” button. <br><br><b><font face=Verdana size=4>Thank you!"
+TeacherIntroPartA,"<b><font face=Verdana size=3>PART A: </b><font face=Verdana size=3>The following questions ask about your background, the school where you teach, your feelings about your job, and your beliefs about teaching and children."
+TeacherBackground,<b>This set of questions asks about your background.</b>
+TeacherAge,What is your current age?
+TeacherAge,years of age
+TeacherGender,What is your gender?
+TeacherGender,
+TeacherGender,
+TeacherGender,
+TeacherGender,Other (please describe)
+TeacherEducation,What is the highest level of education you have completed?
+TeacherEducation,Less than high school
+TeacherEducation,GED or High school equivalency
+TeacherEducation,Some college but no degree
+TeacherEducation,"High school diploma or equivalent, plus technical training or certificate"
+TeacherEducation,Associate's degree
+TeacherEducation,Bachelor's degree
+TeacherEducation,Master's degree
+TeacherEducation,Doctoral degree
+TeacherUndergrad,Indicate your undergraduate field of study. Mark ALL that apply.
+TeacherUndergrad,Early childhood education
+TeacherUndergrad,Elementary education
+TeacherUndergrad,Special education
+TeacherUndergrad,Child development
+TeacherUndergrad,Reading specialist
+TeacherUndergrad,Curriculum and instruction
+TeacherUndergrad,Bilingual/bicultural education
+TeacherUndergrad,"Other education related major (ex: secondary education, educational psychology, education administration, music education, etc.). Please specify:"
+TeacherUndergrad,Non-education major. Please specify:
+TeacherUndergrad,Other. Please specify:
+TeacherUndergradOtherEd,Please specify other education related major:
+TeacherUndergradNonEd,Please specify non-education major:
+TeacherUndergradOther,Please specify other major:
+TeacherGrad,Indicate the major field of study of your highest graduate degree. Mark ALL that apply.
+TeacherGrad,Early childhood education
+TeacherGrad,Elementary education
+TeacherGrad,Special education
+TeacherGrad,Child development
+TeacherGrad,Reading specialist
+TeacherGrad,Curriculum and instruction
+TeacherGrad,Bilingual/bicultural education
+TeacherGrad,"Other education related major (ex: secondary education, educational psychology, education administration, music education, etc.). Please specify:"
+TeacherGrad,Non-education major. Please specify:
+TeacherGrad,Other. Please specify:
+TeacherGradOtherEd,Please specify other education related major:
+TeacherGradNonEd,Please specify non-education major:
+TeacherGradOther,Please specify other major:
+TeacherYears,"Counting this school year, how many years have you been a schoolteacher? (please round to the nearest year)"
+TeacherYears,Less than one year
+TeacherYears,1 to 2 years
+TeacherYears,3 to 5 years
+TeacherYears,6 to 10 years
+TeacherYears,Over 10 years
+TeacherSchool,<b>This set of questions asks about the school where you currently teach.</b>
+TeacherYearsSchool,"Counting this school year, how many years have you been teaching <b>at this school</b>? (please round to the nearest year)"
+TeacherClimateItems,Please indicate how much you agree or disagree with the following statements about this school.
+TeacherClimateItems,Strongly Disagree
+TeacherClimateItems,Disagree
+TeacherClimateItems,Agree
+TeacherClimateItems,Strongly Agree
+TeacherClimateItems,I feel accepted and respected as a colleague by most staff members.
+TeacherClimateItems,Parents are supportive of school staff.
+TeacherClimateItems,Students feel supported and comfortable in this school.
+TeacherClimateItems,Staff feel supported and comfortable in this school.
+TeacherClimateItems,Students are safe when here at this school.
+TeacherClimateItems,Staff are safe when here at this school.
+TeacherClimateItems,The facilities and property of this school are kept up well.
+TeacherClimateItems,The facilities and property of this school are clean.
+TeacherClimateItems,Ongoing collaboration is something adults in this school do well.
+TeacherClimateItems,Adults working in this school have strong professional relationships.
+TeacherClimateItems,Adults working in this school are respectful and supportive of one another.
+TeacherFeelJob,"<b>With this set of items, we wish to learn more about teachers' feelings about their job.</b>"
+TeacherFeelJobItems,Please select one answer that indicates how often you agree with each of the following statements.
+TeacherFeelJobItems,Never
+TeacherFeelJobItems,A few times a year or less
+TeacherFeelJobItems,Once a month or less
+TeacherFeelJobItems,A few times a month
+TeacherFeelJobItems,Once a week
+TeacherFeelJobItems,A few times a week
+TeacherFeelJobItems,Everyday
+TeacherFeelJobItems,I feel emotionally drained from my work.
+TeacherFeelJobItems,I feel fatigued when I get up in the morning and have to face another day on the job.
+TeacherFeelJobItems,I can easily understand how my students feel about things.
+TeacherFeelJobItems,I deal very effectively with the problems of my students.
+TeacherFeelJobItems,I feel burned out from my work.
+TeacherFeelJobItems,I feel I'm positively influencing other people's lives through my work.
+TeacherFeelJobItems,I feel frustrated by my job.
+TeacherFeelJobItems,I feel I'm working too hard on my job.
+TeacherFeelJobItems,I can easily create a relaxed atmosphere with my students.
+TeacherFeelJobItems,I feel exhilarated after working closely with my students.
+TeacherFeelJobItems,I have accomplished many worthwhile things in this job.
+TeacherFeelJobItems,I feel like I'm at the end of my rope.
+TeacherFeelJobItems,"In my work, I deal with emotional problems very calmly."
+TeacherBeliefTeach,<b>This set of questions is designed to help us gain a better understanding of the kinds of things that create difficulties for teachers in their school activities.</b>
+TeacherBeliefTeachItemsInfluence,<b>How much influence do you have...</b>
+TeacherBeliefTeachItemsInfluence,Never
+TeacherBeliefTeachItemsInfluence,Very Little
+TeacherBeliefTeachItemsInfluence,Some Influence
+TeacherBeliefTeachItemsInfluence,Quite a Bit
+TeacherBeliefTeachItemsInfluence,A Great Deal
+TeacherBeliefTeachItemsInfluence,on disruptive behavior in the classroom?
+TeacherBeliefTeachItemsInfluence,to motivate children who show low interest in activities?
+TeacherBeliefTeachItemsInfluence,to get children to believe they can do well on activities?
+TeacherBeliefTeachItemsInfluence,to help children in your classroom(s) value learning?
+TeacherBeliefTeachItemsInfluence,on getting children to follow classroom rules?
+TeacherBeliefTeachItemsInfluence,on calming a child who is disruptive or noisy?
+TeacherBeliefTeachItemsWell,<b>How well can you...</b>
+TeacherBeliefTeachItemsWell,Not At All
+TeacherBeliefTeachItemsWell,Very Little
+TeacherBeliefTeachItemsWell,Somewhat
+TeacherBeliefTeachItemsWell,Quite a Bit
+TeacherBeliefTeachItemsWell,A Great Deal
+TeacherBeliefTeachItemsWell,establish a classroom management system?
+TeacherBeliefTeachItemsWell,use a variety of assessment strategies?
+TeacherBeliefTeachItemsWell,provide alternative explanations or examples when children are confused?
+TeacherBeliefTeachItemsWell,assist families in helping their children do well in school?
+TeacherBeliefTeachItemsWell,implement alternative strategies in your classroom(s)?
+TeacherBeliefTeachItemsWell,create good questions for children in your classroom(s)?
+TeacherIdeasChildren,"<b>With this set of items, we wish to learn more about teachers' ideas and beliefs about children.</b>"
+TeacherIdeasChildrenItems,Please select one answer that indicates how strongly you agree with each of the following statements.
+TeacherIdeasChildrenItems,Strongly Disagree
+TeacherIdeasChildrenItems,Mildly Disagree
+TeacherIdeasChildrenItems,Mildly Agree
+TeacherIdeasChildrenItems,Strongly Agree
+TeacherIdeasChildrenItems,"Since parents lack special training in education, they should not question the teacher's teaching methods."
+TeacherIdeasChildrenItems,Children should be treated the same regardless of differences among them.
+TeacherIdeasChildrenItems,Children should always obey the teacher.
+TeacherIdeasChildrenItems,Preparing for the future is more important for a child than enjoying today.
+TeacherIdeasChildrenItems,Children will not do the right thing unless they must.
+TeacherIdeasChildrenItems,Children should be allowed to disagree with their parents if they feel their own ideas are better.
+TeacherIdeasChildrenItems,Children should be kept busy with work and study at home and at school.
+TeacherIdeasChildrenItems,The major goal of education is to put basic information into the minds of the children.
+TeacherIdeasChildrenItems,"In order to be fair, a teacher must treat all children alike."
+TeacherIdeasChildrenItems,The most important thing to teach children is absolute obedience to whoever is in authority.
+TeacherIdeasChildrenItems,Children learn best by doing things themselves rather than listening to others.
+TeacherIdeasChildrenItems,Children must be carefully trained early in life or their natural impulses will make them unmanageable.
+TeacherIdeasChildrenItems,Children have a right to their own point of view and should be allowed to express it.
+TeacherIdeasChildrenItems,Children's learning results mainly from being presented basic information again and again.
+TeacherIdeasChildrenItems,Children like to teach other children.
+TeacherIdeasChildrenItems,The most important thing to teach children is absolute obedience to parents.
+unknown,Start Survey
+unknown,Previous
+unknown,Next
+unknown,Finish
