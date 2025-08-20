@@ -62,16 +62,16 @@ function discoverLanguagesInSurvey(obj, foundLanguages = new Set()) {
   if (hasLanguageKeys) {
     // This looks like a multilingual object
          keys.forEach(key => {
-       if (isLanguageLikeKey(key)) {
-         // Map 'default' to 'source' for CSV output, and normalize country codes to uppercase
-         let csvKey = key === 'default' ? 'source' : key
-         // Convert country codes to uppercase (e.g., es_co -> es_CO, de_ch -> de_CH)
-         if (csvKey.includes('_')) {
-           const [lang, country] = csvKey.split('_')
-           csvKey = `${lang}_${country.toUpperCase()}`
-         }
-         foundLanguages.add(csvKey)
-       }
+             if (isLanguageLikeKey(key)) {
+        // Map 'default' to 'source' for CSV output, and standardize to hyphens
+        let csvKey = key === 'default' ? 'source' : key
+        // Convert underscores to hyphens and uppercase country codes (e.g., es_co -> es-CO, de_ch -> de-CH)
+        if (csvKey.includes('_')) {
+          const [lang, country] = csvKey.split('_')
+          csvKey = `${lang}-${country.toUpperCase()}`
+        }
+        foundLanguages.add(csvKey)
+      }
      })
   }
 
@@ -97,14 +97,15 @@ function extractTextFromMultilingualObject(obj, availableLanguages) {
   // Extract text for each available language
   for (const [key, value] of Object.entries(obj)) {
     if (isLanguageLikeKey(key)) {
-      // Map 'default' to 'source' for CSV output, and normalize country codes to uppercase
+      // Map 'default' to 'source' for CSV output, and standardize to hyphens
       let csvKey = key === 'default' ? 'source' : key
-      // Convert country codes to uppercase (e.g., es_co -> es_CO, de_ch -> de_CH)
+      // Convert underscores to hyphens and uppercase country codes (e.g., es_co -> es-CO, de_ch -> de-CH)
       if (csvKey.includes('_')) {
         const [lang, country] = csvKey.split('_')
-        csvKey = `${lang}_${country.toUpperCase()}`
+        csvKey = `${lang}-${country.toUpperCase()}`
       }
-      if (availableLanguages.includes(csvKey)) {
+      // Always include the content if we have a value, regardless of availableLanguages
+      if (value !== undefined && value !== null && value !== '') {
         result[csvKey] = String(value || '').trim()
       }
     }

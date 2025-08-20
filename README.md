@@ -2,16 +2,16 @@
 
 ## 🌟 **What's New: Complete Translation Management System**
 
-This application now includes a **production-ready translation workflow** that has successfully processed **1,400+ multilingual objects** across 8 languages with comprehensive validation and testing.
+This application now includes a **production-ready translation workflow** that has successfully processed **1,400+ multilingual objects** across 11+ languages with comprehensive validation and testing.
 
 **Key Capabilities:**
 - 🔄 **Automated CSV extraction** from survey JSON files to Crowdin-compatible format
-- 🌍 **Crowdin integration** with GitHub-based workflow for translation management  
-- 📥 **Smart import system** with labels-based survey grouping and validation
-- 🧪 **Comprehensive testing** with 26+ validation checks per workflow run
+- 🌍 **Crowdin integration** with standardized language codes (hyphens) and proper column mapping
+- 📥 **Smart import system** with validation and artifact detection
+- 🧪 **Comprehensive testing** with Cypress e2e validation
 - ☁️ **Dual-bucket deployment** to Google Cloud Storage with backup systems
 - 📊 **Language detection** with automatic configuration updates
-- 🚀 **Production-validated** across 5 survey types and 8+ language variants
+- 🚀 **Production-validated** across 5 survey types and 11+ language variants
 
 ## Project Overview
 
@@ -36,65 +36,284 @@ This is a comprehensive TypeScript Vue.js application for managing surveys used 
 - 📤 **Extract to CSV**: Convert survey JSON to translation-ready CSV files
 - 🔄 **Crowdin Integration**: Professional translation platform compatibility
 - 📥 **Import & Deploy**: One-command import and cloud deployment
-- 🌐 **5 Languages**: EN, ES, DE, FR, NL with extensible architecture
+- 🌐 **11+ Languages**: EN, ES, DE, FR, NL + regional variants with extensible architecture
 - 📈 **Quality Metrics**: 98% success rate with detailed coverage reporting
 
-## What We Have Done
+## 🌍 Complete Translation Workflow Guide
 
-### ✅ Project Setup
-- [x] Created new Git repository: `levante-framework/levante-surveys`
-- [x] Initialized Vue 3 + TypeScript project with Vite
-- [x] Installed core dependencies:
-  - Vue 3 with Composition API
-  - PrimeVue v4 (UI components)
-  - Pinia (state management)
-  - SurveyJS Creator and Core libraries
-  - Axios (HTTP client)
-  - TypeScript support
+> **Complete end-to-end guide for managing survey translations from SurveyJS files to deployed multilingual surveys**
 
-### ✅ Core Architecture
-- [x] **Pinia Store** (`src/stores/survey.ts`): Manages survey state, loading status, and current selection
-- [x] **Survey Loader** (`src/helpers/surveyLoader.ts`): Handles loading surveys from GCS with error handling
-- [x] **Bucket Constants** (`src/constants/bucket.ts`): GCS configuration and survey file mappings
-- [x] **Main Dashboard** (`src/views/HomeView.vue`): Split-screen layout with survey list and creator
-- [x] **SurveyJS Creator Component** (`src/components/SurveyCreatorComponent.vue`): Wrapper for survey editor
+### **📋 Overview: Two-Way Translation Workflow**
 
-### ✅ Translation System
-- [x] **Survey Extractor** (`scripts/extract-translations.js`): Converts JSON surveys to CSV format
-- [x] **Translation Importer** (`scripts/import-combined-translations.js`): Imports and deploys translations
-- [x] **Cloud Storage Integration**: Automated upload to GCS buckets with proper authentication
-- [x] **Multi-format Support**: Handles individual and combined CSV translation files
-- [x] **Error Handling**: Enterprise-grade error reporting and graceful degradation
+**Phase 1: Extract & Upload to Crowdin** 
+SurveyJS JSON → CSV → Crowdin for translation
 
-### ✅ Functional Components
-- [x] **Survey List**: Displays available surveys with metadata (family, child, teacher surveys)
-- [x] **Survey Loading**: Fetches survey JSON from GCS buckets with proper error handling
-- [x] **SurveyJS Creator Integration**: Visual survey editor with tabs for design, preview, JSON, etc.
-- [x] **Environment Configuration**: Supports dev and production GCS buckets
-- [x] **State Persistence**: Pinia store with localStorage persistence
+**Phase 2: Download & Deploy from Crowdin**
+Crowdin → CSV → Validated JSON → GCS Buckets
 
-### ✅ Translation Capabilities
-- [x] **Automated Extraction**: 1,400+ translation items processed across 5 survey types
-- [x] **Language Support**: Full EN, ES, DE support; newly added FR, NL (100% coverage)
-- [x] **Production Deployment**: Successfully deployed to development bucket
-- [x] **Quality Assurance**: 98% success rate with comprehensive error reporting
-- [x] **Workflow Integration**: Seamless Crowdin compatibility for professional translation
+---
 
-### ✅ Issues Fixed
-- [x] **Import/Compilation Errors**: Fixed TypeScript module resolution and CSS imports
-- [x] **SurveyJS Creator Initialization**: Corrected event handler names (`onModified` vs incorrect handlers)
-- [x] **Naming Conflicts**: Resolved function naming conflicts using dynamic imports
-- [x] **State Management**: Fixed plain object usage instead of Map for better persistence
-- [x] **UI Components**: Removed default Vue components and implemented custom dashboard
+## **Phase 1: SurveyJS → Crowdin (Send for Translation)**
 
-## Current Architecture
+### **Step 1: Download Survey Files from GCS Bucket**
+
+Download the latest survey JSON files from Google Cloud Storage:
+
+```bash
+# Download all surveys from production bucket
+gsutil -m cp gs://levante-assets-dev/surveys/*.json surveys/
+```
+
+**Downloaded files:**
+- `surveys/child_survey.json`
+- `surveys/parent_survey_family.json` 
+- `surveys/parent_survey_child.json`
+- `surveys/teacher_survey_general.json`
+- `surveys/teacher_survey_classroom.json`
+
+### **Step 2: Extract Translations to CSV Format**
+
+Extract multilingual content from JSON files to Crowdin-compatible CSV:
+
+```bash
+# Extract all surveys to individual CSV files
+npm run extract-surveys:all
+```
+
+**Generated CSV files with standardized language codes:**
+- `surveys/child_survey_translations.csv` (120 items)
+- `surveys/parent_survey_family_translations.csv` (340 items)
+- `surveys/parent_survey_child_translations.csv` (705 items)
+- `surveys/teacher_survey_general_translations.csv` (144 items)
+- `surveys/teacher_survey_classroom_translations.csv` (120 items)
+
+**CSV Structure (standardized with hyphens):**
+```csv
+identifier,labels,de,de-CH,en-GH,en-US,es,es-AR,es-CO,fr,fr-CA,nl,source
+```
+
+### **Step 3: Upload CSV Files to Crowdin**
+
+Upload the extracted CSV files to Crowdin for translation:
+
+```bash
+# Upload to organized folder in Crowdin
+node scripts/upload-sources-batch.js --folder /surveys-current
+```
+
+### **Step 4: Configure Files in Crowdin UI**
+
+**For Parent/Child Surveys (12 columns + source at column 12):**
+- **File Type**: CSV
+- **First line contains headers**: ✅ Yes
+- **Column mapping**:
+  - **Identifier**: Column 0 (`identifier`)
+  - **Source text**: Column 12 (`source`)
+  - **Translations**:
+    - `de` → Column 2
+    - `de-CH` → Column 3
+    - `en-GH` → Column 4 ⭐
+    - `en-US` → Column 5
+    - `es` → Column 6
+    - `es-AR` → Column 7
+    - `es-CO` → Column 8
+    - `fr` → Column 9
+    - `fr-CA` → Column 10
+    - `nl` → Column 11
+
+**For Teacher Surveys (11 columns + source at column 11):**
+- **File Type**: CSV
+- **First line contains headers**: ✅ Yes
+- **Column mapping**:
+  - **Identifier**: Column 0 (`identifier`)
+  - **Source text**: Column 11 (`source`)
+  - **Translations**:
+    - `de` → Column 2
+    - `de-CH` → Column 3
+    - `en-GH` → Column 4 ⭐
+    - `en-US` → Column 5
+    - `es` → Column 6
+    - `es-AR` → Column 7
+    - `es-CO` → Column 8
+    - `fr-CA` → Column 9 (no base `fr`)
+    - `nl` → Column 10
+
+---
+
+## **Phase 2: Crowdin → SurveyJS (Import Translations)**
+
+### **Step 1: Download Updated CSV Files from Crowdin**
+
+**Prerequisites**: Files must be uploaded and configured in Crowdin UI first (see Phase 1, Steps 3-4).
+
+Download the completed translation CSV files from Crowdin:
+
+```bash
+# Download from Crowdin to local files (after configuration in Crowdin UI)
+# Note: Files are located under main branch in surveys-current folder
+# Create temp directory to avoid overwriting original translation files
+mkdir -p temp_crowdin_downloads
+
+# Download to temp directory (Crowdin appends the original filename automatically)
+crowdin file download surveys-current/child_survey_translations.csv --dest temp_crowdin_downloads/ --branch main
+crowdin file download surveys-current/parent_survey_family_translations.csv --dest temp_crowdin_downloads/ --branch main
+crowdin file download surveys-current/parent_survey_child_translations.csv --dest temp_crowdin_downloads/ --branch main
+crowdin file download surveys-current/teacher_survey_general_translations.csv --dest temp_crowdin_downloads/ --branch main
+crowdin file download surveys-current/teacher_survey_classroom_translations.csv --dest temp_crowdin_downloads/ --branch main
+
+# Move to surveys/ directory with the expected _crowdin_translations.csv naming
+mv temp_crowdin_downloads/child_survey_translations.csv surveys/child_survey_crowdin_translations.csv
+mv temp_crowdin_downloads/parent_survey_family_translations.csv surveys/parent_survey_family_crowdin_translations.csv
+mv temp_crowdin_downloads/parent_survey_child_translations.csv surveys/parent_survey_child_crowdin_translations.csv
+mv temp_crowdin_downloads/teacher_survey_general_translations.csv surveys/teacher_survey_general_crowdin_translations.csv
+mv temp_crowdin_downloads/teacher_survey_classroom_translations.csv surveys/teacher_survey_classroom_crowdin_translations.csv
+
+# Clean up temp directory
+rmdir temp_crowdin_downloads
+```
+
+**Note**: If you get "Failed to download" errors, the files likely need to be configured in the Crowdin web interface first.
+
+### **Step 2: Import Translations into Survey JSON Files**
+
+Import the updated translations back into the survey JSON files:
+
+```bash
+# Import all surveys from individual Crowdin CSV files
+npm run import-surveys-individual:all
+```
+
+**Generated updated files:**
+- `surveys/child_survey_updated.json`
+- `surveys/parent_survey_family_updated.json`
+- `surveys/parent_survey_child_updated.json`
+- `surveys/teacher_survey_general_updated.json`
+- `surveys/teacher_survey_classroom_updated.json`
+
+### **Step 3: Validate Survey JSON Files**
+
+Run comprehensive validation to ensure translation quality:
+
+```bash
+# Run Cypress e2e validation tests
+npm run test:surveys
+
+# Check for translation artifacts and structural integrity
+npx cypress run --spec "cypress/e2e/survey-json-validation.cy.js"
+```
+
+**Validation checks:**
+- ✅ Valid JSON structure
+- ✅ Multilingual content preservation
+- ✅ Regional language variants
+- ✅ No translation artifacts (`{{`, `}}`, `[object Object]`, etc.)
+- ✅ SurveyJS compatibility
+- ✅ Consistent element structure
+
+### **Step 4: Deploy Validated Surveys to GCS Buckets**
+
+Deploy the validated survey files to both GCS buckets:
+
+```bash
+# Deploy to development environment
+npm run deploy-surveys:dev
+
+# Or deploy manually using gsutil
+gsutil -m cp surveys/*_updated.json gs://levante-dashboard-dev/surveys/
+gsutil -m cp surveys/*_updated.json gs://levante-assets-dev/surveys/
+```
+
+**Deployment targets:**
+- **Primary bucket**: `gs://levante-dashboard-dev/surveys/`
+- **Assets bucket**: `gs://levante-assets-dev/surveys/`
+
+### **Step 5: Verify Deployed Surveys**
+
+Verify the deployed surveys are accessible and properly formatted:
+
+```bash
+# Check deployed files in both buckets
+gsutil ls gs://levante-dashboard-dev/surveys/
+gsutil ls gs://levante-assets-dev/surveys/
+
+# Validate a sample deployed survey
+curl -s "https://storage.googleapis.com/levante-assets-dev/surveys/child_survey.json" | jq '.pages[0].elements[0].html'
+```
+
+---
+
+## **🔧 Standardized Language Codes**
+
+**All language codes now use hyphens consistently:**
+
+| Language | Standard Code | Previous Code | Region |
+|----------|---------------|---------------|---------|
+| English (Base) | `en` | `en` | - |
+| English (US) | `en-US` | `en_us` | United States |
+| English (Ghana) | `en-GH` | `en_gh` | Ghana |
+| English (UK) | `en-GB` | `en_gb` | United Kingdom |
+| Spanish (Base) | `es` | `es` | - |
+| Spanish (Colombia) | `es-CO` | `es_co` | Colombia |
+| Spanish (Argentina) | `es-AR` | `es_ar` | Argentina |
+| German (Base) | `de` | `de` | - |
+| German (Switzerland) | `de-CH` | `de_ch` | Switzerland |
+| French (Base) | `fr` | `fr` | - |
+| French (Canada) | `fr-CA` | `fr_ca` | Canada |
+| Dutch | `nl` | `nl` | Netherlands |
+
+---
+
+## **📊 Language Coverage by Survey**
+
+| Survey | Total Items | EN | ES | DE | FR | NL | Regional Variants |
+|--------|-------------|----|----|----|----|-----|------------------|
+| Child Survey | 120 | 100% | 100% | 97% | 97% | 97% | en-GH, es-CO, de-CH |
+| Parent Family | 340 | 100% | 100% | 99% | 99% | 99% | en-GH, es-CO, de-CH |
+| Parent Child | 705 | 95% | 100% | 94% | 94% | 94% | en-GH, es-CO, de-CH |
+| Teacher General | 144 | 98% | 100% | 97% | 94% | 94% | en-GH, es-CO, de-CH |
+| Teacher Classroom | 120 | 98% | 98% | 95% | 95% | 95% | en-GH, es-CO, de-CH |
+
+---
+
+## **🚀 Quick Start Commands**
+
+### **For Translation Managers**
+```bash
+# Complete workflow: Extract → Upload → Configure in Crowdin
+npm run extract-surveys:all
+node scripts/upload-sources-batch.js --folder /surveys-current
+# → Configure columns in Crowdin UI
+# → Download completed translations
+npm run import-surveys-individual:all
+npm run deploy-surveys:dev
+```
+
+### **For Survey Validation**
+```bash
+# Test survey rendering and functionality
+npm run test:surveys
+
+# Validate JSON structure and content
+npx cypress run --spec "cypress/e2e/survey-json-validation.cy.js"
+```
+
+### **For Emergency Deployment**
+```bash
+# Quick deployment from existing files
+npm run deploy-surveys:dev -- --skip-download --force
+```
+
+---
+
+## **Current Architecture**
 
 ```
 src/
 ├── components/
 │   └── SurveyCreatorComponent.vue    # SurveyJS Creator wrapper
 ├── constants/
-│   └── bucket.ts                     # GCS bucket configuration
+│   ├── bucket.ts                     # GCS bucket configuration
+│   └── languages.js                 # Standardized language mappings
 ├── helpers/
 │   └── surveyLoader.ts               # Survey loading utilities
 ├── stores/
@@ -105,15 +324,21 @@ src/
 │   └── index.ts                      # Vue Router configuration
 └── main.ts                           # App entry point with plugin setup
 
-surveys/                              # Downloaded survey JSON files
-├── parent_survey_family.json         # Caregiver Family Survey (98KB)
-├── parent_survey_child.json          # Caregiver Child Survey (260KB)
-├── child_survey.json                 # Child Survey (34KB)
-├── teacher_survey_general.json       # Teacher General Survey (45KB)
-└── teacher_survey_classroom.json     # Teacher Classroom Survey (30KB)
+surveys/                              # Survey files and translations
+├── *.json                           # Original survey JSON files
+├── *_updated.json                   # Updated surveys with translations
+├── *_translations.csv               # Extracted translation files
+└── *_crowdin_translations.csv       # Downloaded from Crowdin
 
-scripts/
-└── download-surveys.js               # Downloads surveys from GCS bucket
+scripts/                             # Translation automation
+├── extract-translations.js         # JSON → CSV extraction
+├── import-individual-surveys.js     # CSV → JSON import
+├── upload-sources-batch.js          # Crowdin upload utility
+└── deploy-surveys.js               # GCS deployment pipeline
+
+cypress/e2e/                         # End-to-end validation
+├── surveys.cy.js                   # Survey rendering tests
+└── survey-json-validation.cy.js    # JSON structure validation
 ```
 
 ## Environment Configuration
@@ -141,6 +366,9 @@ Currently configured to load these survey types:
 - SurveyJS Creator integration
 - Split-screen dashboard layout
 - Environment-based GCS bucket selection
+- Complete translation workflow with Crowdin integration
+- Standardized language code system with hyphens
+- Comprehensive validation and testing
 
 ### 🔄 Currently Testing
 - Survey loading functionality (resolving naming conflicts)
@@ -195,289 +423,6 @@ npm run build
 npm run preview
 ```
 
-## 🌍 Translation Workflow
-
-> **New Feature**: Complete automated translation management system for multilingual research deployment.
-
-### 🔄 Complete Translation Management System
-
-This project includes a comprehensive translation workflow for managing survey translations across multiple languages and platforms.
-
-### **1. Extract Translations** (Survey JSON → CSV)
-
-Extract translations from survey JSON files to CSV format for translation teams:
-
-```bash
-# Extract specific survey
-npm run extract-surveys:child
-npm run extract-surveys surveys/parent_survey_family.json
-
-# Extract all surveys to individual CSVs
-npm run extract-surveys:all
-```
-
-**Output**: Individual CSV files in `surveys/` folder:
-- `child_survey_translations.csv` (120 items)
-- `parent_survey_family_translations.csv` (340 items)
-- `parent_survey_child_translations.csv` (705 items)
-- `teacher_survey_general_translations.csv` (144 items)
-- `teacher_survey_classroom_translations.csv` (120 items)
-
-### **2. Crowdin Integration Setup**
-
-The system integrates with Crowdin for professional translation management:
-
-**Source**: [levante_translations GitHub Repository](https://github.com/levante-framework/levante_translations)  
-**Branch**: `l10n_pending`  
-**File**: `surveys.csv` (combined file that gets split automatically)
-
-**Crowdin Configuration:**
-```bash
-# Copy the example configuration
-cp crowdin.yml.example crowdin.yml
-
-# Update with your project details:
-# - project_id: Your numeric Crowdin project ID
-# - api_token: Your Crowdin API token
-```
-
-**CSV Format:**
-- `identifier`: Element name from survey JSON
-- `labels`: Survey name for grouping (child_survey, parent_survey_family, etc.)
-- `source`: English source text
-- Language columns: `en`, `es-CO`, `de`, `fr-CA`, `nl`, `de-CH`, `es-AR`, `en-GH`
-
-### **3. Import Translations** (CSV → Survey JSON)
-
-Import updated translations back into survey JSON files:
-
-### **🚀 Complete Translation Workflow: Crowdin → SurveyJS** (RECOMMENDED)
-
-**Validated end-to-end workflow from Crowdin translations to production-ready survey JSON files:**
-
-```bash
-# Step 1: Download latest CSV files from Crowdin GitHub repo
-npm run download-crowdin -- --force
-
-# Step 2: Import translations into survey JSON files  
-npm run import-surveys-individual:all
-
-# Step 3: Update language configuration automatically
-npm run detect-languages:all
-
-# Step 4: Validate all survey files with comprehensive tests
-npx cypress run --spec "cypress/e2e/survey-json-validation.cy.js"
-
-# Optional Step 5: Deploy to Google Cloud Storage
-npm run deploy-surveys:dev
-```
-
-**✅ This workflow has been tested and validates:**
-- All surveys have valid JSON structure
-- All surveys contain multilingual content with 8+ languages
-- Regional language variants (es-CO, de-CH, fr-CA, es-AR, en-GH)
-- No translation artifacts or corruption
-- Full SurveyJS compatibility
-- Cross-survey consistency
-
----
-
-### **🚀 End-to-End Survey Deployment Pipeline** (alternative)
-
-**Complete automated workflow from Crowdin CSV files to deployed surveys:**
-
-```bash
-# Full deployment to DEV environment (downloads latest CSVs)
-npm run deploy-surveys:dev
-
-# Full deployment to PROD environment  
-npm run deploy-surveys:prod
-
-# Preview changes without deploying
-npm run deploy-surveys:dry-run
-
-# Use existing CSV files (skip download)
-npm run deploy-surveys:skip-download
-
-# Force deployment even with validation warnings
-npm run deploy-surveys:force
-```
-
-**Pipeline includes:**
-- ✅ **Crowdin CSV download** - Automatically downloads latest translation files from `levante_translations` repo
-- ✅ **CSV validation** - Ensures all required translation files exist
-- ✅ **Language auto-detection** - Automatically configures new languages from Crowdin
-- ✅ **Translation import** - Updates all survey JSON files with latest translations
-- ✅ **Survey validation** - Validates JSON structure and multilingual objects
-- ✅ **Cloud backup** - Automatically backs up existing surveys before deployment
-- ✅ **Cloud deployment** - Uploads updated surveys to Google Cloud Storage
-- ✅ **Post-deployment validation** - Confirms deployed surveys are valid
-- ✅ **Comprehensive reporting** - Detailed success/failure reporting with metrics
-
-#### **Manual Crowdin CSV Download**
-
-Download the latest survey translation files from Crowdin manually:
-
-```bash
-# Download all survey CSV files from l10n_pending branch
-npm run download-crowdin
-
-# Force overwrite existing files
-npm run download-crowdin:force
-
-# Backup existing files before downloading
-npm run download-crowdin:backup
-```
-
-**Source**: `https://github.com/levante-framework/levante_translations/tree/l10n_pending/text/`
-
-#### **From Individual GitHub CSV** (deprecated)
-```bash
-npm run import-surveys:child
-npm run import-surveys:all
-```
-
-#### **From Individual Survey CSV Files** (recommended)
-```bash
-# Import all surveys from individual CSV files
-npm run import-surveys-individual:all
-
-# Import AND upload to Google Cloud Storage  
-npm run import-surveys-individual:upload
-
-# Import specific survey
-npm run import-surveys-individual:child
-npm run import-surveys-individual:parent-family
-npm run import-surveys-individual:parent-child
-npm run import-surveys-individual:teacher-general
-npm run import-surveys-individual:teacher-classroom
-```
-
-#### **From Combined CSV** (legacy)
-```bash
-# Import without uploading to cloud
-npm run import-surveys-combined:legacy
-
-# Import AND upload to Google Cloud Storage  
-npm run import-surveys-combined:upload
-
-# Custom CSV file
-npm run import-surveys-combined surveys/my-translations.csv --upload
-```
-
-**Output**: Updated survey JSON files:
-- `surveys/child_survey_updated.json`
-- `surveys/parent_survey_child_updated.json`
-- `surveys/parent_survey_family_updated.json`
-- `surveys/teacher_survey_general_updated.json`
-- `surveys/teacher_survey_classroom_updated.json`
-
-### **3. Cloud Storage Integration**
-
-#### **Setup Google Cloud Authentication**
-
-1. **Service Account**: Create a service account with Storage Admin permissions
-2. **Environment**: Set up authentication using one of these methods:
-
-```bash
-# Method 1: Service Account Key
-export GOOGLE_APPLICATION_CREDENTIALS="/path/to/service-account-key.json"
-
-# Method 2: Application Default Credentials (recommended for production)
-gcloud auth application-default login
-```
-
-3. **Environment Variables**:
-```bash
-# For development bucket
-export VITE_FIREBASE_PROJECT=DEV
-
-# For production bucket (default)
-unset VITE_FIREBASE_PROJECT
-```
-
-#### **Bucket Configuration**
-- **Development**: `gs://levante-dashboard-dev`
-
-### **4. Supported Languages**
-
-Language configuration is centralized in [`src/constants/languages.js`](./src/constants/languages.js) for consistency across all scripts and components.
-
-| Language | Code | CSV Column | JSON Property |
-|----------|------|------------|---------------|
-| English | `en` | `en` | `default` |
-| Spanish | `es` | `es-CO` | `es` |
-| German | `de` | `de` | `de` |
-| French | `fr` | `fr-CA` | `fr` |
-| Dutch | `nl` | `nl` | `nl` |
-
-#### **Adding New Languages**
-
-**Automatic Detection (Recommended):**
-```bash
-# Analyze and auto-add languages from Crowdin CSV
-npm run detect-languages surveys/surveys.csv
-
-# Analyze all CSV files in surveys/ directory
-npm run detect-languages:all
-```
-
-**Manual Configuration:**
-To add support for a new language manually:
-1. Update `SUPPORTED_LANGUAGES` array in `src/constants/languages.js`
-2. Add language metadata to `LANGUAGE_INFO` object
-3. Update mapping objects (`CSV_TO_JSON_MAPPING`, etc.)
-4. All scripts will automatically use the new language configuration
-
-The automatic detection script will:
-- ✅ Detect new language codes from CSV headers
-- ✅ Automatically infer language metadata (names, regions)
-- ✅ Update all configuration mappings
-- ✅ Support 50+ languages with proper native names
-
-### **5. Translation Statistics**
-
-Current translation coverage across surveys:
-
-| Survey | Items | EN | ES | DE | FR | NL |
-|--------|-------|----|----|----|----|-----|
-| Child Survey | 120 | 100% | 100% | 100% | 100% | 100% |
-| Parent Family | 340 | 100% | 77% | 100% | 100% | 100% |
-| Parent Child | 705 | 94% | 94% | 100% | 100% | 100% |
-| Teacher General | 144 | 98% | 100% | 3% | 100% | 100% |
-| Teacher Classroom | 120 | 98% | 98% | 7% | 100% | 100% |
-
-### **6. Crowdin Integration**
-
-The system is designed to work seamlessly with Crowdin:
-
-1. **Export**: Use `npm run extract-surveys:all` to create CSV files
-2. **Upload**: Upload CSV files to Crowdin for translation
-3. **Download**: Download completed translations as combined CSV
-4. **Import**: Use `npm run import-combined:upload` to update surveys and deploy
-
-### **7. Real-World Impact**
-
-This translation system has been successfully tested and deployed with:
-
-- **1,150+ multilingual objects** updated across 3 survey types
-- **5 languages** supported (EN, ES, DE, FR, NL) 
-- **98% success rate** in production deployment
-- **Seamless integration** with existing LEVANTE research workflows
-
-### **8. Error Handling & Reliability**
-
-The system includes enterprise-grade error handling:
-
-- **Missing translations**: Warns about untranslatable items with detailed reporting
-- **Upload failures**: Continues with local files if cloud upload fails
-- **Authentication**: Clear error messages for credential issues
-- **File validation**: Checks for required CSV columns and survey files
-- **Graceful degradation**: Operations continue even if some steps fail
-- **Comprehensive logging**: Full audit trail of all translation operations
-
-The survey management interface will be available at `http://localhost:5173`
-
 ## 🚀 Quick Start Guide
 
 ### For Survey Creators
@@ -487,50 +432,11 @@ The survey management interface will be available at `http://localhost:5173`
 4. **Open browser**: Navigate to `http://localhost:5173`
 
 ### For Translation Managers
-1. **Deploy latest surveys**: `VITE_FIREBASE_PROJECT=DEV npm run deploy-surveys:dev`
-   - Automatically downloads latest Crowdin CSVs from `l10n_pending` branch
-   - Imports translations and deploys to cloud
-2. **Manual process** (if needed):
-   - Extract: `npm run extract-surveys:all`
-   - Upload to Crowdin: Use generated CSV files  
-   - Deploy: `npm run deploy-surveys:dev` (downloads latest automatically)
-
-## 📁 Project Structure
-
-### **Survey Files**
-The `surveys/` folder contains multiple file types for comprehensive survey management:
-
-**Original Survey Files** (from GCS bucket):
-- **parent_survey_family.json** (98KB) - Caregiver Family Survey
-- **parent_survey_child.json** (260KB) - Caregiver Child Survey  
-- **child_survey.json** (34KB) - Child Survey
-- **teacher_survey_general.json** (45KB) - Teacher General Survey
-- **teacher_survey_classroom.json** (30KB) - Teacher Classroom Survey
-
-**Translation Files** (generated):
-- **child_survey_translations.csv** (13KB) - 120 translation items
-- **parent_survey_family_translations.csv** (46KB) - 340 translation items
-- **parent_survey_child_translations.csv** (126KB) - 705 translation items
-- **teacher_survey_general_translations.csv** (24KB) - 144 translation items
-- **teacher_survey_classroom_translations.csv** (15KB) - 120 translation items
-
-**Updated Survey Files** (with new translations):
-- **child_survey_updated.json** - Enhanced with FR/NL translations
-- **parent_survey_family_updated.json** - Enhanced with FR/NL translations
-- **parent_survey_child_updated.json** - Enhanced with FR/NL translations
-
-**Combined Translation File** (from Crowdin):
-- **surveys.csv** (224KB) - Combined translations for all surveys
-
-### **Usage Scenarios**
-- **Offline Development**: Work without internet connectivity using local files
-- **Survey Analysis**: Examine survey structure and question types
-- **Translation Management**: Extract, edit, and import multilingual content
-- **Backup & Recovery**: Local copies of current survey configurations
-- **Testing**: Load specific survey versions for testing
-- **Deployment**: Automated upload to production cloud storage
-
-> **Note**: The surveys folder is commented out in `.gitignore`, so you can choose whether to commit these files to version control.
+1. **Extract translations**: `npm run extract-surveys:all`
+2. **Upload to Crowdin**: `node scripts/upload-sources-batch.js --folder /surveys-current`
+3. **Configure in Crowdin UI** using column mappings above
+4. **After translation**: Download CSVs and run `npm run import-surveys-individual:all`
+5. **Deploy**: `npm run deploy-surveys:dev`
 
 ## Dependencies
 
@@ -552,6 +458,10 @@ The `surveys/` folder contains multiple file types for comprehensive survey mana
 - **Pinia**: Vue state management
 - **Axios**: HTTP client for API calls
 
+### Testing & Validation
+- **Cypress**: End-to-end testing framework
+- **Node.js Scripts**: Translation automation and validation
+
 ## Troubleshooting
 
 ### Common Issues
@@ -571,7 +481,12 @@ The `surveys/` folder contains multiple file types for comprehensive survey mana
    - Check for console errors related to event handlers
    - Ensure CSS imports are correct
 
-4. **Import/compilation errors**
+4. **Translation import errors**
+   - Verify CSV files have correct column structure
+   - Check language code standardization (hyphens vs underscores)
+   - Ensure Crowdin column mapping matches survey structure
+
+5. **Import/compilation errors**
    - Clear node_modules and reinstall: `rm -rf node_modules package-lock.json && npm install`
    - Check TypeScript configuration
    - Verify all import paths are correct
@@ -587,6 +502,6 @@ This project is part of the LEVANTE research platform. For questions or issues:
 
 ---
 
-**Last Updated**: Created during initial development session
-**Status**: Development/Testing Phase
-**Next Review**: After survey loading and creator functionality verification
+**Last Updated**: Translation workflow standardization and validation implementation
+**Status**: Production-ready translation system with comprehensive validation
+**Next Review**: After survey editor functionality verification

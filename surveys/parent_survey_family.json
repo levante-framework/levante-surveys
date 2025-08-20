@@ -10,12 +10,14 @@
           "html": {
             "default": "<block><b><font face=Verdana size=4>",
             "de": "<block><b><font face=Verdana size=4>",
-            "es": "<block><b><font face=\"Verdana\" size=\"4\"> ¡Gracias de nuevo por participar en este proyecto de investigación! </b><br> <br> <p><font face=\"Verdana\" size=\"4\">Estimamos que diligenciar la siguiente parte de la encuesta le tomará aproximadamente 20-30 minutos. En esta encuesta se le harán preguntas sobre su hogar y sobre usted mismo(a).<br><br>Le agradecemos que responda la encuesta de la forma más precisa posible con la información que tiene disponible. Si tiene alguna duda, comuníquesela a quien coordina esta aplicación. <br><br>Cuando esté listo(a) para empezar, seleccione el botón \"Comenzar Encuesta\".<br><br><b><font face=\"Verdana\" size=\"4\">¡Muchas gracias!",
+            "es": "<block><b><font face=Verdana size=4> ¡Gracias de nuevo por participar en este proyecto de investigación! </b><br> <br> <p><font face=Verdana size=4>Estimamos que diligenciar la siguiente parte de la encuesta le tomará aproximadamente 20-30 minutos. En esta encuesta se le harán preguntas sobre su hogar y sobre usted mismo(a).<br><br>Le agradecemos que responda la encuesta de la forma más precisa posible con la información que tiene disponible. Si tiene alguna duda, comuníquesela a quien coordina esta aplicación. <br><br>Cuando esté listo(a) para empezar, seleccione el botón Comenzar Encuesta.<br><br><b><font face=Verdana size=4>¡Muchas gracias!",
             "es_co": "<block><b><font face=Verdana size=4>",
             "fr_ca": "<block><b><font face=Verdana size=4>",
             "nl": "<block><b><font face=Verdana size=4>",
             "de_ch": "<block><b><font face=Verdana size=4>",
-            "es_ar": "<block><b><font face=Verdana size=4>"
+            "es_ar": "<block><b><font face=Verdana size=4>",
+            "en_us": "<block><b><font face=Verdana size=4>",
+            "en_gh": "<block><b><font face=Verdana size=4>"
           }
         }
       ]
@@ -35,7 +37,9 @@
             "es_co": "Responda a las siguientes preguntas sobre la comunidad en la que vive.",
             "fr_ca": "Veuillez répondre aux questions suivantes concernant la communauté dans laquelle vous vivez.",
             "de_ch": "Bitte beantworten Sie die folgenden Fragen zu der Gemeinschaft, in der Sie leben.",
-            "es_ar": "Responda a las siguientes preguntas sobre la comunidad en la que vive."
+            "es_ar": "Responda a las siguientes preguntas sobre la comunidad en la que vive.",
+            "en_us": "Please answer the following questions about the community in which you live.",
+            "en_gh": "Kindly answer the following questions about the community you dey live inside."
           },
           "elements": [
             {
@@ -73,7 +77,9 @@
                 "es_co": "No",
                 "fr_ca": "Non",
                 "de_ch": "Nein",
-                "es_ar": "No"
+                "es_ar": "No",
+                "en_us": "No",
+                "en_gh": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -113,7 +119,9 @@
                 "es_co": "No",
                 "fr_ca": "Non",
                 "de_ch": "Nein",
-                "es_ar": "No"
+                "es_ar": "No",
+                "en_us": "No",
+                "en_gh": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -153,7 +161,9 @@
                 "es_co": "No",
                 "fr_ca": "Non",
                 "de_ch": "Nein",
-                "es_ar": "No"
+                "es_ar": "No",
+                "en_us": "No",
+                "en_gh": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -193,7 +203,9 @@
                 "es_co": "No",
                 "fr_ca": "Non",
                 "de_ch": "Nein",
-                "es_ar": "No"
+                "es_ar": "No",
+                "en_us": "No",
+                "en_gh": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -233,7 +245,9 @@
                 "es_co": "No",
                 "fr_ca": "Non",
                 "de_ch": "Nein",
-                "es_ar": "No"
+                "es_ar": "No",
+                "en_us": "No",
+                "en_gh": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -273,7 +287,9 @@
                 "es_co": "No",
                 "fr_ca": "Non",
                 "de_ch": "Nein",
-                "es_ar": "No"
+                "es_ar": "No",
+                "en_us": "No",
+                "en_gh": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -313,7 +329,9 @@
                 "es_co": "No",
                 "fr_ca": "Non",
                 "de_ch": "Nein",
-                "es_ar": "No"
+                "es_ar": "No",
+                "en_us": "No",
+                "en_gh": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -462,7 +480,9 @@
                 "es_co": "Su niño(a) está seguro(a) en la escuela.",
                 "fr_ca": "Votre enfant est en sécurité à l'école.",
                 "de_ch": "Ihr Kind ist in der Schule sicher.",
-                "es_ar": "Su niño(a) está seguro(a) en la escuela."
+                "es_ar": "Su niño(a) está seguro(a) en la escuela.",
+                "en_us": "Your child is safe at school.",
+                "en_gh": "Your child dey safe for school."
               }
             }
           ]
@@ -479,7 +499,9 @@
             "es_co": "Estas son declaraciones que las personas han hecho sobre situaciones alimentarias. Para cada uno, favor de indicar si ha ocurrido frecuentemente, a veces, o nunca (a Ud. / en su hogar) en <b>los últimos 12 meses</b>.",
             "fr_ca": "Ce sont des affirmations que les gens ont faites concernant leur situation alimentaire. Pour ces déclarations, indiquez s'il était souvent vrai, parfois vrai ou jamais vrai pour votre foyer au cours <b>des 12 derniers mois</b>.",
             "de_ch": "Dies sind Aussagen, die Menschen über ihre Ernährungssituation gemacht haben. Bitte kreuzen Sie für diese Aussagen an, ob die Aussage in den <b>letzten 12 Monaten</b> für Ihren Haushalt oft, manchmal oder nie stimmte.",
-            "es_ar": "Estas son declaraciones que las personas han hecho sobre situaciones alimentarias. Para cada uno, favor de indicar si ha ocurrido frecuentemente, a veces, o nunca (a Ud. / en su hogar) en <b>los últimos 12 meses</b>."
+            "es_ar": "Estas son declaraciones que las personas han hecho sobre situaciones alimentarias. Para cada uno, favor de indicar si ha ocurrido frecuentemente, a veces, o nunca (a Ud. / en su hogar) en <b>los últimos 12 meses</b>.",
+            "en_us": "These are statements people have made about their food situation. For these statements, please mark whether the statement was often true, sometimes true, or never true for your household in the <b>last 12 months</b>.",
+            "en_gh": "These things be what dem say about their food place. For these things, mark if dem always true, sometimes true, or never true for your household within <b>last 12 months</b>."
           },
           "showQuestionNumbers": "off",
           "elements": [
@@ -537,7 +559,9 @@
                     "es_co": "Frecuentemente",
                     "fr_ca": "Souvent vrai",
                     "de_ch": "Trifft oft zu",
-                    "es_ar": "Frecuentemente"
+                    "es_ar": "Frecuentemente",
+                    "en_us": "Often true",
+                    "en_gh": "Many times true"
                   }
                 }
               ],
@@ -598,7 +622,9 @@
                     "es_co": "Frecuentemente",
                     "fr_ca": "Souvent vrai",
                     "de_ch": "Trifft oft zu",
-                    "es_ar": "Frecuentemente"
+                    "es_ar": "Frecuentemente",
+                    "en_us": "Often true",
+                    "en_gh": "Many times true"
                   }
                 }
               ],
@@ -638,7 +664,9 @@
                 "es_co": "No",
                 "fr_ca": "Non",
                 "de_ch": "Nein",
-                "es_ar": "No"
+                "es_ar": "No",
+                "en_us": "No",
+                "en_gh": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -698,7 +726,9 @@
                     "es_co": "Solo 1 ó 2 meses",
                     "fr_ca": "Seulement 1 ou 2 mois",
                     "de_ch": "Nur in 1 oder 2 Monaten",
-                    "es_ar": "Solo 1 ó 2 meses"
+                    "es_ar": "Solo 1 ó 2 meses",
+                    "en_us": "Only 1 or 2 months",
+                    "en_gh": "Only 1 or 2 months"
                   }
                 }
               ],
@@ -723,7 +753,9 @@
             "es_co": "A continuación encontrará una serie de afirmaciones sobre el entorno de su hogar. Indique qué tan cierta es cada afirmación para su hogar.",
             "fr_ca": "Voici des déclarations sur l'environnement dans votre maison. Veuillez indiquer dans quelle mesure vous êtes d'accord que la déclaration est vraie pour votre maison.",
             "de_ch": "Im Folgenden finden Sie Aussagen über die häusliche Umgebung. Bitte geben Sie an, inwieweit Sie der Aussage zustimmen, dass sie auf Ihr Zuhause zutrifft.",
-            "es_ar": "A continuación encontrará una serie de afirmaciones sobre el entorno de su hogar. Indique qué tan cierta es cada afirmación para su hogar."
+            "es_ar": "A continuación encontrará una serie de afirmaciones sobre el entorno de su hogar. Indique qué tan cierta es cada afirmación para su hogar.",
+            "en_us": "Below are statements about the environment in your home. Please indicate how much you agree that the statement is true of your home.",
+            "en_gh": "Below be things for your house wey make am up. Kindly show how you dey feel about them."
           },
           "showQuestionNumbers": "off",
           "elements": [
@@ -795,7 +827,9 @@
                     "es_co": "Totalmente verdadero",
                     "fr_ca": "Totalement vrai",
                     "de_ch": "Definitiv wahr",
-                    "es_ar": "Totalmente verdadero"
+                    "es_ar": "Totalmente verdadero",
+                    "en_us": "Definitely True",
+                    "en_gh": "Truly True"
                   }
                 }
               ],
@@ -869,7 +903,9 @@
                     "es_co": "Totalmente verdadero",
                     "fr_ca": "Totalement vrai",
                     "de_ch": "Definitiv wahr",
-                    "es_ar": "Totalmente verdadero"
+                    "es_ar": "Totalmente verdadero",
+                    "en_us": "Definitely True",
+                    "en_gh": "Truly True"
                   }
                 }
               ],
@@ -943,7 +979,9 @@
                     "es_co": "Totalmente verdadero",
                     "fr_ca": "Totalement vrai",
                     "de_ch": "Definitiv wahr",
-                    "es_ar": "Totalmente verdadero"
+                    "es_ar": "Totalmente verdadero",
+                    "en_us": "Definitely True",
+                    "en_gh": "Truly True"
                   }
                 }
               ],
@@ -1017,7 +1055,9 @@
                     "es_co": "Totalmente verdadero",
                     "fr_ca": "Totalement vrai",
                     "de_ch": "Definitiv wahr",
-                    "es_ar": "Totalmente verdadero"
+                    "es_ar": "Totalmente verdadero",
+                    "en_us": "Definitely True",
+                    "en_gh": "Truly True"
                   }
                 }
               ],
@@ -1099,7 +1139,9 @@
                     "es_co": "Muy mal",
                     "fr_ca": "Pas du tout bien",
                     "de_ch": "Überhaupt nicht gut",
-                    "es_ar": "Muy mal"
+                    "es_ar": "Muy mal",
+                    "en_us": "Not well at all",
+                    "en_gh": "Not good one bit"
                   }
                 }
               ],
@@ -1240,7 +1282,9 @@
                 "es_co": "Poco interés o placer por hacer cosas",
                 "fr_ca": "Peu d'intérêt ou de plaisir à faire des choses",
                 "de_ch": "Wenig Interesse oder Freude am Tun",
-                "es_ar": "Poco interés o placer por hacer cosas"
+                "es_ar": "Poco interés o placer por hacer cosas",
+                "en_us": "Little interest or pleasure in doing things",
+                "en_gh": "Little interest or joy dey things you used to love"
               }
             }
           ]
@@ -1517,7 +1561,9 @@
                 "es_co": "Puedo hablar de mis problemas con mis amigos.",
                 "fr_ca": "Je peux parler de mes problèmes avec mes amis.",
                 "de_ch": "Ich kann mit meinen Freunden über meine Probleme sprechen.",
-                "es_ar": "Puedo hablar de mis problemas con mis amigos."
+                "es_ar": "Puedo hablar de mis problemas con mis amigos.",
+                "en_us": "I can talk about my problems with my friends.",
+                "en_gh": "For problems wey you get, you fit share them within your friend circle."
               }
             }
           ]
@@ -1692,7 +1738,9 @@
                 "es_co": "Le amenazan o acosan.",
                 "fr_ca": "Vous êtes menacé ou harcelé.",
                 "de_ch": "Sie werden bedroht oder belästigt.",
-                "es_ar": "Le amenazan o acosan."
+                "es_ar": "Le amenazan o acosan.",
+                "en_us": "You are threatened or harassed.",
+                "en_gh": "You dey threatened or dey thrown into harassing situations."
               }
             }
           ]
@@ -1708,13 +1756,15 @@
           "title": {
             "default": "Please select Yes or No to indicate whether each event has happened to you <b>in the past year</b>.",
             "es": "Indique con Sí o No si le ha sucedido alguna de las siguientes cosas <b>en el último año</b>.",
-            "de": "Bitte wählen Sie \"Ja\" oder\"Nein\", um anzugeben, ob Ihnen das jeweilige Ereignis im vergangenen Jahr widerfahren ist.",
+            "de": "Bitte wählen Sie Ja oderNein, um anzugeben, ob Ihnen das jeweilige Ereignis im vergangenen Jahr widerfahren ist.",
             "fr": "Veuillez sélectionner Oui ou Non pour indiquer si chaque événement vous est arrivé <b>l'année passée</b>.",
             "nl": "Selecteer Ja of Nee om aan te geven of elk evenement u is overkomen <b>in het afgelopen jaar</b>.",
             "es_co": "Indique con Sí o No si le ha sucedido alguna de las siguientes cosas <b>en el último año</b>.",
             "fr_ca": "Veuillez sélectionner Oui ou Non pour indiquer si chaque événement vous est arrivé <b>l'année passée</b>.",
-            "de_ch": "Bitte wählen Sie \"Ja\" oder \"Nein\", um anzugeben, ob Ihnen das jeweilige Ereignis im vergangenen Jahr widerfahren ist.",
-            "es_ar": "Indique con Sí o No si le ha sucedido alguna de las siguientes cosas <b>en el último año</b>."
+            "de_ch": "Bitte wählen Sie Ja oder Nein, um anzugeben, ob Ihnen das jeweilige Ereignis im vergangenen Jahr widerfahren ist.",
+            "es_ar": "Indique con Sí o No si le ha sucedido alguna de las siguientes cosas <b>en el último año</b>.",
+            "en_us": "Please select Yes or No to indicate whether each event has happened to you <b>in the past year</b>.",
+            "en_gh": "Do indicate through Yes or No whether each thing relate to your list of events for <b>last year</b>."
           },
           "showQuestionNumbers": "off",
           "elements": [
@@ -1730,7 +1780,9 @@
                 "es_co": "Salud:",
                 "fr_ca": "Santé :",
                 "de_ch": "Gesundheit:",
-                "es_ar": "Salud:"
+                "es_ar": "Salud:",
+                "en_us": "Health:",
+                "en_gh": "Health:"
               },
               "elements": [
                 {
@@ -1767,7 +1819,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "74",
                   "valueFalse": "0"
@@ -1806,7 +1860,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "44",
                   "valueFalse": "0"
@@ -1845,7 +1901,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "26",
                   "valueFalse": "0"
@@ -1884,7 +1942,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "27",
                   "valueFalse": "0"
@@ -1923,7 +1983,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "26",
                   "valueFalse": "0"
@@ -1962,7 +2024,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "28",
                   "valueFalse": "0"
@@ -1981,7 +2045,9 @@
                 "es_co": "Trabajo:",
                 "fr_ca": "Travail :",
                 "de_ch": "Arbeit:",
-                "es_ar": "Trabajo:"
+                "es_ar": "Trabajo:",
+                "en_us": "Work:",
+                "en_gh": "Work:"
               },
               "elements": [
                 {
@@ -2018,7 +2084,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "51",
                   "valueFalse": "0"
@@ -2057,7 +2125,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "35",
                   "valueFalse": "0"
@@ -2096,7 +2166,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "29",
                   "valueFalse": "0"
@@ -2135,7 +2207,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "21",
                   "valueFalse": "0"
@@ -2174,7 +2248,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "31",
                   "valueFalse": "0"
@@ -2213,7 +2289,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "42",
                   "valueFalse": "0"
@@ -2252,7 +2330,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "32",
                   "valueFalse": "0"
@@ -2291,7 +2371,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "29",
                   "valueFalse": "0"
@@ -2330,7 +2412,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "35",
                   "valueFalse": "0"
@@ -2369,7 +2453,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "35",
                   "valueFalse": "0"
@@ -2408,7 +2494,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "28",
                   "valueFalse": "0"
@@ -2447,7 +2535,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "60",
                   "valueFalse": "0"
@@ -2486,7 +2576,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "52",
                   "valueFalse": "0"
@@ -2525,7 +2617,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "68",
                   "valueFalse": "0"
@@ -2564,7 +2658,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "79",
                   "valueFalse": "0"
@@ -2603,7 +2699,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "18",
                   "valueFalse": "0"
@@ -2622,7 +2720,9 @@
                 "es_co": "Hogar y Familia:",
                 "fr_ca": "Maison et Famille :",
                 "de_ch": "Haus und Familie:",
-                "es_ar": "Hogar y Familia:"
+                "es_ar": "Hogar y Familia:",
+                "en_us": "Home and Family:",
+                "en_gh": "Home and Family:"
               },
               "elements": [
                 {
@@ -2659,7 +2759,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "42",
                   "valueFalse": "0"
@@ -2698,7 +2800,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "25",
                   "valueFalse": "0"
@@ -2737,7 +2841,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "47",
                   "valueFalse": "0"
@@ -2776,7 +2882,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "25",
                   "valueFalse": "0"
@@ -2815,7 +2923,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "55",
                   "valueFalse": "0"
@@ -2854,7 +2964,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "50",
                   "valueFalse": "0"
@@ -2893,7 +3005,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "67",
                   "valueFalse": "0"
@@ -2932,7 +3046,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "66",
                   "valueFalse": "0"
@@ -2971,7 +3087,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "65",
                   "valueFalse": "0"
@@ -3010,7 +3128,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "59",
                   "valueFalse": "0"
@@ -3049,7 +3169,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "46",
                   "valueFalse": "0"
@@ -3088,7 +3210,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "41",
                   "valueFalse": "0"
@@ -3127,7 +3251,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "41",
                   "valueFalse": "0"
@@ -3166,7 +3292,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "45",
                   "valueFalse": "0"
@@ -3205,7 +3333,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "50",
                   "valueFalse": "0"
@@ -3244,7 +3374,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "38",
                   "valueFalse": "0"
@@ -3283,7 +3415,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "59",
                   "valueFalse": "0"
@@ -3322,7 +3456,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "50",
                   "valueFalse": "0"
@@ -3361,7 +3497,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "53",
                   "valueFalse": "0"
@@ -3400,7 +3538,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "76",
                   "valueFalse": "0"
@@ -3439,7 +3579,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "96",
                   "valueFalse": "0"
@@ -3478,7 +3620,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "43",
                   "valueFalse": "0"
@@ -3517,7 +3661,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "119",
                   "valueFalse": "0"
@@ -3556,7 +3702,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "123",
                   "valueFalse": "0"
@@ -3595,7 +3743,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "102",
                   "valueFalse": "0"
@@ -3634,7 +3784,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "100",
                   "valueFalse": "0"
@@ -3653,7 +3805,9 @@
                 "es_co": "Personal y Social:",
                 "fr_ca": "Personnel et Social :",
                 "de_ch": "Persönlich und sozial:",
-                "es_ar": "Personal y Social:"
+                "es_ar": "Personal y Social:",
+                "en_us": "Personal and Social:",
+                "en_gh": "Personal and Social:"
               },
               "elements": [
                 {
@@ -3690,7 +3844,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "26",
                   "valueFalse": "0"
@@ -3729,7 +3885,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "38",
                   "valueFalse": "0"
@@ -3768,7 +3926,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "35",
                   "valueFalse": "0"
@@ -3807,7 +3967,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "24",
                   "valueFalse": "0"
@@ -3846,7 +4008,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "29",
                   "valueFalse": "0"
@@ -3885,7 +4049,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "27",
                   "valueFalse": "0"
@@ -3924,7 +4090,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "24",
                   "valueFalse": "0"
@@ -3963,7 +4131,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "37",
                   "valueFalse": "0"
@@ -4002,7 +4172,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "45",
                   "valueFalse": "0"
@@ -4041,7 +4213,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "39",
                   "valueFalse": "0"
@@ -4080,7 +4254,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "47",
                   "valueFalse": "0"
@@ -4119,7 +4295,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "48",
                   "valueFalse": "0"
@@ -4158,7 +4336,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "20",
                   "valueFalse": "0"
@@ -4197,7 +4377,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "70",
                   "valueFalse": "0"
@@ -4236,7 +4418,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "51",
                   "valueFalse": "0"
@@ -4275,7 +4459,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "36",
                   "valueFalse": "0"
@@ -4294,7 +4480,9 @@
                 "es_co": "Financiera:",
                 "fr_ca": "Financier :",
                 "de_ch": "Finanzen:",
-                "es_ar": "Financiera:"
+                "es_ar": "Financiera:",
+                "en_us": "Financial:",
+                "en_gh": "Finance:"
               },
               "elements": [
                 {
@@ -4331,7 +4519,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "38",
                   "valueFalse": "0"
@@ -4370,7 +4560,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "60",
                   "valueFalse": "0"
@@ -4409,7 +4601,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "56",
                   "valueFalse": "0"
@@ -4448,7 +4642,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "43",
                   "valueFalse": "0"
@@ -4487,7 +4683,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "20",
                   "valueFalse": "0"
@@ -4526,7 +4724,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "37",
                   "valueFalse": "0"
@@ -4565,7 +4765,9 @@
                     "es_co": "No",
                     "fr_ca": "Non",
                     "de_ch": "Nein",
-                    "es_ar": "No"
+                    "es_ar": "No",
+                    "en_us": "No",
+                    "en_gh": "No"
                   },
                   "valueTrue": "58",
                   "valueFalse": "0"
@@ -4591,7 +4793,9 @@
             "es_co": "<b>Instrucciones:</b> Piense que esta línea representa la situación de la gente en <i>el país en el que vive</i>. <b>A la derecha</b> están las personas más acomodadas: las que tienen más dinero, más educación y los trabajos más respetados. <b>A la izquierda</b> están las personas que están en peor situación: las que tienen menos dinero, menos educación, los trabajos menos respetados o ningún trabajo. Cuanto más a la derecha se encuentre en la línea, más cerca estará de la gente que más tiene; cuanto más a la izquierda, más cerca estará de la gente que menos tiene.<br><b>¿Dónde se situaría usted en esta línea?</b><br>Mueva y ubique el círculo sobre la recta donde usted crea que encontrarse en este momento de su vida en relación con otras personas de su país.",
             "fr_ca": "<b>Instructions :</b> Imaginez que cette ligne représente l'endroit où les gens se situent dans le <i>pays où vous vivez</i>. À droite se trouvent les personnes les mieux loties - celles qui ont le plus d'argent, d'éducation et les emplois les plus respectés. À gauche se trouvent les personnes les plus désavantagées - celles qui ont le moins d'argent, d'éducation et les emplois les moins respectés, voire aucun emploi. Plus vous êtes à droite sur la ligne, plus vous êtes proche des personnes au sommet ; plus vous êtes à gauche, plus vous êtes proche des personnes en bas.<br><b>Où vous situez-vous sur cette ligne ?</b><br>Déplacez le curseur là où vous pensez vous situer à ce moment de votre vie par rapport aux autres personnes dans votre pays.",
             "de_ch": "<b>Anweisungen:</b> Stellen Sie sich vor, dass diese Linie zeigt, wo sich die Menschen<i>in dem Land, in dem Sie leben, befinden</i>. Auf der <b>rechten</b> Seite befinden sich die Menschen, denen es am besten geht - diejenigen, die das meiste Geld, die beste Ausbildung und die angesehensten Arbeitsplätze haben. Auf der <b>linken</b> Seite befinden sich die Menschen, denen es am schlechtesten geht - diejenigen, die das wenigste Geld, die geringste Bildung, die am wenigsten angesehenen Arbeitsplätze oder gar keinen Arbeitsplatz haben.Je weiter rechts Sie sich auf der Linie befinden, desto näher sind Sie den Menschen ganz oben; je weiter links Sie sind, desto näher sind Sie den Menschen ganz unten.<br><b>Wo würden Sie sich selbst auf dieser Linie einordnen?</b><br>Bewegen Sie den Schieberegler dorthin, wo Sie Ihrer Meinung nach im Vergleich zu anderen Menschen in Ihrem Land derzeit stehen.",
-            "es_ar": "<b>Instrucciones:</b> Piense que esta línea representa la situación de la gente en <i>el país en el que vive</i>. <b>A la derecha</b> están las personas más acomodadas: las que tienen más dinero, más educación y los trabajos más respetados. <b>A la izquierda</b> están las personas que están en peor situación: las que tienen menos dinero, menos educación, los trabajos menos respetados o ningún trabajo. Cuanto más a la derecha se encuentre en la línea, más cerca estará de la gente que más tiene; cuanto más a la izquierda, más cerca estará de la gente que menos tiene.<br><b>¿Dónde se situaría usted en esta línea?</b><br>Mueva y ubique el círculo sobre la recta donde usted crea que encontrarse en este momento de su vida en relación con otras personas de su país."
+            "es_ar": "<b>Instrucciones:</b> Piense que esta línea representa la situación de la gente en <i>el país en el que vive</i>. <b>A la derecha</b> están las personas más acomodadas: las que tienen más dinero, más educación y los trabajos más respetados. <b>A la izquierda</b> están las personas que están en peor situación: las que tienen menos dinero, menos educación, los trabajos menos respetados o ningún trabajo. Cuanto más a la derecha se encuentre en la línea, más cerca estará de la gente que más tiene; cuanto más a la izquierda, más cerca estará de la gente que menos tiene.<br><b>¿Dónde se situaría usted en esta línea?</b><br>Mueva y ubique el círculo sobre la recta donde usted crea que encontrarse en este momento de su vida en relación con otras personas de su país.",
+            "en_us": "<b>Instructions:</b> Think of this line as representing where people stand in the <i>country where you live</i>. To the <b>right</b> are the people who are the best off - those who have the most money, the most education, and the most respected jobs. To the <b>left</b> are the people who are the worst off - those who have the least money, the least education, the least respected jobs, or no job. The further to the right you are on the line, the closer you are to the people at the very top; the further to the left you are, the closer you are to the people at the very bottom.<br><b>Where would you place yourself on this line?</b><br>Move the slider to where you think you stand at this time in your life relative to other people in your country.",
+            "en_gh": "<b>Instructions:</b> You for picture that line as show wey people dey stand for the <i>country weh you live</i>. On the <b>right</b> dey people who dey feel themselves the most — most cash, most degree, job wey dey respect pass. Na the ones wey dey the <b>left</b> that dey struggle pass — least cash, least learning, no job. If you go further right on the line, you go close to top dogs; you go further left, you dey nears the bottom ones.<br><b>Which location you go rate yourself?</b><br>Make slide like the position wey you dey feel yourself at this place in living as one compared to others for your nation."
           },
           "showNumber": false,
           "inputType": "range",
@@ -4610,7 +4814,9 @@
             "es_co": "<b>Instrucciones:</b> Piense que esta línea representa la posición de las personas en sus <i>comunidades</i>. La gente define la comunidad de distintas maneras; por favor, piense en la definición que a usted le resulte más significativa. <b>A la derecha</b> están las personas que gozan de mayor prestigio en su comunidad. <b>A la izquierda</> están las personas que tienen menor prestigio en su comunidad.<br><b>¿Dónde se situaría en esta línea?</b><br>Mueve y ubique el círculo sobre la recta donde usted creas que encontrarse en este momento de su vida en relación con otras personas de su comunidad.",
             "fr_ca": "<b>Instructions :</b> Imaginez cette ligne comme représentant l'endroit où les gens se situent dans leurs <i>communautés</i>. Les gens définissent la communauté de différentes manières ; veuillez la définir de la manière qui vous semble la plus significative. À droite se trouvent les personnes qui ont la plus haute position dans leur communauté. À gauche se trouvent les personnes ayant le statut le plus bas dans leur communauté.<br><b>Où vous situez-vous sur cette ligne ?</b><br>Déplacez le curseur à l'endroit où vous pensez être à ce moment de votre vie par rapport aux autres personnes de votre communauté.",
             "de_ch": "<b>Anweisungen:</b> Stellen Sie sich vor, dass diese Linie zeigt, wo die Menschen in ihren <i>Gemeinschaften</i> stehen. Menschen definieren Gemeinschaft auf unterschiedliche Weise; bitte definieren Sie sie so, wie es für Sie am sinnvollsten ist. Auf der <b>rechten</b> Seite stehen die Menschen, die den höchsten Stellenwert in ihrer Gemeinschaft haben. Auf der <b>linken</b> Seite befinden sich die Menschen, die den niedrigsten Stellenwert in ihrer Gemeinschaft haben.<br><b>Wo würden Sie sich auf dieser Linie einordnen?</b><br>Bewegen Sie den Schieberegler dorthin, wo Sie Ihrer Meinung nach im Vergleich zu den anderen Menschen in Ihrer Gemeinschaft stehen.",
-            "es_ar": "<b>Instrucciones:</b> Piense que esta línea representa la posición de las personas en sus <i>comunidades</i>. La gente define la comunidad de distintas maneras; por favor, piense en la definición que a usted le resulte más significativa. <b>A la derecha</b> están las personas que gozan de mayor prestigio en su comunidad. <b>A la izquierda</> están las personas que tienen menor prestigio en su comunidad.<br><b>¿Dónde se situaría en esta línea?</b><br>Mueve y ubique el círculo sobre la recta donde usted creas que encontrarse en este momento de su vida en relación con otras personas de su comunidad."
+            "es_ar": "<b>Instrucciones:</b> Piense que esta línea representa la posición de las personas en sus <i>comunidades</i>. La gente define la comunidad de distintas maneras; por favor, piense en la definición que a usted le resulte más significativa. <b>A la derecha</b> están las personas que gozan de mayor prestigio en su comunidad. <b>A la izquierda</> están las personas que tienen menor prestigio en su comunidad.<br><b>¿Dónde se situaría en esta línea?</b><br>Mueve y ubique el círculo sobre la recta donde usted creas que encontrarse en este momento de su vida en relación con otras personas de su comunidad.",
+            "en_us": "<b>Instructions:</b> Think of this line as representing where people stand in their <i>communities</i>. People define community in different ways; please define it in whatever way is most meaningful to you. To the <b>right</b> are people who have the highest standing in their community. To the <b>left</b> are the people who have the lowest standing in their community.<br><b>Where would you place yourself on this line?</b><br>Move the slider to where you think you stand at this time in your life relative to other people in your community.",
+            "en_gh": "<b>Instructions:</b> This line dey represent where people relate to in their <i>communities</i>. People see community in different scopes; use any that strike real to you. On the <b>right</b> dey people with high regard in community. On the <b>left</b> dey people wey low rate in community.<br><b>Which location you fit place yourself now?</b><br>Use slider to place where you stand at this moment in this world as relative to different heads for your place."
           },
           "showNumber": false,
           "inputType": "range",

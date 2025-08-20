@@ -131,7 +131,7 @@ function isMultilingualObject(obj) {
 /**
  * Recursively find and update multilingual objects in survey JSON
  */
-function updateMultilingualTexts(obj, translationsMap, elementName = '', results = []) {
+function updateMultilingualTexts(obj, translationsMap, elementName = '', results = [], byElement = {}) {
   if (!obj || typeof obj !== 'object') {
     return results
   }
@@ -142,20 +142,32 @@ function updateMultilingualTexts(obj, translationsMap, elementName = '', results
   // If this is a multilingual object, update it
   if (isMultilingualObject(obj)) {
     // Try to find matching translations using the current element name
-    const matchingTranslations = translationsMap[currentElementName] || []
+    const englishBaseline = (obj.default || obj.en_us || obj.en || '').trim()
+    let matchingTranslations = translationsMap[`${currentElementName}::${englishBaseline}`] || []
+
+    // Context filter: if this multilingual is a title (no parent choices) and looks like a question
+    // but the candidate translation row clearly looks like a long question (contains '?'), de-prioritize it
+    if (matchingTranslations.length > 1 && Array.isArray(byElement[currentElementName])) {
+      const baselineHasQ = /[?¿]/.test(englishBaseline)
+      const filterFn = baselineHasQ
+        ? (t) => /[?¿]/.test((t.source || t.en || '').trim())
+        : (t) => !/[?¿]/.test((t.source || t.en || '').trim())
+      const filtered = matchingTranslations.filter(filterFn)
+      if (filtered.length > 0) matchingTranslations = filtered
+    }
 
     if (matchingTranslations.length > 0) {
       // Find the best matching translation by comparing English text
-      const currentEnglishText = obj.default || obj.en || ''
+      const currentEnglishText = (obj.default || obj.en_us || obj.en || '').trim()
       let bestMatch = null
 
       if (matchingTranslations.length === 1) {
         bestMatch = matchingTranslations[0]
       } else {
-        // Try to find exact match by English text
+        // Try to find exact match by English/source text
         bestMatch = matchingTranslations.find(t => {
-          const translationEnText = t.en || ''
-          return translationEnText.trim() === currentEnglishText.trim()
+          const candidate = (t.source || t.en || t['en-US'] || t['en_US'] || '').trim()
+          return candidate === currentEnglishText
         })
         // Don't use fallback if no exact match found - this prevents corruption
       }
@@ -163,8 +175,11 @@ function updateMultilingualTexts(obj, translationsMap, elementName = '', results
       if (bestMatch) {
         // Update each language if translation exists
         for (const [csvLang, jsonLang] of Object.entries(CSV_TO_JSON_MAPPING)) {
-          if (bestMatch[csvLang] && bestMatch[csvLang].trim()) {
-            obj[jsonLang] = bestMatch[csvLang].trim()
+          // Never overwrite base English in JSON
+          if (jsonLang === 'default') continue
+          const val = bestMatch[csvLang]
+          if (typeof val === 'string' && val.trim()) {
+            obj[jsonLang] = val.trim()
           }
         }
 
@@ -259,12 +274,17 @@ async function importSurveyTranslations(csvFilePath, shouldUpload = false) {
   }
 
   // Group translations by element name
+  // Group by element AND by English/source text to avoid mixing identical labels of different choices
   const translationsMap = {}
+  const byElement = {}
   translations.forEach(t => {
-    if (!translationsMap[t.elementName]) {
-      translationsMap[t.elementName] = []
-    }
-    translationsMap[t.elementName].push(t)
+    const base = t.elementName
+    const english = (t.source || t.en || t['en-US'] || t['en_US'] || '').trim()
+    const key = `${base}::${english}`
+    if (!translationsMap[key]) translationsMap[key] = []
+    translationsMap[key].push(t)
+    if (!byElement[base]) byElement[base] = []
+    byElement[base].push(t)
   })
 
   console.log(`🎯 Found translations for ${Object.keys(translationsMap).length} unique elements`)
@@ -279,7 +299,7 @@ async function importSurveyTranslations(csvFilePath, shouldUpload = false) {
 
   // Update survey with translations
   console.log(`🔄 Updating ${surveyName} with ${translations.length} translations...`)
-  const results = updateMultilingualTexts(surveyData, translationsMap)
+  const results = updateMultilingualTexts(surveyData, translationsMap, '', [], byElement)
 
   const updatedCount = results.filter(r => r.updated).length
   const failedCount = results.filter(r => !r.updated).length

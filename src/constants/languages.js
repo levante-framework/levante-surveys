@@ -79,7 +79,11 @@ export const JSON_LANGUAGE_MAPPING = {
   'es': 'es',
   'de': 'de',
   'fr': 'fr',
-  'nl': 'nl'
+  'nl': 'nl',
+  // Regional English variants - standardized to hyphens
+  'en-US': 'en-US',
+  'en-GB': 'en-GB',
+  'en-GH': 'en-GH'
 }
 
 /**
@@ -87,21 +91,33 @@ export const JSON_LANGUAGE_MAPPING = {
  * Maps CSV column names to survey JSON property names
  */
 export const CSV_TO_JSON_MAPPING = {
+  // Base English maps to default
   "en": "default",
-  "en-GB": "default",
-  "en-GH": "default",
-  "es-CO": "es",
-  "es-AR": "es",
+  // Regional English variants - standardized to hyphens in both CSV and JSON
+  "en-US": "en-US",
+  "en_US": "en-US",  // backward compatibility
+  "en-GB": "en-GB",
+  "en_GB": "en-GB",  // backward compatibility
+  "en-GH": "en-GH",
+  "en_GH": "en-GH",  // backward compatibility
+  // Preserve regional variants for other languages - standardized to hyphens
+  "es": "es",
   "es-ES": "es",
+  "es-CO": "es-CO",
+  "es_CO": "es-CO",  // backward compatibility
+  "es-AR": "es-AR",
+  "es_AR": "es-AR",  // backward compatibility
   "de": "de",
-  "de-CH": "de",
-  "de-AT": "de",
-  "fr-CA": "fr",
+  "de-CH": "de-CH",
+  "de_CH": "de-CH",  // backward compatibility
+  "de-AT": "de-AT",
+  "de_AT": "de-AT",  // backward compatibility
+  "fr": "fr",
+  "fr-CA": "fr-CA",
+  "fr_CA": "fr-CA",  // backward compatibility
   "fr-FR": "fr",
   "nl": "nl",
   "nl-NL": "nl",
-  "es": "es",
-  "fr": "fr",
   "it": "it",
   "pt": "pt"
 }

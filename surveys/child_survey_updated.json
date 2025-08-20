@@ -8,7 +8,7 @@
           "type": "html",
           "name": "ChildSurveyIntro",
           "html": {
-            "default": "<font face=Verdana size=4>This pesewa ask how you dey feel for school and some things you dey do for school. No correct or wrong answers dey. Choose the answer wey fit what you dey think. <b><font face=Verdana size=4>No, never; Yes, some of the time; Yes, most of the time; Yes, all of the time.<br><br>The first two be practice.",
+            "default": "<font face=Verdana size=4>These questions ask you about how you feel at school and some of the things you do at school. There are no right or wrong answers. Choose the answer that best describes what you think. <b><font face=Verdana size=4>No, never; Yes, some of the time; Yes, most of the time; Yes, all of the time.<br><br>The first two are for practice.",
             "es": "<font face=Verdana size=4>Estas preguntas se refieren a cómo te sientes en la escuela y a lo que haces en la escuela. No hay respuestas correctas ni incorrectas. Elige la respuesta que más se acerque a lo que piensas. <br><b><font face=Verdana size=4> No, nunca; Sí, algunas veces; Sí, muchas veces; Sí, siempre. <br><br>Ensaya con las dos primeras preguntas cómo responder.",
             "de": "<font face=Verdana size=4>In diesen Fragen geht es darum, wie du dich in der Schule fühlst und was du in der Schule machst. Es gibt keine richtigen oder falschen Antworten. Wähle die Antwort, die am besten beschreibt, was du denkst.<b><font face=Verdana size=4> Nein, nie; Ja, manchmal; Ja, meistens; Ja, immer.<br><br>Die ersten beiden Fragen sind zum Üben.",
             "fr": "<font face=Verdana size=4>Ces questions vous demandent comment vous vous sentez à l'école et certaines choses que vous faites à l'école. Il n'y a pas de bonnes ou de mauvaises réponses. Choisissez la réponse qui décrit le mieux ce que vous pensez. <b><font face=Verdana size=4>Non, jamais; Oui, quelquefois; Oui, la plupart du temps; Oui, tout le temps.<br><br>Les deux premiers sont pour la pratique.",
@@ -16,7 +16,15 @@
             "es_co": "<font face=Verdana size=4>Estas preguntas se refieren a cómo te sientes en la escuela y a lo que haces en la escuela. No hay respuestas correctas ni incorrectas. Elige la respuesta que más se acerque a lo que piensas. <br><b><font face=Verdana size=4> No, nunca; Sí, algunas veces; Sí, muchas veces; Sí, siempre. <br><br>Ensaya con las dos primeras preguntas cómo responder.",
             "fr_ca": "<font face=Verdana size=4>Ces questions vous demandent comment vous vous sentez à l'école et certaines choses que vous faites à l'école. Il n'y a pas de bonnes ou de mauvaises réponses. Choisissez la réponse qui décrit le mieux ce que vous pensez. <b><font face=Verdana size=4>Non, jamais; Oui, quelquefois; Oui, la plupart du temps; Oui, tout le temps.<br><br>Les deux premiers sont pour la pratique.",
             "de_ch": "<font face=Verdana size=4>In diesen Fragen geht es darum, wie du dich in der Schule fühlst und was du in der Schule machst. Es gibt keine richtigen oder falschen Antworten. Wähle die Antwort, die am besten beschreibt, was du denkst.<b><font face=Verdana size=4> Nein, nie; Ja, manchmal; Ja, meistens; Ja, immer.<br><br>Die ersten beiden Fragen sind zum Üben.",
-            "es_ar": "<font face=Verdana size=4>These questions ask you about how you feel at school and some of the things you do at school. There are no right or wrong answers. Choose the answer that best describes what you think. <b><font face=Verdana size=4>No, never; Yes, some of the time; Yes, most of the time; Yes, all of the time.<br><br>The first two are for practice."
+            "es_ar": "<font face=Verdana size=4>These questions ask you about how you feel at school and some of the things you do at school. There are no right or wrong answers. Choose the answer that best describes what you think. <b><font face=Verdana size=4>No, never; Yes, some of the time; Yes, most of the time; Yes, all of the time.<br><br>The first two are for practice.",
+            "en_us": "<font face=Verdana size=4>These questions ask you about how you feel at school and some of the things you do at school. There are no right or wrong answers. Choose the answer that best describes what you think. <b><font face=Verdana size=4>No, never; Yes, some of the time; Yes, most of the time; Yes, all of the time.<br><br>The first two are for practice.",
+            "en_gh": "<font face=Verdana size=4>This pesewa ask how you dey feel for school and some things you dey do for school. No correct or wrong answers dey. Choose the answer wey fit what you dey think. <b><font face=Verdana size=4>No, never; Yes, some of the time; Yes, most of the time; Yes, all of the time.<br><br>The first two be practice.",
+            "en-US": "<font face=Verdana size=4>These questions ask you about how you feel at school and some of the things you do at school. There are no right or wrong answers. Choose the answer that best describes what you think. <b><font face=Verdana size=4>No, never; Yes, some of the time; Yes, most of the time; Yes, all of the time.<br><br>The first two are for practice.",
+            "en-GH": "<font face=Verdana size=4>This pesewa ask how you dey feel for school and some things you dey do for school. No correct or wrong answers dey. Choose the answer wey fit what you dey think. <b><font face=Verdana size=4>No, never; Yes, some of the time; Yes, most of the time; Yes, all of the time.<br><br>The first two be practice.",
+            "es-CO": "<font face=Verdana size=4>Estas preguntas se refieren a cómo te sientes en la escuela y a lo que haces en la escuela. No hay respuestas correctas ni incorrectas. Elige la respuesta que más se acerque a lo que piensas. <br><b><font face=Verdana size=4> No, nunca; Sí, algunas veces; Sí, muchas veces; Sí, siempre. <br><br>Ensaya con las dos primeras preguntas cómo responder.",
+            "es-AR": "<font face=Verdana size=4>These questions ask you about how you feel at school and some of the things you do at school. There are no right or wrong answers. Choose the answer that best describes what you think. <b><font face=Verdana size=4>No, never; Yes, some of the time; Yes, most of the time; Yes, all of the time.<br><br>The first two are for practice.",
+            "de-CH": "<font face=Verdana size=4>In diesen Fragen geht es darum, wie du dich in der Schule fühlst und was du in der Schule machst. Es gibt keine richtigen oder falschen Antworten. Wähle die Antwort, die am besten beschreibt, was du denkst.<b><font face=Verdana size=4> Nein, nie; Ja, manchmal; Ja, meistens; Ja, immer.<br><br>Die ersten beiden Fragen sind zum Üben.",
+            "fr-CA": "<font face=Verdana size=4>Ces questions vous demandent comment vous vous sentez à l'école et certaines choses que vous faites à l'école. Il n'y a pas de bonnes ou de mauvaises réponses. Choisissez la réponse qui décrit le mieux ce que vous pensez. <b><font face=Verdana size=4>Non, jamais; Oui, quelquefois; Oui, la plupart du temps; Oui, tout le temps.<br><br>Les deux premiers sont pour la pratique."
           }
         }
       ]
@@ -41,7 +49,11 @@
                 "es_co": "¿Te gusta leer historietas (comics)?",
                 "fr_ca": "Aimez-vous lire des bandes dessinées ?",
                 "de_ch": "Liest du gerne Comics?",
-                "es_ar": "¿Te gusta leer historietas (comics)?"
+                "es_ar": "¿Te gusta leer historietas (comics)?",
+                "es-CO": "¿Te gusta leer historietas (comics)?",
+                "es-AR": "¿Te gusta leer historietas (comics)?",
+                "de-CH": "Liest du gerne Comics?",
+                "fr-CA": "Aimez-vous lire des bandes dessinées ?"
               },
               "choices": [
                 {
@@ -55,7 +67,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -69,7 +85,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, quelquefois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, quelquefois"
                   }
                 },
                 {
@@ -83,7 +103,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -97,7 +121,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -114,7 +146,11 @@
                 "es_co": "¿Eres limpio y ordenado en el colegio?",
                 "fr_ca": "Êtes-vous soigneux et ordonné à l'école ?",
                 "de_ch": "Bist du in der Schule ordentlich?",
-                "es_ar": "¿Eres limpio y ordenado en el colegio?"
+                "es_ar": "¿Eres limpio y ordenado en el colegio?",
+                "es-CO": "¿Eres limpio y ordenado en el colegio?",
+                "es-AR": "¿Eres limpio y ordenado en el colegio?",
+                "de-CH": "Bist du in der Schule ordentlich?",
+                "fr-CA": "Êtes-vous soigneux et ordonné à l'école ?"
               },
               "choices": [
                 {
@@ -128,7 +164,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -142,7 +182,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -156,7 +200,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -170,7 +218,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -187,7 +243,11 @@
                 "es_co": "¿Te trata bien tu profesor?",
                 "fr_ca": "Votre enseignant est-il gentil avec vous ?",
                 "de_ch": "Ist dein Lehrer nett zu dir?",
-                "es_ar": "¿Tu profesor te trata bien?"
+                "es_ar": "¿Tu profesor te trata bien?",
+                "es-CO": "¿Te trata bien tu profesor?",
+                "es-AR": "¿Tu profesor te trata bien?",
+                "de-CH": "Ist dein Lehrer nett zu dir?",
+                "fr-CA": "Votre enseignant est-il gentil avec vous ?"
               },
               "choices": [
                 {
@@ -201,7 +261,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -215,7 +279,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -229,7 +297,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -243,7 +315,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -260,7 +340,11 @@
                 "es_co": "¿Le caes bien a tu profesor?",
                 "fr_ca": "Votre enseignant vous aime-t-il ?",
                 "de_ch": "Mag dich dein Lehrer?",
-                "es_ar": "¿Le caes bien a tu profesor?"
+                "es_ar": "¿Le caes bien a tu profesor?",
+                "es-CO": "¿Le caes bien a tu profesor?",
+                "es-AR": "¿Le caes bien a tu profesor?",
+                "de-CH": "Mag dich dein Lehrer?",
+                "fr-CA": "Votre enseignant vous aime-t-il ?"
               },
               "choices": [
                 {
@@ -274,7 +358,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -288,7 +376,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -302,7 +394,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -316,7 +412,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -333,7 +437,11 @@
                 "es_co": "¿Te escucha tu profesor?",
                 "fr_ca": "Votre enseignant vous écoute-t-il ?",
                 "de_ch": "Hört dein Lehrer dir zu?",
-                "es_ar": "¿Tu profesor te escucha?"
+                "es_ar": "¿Tu profesor te escucha?",
+                "es-CO": "¿Te escucha tu profesor?",
+                "es-AR": "¿Tu profesor te escucha?",
+                "de-CH": "Hört dein Lehrer dir zu?",
+                "fr-CA": "Votre enseignant vous écoute-t-il ?"
               },
               "choices": [
                 {
@@ -347,7 +455,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -361,7 +473,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -375,7 +491,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -389,7 +509,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -406,7 +534,11 @@
                 "es_co": "¿Te diviertes en el colegio?",
                 "fr_ca": "L'école est-elle amusante ?",
                 "de_ch": "Macht die Schule Spaß?",
-                "es_ar": "¿Es divertido ir al colegio?"
+                "es_ar": "¿Es divertido ir al colegio?",
+                "es-CO": "¿Te diviertes en el colegio?",
+                "es-AR": "¿Es divertido ir al colegio?",
+                "de-CH": "Macht die Schule Spaß?",
+                "fr-CA": "L'école est-elle amusante ?"
               },
               "choices": [
                 {
@@ -420,7 +552,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -434,7 +570,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -448,7 +588,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -462,7 +606,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -479,7 +631,11 @@
                 "es_co": "¿Te gusta la escuela?",
                 "fr_ca": "Aimez-vous l'école ?",
                 "de_ch": "Magst du es, in die Schule zu gehen?",
-                "es_ar": "¿Te gusta el colegio?"
+                "es_ar": "¿Te gusta el colegio?",
+                "es-CO": "¿Te gusta la escuela?",
+                "es-AR": "¿Te gusta el colegio?",
+                "de-CH": "Magst du es, in die Schule zu gehen?",
+                "fr-CA": "Aimez-vous l'école ?"
               },
               "choices": [
                 {
@@ -493,7 +649,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -507,7 +667,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -521,7 +685,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -535,7 +703,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -552,7 +728,11 @@
                 "es_co": "¿Te sientes feliz en la escuela?",
                 "fr_ca": "Êtes-vous heureux à l'école ?",
                 "de_ch": "Bist du glücklich in der Schule?",
-                "es_ar": "¿Te sientes feliz en el colegio?"
+                "es_ar": "¿Te sientes feliz en el colegio?",
+                "es-CO": "¿Te sientes feliz en la escuela?",
+                "es-AR": "¿Te sientes feliz en el colegio?",
+                "de-CH": "Bist du glücklich in der Schule?",
+                "fr-CA": "Êtes-vous heureux à l'école ?"
               },
               "choices": [
                 {
@@ -566,7 +746,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -580,7 +764,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -594,7 +782,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -608,7 +800,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -625,7 +825,11 @@
                 "es_co": "¿Te sientes seguro o segura en el colegio?",
                 "fr_ca": "Vous sentez-vous en sécurité à l'école ?",
                 "de_ch": "Fühlst du dich in der Schule sicher?",
-                "es_ar": "¿Te sientes seguro o segura en el colegio?"
+                "es_ar": "¿Te sientes seguro o segura en el colegio?",
+                "es-CO": "¿Te sientes seguro o segura en el colegio?",
+                "es-AR": "¿Te sientes seguro o segura en el colegio?",
+                "de-CH": "Fühlst du dich in der Schule sicher?",
+                "fr-CA": "Vous sentez-vous en sécurité à l'école ?"
               },
               "choices": [
                 {
@@ -639,7 +843,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -653,7 +861,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -667,7 +879,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -681,7 +897,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -698,7 +922,11 @@
                 "es_co": "¿Tienes amigos o amigas en tu clase?",
                 "fr_ca": "Avez-vous des amis dans votre classe ?",
                 "de_ch": "Hast du Freunde in deiner Klasse?",
-                "es_ar": "¿Tienes amigos o amigas en tu salón?"
+                "es_ar": "¿Tienes amigos o amigas en tu salón?",
+                "es-CO": "¿Tienes amigos o amigas en tu clase?",
+                "es-AR": "¿Tienes amigos o amigas en tu salón?",
+                "de-CH": "Hast du Freunde in deiner Klasse?",
+                "fr-CA": "Avez-vous des amis dans votre classe ?"
               },
               "choices": [
                 {
@@ -712,7 +940,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -726,7 +958,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -740,7 +976,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -754,7 +994,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -771,7 +1019,11 @@
                 "es_co": "¿Te ayudan los niños y las niñas de tu clase cuando lo necesitas?",
                 "fr_ca": "Les enfants de votre classe vous aident-ils quand vous en avez besoin ?",
                 "de_ch": "Helfen dir die Kinder in deiner Klasse, wenn du Hilfe brauchst?",
-                "es_ar": "¿Te ayudan los niños y las niñas de tu salón cuando lo necesitas?"
+                "es_ar": "¿Te ayudan los niños y las niñas de tu salón cuando lo necesitas?",
+                "es-CO": "¿Te ayudan los niños y las niñas de tu clase cuando lo necesitas?",
+                "es-AR": "¿Te ayudan los niños y las niñas de tu salón cuando lo necesitas?",
+                "de-CH": "Helfen dir die Kinder in deiner Klasse, wenn du Hilfe brauchst?",
+                "fr-CA": "Les enfants de votre classe vous aident-ils quand vous en avez besoin ?"
               },
               "choices": [
                 {
@@ -785,7 +1037,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -799,7 +1055,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -813,7 +1073,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -827,7 +1091,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -844,7 +1116,11 @@
                 "es_co": "¿Los niños y las niñas de tu clase juegan contigo?",
                 "fr_ca": "Les enfants de votre classe jouent-ils avec vous ?",
                 "de_ch": "Spielen die Kinder in deiner Klasse mit dir?",
-                "es_ar": "¿Los niños y las niñas de tu salón juegan contigo?"
+                "es_ar": "¿Los niños y las niñas de tu salón juegan contigo?",
+                "es-CO": "¿Los niños y las niñas de tu clase juegan contigo?",
+                "es-AR": "¿Los niños y las niñas de tu salón juegan contigo?",
+                "de-CH": "Spielen die Kinder in deiner Klasse mit dir?",
+                "fr-CA": "Les enfants de votre classe jouent-ils avec vous ?"
               },
               "choices": [
                 {
@@ -858,7 +1134,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -872,7 +1152,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -886,7 +1170,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -900,7 +1188,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -917,7 +1213,11 @@
                 "es_co": "¿Los niños y las niñas de tu clase son amables contigo?",
                 "fr_ca": "Les enfants de votre classe sont-ils gentils avec vous ?",
                 "de_ch": "Sind die Kinder in deiner Klasse nett zu dir?",
-                "es_ar": "¿Los niños y las niñas de tu salón son amables contigo?"
+                "es_ar": "¿Los niños y las niñas de tu salón son amables contigo?",
+                "es-CO": "¿Los niños y las niñas de tu clase son amables contigo?",
+                "es-AR": "¿Los niños y las niñas de tu salón son amables contigo?",
+                "de-CH": "Sind die Kinder in deiner Klasse nett zu dir?",
+                "fr-CA": "Les enfants de votre classe sont-ils gentils avec vous ?"
               },
               "choices": [
                 {
@@ -931,7 +1231,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -945,7 +1249,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -959,7 +1267,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -973,7 +1285,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -990,7 +1310,11 @@
                 "es_co": "¿Te sientes solo o sola en el colegio?",
                 "fr_ca": "Vous sentez-vous seul à l'école ?",
                 "de_ch": "Fühlst du dich in der Schule einsam?",
-                "es_ar": "¿Te sientes solo o sola en el colegio?"
+                "es_ar": "¿Te sientes solo o sola en el colegio?",
+                "es-CO": "¿Te sientes solo o sola en el colegio?",
+                "es-AR": "¿Te sientes solo o sola en el colegio?",
+                "de-CH": "Fühlst du dich in der Schule einsam?",
+                "fr-CA": "Vous sentez-vous seul à l'école ?"
               },
               "choices": [
                 {
@@ -1004,7 +1328,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -1018,7 +1346,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -1032,7 +1364,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -1046,7 +1382,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -1063,7 +1407,11 @@
                 "es_co": "¿Eres bueno o buena para aprender en el colegio?",
                 "fr_ca": "Êtes-vous bon pour apprendre des choses à l'école ?",
                 "de_ch": "Bist du gut darin, in der Schule etwas zu lernen?",
-                "es_ar": "¿Te queda fácil aprender en el colegio?"
+                "es_ar": "¿Te queda fácil aprender en el colegio?",
+                "es-CO": "¿Eres bueno o buena para aprender en el colegio?",
+                "es-AR": "¿Te queda fácil aprender en el colegio?",
+                "de-CH": "Bist du gut darin, in der Schule etwas zu lernen?",
+                "fr-CA": "Êtes-vous bon pour apprendre des choses à l'école ?"
               },
               "choices": [
                 {
@@ -1077,7 +1425,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -1091,7 +1443,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -1105,7 +1461,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -1119,7 +1479,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -1136,7 +1504,11 @@
                 "es_co": "Cuando las tareas del colegio son difíciles, ¿te rindes en seguida?",
                 "fr_ca": "Abandonnez-vous tout de suite quand le travail scolaire est difficile ?",
                 "de_ch": "Gibst du sofort auf, wenn dir die Schularbeit schwer fällt?",
-                "es_ar": "Cuando las tareas escolares son difíciles, ¿te rindes enseguida?"
+                "es_ar": "Cuando las tareas escolares son difíciles, ¿te rindes enseguida?",
+                "es-CO": "Cuando las tareas del colegio son difíciles, ¿te rindes en seguida?",
+                "es-AR": "Cuando las tareas escolares son difíciles, ¿te rindes enseguida?",
+                "de-CH": "Gibst du sofort auf, wenn dir die Schularbeit schwer fällt?",
+                "fr-CA": "Abandonnez-vous tout de suite quand le travail scolaire est difficile ?"
               },
               "choices": [
                 {
@@ -1150,7 +1522,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -1164,7 +1540,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -1178,7 +1558,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -1192,7 +1576,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -1209,7 +1601,11 @@
                 "es_co": "¿Te gusta hacer actividades de lectura en el colegio?",
                 "fr_ca": "Aimez-vous faire des activités de lecture à l'école ?",
                 "de_ch": "Macht es dir Spaß in der Schule zu lesen?",
-                "es_ar": "¿Te gusta hacer actividades de lectura en el colegio?"
+                "es_ar": "¿Te gusta hacer actividades de lectura en el colegio?",
+                "es-CO": "¿Te gusta hacer actividades de lectura en el colegio?",
+                "es-AR": "¿Te gusta hacer actividades de lectura en el colegio?",
+                "de-CH": "Macht es dir Spaß in der Schule zu lesen?",
+                "fr-CA": "Aimez-vous faire des activités de lecture à l'école ?"
               },
               "choices": [
                 {
@@ -1223,7 +1619,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -1237,7 +1637,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -1251,7 +1655,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -1265,7 +1673,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -1282,7 +1698,11 @@
                 "es_co": "¿Te gusta hacer actividades de matemáticas en el colegio?",
                 "fr_ca": "Aimez-vous faire des activités de mathématiques à l'école ?",
                 "de_ch": "Hast du Spaß am Fach Mathe?",
-                "es_ar": "¿Te gusta hacer actividades de matemáticas en el colegio?"
+                "es_ar": "¿Te gusta hacer actividades de matemáticas en el colegio?",
+                "es-CO": "¿Te gusta hacer actividades de matemáticas en el colegio?",
+                "es-AR": "¿Te gusta hacer actividades de matemáticas en el colegio?",
+                "de-CH": "Hast du Spaß am Fach Mathe?",
+                "fr-CA": "Aimez-vous faire des activités de mathématiques à l'école ?"
               },
               "choices": [
                 {
@@ -1296,7 +1716,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -1310,7 +1734,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -1324,7 +1752,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -1338,7 +1770,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -1355,7 +1795,11 @@
                 "es_co": "¿Eres bueno o buena para la lectura?",
                 "fr_ca": "Êtes-vous bon en lecture ?",
                 "de_ch": "Bist du gut im Lesen?",
-                "es_ar": "¿Eres bueno o buena para la lectura?"
+                "es_ar": "¿Eres bueno o buena para la lectura?",
+                "es-CO": "¿Eres bueno o buena para la lectura?",
+                "es-AR": "¿Eres bueno o buena para la lectura?",
+                "de-CH": "Bist du gut im Lesen?",
+                "fr-CA": "Êtes-vous bon en lecture ?"
               },
               "choices": [
                 {
@@ -1369,7 +1813,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -1383,7 +1831,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -1397,7 +1849,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -1411,7 +1867,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -1428,7 +1892,11 @@
                 "es_co": "¿Eres bueno o buena para las matemáticas?",
                 "fr_ca": "Êtes-vous bon en maths ?",
                 "de_ch": "Bist du gut in Mathe?",
-                "es_ar": "¿Eres bueno o buena para las matemáticas?"
+                "es_ar": "¿Eres bueno o buena para las matemáticas?",
+                "es-CO": "¿Eres bueno o buena para las matemáticas?",
+                "es-AR": "¿Eres bueno o buena para las matemáticas?",
+                "de-CH": "Bist du gut in Mathe?",
+                "fr-CA": "Êtes-vous bon en maths ?"
               },
               "choices": [
                 {
@@ -1442,7 +1910,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -1456,7 +1928,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -1470,7 +1946,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -1484,7 +1964,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -1501,7 +1989,11 @@
                 "es_co": "Algunos niños y niñas piensan que pueden ser más inteligentes si se esfuerzan mucho. ¿Crees que tú puedes ser más inteligente si te esfuerzas mucho?",
                 "fr_ca": "Certains enfants pensent qu'ils peuvent devenir plus intelligents s'ils travaillent très dur. Pensez-vous que vous pouvez devenir plus intelligent si vous travaillez très dur ?",
                 "de_ch": "Manche Kinder glauben, dass sie schlauer werden können, wenn sie sich anstrengen. Bist du auch der Meinung, dass du schlauer werden kannst, wenn du dich anstrengst?",
-                "es_ar": "Algunos niños y niñas piensan que pueden ser más inteligentes si se esfuerzan mucho. ¿Crees que tú puedes ser más inteligente si te esfuerzas mucho?"
+                "es_ar": "Algunos niños y niñas piensan que pueden ser más inteligentes si se esfuerzan mucho. ¿Crees que tú puedes ser más inteligente si te esfuerzas mucho?",
+                "es-CO": "Algunos niños y niñas piensan que pueden ser más inteligentes si se esfuerzan mucho. ¿Crees que tú puedes ser más inteligente si te esfuerzas mucho?",
+                "es-AR": "Algunos niños y niñas piensan que pueden ser más inteligentes si se esfuerzan mucho. ¿Crees que tú puedes ser más inteligente si te esfuerzas mucho?",
+                "de-CH": "Manche Kinder glauben, dass sie schlauer werden können, wenn sie sich anstrengen. Bist du auch der Meinung, dass du schlauer werden kannst, wenn du dich anstrengst?",
+                "fr-CA": "Certains enfants pensent qu'ils peuvent devenir plus intelligents s'ils travaillent très dur. Pensez-vous que vous pouvez devenir plus intelligent si vous travaillez très dur ?"
               },
               "choices": [
                 {
@@ -1515,7 +2007,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -1529,7 +2025,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -1543,7 +2043,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -1557,7 +2061,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -1574,7 +2086,11 @@
                 "es_co": "Algunos niños y niñas creen que pueden mejorar en lectura si se esfuerzan mucho. ¿Crees que tú puedes mejorar en lectura si te esfuerzas mucho?",
                 "fr_ca": "Certains enfants pensent qu'ils peuvent s'améliorer en lecture s'ils travaillent très dur. Pensez-vous que vous pouvez vous améliorer en lecture si vous travaillez très dur ?",
                 "de_ch": "Manche Kinder glauben, dass sie besser lesen können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass du besser lesen kannst, wenn du dich richtig anstrengst?",
-                "es_ar": "Algunos niños y niñas creen que pueden mejorar en lectura si se esfuerzan mucho. ¿Crees que tú puedes mejorar en lectura si te esfuerzas mucho?"
+                "es_ar": "Algunos niños y niñas creen que pueden mejorar en lectura si se esfuerzan mucho. ¿Crees que tú puedes mejorar en lectura si te esfuerzas mucho?",
+                "es-CO": "Algunos niños y niñas creen que pueden mejorar en lectura si se esfuerzan mucho. ¿Crees que tú puedes mejorar en lectura si te esfuerzas mucho?",
+                "es-AR": "Algunos niños y niñas creen que pueden mejorar en lectura si se esfuerzan mucho. ¿Crees que tú puedes mejorar en lectura si te esfuerzas mucho?",
+                "de-CH": "Manche Kinder glauben, dass sie besser lesen können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass du besser lesen kannst, wenn du dich richtig anstrengst?",
+                "fr-CA": "Certains enfants pensent qu'ils peuvent s'améliorer en lecture s'ils travaillent très dur. Pensez-vous que vous pouvez vous améliorer en lecture si vous travaillez très dur ?"
               },
               "choices": [
                 {
@@ -1588,7 +2104,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -1602,7 +2122,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -1616,7 +2140,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -1630,7 +2158,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]
@@ -1641,13 +2177,17 @@
               "title": {
                 "default": "Some kids think they can get better at math if they work really hard. Do you think that you can get better at math if you work really hard?",
                 "es": "Algunos niños y niñas creen que pueden mejorar en matemáticas si se esfuerzan mucho. ¿Crees que tú puedes mejorar en matemáticas si te esfuerzas mucho?",
-                "de": "Manche Kinder glauben, dass sie in Mathematik besser werden können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass man in Mathe besser wird, wenn man sich richtig anstrengt?",
+                "de": "Manche Kinder glauben, dass sie in Mathe besser werden können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass man in Mathe besser wird, wenn man sich richtig anstrengt?",
                 "fr": "Certains enfants pensent qu'ils peuvent s'améliorer en maths s'ils travaillent très dur. Pensez-vous que vous pouvez vous améliorer en maths si vous travaillez très dur ?",
                 "nl": "Sommige kinderen denken dat ze beter kunnen worden in wiskunde als ze heel hard werken. Denk je dat je beter kunt worden in wiskunde als je heel hard werkt?",
                 "es_co": "Algunos niños y niñas creen que pueden mejorar en matemáticas si se esfuerzan mucho. ¿Crees que tú puedes mejorar en matemáticas si te esfuerzas mucho?",
                 "fr_ca": "Certains enfants pensent qu'ils peuvent s'améliorer en maths s'ils travaillent très dur. Pensez-vous que vous pouvez vous améliorer en maths si vous travaillez très dur ?",
                 "de_ch": "Manche Kinder glauben, dass sie in Mathematik besser werden können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass man in Mathe besser wird, wenn man sich richtig anstrengt?",
-                "es_ar": "Algunos niños y niñas creen que pueden mejorar en matemáticas si se esfuerzan mucho. ¿Crees que tú puedes mejorar en matemáticas si te esfuerzas mucho?"
+                "es_ar": "Algunos niños y niñas creen que pueden mejorar en matemáticas si se esfuerzan mucho. ¿Crees que tú puedes mejorar en matemáticas si te esfuerzas mucho?",
+                "es-CO": "Algunos niños y niñas creen que pueden mejorar en matemáticas si se esfuerzan mucho. ¿Crees que tú puedes mejorar en matemáticas si te esfuerzas mucho?",
+                "es-AR": "Algunos niños y niñas creen que pueden mejorar en matemáticas si se esfuerzan mucho. ¿Crees que tú puedes mejorar en matemáticas si te esfuerzas mucho?",
+                "de-CH": "Manche Kinder glauben, dass sie in Mathematik besser werden können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass man in Mathe besser wird, wenn man sich richtig anstrengt?",
+                "fr-CA": "Certains enfants pensent qu'ils peuvent s'améliorer en maths s'ils travaillent très dur. Pensez-vous que vous pouvez vous améliorer en maths si vous travaillez très dur ?"
               },
               "choices": [
                 {
@@ -1661,7 +2201,11 @@
                     "es_co": "No, nunca",
                     "fr_ca": "Non, jamais",
                     "de_ch": "Nein, nie",
-                    "es_ar": "No, nunca"
+                    "es_ar": "No, nunca",
+                    "es-CO": "No, nunca",
+                    "es-AR": "No, nunca",
+                    "de-CH": "Nein, nie",
+                    "fr-CA": "Non, jamais"
                   }
                 },
                 {
@@ -1675,7 +2219,11 @@
                     "es_co": "Sí, algunas veces",
                     "fr_ca": "Oui, parfois",
                     "de_ch": "Ja, manchmal",
-                    "es_ar": "Sí, algunas veces"
+                    "es_ar": "Sí, algunas veces",
+                    "es-CO": "Sí, algunas veces",
+                    "es-AR": "Sí, algunas veces",
+                    "de-CH": "Ja, manchmal",
+                    "fr-CA": "Oui, parfois"
                   }
                 },
                 {
@@ -1689,7 +2237,11 @@
                     "es_co": "Sí, muchas veces",
                     "fr_ca": "Oui, la plupart du temps",
                     "de_ch": "Ja, meistens",
-                    "es_ar": "Sí, muchas veces"
+                    "es_ar": "Sí, muchas veces",
+                    "es-CO": "Sí, muchas veces",
+                    "es-AR": "Sí, muchas veces",
+                    "de-CH": "Ja, meistens",
+                    "fr-CA": "Oui, la plupart du temps"
                   }
                 },
                 {
@@ -1703,7 +2255,15 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always",
+                    "en-US": "Yes, always",
+                    "en-GH": "Yes, always",
+                    "es-CO": "Sí, siempre",
+                    "es-AR": "Sí, siempre",
+                    "de-CH": "Ja, immer",
+                    "fr-CA": "Oui, toujours"
                   }
                 }
               ]

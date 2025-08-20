@@ -16,7 +16,9 @@
             "es_co": "<font face=Verdana size=4>Estas preguntas se refieren a cómo te sientes en la escuela y a lo que haces en la escuela. No hay respuestas correctas ni incorrectas. Elige la respuesta que más se acerque a lo que piensas. <br><b><font face=Verdana size=4> No, nunca; Sí, algunas veces; Sí, muchas veces; Sí, siempre. <br><br>Ensaya con las dos primeras preguntas cómo responder.",
             "fr_ca": "<font face=Verdana size=4>Ces questions vous demandent comment vous vous sentez à l'école et certaines choses que vous faites à l'école. Il n'y a pas de bonnes ou de mauvaises réponses. Choisissez la réponse qui décrit le mieux ce que vous pensez. <b><font face=Verdana size=4>Non, jamais; Oui, quelquefois; Oui, la plupart du temps; Oui, tout le temps.<br><br>Les deux premiers sont pour la pratique.",
             "de_ch": "<font face=Verdana size=4>In diesen Fragen geht es darum, wie du dich in der Schule fühlst und was du in der Schule machst. Es gibt keine richtigen oder falschen Antworten. Wähle die Antwort, die am besten beschreibt, was du denkst.<b><font face=Verdana size=4> Nein, nie; Ja, manchmal; Ja, meistens; Ja, immer.<br><br>Die ersten beiden Fragen sind zum Üben.",
-            "es_ar": "<font face=Verdana size=4>These questions ask you about how you feel at school and some of the things you do at school. There are no right or wrong answers. Choose the answer that best describes what you think. <b><font face=Verdana size=4>No, never; Yes, some of the time; Yes, most of the time; Yes, all of the time.<br><br>The first two are for practice."
+            "es_ar": "<font face=Verdana size=4>These questions ask you about how you feel at school and some of the things you do at school. There are no right or wrong answers. Choose the answer that best describes what you think. <b><font face=Verdana size=4>No, never; Yes, some of the time; Yes, most of the time; Yes, all of the time.<br><br>The first two are for practice.",
+            "en_us": "<font face=Verdana size=4>These questions ask you about how you feel at school and some of the things you do at school. There are no right or wrong answers. Choose the answer that best describes what you think. <b><font face=Verdana size=4>No, never; Yes, some of the time; Yes, most of the time; Yes, all of the time.<br><br>The first two are for practice.",
+            "en_gh": "<font face=Verdana size=4>This pesewa ask how you dey feel for school and some things you dey do for school. No correct or wrong answers dey. Choose the answer wey fit what you dey think. <b><font face=Verdana size=4>No, never; Yes, some of the time; Yes, most of the time; Yes, all of the time.<br><br>The first two be practice."
           }
         }
       ]
@@ -97,7 +99,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -170,7 +174,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -243,7 +249,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -316,7 +324,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -389,7 +399,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -462,7 +474,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -535,7 +549,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -608,7 +624,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -681,7 +699,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -754,7 +774,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -827,7 +849,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -900,7 +924,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -973,7 +999,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -1046,7 +1074,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -1119,7 +1149,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -1192,7 +1224,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -1265,7 +1299,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -1338,7 +1374,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -1411,7 +1449,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -1484,7 +1524,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -1557,7 +1599,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -1630,7 +1674,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
@@ -1703,7 +1749,9 @@
                     "es_co": "Sí, siempre",
                     "fr_ca": "Oui, toujours",
                     "de_ch": "Ja, immer",
-                    "es_ar": "Sí, siempre"
+                    "es_ar": "Sí, siempre",
+                    "en_us": "Yes, always",
+                    "en_gh": "Yes, always"
                   }
                 }
               ]
