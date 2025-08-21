@@ -31,7 +31,10 @@
       class="survey-container"
     >
       <p v-if="!selectedSurvey">Please select a survey to test.</p>
-      <p v-else>Survey: {{ selectedSurvey }} (Language: {{ selectedLanguage }})</p>
+      <div v-else-if="currentSurvey">
+        <p>Survey: {{ selectedSurvey }} (Language: {{ selectedLanguage }})</p>
+        <SurveyComponent :model="currentSurvey" />
+      </div>
     </div>
 
     <div v-if="surveyError" class="error-message">
@@ -51,14 +54,17 @@
   </div>
 </template>
 
+<!-- eslint-disable vue/block-lang -->
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
+import { SurveyComponent } from 'survey-vue3-ui'
+import { Model } from 'survey-core'
 
 const selectedSurvey = ref('')
 const selectedLanguage = ref('en')
 const surveyError = ref(null)
 const surveyInfo = ref(null)
-let currentSurvey = null
+const currentSurvey = ref(null)
 
 const availableSurveys = [
   { value: 'child_survey', label: 'Child Survey' },
@@ -92,8 +98,8 @@ const loadSelectedSurvey = async () => {
 }
 
 const changeLanguage = () => {
-  if (currentSurvey) {
-    currentSurvey.locale = selectedLanguage.value
+  if (currentSurvey.value) {
+    currentSurvey.value.locale = selectedLanguage.value
     updateSurveyInfo()
   }
 }
@@ -103,25 +109,17 @@ const loadSurvey = async (surveyData) => {
     // Clear any existing survey
     clearSurvey()
 
-    // Dynamically import SurveyJS to avoid blocking component render
-    const { Survey } = await import('survey-vue3-ui')
-    const { Model } = await import('survey-core')
-
     // Create new survey instance
-    currentSurvey = new Model(surveyData)
+    const surveyModel = new Model(surveyData)
 
     // Set initial language
-    currentSurvey.locale = selectedLanguage.value
+    surveyModel.locale = selectedLanguage.value
+
+    // Set reactive reference
+    currentSurvey.value = surveyModel
 
     // Add to window for Cypress access
-    window.testSurvey = currentSurvey
-
-    // Render survey
-    const surveyContainer = document.getElementById('survey-container')
-    if (surveyContainer) {
-      const surveyComponent = new Survey(currentSurvey)
-      surveyComponent.render(surveyContainer)
-    }
+    window.testSurvey = surveyModel
 
     // Update survey info
     updateSurveyInfo()
@@ -133,13 +131,13 @@ const loadSurvey = async (surveyData) => {
 }
 
 const updateSurveyInfo = () => {
-  if (!currentSurvey) {
+  if (!currentSurvey.value) {
     surveyInfo.value = null
     return
   }
 
   // Extract language information from survey data
-  const surveyString = JSON.stringify(currentSurvey.toJSON())
+  const surveyString = JSON.stringify(currentSurvey.value.toJSON())
   const languages = []
 
   // Check for various language patterns
@@ -155,41 +153,26 @@ const updateSurveyInfo = () => {
   if (surveyString.includes('"en_GH":')) languages.push('en_GH')
 
   surveyInfo.value = {
-    pageCount: currentSurvey.pages.length,
-    questionCount: currentSurvey.getAllQuestions().length,
+    pageCount: currentSurvey.value.pages.length,
+    questionCount: currentSurvey.value.getAllQuestions().length,
     languages: [...new Set(languages)],
-    currentLocale: currentSurvey.locale
+    currentLocale: currentSurvey.value.locale
   }
 }
 
 const clearSurvey = () => {
-  const container = document.getElementById('survey-container')
-  if (container) {
-    container.innerHTML = ''
-  }
-  currentSurvey = null
+  currentSurvey.value = null
   window.testSurvey = null
   surveyInfo.value = null
   surveyError.value = null
 }
 
-onMounted(async () => {
+onMounted(() => {
   console.log('SurveyTestView mounted')
 
-  try {
-    // Dynamically import SurveyJS for Cypress tests
-    const { Survey } = await import('survey-vue3-ui')
-    const { Model } = await import('survey-core')
-
-    // Expose SurveyJS for Cypress tests
-    window.Survey = { Model }
-    window.SurveyVue = Survey
-  } catch (error) {
-    console.error('Failed to load SurveyJS:', error)
-    // Provide fallback objects
-    window.Survey = { Model: {} }
-    window.SurveyVue = {}
-  }
+  // Expose SurveyJS for Cypress tests
+  window.Survey = { Model }
+  window.SurveyVue = SurveyComponent
 
   window.loadSurveyFromData = loadSurvey
   window.clearTestSurvey = clearSurvey

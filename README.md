@@ -196,7 +196,7 @@ Run comprehensive validation to ensure translation quality:
 
 ```bash
 # Run Cypress e2e validation tests
-npm run test:surveys
+
 
 # Check for translation artifacts and structural integrity
 npx cypress run --spec "cypress/e2e/survey-json-validation.cy.js"

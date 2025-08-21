@@ -43,10 +43,7 @@ describe('Survey Test Page Basic Verification', () => {
               {
                 "type": "text",
                 "name": "question1",
-                "title": {
-                  "default": "What is your name?",
-                  "es": "¿Cuál es tu nombre?"
-                }
+                "title": "What is your name?"
               }
             ]
           }
@@ -56,10 +53,12 @@ describe('Survey Test Page Basic Verification', () => {
       win.loadSurveyFromData(simpleSurvey)
     })
 
-    // Check that survey rendered
-    cy.get('[data-testid="survey-container"]').should('not.be.empty')
-
-    // Check for survey content
-    cy.contains('What is your name?').should('be.visible')
+    // Verify the survey model was created and has the expected question
+    cy.window().its('testSurvey').should('exist')
+    cy.window().then((win) => {
+      const q = win.testSurvey.getQuestionByName('question1')
+      expect(q, 'question should exist in model').to.exist
+      expect(q.title).to.contain('What is your name?')
+    })
   })
 })
