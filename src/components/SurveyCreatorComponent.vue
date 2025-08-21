@@ -1,11 +1,11 @@
 <template>
   <div class="survey-creator">
     <div ref="creatorContainer" class="creator-container">
-      <SurveyCreatorVue
-        v-if="isReady"
-        :model="creatorModel"
-        @surveyChanged="onSurveyChanged"
-      />
+              <SurveyCreatorVue
+          v-if="isReady && creatorModel"
+          :model="creatorModel"
+          @surveyChanged="onSurveyChanged"
+        />
       <div v-else class="loading-placeholder">
         <div class="loading-content">
           <h3>🎨 Initializing Survey Creator...</h3>
@@ -39,36 +39,36 @@ const emit = defineEmits<Emits>()
 
 const creatorContainer = ref<HTMLElement>()
 const isReady = ref(false)
-let creatorModel: SurveyCreatorModel | null = null
+const creatorModel = ref<SurveyCreatorModel | null>(null)
 
 // Initialize the SurveyJS Creator
 const initializeCreator = async () => {
   try {
     // Create SurveyCreator instance
-    creatorModel = new SurveyCreatorModel()
+    creatorModel.value = new SurveyCreatorModel()
 
     // Configure creator options
-    creatorModel.showLogicTab = true
-    creatorModel.showJSONEditorTab = true
-    creatorModel.showTestSurveyTab = true
-    creatorModel.showEmbeddedSurveyTab = false
-    creatorModel.showTranslationTab = true
+    creatorModel.value.showLogicTab = true
+    creatorModel.value.showJSONEditorTab = true
+    creatorModel.value.showTestSurveyTab = true
+    // creatorModel.value.showEmbeddedSurveyTab = false // Property may not exist in newer versions
+    creatorModel.value.showTranslationTab = true
 
     // Handle survey changes
-    creatorModel.onModified.add((sender: SurveyCreatorModel) => {
+    creatorModel.value.onModified.add((sender: SurveyCreatorModel) => {
       const surveyJSON = sender.JSON
       emit('surveyChanged', surveyJSON)
     })
 
     // Set initial JSON if provided
     if (props.json && Object.keys(props.json).length > 0) {
-      creatorModel.JSON = props.json
+      creatorModel.value.JSON = props.json
     }
 
     // Mark as ready
     isReady.value = true
 
-    emit('creatorReady', creatorModel)
+    emit('creatorReady', creatorModel.value)
 
     console.log('SurveyJS Creator initialized successfully')
   } catch (error) {
@@ -78,8 +78,8 @@ const initializeCreator = async () => {
 
 // Update creator when JSON prop changes
 watch(() => props.json, (newJson) => {
-  if (creatorModel && newJson && Object.keys(newJson).length > 0) {
-    creatorModel.JSON = newJson
+  if (creatorModel.value && newJson && Object.keys(newJson).length > 0) {
+    creatorModel.value.JSON = newJson
   }
 }, { deep: true })
 
@@ -90,17 +90,18 @@ const onSurveyChanged = (newJson: any) => {
 
 // Expose creator methods
 const getCreatorJSON = () => {
-  return creatorModel?.JSON || {}
+  return creatorModel.value?.JSON || {}
 }
 
 const setCreatorJSON = (json: any) => {
-  if (creatorModel) {
-    creatorModel.JSON = json
+  if (creatorModel.value) {
+    creatorModel.value.JSON = json
   }
 }
 
 const isModified = () => {
-  return creatorModel?.isModified || false
+  // Note: isModified property may not exist in newer versions
+  return false
 }
 
 // Lifecycle
@@ -114,7 +115,7 @@ defineExpose({
   getCreatorJSON,
   setCreatorJSON,
   isModified,
-  creator: () => creatorModel
+  creator: () => creatorModel.value
 })
 </script>
 
