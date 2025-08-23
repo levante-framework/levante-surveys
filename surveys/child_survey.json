@@ -1764,22 +1764,26 @@
   "startSurveyText": {
     "default": "Start Survey",
     "de": "Umfrage starten",
-    "es": "Comenzar Encuesta"
+    "es": "Comenzar Encuesta",
+    "es-CO": "Comenzar Encuesta"
   },
   "pagePrevText": {
     "default": "Previous",
     "es": "Anterior",
-    "de": "Zurück"
+    "de": "Zurück",
+    "es-CO": "Anterior"
   },
   "pageNextText": {
     "default": "Next",
     "es": "Siguiente",
-    "de": "Weiter"
+    "de": "Weiter",
+    "es-CO": "Siguiente"
   },
   "completeText": {
     "default": "Finish",
     "es": "Terminar",
-    "de": "Beenden"
+    "de": "Beenden",
+    "es-CO": "Terminar"
   },
   "firstPageIsStartPage": true
 }

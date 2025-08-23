@@ -346,14 +346,22 @@ async function importSurveyTranslations(surveyKey, translations, outputDir, shou
     Object.keys(sample).forEach(col => {
       if (!col) return
       const isMeta = ['identifier', 'labels', 'elementName', 'context'].includes(col)
-      const isLang = /^([a-z]{2})(?:-[A-Z]{2})?$/.test(col) || col === 'en'
-      if (isMeta || !isLang) return
-      if (col === 'en') {
-        langMap[col] = 'default'
+      if (isMeta) return
+
+      // Use the centralized CSV_TO_JSON_MAPPING for language code conversion
+      if (CSV_TO_JSON_MAPPING[col]) {
+        langMap[col] = CSV_TO_JSON_MAPPING[col]
       } else {
-        // Preserve regional variants as separate language keys
-        // Convert to lowercase and replace hyphens with underscores for valid JSON keys
-        langMap[col] = col.toLowerCase().replace('-', '_')
+        // Fallback for unmapped language codes
+        const isLang = /^([a-z]{2})(?:[-_][A-Z]{2})?$/.test(col) || col === 'en'
+        if (isLang) {
+          if (col === 'en') {
+            langMap[col] = 'default'
+          } else {
+            // Convert to standardized format (hyphens, not underscores)
+            langMap[col] = col.toLowerCase().replace('_', '-')
+          }
+        }
       }
     })
 
