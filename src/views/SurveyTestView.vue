@@ -3,6 +3,11 @@
     <h1>Survey Testing Page</h1>
     <p>This page is used for e2e testing of survey JSON files.</p>
 
+    <div v-if="componentError" class="error-message">
+      <h3>Component Error:</h3>
+      <pre>{{ componentError }}</pre>
+    </div>
+
     <div class="controls">
       <select v-model="selectedSurvey" @change="loadSelectedSurvey">
         <option value="">Select a survey...</option>
@@ -65,6 +70,7 @@ const selectedLanguage = ref('en')
 const surveyError = ref(null)
 const surveyInfo = ref(null)
 const currentSurvey = ref(null)
+const componentError = ref(null)
 
 const availableSurveys = [
   { value: 'child_survey', label: 'Child Survey' },
@@ -168,15 +174,30 @@ const clearSurvey = () => {
 }
 
 onMounted(() => {
-  console.log('SurveyTestView mounted')
+  try {
+    console.log('SurveyTestView mounted successfully')
+    console.log('SurveyJS Model available:', !!Model)
+    console.log('SurveyComponent available:', !!SurveyComponent)
 
-  // Expose SurveyJS for Cypress tests
-  window.Survey = { Model }
-  window.SurveyVue = SurveyComponent
+    if (!Model || !SurveyComponent) {
+      throw new Error('SurveyJS components not available')
+    }
 
-  window.loadSurveyFromData = loadSurvey
-  window.clearTestSurvey = clearSurvey
-  window.getSurveyInfo = () => surveyInfo.value
+    // Expose SurveyJS for Cypress tests
+    window.Survey = { Model }
+    window.SurveyVue = SurveyComponent
+
+    window.loadSurveyFromData = loadSurvey
+    window.clearTestSurvey = clearSurvey
+    window.getSurveyInfo = () => surveyInfo.value
+
+    // Add a flag to indicate the component is ready
+    window.surveyTestViewReady = true
+    console.log('SurveyTestView setup complete, window functions exposed')
+  } catch (error) {
+    console.error('Error in SurveyTestView onMounted:', error)
+    componentError.value = error.message
+  }
 })
 
 onUnmounted(() => {
