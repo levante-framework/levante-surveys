@@ -9,11 +9,14 @@
 // ***********************************************
 
 /**
- * Custom command to load a survey JSON file
+ * Custom command to load a survey JSON file from the actual public/surveys directory
  */
 Cypress.Commands.add('loadSurvey', (surveyFile) => {
-  cy.fixture(surveyFile).as('surveyData')
-  cy.get('@surveyData').then((surveyData) => {
+  // Load from the actual survey files in public/surveys/, not fixtures
+  cy.request(`/surveys/${surveyFile}`).then((response) => {
+    const surveyData = response.body
+    cy.wrap(surveyData).as('surveyData')
+    
     cy.window().then((win) => {
       // Use the loadSurveyFromData function exposed by the Vue component
       if (win.loadSurveyFromData) {

@@ -61,7 +61,10 @@
     "test:e2e": "npm run setup-test-surveys && cypress run",
     "test:e2e:open": "npm run setup-test-surveys && cypress open",
     "test:surveys": "npm run setup-test-surveys && cypress run --spec 'cypress/e2e/surveys.cy.js'",
-    "test:surveys:open": "npm run setup-test-surveys && cypress open --e2e --spec 'cypress/e2e/surveys.cy.js'"
+    "test:surveys:open": "npm run setup-test-surveys && cypress open --e2e --spec 'cypress/e2e/surveys.cy.js'",
+    "test:locales": "npm run setup-test-surveys && cypress run --spec 'cypress/e2e/survey-locales.cy.js'",
+    "test:locales:open": "npm run setup-test-surveys && cypress open --e2e --spec 'cypress/e2e/survey-locales.cy.js'",
+    "test:all": "npm run setup-test-surveys && cypress run --spec 'cypress/e2e/*.cy.js'"
   },
   "dependencies": {
     "@google-cloud/storage": "^7.16.0",
