@@ -142,15 +142,208 @@ node scripts/upload-sources-batch.js --folder /surveys-current
 
 ## **Phase 2: Crowdin → SurveyJS (Import Translations)**
 
-### **Step 1: Download Updated CSV Files from Crowdin**
+### **Quick Commands for Different Scenarios**
+
+#### **📥 When you receive NEW survey JSON files from SurveyJS:**
+```bash
+# Complete workflow: convert language codes + apply Crowdin translations + deploy
+npm run process-surveyjs-update:deploy
+
+# Or step-by-step:
+npm run convert-language-codes:all        # Convert es_co → es-CO, etc.
+npm run import-surveys-individual:upload  # Apply translations + deploy
+```
+
+#### **🔄 When you want to update translations from Crowdin:**
+```bash
+# Download bundle + split + update + deploy (recommended)
+npm run update-surveys:deploy
+
+# Or just update from existing CSV files:
+npm run import-surveys-individual:upload
+```
+
+#### **🔧 When you only need language code conversion:**
+```bash
+# Convert all survey files (underscore → hyphen format)
+npm run convert-language-codes:all
+
+# Convert specific file
+npm run convert-language-codes surveys/child_survey.json
+```
+
+### **📋 Complete npm Scripts Reference**
+
+| Script | Purpose | When to Use |
+|--------|---------|-------------|
+| `npm run process-surveyjs-update:deploy` | **NEW SurveyJS files** | You received updated survey JSONs from SurveyJS |
+| `npm run update-surveys:deploy` | **Crowdin updates** | You want latest translations from Crowdin |
+| `npm run convert-language-codes:all` | **Language code fix** | Convert underscore to hyphen format |
+| `npm run import-surveys-individual:upload` | **Deploy existing** | Deploy current surveys to GCS |
+| `npm run download-crowdin-bundle` | **Download only** | Get latest Crowdin bundle |
+| `npm run test:surveys` | **Validate** | Test all surveys work correctly |
+| `npm run test:locales` | **Test languages** | Validate all language support |
+
+### **🔄 Automated Workflows**
+
+**What `process-surveyjs-update:deploy` does:**
+1. ✅ Converts `es_co` → `es-CO`, `fr_ca` → `fr-CA`, etc.
+2. ✅ Creates automatic backups before conversion
+3. ✅ Preserves all existing translations
+4. ✅ Applies latest Crowdin translations (without overwriting)
+5. ✅ Deploys to Google Cloud Storage
+
+**What `update-surveys:deploy` does:**
+1. ✅ Downloads fresh bundle from Crowdin
+2. ✅ Splits bundle into individual survey files
+3. ✅ Updates survey JSONs with complete translations
+4. ✅ Includes complete navigation text support
+5. ✅ Deploys to Google Cloud Storage
+
+---
+
+## **Phase 2A: Handling SurveyJS Updates (New Survey Files)**
+
+When you receive updated survey JSON files from SurveyJS, they will have underscore format language codes (`es_co`, `fr_ca`, etc.) that need to be converted to hyphen format (`es-CO`, `fr-CA`, etc.) for consistency with Crowdin.
+
+### **Complete Workflow for SurveyJS Updates**
+
+```bash
+# 1. Replace survey files with new versions from SurveyJS
+# (Copy new files to surveys/ directory)
+
+# 2. Convert language codes and update with latest Crowdin translations
+npm run process-surveyjs-update:deploy
+
+# OR step-by-step:
+# 2a. Convert underscore format to hyphen format
+npm run convert-language-codes:all
+
+# 2b. Apply latest Crowdin translations and deploy
+npm run import-surveys-individual:upload
+```
+
+### **Manual Language Code Conversion**
+
+If you need to convert language codes for specific files:
+
+```bash
+# Convert specific file
+node scripts/convert-language-codes.js surveys/child_survey.json
+
+# Convert all survey files  
+node scripts/convert-language-codes.js --all
+
+# Get help
+node scripts/convert-language-codes.js --help
+```
+
+**What the conversion does:**
+- `es_co` → `es-CO` (Spanish Colombia)
+- `es_ar` → `es-AR` (Spanish Argentina)  
+- `de_ch` → `de-CH` (German Switzerland)
+- `fr_ca` → `fr-CA` (French Canada)
+- `en_us` → `en-US` (English US)
+- `en_gb` → `en-GB` (English UK)
+- `en_gh` → `en-GH` (English Ghana)
+
+### **🔍 Troubleshooting**
+
+**Problem: Survey translations missing for regional languages**
+```bash
+# Solution: Make sure language codes are in hyphen format
+npm run convert-language-codes:all
+npm run import-surveys-individual:all
+```
+
+**Problem: Navigation texts in English instead of other languages**
+```bash
+# Solution: Update Crowdin export settings and re-download bundle
+npm run update-surveys:deploy
+```
+
+**Problem: Cypress tests failing**
+```bash
+# Solution: Start dev server and run tests
+npm run dev -- --port 5174 &
+npm run test:surveys
+```
+
+**Problem: Need to rollback changes**
+```bash
+# Backup files are created automatically with timestamps
+# Example: surveys/child_survey.json.backup.1756178097427
+cp surveys/child_survey.json.backup.TIMESTAMP surveys/child_survey.json
+```
+
+---
+
+## **🎯 Summary: Choose Your Workflow**
+
+### **Most Common Scenarios:**
+
+1. **📥 I received new survey files from SurveyJS**
+   ```bash
+   npm run process-surveyjs-update:deploy
+   ```
+
+2. **🔄 I want to update translations from Crowdin**  
+   ```bash
+   npm run update-surveys:deploy
+   ```
+
+3. **🧪 I want to test everything works**
+   ```bash
+   npm run dev -- --port 5174 &
+   npm run test:surveys
+   ```
+
+4. **🚀 I just want to deploy current surveys**
+   ```bash
+   npm run import-surveys-individual:upload
+   ```
+
+### **🔧 Advanced Usage**
+
+For detailed step-by-step control, see the sections below.
+
+---
+
+### **Step 1: Download Updated Translations from Crowdin (Bundle Method - Recommended)**
 
 **Prerequisites**: Files must be uploaded and configured in Crowdin UI first (see Phase 1, Steps 3-4).
 
-Download the completed translation CSV files from Crowdin:
+The recommended approach uses Crowdin bundle downloads for complete navigation text translations:
 
 ```bash
-# Download from Crowdin to local files (after configuration in Crowdin UI)
-# Note: Files are located under main branch in surveys-current folder
+# Complete workflow: Download bundle, split, and update JSONs
+npm run update-surveys
+
+# Or download bundle, split, update JSONs, and deploy to GCS
+npm run update-surveys:deploy
+```
+
+**Manual step-by-step process:**
+
+```bash
+# 1. Download bundle from Crowdin (includes complete navigation translations)
+npm run download-crowdin-bundle
+
+# 2. Split bundle into individual survey files  
+node scripts/split-crowdin-bundle.js --force
+
+# 3. Generate updated JSON files with complete translations
+node scripts/import-individual-surveys.js --all
+
+# 4. Deploy to Google Cloud Storage (optional)
+node scripts/import-individual-surveys.js --all --upload
+```
+
+### **Alternative: Individual File Downloads (Legacy)**
+
+For individual file downloads (note: may have incomplete navigation text translations):
+
+```bash
 # Create temp directory to avoid overwriting original translation files
 mkdir -p temp_crowdin_downloads
 

@@ -26,7 +26,7 @@ const __dirname = path.dirname(__filename)
 const projectRoot = path.resolve(__dirname, '..')
 
 // Google Cloud Storage configuration
-const BUCKET_NAME = process.env.VITE_FIREBASE_PROJECT === 'DEV' ? 'levante-dashboard-dev' : 'road-dashboard'
+const BUCKET_NAME = 'levante-assets-dev'
 
 // Survey file mapping - derive JSON filename from CSV filename
 const SURVEY_CSV_MAPPING = {
@@ -129,6 +129,39 @@ function isMultilingualObject(obj) {
 }
 
 /**
+ * Convert underscore format language codes to hyphen format throughout the survey
+ */
+function convertUnderscoreToHyphenFormat(obj) {
+  if (!obj || typeof obj !== 'object') {
+    return obj
+  }
+
+  // Language code mapping from underscore to hyphen format
+  const underscoreMapping = {
+    'es_co': 'es-CO',
+    'es_ar': 'es-AR',
+    'de_ch': 'de-CH',
+    'fr_ca': 'fr-CA',
+    'en_us': 'en-US',
+    'en_gb': 'en-GB',
+    'en_gh': 'en-GH'
+  }
+
+  if (Array.isArray(obj)) {
+    return obj.map(item => convertUnderscoreToHyphenFormat(item))
+  }
+
+  const converted = {}
+  for (const [key, value] of Object.entries(obj)) {
+    // Convert language keys
+    const newKey = underscoreMapping[key] || key
+    converted[newKey] = convertUnderscoreToHyphenFormat(value)
+  }
+
+  return converted
+}
+
+/**
  * Recursively find and update multilingual objects in survey JSON
  */
 function updateMultilingualTexts(obj, translationsMap, elementName = '', results = [], byElement = {}) {
@@ -173,13 +206,21 @@ function updateMultilingualTexts(obj, translationsMap, elementName = '', results
       }
 
       if (bestMatch) {
-        // Update each language if translation exists
+        // Update with Crowdin translations (avoid overwriting with English fallback)
         for (const [csvLang, jsonLang] of Object.entries(CSV_TO_JSON_MAPPING)) {
           // Never overwrite base English in JSON
           if (jsonLang === 'default') continue
           const val = bestMatch[csvLang]
           if (typeof val === 'string' && val.trim()) {
-            obj[jsonLang] = val.trim()
+            // Only apply if it's a real translation, not English fallback
+            const englishBaseline = (obj.default || obj.en || '').trim()
+            const isEnglishFallback = val.trim() === englishBaseline ||
+                                    val.trim() === (bestMatch.en || '').trim()
+
+            // Don't overwrite existing translations with English fallback
+            if (!isEnglishFallback || !obj[jsonLang]) {
+              obj[jsonLang] = val.trim()
+            }
           }
         }
 
@@ -223,10 +264,10 @@ async function uploadToGCS(filePath, fileName) {
   try {
     const storage = new Storage()
     const bucket = storage.bucket(BUCKET_NAME)
-    console.log(`☁️  Uploading ${fileName} to gs://${BUCKET_NAME}/...`)
+    console.log(`☁️  Uploading ${fileName} to gs://${BUCKET_NAME}/surveys/...`)
 
     const [/* file */] = await bucket.upload(filePath, {
-      destination: fileName,
+      destination: `surveys/${fileName}`,
       metadata: {
         contentType: 'application/json',
         cacheControl: 'public, max-age=3600'
@@ -239,6 +280,68 @@ async function uploadToGCS(filePath, fileName) {
     console.error(`❌ Failed to upload ${fileName}:`, error.message)
     return false
   }
+}
+
+/**
+ * Update navigation texts (startSurveyText, pagePrevText, pageNextText, completeText)
+ * These have 'unknown' identifier in CSV and need special handling
+ */
+function updateNavigationTexts(surveyData, translations) {
+  const results = []
+
+  // Map English navigation text to JSON field names
+  const navigationMapping = {
+    'Start Survey': 'startSurveyText',
+    'Previous': 'pagePrevText',
+    'Next': 'pageNextText',
+    'Finish': 'completeText'
+  }
+
+    // Find navigation text translations (they have 'navigation.*' identifiers)
+  const navigationTranslations = translations.filter(t =>
+    t.elementName && t.elementName.startsWith('navigation.') && Object.keys(navigationMapping).includes((t.source || t.en || '').trim())
+  )
+
+  console.log(`🧭 Found ${navigationTranslations.length} navigation text translations`)
+
+  navigationTranslations.forEach(navTrans => {
+    const englishText = (navTrans.source || navTrans.en || '').trim()
+    const fieldName = navigationMapping[englishText]
+
+    if (fieldName && surveyData[fieldName]) {
+      let updated = false
+
+      // Update each language if translation exists
+      for (const [csvLang, jsonLang] of Object.entries(CSV_TO_JSON_MAPPING)) {
+        // Never overwrite base English in JSON
+        if (jsonLang === 'default') continue
+
+        const val = navTrans[csvLang]
+        if (typeof val === 'string' && val.trim()) {
+          // Initialize the navigation field if it doesn't exist
+          if (!surveyData[fieldName]) {
+            surveyData[fieldName] = {}
+          }
+
+          surveyData[fieldName][jsonLang] = val.trim()
+          updated = true
+        }
+      }
+
+      results.push({
+        elementName: `navigation.${fieldName}`,
+        updated,
+        translation: navTrans,
+        matchType: 'navigation'
+      })
+
+      if (updated) {
+        console.log(`✅ Updated ${fieldName} navigation text`)
+      }
+    }
+  })
+
+  return results
 }
 
 /**
@@ -295,11 +398,18 @@ async function importSurveyTranslations(csvFilePath, shouldUpload = false) {
     return null
   }
 
-  const surveyData = JSON.parse(fs.readFileSync(jsonFilePath, 'utf8'))
+  let surveyData = JSON.parse(fs.readFileSync(jsonFilePath, 'utf8'))
+
+  // Convert underscore format language codes to hyphen format before processing
+  surveyData = convertUnderscoreToHyphenFormat(surveyData)
 
   // Update survey with translations
   console.log(`🔄 Updating ${surveyName} with ${translations.length} translations...`)
   const results = updateMultilingualTexts(surveyData, translationsMap, '', [], byElement)
+
+  // Handle navigation texts separately (they have 'unknown' identifier)
+  const navigationResults = updateNavigationTexts(surveyData, translations)
+  results.push(...navigationResults)
 
   const updatedCount = results.filter(r => r.updated).length
   const failedCount = results.filter(r => !r.updated).length

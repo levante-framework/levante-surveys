@@ -18,7 +18,7 @@ const surveysDir = path.join(projectRoot, 'surveys')
 // Configuration (mirroring src/constants/bucket.ts)
 const LEVANTE_BUCKET_URL = process.env.VITE_FIREBASE_PROJECT === 'road-dashboard'
   ? 'https://storage.googleapis.com/road-dashboard'
-  : 'https://storage.googleapis.com/levante-dashboard-dev'
+  : 'https://storage.googleapis.com/levante-assets-dev'
 
 const SURVEY_FILES = {
   PARENT_FAMILY: 'parent_survey_family.json',
@@ -32,7 +32,7 @@ const SURVEY_FILES = {
  * Download a single survey file
  */
 async function downloadSurvey(surveyKey, filename) {
-  const url = `${LEVANTE_BUCKET_URL}/${filename}`
+  const url = `${LEVANTE_BUCKET_URL}/surveys/${filename}`
   const outputPath = path.join(surveysDir, filename)
 
   try {

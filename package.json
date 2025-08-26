@@ -18,6 +18,14 @@
     "download-crowdin:api": "node scripts/download-crowdin-files.js --folder /Surveys-with-en_US",
     "download-crowdin:force": "node scripts/download-crowdin-surveys.js --force",
     "download-crowdin:backup": "node scripts/download-crowdin-surveys.js --force --backup",
+    "download-crowdin-bundle": "crowdin bundle download 20",
+    "download-crowdin-bundle:split": "node scripts/download-crowdin-bundle.js --force --backup",
+    "update-surveys": "npm run download-crowdin-bundle && node scripts/split-crowdin-bundle.js --force && node scripts/import-individual-surveys.js --all",
+    "update-surveys:deploy": "npm run download-crowdin-bundle && node scripts/split-crowdin-bundle.js --force && node scripts/import-individual-surveys.js --all --upload",
+    "convert-language-codes": "node scripts/convert-language-codes.js",
+    "convert-language-codes:all": "node scripts/convert-language-codes.js --all",
+    "process-surveyjs-update": "npm run convert-language-codes:all && npm run import-surveys-individual:all",
+    "process-surveyjs-update:deploy": "npm run convert-language-codes:all && npm run import-surveys-individual:upload",
     "extract-surveys": "node scripts/extract-translations.js",
     "extract-surveys:child": "node scripts/extract-translations.js surveys/child_survey.json",
     "extract-surveys:all": "npm run extract-surveys surveys/child_survey.json && npm run extract-surveys surveys/parent_survey_family.json && npm run extract-surveys surveys/parent_survey_child.json && npm run extract-surveys surveys/teacher_survey_general.json && npm run extract-surveys surveys/teacher_survey_classroom.json",
@@ -64,6 +72,8 @@
     "test:surveys:open": "npm run setup-test-surveys && cypress open --e2e --spec 'cypress/e2e/surveys.cy.js'",
     "test:locales": "npm run setup-test-surveys && cypress run --spec 'cypress/e2e/survey-locales.cy.js'",
     "test:locales:open": "npm run setup-test-surveys && cypress open --e2e --spec 'cypress/e2e/survey-locales.cy.js'",
+    "test:content": "npm run setup-test-surveys && cypress run --spec 'cypress/e2e/survey-content-validation.cy.js'",
+    "test:content:open": "npm run setup-test-surveys && cypress open --e2e --spec 'cypress/e2e/survey-content-validation.cy.js'",
     "test:all": "npm run setup-test-surveys && cypress run --spec 'cypress/e2e/*.cy.js'"
   },
   "dependencies": {

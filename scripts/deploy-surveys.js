@@ -703,7 +703,7 @@ async function main() {
   const environment = envArg ? envArg.split('=')[1] : 'DEV'
 
   // Determine bucket name
-  const bucketName = environment === 'PROD' ? 'road-dashboard' : 'levante-dashboard-dev'
+  const bucketName = environment === 'PROD' ? 'road-dashboard' : 'levante-assets-dev'
 
   console.log('🚀 Survey Deployment Pipeline')
   console.log('='.repeat(50))

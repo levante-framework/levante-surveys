@@ -27,7 +27,7 @@ const __dirname = path.dirname(__filename)
 const projectRoot = path.resolve(__dirname, '..')
 
 // Google Cloud Storage configuration
-const BUCKET_NAME = 'levante-dashboard-dev'
+const BUCKET_NAME = 'levante-assets-dev'
 
 // Survey file mapping
 const SURVEY_FILES = {
@@ -275,11 +275,11 @@ async function uploadToGCS(filePath, fileName) {
     const storage = new Storage()
     const bucket = storage.bucket(BUCKET_NAME)
 
-    console.log(`☁️  Uploading ${fileName} to gs://${BUCKET_NAME}/...`)
+    console.log(`☁️  Uploading ${fileName} to gs://${BUCKET_NAME}/surveys/...`)
 
     // Upload file
     await bucket.upload(filePath, {
-      destination: fileName,
+      destination: `surveys/${fileName}`,
       metadata: {
         contentType: 'application/json',
         cacheControl: 'public, max-age=3600'
