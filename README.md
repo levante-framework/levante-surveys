@@ -183,6 +183,8 @@ npm run convert-language-codes surveys/child_survey.json
 | `npm run download-crowdin-bundle` | **Download only** | Get latest Crowdin bundle |
 | `npm run test:surveys` | **Validate** | Test all surveys work correctly |
 | `npm run test:locales` | **Test languages** | Validate all language support |
+| `npm run generate-pdfs` | **Create PDFs** | Generate PDF versions of surveys (English) |
+| `npm run generate-pdfs:german` | **German PDFs** | Generate German PDF versions with -de suffix |
 
 ### **🔄 Automated Workflows**
 
@@ -276,6 +278,14 @@ npm run test:surveys
 cp surveys/child_survey.json.backup.TIMESTAMP surveys/child_survey.json
 ```
 
+**Problem: PDF generation fails**
+```bash
+# Solution: Make sure Puppeteer is installed and surveys exist
+npm install
+npm run generate-pdfs          # English PDFs
+npm run generate-pdfs:german   # German PDFs with -de suffix
+```
+
 ---
 
 ## **🎯 Summary: Choose Your Workflow**
@@ -301,6 +311,15 @@ cp surveys/child_survey.json.backup.TIMESTAMP surveys/child_survey.json
 4. **🚀 I just want to deploy current surveys**
    ```bash
    npm run import-surveys-individual:upload
+   ```
+
+5. **📄 I need PDF versions of surveys**
+   ```bash
+   # Generate English PDFs
+   npm run generate-pdfs
+   
+   # Generate German PDFs (with -de suffix)
+   npm run generate-pdfs:german
    ```
 
 ### **🔧 Advanced Usage**
