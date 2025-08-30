@@ -268,11 +268,11 @@ const getSurveyLanguageDisplay = () => {
 
 const extractAvailableLanguages = (surveyData) => {
   const languages = new Set()
-  
+
   // Helper function to recursively find all language keys
   const findLanguageKeys = (obj) => {
     if (typeof obj !== 'object' || obj === null) return
-    
+
     // Check if this object has language properties
     if (obj.hasOwnProperty('default')) {
       // This is a localized object, collect all language keys
@@ -292,33 +292,33 @@ const extractAvailableLanguages = (surveyData) => {
       })
     }
   }
-  
+
   findLanguageKeys(surveyData)
-  
+
   // Convert to array and prioritize regional codes over base language codes
   const langCodes = Array.from(languages)
-  
+
   // Create a priority system: regional codes (with hyphens) come first
   const prioritizedCodes = langCodes.sort((a, b) => {
     const aHasRegion = a.includes('-')
     const bHasRegion = b.includes('-')
-    
+
     // If one has a region and the other doesn't, prioritize the regional one
     if (aHasRegion && !bHasRegion) return -1
     if (!aHasRegion && bHasRegion) return 1
-    
+
     // Otherwise sort alphabetically
     return a.localeCompare(b)
   })
-  
+
   console.log('Found language codes:', prioritizedCodes)
-  
+
   availableLanguages.value = prioritizedCodes
     .map(code => {
       // Handle 'en' -> 'default' mapping
       const displayCode = code === 'en' ? 'default' : code
       const info = LANGUAGE_INFO[code] || { name: code.toUpperCase(), region: null }
-      
+
       // For unknown codes, try to create a readable name
       let displayName = info.name
       if (!info.name || info.name === code) {
@@ -329,7 +329,7 @@ const extractAvailableLanguages = (surveyData) => {
           displayName = code.toUpperCase()
         }
       }
-      
+
       return {
         code: displayCode,
         name: displayName,
@@ -340,19 +340,19 @@ const extractAvailableLanguages = (surveyData) => {
       // Put English first
       if (a.code === 'default') return -1
       if (b.code === 'default') return 1
-      
+
       // Then prioritize regional codes
       const aHasRegion = a.code.includes('-')
       const bHasRegion = b.code.includes('-')
-      
+
       if (aHasRegion && !bHasRegion) return -1
       if (!aHasRegion && bHasRegion) return 1
-      
+
       return a.name.localeCompare(b.name)
     })
-  
+
   console.log('Available languages:', availableLanguages.value)
-  
+
   // Set default language to English if available, otherwise first available
   if (availableLanguages.value.length > 0) {
     const hasEnglish = availableLanguages.value.some(lang => lang.code === 'default')
