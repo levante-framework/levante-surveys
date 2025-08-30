@@ -37,6 +37,7 @@
     "import-surveys-combined:upload": "node scripts/import-combined-translations.js surveys/surveys.csv --upload",
     "generate-pdfs": "node scripts/generate-survey-pdfs.js",
     "generate-pdfs:german": "node scripts/generate-survey-pdfs-german.js",
+    "reset-translations": "node scripts/reset-en-gh-translations.js",
     "detect-languages": "node scripts/detect-languages.js",
     "detect-languages:all": "node scripts/detect-languages.js --analyze-all",
     "detect-languages:surveys": "node scripts/detect-languages.js surveys/surveys.csv",

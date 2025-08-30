@@ -286,6 +286,18 @@ npm run generate-pdfs          # English PDFs
 npm run generate-pdfs:german   # German PDFs with -de suffix
 ```
 
+**Problem: Crowdin translations are corrupted for a specific language**
+```bash
+# Download current file from Crowdin
+crowdin file download main/surveys-current/SURVEY_NAME_translations.csv --dest temp_investigation/
+
+# Reset corrupted language (e.g., en-GH) by copying from source column
+npm run reset-translations temp_investigation/SURVEY_NAME_translations.csv --copy-from "source" --upload
+
+# Example: Reset en-GH for parent_survey_child
+npm run reset-translations temp_investigation/parent_survey_child_translations.csv --copy-from "source" --upload
+```
+
 ---
 
 ## **🎯 Summary: Choose Your Workflow**
