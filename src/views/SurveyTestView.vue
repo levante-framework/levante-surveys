@@ -1,7 +1,7 @@
 <template>
   <div class="survey-test-page">
-    <h1>Survey Testing Page</h1>
-    <p>This page is used for e2e testing of survey JSON files.</p>
+    <h1>🔬 Levante Survey Preview Tool</h1>
+    <p>Preview and test survey JSON files from development and production environments in all supported languages.</p>
 
     <div v-if="componentError" class="error-message">
       <h3>Component Error:</h3>
@@ -9,25 +9,38 @@
     </div>
 
     <div class="controls">
-      <select v-model="selectedSurvey" @change="loadSelectedSurvey">
-        <option value="">Select a survey...</option>
-        <option v-for="survey in availableSurveys" :key="survey.value" :value="survey.value">
-          {{ survey.label }}
-        </option>
-      </select>
+      <div class="control-group">
+        <label for="bucket-select">Environment:</label>
+        <select id="bucket-select" v-model="selectedBucket" @change="onBucketChange" class="control-select">
+          <option value="dev">Development (levante-assets-dev)</option>
+          <option value="prod">Production (levante-dashboard-prod)</option>
+        </select>
+      </div>
 
-      <select v-model="selectedLanguage" @change="changeLanguage">
-        <option value="en">English</option>
-        <option value="es">Spanish</option>
-        <option value="de">German</option>
-        <option value="fr">French</option>
-        <option value="nl">Dutch</option>
-        <option value="es_CO">Spanish (Colombia)</option>
-        <option value="es_AR">Spanish (Argentina)</option>
-        <option value="de_CH">German (Switzerland)</option>
-        <option value="fr_CA">French (Canada)</option>
-        <option value="en_GH">English (Ghana)</option>
-      </select>
+      <div class="control-group">
+        <label for="survey-select">Survey:</label>
+        <select id="survey-select" v-model="selectedSurvey" @change="loadSelectedSurvey" class="control-select">
+          <option value="">Select a survey...</option>
+          <option v-for="survey in availableSurveys" :key="survey.value" :value="survey.value">
+            {{ survey.label }}
+          </option>
+        </select>
+      </div>
+
+      <div class="control-group">
+        <label for="language-select">Language:</label>
+        <select id="language-select" v-model="selectedLanguage" @change="changeLanguage" class="control-select">
+          <option v-for="lang in supportedLanguages" :key="lang.code" :value="lang.code">
+            {{ lang.name }} {{ lang.region ? `(${lang.region})` : '' }}
+          </option>
+        </select>
+      </div>
+
+      <div class="control-group" v-if="selectedSurvey">
+        <button @click="refreshSurvey" class="refresh-btn" :disabled="loading">
+          {{ loading ? 'Loading...' : 'Refresh Survey' }}
+        </button>
+      </div>
     </div>
 
     <div
@@ -64,13 +77,16 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 import { SurveyComponent } from 'survey-vue3-ui'
 import { Model } from 'survey-core'
+import { LANGUAGE_INFO } from '../constants/languages.js'
 
 const selectedSurvey = ref('')
 const selectedLanguage = ref('en')
+const selectedBucket = ref('dev')
 const surveyError = ref(null)
 const surveyInfo = ref(null)
 const currentSurvey = ref(null)
 const componentError = ref(null)
+const loading = ref(false)
 
 const availableSurveys = [
   { value: 'child_survey', label: 'Child Survey' },
@@ -80,6 +96,25 @@ const availableSurveys = [
   { value: 'teacher_survey_classroom', label: 'Teacher Survey (Classroom)' }
 ]
 
+// Generate supported languages from LANGUAGE_INFO
+const supportedLanguages = Object.entries(LANGUAGE_INFO).map(([code, info]) => ({
+  code,
+  name: info.name,
+  region: info.region
+}))
+
+// Bucket configuration
+const bucketConfig = {
+  dev: {
+    name: 'levante-assets-dev',
+    baseUrl: 'https://storage.googleapis.com/levante-assets-dev/surveys'
+  },
+  prod: {
+    name: 'levante-dashboard-prod', 
+    baseUrl: 'https://storage.googleapis.com/levante-dashboard-prod/surveys'
+  }
+}
+
 const loadSelectedSurvey = async () => {
   if (!selectedSurvey.value) {
     clearSurvey()
@@ -87,19 +122,27 @@ const loadSelectedSurvey = async () => {
   }
 
   try {
+    loading.value = true
     surveyError.value = null
 
-    // Load survey JSON
-    const response = await fetch(`/surveys/${selectedSurvey.value}.json`)
+    // Load survey JSON from selected bucket
+    const config = bucketConfig[selectedBucket.value]
+    const surveyUrl = `${config.baseUrl}/${selectedSurvey.value}.json`
+    
+    console.log(`Loading survey from: ${surveyUrl}`)
+    
+    const response = await fetch(surveyUrl)
     if (!response.ok) {
-      throw new Error(`Failed to load survey: ${response.status}`)
+      throw new Error(`Failed to load survey from ${config.name}: ${response.status} ${response.statusText}`)
     }
 
     const surveyData = await response.json()
     loadSurvey(surveyData)
   } catch (error) {
     console.error('Error loading survey:', error)
-    surveyError.value = error.message
+    surveyError.value = `Error loading from ${bucketConfig[selectedBucket.value].name}: ${error.message}`
+  } finally {
+    loading.value = false
   }
 }
 
@@ -107,6 +150,19 @@ const changeLanguage = () => {
   if (currentSurvey.value) {
     currentSurvey.value.locale = selectedLanguage.value
     updateSurveyInfo()
+  }
+}
+
+const onBucketChange = () => {
+  // Reload survey if one is selected when bucket changes
+  if (selectedSurvey.value) {
+    loadSelectedSurvey()
+  }
+}
+
+const refreshSurvey = () => {
+  if (selectedSurvey.value) {
+    loadSelectedSurvey()
   }
 }
 
@@ -221,15 +277,63 @@ onUnmounted(() => {
 .controls {
   margin: 20px 0;
   display: flex;
-  gap: 10px;
   flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
 }
 
-.controls select {
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 200px;
+}
+
+.control-group label {
+  font-weight: 600;
+  color: #495057;
+  font-size: 14px;
+}
+
+.control-select {
   padding: 8px 12px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-size: 14px;
   background: white;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.control-select:focus {
+  border-color: #007bff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.refresh-btn {
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.15s ease-in-out;
+  margin-top: 20px;
+}
+
+.refresh-btn:hover:not(:disabled) {
+  background: #0056b3;
+}
+
+.refresh-btn:disabled {
+  background: #6c757d;
+  cursor: not-allowed;
 }
 
 .survey-container {
