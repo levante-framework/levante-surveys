@@ -58,14 +58,14 @@
           "title": {
             "default": "Please indicate your relationship to the child participating in this research project.",
             "es": "Por favor, indique su relación con el niño que participa en el proyecto.",
-            "de": "indique su relación con el niño que participa en el proyecto.",
+            "de": "Bitte geben Sie an, in welcher Beziehung Sie zu dem Kind stehen,Bitte geben Sie an",
             "fr": "Veuillez indiquer votre relation avec l'enfant participant à ce projet de recherche.",
-            "nl": "in welcher Beziehung Sie zu dem Kind stehen",
-            "es-CO": "Por favor",
-            "fr-CA": "Bitte geben Sie an",
-            "de-CH": "Bitte geben Sie an",
-            "es-AR": "Veuillez indiquer votre relation avec l'enfant participant à ce projet de recherche.",
-            "en-GH": "Geef alstublieft aan wat uw relatie tot het kind dat aan dit onderzoeksproject deelneemt is."
+            "nl": "Geef alstublieft aan wat uw relatie tot het kind dat aan dit onderzoeksproject deelneemt is.",
+            "es-CO": "Por favor, indique su relación con el niño que participa en el proyecto.",
+            "fr-CA": "Veuillez indiquer votre relation avec l'enfant participant à ce projet de recherche.",
+            "de-CH": "Bitte geben Sie an, in welcher Beziehung Sie zu dem Kind stehen, das hier teilnimmt.",
+            "es-AR": "Por favor, indique su relación con el niño que participa en el proyecto.",
+            "en-GH": "Please indicate your relationship to the child participating in this research project."
           },
           "showNumber": false,
           "isRequired": true,
@@ -332,13 +332,13 @@
           "title": {
             "default": "What is your child's CURRENT height? (please estimate to the best of your knowledge)",
             "es": "¿Cuál es la estatura ACTUAL de su niño(a)? (por favor, calcule lo más preciso posible)",
-            "de": "calcule lo más preciso posible)",
+            "de": "Wie groß ist Ihr Kind AKTUELL?",
             "fr": "Quelle est la taille actuelle de votre enfant? (merci d'estimer aussi précisément que possible)",
-            "nl": "Quelle est la taille actuelle de votre enfant? (merci d'estimer aussi précisément que possible)",
-            "es-CO": "¿Cuál es la estatura ACTUAL de su niño(a)? (por favor",
-            "fr-CA": "Wie groß ist Ihr Kind AKTUELL?",
-            "de-CH": "Wat is de huidige lengte van uw kind? (schat dit indien nodig zo nauwkeurig mogelijk)",
-            "es-AR": "Wie groß ist Ihr Kind AKTUELL?",
+            "nl": "Wat is de huidige lengte van uw kind? (schat dit indien nodig zo nauwkeurig mogelijk)",
+            "es-CO": "¿Cuál es la estatura ACTUAL de su niño(a)? (por favor, calcule lo más preciso posible)",
+            "fr-CA": "Quelle est la taille actuelle de votre enfant? (merci d'estimer aussi précisément que possible)",
+            "de-CH": "Wie groß ist Ihr Kind AKTUELL?",
+            "es-AR": "¿Cuál es la estatura ACTUAL de su niño(a)? (por favor, calcule lo más preciso posible)",
             "en-US": "What is your child's CURRENT height? (please estimate to the best of your knowledge)",
             "en-GH": "What is your child's CURRENT height? (please estimate to the best of your knowledge)"
           },
@@ -418,13 +418,13 @@
           "title": {
             "default": "What is your child's CURRENT weight? (please estimate to the best of your knowledge)",
             "es": "¿Cuál es el peso ACTUAL de su niño(a)? (por favor, calcule lo más preciso posible)",
-            "de": "calcule lo más preciso posible)",
+            "de": "Was ist das AKTUELLE Gewicht Ihres Kindes?",
             "fr": "Quel est le poids actuel de votre enfant? (merci d'estimer aussi précisément que possible)",
-            "nl": "Quel est le poids actuel de votre enfant? (merci d'estimer aussi précisément que possible)",
-            "es-CO": "¿Cuál es el peso ACTUAL de su niño(a)? (por favor",
-            "fr-CA": "Was ist das AKTUELLE Gewicht Ihres Kindes?",
-            "de-CH": "Wat is het huidige gewicht van uw kind? (schat dit indien nodig zo nauwkeurig mogelijk)",
-            "es-AR": "Was ist das AKTUELLE Gewicht Ihres Kindes?",
+            "nl": "Wat is het huidige gewicht van uw kind? (schat dit indien nodig zo nauwkeurig mogelijk)",
+            "es-CO": "¿Cuál es el peso ACTUAL de su niño(a)? (por favor, calcule lo más preciso posible)",
+            "fr-CA": "Quel est le poids actuel de votre enfant? (merci d'estimer aussi précisément que possible)",
+            "de-CH": "Was ist das AKTUELLE Gewicht Ihres Kindes?",
+            "es-AR": "¿Cuál es el peso ACTUAL de su niño(a)? (por favor, calcule lo más preciso posible)",
             "en-US": "What is your child's CURRENT weight? (please estimate to the best of your knowledge)",
             "en-GH": "What is your child's CURRENT weight? (please estimate to the best of your knowledge)"
           },
@@ -2865,14 +2865,14 @@
           "title": {
             "default": "What was your child's sex at birth (i.e. on their birth certificate)?",
             "es": "En el registro de nacimiento, ¿cuál sexo le asignaron a su niño(a) al nacer?",
-            "de": "¿cuál sexo le asignaron a su niño(a) al nacer?",
+            "de": "Welches biologische Geschlecht hatte Ihr Kind bei der Geburt (d. h. in der Geburtsurkunde)?",
             "fr": "Quel était le sexe de naissance de votre enfant (c'est-à-dire sur l'acte de naissance) ?",
-            "nl": "Quel était le sexe de naissance de votre enfant (c'est-à-dire sur l'acte de naissance) ?",
-            "es-CO": "En el registro de nacimiento",
-            "fr-CA": "Welches biologische Geschlecht hatte Ihr Kind bei der Geburt (d. h. in der Geburtsurkunde)?",
-            "de-CH": "Wat was het geslacht van uw kind bij de geboorte (d.w.z. op hun geboorteakte)?",
-            "es-AR": "Welches biologische Geschlecht hatte Ihr Kind bei der Geburt (d. h. in der Geburtsurkunde)?",
-            "en-GH": "En el registro de nacimiento"
+            "nl": "Wat was het geslacht van uw kind bij de geboorte (d.w.z. op hun geboorteakte)?",
+            "es-CO": "En el registro de nacimiento, ¿cuál sexo le asignaron a su niño(a) al nacer?",
+            "fr-CA": "Quel était le sexe de naissance de votre enfant (c'est-à-dire sur l'acte de naissance) ?",
+            "de-CH": "Welches biologische Geschlecht hatte Ihr Kind bei der Geburt (d. h. in der Geburtsurkunde)?",
+            "es-AR": "En el registro de nacimiento, ¿cuál sexo le asignaron a su niño(a) al nacer?",
+            "en-GH": "What was your child's sex at birth (i.e. on their birth certificate)?"
           },
           "showNumber": false,
           "choices": [
@@ -4244,13 +4244,13 @@
                   "text": {
                     "default": "Probably grows now as fast as it will ever grow",
                     "es": "Parece que ya crece a la velocidad que lo hará a futuro",
-                    "de": "Wahrscheinlich wächst es jetzt so schnell",
+                    "de": "Wahrscheinlich wächst es jetzt so schnell, wie es maximal wachsen kann",
                     "fr": "La croissance est probablement maintenant aussi rapide qu'elle ne le sera jamais",
                     "nl": "La croissance est probablement maintenant aussi rapide qu'elle ne le sera jamais",
                     "es-CO": "Parece que ya crece a la velocidad que lo hará a futuro",
-                    "fr-CA": "wie es maximal wachsen kann",
-                    "de-CH": "La croissance est probablement maintenant aussi rapide qu'elle ne le sera jamais",
-                    "es-AR": "wie es maximal wachsen kann",
+                    "fr-CA": "La croissance est probablement maintenant aussi rapide qu'elle ne le sera jamais",
+                    "de-CH": "wie es maximal wachsen kann",
+                    "es-AR": "Parece que ya crece a la velocidad que lo hará a futuro",
                     "en-US": "Probably grows now as fast as it will ever grow",
                     "en-GH": "wie es maximal wachsen kann"
                   }
@@ -5104,13 +5104,13 @@
                   "text": {
                     "default": "Your child can give suggestions without being bossy.",
                     "es": "Su niño(a) sabe hacer sugerencias sin ser autoritario.",
-                    "de": "Ihr Kind kann Vorschläge machen",
+                    "de": "Ihr Kind kann Vorschläge machen, ohne bestimmerisch zu sein.",
                     "fr": "Votre enfant peut donner des suggestions sans être autoritaire.",
                     "nl": "Votre enfant peut donner des suggestions sans être autoritaire.",
                     "es-CO": "Su niño(a) sabe hacer sugerencias sin ser autoritario.",
-                    "fr-CA": "ohne bestimmerisch zu sein.",
-                    "de-CH": "Votre enfant peut donner des suggestions sans être autoritaire.",
-                    "es-AR": "ohne bestimmerisch zu sein.",
+                    "fr-CA": "Votre enfant peut donner des suggestions sans être autoritaire.",
+                    "de-CH": "ohne bestimmerisch zu sein.",
+                    "es-AR": "Su niño(a) sabe hacer sugerencias sin ser autoritario.",
                     "en-US": "Your child can give suggestions without being bossy.",
                     "en-GH": "ohne bestimmerisch zu sein."
                   }
@@ -5581,14 +5581,14 @@
                   "text": {
                     "default": "Your child works diligently when trying to complete tasks or chores.",
                     "es": "Su niño(a) es diligente cuando realiza sus tareas o quehaceres.",
-                    "de": "Ihr Kind arbeitet fleißig",
+                    "de": "Ihr Kind arbeitet fleißig, wenn es versucht,Ihr Kind arbeitet fleißig",
                     "fr": "Votre enfant travaille avec diligence lorsqu'il essaie de terminer des tâches ou des corvées.",
-                    "nl": "Ihr Kind arbeitet fleißig",
+                    "nl": "Uw kind werkt hard bij het voltooien van taken of klusjes.",
                     "es-CO": "Su niño(a) es diligente cuando realiza sus tareas o quehaceres.",
-                    "fr-CA": "wenn es versucht",
-                    "de-CH": "Votre enfant travaille avec diligence lorsqu'il essaie de terminer des tâches ou des corvées.",
-                    "es-AR": "Uw kind werkt hard bij het voltooien van taken of klusjes.",
-                    "en-GH": "Ihr Kind arbeitet fleißig"
+                    "fr-CA": "Votre enfant travaille avec diligence lorsqu'il essaie de terminer des tâches ou des corvées.",
+                    "de-CH": "Ihr Kind arbeitet fleißig, wenn es versucht, Aufgaben oder Hausarbeiten zu erledigen.",
+                    "es-AR": "Su niño(a) es diligente cuando realiza sus tareas o quehaceres.",
+                    "en-GH": "Your child works diligently when trying to complete tasks or chores."
                   }
                 },
                 {
@@ -6453,14 +6453,14 @@
               "title": {
                 "default": "Approximately how long was your child in these programs <i>all together</i> (before first grade)?",
                 "es": "Aproximadamente, ¿cuánto tiempo estuvo su niño(a) en estos programas <i>en total</i>? (antes del grado primero)",
-                "de": "¿cuánto tiempo estuvo su niño(a) en estos programas <i>en total</i>? (antes del grado primero)",
+                "de": "Wie lange war Ihr Kind ungefähr <i>insgesamt</i> in diesen Programmen? (vor der ersten Klasse)",
                 "fr": "Environ combien de temps votre enfant a-t-il été dans ces programmes <i>en tout</i> (avant la première année)?",
-                "nl": "Environ combien de temps votre enfant a-t-il été dans ces programmes <i>en tout</i> (avant la première année)?",
-                "es-CO": "Aproximadamente",
-                "fr-CA": "Wie lange war Ihr Kind ungefähr <i>insgesamt</i> in diesen Programmen? (vor der ersten Klasse)",
-                "de-CH": "Hoe lang was uw kind <i>in totaal</i> in deze programma's (voor groep 1)?",
-                "es-AR": "Wie lange war Ihr Kind ungefähr <i>insgesamt</i> in diesen Programmen? (vor der ersten Klasse)",
-                "en-GH": "Aproximadamente"
+                "nl": "Hoe lang was uw kind <i>in totaal</i> in deze programma's (voor groep 1)?",
+                "es-CO": "Aproximadamente, ¿cuánto tiempo estuvo su niño(a) en estos programas <i>en total</i>? (antes del grado primero)",
+                "fr-CA": "Environ combien de temps votre enfant a-t-il été dans ces programmes <i>en tout</i> (avant la première année)?",
+                "de-CH": "Wie lange war Ihr Kind ungefähr <i>insgesamt</i> in diesen Programmen? (vor der ersten Klasse)",
+                "es-AR": "Aproximadamente, ¿cuánto tiempo estuvo su niño(a) en estos programas <i>en total</i>? (antes del grado primero)",
+                "en-GH": "Approximately how long was your child in these programs <i>all together</i> (before first grade)?"
               },
               "showNumber": false,
               "choices": [
@@ -6706,14 +6706,14 @@
               "text": {
                 "default": "High school diploma (or equivalent) plus technical training or certificate",
                 "es": "Pregrado, técnico o tecnólogo incompleto",
-                "de": "técnico o tecnólogo incompleto",
+                "de": "niedriger als Abitur",
                 "fr": "Diplôme d'études secondaires (ou équivalent) plus formation technique ou certificat",
-                "nl": "Diplôme d'études secondaires (ou équivalent) plus formation technique ou certificat",
-                "es-CO": "Pregrado",
-                "fr-CA": "niedriger als Abitur",
-                "de-CH": "Hogeschooldiploma (of gelijkwaardig) plus technische training of certificaat",
-                "es-AR": "niedriger als Abitur",
-                "en-GH": "Pregrado"
+                "nl": "Hogeschooldiploma (of gelijkwaardig) plus technische training of certificaat",
+                "es-CO": "Pregrado, técnico o tecnólogo incompleto",
+                "fr-CA": "Diplôme d'études secondaires (ou équivalent) plus formation technique ou certificat",
+                "de-CH": "niedriger als Abitur",
+                "es-AR": "Pregrado, técnico o tecnólogo incompleto",
+                "en-GH": "High school diploma (or equivalent) plus technical training or certificate"
               }
             },
             {
@@ -7250,13 +7250,13 @@
                   "text": {
                     "default": "(1) Not able on their own (Requires a lot of support)",
                     "es": "(1) No puede por sí mismo (necesita mucho apoyo)",
-                    "de": "(1) Nicht in der Lage",
+                    "de": "(1) Nicht in der Lage, selbstständig zu sein (benötigt viel Unterstützung)",
                     "fr": "(1) Incapable seul (nécessite beaucoup de soutien)",
                     "nl": "(1) Incapable seul (nécessite beaucoup de soutien)",
                     "es-CO": "(1) No puede por sí mismo (necesita mucho apoyo)",
-                    "fr-CA": "selbstständig zu sein (benötigt viel Unterstützung)",
-                    "de-CH": "(1) Incapable seul (nécessite beaucoup de soutien)",
-                    "es-AR": "selbstständig zu sein (benötigt viel Unterstützung)",
+                    "fr-CA": "(1) Incapable seul (nécessite beaucoup de soutien)",
+                    "de-CH": "selbstständig zu sein (benötigt viel Unterstützung)",
+                    "es-AR": "(1) No puede por sí mismo (necesita mucho apoyo)",
                     "en-US": "(1) Not able on their own (Requires a lot of support)",
                     "en-GH": "selbstständig zu sein (benötigt viel Unterstützung)"
                   }
@@ -7390,13 +7390,13 @@
               "title": {
                 "default": "<b>Completes an assigned task before moving to a next task.</b>",
                 "es": "<b>Termina la tarea asignada antes de pasar a la siguiente.</b>",
-                "de": "<b>Erledigt eine zugewiesene Aufgabe",
+                "de": "<b>Erledigt eine zugewiesene Aufgabe, bevor er zur nächsten Aufgabe übergeht.</b>",
                 "fr": "<b>Achève une tâche assignée avant de passer à la suivante.</b>",
                 "nl": "<b>Achève une tâche assignée avant de passer à la suivante.</b>",
                 "es-CO": "<b>Termina la tarea asignada antes de pasar a la siguiente.</b>",
-                "fr-CA": "bevor er zur nächsten Aufgabe übergeht.</b>",
-                "de-CH": "<b>Achève une tâche assignée avant de passer à la suivante.</b>",
-                "es-AR": "bevor er zur nächsten Aufgabe übergeht.</b>",
+                "fr-CA": "<b>Achève une tâche assignée avant de passer à la suivante.</b>",
+                "de-CH": "bevor er zur nächsten Aufgabe übergeht.</b>",
+                "es-AR": "<b>Termina la tarea asignada antes de pasar a la siguiente.</b>",
                 "en-US": "<b>Completes an assigned task before moving to a next task.</b>",
                 "en-GH": "bevor er zur nächsten Aufgabe übergeht.</b>"
               },
@@ -7750,13 +7750,13 @@
               "title": {
                 "default": "<b>Answers questions or tells a story without getting distracted by small details and/or losing train of thought.</b>",
                 "es": "<b>Responde a preguntas o cuenta una historia sin distraerse con pequeños detalles ni perder el hilo de sus pensamientos.</b>",
-                "de": "<b>Beantwortet Fragen oder erzählt eine Geschichte",
+                "de": "<b>Beantwortet Fragen oder erzählt eine Geschichte, ohne sich von kleinen Details ablenken zu lassen und/oder den Gedankengang zu verlieren.</b>",
                 "fr": "<b>Répond aux questions ou raconte une histoire sans se laisser distraire par de petits détails et/ou perdre le fil de ses pensées.</b>",
                 "nl": "<b>Répond aux questions ou raconte une histoire sans se laisser distraire par de petits détails et/ou perdre le fil de ses pensées.</b>",
                 "es-CO": "<b>Responde a preguntas o cuenta una historia sin distraerse con pequeños detalles ni perder el hilo de sus pensamientos.</b>",
-                "fr-CA": "ohne sich von kleinen Details ablenken zu lassen und/oder den Gedankengang zu verlieren.</b>",
-                "de-CH": "<b>Répond aux questions ou raconte une histoire sans se laisser distraire par de petits détails et/ou perdre le fil de ses pensées.</b>",
-                "es-AR": "ohne sich von kleinen Details ablenken zu lassen und/oder den Gedankengang zu verlieren.</b>",
+                "fr-CA": "<b>Répond aux questions ou raconte une histoire sans se laisser distraire par de petits détails et/ou perdre le fil de ses pensées.</b>",
+                "de-CH": "ohne sich von kleinen Details ablenken zu lassen und/oder den Gedankengang zu verlieren.</b>",
+                "es-AR": "<b>Responde a preguntas o cuenta una historia sin distraerse con pequeños detalles ni perder el hilo de sus pensamientos.</b>",
                 "en-US": "<b>Answers questions or tells a story without getting distracted by small details and/or losing train of thought.</b>",
                 "en-GH": "ohne sich von kleinen Details ablenken zu lassen und/oder den Gedankengang zu verlieren.</b>"
               },
@@ -8607,14 +8607,14 @@
               "title": {
                 "default": "Does your child have access to a tablet or smartphone that they regularly use to watch videos or listen to music?",
                 "es": "¿Su niño(a) utiliza habitualmente una tableta o un teléfono inteligente para ver videos o escuchar música?",
-                "de": "Hat Ihr Kind ein Tablet oder Smartphone",
+                "de": "Hat Ihr Kind ein Tablet oder Smartphone, das es regelmäßig benutzt,Hat Ihr Kind ein Tablet oder Smartphone",
                 "fr": "Votre enfant a-t-il accès à une tablette ou un smartphone qu'il utilise régulièrement pour regarder des vidéos ou écouter de la musique?",
-                "nl": "Hat Ihr Kind ein Tablet oder Smartphone",
+                "nl": "Heeft uw kind toegang tot een tablet of smartphone die ze regelmatig gebruiken om video's te kijken of muziek te luisteren?",
                 "es-CO": "¿Su niño(a) utiliza habitualmente una tableta o un teléfono inteligente para ver videos o escuchar música?",
-                "fr-CA": "das es regelmäßig benutzt",
-                "de-CH": "Votre enfant a-t-il accès à une tablette ou un smartphone qu'il utilise régulièrement pour regarder des vidéos ou écouter de la musique?",
-                "es-AR": "Heeft uw kind toegang tot een tablet of smartphone die ze regelmatig gebruiken om video's te kijken of muziek te luisteren?",
-                "en-GH": "Hat Ihr Kind ein Tablet oder Smartphone"
+                "fr-CA": "Votre enfant a-t-il accès à une tablette ou un smartphone qu'il utilise régulièrement pour regarder des vidéos ou écouter de la musique?",
+                "de-CH": "Hat Ihr Kind ein Tablet oder Smartphone, das es regelmäßig benutzt, um Videos anzusehen oder Musik zu hören?",
+                "es-AR": "¿Su niño(a) utiliza habitualmente una tableta o un teléfono inteligente para ver videos o escuchar música?",
+                "en-GH": "Does your child have access to a tablet or smartphone that they regularly use to watch videos or listen to music?"
               },
               "labelTrue": {
                 "default": "Yes",
@@ -10642,14 +10642,14 @@
               "text": {
                 "default": "I see to it that my child knows exactly what (s)he may or may not do.",
                 "es": "Me cercioro de que mi niño(a) sepa exactamente lo que puede o no puede hacer.",
-                "de": "Ich sorge dafür",
+                "de": "Ich sorge dafür, dass mein Kind genau weiß,Ich sorge dafür",
                 "fr": "Je fais en sorte que mon enfant sache exactement ce qu'il peut ou ne peut pas faire.",
-                "nl": "Ich sorge dafür",
+                "nl": "Ik zorg ervoor dat mijn kind precies weet wat hij/zij wel of niet mag doen.",
                 "es-CO": "Me cercioro de que mi niño(a) sepa exactamente lo que puede o no puede hacer.",
-                "fr-CA": "dass mein Kind genau weiß",
-                "de-CH": "Je fais en sorte que mon enfant sache exactement ce qu'il peut ou ne peut pas faire.",
-                "es-AR": "Ik zorg ervoor dat mijn kind precies weet wat hij/zij wel of niet mag doen.",
-                "en-GH": "Ich sorge dafür"
+                "fr-CA": "Je fais en sorte que mon enfant sache exactement ce qu'il peut ou ne peut pas faire.",
+                "de-CH": "Ich sorge dafür, dass mein Kind genau weiß, was es tun darf und was nicht.",
+                "es-AR": "Me cercioro de que mi niño(a) sepa exactamente lo que puede o no puede hacer.",
+                "en-GH": "I see to it that my child knows exactly what (s)he may or may not do."
               }
             },
             {
@@ -10671,14 +10671,14 @@
               "text": {
                 "default": "I insist that my child do exactly as (s)he is told.",
                 "es": "Insisto en que mi niño(a) haga exactamente lo que se le dice.",
-                "de": "Ich bestehe darauf",
+                "de": "Ich bestehe darauf, dass mein Kind genau das tut,Ich bestehe darauf",
                 "fr": "J'insiste pour que mon enfant fasse exactement ce qu'on lui dit.",
-                "nl": "Ich bestehe darauf",
+                "nl": "Ik dring erop aan dat mijn kind precies doet wat hem/haar is gezegd.",
                 "es-CO": "Insisto en que mi niño(a) haga exactamente lo que se le dice.",
-                "fr-CA": "dass mein Kind genau das tut",
-                "de-CH": "J'insiste pour que mon enfant fasse exactement ce qu'on lui dit.",
-                "es-AR": "Ik dring erop aan dat mijn kind precies doet wat hem/haar is gezegd.",
-                "en-GH": "Ich bestehe darauf"
+                "fr-CA": "J'insiste pour que mon enfant fasse exactement ce qu'on lui dit.",
+                "de-CH": "Ich bestehe darauf, dass mein Kind genau das tut, was ihm/ihr gesagt wird.",
+                "es-AR": "Insisto en que mi niño(a) haga exactamente lo que se le dice.",
+                "en-GH": "I insist that my child do exactly as (s)he is told."
               }
             },
             {
@@ -10794,13 +10794,13 @@
           "title": {
             "default": "All adults use certain ways to teach children the right behavior or to address a behavior problem. Please read the following methods that are used and select whether you or anyone else in your household has used this with your child in the <b>past month</b>.",
             "es": "Todos los adultos utilizan ciertos métodos para enseñar a los niños(as) el comportamiento correcto o para abordar un problema de comportamiento. Por favor, lea los siguientes métodos y, para cada uno, seleccione si usted u otra persona de su hogar lo ha utilizado con este niño(a) en el <b>último mes</b>.",
-            "de": "lea los siguientes métodos y",
+            "de": "Alle Erwachsenen verwenden bestimmte Methoden, um Kindern das richtige Verhalten beizubringen oder ein Verhaltensproblem anzugehen. Bitte lesen Sie die folgenden Methoden und wählen Sie aus,Alle Erwachsenen verwenden bestimmte Methoden",
             "fr": "Tous les adultes adoptent certaines méthodes pour enseigner aux enfants le bon comportement ou pour résoudre un problème de comportement. Veuillez lire les méthodes suivantes qui sont utilisées et sélectionner si vous ou quelqu'un d'autre dans votre foyer avez utilisé cela avec votre enfant au cours du <b>mois passé</b>.",
-            "nl": "seleccione si usted u otra persona de su hogar lo ha utilizado con este niño(a) en el <b>último mes</b>.",
-            "es-CO": "Todos los adultos utilizan ciertos métodos para enseñar a los niños(as) el comportamiento correcto o para abordar un problema de comportamiento. Por favor",
-            "fr-CA": "para cada uno",
-            "de-CH": "Alle Erwachsenen verwenden bestimmte Methoden",
-            "es-AR": "um Kindern das richtige Verhalten beizubringen oder ein Verhaltensproblem anzugehen. Bitte lesen Sie die folgenden Methoden und wählen Sie aus",
+            "nl": "Alle volwassenen gebruiken bepaalde manieren om kinderen het juiste gedrag bij te brengen of om een gedragsprobleem aan te pakken. Lees alstublieft de volgende methoden en selecteer of u of een ander persoon in uw huishouden dit in de <b>afgelopen maand</b> bij dit kind heeft gebruikt.",
+            "es-CO": "Todos los adultos utilizan ciertos métodos para enseñar a los niños(as) el comportamiento correcto o para abordar un problema de comportamiento. Por favor, lea los siguientes métodos y, para cada uno, seleccione si usted u otra persona de su hogar lo ha utilizado con este niño(a) en el <b>último mes</b>.",
+            "fr-CA": "Tous les adultes adoptent certaines méthodes pour enseigner aux enfants le bon comportement ou pour résoudre un problème de comportement. Veuillez lire les méthodes suivantes qui sont utilisées et sélectionner si vous ou quelqu'un d'autre dans votre foyer avez utilisé cela avec votre enfant au cours du <b>mois passé</b>.",
+            "de-CH": "Alle Erwachsenen verwenden bestimmte Methoden, um Kindern das richtige Verhalten beizubringen oder ein Verhaltensproblem anzugehen. Bitte lesen Sie die folgenden Methoden und wählen Sie aus, ob Sie oder eine andere Person in Ihrem Haushalt diese im <b>letzten Monat</b> bei diesem Kind angewendet hat.",
+            "es-AR": "Todos los adultos utilizan ciertos métodos para enseñar a los niños(as) el comportamiento correcto o para abordar un problema de comportamiento. Por favor, lea los siguientes métodos y, para cada uno, seleccione si usted u otra persona de su hogar lo ha utilizado con este niño(a) en el <b>último mes</b>.",
             "en-US": "All adults use certain ways to teach children the right behavior or to address a behavior problem. Please read the following methods that are used and select whether you or anyone else in your household has used this with your child in the <b>past month</b>.",
             "en-GH": "All adults use certain ways to teach children the right behavior or to address a behavior problem. Please read the following methods that are used and select whether you or anyone else in your household has used this with your child in the <b>past month</b>."
           },

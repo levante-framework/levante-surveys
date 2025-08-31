@@ -34,7 +34,32 @@ const FILE_MAPPING = {
   'teacher_survey_classroom_updated.json': 'teacher_survey_classroom.json'
 }
 
-async function uploadSurveyFile(sourceFileName) {
+async function backupExistingFile(bucketName, fileName, backupFolder) {
+  try {
+    const storage = new Storage()
+    const bucket = storage.bucket(bucketName)
+    const sourceFile = `surveys/${fileName}`
+    const backupDestination = `${backupFolder}/${fileName}`
+
+    // Check if file exists before trying to backup
+    const [exists] = await bucket.file(sourceFile).exists()
+    if (!exists) {
+      console.log(`   ⚠️  File not found in bucket: ${fileName} (first deployment?)`)
+      return { success: false, reason: 'not_found' }
+    }
+
+    // Copy file to backup location
+    await bucket.file(sourceFile).copy(bucket.file(backupDestination))
+    console.log(`   ✅ Backed up: ${fileName} → ${backupDestination}`)
+    return { success: true, backup: backupDestination }
+
+  } catch (error) {
+    console.log(`   ❌ Failed to backup ${fileName}: ${error.message}`)
+    return { success: false, reason: error.message }
+  }
+}
+
+async function uploadSurveyFile(sourceFileName, backupFolder = null) {
   const sourcePath = path.join(projectRoot, 'surveys', sourceFileName)
   const targetFileName = FILE_MAPPING[sourceFileName]
 
@@ -46,6 +71,12 @@ async function uploadSurveyFile(sourceFileName) {
   try {
     const storage = new Storage()
     const bucket = storage.bucket(BUCKET_NAME)
+
+    // Backup existing file if backup folder is provided
+    if (backupFolder) {
+      console.log(`📦 Backing up existing ${targetFileName}...`)
+      await backupExistingFile(BUCKET_NAME, targetFileName, backupFolder)
+    }
 
     console.log(`☁️  Uploading ${sourceFileName} → ${targetFileName} to gs://${BUCKET_NAME}/surveys/...`)
 
@@ -72,11 +103,16 @@ async function main() {
   console.log(`📦 Target bucket: gs://${BUCKET_NAME}`)
   console.log(`📁 Source directory: surveys/\n`)
 
+  // Create backup folder with timestamp
+  const timestamp = new Date().toISOString().replace(/[:.]/g, '-').replace('T', '_').substring(0, 19)
+  const backupFolder = `surveys/backup_${timestamp}`
+  console.log(`📦 Backup folder: ${backupFolder}\n`)
+
   let successCount = 0
   let totalCount = SURVEY_FILES.length
 
   for (const fileName of SURVEY_FILES) {
-    const success = await uploadSurveyFile(fileName)
+    const success = await uploadSurveyFile(fileName, backupFolder)
     if (success) {
       successCount++
     }

@@ -258,12 +258,47 @@ function updateMultilingualTexts(obj, translationsMap, elementName = '', results
 }
 
 /**
+ * Backup existing file in Google Cloud Storage
+ */
+async function backupExistingFile(bucketName, fileName, backupFolder) {
+  try {
+    const storage = new Storage()
+    const bucket = storage.bucket(bucketName)
+    const sourceFile = `surveys/${fileName}`
+    const backupDestination = `${backupFolder}/${fileName}`
+
+    // Check if file exists before trying to backup
+    const [exists] = await bucket.file(sourceFile).exists()
+    if (!exists) {
+      console.log(`   ⚠️  File not found in bucket: ${fileName} (first deployment?)`)
+      return { success: false, reason: 'not_found' }
+    }
+
+    // Copy file to backup location
+    await bucket.file(sourceFile).copy(bucket.file(backupDestination))
+    console.log(`   ✅ Backed up: ${fileName} → ${backupDestination}`)
+    return { success: true, backup: backupDestination }
+
+  } catch (error) {
+    console.log(`   ❌ Failed to backup ${fileName}: ${error.message}`)
+    return { success: false, reason: error.message }
+  }
+}
+
+/**
  * Upload file to Google Cloud Storage
  */
-async function uploadToGCS(filePath, fileName) {
+async function uploadToGCS(filePath, fileName, backupFolder = null) {
   try {
     const storage = new Storage()
     const bucket = storage.bucket(BUCKET_NAME)
+
+    // Backup existing file if backup folder is provided
+    if (backupFolder) {
+      console.log(`📦 Backing up existing ${fileName}...`)
+      await backupExistingFile(BUCKET_NAME, fileName, backupFolder)
+    }
+
     console.log(`☁️  Uploading ${fileName} to gs://${BUCKET_NAME}/surveys/...`)
 
     const [/* file */] = await bucket.upload(filePath, {
@@ -347,7 +382,7 @@ function updateNavigationTexts(surveyData, translations) {
 /**
  * Import translations for a single survey
  */
-async function importSurveyTranslations(csvFilePath, shouldUpload = false) {
+async function importSurveyTranslations(csvFilePath, shouldUpload = false, backupFolder = null) {
   const csvFileName = path.basename(csvFilePath)
   const jsonFileName = SURVEY_CSV_MAPPING[csvFileName]
 
@@ -421,7 +456,7 @@ async function importSurveyTranslations(csvFilePath, shouldUpload = false) {
 
   let uploadSuccess = false
   if (shouldUpload) {
-    uploadSuccess = await uploadToGCS(outputPath, jsonFileName)
+    uploadSuccess = await uploadToGCS(outputPath, jsonFileName, backupFolder)
   }
 
   console.log(`✅ ${surveyName}: Updated ${updatedCount} objects, saved to surveys/${outputFileName}`)
@@ -448,13 +483,21 @@ async function importAllSurveys(shouldUpload = false) {
   const surveysDir = path.join(projectRoot, 'surveys')
   const results = []
 
+  // Create backup folder with timestamp if uploading
+  let backupFolder = null
+  if (shouldUpload) {
+    const timestamp = new Date().toISOString().replace(/[:.]/g, '-').replace('T', '_').substring(0, 19)
+    backupFolder = `surveys/backup_${timestamp}`
+    console.log(`📦 Backup folder: ${backupFolder}\n`)
+  }
+
   console.log('🌍 Processing all survey translation files...\n')
 
   for (const [csvFile, /* jsonFile */] of Object.entries(SURVEY_CSV_MAPPING)) {
     const csvPath = path.join(surveysDir, csvFile)
 
     if (fs.existsSync(csvPath)) {
-      const result = await importSurveyTranslations(csvPath, shouldUpload)
+      const result = await importSurveyTranslations(csvPath, shouldUpload, backupFolder)
       if (result) {
         results.push(result)
       }

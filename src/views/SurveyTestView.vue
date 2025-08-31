@@ -27,6 +27,13 @@
                 <option value="dev">Development (levante-assets-dev)</option>
                 <option value="legacy-prod">Legacy Production (levante-dashboard-prod)</option>
                 <option value="prod">Production (levante-assets-prod) - Coming Soon</option>
+                <optgroup label="Backups on dev" :disabled="loadingBackups">
+                  <option v-if="loadingBackups" value="" disabled>Loading backups...</option>
+                  <option v-else-if="availableBackups.length === 0" value="" disabled>No backups found</option>
+                  <option v-else v-for="backup in availableBackups" :key="backup.name" :value="`backup:${backup.name}`">
+                    {{ backup.displayName }}
+                  </option>
+                </optgroup>
               </select>
             </div>
 
@@ -152,7 +159,9 @@ const surveyInfo = ref(null)
 const currentSurvey = ref(null)
 const componentError = ref(null)
 const loading = ref(false)
+const loadingBackups = ref(false)
 const availableLanguages = ref([])
+const availableBackups = ref([])
 const rawSurveyData = ref(null)
 
 const availableSurveys = [
@@ -205,15 +214,26 @@ const loadSelectedSurvey = async () => {
     loading.value = true
     surveyError.value = null
 
-    // Load survey JSON from selected bucket
-    const config = bucketConfig[selectedBucket.value]
+    // Determine which bucket config to use
+    let config
+    let description
+    if (selectedBucket.value.startsWith('backup:')) {
+      // Use dev config for backups (URL already updated in onBucketChange)
+      config = bucketConfig.dev
+      const backupName = selectedBucket.value.replace('backup:', '')
+      description = `Backup: ${backupName}`
+    } else {
+      config = bucketConfig[selectedBucket.value]
+      description = config.description
+    }
+    
     const surveyUrl = `${config.baseUrl}/${selectedSurvey.value}.json`
 
-    console.log(`Loading survey from ${config.description}: ${surveyUrl}`)
+    console.log(`Loading survey from ${description}: ${surveyUrl}`)
 
     const response = await fetch(surveyUrl)
     if (!response.ok) {
-      throw new Error(`Failed to load survey from ${config.name}: ${response.status} ${response.statusText}`)
+      throw new Error(`Failed to load survey: ${response.status} ${response.statusText}`)
     }
 
     const surveyData = await response.json()
@@ -222,7 +242,7 @@ const loadSelectedSurvey = async () => {
     loadSurvey(surveyData)
   } catch (error) {
     console.error('Error loading survey:', error)
-    surveyError.value = `Error loading from ${bucketConfig[selectedBucket.value].description}: ${error.message}`
+    surveyError.value = `Error loading from ${description}: ${error.message}`
   } finally {
     loading.value = false
   }
@@ -236,11 +256,97 @@ const changeLanguage = () => {
 }
 
 const onBucketChange = () => {
-  // Reload survey if one is selected when bucket changes
+  // Handle backup selection
+  if (selectedBucket.value.startsWith('backup:')) {
+    const backupName = selectedBucket.value.replace('backup:', '')
+    // Update the dev bucket config to point to the selected backup folder
+    bucketConfig.dev.baseUrl = `https://storage.googleapis.com/levante-assets-dev/surveys/${backupName}`
+    console.log(`Switched to backup: ${backupName}`)
+  } else {
+    // Reset to default bucket URLs for regular environments
+    switch (selectedBucket.value) {
+      case 'dev':
+        bucketConfig.dev.baseUrl = 'https://storage.googleapis.com/levante-assets-dev/surveys'
+        break
+      case 'legacy-prod':
+        bucketConfig['legacy-prod'].baseUrl = 'https://storage.googleapis.com/levante-dashboard-prod'
+        break
+      case 'prod':
+        bucketConfig.prod.baseUrl = 'https://storage.googleapis.com/levante-assets-prod/surveys'
+        break
+    }
+  }
+  
+  // Reload survey if one is selected when bucket/backup changes
   if (selectedSurvey.value) {
     loadSelectedSurvey()
   }
 }
+
+const loadBackupFolders = async () => {
+  try {
+    loadingBackups.value = true
+    availableBackups.value = []
+
+    // Use Google Cloud Storage XML API to list folders in the dev bucket
+    const bucketName = 'levante-assets-dev'
+    const listUrl = `https://storage.googleapis.com/storage/v1/b/${bucketName}/o?delimiter=/&prefix=surveys/backup_`
+
+    const response = await fetch(listUrl)
+    if (!response.ok) {
+      throw new Error(`Failed to list backup folders: ${response.status}`)
+    }
+
+        const data = await response.json()
+    
+    console.log('GCS API response:', data)
+    
+    // Extract backup folders from prefixes (folders end with /)
+    const backupFolders = []
+    if (data.prefixes) {
+      console.log('Found prefixes:', data.prefixes)
+      data.prefixes.forEach(prefix => {
+        // Extract folder name from prefix like "surveys/backup_2024-01-15_123456/"
+        const folderName = prefix.replace('surveys/', '').replace('/', '')
+        if (folderName.startsWith('backup_')) {
+          // Parse timestamp from folder name for sorting
+          // Expected format: backup_2025-08-31_15-12-17
+          const timestampMatch = folderName.match(/backup_(\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2})/)
+          if (timestampMatch) {
+            const timestamp = timestampMatch[1]
+            // Convert timestamp format: 2025-08-31_15-12-17 -> 2025-08-31T15:12:17
+            const isoTimestamp = timestamp.replace('_', 'T').replace(/-(\d{2})-(\d{2})$/, ':$1:$2')
+            const date = new Date(isoTimestamp)
+            
+            console.log(`Processing backup: ${folderName}, timestamp: ${timestamp}, isoTimestamp: ${isoTimestamp}, date: ${date}`)
+            
+            backupFolders.push({
+              name: folderName,
+              displayName: `${folderName.replace('backup_', 'Backup ')} (${date.toLocaleString()})`,
+              timestamp: date.getTime()
+            })
+          } else {
+            console.log(`Backup folder ${folderName} doesn't match expected pattern`)
+          }
+        }
+      })
+    }
+
+        // Sort by timestamp (newest first) and take the most recent 15
+    backupFolders.sort((a, b) => b.timestamp - a.timestamp)
+    availableBackups.value = backupFolders.slice(0, 15)
+    
+    console.log(`Found ${availableBackups.value.length} backup folders:`, availableBackups.value)
+
+  } catch (error) {
+    console.error('Error loading backup folders:', error)
+    surveyError.value = `Error loading backup folders: ${error.message}`
+  } finally {
+    loadingBackups.value = false
+  }
+}
+
+
 
 const refreshSurvey = () => {
   if (selectedSurvey.value) {
@@ -440,6 +546,9 @@ onMounted(() => {
     window.loadSurveyFromData = loadSurvey
     window.clearTestSurvey = clearSurvey
     window.getSurveyInfo = () => surveyInfo.value
+
+    // Load backup folders on mount
+    loadBackupFolders()
 
     // Add a flag to indicate the component is ready
     window.surveyTestViewReady = true
@@ -653,6 +762,8 @@ onUnmounted(() => {
   color: #6c757d;
   font-style: italic;
 }
+
+
 
 .environment-info {
   margin: 0 0 25px 0;

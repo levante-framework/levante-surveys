@@ -15,7 +15,7 @@
             "fr-CA": "<block><b><font face=Verdana size=4>",
             "nl": "<block><b><font face=Verdana size=4>",
             "de-CH": "<block><b><font face=Verdana size=4>",
-            "es-AR": "<block><b><font face=Verdana size=4> ¡Gracias de nuevo por participar en este proyecto de investigación! </b><br> <br> <p><font face=Verdana size=4>Estimamos que diligenciar la siguiente parte de la encuesta le tomará aproximadamente 20-30 minutos. En esta encuesta se le harán preguntas sobre su hogar y sobre usted mismo(a).<br><br>Le agradecemos que responda la encuesta de la forma más precisa posible con la información que tiene disponible. Si tiene alguna duda",
+            "es-AR": "<block><b><font face=Verdana size=4> ¡Gracias de nuevo por participar en este proyecto de investigación! </b><br> <br> <p><font face=Verdana size=4>Estimamos que diligenciar la siguiente parte de la encuesta le tomará aproximadamente 20-30 minutos. En esta encuesta se le harán preguntas sobre su hogar y sobre usted mismo(a).<br><br>Le agradecemos que responda la encuesta de la forma más precisa posible con la información que tiene disponible. Si tiene alguna duda, comuníquesela a quien coordina esta aplicación. <br><br>Cuando esté listo(a) para empezar, seleccione el botón Comenzar Encuesta.<br><br><b><font face=Verdana size=4>¡Muchas gracias!",
             "en-US": "<block><b><font face=Verdana size=4>",
             "en-GH": "<block><b><font face=Verdana size=4>"
           }
@@ -592,14 +592,14 @@
               "title": {
                 "default": "We couldn't afford to eat balanced meals.",
                 "es": "No teníamos recursos suficientes para comer comida variada y nutritiva.",
-                "de": "Wir konnten es uns nicht leisten",
+                "de": "Wir konnten es uns nicht leisten, ausgewogene Mahlzeiten zu essen.",
                 "fr": "Nous ne pouvions pas nous permettre de manger des repas équilibrés.",
-                "nl": "Nous ne pouvions pas nous permettre de manger des repas équilibrés.",
+                "nl": "We konden ons geen uitgebalanceerde maaltijden veroorloven.",
                 "es-CO": "No teníamos recursos suficientes para comer comida variada y nutritiva.",
-                "fr-CA": "ausgewogene Mahlzeiten zu essen.",
-                "de-CH": "We konden ons geen uitgebalanceerde maaltijden veroorloven.",
-                "es-AR": "Wir konnten es uns nicht leisten",
-                "en-GH": "ausgewogene Mahlzeiten zu essen."
+                "fr-CA": "Nous ne pouvions pas nous permettre de manger des repas équilibrés.",
+                "de-CH": "Wir konnten es uns nicht leisten, ausgewogene Mahlzeiten zu essen.",
+                "es-AR": "No teníamos recursos suficientes para comer comida variada y nutritiva.",
+                "en-GH": "We no fit afford balanced meals."
               },
               "choices": [
                 {
@@ -773,13 +773,13 @@
           "title": {
             "default": "Below are statements about the environment in your home. Please indicate how much you agree that the statement is true of your home.",
             "es": "A continuación encontrará una serie de afirmaciones sobre el entorno de su hogar. Indique qué tan cierta es cada afirmación para su hogar.",
-            "de": "Im Folgenden finden Sie Aussagen über die häusliche Umgebung. Bitte geben Sie an",
+            "de": "Im Folgenden finden Sie Aussagen über die häusliche Umgebung. Bitte geben Sie an, inwieweit Sie der Aussage zustimmen, dass sie auf Ihr Zuhause zutrifft.",
             "fr": "Voici des déclarations sur l'environnement dans votre maison. Veuillez indiquer dans quelle mesure vous êtes d'accord que la déclaration est vraie pour votre maison.",
-            "nl": "dass sie auf Ihr Zuhause zutrifft.",
+            "nl": "Hieronder staan uitspraken over de omgeving in uw huis. Geef aan in hoeverre u het ermee eens bent dat de uitspraak waar is voor uw huis.",
             "es-CO": "A continuación encontrará una serie de afirmaciones sobre el entorno de su hogar. Indique qué tan cierta es cada afirmación para su hogar.",
-            "fr-CA": "inwieweit Sie der Aussage zustimmen",
-            "de-CH": "Voici des déclarations sur l'environnement dans votre maison. Veuillez indiquer dans quelle mesure vous êtes d'accord que la déclaration est vraie pour votre maison.",
-            "es-AR": "Hieronder staan uitspraken over de omgeving in uw huis. Geef aan in hoeverre u het ermee eens bent dat de uitspraak waar is voor uw huis.",
+            "fr-CA": "Voici des déclarations sur l'environnement dans votre maison. Veuillez indiquer dans quelle mesure vous êtes d'accord que la déclaration est vraie pour votre maison.",
+            "de-CH": "Im Folgenden finden Sie Aussagen über die häusliche Umgebung. Bitte geben Sie an, inwieweit Sie der Aussage zustimmen, dass sie auf Ihr Zuhause zutrifft.",
+            "es-AR": "A continuación encontrará una serie de afirmaciones sobre el entorno de su hogar. Indique qué tan cierta es cada afirmación para su hogar.",
             "en-US": "Below are statements about the environment in your home. Please indicate how much you agree that the statement is true of your home.",
             "en-GH": "Below be things for your house wey make am up. Kindly show how you dey feel about them."
           },
@@ -791,14 +791,14 @@
               "title": {
                 "default": "We are usually able to stay on top of things.",
                 "es": "Normalmente somos capaces de estar al día con las actividades.",
-                "de": "Wir sind in der Regel in der Lage",
+                "de": "Wir sind in der Regel in der Lage, den Überblick zu behalten.",
                 "fr": "Nous sommes généralement capables de rester au top des choses.",
-                "nl": "Nous sommes généralement capables de rester au top des choses.",
+                "nl": "We zijn meestal in staat om de zaken onder controle te houden.",
                 "es-CO": "Normalmente somos capaces de estar al día con las actividades.",
-                "fr-CA": "den Überblick zu behalten.",
-                "de-CH": "We zijn meestal in staat om de zaken onder controle te houden.",
-                "es-AR": "Wir sind in der Regel in der Lage",
-                "en-GH": "den Überblick zu behalten."
+                "fr-CA": "Nous sommes généralement capables de rester au top des choses.",
+                "de-CH": "Wir sind in der Regel in der Lage, den Überblick zu behalten.",
+                "es-AR": "Normalmente somos capaces de estar al día con las actividades.",
+                "en-GH": "Usually, we dey keep things on check."
               },
               "choices": [
                 {
@@ -878,7 +878,7 @@
                 "fr-CA": "Vous ne pouvez pas vous entendre penser chez nous.",
                 "de-CH": "Bei uns zu Hause versteht man sein eigenes Wort nicht.",
                 "es-AR": "En nuestra casa hay tanto ruido que no escuchas ni tus pensamientos.",
-                "en-GH": "For our house"
+                "en-GH": "For our house, e be noise-oh, you can't hear yourself think so."
               },
               "choices": [
                 {
@@ -1031,14 +1031,14 @@
               "title": {
                 "default": "We have a regular morning routine at home.",
                 "es": "En nuestra casa, tenemos una rutina matutina regular.",
-                "de": "tenemos una rutina matutina regular.",
+                "de": "Wir haben zu Hause eine regelmäßige Morgenroutine.",
                 "fr": "Nous avons une routine matinale régulière à la maison.",
-                "nl": "Nous avons une routine matinale régulière à la maison.",
-                "es-CO": "En nuestra casa",
-                "fr-CA": "Wir haben zu Hause eine regelmäßige Morgenroutine.",
-                "de-CH": "We hebben thuis een vaste ochtendroutine.",
-                "es-AR": "Wir haben zu Hause eine regelmäßige Morgenroutine.",
-                "en-GH": "En nuestra casa"
+                "nl": "We hebben thuis een vaste ochtendroutine.",
+                "es-CO": "En nuestra casa, tenemos una rutina matutina regular.",
+                "fr-CA": "Nous avons une routine matinale régulière à la maison.",
+                "de-CH": "Wir haben zu Hause eine regelmäßige Morgenroutine.",
+                "es-AR": "En nuestra casa, tenemos una rutina matutina regular.",
+                "en-GH": "Our morning routine dey alright for house."
               },
               "choices": [
                 {
@@ -1118,14 +1118,14 @@
               "title": {
                 "default": "How well do you think you are handling the day-to-day demands of raising children?",
                 "es": "¿Qué tan bien cree usted que está manejando las exigencias diarias de la crianza de los niños?",
-                "de": "Was glauben Sie",
+                "de": "Was glauben Sie, wie gut Sie mit den täglichen Anforderungen der Kindererziehung zurechtkommen?",
                 "fr": "Comment pensez-vous que vous gérez les exigences quotidiennes de l'éducation des enfants?",
-                "nl": "Comment pensez-vous que vous gérez les exigences quotidiennes de l'éducation des enfants?",
+                "nl": "Hoe goed denkt u dat u de dagelijkse eisen van het opvoeden van kinderen aankan?",
                 "es-CO": "¿Qué tan bien cree usted que está manejando las exigencias diarias de la crianza de los niños?",
-                "fr-CA": "wie gut Sie mit den täglichen Anforderungen der Kindererziehung zurechtkommen?",
-                "de-CH": "Hoe goed denkt u dat u de dagelijkse eisen van het opvoeden van kinderen aankan?",
-                "es-AR": "Was glauben Sie",
-                "en-GH": "wie gut Sie mit den täglichen Anforderungen der Kindererziehung zurechtkommen?"
+                "fr-CA": "Comment pensez-vous que vous gérez les exigences quotidiennes de l'éducation des enfants?",
+                "de-CH": "Was glauben Sie, wie gut Sie mit den täglichen Anforderungen der Kindererziehung zurechtkommen?",
+                "es-AR": "¿Qué tan bien cree usted que está manejando las exigencias diarias de la crianza de los niños?",
+                "en-GH": "How better you dey manage the daily demands of parenting children?"
               },
               "showNumber": false,
               "choices": [
@@ -1300,14 +1300,14 @@
               "text": {
                 "default": "Not being able to stop or control worrying",
                 "es": "No poder parar o controlar las preocupaciones",
-                "de": "Nicht in der Lage zu sein",
+                "de": "Nicht in der Lage zu sein, das Grübeln zu beenden oder zu kontrollieren",
                 "fr": "Ne pas être capable d'arrêter ou de contrôler les préoccupations",
-                "nl": "Ne pas être capable d'arrêter ou de contrôler les préoccupations",
+                "nl": "Niet in staat zijn om te stoppen of zich zorgen te maken onder controle te houden",
                 "es-CO": "No poder parar o controlar las preocupaciones",
-                "fr-CA": "das Grübeln zu beenden oder zu kontrollieren",
-                "de-CH": "Niet in staat zijn om te stoppen of zich zorgen te maken onder controle te houden",
-                "es-AR": "Nicht in der Lage zu sein",
-                "en-GH": "das Grübeln zu beenden oder zu kontrollieren"
+                "fr-CA": "Ne pas être capable d'arrêter ou de contrôler les préoccupations",
+                "de-CH": "Nicht in der Lage zu sein, das Grübeln zu beenden oder zu kontrollieren",
+                "es-AR": "No poder parar o controlar las preocupaciones",
+                "en-GH": "Unable to control or stop worrying"
               }
             },
             {
@@ -1349,14 +1349,14 @@
           "title": {
             "default": "We are interested in how you feel about the following statements. Read each statement carefully. Indicate how you feel about each statement.",
             "es": "Nos interesa conocer su opinión sobre las siguientes afirmaciones. Léalas atentamente e indique cómo se siente respecto a cada una.",
-            "de": "Uns interessiert",
+            "de": "Uns interessiert, wie Sie zu den folgenden Aussagen stehen. Lesen Sie jede Aussage sorgfältig durch. Geben Sie an, wie Sie über jede Aussage denken.",
             "fr": "Nous nous intéressons à votre ressenti vis-à-vis des affirmations suivantes. Lisez chaque affirmation attentivement. Indiquez ce que vous ressentez par rapport à chaque affirmation.",
-            "nl": "wie Sie über jede Aussage denken.",
+            "nl": "We zijn geïnteresseerd in hoe u denkt over de volgende uitspraken. Lees elke uitspraak zorgvuldig. Geef aan hoe u zich voelt bij elke uitspraak.",
             "es-CO": "Nos interesa conocer su opinión sobre las siguientes afirmaciones. Léalas atentamente e indique cómo se siente respecto a cada una.",
-            "fr-CA": "wie Sie zu den folgenden Aussagen stehen. Lesen Sie jede Aussage sorgfältig durch. Geben Sie an",
-            "de-CH": "Nous nous intéressons à votre ressenti vis-à-vis des affirmations suivantes. Lisez chaque affirmation attentivement. Indiquez ce que vous ressentez par rapport à chaque affirmation.",
-            "es-AR": "We zijn geïnteresseerd in hoe u denkt over de volgende uitspraken. Lees elke uitspraak zorgvuldig. Geef aan hoe u zich voelt bij elke uitspraak.",
-            "en-GH": "Uns interessiert"
+            "fr-CA": "Nous nous intéressons à votre ressenti vis-à-vis des affirmations suivantes. Lisez chaque affirmation attentivement. Indiquez ce que vous ressentez par rapport à chaque affirmation.",
+            "de-CH": "Uns interessiert, wie Sie zu den folgenden Aussagen stehen. Lesen Sie jede Aussage sorgfältig durch. Geben Sie an, wie Sie über jede Aussage denken.",
+            "es-AR": "Nos interesa conocer su opinión sobre las siguientes afirmaciones. Léalas atentamente e indique cómo se siente respecto a cada una.",
+            "en-GH": "Make we see how you feel about the following words. Review each of the words with care, and tell your own feelings toward them."
           },
           "showNumber": false,
           "alternateRows": true,
@@ -1492,14 +1492,14 @@
               "text": {
                 "default": "My family really tries to help me.",
                 "es": "Mi familia realmente trata de ayudarme.",
-                "de": "Meine Familie versucht wirklich",
+                "de": "Meine Familie versucht wirklich, mir zu helfen.",
                 "fr": "Ma famille essaie vraiment de m'aider.",
-                "nl": "Ma famille essaie vraiment de m'aider.",
+                "nl": "Mijn familie doet echt zijn best om mij te helpen.",
                 "es-CO": "Mi familia realmente trata de ayudarme.",
-                "fr-CA": "mir zu helfen.",
-                "de-CH": "Mijn familie doet echt zijn best om mij te helpen.",
-                "es-AR": "Meine Familie versucht wirklich",
-                "en-GH": "mir zu helfen."
+                "fr-CA": "Ma famille essaie vraiment de m'aider.",
+                "de-CH": "Meine Familie versucht wirklich, mir zu helfen.",
+                "es-AR": "Mi familia realmente trata de ayudarme.",
+                "en-GH": "Your family too dey help."
               }
             },
             {
@@ -1507,14 +1507,14 @@
               "text": {
                 "default": "I get the emotional help & support I need from my family.",
                 "es": "Recibo la ayuda y el apoyo emocional que necesito de mi familia.",
-                "de": "Ich bekomme die emotionale Hilfe und Unterstützung",
+                "de": "Ich bekomme die emotionale Hilfe und Unterstützung, die ich brauche, von meiner Familie.",
                 "fr": "Je reçois l'aide émotionnelle & le soutien dont j'ai besoin de ma famille.",
-                "nl": "von meiner Familie.",
+                "nl": "Ik krijg de emotionele hulp en steun die ik van mijn familie nodig heb.",
                 "es-CO": "Recibo la ayuda y el apoyo emocional que necesito de mi familia.",
-                "fr-CA": "die ich brauche",
-                "de-CH": "Je reçois l'aide émotionnelle & le soutien dont j'ai besoin de ma famille.",
-                "es-AR": "Ik krijg de emotionele hulp en steun die ik van mijn familie nodig heb.",
-                "en-GH": "Ich bekomme die emotionale Hilfe und Unterstützung"
+                "fr-CA": "Je reçois l'aide émotionnelle & le soutien dont j'ai besoin de ma famille.",
+                "de-CH": "Ich bekomme die emotionale Hilfe und Unterstützung, die ich brauche, von meiner Familie.",
+                "es-AR": "Recibo la ayuda y el apoyo emocional que necesito de mi familia.",
+                "en-GH": "The kind of emotional support you dey seek from your family fr get."
               }
             },
             {
@@ -1537,14 +1537,14 @@
               "text": {
                 "default": "My friends really try to help me.",
                 "es": "Mis amigos realmente tratan de ayudarme.",
-                "de": "Meine Freunde versuchen wirklich",
+                "de": "Meine Freunde versuchen wirklich, mir zu helfen.",
                 "fr": "Mes amis essaient vraiment de m'aider.",
-                "nl": "Mes amis essaient vraiment de m'aider.",
+                "nl": "Mijn vrienden proberen echt me te helpen.",
                 "es-CO": "Mis amigos realmente tratan de ayudarme.",
-                "fr-CA": "mir zu helfen.",
-                "de-CH": "Mijn vrienden proberen echt me te helpen.",
-                "es-AR": "Meine Freunde versuchen wirklich",
-                "en-GH": "mir zu helfen."
+                "fr-CA": "Mes amis essaient vraiment de m'aider.",
+                "de-CH": "Meine Freunde versuchen wirklich, mir zu helfen.",
+                "es-AR": "Mis amigos realmente tratan de ayudarme.",
+                "en-GH": "Di people you call fren, them too dey support."
               }
             },
             {
@@ -1552,14 +1552,14 @@
               "text": {
                 "default": "I can count on my friends when things go wrong.",
                 "es": "Puedo contar con mis amigos cuando las cosas van mal.",
-                "de": "Ich kann auf meine Freunde zählen",
+                "de": "Ich kann auf meine Freunde zählen, wenn etwas schief läuft.",
                 "fr": "Je peux compter sur mes amis quand les choses tournent mal.",
-                "nl": "Je peux compter sur mes amis quand les choses tournent mal.",
+                "nl": "Ik kan op mijn vrienden rekenen als het misgaat.",
                 "es-CO": "Puedo contar con mis amigos cuando las cosas van mal.",
-                "fr-CA": "wenn etwas schief läuft.",
-                "de-CH": "Ik kan op mijn vrienden rekenen als het misgaat.",
-                "es-AR": "Ich kann auf meine Freunde zählen",
-                "en-GH": "wenn etwas schief läuft."
+                "fr-CA": "Je peux compter sur mes amis quand les choses tournent mal.",
+                "de-CH": "Ich kann auf meine Freunde zählen, wenn etwas schief läuft.",
+                "es-AR": "Puedo contar con mis amigos cuando las cosas van mal.",
+                "en-GH": "You fit depend on your friends when things go sideways."
               }
             },
             {
@@ -1574,7 +1574,7 @@
                 "fr-CA": "Je peux parler de mes problèmes avec ma famille.",
                 "de-CH": "Ich kann über meine Probleme mit meiner Familie sprechen.",
                 "es-AR": "Puedo hablar de mis problemas con mi familia.",
-                "en-GH": "Your family and you dey come to terms"
+                "en-GH": "Your family and you dey come to terms, and talk about problems."
               }
             },
             {
@@ -1582,14 +1582,14 @@
               "text": {
                 "default": "I have friends with whom I can share my joys and sorrows.",
                 "es": "Tengo amigos con los que puedo compartir mis alegrías y mis penas.",
-                "de": "Ich habe Freunde",
+                "de": "Ich habe Freunde, mit denen ich meine Freuden und Sorgen teilen kann.",
                 "fr": "J'ai des amis avec qui je peux partager mes joies et mes peines.",
-                "nl": "J'ai des amis avec qui je peux partager mes joies et mes peines.",
+                "nl": "Ik heb vrienden met wie ik mijn vreugde en verdriet kan delen.",
                 "es-CO": "Tengo amigos con los que puedo compartir mis alegrías y mis penas.",
-                "fr-CA": "mit denen ich meine Freuden und Sorgen teilen kann.",
-                "de-CH": "Ik heb vrienden met wie ik mijn vreugde en verdriet kan delen.",
-                "es-AR": "Ich habe Freunde",
-                "en-GH": "mit denen ich meine Freuden und Sorgen teilen kann."
+                "fr-CA": "J'ai des amis avec qui je peux partager mes joies et mes peines.",
+                "de-CH": "Ich habe Freunde, mit denen ich meine Freuden und Sorgen teilen kann.",
+                "es-AR": "Tengo amigos con los que puedo compartir mis alegrías y mis penas.",
+                "en-GH": "You also have friends with ample ear for thrills and grief."
               }
             },
             {
@@ -1612,14 +1612,14 @@
               "text": {
                 "default": "My family is willing to help me make decisions.",
                 "es": "Mi familia está dispuesta a ayudarme a tomar decisiones.",
-                "de": "Meine Familie ist bereit",
+                "de": "Meine Familie ist bereit, mir bei Entscheidungsfindungen zu helfen.",
                 "fr": "Ma famille est prête à m'aider à prendre des décisions.",
-                "nl": "Ma famille est prête à m'aider à prendre des décisions.",
+                "nl": "Mijn familie is bereid om me te helpen beslissingen te nemen.",
                 "es-CO": "Mi familia está dispuesta a ayudarme a tomar decisiones.",
-                "fr-CA": "mir bei Entscheidungsfindungen zu helfen.",
-                "de-CH": "Mijn familie is bereid om me te helpen beslissingen te nemen.",
-                "es-AR": "Meine Familie ist bereit",
-                "en-GH": "mir bei Entscheidungsfindungen zu helfen."
+                "fr-CA": "Ma famille est prête à m'aider à prendre des décisions.",
+                "de-CH": "Meine Familie ist bereit, mir bei Entscheidungsfindungen zu helfen.",
+                "es-AR": "Mi familia está dispuesta a ayudarme a tomar decisiones.",
+                "en-GH": "Make your family or family members decision position they dey control."
               }
             },
             {
@@ -1646,14 +1646,14 @@
           "title": {
             "default": "In your day-to-day life how often have any of the following things happened to you?",
             "es": "En su vida cotidiana, ¿con qué frecuencia ha vivido usted alguna de las siguientes situaciones?",
-            "de": "¿con qué frecuencia ha vivido usted alguna de las siguientes situaciones?",
+            "de": "Wie oft ist Ihnen in Ihrem Alltag eines der folgenden Dinge passiert?",
             "fr": "Dans votre vie quotidienne, à quelle fréquence vous est-il arrivé l'une des choses suivantes?",
-            "nl": "Dans votre vie quotidienne",
-            "es-CO": "En su vida cotidiana",
-            "fr-CA": "Wie oft ist Ihnen in Ihrem Alltag eines der folgenden Dinge passiert?",
-            "de-CH": "à quelle fréquence vous est-il arrivé l'une des choses suivantes?",
-            "es-AR": "Hoe vaak zijn de volgende dingen u overkomen in uw dagelijks leven?",
-            "en-GH": "Wie oft ist Ihnen in Ihrem Alltag eines der folgenden Dinge passiert?"
+            "nl": "Hoe vaak zijn de volgende dingen u overkomen in uw dagelijks leven?",
+            "es-CO": "En su vida cotidiana, ¿con qué frecuencia ha vivido usted alguna de las siguientes situaciones?",
+            "fr-CA": "Dans votre vie quotidienne, à quelle fréquence vous est-il arrivé l'une des choses suivantes?",
+            "de-CH": "Wie oft ist Ihnen in Ihrem Alltag eines der folgenden Dinge passiert?",
+            "es-AR": "En su vida cotidiana, ¿con qué frecuencia ha vivido usted alguna de las siguientes situaciones?",
+            "en-GH": "In your everyday life, on how many occasions have dey things come for you?"
           },
           "showNumber": false,
           "alternateRows": true,
@@ -1784,14 +1784,14 @@
               "text": {
                 "default": "People act as if they think you are not smart.",
                 "es": "La gente actúa como si pensara que usted no es muy inteligente.",
-                "de": "Die Leute tun so",
+                "de": "Die Leute tun so, als ob sie der Meinung wären, dass sie nicht intelligent sind.",
                 "fr": "Les gens agissent comme s'ils pensent que vous n'êtes pas intelligent.",
-                "nl": "dass sie nicht intelligent sind.",
+                "nl": "Mensen gedragen zich alsof ze denken dat u niet slim bent.",
                 "es-CO": "La gente actúa como si pensara que usted no es muy inteligente.",
-                "fr-CA": "als ob sie der Meinung wären",
-                "de-CH": "Les gens agissent comme s'ils pensent que vous n'êtes pas intelligent.",
-                "es-AR": "Mensen gedragen zich alsof ze denken dat u niet slim bent.",
-                "en-GH": "Die Leute tun so"
+                "fr-CA": "Les gens agissent comme s'ils pensent que vous n'êtes pas intelligent.",
+                "de-CH": "Die Leute tun so, als ob sie der Meinung wären, dass sie nicht intelligent sind.",
+                "es-AR": "La gente actúa como si pensara que usted no es muy inteligente.",
+                "en-GH": "People to believe say you no know book."
               }
             },
             {
@@ -1799,14 +1799,14 @@
               "text": {
                 "default": "People act as if they are afraid of you.",
                 "es": "La gente actúa como si le tuviera miedo.",
-                "de": "Die Leute tun so",
+                "de": "Die Leute tun so, als hätten sie Angst vor Ihnen.",
                 "fr": "Les gens agissent comme s'ils avaient peur de vous.",
-                "nl": "Les gens agissent comme s'ils avaient peur de vous.",
+                "nl": "Mensen gedragen zich alsof ze bang voor u zijn.",
                 "es-CO": "La gente actúa como si le tuviera miedo.",
-                "fr-CA": "als hätten sie Angst vor Ihnen.",
-                "de-CH": "Mensen gedragen zich alsof ze bang voor u zijn.",
-                "es-AR": "Die Leute tun so",
-                "en-GH": "als hätten sie Angst vor Ihnen."
+                "fr-CA": "Les gens agissent comme s'ils avaient peur de vous.",
+                "de-CH": "Die Leute tun so, als hätten sie Angst vor Ihnen.",
+                "es-AR": "La gente actúa como si le tuviera miedo.",
+                "en-GH": "Dem relate with you like predator they fear."
               }
             },
             {
@@ -1838,13 +1838,13 @@
           "title": {
             "default": "Please select Yes or No to indicate whether each event has happened to you <b>in the past year</b>.",
             "es": "Indique con Sí o No si le ha sucedido alguna de las siguientes cosas <b>en el último año</b>.",
-            "de": "Bitte wählen Sie Ja oder Nein",
+            "de": "Bitte wählen Sie Ja oder Nein, um anzugeben, ob Ihnen das jeweilige Ereignis im vergangenen Jahr widerfahren ist.",
             "fr": "Veuillez sélectionner Oui ou Non pour indiquer si chaque événement vous est arrivé <b>l'année passée</b>.",
-            "nl": "ob Ihnen das jeweilige Ereignis im vergangenen Jahr widerfahren ist.",
+            "nl": "Selecteer Ja of Nee om aan te geven of elk evenement u is overkomen <b>in het afgelopen jaar</b>.",
             "es-CO": "Indique con Sí o No si le ha sucedido alguna de las siguientes cosas <b>en el último año</b>.",
-            "fr-CA": "um anzugeben",
-            "de-CH": "Veuillez sélectionner Oui ou Non pour indiquer si chaque événement vous est arrivé <b>l'année passée</b>.",
-            "es-AR": "Selecteer Ja of Nee om aan te geven of elk evenement u is overkomen <b>in het afgelopen jaar</b>.",
+            "fr-CA": "Veuillez sélectionner Oui ou Non pour indiquer si chaque événement vous est arrivé <b>l'année passée</b>.",
+            "de-CH": "Bitte wählen Sie Ja oder Nein, um anzugeben, ob Ihnen das jeweilige Ereignis im vergangenen Jahr widerfahren ist.",
+            "es-AR": "Indique con Sí o No si le ha sucedido alguna de las siguientes cosas <b>en el último año</b>.",
             "en-US": "Please select Yes or No to indicate whether each event has happened to you <b>in the past year</b>.",
             "en-GH": "Do indicate through Yes or No whether each thing relate to your list of events for <b>last year</b>."
           },
@@ -1916,14 +1916,14 @@
                   "title": {
                     "default": "An injury or illness which was less serious than above but still sent you to the doctor or kept you in bed for a day or two.",
                     "es": "Una lesión o enfermedad menos grave que las anteriores, pero que le haya obligado a ir al médico o a guardar cama uno o dos días.",
-                    "de": "pero que le haya obligado a ir al médico o a guardar cama uno o dos días.",
+                    "de": "Eine Verletzung oder Erkrankung, die weniger schwerwiegend ist als die oben genannten, die aber dennoch einen Arztbesuch oder Bettruhe für ein oder zwei Tage erforderlich machte.",
                     "fr": "Une blessure ou une maladie moins grave que ci-dessus mais qui vous a tout de même envoyé chez le médecin ou gardé au lit pendant un jour ou deux.",
-                    "nl": "die weniger schwerwiegend ist als die oben genannten",
-                    "es-CO": "Una lesión o enfermedad menos grave que las anteriores",
-                    "fr-CA": "Eine Verletzung oder Erkrankung",
-                    "de-CH": "die aber dennoch einen Arztbesuch oder Bettruhe für ein oder zwei Tage erforderlich machte.",
-                    "es-AR": "Une blessure ou une maladie moins grave que ci-dessus mais qui vous a tout de même envoyé chez le médecin ou gardé au lit pendant un jour ou deux.",
-                    "en-GH": "Een verwonding of ziekte die minder ernstig was dan de hierboven genoemde"
+                    "nl": "Een verwonding of ziekte die minder ernstig was dan de hierboven genoemde, maar waardoor u toch een dokter moest raadplegen of een dag of twee in bed moest liggen.",
+                    "es-CO": "Una lesión o enfermedad menos grave que las anteriores, pero que le haya obligado a ir al médico o a guardar cama uno o dos días.",
+                    "fr-CA": "Une blessure ou une maladie moins grave que ci-dessus mais qui vous a tout de même envoyé chez le médecin ou gardé au lit pendant un jour ou deux.",
+                    "de-CH": "Eine Verletzung oder Erkrankung, die weniger schwerwiegend ist als die oben genannten, die aber dennoch einen Arztbesuch oder Bettruhe für ein oder zwei Tage erforderlich machte.",
+                    "es-AR": "Una lesión o enfermedad menos grave que las anteriores, pero que le haya obligado a ir al médico o a guardar cama uno o dos días.",
+                    "en-GH": "A less serious matter than an injury or sickness, but one that sent you to the er or stood you two days or less in bed."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2243,7 +2243,7 @@
                     "fr-CA": "Changement dans vos responsabilités au travail (plus de responsabilités).",
                     "de-CH": "Änderung Ihrer Verantwortlichkeiten am Arbeitsplatz (mehr Verantwortung).",
                     "es-AR": "Cambio de responsabilidades en el trabajo (más responsabilidades).",
-                    "en-GH": "At work"
+                    "en-GH": "At work, acquirement of more responsibility given."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2458,7 +2458,7 @@
                     "fr-CA": "Problèmes au travail (avec votre patron).",
                     "de-CH": "Probleme bei der Arbeit (mit Ihrem Chef).",
                     "es-AR": "Problemas en el trabajo (con el jefe).",
-                    "en-GH": "They dey give you stress at work"
+                    "en-GH": "They dey give you stress at work, like your supervisor dey power."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2501,7 +2501,7 @@
                     "fr-CA": "Problèmes au travail (avec vos collègues).",
                     "de-CH": "Probleme bei der Arbeit (mit Ihren Kollegen).",
                     "es-AR": "Problemas en el trabajo (con los compañeros).",
-                    "en-GH": "Work ran into issues"
+                    "en-GH": "Work ran into issues, den no like the organization nor amongst co-workers."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2716,7 +2716,7 @@
                     "fr-CA": "Perte d'emploi (licenciement).",
                     "de-CH": "Verlust des Arbeitsplatzes (Entlassung).",
                     "es-AR": "Despido con indemnización",
-                    "en-GH": "No work"
+                    "en-GH": "No work, job dey loose with layoff."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2759,7 +2759,7 @@
                     "fr-CA": "Perte d'emploi (renvoi).",
                     "de-CH": "Verlust des Arbeitsplatzes (gekündigt werden).",
                     "es-AR": "Despido sin indemnización",
-                    "en-GH": "Job removal"
+                    "en-GH": "Job removal, redundancy mix-up."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2795,14 +2795,14 @@
                   "title": {
                     "default": "Taking a course to help you with your work.",
                     "es": "Realización de un curso para ayudarle en su trabajo.",
-                    "de": "Teilnahme an einem Kurs",
+                    "de": "Teilnahme an einem Kurs, der Ihnen bei Ihrer Arbeit hilft.",
                     "fr": "Suivre un cours pour vous aider dans votre travail.",
-                    "nl": "Suivre un cours pour vous aider dans votre travail.",
+                    "nl": "Een cursus volgen om u met uw werk te helpen.",
                     "es-CO": "Realización de un curso para ayudarle en su trabajo.",
-                    "fr-CA": "der Ihnen bei Ihrer Arbeit hilft.",
-                    "de-CH": "Een cursus volgen om u met uw werk te helpen.",
-                    "es-AR": "Teilnahme an einem Kurs",
-                    "en-GH": "der Ihnen bei Ihrer Arbeit hilft."
+                    "fr-CA": "Suivre un cours pour vous aider dans votre travail.",
+                    "de-CH": "Teilnahme an einem Kurs, der Ihnen bei Ihrer Arbeit hilft.",
+                    "es-AR": "Realización de un curso para ayudarle en su trabajo.",
+                    "en-GH": "Take up a course, grow business wares."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2899,15 +2899,15 @@
                   "name": "SelfLifeChanges24",
                   "title": {
                     "default": "Change in residence (move within the same town or city).",
-                    "de": "pueblo o ciudad).",
+                    "de": "Wechsel des Wohnsitzes (Umzug innerhalb derselben Stadt).",
                     "es": "Cambio de residencia (traslado dentro de la misma vereda, pueblo o ciudad).",
                     "fr": "Changement de résidence (déménagement dans la même ville).",
-                    "nl": "Changement de résidence (déménagement dans la même ville).",
-                    "es-CO": "Cambio de residencia (traslado dentro de la misma vereda",
-                    "fr-CA": "Wechsel des Wohnsitzes (Umzug innerhalb derselben Stadt).",
-                    "de-CH": "Verandering van woonplaats (verhuizen binnen dezelfde stad).",
-                    "es-AR": "Wechsel des Wohnsitzes (Umzug innerhalb derselben Stadt).",
-                    "en-GH": "Cambio de residencia (traslado dentro de la misma vereda"
+                    "nl": "Verandering van woonplaats (verhuizen binnen dezelfde stad).",
+                    "es-CO": "Cambio de residencia (traslado dentro de la misma vereda, pueblo o ciudad).",
+                    "fr-CA": "Changement de résidence (déménagement dans la même ville).",
+                    "de-CH": "Wechsel des Wohnsitzes (Umzug innerhalb derselben Stadt).",
+                    "es-AR": "Cambio de residencia (traslado dentro de la misma vereda, pueblo o ciudad).",
+                    "en-GH": "House displacement (move still dey within same local)."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3208,7 +3208,7 @@
                     "fr-CA": "Arrivée d'un nouveau membre dans la famille (adoption d'un enfant).",
                     "de-CH": "Zuwachs eines neuen Familienmitglieds (Adoption eines Kindes).",
                     "es-AR": "Llegada de un nuevo miembro de la familia (adopción de un niño(a)).",
-                    "en-GH": "Added extension for new member"
+                    "en-GH": "Added extension for new member, adopted one."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3251,7 +3251,7 @@
                     "fr-CA": "Arrivée d'un nouveau membre dans la famille (un parent emménage chez vous).",
                     "de-CH": "Zuwachs eines neuen Familienmitglieds (ein Verwandter zieht bei Ihnen ein).",
                     "es-AR": "Llegada de un nuevo familiar (un pariente que se mudó a vivir con usted).",
-                    "en-GH": "Added extension for family"
+                    "en-GH": "Added extension for family, kinsman shifting in."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3380,7 +3380,7 @@
                     "fr-CA": "Un enfant quitte la maison (en raison du mariage).",
                     "de-CH": "Kind verlässt das Elternhaus (weil es heiratet).",
                     "es-AR": "Un menor de edad se va de casa (por matrimonio).",
-                    "en-GH": "The child head some married"
+                    "en-GH": "The child head some married, however married."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3423,7 +3423,7 @@
                     "fr-CA": "Un enfant quitte la maison (pour d'autres raisons).",
                     "de-CH": "Kind verlässt das Haus (aus anderen Gründen).",
                     "es-AR": "Un menor de edad se va de casa (por otros motivos).",
-                    "en-GH": "When child went for an excursion"
+                    "en-GH": "When child went for an excursion, to sum up all."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3552,7 +3552,7 @@
                     "fr-CA": "Changement de l'état matrimonial de vos parents (divorce).",
                     "de-CH": "Änderung des Ehestandes Ihrer Eltern (Scheidung).",
                     "es-AR": "Cambio en el estado civil de sus padres (divorcio).",
-                    "en-GH": "Status of parents got altered"
+                    "en-GH": "Status of parents got altered, the nuptial pull down."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3595,7 +3595,7 @@
                     "fr-CA": "Changement de l'état matrimonial de vos parents (remariage).",
                     "de-CH": "Änderung des Ehestandes Ihrer Eltern (erneute Heirat).",
                     "es-AR": "Cambio de estado civil de sus padres (segundas nupcias).",
-                    "en-GH": "Status of parents got altered"
+                    "en-GH": "Status of parents got altered, re-nuptial promises accepted."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3638,7 +3638,7 @@
                     "fr-CA": "Séparation avec le conjoint (en raison du travail).",
                     "de-CH": "Trennung vom Ehepartner (aus beruflichen Gründen).",
                     "es-AR": "Separación del cónyuge (por motivos de trabajo).",
-                    "en-GH": "Partner part time separated"
+                    "en-GH": "Partner part time separated, often work issue."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3681,7 +3681,7 @@
                     "fr-CA": "Séparation avec le conjoint (en raison de problèmes conjugaux).",
                     "de-CH": "Trennung vom Ehepartner (aufgrund von Eheproblemen).",
                     "es-AR": "Separación del cónyuge (por problemas conyugales).",
-                    "en-GH": "Partner part time separated"
+                    "en-GH": "Partner part time separated, marriage faced issues."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -4216,7 +4216,7 @@
                     "fr-CA": "Changement dans les activités sociales.",
                     "de-CH": "Änderung der sozialen Aktivitäten.",
                     "es-AR": "Cambio de actividades sociales.",
-                    "en-GH": "For socialization"
+                    "en-GH": "For socialization, whole the activities dey change."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -4259,7 +4259,7 @@
                     "fr-CA": "Vacances.",
                     "de-CH": "Urlaub.",
                     "es-AR": "Vacaciones.",
-                    "en-GH": "Taking time relax"
+                    "en-GH": "Taking time relax, a retreat."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -4707,7 +4707,7 @@
                     "fr-CA": "Changement majeur des finances (revenu accru).",
                     "de-CH": "Größere Veränderung der Finanzen (höheres Einkommen).",
                     "es-AR": "Cambio importante en las finanzas (aumento de los ingresos).",
-                    "en-GH": "Finance balloon"
+                    "en-GH": "Finance balloon, net income dey swell."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -5031,13 +5031,13 @@
           "title": {
             "default": "<b>Instructions:</b> Think of this line as representing where people stand in their <i>communities</i>. People define community in different ways; please define it in whatever way is most meaningful to you. To the <b>right</b> are people who have the highest standing in their community. To the <b>left</b> are the people who have the lowest standing in their community.<br><b>Where would you place yourself on this line?</b><br>Move the slider to where you think you stand at this time in your life relative to other people in your community.",
             "es": "<b>Instrucciones:</b> Piense que esta línea representa la posición de las personas en sus <i>comunidades</i>. La gente define la comunidad de distintas maneras; por favor, piense en la definición que a usted le resulte más significativa. <b>A la derecha</b> están las personas que gozan de mayor prestigio en su comunidad. <b>A la izquierda</> están las personas que tienen menor prestigio en su comunidad.<br><b>¿Dónde se situaría en esta línea?</b><br>Mueve y ubique el círculo sobre la recta donde usted creas que encontrarse en este momento de su vida en relación con otras personas de su comunidad.",
-            "de": "piense en la definición que a usted le resulte más significativa. <b>A la derecha</b> están las personas que gozan de mayor prestigio en su comunidad. <b>A la izquierda</> están las personas que tienen menor prestigio en su comunidad.<br><b>¿Dónde se situaría en esta línea?</b><br>Mueve y ubique el círculo sobre la recta donde usted creas que encontrarse en este momento de su vida en relación con otras personas de su comunidad.",
+            "de": "<b>Anweisungen:</b> Stellen Sie sich vor, dass diese Linie zeigt, wo die Menschen in ihren <i>Gemeinschaften</i> stehen. Menschen definieren Gemeinschaft auf unterschiedliche Weise; bitte definieren Sie sie so, wie es für Sie am sinnvollsten ist. Auf der <b>rechten</b> Seite stehen die Menschen, die den höchsten Stellenwert in ihrer Gemeinschaft haben. Auf der <b>linken</b> Seite befinden sich die Menschen, die den niedrigsten Stellenwert in ihrer Gemeinschaft haben.<br><b>Wo würden Sie sich auf dieser Linie einordnen?</b><br>Bewegen Sie den Schieberegler dorthin, wo Sie Ihrer Meinung nach im Vergleich zu den anderen Menschen in Ihrer Gemeinschaft stehen.",
             "fr": "<b>Instructions :</b> Imaginez cette ligne comme représentant l'endroit où les gens se situent dans leurs <i>communautés</i>. Les gens définissent la communauté de différentes manières ; veuillez la définir de la manière qui vous semble la plus significative. À droite se trouvent les personnes qui ont la plus haute position dans leur communauté. À gauche se trouvent les personnes ayant le statut le plus bas dans leur communauté.<br><b>Où vous situez-vous sur cette ligne ?</b><br>Déplacez le curseur à l'endroit où vous pensez être à ce moment de votre vie par rapport aux autres personnes de votre communauté.",
-            "nl": "dass diese Linie zeigt",
-            "es-CO": "<b>Instrucciones:</b> Piense que esta línea representa la posición de las personas en sus <i>comunidades</i>. La gente define la comunidad de distintas maneras; por favor",
-            "fr-CA": "<b>Anweisungen:</b> Stellen Sie sich vor",
-            "de-CH": "wo die Menschen in ihren <i>Gemeinschaften</i> stehen. Menschen definieren Gemeinschaft auf unterschiedliche Weise; bitte definieren Sie sie so",
-            "es-AR": "wie es für Sie am sinnvollsten ist. Auf der <b>rechten</b> Seite stehen die Menschen",
+            "nl": "<b>Instructies:</b> Stel je deze lijn voor als een weergave van waar mensen staan in hun <i>gemeenschappen</i>. Mensen definiëren gemeenschap op verschillende manieren; definieer het op welke manier het meest betekenisvol voor jou is. Aan de <b>rechterkant</b> zijn de mensen die de hoogste status in hun gemeenschap hebben. Aan de <b>linkerkant</b> zijn de mensen die de laagste status in hun gemeenschap hebben.<br><b>Waar zou u uzelf op deze lijn plaatsen?</b><br>Verplaats de schuifregelaar naar waar u denkt dat u zich op dit moment in uw leven ten opzichte van andere mensen in uw gemeenschap bevindt.",
+            "es-CO": "<b>Instrucciones:</b> Piense que esta línea representa la posición de las personas en sus <i>comunidades</i>. La gente define la comunidad de distintas maneras; por favor, piense en la definición que a usted le resulte más significativa. <b>A la derecha</b> están las personas que gozan de mayor prestigio en su comunidad. <b>A la izquierda</> están las personas que tienen menor prestigio en su comunidad.<br><b>¿Dónde se situaría en esta línea?</b><br>Mueve y ubique el círculo sobre la recta donde usted creas que encontrarse en este momento de su vida en relación con otras personas de su comunidad.",
+            "fr-CA": "<b>Instructions :</b> Imaginez cette ligne comme représentant l'endroit où les gens se situent dans leurs <i>communautés</i>. Les gens définissent la communauté de différentes manières ; veuillez la définir de la manière qui vous semble la plus significative. À droite se trouvent les personnes qui ont la plus haute position dans leur communauté. À gauche se trouvent les personnes ayant le statut le plus bas dans leur communauté.<br><b>Où vous situez-vous sur cette ligne ?</b><br>Déplacez le curseur à l'endroit où vous pensez être à ce moment de votre vie par rapport aux autres personnes de votre communauté.",
+            "de-CH": "<b>Anweisungen:</b> Stellen Sie sich vor, dass diese Linie zeigt, wo die Menschen in ihren <i>Gemeinschaften</i> stehen. Menschen definieren Gemeinschaft auf unterschiedliche Weise; bitte definieren Sie sie so, wie es für Sie am sinnvollsten ist. Auf der <b>rechten</b> Seite stehen die Menschen, die den höchsten Stellenwert in ihrer Gemeinschaft haben. Auf der <b>linken</b> Seite befinden sich die Menschen, die den niedrigsten Stellenwert in ihrer Gemeinschaft haben.<br><b>Wo würden Sie sich auf dieser Linie einordnen?</b><br>Bewegen Sie den Schieberegler dorthin, wo Sie Ihrer Meinung nach im Vergleich zu den anderen Menschen in Ihrer Gemeinschaft stehen.",
+            "es-AR": "<b>Instrucciones:</b> Piense que esta línea representa la posición de las personas en sus <i>comunidades</i>. La gente define la comunidad de distintas maneras; por favor, piense en la definición que a usted le resulte más significativa. <b>A la derecha</b> están las personas que gozan de mayor prestigio en su comunidad. <b>A la izquierda</> están las personas que tienen menor prestigio en su comunidad.<br><b>¿Dónde se situaría en esta línea?</b><br>Mueve y ubique el círculo sobre la recta donde usted creas que encontrarse en este momento de su vida en relación con otras personas de su comunidad.",
             "en-US": "<b>Instructions:</b> Think of this line as representing where people stand in their <i>communities</i>. People define community in different ways; please define it in whatever way is most meaningful to you. To the <b>right</b> are people who have the highest standing in their community. To the <b>left</b> are the people who have the lowest standing in their community.<br><b>Where would you place yourself on this line?</b><br>Move the slider to where you think you stand at this time in your life relative to other people in your community.",
             "en-GH": "<b>Instructions:</b> This line dey represent where people relate to in their <i>communities</i>. People see community in different scopes; use any that strike real to you. On the <b>right</b> dey people with high regard in community. On the <b>left</b> dey people wey low rate in community.<br><b>Which location you fit place yourself now?</b><br>Use slider to place where you stand at this moment in this world as relative to different heads for your place."
           },

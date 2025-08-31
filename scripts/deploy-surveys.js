@@ -425,8 +425,8 @@ async function backupExistingSurveys(results, bucketName, dryRun = false) {
   try {
     const storage = new Storage()
     const bucket = storage.bucket(bucketName)
-    const timestamp = new Date().toISOString().replace(/[:.]/g, '-')
-    const backupFolder = `backups/${timestamp}`
+    const timestamp = new Date().toISOString().replace(/[:.]/g, '-').replace('T', '_').substring(0, 19)
+    const backupFolder = `surveys/backup_${timestamp}`
 
     const backupResults = []
 
