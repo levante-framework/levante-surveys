@@ -26,7 +26,7 @@ const __dirname = path.dirname(__filename)
 const projectRoot = path.resolve(__dirname, '..')
 
 // Google Cloud Storage configuration
-const BUCKET_NAME = 'levante-dashboard-prod'
+const BUCKET_NAME = 'levante-assets-dev'
 
 // Survey file mapping - derive JSON filename from CSV filename
 const SURVEY_CSV_MAPPING = {

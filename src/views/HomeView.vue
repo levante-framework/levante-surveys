@@ -4,13 +4,13 @@
     <div class="left-panel">
       <div class="panel-header">
         <h1>🔬 Survey Manager</h1>
-        <p>Select a survey to edit</p>
+        <p>Select a local survey to edit (updated versions with multilingual support)</p>
       </div>
 
       <div class="survey-list">
         <div class="actions">
           <button @click="loadAllSurveysAction" :disabled="isLoading" class="btn btn-primary">
-            {{ isLoading ? 'Loading...' : 'Load Surveys' }}
+            {{ isLoading ? 'Loading...' : 'Load Local Surveys' }}
           </button>
           <button @click="createNewSurvey" class="btn btn-secondary">
             New Survey
@@ -76,7 +76,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
 import { useSurveyStore } from '@/stores/survey'
-import { type SurveyFileKey } from '@/helpers/surveyLoader'
+import { type SurveyFileKey } from '@/constants/bucket'
 import SurveyCreatorComponent from '@/components/SurveyCreatorComponent.vue'
 
 const surveyStore = useSurveyStore()
@@ -93,7 +93,7 @@ const error = computed(() => surveyStore.error)
 const isCreatorReady = ref(false)
 const currentSurveyJson = ref<any>(null)
 
-// Load all surveys from GCS
+// Load all surveys from local files
 const loadAllSurveysAction = async () => {
   // Prevent multiple simultaneous calls
   if (surveyStore.isLoading) {
@@ -105,27 +105,26 @@ const loadAllSurveysAction = async () => {
     surveyStore.isLoading = true
     surveyStore.error = null
 
-            console.log('🔍 Starting to load surveys...')
+    console.log('🔍 Starting to load local surveys...')
 
-    // Import the module directly to avoid naming conflicts
-    const surveyLoaderModule = await import('@/helpers/surveyLoader')
-    console.log('🔍 Loaded module:', surveyLoaderModule)
-    console.log('🔍 Module loadAllSurveys:', surveyLoaderModule.loadAllSurveys)
+    // Import the local survey loader
+    const localSurveyLoaderModule = await import('@/helpers/localSurveyLoader')
+    console.log('🔍 Loaded local survey module:', localSurveyLoaderModule)
 
-    // Call the imported function directly
-    console.log('🔍 About to call surveyLoaderModule.loadAllSurveys...')
-    const surveysObject = await surveyLoaderModule.loadAllSurveys()
-    console.log('🔍 Received surveys:', surveysObject)
+    // Call the local survey loader
+    console.log('🔍 About to call loadAllLocalSurveys...')
+    const surveysObject = await localSurveyLoaderModule.loadAllLocalSurveys()
+    console.log('🔍 Received local surveys:', surveysObject)
     console.log('🔍 Surveys object type:', typeof surveysObject)
 
     if (!surveysObject || typeof surveysObject !== 'object') {
-      throw new Error('Invalid surveys data received')
+      throw new Error('Invalid local surveys data received')
     }
 
     // Update store with loaded surveys
     const surveyKeys = Object.keys(surveysObject)
     if (surveyKeys.length === 0) {
-      console.warn('No surveys found in the response')
+      console.warn('No local surveys found')
       return
     }
 
@@ -133,11 +132,11 @@ const loadAllSurveysAction = async () => {
       surveyStore.setSurvey(key as SurveyFileKey, surveysObject[key])
     })
 
-    console.log(`✅ Successfully loaded ${surveyKeys.length} surveys`)
+    console.log(`✅ Successfully loaded ${surveyKeys.length} local surveys`)
   } catch (err: any) {
     const errorMsg = err?.message || 'Unknown error occurred'
-    surveyStore.error = `Failed to load surveys: ${errorMsg}`
-    console.error('❌ Error loading surveys:', err)
+    surveyStore.error = `Failed to load local surveys: ${errorMsg}`
+    console.error('❌ Error loading local surveys:', err)
   } finally {
     surveyStore.isLoading = false
   }
@@ -151,10 +150,10 @@ const selectSurvey = async (surveyKey: SurveyFileKey) => {
 
     let surveyData = surveyStore.surveys[surveyKey]
 
-    // If not already loaded, fetch from GCS
+    // If not already loaded, fetch from local files
     if (!surveyData) {
-      const surveyLoaderModule = await import('@/helpers/surveyLoader')
-      const response = await surveyLoaderModule.loadSurveyFromBucket(surveyKey)
+      const localSurveyLoaderModule = await import('@/helpers/localSurveyLoader')
+      const response = await localSurveyLoaderModule.loadLocalSurvey(surveyKey)
       surveyData = response.data
       surveyStore.setSurvey(surveyKey, surveyData)
     }
@@ -166,10 +165,10 @@ const selectSurvey = async (surveyKey: SurveyFileKey) => {
     // Initialize creator
     isCreatorReady.value = true
 
-    console.log(`Loaded survey: ${surveyKey}`)
-  } catch (err) {
-    surveyStore.error = `Failed to load survey: ${err.message}`
-    console.error('Error loading survey:', err)
+    console.log(`Loaded local survey: ${surveyKey}`)
+  } catch (err: any) {
+    surveyStore.error = `Failed to load local survey: ${err?.message || err}`
+    console.error('Error loading local survey:', err)
   } finally {
     surveyStore.isLoading = false
   }

@@ -37,37 +37,37 @@ export const useSurveyStore = defineStore('survey', () => {
   const surveyInfo = computed((): SurveyInfo[] => [
     {
       key: 'PARENT_FAMILY',
-      title: 'Family Survey',
-      description: 'Caregiver survey focusing on family dynamics and home environment',
-      fileName: 'parent_survey_family.json',
+      title: 'Family Survey (Updated)',
+      description: 'Caregiver survey focusing on family dynamics and home environment - Local updated version with multilingual support',
+      fileName: 'parent_survey_family_updated.json',
       icon: '👨‍👩‍👧‍👦'
     },
     {
       key: 'PARENT_CHILD',
-      title: 'Child Survey',
-      description: 'Caregiver survey about specific child development and behavior',
-      fileName: 'parent_survey_child.json',
+      title: 'Parent-Child Survey (Updated)',
+      description: 'Caregiver survey about specific child development and behavior - Local updated version with multilingual support',
+      fileName: 'parent_survey_child_updated.json',
       icon: '👶'
     },
     {
       key: 'CHILD',
-      title: 'Student Survey',
-      description: 'Direct assessment survey for children and students',
-      fileName: 'child_survey.json',
+      title: 'Child Survey (Updated)',
+      description: 'Direct assessment survey for children and students - Local updated version with multilingual support',
+      fileName: 'child_survey_updated.json',
       icon: '🎓'
     },
     {
       key: 'TEACHER_GENERAL',
-      title: 'Teacher General',
-      description: 'General teacher assessment and classroom observations',
-      fileName: 'teacher_survey_general.json',
+      title: 'Teacher General (Updated)',
+      description: 'General teacher assessment and classroom observations - Local updated version with multilingual support',
+      fileName: 'teacher_survey_general_updated.json',
       icon: '👨‍🏫'
     },
     {
       key: 'TEACHER_CLASSROOM',
-      title: 'Teacher Classroom',
-      description: 'Specific classroom environment and teaching practice assessment',
-      fileName: 'teacher_survey_classroom.json',
+      title: 'Teacher Classroom (Updated)',
+      description: 'Specific classroom environment and teaching practice assessment - Local updated version with multilingual support',
+      fileName: 'teacher_survey_classroom_updated.json',
       icon: '🏫'
     }
   ])

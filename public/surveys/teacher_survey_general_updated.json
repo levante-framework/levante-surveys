@@ -17,7 +17,7 @@
             "de-CH": "<b><font face=Verdana size=4>Vielen Dank, dass Sie sich die Zeit (~10 Minuten) nehmen, um an dieser Umfrage teilzunehmen!</b><br> <br> <p><font face=Verdana size=4>Einige Schüler, die Sie unterrichten, nehmen an einem Forschungsprojekt teil, das untersucht, wie Kinder lernen und sich entwickeln. Ihre Antworten in dieser Umfrage sollten sich auf Ihr Klassenzimmer, Ihre Schule und Ihre beruflichen Überzeugungen beziehen und nicht auf ein bestimmtes Kind. <br><br><b><font face=Verdana size=4>Diese Umfrage besteht aus zwei Teilen: Teil A und Teil B.</b><br> <br> <p><font face=Verdana size=4>In Teil A beziehen sich die Fragen auf Ihren Hintergrund und Ihre Überzeugungen. <br><br>In Teil B sind die Fragen klassenraumspezifisch. Wenn Sie mehr als eine Klasse von Schülern in diesem Projekt unterrichten, füllen Sie Teil B für jedes Klassenzimmer separat aus. <br><br>Wenn Sie ein einzelnes Fach unterrichten, beantworten Sie bitte die Fragen, die sich auf andere Fächer beziehen, so gut es Ihnen möglich ist, oder konsultieren Sie für diese Details gegebenenfalls einen Kollegen. <br><br>Vielen Dank für Ihre Teilnahme! Ihre Antworten liefern unschätzbare Einblicke in die Bildung Ihrer Schüler. <br><br>Wenn Sie bereit sind, klicken Sie auf die Schaltfläche „Umfrage starten“. <br><br><b><font face=Verdana size=4>Danke!",
             "es-AR": "<b><font face=Verdana size=4>¡Gracias por tomarse el tiempo (~10 minutos) para responder a esta encuesta!</b><br> <br> <p><font face=Verdana size=4>Algunos estudiantes a los que enseñas están participando en un proyecto de investigación sobre cómo los niños aprenden y se desarrollan. Tus respuestas en esta encuesta deben aplicarse a tu aula, escuela y creencias profesionales en lugar de a un niño en específico. <br><br><b><font face=Verdana size=4>Esta encuesta tiene dos partes: Parte A y Parte B.</b><br> <br> <p><font face=Verdana size=4>En la Parte A, las preguntas se relacionan con tus antecedentes y creencias. <br><br>En la Parte B, las preguntas son específicas del aula. Si enseñas a más de una clase de estudiantes incluidos en este proyecto, deberás completar la Parte B por separado para cada aula. <br><br>Si enseñas una sola materia, por favor completa las preguntas que se relacionen con otras materias lo mejor que puedas o consulta con un colega para esos detalles. <br><br>¡Gracias por tu participación! Tus respuestas proporcionan un conocimiento invaluable sobre la educación de tus estudiantes. <br><br>Cuando estés listo para comenzar, selecciona el botón “Comenzar Encuesta”. <br><br><b><font face=Verdana size=4>¡Gracias!",
             "en-US": "<b><font face=Verdana size=4>Thank you for taking the time (~10 minutes) to respond to this survey!</b><br> <br> <p><font face=Verdana size=4>Some students who you teach are participating in a research project studying how children learn and develop. Your responses in this survey should apply to your classroom, school, and professional beliefs rather than to any one specific child. <br><br><b><font face=Verdana size=4>This survey has two parts: Part A and Part B.</b><br> <br> <p><font face=Verdana size=4>In Part A, the questions relate to your background and beliefs. <br><br>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>Thank you for your participation! Your responses provide invaluable insight into the education of your students. <br><br>When you are ready to begin, select the “Start Survey” button. <br><br><b><font face=Verdana size=4>Thank you!",
-            "en-GH": "<b><font face=Verdana size=4>Thank you for taking the time (~10 minutes) to respond to this survey!</b><br> <br> <p><font face=Verdana size=4>Some students who you teach are participating in a research project studying how children learn and develop. Your responses in this survey should apply to your classroom, school, and professional beliefs rather than to any one specific child. <br><br><b><font face=Verdana size=4>This survey has two parts: Part A and Part B.</b><br> <br> <p><font face=Verdana size=4>In Part A, the questions relate to your background and beliefs. <br><br>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>Thank you for your participation! Your responses provide invaluable insight into the education of your students. <br><br>When you are ready to begin, select the Start Survey button. <br><br><b><font face=Verdana size=4>Thank you!"
+            "en-GH": "<b><font face=Verdana size=4>Thank you for taking the time (~10 minutes) to respond to this survey!</b><br> <br> <p><font face=Verdana size=4>Some students who you teach are participating in a research project studying how children learn and develop. Your responses in this survey should apply to your classroom, school, and professional beliefs rather than to any one specific child. <br><br><b><font face=Verdana size=4>This survey has two parts: Part A and Part B.</b><br> <br> <p><font face=Verdana size=4>In Part A, the questions relate to your background and beliefs. <br><br>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>Thank you for your participation! Your responses provide invaluable insight into the education of your students. <br><br>When you are ready to begin, select the “Start Survey” button. <br><br><b><font face=Verdana size=4>Thank you!"
           }
         }
       ]
@@ -126,14 +126,14 @@
               "otherText": {
                 "default": "Other (please describe)",
                 "es": "Otro, describa",
-                "es-CO": "Otro",
-                "de": "describa",
-                "fr-CA": "Andere (bitte beschreiben)",
-                "nl": "Autre (veuillez décrire)",
-                "de-CH": "Anders (beschrijf alstublieft)",
-                "es-AR": "Andere (bitte beschreiben)",
+                "es-CO": "Otro, describa",
+                "de": "Andere (bitte beschreiben)",
+                "fr-CA": "Autre (veuillez décrire)",
+                "nl": "Anders (beschrijf alstublieft)",
+                "de-CH": "Andere (bitte beschreiben)",
+                "es-AR": "Otro, describa",
                 "en-US": "Other (please describe)",
-                "en-GH": "Other (describe please)"
+                "en-GH": "Other (please describe)"
               },
               "allowClear": true
             },
@@ -186,13 +186,13 @@
                   "text": {
                     "default": "Some college but no degree",
                     "es": "Inició estudios universitarios, pero no se ha graduado",
-                    "es-CO": "Inició estudios universitarios",
-                    "de": "pero no se ha graduado",
-                    "fr-CA": "Ausbildung",
-                    "nl": "Certaines études collégiales mais sans diplôme",
-                    "de-CH": "Een beetje hogere school maar zonder diploma",
-                    "es-AR": "Ausbildung",
-                    "en-GH": "Inició estudios universitarios"
+                    "es-CO": "Inició estudios universitarios, pero no se ha graduado",
+                    "de": "Ausbildung",
+                    "fr-CA": "Certaines études collégiales mais sans diplôme",
+                    "nl": "Een beetje hogere school maar zonder diploma",
+                    "de-CH": "Ausbildung",
+                    "es-AR": "Inició estudios universitarios, pero no se ha graduado",
+                    "en-GH": "Some college but no degree"
                   }
                 },
                 {
@@ -277,12 +277,12 @@
                 "default": "Indicate your undergraduate field of study. Mark ALL that apply.",
                 "es": "Indique su área de estudios en la licenciatura o el pregrado. Marque TODAS las que procedan.",
                 "es-CO": "Indique su área de estudios en la licenciatura o el pregrado. Marque TODAS las que procedan.",
-                "de": "Geben Sie Ihr Bachelor-Studienfach an. Markieren Sie ALLES",
-                "fr-CA": "was zutrifft.",
-                "nl": "Indiquez votre domaine de premier cycle. Cochez TOUTES les cases qui s'appliquent.",
-                "de-CH": "Geef uw bachelorstudierichting aan. Markeer ALLE die van toepassing zijn.",
-                "es-AR": "Geben Sie Ihr Bachelor-Studienfach an. Markieren Sie ALLES",
-                "en-GH": "was zutrifft."
+                "de": "Geben Sie Ihr Bachelor-Studienfach an. Markieren Sie ALLES, was zutrifft.",
+                "fr-CA": "Indiquez votre domaine de premier cycle. Cochez TOUTES les cases qui s'appliquent.",
+                "nl": "Geef uw bachelorstudierichting aan. Markeer ALLE die van toepassing zijn.",
+                "de-CH": "Geben Sie Ihr Bachelor-Studienfach an. Markieren Sie ALLES, was zutrifft.",
+                "es-AR": "Indique su área de estudios en la licenciatura o el pregrado. Marque TODAS las que procedan.",
+                "en-GH": "Indicate your study field during undergraduate. Mark any that fit."
               },
               "showNumber": false,
               "choices": [
@@ -424,7 +424,7 @@
                     "de-CH": "Andere. Bitte angeben:",
                     "es-AR": "Otra. Especifique:",
                     "en-US": "Other. Please specify:",
-                    "en-GH": "Other. Specify please:"
+                    "en-GH": "Other. Please specify:"
                   }
                 }
               ]
@@ -443,7 +443,7 @@
                 "de-CH": "Bitte geben Sie ein anderes bildungsrelevantes Hauptfach an:",
                 "es-AR": "Especifique otra especialidad relacionada con la educación:",
                 "en-US": "Please specify other education related major:",
-                "en-GH": "Specify other education-related major, please:"
+                "en-GH": "Please specify other education related major:"
               },
               "showNumber": false
             },
@@ -461,7 +461,7 @@
                 "de-CH": "Bitte geben Sie das nicht-bildungsrelevante Hauptfach an:",
                 "es-AR": "Especifique alguna especialidad no educativa:",
                 "en-US": "Please specify non-education major:",
-                "en-GH": "Specify non-education major, please:"
+                "en-GH": "Please specify non-education major:"
               },
               "showNumber": false
             },
@@ -479,7 +479,7 @@
                 "de-CH": "Bitte spezifizieren Sie ein anderes Hauptfach:",
                 "es-AR": "Especifique otra especialidad:",
                 "en-US": "Please specify other major:",
-                "en-GH": "Specify other major, please:"
+                "en-GH": "Please specify other major:"
               },
               "showNumber": false
             },
@@ -491,12 +491,12 @@
                 "default": "Indicate the major field of study of your highest graduate degree. Mark ALL that apply.",
                 "es": "Indique el área de estudios del grado más alto obtenido por usted.  Marque TODAS las que procedan.",
                 "es-CO": "Indique el área de estudios del grado más alto obtenido por usted.  Marque TODAS las que procedan.",
-                "de": "Geben Sie das Hauptfach Ihres höchsten akademischen Abschlusses an. Markieren Sie alles",
-                "fr-CA": "was zutrifft.",
-                "nl": "Indiquez le domaine de votre diplôme de deuxième cycle le plus élevé. Cochez TOUTES les cases qui s'appliquent.",
-                "de-CH": "Geef het belangrijkste studierichtingsgebied van uw hoogste graad aan. Markeer ALLE die van toepassing zijn.",
-                "es-AR": "Geben Sie das Hauptfach Ihres höchsten akademischen Abschlusses an. Markieren Sie alles",
-                "en-GH": "was zutrifft."
+                "de": "Geben Sie das Hauptfach Ihres höchsten akademischen Abschlusses an. Markieren Sie alles, was zutrifft.",
+                "fr-CA": "Indiquez le domaine de votre diplôme de deuxième cycle le plus élevé. Cochez TOUTES les cases qui s'appliquent.",
+                "nl": "Geef het belangrijkste studierichtingsgebied van uw hoogste graad aan. Markeer ALLE die van toepassing zijn.",
+                "de-CH": "Geben Sie das Hauptfach Ihres höchsten akademischen Abschlusses an. Markieren Sie alles, was zutrifft.",
+                "es-AR": "Indique el área de estudios del grado más alto obtenido por usted.  Marque TODAS las que procedan.",
+                "en-GH": "Indicate your highest graduate degree major field of study. Mark any that fit."
               },
               "showNumber": false,
               "choicesFromQuestion": "TeacherUndergrad",
@@ -639,7 +639,7 @@
                     "de-CH": "Andere. Bitte angeben:",
                     "es-AR": "Otra. Especifique:",
                     "en-US": "Other. Please specify:",
-                    "en-GH": "Other. Specify please:"
+                    "en-GH": "Other. Please specify:"
                   }
                 }
               ]
@@ -658,7 +658,7 @@
                 "de-CH": "Bitte geben Sie ein anderes bildungsrelevantes Hauptfach an:",
                 "es-AR": "Especifique otra especialidad relacionada con la educación:",
                 "en-US": "Please specify other education related major:",
-                "en-GH": "Specify other education-related major, please:"
+                "en-GH": "Please specify other education related major:"
               },
               "showNumber": false
             },
@@ -676,7 +676,7 @@
                 "de-CH": "Bitte geben Sie das nicht-bildungsrelevante Hauptfach an:",
                 "es-AR": "Especifique alguna especialidad no educativa:",
                 "en-US": "Please specify non-education major:",
-                "en-GH": "Specify non-education major, please:"
+                "en-GH": "Please specify non-education major:"
               },
               "showNumber": false
             },
@@ -694,7 +694,7 @@
                 "de-CH": "Bitte spezifizieren Sie ein anderes Hauptfach:",
                 "es-AR": "Especifique otra especialidad:",
                 "en-US": "Please specify other major:",
-                "en-GH": "Specify other major, please:"
+                "en-GH": "Please specify other major:"
               },
               "showNumber": false
             },
@@ -782,7 +782,7 @@
                     "de-CH": "Über 10 Jahre",
                     "es-AR": "Más de 10 años",
                     "en-US": "Over 10 years",
-                    "en-GH": "More than 10 years"
+                    "en-GH": "Over 10 years"
                   }
                 }
               ],
@@ -797,13 +797,13 @@
             "default": "<b>This set of questions asks about the school where you currently teach.</b>",
             "es": "<b>Este grupo de preguntas indaga por el colegio en el que enseña actualmente.</b>",
             "es-CO": "<b>Este grupo de preguntas indaga por el colegio en el que enseña actualmente.</b>",
-            "de": "<b>Dieses Set von Fragen bezieht sich auf die Schule",
-            "fr-CA": "an der Sie derzeit unterrichten.</b>",
-            "nl": "<b>Cet ensemble de questions porte sur l'école où vous enseignez actuellement.</b>",
-            "de-CH": "<b>Deze set van vragen richt zich op de school waar u momenteel lesgeeft.</b>",
-            "es-AR": "<b>Dieses Set von Fragen bezieht sich auf die Schule",
+            "de": "<b>Dieses Set von Fragen bezieht sich auf die Schule, an der Sie derzeit unterrichten.</b>",
+            "fr-CA": "<b>Cet ensemble de questions porte sur l'école où vous enseignez actuellement.</b>",
+            "nl": "<b>Deze set van vragen richt zich op de school waar u momenteel lesgeeft.</b>",
+            "de-CH": "<b>Dieses Set von Fragen bezieht sich auf die Schule, an der Sie derzeit unterrichten.</b>",
+            "es-AR": "<b>Este grupo de preguntas indaga por el colegio en el que enseña actualmente.</b>",
             "en-US": "<b>This set of questions asks about the school where you currently teach.</b>",
-            "en-GH": "<b>This group of questions explores the school you currently teach at.</b>"
+            "en-GH": "<b>This set of questions asks about the school where you currently teach.</b>"
           },
           "elements": [
             {
@@ -819,7 +819,7 @@
                 "de-CH": "Zählen Sie dieses Schuljahr mit, wie lange lehren Sie <b>an dieser Schule</b>? (bitte auf das nächste Jahr aufrunden)",
                 "es-AR": "Contando este año escolar, ¿durante cuántos años ha sido docente escolar <b>en este colegio</b>?",
                 "en-US": "Counting this school year, how many years have you been teaching <b>at this school</b>? (please round to the nearest year)",
-                "en-GH": "Including this school year, how many years have you taught <b>at this school</b>? (please round to the closest year)"
+                "en-GH": "Counting this school year, how many years have you been teaching <b>at this school</b>? (please round to the nearest year)"
               },
               "showNumber": false,
               "choicesFromQuestion": "TeacherYears",
@@ -836,13 +836,13 @@
               "title": {
                 "default": "Please indicate how much you agree or disagree with the following statements about this school.",
                 "es": "Por favor, indique en qué medida está de acuerdo o en desacuerdo con las siguientes afirmaciones sobre este colegio.",
-                "es-CO": "Por favor",
-                "de": "indique en qué medida está de acuerdo o en desacuerdo con las siguientes afirmaciones sobre este colegio.",
-                "fr-CA": "Bitte geben Sie an",
-                "nl": "wie sehr Sie den folgenden Aussagen über diese Schule zustimmen oder widersprechen.",
-                "de-CH": "Veuillez indiquer dans quelle mesure vous êtes d'accord ou non avec les affirmations suivantes concernant cette école.",
-                "es-AR": "Gelieve aan te geven in hoeverre u het eens of oneens bent met de volgende uitspraken over deze school.",
-                "en-GH": "Bitte geben Sie an"
+                "es-CO": "Por favor, indique en qué medida está de acuerdo o en desacuerdo con las siguientes afirmaciones sobre este colegio.",
+                "de": "Bitte geben Sie an, wie sehr Sie den folgenden Aussagen über diese Schule zustimmen oder widersprechen.",
+                "fr-CA": "Veuillez indiquer dans quelle mesure vous êtes d'accord ou non avec les affirmations suivantes concernant cette école.",
+                "nl": "Gelieve aan te geven in hoeverre u het eens of oneens bent met de volgende uitspraken over deze school.",
+                "de-CH": "Bitte geben Sie an, wie sehr Sie den folgenden Aussagen über diese Schule zustimmen oder widersprechen.",
+                "es-AR": "Por favor, indique en qué medida está de acuerdo o en desacuerdo con las siguientes afirmaciones sobre este colegio.",
+                "en-GH": "Please state how much you agree or disagree with these statements about this school."
               },
               "showNumber": false,
               "alternateRows": true,
@@ -1023,12 +1023,12 @@
                     "default": "Ongoing collaboration is something adults in this school do well.",
                     "es": "La colaboración continua es algo que los adultos de este colegio hacen bien.",
                     "es-CO": "La colaboración continua es algo que los adultos de este colegio hacen bien.",
-                    "de": "Kontinuierliche Zusammenarbeit ist etwas",
-                    "fr-CA": "was die Erwachsenen in dieser Schule gut beherrschen.",
-                    "nl": "La collaboration continue est quelque chose que les adultes de cette école font bien.",
-                    "de-CH": "Voortdurende samenwerking is iets wat volwassenen op deze school goed doen.",
-                    "es-AR": "Kontinuierliche Zusammenarbeit ist etwas",
-                    "en-GH": "was die Erwachsenen in dieser Schule gut beherrschen."
+                    "de": "Kontinuierliche Zusammenarbeit ist etwas, was die Erwachsenen in dieser Schule gut beherrschen.",
+                    "fr-CA": "La collaboration continue est quelque chose que les adultes de cette école font bien.",
+                    "nl": "Voortdurende samenwerking is iets wat volwassenen op deze school goed doen.",
+                    "de-CH": "Kontinuierliche Zusammenarbeit ist etwas, was die Erwachsenen in dieser Schule gut beherrschen.",
+                    "es-AR": "La colaboración continua es algo que los adultos de este colegio hacen bien.",
+                    "en-GH": "Adults in this school excel at ongoing collaboration."
                   }
                 },
                 {
@@ -1037,12 +1037,12 @@
                     "default": "Adults working in this school have strong professional relationships.",
                     "es": "Los adultos que trabajan en este colegio mantienen buenas relaciones personales.",
                     "es-CO": "Los adultos que trabajan en este colegio mantienen buenas relaciones personales.",
-                    "de": "Erwachsene",
-                    "fr-CA": "die in dieser Schule arbeiten",
-                    "nl": "haben starke berufliche Beziehungen.",
-                    "de-CH": "Les adultes travaillant dans cette école entretiennent des relations professionnelles solides.",
-                    "es-AR": "Volwassenen die op deze school werken",
-                    "en-GH": "hebben sterke professionele relaties."
+                    "de": "Erwachsene, die in dieser Schule arbeiten, haben starke berufliche Beziehungen.",
+                    "fr-CA": "Les adultes travaillant dans cette école entretiennent des relations professionnelles solides.",
+                    "nl": "Volwassenen die op deze school werken, hebben sterke professionele relaties.",
+                    "de-CH": "Erwachsene, die in dieser Schule arbeiten, haben starke berufliche Beziehungen.",
+                    "es-AR": "Los adultos que trabajan en este colegio mantienen buenas relaciones personales.",
+                    "en-GH": "Adults working in this school form strong professional ties."
                   }
                 },
                 {
@@ -1051,13 +1051,13 @@
                     "default": "Adults working in this school are respectful and supportive of one another.",
                     "es": "Los adultos que trabajan en este colegio son respetuosos y se apoyan mutuamente.",
                     "es-CO": "Los adultos que trabajan en este colegio son respetuosos y se apoyan mutuamente.",
-                    "de": "Erwachsene",
-                    "fr-CA": "die in dieser Schule arbeiten",
-                    "nl": "sind respektvoll und unterstützend zueinander.",
-                    "de-CH": "Les adultes travaillant dans cette école se respectent et se soutiennent mutuellement.",
-                    "es-AR": "Volwassenen die op deze school werken zijn respectvol en steunen elkaar.",
+                    "de": "Erwachsene, die in dieser Schule arbeiten, sind respektvoll und unterstützend zueinander.",
+                    "fr-CA": "Les adultes travaillant dans cette école se respectent et se soutiennent mutuellement.",
+                    "nl": "Volwassenen die op deze school werken zijn respectvol en steunen elkaar.",
+                    "de-CH": "Erwachsene, die in dieser Schule arbeiten, sind respektvoll und unterstützend zueinander.",
+                    "es-AR": "Los adultos que trabajan en este colegio son respetuosos y se apoyan mutuamente.",
                     "en-US": "Adults working in this school are respectful and supportive of one another.",
-                    "en-GH": "Adults in this school show respect and support for each other."
+                    "en-GH": "Adults working in this school are respectful and supportive of one another."
                   }
                 }
               ]
@@ -1077,7 +1077,7 @@
             "de-CH": "<b>Mit diesem Set von Fragen möchten wir mehr über die Gefühle der Lehrer in Bezug auf ihre Arbeit erfahren.</b>",
             "es-AR": "<b>Con el siguiente grupo de preguntas queremos conocer cómo se sienten los docentes con relación a su trabajo.</b>",
             "en-US": "<b>With this set of items, we wish to learn more about teachers' feelings about their job.</b>",
-            "en-GH": "<b>This section is to understand teachers' feelings about their job.</b>"
+            "en-GH": "<b>With this set of items, we wish to learn more about teachers' feelings about their job.</b>"
           },
           "elements": [
             {
@@ -1086,13 +1086,13 @@
               "title": {
                 "default": "Please select one answer that indicates how often you agree with each of the following statements.",
                 "es": "Por favor, seleccione una respuesta que indique con qué frecuencia usted está de acuerdo con cada una de las siguientes afirmaciones.",
-                "es-CO": "Por favor",
-                "de": "seleccione una respuesta que indique con qué frecuencia usted está de acuerdo con cada una de las siguientes afirmaciones.",
-                "fr-CA": "Bitte wählen Sie eine Antwort aus",
-                "nl": "die angibt",
-                "de-CH": "wie oft Sie mit jeder der folgenden Aussagen übereinstimmen.",
-                "es-AR": "Veuillez sélectionner une réponse qui indique à quelle fréquence vous êtes d'accord avec chacune des affirmations suivantes.",
-                "en-GH": "Gelieve één antwoord te selecteren dat aangeeft hoe vaak u het eens bent met elk van de volgende uitspraken."
+                "es-CO": "Por favor, seleccione una respuesta que indique con qué frecuencia usted está de acuerdo con cada una de las siguientes afirmaciones.",
+                "de": "Bitte wählen Sie eine Antwort aus, die angibt, wie oft Sie mit jeder der folgenden Aussagen übereinstimmen.",
+                "fr-CA": "Veuillez sélectionner une réponse qui indique à quelle fréquence vous êtes d'accord avec chacune des affirmations suivantes.",
+                "nl": "Gelieve één antwoord te selecteren dat aangeeft hoe vaak u het eens bent met elk van de volgende uitspraken.",
+                "de-CH": "Bitte wählen Sie eine Antwort aus, die angibt, wie oft Sie mit jeder der folgenden Aussagen übereinstimmen.",
+                "es-AR": "Por favor, seleccione una respuesta que indique con qué frecuencia usted está de acuerdo con cada una de las siguientes afirmaciones.",
+                "en-GH": "Select one answer to indicate how often you agree with each of the following statements."
               },
               "showNumber": false,
               "alternateRows": true,
@@ -1217,12 +1217,12 @@
                     "default": "I feel fatigued when I get up in the morning and have to face another day on the job.",
                     "es": "Me siento fatigado(a) cuando me levanto por la mañana y tengo que afrontar otro día en el trabajo.",
                     "es-CO": "Me siento fatigado(a) cuando me levanto por la mañana y tengo que afrontar otro día en el trabajo.",
-                    "de": "Ich fühle mich erschöpft",
-                    "fr-CA": "wenn ich morgens aufstehe und einen weiteren Arbeitstag vor mir habe.",
-                    "nl": "Je me sens fatigué(e) quand je me lève le matin et que je dois affronter une nouvelle journée de travail.",
-                    "de-CH": "Ik voel me vermoeid wanneer ik 's ochtends opsta en weer een dag op het werk moet doorbrengen.",
-                    "es-AR": "Ich fühle mich erschöpft",
-                    "en-GH": "wenn ich morgens aufstehe und einen weiteren Arbeitstag vor mir habe."
+                    "de": "Ich fühle mich erschöpft, wenn ich morgens aufstehe und einen weiteren Arbeitstag vor mir habe.",
+                    "fr-CA": "Je me sens fatigué(e) quand je me lève le matin et que je dois affronter une nouvelle journée de travail.",
+                    "nl": "Ik voel me vermoeid wanneer ik 's ochtends opsta en weer een dag op het werk moet doorbrengen.",
+                    "de-CH": "Ich fühle mich erschöpft, wenn ich morgens aufstehe und einen weiteren Arbeitstag vor mir habe.",
+                    "es-AR": "Me siento fatigado(a) cuando me levanto por la mañana y tengo que afrontar otro día en el trabajo.",
+                    "en-GH": "I feel tired in the morning when I think of facing another workday."
                   }
                 },
                 {
@@ -1231,12 +1231,12 @@
                     "default": "I can easily understand how my students feel about things.",
                     "es": "Puedo comprender fácilmente cómo se sienten mis alumnos.",
                     "es-CO": "Puedo comprender fácilmente cómo se sienten mis alumnos.",
-                    "de": "Ich kann leicht nachvollziehen",
-                    "fr-CA": "wie meine Schüler zu den Dingen stehen.",
-                    "nl": "Je comprends facilement comment mes élèves se sentent par rapport aux choses.",
-                    "de-CH": "Ik kan gemakkelijk begrijpen hoe mijn leerlingen over dingen denken.",
-                    "es-AR": "Ich kann leicht nachvollziehen",
-                    "en-GH": "wie meine Schüler zu den Dingen stehen."
+                    "de": "Ich kann leicht nachvollziehen, wie meine Schüler zu den Dingen stehen.",
+                    "fr-CA": "Je comprends facilement comment mes élèves se sentent par rapport aux choses.",
+                    "nl": "Ik kan gemakkelijk begrijpen hoe mijn leerlingen over dingen denken.",
+                    "de-CH": "Ich kann leicht nachvollziehen, wie meine Schüler zu den Dingen stehen.",
+                    "es-AR": "Puedo comprender fácilmente cómo se sienten mis alumnos.",
+                    "en-GH": "I easily empathize with students' feelings."
                   }
                 },
                 {
@@ -1273,12 +1273,12 @@
                     "default": "I feel I'm positively influencing other people's lives through my work.",
                     "es": "Siento que a través de mi trabajo influyo positivamente en la vida de otras personas.",
                     "es-CO": "Siento que a través de mi trabajo influyo positivamente en la vida de otras personas.",
-                    "de": "Ich habe das Gefühl",
-                    "fr-CA": "dass ich durch meine Arbeit das Leben anderer Menschen positiv beeinflusse.",
-                    "nl": "Je sens que",
-                    "de-CH": "grâce à mon travail",
-                    "es-AR": "j'influence positivement la vie d'autres personnes.",
-                    "en-GH": "Ik voel dat ik een positieve invloed uitoefen op het leven van andere mensen door mijn werk."
+                    "de": "Ich habe das Gefühl, dass ich durch meine Arbeit das Leben anderer Menschen positiv beeinflusse.",
+                    "fr-CA": "Je sens que, grâce à mon travail, j'influence positivement la vie d'autres personnes.",
+                    "nl": "Ik voel dat ik een positieve invloed uitoefen op het leven van andere mensen door mijn werk.",
+                    "de-CH": "Ich habe das Gefühl, dass ich durch meine Arbeit das Leben anderer Menschen positiv beeinflusse.",
+                    "es-AR": "Siento que a través de mi trabajo influyo positivamente en la vida de otras personas.",
+                    "en-GH": "I feel I positively impact others' lives through my work."
                   }
                 },
                 {
@@ -1301,12 +1301,12 @@
                     "default": "I feel I'm working too hard on my job.",
                     "es": "Siento que estoy estoy haciendo un esfuerzo muy grande en mi trabajo.",
                     "es-CO": "Siento que estoy estoy haciendo un esfuerzo muy grande en mi trabajo.",
-                    "de": "Ich habe das Gefühl",
-                    "fr-CA": "dass ich in meinem Job zu hart arbeite.",
-                    "nl": "Je sens que je travaille trop dur dans mon emploi.",
-                    "de-CH": "Ik voel dat ik te hard werk op mijn werk.",
-                    "es-AR": "Ich habe das Gefühl",
-                    "en-GH": "dass ich in meinem Job zu hart arbeite."
+                    "de": "Ich habe das Gefühl, dass ich in meinem Job zu hart arbeite.",
+                    "fr-CA": "Je sens que je travaille trop dur dans mon emploi.",
+                    "nl": "Ik voel dat ik te hard werk op mijn werk.",
+                    "de-CH": "Ich habe das Gefühl, dass ich in meinem Job zu hart arbeite.",
+                    "es-AR": "Siento que estoy estoy haciendo un esfuerzo muy grande en mi trabajo.",
+                    "en-GH": "I work too hard at my job."
                   }
                 },
                 {
@@ -1329,12 +1329,12 @@
                     "default": "I feel exhilarated after working closely with my students.",
                     "es": "Me siento eufórico(a) después de trabajar de manera cercana con mis alumnos.",
                     "es-CO": "Me siento eufórico(a) después de trabajar de manera cercana con mis alumnos.",
-                    "de": "Ich fühle mich euphorisch",
-                    "fr-CA": "nachdem ich eng mit meinen Schülern zusammengearbeitet habe.",
-                    "nl": "Je me sens exalté(e) après avoir travaillé en étroite collaboration avec mes élèves.",
-                    "de-CH": "Ik voel me opgetogen nadat ik nauw met mijn leerlingen heb samengewerkt.",
-                    "es-AR": "Ich fühle mich euphorisch",
-                    "en-GH": "nachdem ich eng mit meinen Schülern zusammengearbeitet habe."
+                    "de": "Ich fühle mich euphorisch, nachdem ich eng mit meinen Schülern zusammengearbeitet habe.",
+                    "fr-CA": "Je me sens exalté(e) après avoir travaillé en étroite collaboration avec mes élèves.",
+                    "nl": "Ik voel me opgetogen nadat ik nauw met mijn leerlingen heb samengewerkt.",
+                    "de-CH": "Ich fühle mich euphorisch, nachdem ich eng mit meinen Schülern zusammengearbeitet habe.",
+                    "es-AR": "Me siento eufórico(a) después de trabajar de manera cercana con mis alumnos.",
+                    "en-GH": "I feel invigorated after closely working with my students."
                   }
                 },
                 {
@@ -1344,11 +1344,11 @@
                     "es": "En este trabajo he logrado muchas cosas que valen la pena.",
                     "es-CO": "En este trabajo he logrado muchas cosas que valen la pena.",
                     "de": "In diesem Job habe ich viele wertvolle Dinge erreicht.",
-                    "fr-CA": "Dans ce travail",
-                    "nl": "j'ai accompli beaucoup de choses qui en valent la peine.",
-                    "de-CH": "Ik heb veel waardevolle dingen bereikt in deze baan.",
-                    "es-AR": "In diesem Job habe ich viele wertvolle Dinge erreicht.",
-                    "en-GH": "En este trabajo he logrado muchas cosas que valen la pena."
+                    "fr-CA": "Dans ce travail, j'ai accompli beaucoup de choses qui en valent la peine.",
+                    "nl": "Ik heb veel waardevolle dingen bereikt in deze baan.",
+                    "de-CH": "In diesem Job habe ich viele wertvolle Dinge erreicht.",
+                    "es-AR": "En este trabajo he logrado muchas cosas que valen la pena.",
+                    "en-GH": "I've achieved many meaningful accomplishments in this job."
                   }
                 },
                 {
@@ -1357,12 +1357,12 @@
                     "default": "I feel like I'm at the end of my rope.",
                     "es": "Siento que estoy al límite de mis fuerzas.",
                     "es-CO": "Siento que estoy al límite de mis fuerzas.",
-                    "de": "Ich habe das Gefühl",
-                    "fr-CA": "dass ich am Ende meiner Kräfte bin.",
-                    "nl": "J’ai l'impression d'être à bout de nerfs.",
-                    "de-CH": "Ik voel dat ik op het eind van mijn lat zit.",
-                    "es-AR": "Ich habe das Gefühl",
-                    "en-GH": "dass ich am Ende meiner Kräfte bin."
+                    "de": "Ich habe das Gefühl, dass ich am Ende meiner Kräfte bin.",
+                    "fr-CA": "J’ai l'impression d'être à bout de nerfs.",
+                    "nl": "Ik voel dat ik op het eind van mijn lat zit.",
+                    "de-CH": "Ich habe das Gefühl, dass ich am Ende meiner Kräfte bin.",
+                    "es-AR": "Siento que estoy al límite de mis fuerzas.",
+                    "en-GH": "I feel worn out."
                   }
                 },
                 {
@@ -1377,7 +1377,7 @@
                     "de-CH": "In meiner Arbeit gehe ich sehr ruhig mit emotionalen Problemen um.",
                     "es-AR": "En mi trabajo afronto los problemas emocionales con mucha calma.",
                     "en-US": "In my work, I deal with emotional problems very calmly.",
-                    "en-GH": "I manage emotional issues calmly in my job."
+                    "en-GH": "In my work, I deal with emotional problems very calmly."
                   }
                 }
               ]
@@ -1391,13 +1391,13 @@
             "default": "<b>This set of questions is designed to help us gain a better understanding of the kinds of things that create difficulties for teachers in their school activities.</b>",
             "es": "<b>El siguiente grupo de preguntas está diseñado para ayudarnos a comprender los aspectos que les generan dificultades a los docentes en sus actividades escolares.</b>",
             "es-CO": "<b>El siguiente grupo de preguntas está diseñado para ayudarnos a comprender los aspectos que les generan dificultades a los docentes en sus actividades escolares.</b>",
-            "de": "<b>Mit diesem Set an Fragen sollen die Aspekte erforscht werden",
-            "fr-CA": "die Lehrern bei ihren schulischen Aktivitäten Schwierigkeiten bereiten.</b>",
-            "nl": "<b>Cet ensemble de questions est conçu pour nous aider à mieux comprendre les types de difficultés que rencontrent les enseignants dans leurs activités scolaires.</b>",
-            "de-CH": "<b>Deze set vragen is ontworpen om ons te helpen een beter inzicht te krijgen in de soorten dingen die docenten moeilijkheden veroorzaken in hun schoolactiviteiten.</b>",
-            "es-AR": "<b>Mit diesem Set an Fragen sollen die Aspekte erforscht werden",
+            "de": "<b>Mit diesem Set an Fragen sollen die Aspekte erforscht werden, die Lehrern bei ihren schulischen Aktivitäten Schwierigkeiten bereiten.</b>",
+            "fr-CA": "<b>Cet ensemble de questions est conçu pour nous aider à mieux comprendre les types de difficultés que rencontrent les enseignants dans leurs activités scolaires.</b>",
+            "nl": "<b>Deze set vragen is ontworpen om ons te helpen een beter inzicht te krijgen in de soorten dingen die docenten moeilijkheden veroorzaken in hun schoolactiviteiten.</b>",
+            "de-CH": "<b>Mit diesem Set an Fragen sollen die Aspekte erforscht werden, die Lehrern bei ihren schulischen Aktivitäten Schwierigkeiten bereiten.</b>",
+            "es-AR": "<b>El siguiente grupo de preguntas está diseñado para ayudarnos a comprender los aspectos que les generan dificultades a los docentes en sus actividades escolares.</b>",
             "en-US": "<b>This set of questions is designed to help us gain a better understanding of the kinds of things that create difficulties for teachers in their school activities.</b>",
-            "en-GH": "<b>This set of questions helps us comprehend the challenges teachers face in their school activities.</b>"
+            "en-GH": "<b>This set of questions is designed to help us gain a better understanding of the kinds of things that create difficulties for teachers in their school activities.</b>"
           },
           "elements": [
             {
@@ -1509,12 +1509,12 @@
                     "default": "to motivate children who show low interest in activities?",
                     "es": "para motivar a los niños(as) que muestran poco interés por las actividades?",
                     "es-CO": "para motivar a los niños(as) que muestran poco interés por las actividades?",
-                    "de": "um Kinder zu motivieren",
-                    "fr-CA": "die wenig Interesse an Aktivitäten zeigen?",
-                    "nl": "pour motiver les enfants qui montrent peu d'intérêt pour les activités ?",
-                    "de-CH": "om kinderen die weinig interesse in activiteiten tonen",
-                    "es-AR": "te motiveren?",
-                    "en-GH": "um Kinder zu motivieren"
+                    "de": "um Kinder zu motivieren, die wenig Interesse an Aktivitäten zeigen?",
+                    "fr-CA": "pour motiver les enfants qui montrent peu d'intérêt pour les activités ?",
+                    "nl": "om kinderen die weinig interesse in activiteiten tonen, te motiveren?",
+                    "de-CH": "um Kinder zu motivieren, die wenig Interesse an Aktivitäten zeigen?",
+                    "es-AR": "para motivar a los niños(as) que muestran poco interés por las actividades?",
+                    "en-GH": "motivating children with low interests during activities?"
                   }
                 },
                 {
@@ -1523,12 +1523,12 @@
                     "default": "to get children to believe they can do well on activities?",
                     "es": "en que los niños(as) crean que pueden hacer bien las actividades?",
                     "es-CO": "en que los niños(as) crean que pueden hacer bien las actividades?",
-                    "de": "um Kindern das Gefühl zu geben",
-                    "fr-CA": "dass sie Aktivitäten gut machen können?",
-                    "nl": "à faire en sorte que les enfants croient pouvoir bien réussir les activités ?",
-                    "de-CH": "om kinderen ervan te overtuigen dat ze goed kunnen presteren bij activiteiten?",
-                    "es-AR": "um Kindern das Gefühl zu geben",
-                    "en-GH": "dass sie Aktivitäten gut machen können?"
+                    "de": "um Kindern das Gefühl zu geben, dass sie Aktivitäten gut machen können?",
+                    "fr-CA": "à faire en sorte que les enfants croient pouvoir bien réussir les activités ?",
+                    "nl": "om kinderen ervan te overtuigen dat ze goed kunnen presteren bij activiteiten?",
+                    "de-CH": "um Kindern das Gefühl zu geben, dass sie Aktivitäten gut machen können?",
+                    "es-AR": "en que los niños(as) crean que pueden hacer bien las actividades?",
+                    "en-GH": "encouraging children to perform well?"
                   }
                 },
                 {
@@ -1537,12 +1537,12 @@
                     "default": "to help children in your classroom(s) value learning?",
                     "es": "para ayudar a los niños(as) de su(s) aula(s) a valorar el aprendizaje?",
                     "es-CO": "para ayudar a los niños(as) de su(s) aula(s) a valorar el aprendizaje?",
-                    "de": "um Kindern in Ihrer (Ihren) Klasse(n) zu helfen",
-                    "fr-CA": "Bildung wertzuschätzen?",
-                    "nl": "pour aider les enfants dans votre(s) classe(s) à valoriser l'apprentissage ?",
-                    "de-CH": "om kinderen in uw klas(sen) te helpen leren waarderen?",
-                    "es-AR": "um Kindern in Ihrer (Ihren) Klasse(n) zu helfen",
-                    "en-GH": "Bildung wertzuschätzen?"
+                    "de": "um Kindern in Ihrer (Ihren) Klasse(n) zu helfen, Bildung wertzuschätzen?",
+                    "fr-CA": "pour aider les enfants dans votre(s) classe(s) à valoriser l'apprentissage ?",
+                    "nl": "om kinderen in uw klas(sen) te helpen leren waarderen?",
+                    "de-CH": "um Kindern in Ihrer (Ihren) Klasse(n) zu helfen, Bildung wertzuschätzen?",
+                    "es-AR": "para ayudar a los niños(as) de su(s) aula(s) a valorar el aprendizaje?",
+                    "en-GH": "enhancing children's appreciation of learning?"
                   }
                 },
                 {
@@ -1551,12 +1551,12 @@
                     "default": "on getting children to follow classroom rules?",
                     "es": "para lograr que los niños(as) sigan las normas del salón?",
                     "es-CO": "para lograr que los niños(as) sigan las normas del salón?",
-                    "de": "um Kinder zu ermutigen",
-                    "fr-CA": "die Klassenzimmerregeln zu befolgen?",
-                    "nl": "pour faire respecter les règles de la classe par les enfants ?",
-                    "de-CH": "op kinderen de klasregels te laten volgen?",
-                    "es-AR": "um Kinder zu ermutigen",
-                    "en-GH": "die Klassenzimmerregeln zu befolgen?"
+                    "de": "um Kinder zu ermutigen, die Klassenzimmerregeln zu befolgen?",
+                    "fr-CA": "pour faire respecter les règles de la classe par les enfants ?",
+                    "nl": "op kinderen de klasregels te laten volgen?",
+                    "de-CH": "um Kinder zu ermutigen, die Klassenzimmerregeln zu befolgen?",
+                    "es-AR": "para lograr que los niños(as) sigan las normas del salón?",
+                    "en-GH": "ensuring students follow classroom rules?"
                   }
                 },
                 {
@@ -1571,7 +1571,7 @@
                     "de-CH": "um ein störendes oder lautes Kind zu beruhigen?",
                     "es-AR": "para calmar a un niño(a) problemático(a) o ruidoso(a)?",
                     "en-US": "on calming a child who is disruptive or noisy?",
-                    "en-GH": "calming disruptive or noisy children?"
+                    "en-GH": "on calming a child who is disruptive or noisy?"
                   }
                 }
               ]
@@ -1699,12 +1699,12 @@
                     "default": "provide alternative explanations or examples when children are confused?",
                     "es": "proporcionar explicaciones alternativas o ejemplos cuando los niños(as) están confundidos?",
                     "es-CO": "proporcionar explicaciones alternativas o ejemplos cuando los niños(as) están confundidos?",
-                    "de": "alternative Erklärungen oder Beispiele bieten",
-                    "fr-CA": "wenn Kinder verwirrt sind?",
-                    "nl": "fournir des explications alternatives ou des exemples lorsque les enfants sont confus ?",
-                    "de-CH": "alternatieve uitleg of voorbeelden bieden wanneer kinderen verward zijn?",
-                    "es-AR": "alternative Erklärungen oder Beispiele geben",
-                    "en-GH": "wenn Kinder verwirrt sind?"
+                    "de": "alternative Erklärungen oder Beispiele bieten, wenn Kinder verwirrt sind?",
+                    "fr-CA": "fournir des explications alternatives ou des exemples lorsque les enfants sont confus ?",
+                    "nl": "alternatieve uitleg of voorbeelden bieden wanneer kinderen verward zijn?",
+                    "de-CH": "alternative Erklärungen oder Beispiele geben, wenn Kinder verwirrt sind?",
+                    "es-AR": "proporcionar explicaciones alternativas o ejemplos cuando los niños(as) están confundidos?",
+                    "en-GH": "offering alternate explanations or examples for confused students?"
                   }
                 },
                 {
@@ -1713,12 +1713,12 @@
                     "default": "assist families in helping their children do well in school?",
                     "es": "ayudar a las familias a que sus hijos(as) les vaya bien en el colegio?",
                     "es-CO": "ayudar a las familias a que sus hijos(as) les vaya bien en el colegio?",
-                    "de": "Familien unterstützen",
-                    "fr-CA": "damit sie ihren Kindern helfen",
-                    "nl": "in der Schule erfolgreich zu sein?",
-                    "de-CH": "aider les familles à ce que leurs enfants réussissent à l'école ?",
-                    "es-AR": "gezinnen helpen hun kinderen te laten slagen op school?",
-                    "en-GH": "Familien unterstützen"
+                    "de": "Familien unterstützen, damit sie ihren Kindern helfen, in der Schule erfolgreich zu sein?",
+                    "fr-CA": "aider les familles à ce que leurs enfants réussissent à l'école ?",
+                    "nl": "gezinnen helpen hun kinderen te laten slagen op school?",
+                    "de-CH": "Familien unterstützen, damit sie ihren Kindern helfen, in der Schule erfolgreich zu sein?",
+                    "es-AR": "ayudar a las familias a que sus hijos(as) les vaya bien en el colegio?",
+                    "en-GH": "collaborating with families to ensure children's academic success?"
                   }
                 },
                 {
@@ -1747,7 +1747,7 @@
                     "de-CH": "gute Fragen für Kinder in Ihrer (Ihren) Klasse(n) erstellen?",
                     "es-AR": "elaborar buenas preguntas para los niños(as) de su(s) aula(s)?",
                     "en-US": "create good questions for children in your classroom(s)?",
-                    "en-GH": "creating engaging questions for your students?"
+                    "en-GH": "create good questions for children in your classroom(s)?"
                   }
                 }
               ]
@@ -1767,7 +1767,7 @@
             "de-CH": "<b>Mit diesem Fragesatz möchten wir mehr über die Ideen und Überzeugungen der Lehrer über Kinder erfahren.</b>",
             "es-AR": "<b>Con el siguiente grupo de preguntas deseamos conocer las ideas y creencias de los docentes sobre los niños(as).</b>",
             "en-US": "<b>With this set of items, we wish to learn more about teachers' ideas and beliefs about children.</b>",
-            "en-GH": "<b>This item set explores teachers' perceptions and beliefs about children.</b>"
+            "en-GH": "<b>With this set of items, we wish to learn more about teachers' ideas and beliefs about children.</b>"
           },
           "elements": [
             {
@@ -1776,13 +1776,13 @@
               "title": {
                 "default": "Please select one answer that indicates how strongly you agree with each of the following statements.",
                 "es": "Por favor, seleccione una respuesta que indique hasta qué punto usted está de acuerdo con cada una de las siguientes afirmaciones.",
-                "es-CO": "Por favor",
-                "de": "seleccione una respuesta que indique hasta qué punto usted está de acuerdo con cada una de las siguientes afirmaciones.",
-                "fr-CA": "Bitte wählen Sie eine Antwort aus",
-                "nl": "die angibt",
-                "de-CH": "wie sehr Sie den folgenden Aussagen zustimmen.",
-                "es-AR": "Veuillez sélectionner une réponse qui indique à quel point vous êtes d'accord avec chacune des affirmations suivantes.",
-                "en-GH": "Gelieve één antwoord te selecteren dat aangeeft hoe sterk u het eens bent met elk van de volgende uitspraken."
+                "es-CO": "Por favor, seleccione una respuesta que indique hasta qué punto usted está de acuerdo con cada una de las siguientes afirmaciones.",
+                "de": "Bitte wählen Sie eine Antwort aus, die angibt, wie sehr Sie den folgenden Aussagen zustimmen.",
+                "fr-CA": "Veuillez sélectionner une réponse qui indique à quel point vous êtes d'accord avec chacune des affirmations suivantes.",
+                "nl": "Gelieve één antwoord te selecteren dat aangeeft hoe sterk u het eens bent met elk van de volgende uitspraken.",
+                "de-CH": "Bitte wählen Sie eine Antwort aus, die angibt, wie sehr Sie den folgenden Aussagen zustimmen.",
+                "es-AR": "Por favor, seleccione una respuesta que indique hasta qué punto usted está de acuerdo con cada una de las siguientes afirmaciones.",
+                "en-GH": "Select the option that reflects your agreement with the statements below."
               },
               "showNumber": false,
               "alternateRows": true,
@@ -1866,11 +1866,11 @@
                     "es": "Los niños(as) deben recibir el mismo trato a pesar de sus diferencias.",
                     "es-CO": "Los niños(as) deben recibir el mismo trato a pesar de sus diferencias.",
                     "de": "Kinder sollten unabhängig von ihren Unterschieden gleich behandelt werden.",
-                    "fr-CA": "Les enfants devraient être traités de la même manière",
-                    "nl": "quelles que soient leurs différences.",
-                    "de-CH": "Kinderen moeten hetzelfde behandeld worden",
-                    "es-AR": "ongeacht de verschillen tussen hen.",
-                    "en-GH": "Kinder sollten unabhängig von ihren Unterschieden gleich behandelt werden."
+                    "fr-CA": "Les enfants devraient être traités de la même manière, quelles que soient leurs différences.",
+                    "nl": "Kinderen moeten hetzelfde behandeld worden, ongeacht de verschillen tussen hen.",
+                    "de-CH": "Kinder sollten unabhängig von ihren Unterschieden gleich behandelt werden.",
+                    "es-AR": "Los niños(as) deben recibir el mismo trato a pesar de sus diferencias.",
+                    "en-GH": "Children should be treated equally, despite their differences."
                   }
                 },
                 {
@@ -1893,12 +1893,12 @@
                     "default": "Preparing for the future is more important for a child than enjoying today.",
                     "es": "Prepararse para el futuro es más importante para un niño(a) que disfrutar del presente.",
                     "es-CO": "Prepararse para el futuro es más importante para un niño(a) que disfrutar del presente.",
-                    "de": "Für ein Kind ist es wichtiger",
-                    "fr-CA": "sich auf die Zukunft vorzubereiten",
-                    "nl": "als die Gegenwart zu genießen.",
-                    "de-CH": "Se préparer pour l'avenir est plus important pour un enfant que de profiter du moment présent.",
-                    "es-AR": "Voorbereiden op de toekomst is voor een kind belangrijker dan het heden te genieten.",
-                    "en-GH": "Für ein Kind ist es wichtiger"
+                    "de": "Für ein Kind ist es wichtiger, sich auf die Zukunft vorzubereiten, als die Gegenwart zu genießen.",
+                    "fr-CA": "Se préparer pour l'avenir est plus important pour un enfant que de profiter du moment présent.",
+                    "nl": "Voorbereiden op de toekomst is voor een kind belangrijker dan het heden te genieten.",
+                    "de-CH": "Für ein Kind ist es wichtiger, sich auf die Zukunft vorzubereiten, als die Gegenwart zu genießen.",
+                    "es-AR": "Prepararse para el futuro es más importante para un niño(a) que disfrutar del presente.",
+                    "en-GH": "Preparing for the future takes precedence over current enjoyment for children."
                   }
                 },
                 {
@@ -1907,12 +1907,12 @@
                     "default": "Children will not do the right thing unless they must.",
                     "es": "Los niños(as) no harán lo correcto a menos que tengan que hacerlo.",
                     "es-CO": "Los niños(as) no harán lo correcto a menos que tengan que hacerlo.",
-                    "de": "Kinder werden das Richtige nicht tun",
-                    "fr-CA": "es sei denn",
-                    "nl": "sie müssen.",
-                    "de-CH": "Les enfants ne feront pas ce qui est bien à moins qu'ils ne soient obligés.",
-                    "es-AR": "Kinderen zullen het juiste niet doen",
-                    "en-GH": "tenzij ze moeten."
+                    "de": "Kinder werden das Richtige nicht tun, es sei denn, sie müssen.",
+                    "fr-CA": "Les enfants ne feront pas ce qui est bien à moins qu'ils ne soient obligés.",
+                    "nl": "Kinderen zullen het juiste niet doen, tenzij ze moeten.",
+                    "de-CH": "Kinder werden das Richtige nicht tun, es sei denn, sie müssen.",
+                    "es-AR": "Los niños(as) no harán lo correcto a menos que tengan que hacerlo.",
+                    "en-GH": "Children won't do the right thing unless made to do it."
                   }
                 },
                 {
@@ -1921,12 +1921,12 @@
                     "default": "Children should be allowed to disagree with their parents if they feel their own ideas are better.",
                     "es": "Los niños(as) deberían poder estar en desacuerdo con sus padres si creen que sus ideas son mejores.",
                     "es-CO": "Los niños(as) deberían poder estar en desacuerdo con sus padres si creen que sus ideas son mejores.",
-                    "de": "Kinder sollten ihren Eltern widersprechen dürfen",
-                    "fr-CA": "wenn sie glauben",
-                    "nl": "dass ihre eigenen Ideen besser sind.",
-                    "de-CH": "Les enfants devraient être autorisés à être en désaccord avec leurs parents s'ils estiment que leurs idées sont meilleures.",
-                    "es-AR": "Kinderen moeten het oneens kunnen zijn met hun ouders als zij vinden dat hun eigen ideeën beter zijn.",
-                    "en-GH": "Kinder sollten ihren Eltern widersprechen dürfen"
+                    "de": "Kinder sollten ihren Eltern widersprechen dürfen, wenn sie glauben, dass ihre eigenen Ideen besser sind.",
+                    "fr-CA": "Les enfants devraient être autorisés à être en désaccord avec leurs parents s'ils estiment que leurs idées sont meilleures.",
+                    "nl": "Kinderen moeten het oneens kunnen zijn met hun ouders als zij vinden dat hun eigen ideeën beter zijn.",
+                    "de-CH": "Kinder sollten ihren Eltern widersprechen dürfen, wenn sie glauben, dass ihre eigenen Ideen besser sind.",
+                    "es-AR": "Los niños(as) deberían poder estar en desacuerdo con sus padres si creen que sus ideas son mejores.",
+                    "en-GH": "Children can disagree with parents if they believe they have better ideas."
                   }
                 },
                 {
@@ -1949,12 +1949,12 @@
                     "default": "The major goal of education is to put basic information into the minds of the children.",
                     "es": "El principal objetivo de la educación es introducir información básica en la mente de los niños(as).",
                     "es-CO": "El principal objetivo de la educación es introducir información básica en la mente de los niños(as).",
-                    "de": "Das Hauptziel der Bildung ist es",
-                    "fr-CA": "grundlegende Informationen in den Köpfen der Kinder zu verankern.",
-                    "nl": "Le principal objectif de l'éducation est d'inculquer des informations de base aux enfants.",
-                    "de-CH": "Het belangrijkste doel van onderwijs is om basale informatie in de hoofden van kinderen te stoppen.",
-                    "es-AR": "Das Hauptziel der Bildung ist es",
-                    "en-GH": "grundlegende Informationen in den Köpfen der Kinder zu verankern."
+                    "de": "Das Hauptziel der Bildung ist es, grundlegende Informationen in den Köpfen der Kinder zu verankern.",
+                    "fr-CA": "Le principal objectif de l'éducation est d'inculquer des informations de base aux enfants.",
+                    "nl": "Het belangrijkste doel van onderwijs is om basale informatie in de hoofden van kinderen te stoppen.",
+                    "de-CH": "Das Hauptziel der Bildung ist es, grundlegende Informationen in den Köpfen der Kinder zu verankern.",
+                    "es-AR": "El principal objetivo de la educación es introducir información básica en la mente de los niños(as).",
+                    "en-GH": "The main aim of education is to instill basic knowledge in children."
                   }
                 },
                 {
@@ -1977,12 +1977,12 @@
                     "default": "The most important thing to teach children is absolute obedience to whoever is in authority.",
                     "es": "La lección más importante para enseñarle a un niño(a) es obediencia absoluta a quien tiene la autoridad.",
                     "es-CO": "La lección más importante para enseñarle a un niño(a) es obediencia absoluta a quien tiene la autoridad.",
-                    "de": "Das Wichtigste",
-                    "fr-CA": "was man Kindern beibringen sollte",
-                    "nl": "ist der absolute Gehorsam gegenüber allen Autoritäten.",
-                    "de-CH": "La chose la plus importante à apprendre aux enfants est l'obéissance absolue à ceux qui sont en position d'autorité.",
-                    "es-AR": "Het belangrijkste om kinderen te leren is absolute gehoorzaamheid aan wie er gezag heeft.",
-                    "en-GH": "Das Wichtigste"
+                    "de": "Das Wichtigste, was man Kindern beibringen sollte, ist der absolute Gehorsam gegenüber allen Autoritäten.",
+                    "fr-CA": "La chose la plus importante à apprendre aux enfants est l'obéissance absolue à ceux qui sont en position d'autorité.",
+                    "nl": "Het belangrijkste om kinderen te leren is absolute gehoorzaamheid aan wie er gezag heeft.",
+                    "de-CH": "Das Wichtigste, was man Kindern beibringen sollte, ist der absolute Gehorsam gegenüber allen Autoritäten.",
+                    "es-AR": "La lección más importante para enseñarle a un niño(a) es obediencia absoluta a quien tiene la autoridad.",
+                    "en-GH": "Absolute obedience to authority is vital to teach children."
                   }
                 },
                 {
@@ -1991,12 +1991,12 @@
                     "default": "Children learn best by doing things themselves rather than listening to others.",
                     "es": "Los niños(as) aprenden mejor haciendo las cosas ellos(as) mismos(as) que escuchando a otros(as).",
                     "es-CO": "Los niños(as) aprenden mejor haciendo las cosas ellos(as) mismos(as) que escuchando a otros(as).",
-                    "de": "Kinder lernen am besten",
-                    "fr-CA": "indem sie Dinge selbst tun",
-                    "nl": "anstatt anderen zuzuhören.",
-                    "de-CH": "Les enfants apprennent mieux en faisant eux-mêmes des choses plutôt qu'en écoutant les autres.",
-                    "es-AR": "Kinderen leren het best door dingen zelf te doen in plaats van naar anderen te luisteren.",
-                    "en-GH": "Kinder lernen am besten"
+                    "de": "Kinder lernen am besten, indem sie Dinge selbst tun, anstatt anderen zuzuhören.",
+                    "fr-CA": "Les enfants apprennent mieux en faisant eux-mêmes des choses plutôt qu'en écoutant les autres.",
+                    "nl": "Kinderen leren het best door dingen zelf te doen in plaats van naar anderen te luisteren.",
+                    "de-CH": "Kinder lernen am besten, indem sie Dinge selbst tun, anstatt anderen zuzuhören.",
+                    "es-AR": "Los niños(as) aprenden mejor haciendo las cosas ellos(as) mismos(as) que escuchando a otros(as).",
+                    "en-GH": "Children learn most effectively by doing activities themselves."
                   }
                 },
                 {
@@ -2005,12 +2005,12 @@
                     "default": "Children must be carefully trained early in life or their natural impulses will make them unmanageable.",
                     "es": "Los niños(as) deben ser entrenados(as) cuidadosamente desde muy pequeños o sus impulsos naturales los harán inmanejables.",
                     "es-CO": "Los niños(as) deben ser entrenados(as) cuidadosamente desde muy pequeños o sus impulsos naturales los harán inmanejables.",
-                    "de": "Kinder müssen von klein auf sorgfältig erzogen werden",
-                    "fr-CA": "sonst machen sie ihre natürlichen Impulse unbeherrschbar.",
-                    "nl": "Les enfants doivent être formés soigneusement dès leur jeune âge ou leurs impulsions naturelles les rendront ingérables.",
-                    "de-CH": "Kinderen moeten van jongs af aan zorgvuldig worden opgeleid",
-                    "es-AR": "anders zullen hun natuurlijke impulsen hen onbeheerbaar maken.",
-                    "en-GH": "Kinder müssen von klein auf sorgfältig erzogen werden"
+                    "de": "Kinder müssen von klein auf sorgfältig erzogen werden, sonst machen sie ihre natürlichen Impulse unbeherrschbar.",
+                    "fr-CA": "Les enfants doivent être formés soigneusement dès leur jeune âge ou leurs impulsions naturelles les rendront ingérables.",
+                    "nl": "Kinderen moeten van jongs af aan zorgvuldig worden opgeleid, anders zullen hun natuurlijke impulsen hen onbeheerbaar maken.",
+                    "de-CH": "Kinder müssen von klein auf sorgfältig erzogen werden, sonst machen sie ihre natürlichen Impulse unbeherrschbar.",
+                    "es-AR": "Los niños(as) deben ser entrenados(as) cuidadosamente desde muy pequeños o sus impulsos naturales los harán inmanejables.",
+                    "en-GH": "Without early training, children's natural impulses will become unmanageable."
                   }
                 },
                 {
@@ -2033,12 +2033,12 @@
                     "default": "Children's learning results mainly from being presented basic information again and again.",
                     "es": "El aprendizaje en los niños(as) resulta de que se les presente información básica una y otra vez.",
                     "es-CO": "El aprendizaje en los niños(as) resulta de que se les presente información básica una y otra vez.",
-                    "de": "Das Lernen der Kinder resultiert hauptsächlich daraus",
-                    "fr-CA": "dass sie wiederholt mit grundlegenden Informationen konfrontiert werden.",
-                    "nl": "L'apprentissage des enfants résulte principalement de la présentation répétée d'informations de base.",
-                    "de-CH": "Het leren van kinderen komt voornamelijk voort uit het herhaaldelijk geboden worden van basisinformatie.",
-                    "es-AR": "Das Lernen der Kinder resultiert hauptsächlich daraus",
-                    "en-GH": "dass sie wiederholt mit grundlegenden Informationen konfrontiert werden."
+                    "de": "Das Lernen der Kinder resultiert hauptsächlich daraus, dass sie wiederholt mit grundlegenden Informationen konfrontiert werden.",
+                    "fr-CA": "L'apprentissage des enfants résulte principalement de la présentation répétée d'informations de base.",
+                    "nl": "Het leren van kinderen komt voornamelijk voort uit het herhaaldelijk geboden worden van basisinformatie.",
+                    "de-CH": "Das Lernen der Kinder resultiert hauptsächlich daraus, dass sie wiederholt mit grundlegenden Informationen konfrontiert werden.",
+                    "es-AR": "El aprendizaje en los niños(as) resulta de que se les presente información básica una y otra vez.",
+                    "en-GH": "Learning mainly stems from constant exposure to fundamental information."
                   }
                 },
                 {
@@ -2061,13 +2061,13 @@
                     "default": "The most important thing to teach children is absolute obedience to parents.",
                     "es": "Lo más importante que hay que enseñar a los niños(as) es la obediencia absoluta a los padres.",
                     "es-CO": "Lo más importante que hay que enseñar a los niños(as) es la obediencia absoluta a los padres.",
-                    "de": "Das Wichtigste",
-                    "fr-CA": "was man Kindern beibringen sollte",
-                    "nl": "ist der absolute Gehorsam gegenüber den Eltern.",
-                    "de-CH": "La chose la plus importante à apprendre aux enfants est l'obéissance absolue aux parents.",
-                    "es-AR": "Het belangrijkste voor kinderen om te leren is absolute gehoorzaamheid aan de ouders.",
+                    "de": "Das Wichtigste, was man Kindern beibringen sollte, ist der absolute Gehorsam gegenüber den Eltern.",
+                    "fr-CA": "La chose la plus importante à apprendre aux enfants est l'obéissance absolue aux parents.",
+                    "nl": "Het belangrijkste voor kinderen om te leren is absolute gehoorzaamheid aan de ouders.",
+                    "de-CH": "Das Wichtigste, was man Kindern beibringen sollte, ist der absolute Gehorsam gegenüber den Eltern.",
+                    "es-AR": "Lo más importante que hay que enseñar a los niños(as) es la obediencia absoluta a los padres.",
                     "en-US": "The most important thing to teach children is absolute obedience to parents.",
-                    "en-GH": "Instilling obedience to parents is the most crucial lesson for children."
+                    "en-GH": "The most important thing to teach children is absolute obedience to parents."
                   }
                 }
               ]
