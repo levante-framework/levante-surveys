@@ -1,10 +1,16 @@
 # Levante Surveys - Survey Management Application
 
-## 🌟 **What's New: Complete Translation Management System**
+## 🌟 **What's New: Complete Translation Management + Backup System**
 
-This application now includes a **production-ready translation workflow** that has successfully processed **1,400+ multilingual objects** across 11+ languages with comprehensive validation and testing.
+This application now includes a **production-ready translation workflow** with **comprehensive backup and version control** that has successfully processed **1,400+ multilingual objects** across 11+ languages.
 
-**Key Capabilities:**
+**🆕 Latest Features:**
+- 🔄 **Automatic Backup System**: Every upload creates timestamped backups before overwriting
+- 🌐 **Backup Browser UI**: Browse and load surveys from any backup folder via web interface
+- 🔧 **Spanish Translation Fixer**: Copy newer es-CO translations to es entries automatically
+- 📂 **Version Control**: Complete audit trail with rollback capability to any previous version
+
+**Core Capabilities:**
 - 🔄 **Automated CSV extraction** from survey JSON files to Crowdin-compatible format
 - 🌍 **Crowdin integration** with standardized language codes (hyphens) and proper column mapping
 - 📥 **Smart import system** with validation and artifact detection
@@ -38,6 +44,57 @@ This is a comprehensive TypeScript Vue.js application for managing surveys used 
 - 📥 **Import & Deploy**: One-command import and cloud deployment
 - 🌐 **11+ Languages**: EN, ES, DE, FR, NL + regional variants with extensible architecture
 - 📈 **Quality Metrics**: 98% success rate with detailed coverage reporting
+
+**Backup & Version Control:**
+- 🔄 **Automatic Backups**: Every upload creates timestamped backups before overwriting
+- 📂 **Backup Browser**: UI integration to browse and load from any backup folder
+- 🕐 **Version History**: Complete audit trail of all survey deployments
+- 🔙 **Rollback Capability**: Instantly revert to any previous version
+- 🛡️ **Data Safety**: Zero-risk deployments with comprehensive backup coverage
+
+## 🔄 Backup & Version Control System
+
+> **Comprehensive backup system with automatic versioning and rollback capabilities**
+
+### **📦 Automatic Backup Features**
+
+**Every survey upload automatically creates backups:**
+- ✅ **Timestamped folders**: `surveys/backup_YYYY-MM-DD_HH-MM-SS/`
+- ✅ **Complete snapshots**: All survey files backed up before overwriting
+- ✅ **Zero data loss**: No risk of losing previous versions
+- ✅ **Audit trail**: Complete history of when changes were made
+
+**Scripts with backup functionality:**
+```bash
+# All these scripts now create backups automatically
+npm run update-surveys:deploy          # Crowdin workflow with backups
+npm run import-surveys-individual:upload  # Individual imports with backups
+npm run copy-es-co-to-es:upload       # Spanish translation fixes with backups
+```
+
+### **🌐 Backup Browser UI**
+
+**Access backups through the Survey Preview interface:**
+1. **Visit**: https://levante-survey-preview.vercel.app
+2. **Environment dropdown**: Select "Backups on dev" section
+3. **Choose backup**: Pick any timestamped backup folder
+4. **Load surveys**: Browse surveys from that specific point in time
+5. **Compare versions**: Switch between current and backup versions
+
+### **🔧 Spanish Translation Management**
+
+**Fix inconsistent Spanish translations:**
+```bash
+# Copy newer es-CO translations to es entries
+npm run copy-es-co-to-es              # Local processing only
+npm run copy-es-co-to-es:upload       # Process and deploy with backup
+```
+
+**What this fixes:**
+- ✅ **Consistent terminology**: Copies newer es-CO translations to es
+- ✅ **Regional accuracy**: Maintains regional variants (es-CO, es-AR) 
+- ✅ **Automatic deployment**: Creates backup and uploads corrected survey
+- ✅ **Safe operation**: Full backup created before any changes
 
 ## 🌍 Complete Translation Workflow Guide
 
@@ -178,6 +235,7 @@ npm run convert-language-codes surveys/child_survey.json
 |--------|---------|-------------|
 | `npm run process-surveyjs-update:deploy` | **NEW SurveyJS files** | You received updated survey JSONs from SurveyJS |
 | `npm run update-surveys:deploy` | **Crowdin updates** | You want latest translations from Crowdin |
+| `npm run copy-es-co-to-es:upload` | **🆕 Spanish fix** | Copy newer es-CO translations to es entries |
 | `npm run convert-language-codes:all` | **Language code fix** | Convert underscore to hyphen format |
 | `npm run import-surveys-individual:upload` | **Deploy existing** | Deploy current surveys to GCS |
 | `npm run download-crowdin-bundle` | **Download only** | Get latest Crowdin bundle |
@@ -185,6 +243,13 @@ npm run convert-language-codes surveys/child_survey.json
 | `npm run test:locales` | **Test languages** | Validate all language support |
 | `npm run generate-pdfs` | **Create PDFs** | Generate PDF versions of surveys (English) |
 | `npm run generate-pdfs:german` | **German PDFs** | Generate German PDF versions with -de suffix |
+
+### **🆕 New Backup & Translation Scripts**
+
+| Script | Purpose | Backup Created |
+|--------|---------|----------------|
+| `npm run copy-es-co-to-es` | Copy es-CO to es (local only) | ❌ No |
+| `npm run copy-es-co-to-es:upload` | Copy es-CO to es and deploy | ✅ Yes |
 
 ### **🔄 Automated Workflows**
 
