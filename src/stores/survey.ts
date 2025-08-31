@@ -51,7 +51,7 @@ export const useSurveyStore = defineStore('survey', () => {
     },
     {
       key: 'CHILD',
-      title: 'Student Survey (Updated)',
+      title: 'Child Survey (Updated)',
       description: 'Direct assessment survey for children and students - Local updated version with multilingual support',
       fileName: 'child_survey_updated.json',
       icon: '🎓'
