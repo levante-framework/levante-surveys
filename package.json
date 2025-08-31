@@ -40,6 +40,8 @@
     "generate-pdfs": "node scripts/generate-survey-pdfs.js",
     "generate-pdfs:german": "node scripts/generate-survey-pdfs-german.js",
     "reset-translations": "node scripts/reset-en-gh-translations.js",
+    "copy-es-co-to-es": "node scripts/copy-es-co-to-es.cjs",
+    "copy-es-co-to-es:upload": "node scripts/copy-es-co-to-es.cjs --upload",
     "detect-languages": "node scripts/detect-languages.js",
     "detect-languages:all": "node scripts/detect-languages.js --analyze-all",
     "detect-languages:surveys": "node scripts/detect-languages.js surveys/surveys.csv",
