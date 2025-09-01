@@ -188,7 +188,7 @@ const bucketConfig = {
   },
   'legacy-prod': {
     name: 'levante-dashboard-prod',
-    baseUrl: 'https://storage.googleapis.com/levante-dashboard-prod',
+    baseUrl: 'https://storage.googleapis.com/levante-dashboard-prod/surveys',
     description: 'Legacy Production Environment'
   },
   prod: {
@@ -210,35 +210,45 @@ const loadSelectedSurvey = async () => {
     return
   }
 
+  // Determine which bucket config to use outside try block
+  let config
+  let description
+  if (selectedBucket.value.startsWith('backup:')) {
+    // Use dev config for backups (URL already updated in onBucketChange)
+    config = bucketConfig.dev
+    const backupName = selectedBucket.value.replace('backup:', '')
+    description = `Backup: ${backupName}`
+  } else {
+    config = bucketConfig[selectedBucket.value]
+    description = config.description
+  }
+
   try {
     loading.value = true
     surveyError.value = null
 
-    // Determine which bucket config to use
-    let config
-    let description
-    if (selectedBucket.value.startsWith('backup:')) {
-      // Use dev config for backups (URL already updated in onBucketChange)
-      config = bucketConfig.dev
-      const backupName = selectedBucket.value.replace('backup:', '')
-      description = `Backup: ${backupName}`
-    } else {
-      config = bucketConfig[selectedBucket.value]
-      description = config.description
-    }
-    
-    const surveyUrl = `${config.baseUrl}/${selectedSurvey.value}.json`
+    // Add cache-busting parameter to ensure fresh content
+    const cacheBuster = Date.now()
+    const surveyUrl = `${config.baseUrl}/${selectedSurvey.value}.json?_t=${cacheBuster}`
 
     console.log(`Loading survey from ${description}: ${surveyUrl}`)
 
-    const response = await fetch(surveyUrl)
+    const response = await fetch(surveyUrl, {
+      cache: 'no-cache'
+    })
+    
+    console.log('Response status:', response.status)
+    console.log('Response OK:', response.ok)
     if (!response.ok) {
       throw new Error(`Failed to load survey: ${response.status} ${response.statusText}`)
     }
 
     const surveyData = await response.json()
+    console.log('Survey data loaded successfully, keys:', Object.keys(surveyData))
     rawSurveyData.value = surveyData
+    console.log('About to extract available languages...')
     extractAvailableLanguages(surveyData)
+    console.log('Available languages after extraction:', availableLanguages.value)
     loadSurvey(surveyData)
   } catch (error) {
     console.error('Error loading survey:', error)
@@ -269,14 +279,14 @@ const onBucketChange = () => {
         bucketConfig.dev.baseUrl = 'https://storage.googleapis.com/levante-assets-dev/surveys'
         break
       case 'legacy-prod':
-        bucketConfig['legacy-prod'].baseUrl = 'https://storage.googleapis.com/levante-dashboard-prod'
+        bucketConfig['legacy-prod'].baseUrl = 'https://storage.googleapis.com/levante-dashboard-prod/surveys'
         break
       case 'prod':
         bucketConfig.prod.baseUrl = 'https://storage.googleapis.com/levante-assets-prod/surveys'
         break
     }
   }
-  
+
   // Reload survey if one is selected when bucket/backup changes
   if (selectedSurvey.value) {
     loadSelectedSurvey()
@@ -298,9 +308,9 @@ const loadBackupFolders = async () => {
     }
 
         const data = await response.json()
-    
+
     console.log('GCS API response:', data)
-    
+
     // Extract backup folders from prefixes (folders end with /)
     const backupFolders = []
     if (data.prefixes) {
@@ -317,9 +327,9 @@ const loadBackupFolders = async () => {
             // Convert timestamp format: 2025-08-31_15-12-17 -> 2025-08-31T15:12:17
             const isoTimestamp = timestamp.replace('_', 'T').replace(/-(\d{2})-(\d{2})$/, ':$1:$2')
             const date = new Date(isoTimestamp)
-            
+
             console.log(`Processing backup: ${folderName}, timestamp: ${timestamp}, isoTimestamp: ${isoTimestamp}, date: ${date}`)
-            
+
             backupFolders.push({
               name: folderName,
               displayName: `${folderName.replace('backup_', 'Backup ')} (${date.toLocaleString()})`,
@@ -335,7 +345,7 @@ const loadBackupFolders = async () => {
         // Sort by timestamp (newest first) and take the most recent 15
     backupFolders.sort((a, b) => b.timestamp - a.timestamp)
     availableBackups.value = backupFolders.slice(0, 15)
-    
+
     console.log(`Found ${availableBackups.value.length} backup folders:`, availableBackups.value)
 
   } catch (error) {
