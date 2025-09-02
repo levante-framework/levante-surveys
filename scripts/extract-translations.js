@@ -63,8 +63,8 @@ function discoverLanguagesInSurvey(obj, foundLanguages = new Set()) {
     // This looks like a multilingual object
          keys.forEach(key => {
              if (isLanguageLikeKey(key)) {
-        // Map 'default' to 'source' for CSV output, and standardize to hyphens
-        let csvKey = key === 'default' ? 'source' : key
+        // Map 'default' to 'en' for CSV output, and standardize to hyphens
+        let csvKey = key === 'default' ? 'en' : key
         // Convert underscores to hyphens and uppercase country codes (e.g., es_co -> es-CO, de_ch -> de-CH)
         if (csvKey.includes('_')) {
           const [lang, country] = csvKey.split('_')
@@ -177,6 +177,13 @@ function generateCSV(translations, surveyName, availableLanguages) {
   const header = ['identifier', 'labels', ...availableLanguages].join(',')
   lines.push(header)
 
+  // Ensure English columns exist
+  const languagesWithEnglish = Array.from(new Set([
+    ...availableLanguages,
+    'en',
+    'en-US'
+  ]))
+
   // CSV Rows
   translations.forEach((translation) => {
     const elementName = translation.elementName || 'unknown'
@@ -194,10 +201,24 @@ function generateCSV(translations, surveyName, availableLanguages) {
       return stringValue
     }
 
+    // Compute per-language values with fallback rules
+    const values = languagesWithEnglish.map(lang => {
+      // Populate en from default if missing
+      if (lang === 'en') {
+        return escapeCSV(translation.texts['en'] || translation.texts['default'] || '')
+      }
+      // Populate en-US from en
+      if (lang === 'en-US') {
+        const enVal = translation.texts['en'] || translation.texts['default'] || ''
+        return escapeCSV(enVal)
+      }
+      return escapeCSV(translation.texts[lang] || '')
+    })
+
     const row = [
       escapeCSV(identifier),
       escapeCSV(labels),
-      ...availableLanguages.map(lang => escapeCSV(translation.texts[lang] || ''))
+      ...values
     ].join(',')
 
     lines.push(row)
