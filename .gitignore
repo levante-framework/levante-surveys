@@ -35,3 +35,6 @@ coverage
 # Crowdin configuration with API token
 crowdin.yml
 .vercel
+
+# Python virtual environment
+.venv/
