@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2">
+  <file original="teacher_survey_classroom_updated.json" source-language="en-US" target-language="es" datatype="plaintext">
+    <body>
+    <trans-unit id="pages[0].elements[0].html" resname="TeacherSurveyIntro" approved="yes">
+      <source xml:space="preserve"><![CDATA[<b><font face=Verdana size=4>This is Part B of the survey.</b><br> <br> <p><font face=Verdana size=4>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>When you are ready to begin, select the “Next” button. <br><br><b><font face=Verdana size=4>Thank you!]]></source>
+      <target state="translated"><![CDATA[<b><font face=Verdana size=4>Esta es la Parte B de la encuesta. </b><br> <br> <p><font face=Verdana size=4>En esta parte las preguntas son específicas a cada salón. Si usted enseña en más de un salón, debe completar esta parte por cada salón en donde tenga estudiantes participando en el proyecto. <br><br>Si enseña una sola asignatura, debe completar las preguntas que se refieren a otras asignaturas según su saber o consulte con un colega sólo para esos detalles.<br><br>Cuando esté listo para empezar, seleccione el botón Siguiente.<br><br><b><font face=Verdana size=4> Muchas gracias.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].title" resname="TeacherNumberClasses" approved="yes">
+      <source xml:space="preserve"><![CDATA[How many classrooms do you teach that contain students participating in this research project?]]></source>
+      <target state="translated"><![CDATA[¿En cuántos de los salones donde usted enseña hay estudiantes que participen en este proyecto?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[1].title" resname="TeacherOtherAdult" approved="yes">
+      <source xml:space="preserve"><![CDATA[Is there another adult who is paid to help you in this classroom (e.g., teaching assistant, co-lead teacher, etc.)?]]></source>
+      <target state="translated"><![CDATA[¿Hay algún otro adulto que reciba remuneración por ayudarle en este salón (por ejemplo, un profesor asistente, profesor que trabaja con usted en docencia compartida, entre otros)?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[1].labelTrue" resname="TeacherOtherAdult" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Sí]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[1].labelFalse" resname="TeacherOtherAdult" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[2].title" resname="TeacherStudentsEnroll" approved="yes">
+      <source xml:space="preserve"><![CDATA[How many students are enrolled in this classroom?]]></source>
+      <target state="translated"><![CDATA[¿Cuántos estudiantes hay matriculados en este salón?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[2].placeholder" resname="TeacherStudentsEnroll" approved="yes">
+      <source xml:space="preserve"><![CDATA[number of students]]></source>
+      <target state="translated"><![CDATA[número de estudiantes]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[3].title" resname="TeacherStudentsGender" approved="yes">
+      <source xml:space="preserve"><![CDATA[How many children of each gender are in this class?]]></source>
+      <target state="translated"><![CDATA[¿Cuántos niños de cada género hay en esta clase?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[3].items[0].placeholder" resname="TeacherStudentsGenderGirls" approved="yes">
+      <source xml:space="preserve"><![CDATA[number]]></source>
+      <target state="translated"><![CDATA[número de]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[3].items[0].title" resname="TeacherStudentsGenderGirls" approved="yes">
+      <source xml:space="preserve"><![CDATA[Girls]]></source>
+      <target state="translated"><![CDATA[Niñas]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[3].items[1].placeholder" resname="TeacherStudentsGenderBoys" approved="yes">
+      <source xml:space="preserve"><![CDATA[number]]></source>
+      <target state="translated"><![CDATA[número de]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[3].items[1].title" resname="TeacherStudentsGenderBoys" approved="yes">
+      <source xml:space="preserve"><![CDATA[Boys]]></source>
+      <target state="translated"><![CDATA[Niños]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[3].items[2].placeholder" resname="TeacherStudentsGenderNonbinary" approved="yes">
+      <source xml:space="preserve"><![CDATA[number]]></source>
+      <target state="translated"><![CDATA[número de]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[3].items[2].title" resname="TeacherStudentsGenderNonbinary" approved="yes">
+      <source xml:space="preserve"><![CDATA[Nonbinary]]></source>
+      <target state="translated"><![CDATA[No binario]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[3].items[3].placeholder" resname="TeacherStudentsGenderOther" approved="yes">
+      <source xml:space="preserve"><![CDATA[number]]></source>
+      <target state="translated"><![CDATA[número de]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[3].items[3].title" resname="TeacherStudentsGenderOther" approved="yes">
+      <source xml:space="preserve"><![CDATA[Other]]></source>
+      <target state="translated"><![CDATA[Otro]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[4].title" resname="TeacherStudentsAges" approved="yes">
+      <source xml:space="preserve"><![CDATA[As of today's date, how many children in this class are each of the following age levels?]]></source>
+      <target state="translated"><![CDATA[A hoy, ¿cuántos niños(as) de este salón se ubican en los siguientes rangos de edad?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[4].items[0].placeholder" resname="TeacherStudentsAges5" approved="yes">
+      <source xml:space="preserve"><![CDATA[number]]></source>
+      <target state="translated"><![CDATA[Número de niños(as)]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[4].items[0].title" resname="TeacherStudentsAges5" approved="yes">
+      <source xml:space="preserve"><![CDATA[5 years old or younger]]></source>
+      <target state="translated"><![CDATA[5 años o menos]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[4].items[1].placeholder" resname="TeacherStudentsAges6" approved="yes">
+      <source xml:space="preserve"><![CDATA[number]]></source>
+      <target state="translated"><![CDATA[Número de niños(as)]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[4].items[1].title" resname="TeacherStudentsAges6" approved="yes">
+      <source xml:space="preserve"><![CDATA[6 years old]]></source>
+      <target state="translated"><![CDATA[6 años]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[4].items[2].placeholder" resname="TeacherStudentsAges7" approved="yes">
+      <source xml:space="preserve"><![CDATA[number]]></source>
+      <target state="translated"><![CDATA[Número de niños(as)]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[4].items[2].title" resname="TeacherStudentsAges7" approved="yes">
+      <source xml:space="preserve"><![CDATA[7 years old]]></source>
+      <target state="translated"><![CDATA[7 años]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[4].items[3].placeholder" resname="TeacherStudentsAges8" approved="yes">
+      <source xml:space="preserve"><![CDATA[number]]></source>
+      <target state="translated"><![CDATA[Número de niños(as)]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[4].items[3].title" resname="TeacherStudentsAges8" approved="yes">
+      <source xml:space="preserve"><![CDATA[8 years old]]></source>
+      <target state="translated"><![CDATA[8 años]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[4].items[4].placeholder" resname="TeacherStudentsAges9" approved="yes">
+      <source xml:space="preserve"><![CDATA[number]]></source>
+      <target state="translated"><![CDATA[Número de niños(as)]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[4].items[4].title" resname="TeacherStudentsAges9" approved="yes">
+      <source xml:space="preserve"><![CDATA[9 years old]]></source>
+      <target state="translated"><![CDATA[9 años]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[4].items[5].placeholder" resname="TeacherStudentsAges10" approved="yes">
+      <source xml:space="preserve"><![CDATA[number]]></source>
+      <target state="translated"><![CDATA[Número de niños(as)]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[4].items[5].title" resname="TeacherStudentsAges10" approved="yes">
+      <source xml:space="preserve"><![CDATA[10 years old]]></source>
+      <target state="translated"><![CDATA[10 años]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[4].items[6].placeholder" resname="TeacherStudentsAges11" approved="yes">
+      <source xml:space="preserve"><![CDATA[number]]></source>
+      <target state="translated"><![CDATA[Número de niños(as)]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[4].items[6].title" resname="TeacherStudentsAges11" approved="yes">
+      <source xml:space="preserve"><![CDATA[11 years old]]></source>
+      <target state="translated"><![CDATA[11 años]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[4].items[7].placeholder" resname="TeacherStudentsAges12" approved="yes">
+      <source xml:space="preserve"><![CDATA[number]]></source>
+      <target state="translated"><![CDATA[Número de niños(as)]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[4].items[7].title" resname="TeacherStudentsAges12" approved="yes">
+      <source xml:space="preserve"><![CDATA[12 years old]]></source>
+      <target state="translated"><![CDATA[12 años]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[4].items[8].placeholder" resname="TeacherStudentsAges13" approved="yes">
+      <source xml:space="preserve"><![CDATA[number]]></source>
+      <target state="translated"><![CDATA[Número de niños(as)]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[4].items[8].title" resname="TeacherStudentsAges13" approved="yes">
+      <source xml:space="preserve"><![CDATA[13 years old or older]]></source>
+      <target state="translated"><![CDATA[13 años o más]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[5].title" resname="TeacherMultigrade" approved="yes">
+      <source xml:space="preserve"><![CDATA[Do you currently teach a multigrade class?]]></source>
+      <target state="translated"><![CDATA[¿Enseña actualmente en un salón multigrado?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[5].labelTrue" resname="TeacherMultigrade" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Sí]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[5].labelFalse" resname="TeacherMultigrade" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[6].title" resname="TeacherMultigradeLevels" approved="yes">
+      <source xml:space="preserve"><![CDATA[If yes, what grade levels are included in the class you teach? (select all that apply)]]></source>
+      <target state="translated"><![CDATA[En caso afirmativo, ¿cuáles grados se encuentran el salón multigrado que enseña? (Marque todas las que procedan.)]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[6].choices[0].text" resname="TeacherMultigradeLevels" approved="yes">
+      <source xml:space="preserve"><![CDATA[Prekindergarten]]></source>
+      <target state="translated"><![CDATA[Prejardín]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[6].choices[1].text" resname="TeacherMultigradeLevels" approved="yes">
+      <source xml:space="preserve"><![CDATA[Transitional (or readiness) kindergarten]]></source>
+      <target state="translated"><![CDATA[Transición o Grado cero]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[6].choices[2].text" resname="TeacherMultigradeLevels" approved="yes">
+      <source xml:space="preserve"><![CDATA[Kindergarten]]></source>
+      <target state="translated"><![CDATA[Jardín]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[6].choices[3].text" resname="TeacherMultigradeLevels" approved="yes">
+      <source xml:space="preserve"><![CDATA[1st Grade]]></source>
+      <target state="translated"><![CDATA[Primer grado]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[6].choices[4].text" resname="TeacherMultigradeLevels" approved="yes">
+      <source xml:space="preserve"><![CDATA[2nd Grade]]></source>
+      <target state="translated"><![CDATA[Segundo grado]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[6].choices[5].text" resname="TeacherMultigradeLevels" approved="yes">
+      <source xml:space="preserve"><![CDATA[3rd Grade]]></source>
+      <target state="translated"><![CDATA[Tercer grado]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[6].choices[6].text" resname="TeacherMultigradeLevels" approved="yes">
+      <source xml:space="preserve"><![CDATA[4th Grade]]></source>
+      <target state="translated"><![CDATA[Cuarto grado]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[6].choices[7].text" resname="TeacherMultigradeLevels" approved="yes">
+      <source xml:space="preserve"><![CDATA[5th Grade]]></source>
+      <target state="translated"><![CDATA[Quinto grado]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[6].choices[8].text" resname="TeacherMultigradeLevels" approved="yes">
+      <source xml:space="preserve"><![CDATA[6th Grade]]></source>
+      <target state="translated"><![CDATA[Sexto grado]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[6].choices[9].text" resname="TeacherMultigradeLevels" approved="yes">
+      <source xml:space="preserve"><![CDATA[7th Grade]]></source>
+      <target state="translated"><![CDATA[Séptimo grado]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[6].choices[10].text" resname="TeacherMultigradeLevels" approved="yes">
+      <source xml:space="preserve"><![CDATA[8th Grade]]></source>
+      <target state="translated"><![CDATA[Octavo grado]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[7].title" resname="TeacherGradeLevel" approved="yes">
+      <source xml:space="preserve"><![CDATA[What grade level do you teach?]]></source>
+      <target state="translated"><![CDATA[¿En qué grado enseña?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[8].title" resname="TeacherLanguageStudents" approved="yes">
+      <source xml:space="preserve"><![CDATA[What languages are spoken by students in this class (select all that apply)?]]></source>
+      <target state="translated"><![CDATA[¿Qué idiomas hablan los(as) estudiantes en este salón de clase?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[8].choices[0].text" resname="TeacherLanguageStudents" approved="yes">
+      <source xml:space="preserve"><![CDATA[Arabic]]></source>
+      <target state="translated"><![CDATA[Árabe]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[8].choices[1].text" resname="TeacherLanguageStudents" approved="yes">
+      <source xml:space="preserve"><![CDATA[Chinese]]></source>
+      <target state="translated"><![CDATA[Chino]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[8].choices[2].text" resname="TeacherLanguageStudents" approved="yes">
+      <source xml:space="preserve"><![CDATA[English]]></source>
+      <target state="translated"><![CDATA[Inglés]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[8].choices[3].text" resname="TeacherLanguageStudents" approved="yes">
+      <source xml:space="preserve"><![CDATA[French]]></source>
+      <target state="translated"><![CDATA[Francés]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[8].choices[4].text" resname="TeacherLanguageStudents" approved="yes">
+      <source xml:space="preserve"><![CDATA[German]]></source>
+      <target state="translated"><![CDATA[Alemán]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[8].choices[5].text" resname="TeacherLanguageStudents" approved="yes">
+      <source xml:space="preserve"><![CDATA[Korean]]></source>
+      <target state="translated"><![CDATA[Coreano]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[8].choices[6].text" resname="TeacherLanguageStudents" approved="yes">
+      <source xml:space="preserve"><![CDATA[Spanish]]></source>
+      <target state="translated"><![CDATA[Español]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[8].choices[7].text" resname="TeacherLanguageStudents" approved="yes">
+      <source xml:space="preserve"><![CDATA[Tagalog]]></source>
+      <target state="translated"><![CDATA[Tagalo]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[8].choices[8].text" resname="TeacherLanguageStudents" approved="yes">
+      <source xml:space="preserve"><![CDATA[Vietnamese]]></source>
+      <target state="translated"><![CDATA[Vietnamita]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[9].title" resname="TeacherLanguageTeachers" approved="yes">
+      <source xml:space="preserve"><![CDATA[What languages do you or your assistant teacher speak <b>in the classroom</b> (select all that apply)?]]></source>
+      <target state="translated"><![CDATA[¿Qué idiomas hablan usted o su docente asistente <b>en el aula de clase?</b>]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[10].title" resname="TeacherReadingBelow" approved="yes">
+      <source xml:space="preserve"><![CDATA[About how many children in this classroom are BELOW grade level in their reading skills?]]></source>
+      <target state="translated"><![CDATA[¿Cuántos niños(as) de este salón tienen un nivel de lectura POR DEBAJO del grado que cursan?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[10].placeholder" resname="TeacherReadingBelow" approved="yes">
+      <source xml:space="preserve"><![CDATA[number of children]]></source>
+      <target state="translated"><![CDATA[Número de niños(as)]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[11].title" resname="TeacherReadingAbove" approved="yes">
+      <source xml:space="preserve"><![CDATA[About how many children in this classroom are ABOVE grade level in their reading skills?]]></source>
+      <target state="translated"><![CDATA[¿Cuántos niños(as) de este salón tienen un nivel de lectura POR ENCIMA del grado que cursan?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[11].placeholder" resname="TeacherReadingAbove" approved="yes">
+      <source xml:space="preserve"><![CDATA[number of children]]></source>
+      <target state="translated"><![CDATA[Número de niños(as)]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[12].title" resname="TeacherMathBelow" approved="yes">
+      <source xml:space="preserve"><![CDATA[About how many children in this classroom are BELOW grade level in their math skills?]]></source>
+      <target state="translated"><![CDATA[¿Cuántos niños(as) de este salón tienen un nivel en matemáticas POR DEBAJO del grado que cursan?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[12].placeholder" resname="TeacherMathBelow" approved="yes">
+      <source xml:space="preserve"><![CDATA[number of children]]></source>
+      <target state="translated"><![CDATA[Número de niños(as)]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[13].title" resname="TeacherMathAbove" approved="yes">
+      <source xml:space="preserve"><![CDATA[About how many children in this classroom are ABOVE grade level in their math skills?]]></source>
+      <target state="translated"><![CDATA[¿Cuántos niños(as) de este salón tienen un nivel en matemáticas POR ENCIMA del grado que cursan?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[13].placeholder" resname="TeacherMathAbove" approved="yes">
+      <source xml:space="preserve"><![CDATA[number of children]]></source>
+      <target state="translated"><![CDATA[Número de niños(as)]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[14].title" resname="TeacherReadingFrequency" approved="yes">
+      <source xml:space="preserve"><![CDATA[How often each week do children in this class usually work on lessons or projects in Reading and Language Arts, whether as a whole class, in small groups, or in individualized arrangements ?]]></source>
+      <target state="translated"><![CDATA[¿Cuántas veces por semana suelen trabajar los estudiantes de esta clase en lecciones o proyectos de lectura, lenguaje y literatura, ya sea en sesión plenaria, grupos pequeños o individualmente?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[14].choices[0].text" resname="TeacherReadingFrequency" approved="yes">
+      <source xml:space="preserve"><![CDATA[Nunca]]></source>
+      <target state="translated"><![CDATA[Nunca]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[14].choices[1].text" resname="TeacherReadingFrequency" approved="yes">
+      <source xml:space="preserve"><![CDATA[Less than once per week]]></source>
+      <target state="translated"><![CDATA[Menos de una vez por semana]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[14].choices[2].text" resname="TeacherReadingFrequency" approved="yes">
+      <source xml:space="preserve"><![CDATA[1 -2 times per week]]></source>
+      <target state="translated"><![CDATA[1 a 2 veces por semana]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[14].choices[3].text" resname="TeacherReadingFrequency" approved="yes">
+      <source xml:space="preserve"><![CDATA[3 - 4 times per week]]></source>
+      <target state="translated"><![CDATA[3 a 4 veces por semana]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[14].choices[4].text" resname="TeacherReadingFrequency" approved="yes">
+      <source xml:space="preserve"><![CDATA[Nunca]]></source>
+      <target state="translated"><![CDATA[Nunca]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[15].title" resname="TeacherReadingTime" approved="yes">
+      <source xml:space="preserve"><![CDATA[How much time per day do children in this class usually work on lessons or projects in Reading and Language Arts, whether as a whole class, in small groups, or in individualized arrangements?]]></source>
+      <target state="translated"><![CDATA[¿Cuánto tiempo diario dedican trabajar los estudiantes de esta clase en lecciones o proyectos de lectura, lenguaje y literatura, ya sea en sesión plenaria, grupos pequeños o individualmente?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[15].choices[0].text" resname="TeacherReadingTime" approved="yes">
+      <source xml:space="preserve"><![CDATA[1 - 30 minutes a day]]></source>
+      <target state="translated"><![CDATA[1 a 30 minutos al día]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[15].choices[1].text" resname="TeacherReadingTime" approved="yes">
+      <source xml:space="preserve"><![CDATA[31 - 60 minutes a day]]></source>
+      <target state="translated"><![CDATA[31 a 60 minutos al día]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[15].choices[2].text" resname="TeacherReadingTime" approved="yes">
+      <source xml:space="preserve"><![CDATA[61 - 90 minutes a day]]></source>
+      <target state="translated"><![CDATA[61 a 90 minutos al día]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[15].choices[3].text" resname="TeacherReadingTime" approved="yes">
+      <source xml:space="preserve"><![CDATA[More than 90 minutes a day]]></source>
+      <target state="translated"><![CDATA[Más de 90 minutos al día]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[16].title" resname="TeacherMathFrequency" approved="yes">
+      <source xml:space="preserve"><![CDATA[How often each week do children in this class usually work on lessons or projects in Mathematics, whether as a whole class, in small groups, or in individualized arrangements?]]></source>
+      <target state="translated"><![CDATA[¿Cuántas veces por semana suelen trabajar los estudiantes de esta clase en lecciones o proyectos de matemáticas, ya sea en sesión plenaria, grupos pequeños o individualmente?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[16].choices[0].text" resname="TeacherMathFrequency" approved="yes">
+      <source xml:space="preserve"><![CDATA[Never]]></source>
+      <target state="translated"><![CDATA[Nunca]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[16].choices[1].text" resname="TeacherMathFrequency" approved="yes">
+      <source xml:space="preserve"><![CDATA[Less than once per week]]></source>
+      <target state="translated"><![CDATA[Menos de una vez por semana]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[16].choices[2].text" resname="TeacherMathFrequency" approved="yes">
+      <source xml:space="preserve"><![CDATA[1 -2 times per week]]></source>
+      <target state="translated"><![CDATA[1 a 2 veces por semana]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[16].choices[3].text" resname="TeacherMathFrequency" approved="yes">
+      <source xml:space="preserve"><![CDATA[3 - 4 times per week]]></source>
+      <target state="translated"><![CDATA[3 a 4 veces por semana]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[16].choices[4].text" resname="TeacherMathFrequency" approved="yes">
+      <source xml:space="preserve"><![CDATA[Daily]]></source>
+      <target state="translated"><![CDATA[A diario]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[17].title" resname="TeacherMathTime" approved="yes">
+      <source xml:space="preserve"><![CDATA[How much time per day do children in this class usually work on lessons or projects in Mathematics, whether as a whole class, in small groups, or in individualized arrangements?]]></source>
+      <target state="translated"><![CDATA[¿Cuánto tiempo diario dedican trabajar los estudiantes de esta clase en lecciones o proyectos de matemáticas, ya sea en sesión plenaria, grupos pequeños o individualmente?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[17].choices[0].text" resname="TeacherMathTime" approved="yes">
+      <source xml:space="preserve"><![CDATA[1 - 30 minutes a day]]></source>
+      <target state="translated"><![CDATA[1 a 30 minutos al día]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[17].choices[1].text" resname="TeacherMathTime" approved="yes">
+      <source xml:space="preserve"><![CDATA[31 - 60 minutes a day]]></source>
+      <target state="translated"><![CDATA[31 a 60 minutos al día]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[17].choices[2].text" resname="TeacherMathTime" approved="yes">
+      <source xml:space="preserve"><![CDATA[61 - 90 minutes a day]]></source>
+      <target state="translated"><![CDATA[61 a 90 minutos al día]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[17].choices[3].text" resname="TeacherMathTime" approved="yes">
+      <source xml:space="preserve"><![CDATA[More than 90 minutes a day]]></source>
+      <target state="translated"><![CDATA[Más de 90 minutos al día]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[18].title" resname="TeacherFamilySupport" approved="yes">
+      <source xml:space="preserve"><![CDATA[Think about the families of the children in this class who you have taught this school year. For about how many families are each of the following statements true?]]></source>
+      <target state="translated"><![CDATA[Piense en las familias de los niños(as) de esta clase a quienes usted ha dado clase este año escolar. ¿Aproximadamente para cuántas familias es cierta cada una de las siguientes afirmaciones?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[18].elements[0].title" resname="TeacherFamilyOverwhelm" approved="yes">
+      <source xml:space="preserve"><![CDATA[Families seem overwhelmed by trying to support their children's learning.]]></source>
+      <target state="translated"><![CDATA[Las familias parecen estar abrumadas por tratar de apoyar el aprendizaje de sus niños(as).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[18].elements[0].choices[0].text" resname="TeacherFamilyOverwhelm" approved="yes">
+      <source xml:space="preserve"><![CDATA[None]]></source>
+      <target state="translated"><![CDATA[Ninguna]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[18].elements[0].choices[1].text" resname="TeacherFamilyOverwhelm" approved="yes">
+      <source xml:space="preserve"><![CDATA[One or a few]]></source>
+      <target state="translated"><![CDATA[Una o pocas]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[18].elements[0].choices[2].text" resname="TeacherFamilyOverwhelm" approved="yes">
+      <source xml:space="preserve"><![CDATA[Many]]></source>
+      <target state="translated"><![CDATA[Muchas]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[18].elements[0].choices[3].text" resname="TeacherFamilyOverwhelm" approved="yes">
+      <source xml:space="preserve"><![CDATA[All or almost all]]></source>
+      <target state="translated"><![CDATA[Todas o casi todas]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[18].elements[1].title" resname="TeacherFamilyHelping" approved="yes">
+      <source xml:space="preserve"><![CDATA[Families are doing their part to support children's learning.]]></source>
+      <target state="translated"><![CDATA[Las familias hacen su parte para apoyar el aprendizaje de los niños(as).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[18].elements[1].choices[0].text" resname="TeacherFamilyHelping" approved="yes">
+      <source xml:space="preserve"><![CDATA[None]]></source>
+      <target state="translated"><![CDATA[Ninguna]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[18].elements[1].choices[1].text" resname="TeacherFamilyHelping" approved="yes">
+      <source xml:space="preserve"><![CDATA[One or a few]]></source>
+      <target state="translated"><![CDATA[Una o pocas]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[18].elements[1].choices[2].text" resname="TeacherFamilyHelping" approved="yes">
+      <source xml:space="preserve"><![CDATA[Many]]></source>
+      <target state="translated"><![CDATA[Muchas]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[18].elements[1].choices[3].text" resname="TeacherFamilyHelping" approved="yes">
+      <source xml:space="preserve"><![CDATA[All or almost all]]></source>
+      <target state="translated"><![CDATA[Todas o casi todas]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[19].title" resname="TeacherComm" approved="yes">
+      <source xml:space="preserve"><![CDATA[Please indicate how satisfied or dissatisfied you have been with the following this school year.]]></source>
+      <target state="translated"><![CDATA[Por favor, indique cuán satisfecho(a) o insatisfecho(a) ha estado usted este año escolar con los siguientes aspectos.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[19].elements[0].title" resname="TeacherCommFamily" approved="yes">
+      <source xml:space="preserve"><![CDATA[Communication between you and families.]]></source>
+      <target state="translated"><![CDATA[La comunicación entre usted y las familias.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[19].elements[0].choices[0].text" resname="TeacherCommFamily" approved="yes">
+      <source xml:space="preserve"><![CDATA[Not satisfied at all]]></source>
+      <target state="translated"><![CDATA[Nada satisfecho]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[19].elements[0].choices[1].text" resname="TeacherCommFamily" approved="yes">
+      <source xml:space="preserve"><![CDATA[Slightly satisfied]]></source>
+      <target state="translated"><![CDATA[Poco satisfecho]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[19].elements[0].choices[2].text" resname="TeacherCommFamily" approved="yes">
+      <source xml:space="preserve"><![CDATA[Moderately satisfied]]></source>
+      <target state="translated"><![CDATA[Medianamente satisfecho]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[19].elements[0].choices[3].text" resname="TeacherCommFamily" approved="yes">
+      <source xml:space="preserve"><![CDATA[Quite satisfied]]></source>
+      <target state="translated"><![CDATA[Bastante satisfecho]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[19].elements[0].choices[4].text" resname="TeacherCommFamily" approved="yes">
+      <source xml:space="preserve"><![CDATA[Very satisfied]]></source>
+      <target state="translated"><![CDATA[Absolutamente satisfecho]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[19].elements[1].title" resname="TeacherCommStudents" approved="yes">
+      <source xml:space="preserve"><![CDATA[Communication between you and your students.]]></source>
+      <target state="translated"><![CDATA[La comunicación entre usted y sus alumnos.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[19].elements[1].choices[0].text" resname="TeacherCommStudents" approved="yes">
+      <source xml:space="preserve"><![CDATA[Not satisfied at all]]></source>
+      <target state="translated"><![CDATA[Nada satisfecho]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[19].elements[1].choices[1].text" resname="TeacherCommStudents" approved="yes">
+      <source xml:space="preserve"><![CDATA[Slightly satisfied]]></source>
+      <target state="translated"><![CDATA[Poco satisfecho]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[19].elements[1].choices[2].text" resname="TeacherCommStudents" approved="yes">
+      <source xml:space="preserve"><![CDATA[Moderately satisfied]]></source>
+      <target state="translated"><![CDATA[Medianamente satisfecho]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[19].elements[1].choices[3].text" resname="TeacherCommStudents" approved="yes">
+      <source xml:space="preserve"><![CDATA[Quite satisfied]]></source>
+      <target state="translated"><![CDATA[Bastante satisfecho]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[19].elements[1].choices[4].text" resname="TeacherCommStudents" approved="yes">
+      <source xml:space="preserve"><![CDATA[Very satisfied]]></source>
+      <target state="translated"><![CDATA[Absolutamente satisfecho]]></target>
+    </trans-unit>
+    <trans-unit id="startSurveyText" resname="" approved="yes">
+      <source xml:space="preserve"><![CDATA[Start Survey]]></source>
+      <target state="translated"><![CDATA[Comenzar Encuesta]]></target>
+    </trans-unit>
+    <trans-unit id="pagePrevText" resname="" approved="yes">
+      <source xml:space="preserve"><![CDATA[Previous]]></source>
+      <target state="translated"><![CDATA[Anterior]]></target>
+    </trans-unit>
+    <trans-unit id="pageNextText" resname="" approved="yes">
+      <source xml:space="preserve"><![CDATA[Next]]></source>
+      <target state="translated"><![CDATA[Siguiente]]></target>
+    </trans-unit>
+    <trans-unit id="completeText" resname="" approved="yes">
+      <source xml:space="preserve"><![CDATA[Finish]]></source>
+      <target state="translated"><![CDATA[Terminar]]></target>
+    </trans-unit>
+    </body>
+  </file>
+</xliff>

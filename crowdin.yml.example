@@ -1,9 +1,0 @@
-project_id: YOUR_PROJECT_ID  # Replace with your numeric Crowdin project ID
-api_token: 'YOUR_API_TOKEN'  # Replace with your actual Crowdin API token
-base_path: '.'
-
-files:
-  - source: 'surveys/*_translations.csv'
-    translation: 'surveys/*_translations.csv'
-    first_line_contains_header: true
-    scheme: 'identifier,labels,en,es-CO,de,fr-CA,nl,de-CH,es-AR,en-GH'

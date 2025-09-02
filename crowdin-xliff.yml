@@ -1,0 +1,8 @@
+project_id_env: LEVANTE_XLIFF_PROJECT_ID
+api_token_env: CROWDIN_API_TOKEN
+base_path: .
+preserve_hierarchy: true
+files:
+  - source: '/xliff-out/**/*-source-*.xliff'
+    translation: '/xliff-out/**/*-%locale%.xliff'
+    export_pattern: '/xliff-out/%original_file_name%-%locale%.xliff'

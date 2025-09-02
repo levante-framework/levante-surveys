@@ -1,0 +1,1367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2">
+  <file original="parent_survey_family_updated.json" source-language="en-US" target-language="de-CH" datatype="plaintext">
+    <body>
+    <trans-unit id="pages[0].elements[0].html" resname="CaregiverSurveyIntroB" approved="yes">
+      <source xml:space="preserve"><![CDATA[<block><b><font face=Verdana size=4>]]></source>
+      <target state="translated"><![CDATA[<block><b><font face=Verdana size=4>]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].title" resname="HomeNeighborhood" approved="yes">
+      <source xml:space="preserve"><![CDATA[Please answer the following questions about the community in which you live.]]></source>
+      <target state="translated"><![CDATA[Bitte beantworten Sie die folgenden Fragen zu der Gemeinschaft, in der Sie leben.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[0].title" resname="HomeNSCHi7a" approved="yes">
+      <source xml:space="preserve"><![CDATA[In your neighborhood, are there sidewalks or walking paths?]]></source>
+      <target state="translated"><![CDATA[Gibt es in Ihrer Nachbarschaft Bürgersteige oder Spazierwege?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[0].labelTrue" resname="HomeNSCHi7a" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[0].labelFalse" resname="HomeNSCHi7a" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[1].title" resname="HomeNSCHi7b" approved="yes">
+      <source xml:space="preserve"><![CDATA[In your neighborhood, is there a park or playground?]]></source>
+      <target state="translated"><![CDATA[Gibt es in Ihrer Nachbarschaft einen Park oder Spielplatz?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[1].labelTrue" resname="HomeNSCHi7b" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[1].labelFalse" resname="HomeNSCHi7b" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[2].title" resname="HomeNSCHi7c" approved="yes">
+      <source xml:space="preserve"><![CDATA[In your neighborhood, is there a community center or recreation center where families get together?]]></source>
+      <target state="translated"><![CDATA[Gibt es in Ihrer Nachbarschaft ein Gemeindezentrum oder ein Freizeitzentrum, in dem sich Familien treffen?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[2].labelTrue" resname="HomeNSCHi7c" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[2].labelFalse" resname="HomeNSCHi7c" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[3].title" resname="HomeNSCHi7d" approved="yes">
+      <source xml:space="preserve"><![CDATA[In your neighborhood, is there a library or other place to get free books?]]></source>
+      <target state="translated"><![CDATA[Gibt es in Ihrer Nachbarschaft eine Bibliothek oder einen anderen Ort, an dem man kostenlose Bücher erhalten kann?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[3].labelTrue" resname="HomeNSCHi7d" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[3].labelFalse" resname="HomeNSCHi7d" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[4].title" resname="HomeNSCHi7e" approved="yes">
+      <source xml:space="preserve"><![CDATA[In your neighborhood, is there litter or garbage on the street or sidewalk?]]></source>
+      <target state="translated"><![CDATA[Gibt es in Ihrer Nachbarschaft Abfall oder Müll auf der Straße oder dem Gehweg?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[4].labelTrue" resname="HomeNSCHi7e" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[4].labelFalse" resname="HomeNSCHi7e" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[5].title" resname="HomeNSCHi7f" approved="yes">
+      <source xml:space="preserve"><![CDATA[In your neighborhood is there poorly kept or rundown housing?]]></source>
+      <target state="translated"><![CDATA[Gibt es in Ihrer Nachbarschaft schlecht erhaltene oder heruntergekommene Wohnungen?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[5].labelTrue" resname="HomeNSCHi7f" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[5].labelFalse" resname="HomeNSCHi7f" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[6].title" resname="HomeNSCHi7g" approved="yes">
+      <source xml:space="preserve"><![CDATA[In your neighborhood, is there vandalism such as broken windows or graffiti?]]></source>
+      <target state="translated"><![CDATA[Gibt es in Ihrer Nachbarschaft Vandalismus wie z.B. eingeschlagene Fensterscheiben oder Graffiti?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[6].labelTrue" resname="HomeNSCHi7g" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[0].elements[6].labelFalse" resname="HomeNSCHi7g" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[1].title" resname="HomeNSCHi8items" approved="yes">
+      <source xml:space="preserve"><![CDATA[To what extent do you agree with these statements about your neighborhood or community?]]></source>
+      <target state="translated"><![CDATA[Inwieweit stimmen Sie diesen Aussagen über Ihre Nachbarschaft oder Gemeinde zu?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[1].columns[0].text" resname="HomeNSCHi8items" approved="yes">
+      <source xml:space="preserve"><![CDATA[Definitely Agree]]></source>
+      <target state="translated"><![CDATA[Voll und ganz zustimmen]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[1].columns[1].text" resname="HomeNSCHi8items" approved="yes">
+      <source xml:space="preserve"><![CDATA[Somewhat Agree]]></source>
+      <target state="translated"><![CDATA[Eher zustimmen]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[1].columns[2].text" resname="HomeNSCHi8items" approved="yes">
+      <source xml:space="preserve"><![CDATA[Somewhat Disagree]]></source>
+      <target state="translated"><![CDATA[Eher nicht zustimmen]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[1].columns[3].text" resname="HomeNSCHi8items" approved="yes">
+      <source xml:space="preserve"><![CDATA[Definitely Disagree]]></source>
+      <target state="translated"><![CDATA[Überhaupt nicht zustimmen]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[1].rows[0].text" resname="HomeNSCHi8items" approved="yes">
+      <source xml:space="preserve"><![CDATA[People in your neighborhood help each other out.]]></source>
+      <target state="translated"><![CDATA[Die Menschen in deiner Nachbarschaft helfen sich gegenseitig.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[1].rows[1].text" resname="HomeNSCHi8items" approved="yes">
+      <source xml:space="preserve"><![CDATA[People in your neighborhood watch out for each other's children.]]></source>
+      <target state="translated"><![CDATA[Die Menschen in Ihrer Nachbarschaft passen auf die Kinder der anderen auf.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[1].rows[2].text" resname="HomeNSCHi8items" approved="yes">
+      <source xml:space="preserve"><![CDATA[Your child is safe in your neighborhood.]]></source>
+      <target state="translated"><![CDATA[Ihr Kind ist in Ihrer Nachbarschaft sicher.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[1].rows[3].text" resname="HomeNSCHi8items" approved="yes">
+      <source xml:space="preserve"><![CDATA[When you encounter difficulties, you know where to go for help in your community.]]></source>
+      <target state="translated"><![CDATA[Wenn Sie auf Schwierigkeiten stoßen, wissen Sie, an wen Sie sich in Ihrer Gemeinde wenden können, um Hilfe zu erhalten.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[1].rows[4].text" resname="HomeNSCHi8items" approved="yes">
+      <source xml:space="preserve"><![CDATA[Your child is safe at school.]]></source>
+      <target state="translated"><![CDATA[Ihr Kind ist in der Schule sicher.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[2].title" resname="HomeFood" approved="yes">
+      <source xml:space="preserve"><![CDATA[These are statements people have made about their food situation. For these statements, please mark whether the statement was often true, sometimes true, or never true for your household in the <b>last 12 months</b>.]]></source>
+      <target state="translated"><![CDATA[Dies sind Aussagen, die Menschen über ihre Ernährungssituation gemacht haben. Bitte kreuzen Sie für diese Aussagen an, ob die Aussage in den <b>letzten 12 Monaten</b> für Ihren Haushalt oft, manchmal oder nie stimmte.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[2].elements[0].title" resname="HomeFoodLast" approved="yes">
+      <source xml:space="preserve"><![CDATA[The food that we bought just didn't last, and we didn't have enough money to get more.]]></source>
+      <target state="translated"><![CDATA[Die Lebensmittel, die wir gekauft hatten, reichten einfach nicht aus, und wir hatten nicht genug Geld, um mehr zu kaufen.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[2].elements[0].choices[0].text" resname="HomeFoodLast" approved="yes">
+      <source xml:space="preserve"><![CDATA[Never true]]></source>
+      <target state="translated"><![CDATA[Trifft nie zu]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[2].elements[0].choices[1].text" resname="HomeFoodLast" approved="yes">
+      <source xml:space="preserve"><![CDATA[Sometimes true]]></source>
+      <target state="translated"><![CDATA[Trifft manchmal zu]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[2].elements[0].choices[2].text" resname="HomeFoodLast" approved="yes">
+      <source xml:space="preserve"><![CDATA[Often true]]></source>
+      <target state="translated"><![CDATA[Trifft oft zu]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[2].elements[1].title" resname="HomeFoodBalanced" approved="yes">
+      <source xml:space="preserve"><![CDATA[We couldn't afford to eat balanced meals.]]></source>
+      <target state="translated"><![CDATA[Wir konnten es uns nicht leisten, ausgewogene Mahlzeiten zu essen.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[2].elements[1].choices[0].text" resname="HomeFoodBalanced" approved="yes">
+      <source xml:space="preserve"><![CDATA[Never true]]></source>
+      <target state="translated"><![CDATA[Trifft nie zu]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[2].elements[1].choices[1].text" resname="HomeFoodBalanced" approved="yes">
+      <source xml:space="preserve"><![CDATA[Sometimes true]]></source>
+      <target state="translated"><![CDATA[Trifft manchmal zu]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[2].elements[1].choices[2].text" resname="HomeFoodBalanced" approved="yes">
+      <source xml:space="preserve"><![CDATA[Often true]]></source>
+      <target state="translated"><![CDATA[Trifft oft zu]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[2].elements[2].title" resname="HomeFoodSkipMeal" approved="yes">
+      <source xml:space="preserve"><![CDATA[In the <b>last 12 months</b>, did you or other adults in your household ever cut the size of your meals or skip meals because there wasn't enough money for food?]]></source>
+      <target state="translated"><![CDATA[Haben Sie oder andere Erwachsene in Ihrem Haushalt in den <b>letzten 12 Monaten</b> jemals die Menge Ihrer Mahlzeiten reduziert oder Mahlzeiten ausgelassen, weil nicht genug Geld für Lebensmittel vorhanden war?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[2].elements[2].labelTrue" resname="HomeFoodSkipMeal" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[2].elements[2].labelFalse" resname="HomeFoodSkipMeal" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[2].elements[3].title" resname="HomeFoodSkipMealAmount" approved="yes">
+      <source xml:space="preserve"><![CDATA[If yes, how often did this happen - almost every month, some months but not every month, or in only 1 or 2 months?]]></source>
+      <target state="translated"><![CDATA[Wenn ja, wie oft ist kam dies vor - fast jeden Monat, in einigen Monaten aber nicht in jedem Monat, nur in 1 oder 2 Monaten?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[2].elements[3].choices[0].text" resname="HomeFoodSkipMealAmount" approved="yes">
+      <source xml:space="preserve"><![CDATA[Almost every month]]></source>
+      <target state="translated"><![CDATA[Fast jeden Monat]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[2].elements[3].choices[1].text" resname="HomeFoodSkipMealAmount" approved="yes">
+      <source xml:space="preserve"><![CDATA[Some months but not every month]]></source>
+      <target state="translated"><![CDATA[In einigen Monaten aber nicht jeden Monat]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[2].elements[3].choices[2].text" resname="HomeFoodSkipMealAmount" approved="yes">
+      <source xml:space="preserve"><![CDATA[Only 1 or 2 months]]></source>
+      <target state="translated"><![CDATA[Nur in 1 oder 2 Monaten]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].title" resname="HomeCHAOS" approved="yes">
+      <source xml:space="preserve"><![CDATA[Below are statements about the environment in your home. Please indicate how much you agree that the statement is true of your home.]]></source>
+      <target state="translated"><![CDATA[Im Folgenden finden Sie Aussagen über die häusliche Umgebung. Bitte geben Sie an, inwieweit Sie der Aussage zustimmen, dass sie auf Ihr Zuhause zutrifft.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].elements[0].title" resname="HomeCHAOS4" approved="yes">
+      <source xml:space="preserve"><![CDATA[We are usually able to stay on top of things.]]></source>
+      <target state="translated"><![CDATA[Wir sind in der Regel in der Lage, den Überblick zu behalten.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].elements[0].choices[0].text" resname="HomeCHAOS4" approved="yes">
+      <source xml:space="preserve"><![CDATA[Definitely Untrue]]></source>
+      <target state="translated"><![CDATA[Definitiv unwahr]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].elements[0].choices[1].text" resname="HomeCHAOS4" approved="yes">
+      <source xml:space="preserve"><![CDATA[Somewhat Untrue]]></source>
+      <target state="translated"><![CDATA[Eher unwahr]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].elements[0].choices[2].text" resname="HomeCHAOS4" approved="yes">
+      <source xml:space="preserve"><![CDATA[Somewhat True]]></source>
+      <target state="translated"><![CDATA[Eher wahr]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].elements[0].choices[3].text" resname="HomeCHAOS4" approved="yes">
+      <source xml:space="preserve"><![CDATA[Definitely True]]></source>
+      <target state="translated"><![CDATA[Definitiv wahr]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].elements[1].title" resname="HomeCHAOS10" approved="yes">
+      <source xml:space="preserve"><![CDATA[You can't hear yourself think in our home.]]></source>
+      <target state="translated"><![CDATA[Bei uns zu Hause versteht man sein eigenes Wort nicht.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].elements[1].choices[0].text" resname="HomeCHAOS10" approved="yes">
+      <source xml:space="preserve"><![CDATA[Definitely Untrue]]></source>
+      <target state="translated"><![CDATA[Definitiv unwahr]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].elements[1].choices[1].text" resname="HomeCHAOS10" approved="yes">
+      <source xml:space="preserve"><![CDATA[Somewhat Untrue]]></source>
+      <target state="translated"><![CDATA[Eher unwahr]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].elements[1].choices[2].text" resname="HomeCHAOS10" approved="yes">
+      <source xml:space="preserve"><![CDATA[Somewhat True]]></source>
+      <target state="translated"><![CDATA[Eher wahr]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].elements[1].choices[3].text" resname="HomeCHAOS10" approved="yes">
+      <source xml:space="preserve"><![CDATA[Definitely True]]></source>
+      <target state="translated"><![CDATA[Definitiv wahr]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].elements[2].title" resname="HomeCHAOS14" approved="yes">
+      <source xml:space="preserve"><![CDATA[The atmosphere in our home is calm.]]></source>
+      <target state="translated"><![CDATA[Die Atmosphäre in unserem Haus ist ruhig.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].elements[2].choices[0].text" resname="HomeCHAOS14" approved="yes">
+      <source xml:space="preserve"><![CDATA[Definitely Untrue]]></source>
+      <target state="translated"><![CDATA[Definitiv unwahr]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].elements[2].choices[1].text" resname="HomeCHAOS14" approved="yes">
+      <source xml:space="preserve"><![CDATA[Somewhat Untrue]]></source>
+      <target state="translated"><![CDATA[Eher unwahr]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].elements[2].choices[2].text" resname="HomeCHAOS14" approved="yes">
+      <source xml:space="preserve"><![CDATA[Somewhat True]]></source>
+      <target state="translated"><![CDATA[Eher wahr]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].elements[2].choices[3].text" resname="HomeCHAOS14" approved="yes">
+      <source xml:space="preserve"><![CDATA[Definitely True]]></source>
+      <target state="translated"><![CDATA[Definitiv wahr]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].elements[3].title" resname="HomeCHAOS15" approved="yes">
+      <source xml:space="preserve"><![CDATA[We have a regular morning routine at home.]]></source>
+      <target state="translated"><![CDATA[Wir haben zu Hause eine regelmäßige Morgenroutine.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].elements[3].choices[0].text" resname="HomeCHAOS15" approved="yes">
+      <source xml:space="preserve"><![CDATA[Definitely Untrue]]></source>
+      <target state="translated"><![CDATA[Definitiv unwahr]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].elements[3].choices[1].text" resname="HomeCHAOS15" approved="yes">
+      <source xml:space="preserve"><![CDATA[Somewhat Untrue]]></source>
+      <target state="translated"><![CDATA[Eher unwahr]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].elements[3].choices[2].text" resname="HomeCHAOS15" approved="yes">
+      <source xml:space="preserve"><![CDATA[Somewhat True]]></source>
+      <target state="translated"><![CDATA[Eher wahr]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[0].elements[3].choices[3].text" resname="HomeCHAOS15" approved="yes">
+      <source xml:space="preserve"><![CDATA[Definitely True]]></source>
+      <target state="translated"><![CDATA[Definitiv wahr]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[1].elements[0].title" resname="SelfParentStressNSCHh8" approved="yes">
+      <source xml:space="preserve"><![CDATA[How well do you think you are handling the day-to-day demands of raising children?]]></source>
+      <target state="translated"><![CDATA[Was glauben Sie, wie gut Sie mit den täglichen Anforderungen der Kindererziehung zurechtkommen?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[1].elements[0].choices[0].text" resname="SelfParentStressNSCHh8" approved="yes">
+      <source xml:space="preserve"><![CDATA[Very well]]></source>
+      <target state="translated"><![CDATA[Trifft voll und ganz zu]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[1].elements[0].choices[1].text" resname="SelfParentStressNSCHh8" approved="yes">
+      <source xml:space="preserve"><![CDATA[Somewhat well]]></source>
+      <target state="translated"><![CDATA[Trifft eher zu]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[1].elements[0].choices[2].text" resname="SelfParentStressNSCHh8" approved="yes">
+      <source xml:space="preserve"><![CDATA[Not very well]]></source>
+      <target state="translated"><![CDATA[Trifft eher nicht zu]]></target>
+    </trans-unit>
+    <trans-unit id="pages[2].elements[1].elements[0].choices[3].text" resname="SelfParentStressNSCHh8" approved="yes">
+      <source xml:space="preserve"><![CDATA[Not well at all]]></source>
+      <target state="translated"><![CDATA[Überhaupt nicht gut]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[0].title" resname="SelfAnxDep" approved="yes">
+      <source xml:space="preserve"><![CDATA[Over the <b>last two weeks</b>, how often have you been bothered by the following problems?]]></source>
+      <target state="translated"><![CDATA[Wie oft wurden Sie in den <b>letzten zwei Wochen</b> von den folgenden Problemen geplagt?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[0].columns[0].text" resname="SelfAnxDep" approved="yes">
+      <source xml:space="preserve"><![CDATA[Not at all]]></source>
+      <target state="translated"><![CDATA[Trifft überhaupt nicht zu]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[0].columns[1].text" resname="SelfAnxDep" approved="yes">
+      <source xml:space="preserve"><![CDATA[Several days]]></source>
+      <target state="translated"><![CDATA[Mehrere Tage]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[0].columns[2].text" resname="SelfAnxDep" approved="yes">
+      <source xml:space="preserve"><![CDATA[More than half of the days]]></source>
+      <target state="translated"><![CDATA[Mehr als die Hälfte der Tage]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[0].columns[3].text" resname="SelfAnxDep" approved="yes">
+      <source xml:space="preserve"><![CDATA[Nearly every day]]></source>
+      <target state="translated"><![CDATA[Fast jeden Tag]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[0].rows[0].text" resname="SelfAnxDep" approved="yes">
+      <source xml:space="preserve"><![CDATA[Feeling nervous, anxious, or on edge]]></source>
+      <target state="translated"><![CDATA[Sich nervös, ängstlich oder gereizt fühlen]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[0].rows[1].text" resname="SelfAnxDep" approved="yes">
+      <source xml:space="preserve"><![CDATA[Not being able to stop or control worrying]]></source>
+      <target state="translated"><![CDATA[Nicht in der Lage zu sein, das Grübeln zu beenden oder zu kontrollieren]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[0].rows[2].text" resname="SelfAnxDep" approved="yes">
+      <source xml:space="preserve"><![CDATA[Feeling down, depressed, or hopeless]]></source>
+      <target state="translated"><![CDATA[Sich niedergeschlagen, deprimiert oder hoffnungslos fühlen]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[0].rows[3].text" resname="SelfAnxDep" approved="yes">
+      <source xml:space="preserve"><![CDATA[Little interest or pleasure in doing things]]></source>
+      <target state="translated"><![CDATA[Wenig Interesse oder Freude am Tun]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[1].title" resname="SelfSupport" approved="yes">
+      <source xml:space="preserve"><![CDATA[We are interested in how you feel about the following statements. Read each statement carefully. Indicate how you feel about each statement.]]></source>
+      <target state="translated"><![CDATA[Uns interessiert, wie Sie zu den folgenden Aussagen stehen. Lesen Sie jede Aussage sorgfältig durch. Geben Sie an, wie Sie über jede Aussage denken.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[1].columns[0].text" resname="SelfSupport" approved="yes">
+      <source xml:space="preserve"><![CDATA[Very Strongly Disagree]]></source>
+      <target state="translated"><![CDATA[Sehr stark ablehnen]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[1].columns[1].text" resname="SelfSupport" approved="yes">
+      <source xml:space="preserve"><![CDATA[Strongly Disagree]]></source>
+      <target state="translated"><![CDATA[Stark ablehnen]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[1].columns[2].text" resname="SelfSupport" approved="yes">
+      <source xml:space="preserve"><![CDATA[Mildly Disagree]]></source>
+      <target state="translated"><![CDATA[Leicht ablehnen]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[1].columns[4].text" resname="SelfSupport" approved="yes">
+      <source xml:space="preserve"><![CDATA[Mildly Agree]]></source>
+      <target state="translated"><![CDATA[Leicht zustimmen]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[1].columns[5].text" resname="SelfSupport" approved="yes">
+      <source xml:space="preserve"><![CDATA[Strongly Agree]]></source>
+      <target state="translated"><![CDATA[Stark zustimmen]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[1].columns[6].text" resname="SelfSupport" approved="yes">
+      <source xml:space="preserve"><![CDATA[Very Strongly Agree]]></source>
+      <target state="translated"><![CDATA[Sehr stark zustimmen]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[1].rows[0].text" resname="SelfSupport" approved="yes">
+      <source xml:space="preserve"><![CDATA[There is a special person (ex: spouse, partner, etc.) who is around when I am in need.]]></source>
+      <target state="translated"><![CDATA[Es gibt eine besondere Person (z. B. Ehepartner, Partner usw.), die für mich da ist, wenn ich in Not bin.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[1].rows[1].text" resname="SelfSupport" approved="yes">
+      <source xml:space="preserve"><![CDATA[There is a special person (ex: spouse, partner, etc.) with whom I can share joys and sorrows.]]></source>
+      <target state="translated"><![CDATA[Es gibt eine besondere Person (z. B. Ehepartner, Partner usw.), mit der ich Freud und Leid teilen kann.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[1].rows[2].text" resname="SelfSupport" approved="yes">
+      <source xml:space="preserve"><![CDATA[My family really tries to help me.]]></source>
+      <target state="translated"><![CDATA[Meine Familie versucht wirklich, mir zu helfen.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[1].rows[3].text" resname="SelfSupport" approved="yes">
+      <source xml:space="preserve"><![CDATA[I get the emotional help & support I need from my family.]]></source>
+      <target state="translated"><![CDATA[Ich bekomme die emotionale Hilfe und Unterstützung, die ich brauche, von meiner Familie.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[1].rows[4].text" resname="SelfSupport" approved="yes">
+      <source xml:space="preserve"><![CDATA[I have a special person (ex: spouse, partner, etc.) who is a real source of comfort to me.]]></source>
+      <target state="translated"><![CDATA[Ich habe eine besondere Person (z. B. Ehepartner, Partner usw.), die mir wirklich Trost spendet.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[1].rows[5].text" resname="SelfSupport" approved="yes">
+      <source xml:space="preserve"><![CDATA[My friends really try to help me.]]></source>
+      <target state="translated"><![CDATA[Meine Freunde versuchen wirklich, mir zu helfen.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[1].rows[6].text" resname="SelfSupport" approved="yes">
+      <source xml:space="preserve"><![CDATA[I can count on my friends when things go wrong.]]></source>
+      <target state="translated"><![CDATA[Ich kann auf meine Freunde zählen, wenn etwas schief läuft.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[1].rows[7].text" resname="SelfSupport" approved="yes">
+      <source xml:space="preserve"><![CDATA[I can talk about my problems with my family.]]></source>
+      <target state="translated"><![CDATA[Ich kann über meine Probleme mit meiner Familie sprechen.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[1].rows[8].text" resname="SelfSupport" approved="yes">
+      <source xml:space="preserve"><![CDATA[I have friends with whom I can share my joys and sorrows.]]></source>
+      <target state="translated"><![CDATA[Ich habe Freunde, mit denen ich meine Freuden und Sorgen teilen kann.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[1].rows[9].text" resname="SelfSupport" approved="yes">
+      <source xml:space="preserve"><![CDATA[There is a special person (ex: spouse, partner, etc.) in my life who cares about my feelings.]]></source>
+      <target state="translated"><![CDATA[Es gibt eine besondere Person (z. B. Ehepartner, Partner usw.) in meinem Leben, die sich um meine Gefühle kümmert.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[1].rows[10].text" resname="SelfSupport" approved="yes">
+      <source xml:space="preserve"><![CDATA[My family is willing to help me make decisions.]]></source>
+      <target state="translated"><![CDATA[Meine Familie ist bereit, mir bei Entscheidungsfindungen zu helfen.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[1].rows[11].text" resname="SelfSupport" approved="yes">
+      <source xml:space="preserve"><![CDATA[I can talk about my problems with my friends.]]></source>
+      <target state="translated"><![CDATA[Ich kann mit meinen Freunden über meine Probleme sprechen.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[2].title" resname="SelfDiscrim" approved="yes">
+      <source xml:space="preserve"><![CDATA[In your day-to-day life how often have any of the following things happened to you?]]></source>
+      <target state="translated"><![CDATA[Wie oft ist Ihnen in Ihrem Alltag eines der folgenden Dinge passiert?]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[2].columns[0].text" resname="SelfDiscrim" approved="yes">
+      <source xml:space="preserve"><![CDATA[Never]]></source>
+      <target state="translated"><![CDATA[Nie]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[2].columns[1].text" resname="SelfDiscrim" approved="yes">
+      <source xml:space="preserve"><![CDATA[Less than once a year]]></source>
+      <target state="translated"><![CDATA[Weniger als einmal im Jahr]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[2].columns[2].text" resname="SelfDiscrim" approved="yes">
+      <source xml:space="preserve"><![CDATA[A few times a year]]></source>
+      <target state="translated"><![CDATA[Einige Male im Jahr]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[2].columns[3].text" resname="SelfDiscrim" approved="yes">
+      <source xml:space="preserve"><![CDATA[A few times a month]]></source>
+      <target state="translated"><![CDATA[Ein paar Mal im Monat]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[2].columns[4].text" resname="SelfDiscrim" approved="yes">
+      <source xml:space="preserve"><![CDATA[At least once a week]]></source>
+      <target state="translated"><![CDATA[Mindestens einmal in der Woche]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[2].columns[5].text" resname="SelfDiscrim" approved="yes">
+      <source xml:space="preserve"><![CDATA[Almost everyday]]></source>
+      <target state="translated"><![CDATA[Fast jeden Tag]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[2].rows[0].text" resname="SelfDiscrim" approved="yes">
+      <source xml:space="preserve"><![CDATA[You are treated with less courtesy or respect than other people.]]></source>
+      <target state="translated"><![CDATA[Sie werden mit weniger Höflichkeit oder Respekt behandelt als andere Menschen.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[2].rows[1].text" resname="SelfDiscrim" approved="yes">
+      <source xml:space="preserve"><![CDATA[You receive poorer service than other people at restaurants or stores.]]></source>
+      <target state="translated"><![CDATA[Sie werden in Restaurants oder Geschäften schlechter bedient als andere Menschen.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[2].rows[2].text" resname="SelfDiscrim" approved="yes">
+      <source xml:space="preserve"><![CDATA[People act as if they think you are not smart.]]></source>
+      <target state="translated"><![CDATA[Die Leute tun so, als ob sie der Meinung wären, dass sie nicht intelligent sind.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[2].rows[3].text" resname="SelfDiscrim" approved="yes">
+      <source xml:space="preserve"><![CDATA[People act as if they are afraid of you.]]></source>
+      <target state="translated"><![CDATA[Die Leute tun so, als hätten sie Angst vor Ihnen.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[3].elements[2].rows[4].text" resname="SelfDiscrim" approved="yes">
+      <source xml:space="preserve"><![CDATA[You are threatened or harassed.]]></source>
+      <target state="translated"><![CDATA[Sie werden bedroht oder belästigt.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].title" resname="SelfLifeChanges" approved="yes">
+      <source xml:space="preserve"><![CDATA[Please select Yes or No to indicate whether each event has happened to you <b>in the past year</b>.]]></source>
+      <target state="translated"><![CDATA[Bitte wählen Sie Ja oder Nein, um anzugeben, ob Ihnen das jeweilige Ereignis im vergangenen Jahr widerfahren ist.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[0].title" resname="SelfLifeChangesHealth" approved="yes">
+      <source xml:space="preserve"><![CDATA[Health:]]></source>
+      <target state="translated"><![CDATA[Gesundheit:]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[0].elements[0].title" resname="SelfLifeChanges1" approved="yes">
+      <source xml:space="preserve"><![CDATA[An injury or illness which kept you in bed a week or more, or sent you to the hospital.]]></source>
+      <target state="translated"><![CDATA[Eine Verletzung oder Krankheit, wegen der Sie mindestens eine Woche oder länger im Bett liegen mussten oder Sie ins Krankenhaus brachte.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[0].elements[0].labelTrue" resname="SelfLifeChanges1" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[0].elements[0].labelFalse" resname="SelfLifeChanges1" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[0].elements[1].title" resname="SelfLifeChanges2" approved="yes">
+      <source xml:space="preserve"><![CDATA[An injury or illness which was less serious than above but still sent you to the doctor or kept you in bed for a day or two.]]></source>
+      <target state="translated"><![CDATA[Eine Verletzung oder Erkrankung, die weniger schwerwiegend ist als die oben genannten, die aber dennoch einen Arztbesuch oder Bettruhe für ein oder zwei Tage erforderlich machte.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[0].elements[1].labelTrue" resname="SelfLifeChanges2" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[0].elements[1].labelFalse" resname="SelfLifeChanges2" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[0].elements[2].title" resname="SelfLifeChanges3" approved="yes">
+      <source xml:space="preserve"><![CDATA[Major dental work.]]></source>
+      <target state="translated"><![CDATA[Größere zahnärztliche Behandlungen.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[0].elements[2].labelTrue" resname="SelfLifeChanges3" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[0].elements[2].labelFalse" resname="SelfLifeChanges3" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[0].elements[3].title" resname="SelfLifeChanges4" approved="yes">
+      <source xml:space="preserve"><![CDATA[Major change in eating habits.]]></source>
+      <target state="translated"><![CDATA[Wesentliche Änderung der Essgewohnheiten.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[0].elements[3].labelTrue" resname="SelfLifeChanges4" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[0].elements[3].labelFalse" resname="SelfLifeChanges4" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[0].elements[4].title" resname="SelfLifeChanges5" approved="yes">
+      <source xml:space="preserve"><![CDATA[Major change in sleeping habits.]]></source>
+      <target state="translated"><![CDATA[Wesentliche Änderung der Schlafgewohnheiten.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[0].elements[4].labelTrue" resname="SelfLifeChanges5" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[0].elements[4].labelFalse" resname="SelfLifeChanges5" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[0].elements[5].title" resname="SelfLifeChanges6" approved="yes">
+      <source xml:space="preserve"><![CDATA[Major change in your usual type and/or amount of recreation.]]></source>
+      <target state="translated"><![CDATA[Wesentliche Änderung der Art und/oder des Umfangs Ihrer üblichen Freizeitgestaltung.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[0].elements[5].labelTrue" resname="SelfLifeChanges6" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[0].elements[5].labelFalse" resname="SelfLifeChanges6" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].title" resname="SelfLifeChangesWork" approved="yes">
+      <source xml:space="preserve"><![CDATA[Work:]]></source>
+      <target state="translated"><![CDATA[Arbeit:]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[0].title" resname="SelfLifeChanges7" approved="yes">
+      <source xml:space="preserve"><![CDATA[Change to a new type of work.]]></source>
+      <target state="translated"><![CDATA[Wechsel zu einer neuen Art von Arbeit.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[0].labelTrue" resname="SelfLifeChanges7" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[0].labelFalse" resname="SelfLifeChanges7" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[1].title" resname="SelfLifeChanges8" approved="yes">
+      <source xml:space="preserve"><![CDATA[Change in your work hours or conditions.]]></source>
+      <target state="translated"><![CDATA[Änderung der Arbeitszeiten oder -bedingungen.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[1].labelTrue" resname="SelfLifeChanges8" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[1].labelFalse" resname="SelfLifeChanges8" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[2].title" resname="SelfLifeChanges9" approved="yes">
+      <source xml:space="preserve"><![CDATA[Change in your responsibilities at work (more responsibilities).]]></source>
+      <target state="translated"><![CDATA[Änderung Ihrer Verantwortlichkeiten am Arbeitsplatz (mehr Verantwortung).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[2].labelTrue" resname="SelfLifeChanges9" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[2].labelFalse" resname="SelfLifeChanges9" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[3].title" resname="SelfLifeChanges10" approved="yes">
+      <source xml:space="preserve"><![CDATA[Change in your responsibilities at work (fewer responsibilities).]]></source>
+      <target state="translated"><![CDATA[Änderung Ihrer Verantwortlichkeiten am Arbeitsplatz (weniger Verantwortlichkeiten).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[3].labelTrue" resname="SelfLifeChanges10" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[3].labelFalse" resname="SelfLifeChanges10" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[4].title" resname="SelfLifeChanges11" approved="yes">
+      <source xml:space="preserve"><![CDATA[Change in your responsibilities at work (promotion).]]></source>
+      <target state="translated"><![CDATA[Änderung Ihrer Verantwortlichkeiten am Arbeitsplatz (Beförderung).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[4].labelTrue" resname="SelfLifeChanges11" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[4].labelFalse" resname="SelfLifeChanges11" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[5].title" resname="SelfLifeChanges12" approved="yes">
+      <source xml:space="preserve"><![CDATA[Change in your responsibilities at work (demotion).]]></source>
+      <target state="translated"><![CDATA[Änderung Ihrer Verantwortlichkeiten am Arbeitsplatz (Herunterstufung).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[5].labelTrue" resname="SelfLifeChanges12" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[5].labelFalse" resname="SelfLifeChanges12" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[6].title" resname="SelfLifeChanges13" approved="yes">
+      <source xml:space="preserve"><![CDATA[Change in your responsibilities at work (transfer).]]></source>
+      <target state="translated"><![CDATA[Änderung Ihrer Verantwortlichkeiten am Arbeitsplatz (Versetzung).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[6].labelTrue" resname="SelfLifeChanges13" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[6].labelFalse" resname="SelfLifeChanges13" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[7].title" resname="SelfLifeChanges14" approved="yes">
+      <source xml:space="preserve"><![CDATA[Troubles at work (with your boss).]]></source>
+      <target state="translated"><![CDATA[Probleme bei der Arbeit (mit Ihrem Chef).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[7].labelTrue" resname="SelfLifeChanges14" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[7].labelFalse" resname="SelfLifeChanges14" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[8].title" resname="SelfLifeChanges15" approved="yes">
+      <source xml:space="preserve"><![CDATA[Troubles at work (with your coworkers).]]></source>
+      <target state="translated"><![CDATA[Probleme bei der Arbeit (mit Ihren Kollegen).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[8].labelTrue" resname="SelfLifeChanges15" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[8].labelFalse" resname="SelfLifeChanges15" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[9].title" resname="SelfLifeChanges16" approved="yes">
+      <source xml:space="preserve"><![CDATA[Troubles at work (with persons under your supervision).]]></source>
+      <target state="translated"><![CDATA[Probleme bei der Arbeit (mit den Ihnen unterstellten Personen).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[9].labelTrue" resname="SelfLifeChanges16" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[9].labelFalse" resname="SelfLifeChanges16" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[10].title" resname="SelfLifeChanges17" approved="yes">
+      <source xml:space="preserve"><![CDATA[Other work problems.]]></source>
+      <target state="translated"><![CDATA[Andere Arbeitsprobleme.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[10].labelTrue" resname="SelfLifeChanges17" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[10].labelFalse" resname="SelfLifeChanges17" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[11].title" resname="SelfLifeChanges18" approved="yes">
+      <source xml:space="preserve"><![CDATA[Major business adjustment.]]></source>
+      <target state="translated"><![CDATA[Größere geschäftliche Anpassungen.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[11].labelTrue" resname="SelfLifeChanges18" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[11].labelFalse" resname="SelfLifeChanges18" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[12].title" resname="SelfLifeChanges19" approved="yes">
+      <source xml:space="preserve"><![CDATA[Retirement.]]></source>
+      <target state="translated"><![CDATA[Ruhestand.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[12].labelTrue" resname="SelfLifeChanges19" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[12].labelFalse" resname="SelfLifeChanges19" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[13].title" resname="SelfLifeChanges20" approved="yes">
+      <source xml:space="preserve"><![CDATA[Loss of a job (laid off from work).]]></source>
+      <target state="translated"><![CDATA[Verlust des Arbeitsplatzes (Entlassung).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[13].labelTrue" resname="SelfLifeChanges20" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[13].labelFalse" resname="SelfLifeChanges20" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[14].title" resname="SelfLifeChanges21" approved="yes">
+      <source xml:space="preserve"><![CDATA[Loss of a job (fired from work).]]></source>
+      <target state="translated"><![CDATA[Verlust des Arbeitsplatzes (gekündigt werden).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[14].labelTrue" resname="SelfLifeChanges21" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[14].labelFalse" resname="SelfLifeChanges21" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[15].title" resname="SelfLifeChanges22" approved="yes">
+      <source xml:space="preserve"><![CDATA[Taking a course to help you with your work.]]></source>
+      <target state="translated"><![CDATA[Teilnahme an einem Kurs, der Ihnen bei Ihrer Arbeit hilft.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[15].labelTrue" resname="SelfLifeChanges22" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[1].elements[15].labelFalse" resname="SelfLifeChanges22" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].title" resname="SelfLifeChangesHome" approved="yes">
+      <source xml:space="preserve"><![CDATA[Home and Family:]]></source>
+      <target state="translated"><![CDATA[Haus und Familie:]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[0].title" resname="SelfLifeChanges23" approved="yes">
+      <source xml:space="preserve"><![CDATA[Major change in living conditions.]]></source>
+      <target state="translated"><![CDATA[Wesentliche Änderung der Lebensumstände.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[0].labelTrue" resname="SelfLifeChanges23" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[0].labelFalse" resname="SelfLifeChanges23" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[1].title" resname="SelfLifeChanges24" approved="yes">
+      <source xml:space="preserve"><![CDATA[Change in residence (move within the same town or city).]]></source>
+      <target state="translated"><![CDATA[Wechsel des Wohnsitzes (Umzug innerhalb derselben Stadt).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[1].labelTrue" resname="SelfLifeChanges24" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[1].labelFalse" resname="SelfLifeChanges24" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[2].title" resname="SelfLifeChanges25" approved="yes">
+      <source xml:space="preserve"><![CDATA[Change in residence (move to a different town, city, or state).]]></source>
+      <target state="translated"><![CDATA[Änderung des Wohnsitzes (Umzug in eine andere Stadt oder ein anderes Bundesland).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[2].labelTrue" resname="SelfLifeChanges25" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[2].labelFalse" resname="SelfLifeChanges25" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[3].title" resname="SelfLifeChanges26" approved="yes">
+      <source xml:space="preserve"><![CDATA[Change in family get-togethers.]]></source>
+      <target state="translated"><![CDATA[Änderung der Familienzusammenkünfte.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[3].labelTrue" resname="SelfLifeChanges26" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[3].labelFalse" resname="SelfLifeChanges26" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[4].title" resname="SelfLifeChanges27" approved="yes">
+      <source xml:space="preserve"><![CDATA[Major change in health or behavior of family member.]]></source>
+      <target state="translated"><![CDATA[Wesentliche Änderung des Gesundheitszustands oder Verhaltens eines Familienmitglieds.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[4].labelTrue" resname="SelfLifeChanges27" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[4].labelFalse" resname="SelfLifeChanges27" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[5].title" resname="SelfLifeChanges28" approved="yes">
+      <source xml:space="preserve"><![CDATA[Marriage.]]></source>
+      <target state="translated"><![CDATA[Heirat.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[5].labelTrue" resname="SelfLifeChanges28" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[5].labelFalse" resname="SelfLifeChanges28" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[6].title" resname="SelfLifeChanges29" approved="yes">
+      <source xml:space="preserve"><![CDATA[Pregnancy.]]></source>
+      <target state="translated"><![CDATA[Schwangerschaft.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[6].labelTrue" resname="SelfLifeChanges29" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[6].labelFalse" resname="SelfLifeChanges29" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[7].title" resname="SelfLifeChanges31" approved="yes">
+      <source xml:space="preserve"><![CDATA[Gain of a new family member (birth of a child).]]></source>
+      <target state="translated"><![CDATA[Zuwachs eines neuen Familienmitglieds (Geburt eines Kindes).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[7].labelTrue" resname="SelfLifeChanges31" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[7].labelFalse" resname="SelfLifeChanges31" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[8].title" resname="SelfLifeChanges32" approved="yes">
+      <source xml:space="preserve"><![CDATA[Gain of a new family member (adoption of a child).]]></source>
+      <target state="translated"><![CDATA[Zuwachs eines neuen Familienmitglieds (Adoption eines Kindes).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[8].labelTrue" resname="SelfLifeChanges32" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[8].labelFalse" resname="SelfLifeChanges32" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[9].title" resname="SelfLifeChanges33" approved="yes">
+      <source xml:space="preserve"><![CDATA[Gain of a new family member (a relative moving in with you).]]></source>
+      <target state="translated"><![CDATA[Zuwachs eines neuen Familienmitglieds (ein Verwandter zieht bei Ihnen ein).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[9].labelTrue" resname="SelfLifeChanges33" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[9].labelFalse" resname="SelfLifeChanges33" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[10].title" resname="SelfLifeChanges34" approved="yes">
+      <source xml:space="preserve"><![CDATA[Spouse beginning or ending work.]]></source>
+      <target state="translated"><![CDATA[Ehepartner beginnt oder beendet seine Arbeit.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[10].labelTrue" resname="SelfLifeChanges34" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[10].labelFalse" resname="SelfLifeChanges34" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[11].title" resname="SelfLifeChanges35" approved="yes">
+      <source xml:space="preserve"><![CDATA[Child leaving home (to attend college).]]></source>
+      <target state="translated"><![CDATA[Kind verlässt das Haus (um ein Studium zu beginnen).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[11].labelTrue" resname="SelfLifeChanges35" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[11].labelFalse" resname="SelfLifeChanges35" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[12].title" resname="SelfLifeChanges36" approved="yes">
+      <source xml:space="preserve"><![CDATA[Child leaving home (due to marriage).]]></source>
+      <target state="translated"><![CDATA[Kind verlässt das Elternhaus (weil es heiratet).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[12].labelTrue" resname="SelfLifeChanges36" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[12].labelFalse" resname="SelfLifeChanges36" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[13].title" resname="SelfLifeChanges37" approved="yes">
+      <source xml:space="preserve"><![CDATA[Child leaving home (for other reasons).]]></source>
+      <target state="translated"><![CDATA[Kind verlässt das Haus (aus anderen Gründen).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[13].labelTrue" resname="SelfLifeChanges37" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[13].labelFalse" resname="SelfLifeChanges37" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[14].title" resname="SelfLifeChanges38" approved="yes">
+      <source xml:space="preserve"><![CDATA[Change in arguments with spouse.]]></source>
+      <target state="translated"><![CDATA[Änderung der Streitigkeiten mit dem Ehepartner.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[14].labelTrue" resname="SelfLifeChanges38" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[14].labelFalse" resname="SelfLifeChanges38" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[15].title" resname="SelfLifeChanges39" approved="yes">
+      <source xml:space="preserve"><![CDATA[In-law problems.]]></source>
+      <target state="translated"><![CDATA[Schwiegerelternprobleme.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[15].labelTrue" resname="SelfLifeChanges39" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[15].labelFalse" resname="SelfLifeChanges39" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[16].title" resname="SelfLifeChanges40" approved="yes">
+      <source xml:space="preserve"><![CDATA[Change to the marital status of your parents (divorce).]]></source>
+      <target state="translated"><![CDATA[Änderung des Ehestandes Ihrer Eltern (Scheidung).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[16].labelTrue" resname="SelfLifeChanges40" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[16].labelFalse" resname="SelfLifeChanges40" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[17].title" resname="SelfLifeChanges41" approved="yes">
+      <source xml:space="preserve"><![CDATA[Change to the marital status of your parents (remarriage).]]></source>
+      <target state="translated"><![CDATA[Änderung des Ehestandes Ihrer Eltern (erneute Heirat).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[17].labelTrue" resname="SelfLifeChanges41" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[17].labelFalse" resname="SelfLifeChanges41" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[18].title" resname="SelfLifeChanges42" approved="yes">
+      <source xml:space="preserve"><![CDATA[Separation from spouse (due to work).]]></source>
+      <target state="translated"><![CDATA[Trennung vom Ehepartner (aus beruflichen Gründen).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[18].labelTrue" resname="SelfLifeChanges42" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[18].labelFalse" resname="SelfLifeChanges42" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[19].title" resname="SelfLifeChanges43" approved="yes">
+      <source xml:space="preserve"><![CDATA[Separation from spouse (due to marital problems).]]></source>
+      <target state="translated"><![CDATA[Trennung vom Ehepartner (aufgrund von Eheproblemen).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[19].labelTrue" resname="SelfLifeChanges43" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[19].labelFalse" resname="SelfLifeChanges43" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[20].title" resname="SelfLifeChanges44" approved="yes">
+      <source xml:space="preserve"><![CDATA[Divorce.]]></source>
+      <target state="translated"><![CDATA[Scheidung.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[20].labelTrue" resname="SelfLifeChanges44" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[20].labelFalse" resname="SelfLifeChanges44" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[21].title" resname="SelfLifeChanges45" approved="yes">
+      <source xml:space="preserve"><![CDATA[Birth of a grandchild.]]></source>
+      <target state="translated"><![CDATA[Geburt eines Enkelkindes.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[21].labelTrue" resname="SelfLifeChanges45" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[21].labelFalse" resname="SelfLifeChanges45" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[22].title" resname="SelfLifeChanges46" approved="yes">
+      <source xml:space="preserve"><![CDATA[Death of a spouse.]]></source>
+      <target state="translated"><![CDATA[Tod eines Ehepartners.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[22].labelTrue" resname="SelfLifeChanges46" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[22].labelFalse" resname="SelfLifeChanges46" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[23].title" resname="SelfLifeChanges47" approved="yes">
+      <source xml:space="preserve"><![CDATA[Death of other family member (child).]]></source>
+      <target state="translated"><![CDATA[Tod eines anderen Familienmitglieds (Kind).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[23].labelTrue" resname="SelfLifeChanges47" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[23].labelFalse" resname="SelfLifeChanges47" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[24].title" resname="SelfLifeChanges48" approved="yes">
+      <source xml:space="preserve"><![CDATA[Death of other family member (brother or sister).]]></source>
+      <target state="translated"><![CDATA[Tod eines anderen Familienmitglieds (Bruder oder Schwester).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[24].labelTrue" resname="SelfLifeChanges48" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[24].labelFalse" resname="SelfLifeChanges48" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[25].title" resname="SelfLifeChanges49" approved="yes">
+      <source xml:space="preserve"><![CDATA[Death of other family member (parent).]]></source>
+      <target state="translated"><![CDATA[Tod eines anderen Familienmitglieds (Elternteil).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[25].labelTrue" resname="SelfLifeChanges49" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[2].elements[25].labelFalse" resname="SelfLifeChanges49" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].title" resname="SelfLifeChangesPersonal" approved="yes">
+      <source xml:space="preserve"><![CDATA[Personal and Social:]]></source>
+      <target state="translated"><![CDATA[Persönlich und sozial:]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[0].title" resname="SelfLifeChanges50" approved="yes">
+      <source xml:space="preserve"><![CDATA[Change in personal habits.]]></source>
+      <target state="translated"><![CDATA[Änderung der persönlichen Gewohnheiten.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[0].labelTrue" resname="SelfLifeChanges50" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[0].labelFalse" resname="SelfLifeChanges50" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[1].title" resname="SelfLifeChanges51" approved="yes">
+      <source xml:space="preserve"><![CDATA[Beginning or ending school or college.]]></source>
+      <target state="translated"><![CDATA[Beginn oder Ende der Schule oder des Studiums.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[1].labelTrue" resname="SelfLifeChanges51" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[1].labelFalse" resname="SelfLifeChanges51" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[2].title" resname="SelfLifeChanges52" approved="yes">
+      <source xml:space="preserve"><![CDATA[Change of school or college.]]></source>
+      <target state="translated"><![CDATA[Schul- oder Hochschulwechsel.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[2].labelTrue" resname="SelfLifeChanges52" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[2].labelFalse" resname="SelfLifeChanges52" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[3].title" resname="SelfLifeChanges53" approved="yes">
+      <source xml:space="preserve"><![CDATA[Change in political beliefs.]]></source>
+      <target state="translated"><![CDATA[Politische Überzeugung geändert.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[3].labelTrue" resname="SelfLifeChanges53" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[3].labelFalse" resname="SelfLifeChanges53" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[4].title" resname="SelfLifeChanges54" approved="yes">
+      <source xml:space="preserve"><![CDATA[Change in religious beliefs.]]></source>
+      <target state="translated"><![CDATA[Religiöse Überzeugung geändert.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[4].labelTrue" resname="SelfLifeChanges54" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[4].labelFalse" resname="SelfLifeChanges54" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[5].title" resname="SelfLifeChanges55" approved="yes">
+      <source xml:space="preserve"><![CDATA[Change in social activities.]]></source>
+      <target state="translated"><![CDATA[Änderung der sozialen Aktivitäten.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[5].labelTrue" resname="SelfLifeChanges55" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[5].labelFalse" resname="SelfLifeChanges55" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[6].title" resname="SelfLifeChanges56" approved="yes">
+      <source xml:space="preserve"><![CDATA[Vacation.]]></source>
+      <target state="translated"><![CDATA[Urlaub.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[6].labelTrue" resname="SelfLifeChanges56" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[6].labelFalse" resname="SelfLifeChanges56" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[7].title" resname="SelfLifeChanges57" approved="yes">
+      <source xml:space="preserve"><![CDATA[New, close, personal relationship.]]></source>
+      <target state="translated"><![CDATA[Neue, enge, persönliche Beziehung.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[7].labelTrue" resname="SelfLifeChanges57" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[7].labelFalse" resname="SelfLifeChanges57" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[8].title" resname="SelfLifeChanges58" approved="yes">
+      <source xml:space="preserve"><![CDATA[Engagement to marry.]]></source>
+      <target state="translated"><![CDATA[Verlobung und Heirat.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[8].labelTrue" resname="SelfLifeChanges58" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[8].labelFalse" resname="SelfLifeChanges58" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[9].title" resname="SelfLifeChanges59" approved="yes">
+      <source xml:space="preserve"><![CDATA[Girlfriend or boyfriend problems.]]></source>
+      <target state="translated"><![CDATA[Probleme mit der Freundin oder dem Freund.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[9].labelTrue" resname="SelfLifeChanges59" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[9].labelFalse" resname="SelfLifeChanges59" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[10].title" resname="SelfLifeChanges61" approved="yes">
+      <source xml:space="preserve"><![CDATA["Falling out" of a close personal relationship.]]></source>
+      <target state="translated"><![CDATA["Aussteigen" aus einer engen persönlichen Beziehung.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[10].labelTrue" resname="SelfLifeChanges61" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[10].labelFalse" resname="SelfLifeChanges61" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[11].title" resname="SelfLifeChanges62" approved="yes">
+      <source xml:space="preserve"><![CDATA[An accident.]]></source>
+      <target state="translated"><![CDATA[Ein Unfall.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[11].labelTrue" resname="SelfLifeChanges62" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[11].labelFalse" resname="SelfLifeChanges62" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[12].title" resname="SelfLifeChanges63" approved="yes">
+      <source xml:space="preserve"><![CDATA[Minor violation of the law.]]></source>
+      <target state="translated"><![CDATA[Geringfügiger Verstoß gegen das Gesetz.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[12].labelTrue" resname="SelfLifeChanges63" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[12].labelFalse" resname="SelfLifeChanges63" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[13].title" resname="SelfLifeChanges65" approved="yes">
+      <source xml:space="preserve"><![CDATA[Death of a close friend.]]></source>
+      <target state="translated"><![CDATA[Tod eines engen Freundes.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[13].labelTrue" resname="SelfLifeChanges65" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[13].labelFalse" resname="SelfLifeChanges65" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[14].title" resname="SelfLifeChanges66" approved="yes">
+      <source xml:space="preserve"><![CDATA[Major decision regarding your immediate future.]]></source>
+      <target state="translated"><![CDATA[Wichtige Entscheidung über Ihre unmittelbare Zukunft.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[14].labelTrue" resname="SelfLifeChanges66" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[14].labelFalse" resname="SelfLifeChanges66" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[15].title" resname="SelfLifeChanges67" approved="yes">
+      <source xml:space="preserve"><![CDATA[Major personal achievement.]]></source>
+      <target state="translated"><![CDATA[Großer persönlicher Erfolg.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[15].labelTrue" resname="SelfLifeChanges67" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[3].elements[15].labelFalse" resname="SelfLifeChanges67" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].title" resname="SelfLifeChangesFinancial" approved="yes">
+      <source xml:space="preserve"><![CDATA[Financial:]]></source>
+      <target state="translated"><![CDATA[Finanzen:]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[0].title" resname="SelfLifeChanges68" approved="yes">
+      <source xml:space="preserve"><![CDATA[Major change in finances (increased income).]]></source>
+      <target state="translated"><![CDATA[Größere Veränderung der Finanzen (höheres Einkommen).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[0].labelTrue" resname="SelfLifeChanges68" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[0].labelFalse" resname="SelfLifeChanges68" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[1].title" resname="SelfLifeChanges69" approved="yes">
+      <source xml:space="preserve"><![CDATA[Major change in finances (decreased income).]]></source>
+      <target state="translated"><![CDATA[Starke Veränderung der Finanzen (Einkommensrückgang).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[1].labelTrue" resname="SelfLifeChanges69" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[1].labelFalse" resname="SelfLifeChanges69" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[2].title" resname="SelfLifeChanges70" approved="yes">
+      <source xml:space="preserve"><![CDATA[Major change in finances (investment and/or credit difficulties).]]></source>
+      <target state="translated"><![CDATA[Größere Veränderung der Finanzen (Investitions- und/oder Kreditschwierigkeiten).]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[2].labelTrue" resname="SelfLifeChanges70" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[2].labelFalse" resname="SelfLifeChanges70" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[3].title" resname="SelfLifeChanges71" approved="yes">
+      <source xml:space="preserve"><![CDATA[Loss or damage of personal property.]]></source>
+      <target state="translated"><![CDATA[Verlust oder Beschädigung von persönlichem Eigentum.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[3].labelTrue" resname="SelfLifeChanges71" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[3].labelFalse" resname="SelfLifeChanges71" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[4].title" resname="SelfLifeChanges72" approved="yes">
+      <source xml:space="preserve"><![CDATA[Moderate purchase.]]></source>
+      <target state="translated"><![CDATA[Mittelgroße Anschaffung.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[4].labelTrue" resname="SelfLifeChanges72" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[4].labelFalse" resname="SelfLifeChanges72" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[5].title" resname="SelfLifeChanges73" approved="yes">
+      <source xml:space="preserve"><![CDATA[Major purchase.]]></source>
+      <target state="translated"><![CDATA[Größere Anschaffung.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[5].labelTrue" resname="SelfLifeChanges73" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[5].labelFalse" resname="SelfLifeChanges73" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[6].title" resname="SelfLifeChanges74" approved="yes">
+      <source xml:space="preserve"><![CDATA[Foreclosure on a mortgage or loan.]]></source>
+      <target state="translated"><![CDATA[Zwangsvollstreckung einer Hypothek oder eines Kredits.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[6].labelTrue" resname="SelfLifeChanges74" approved="yes">
+      <source xml:space="preserve"><![CDATA[Yes]]></source>
+      <target state="translated"><![CDATA[Ja]]></target>
+    </trans-unit>
+    <trans-unit id="pages[4].elements[0].elements[4].elements[6].labelFalse" resname="SelfLifeChanges74" approved="yes">
+      <source xml:space="preserve"><![CDATA[No]]></source>
+      <target state="translated"><![CDATA[Nein]]></target>
+    </trans-unit>
+    <trans-unit id="pages[5].elements[0].title" resname="SelfMcArthurCountry" approved="yes">
+      <source xml:space="preserve"><![CDATA[<b>Instructions:</b> Think of this line as representing where people stand in the <i>country where you live</i>. To the <b>right</b> are the people who are the best off - those who have the most money, the most education, and the most respected jobs. To the <b>left</b> are the people who are the worst off - those who have the least money, the least education, the least respected jobs, or no job. The further to the right you are on the line, the closer you are to the people at the very top; the further to the left you are, the closer you are to the people at the very bottom.<br><b>Where would you place yourself on this line?</b><br>Move the slider to where you think you stand at this time in your life relative to other people in your country.]]></source>
+      <target state="translated"><![CDATA[<b>Anweisungen:</b> Stellen Sie sich vor, dass diese Linie zeigt, wo sich die Menschen<i>in dem Land, in dem Sie leben, befinden</i>. Auf der <b>rechten</b> Seite befinden sich die Menschen, denen es am besten geht - diejenigen, die das meiste Geld, die beste Ausbildung und die angesehensten Arbeitsplätze haben. Auf der <b>linken</b> Seite befinden sich die Menschen, denen es am schlechtesten geht - diejenigen, die das wenigste Geld, die geringste Bildung, die am wenigsten angesehenen Arbeitsplätze oder gar keinen Arbeitsplatz haben.Je weiter rechts Sie sich auf der Linie befinden, desto näher sind Sie den Menschen ganz oben; je weiter links Sie sind, desto näher sind Sie den Menschen ganz unten.<br><b>Wo würden Sie sich selbst auf dieser Linie einordnen?</b><br>Bewegen Sie den Schieberegler dorthin, wo Sie Ihrer Meinung nach im Vergleich zu anderen Menschen in Ihrem Land derzeit stehen.]]></target>
+    </trans-unit>
+    <trans-unit id="pages[5].elements[1].title" resname="SelfMcArthurCommunity" approved="yes">
+      <source xml:space="preserve"><![CDATA[<b>Instructions:</b> Think of this line as representing where people stand in their <i>communities</i>. People define community in different ways; please define it in whatever way is most meaningful to you. To the <b>right</b> are people who have the highest standing in their community. To the <b>left</b> are the people who have the lowest standing in their community.<br><b>Where would you place yourself on this line?</b><br>Move the slider to where you think you stand at this time in your life relative to other people in your community.]]></source>
+      <target state="translated"><![CDATA[<b>Anweisungen:</b> Stellen Sie sich vor, dass diese Linie zeigt, wo die Menschen in ihren <i>Gemeinschaften</i> stehen. Menschen definieren Gemeinschaft auf unterschiedliche Weise; bitte definieren Sie sie so, wie es für Sie am sinnvollsten ist. Auf der <b>rechten</b> Seite stehen die Menschen, die den höchsten Stellenwert in ihrer Gemeinschaft haben. Auf der <b>linken</b> Seite befinden sich die Menschen, die den niedrigsten Stellenwert in ihrer Gemeinschaft haben.<br><b>Wo würden Sie sich auf dieser Linie einordnen?</b><br>Bewegen Sie den Schieberegler dorthin, wo Sie Ihrer Meinung nach im Vergleich zu den anderen Menschen in Ihrer Gemeinschaft stehen.]]></target>
+    </trans-unit>
+    <trans-unit id="startSurveyText" resname="" approved="yes">
+      <source xml:space="preserve"><![CDATA[Start Survey]]></source>
+      <target state="translated"><![CDATA[Start Survey]]></target>
+    </trans-unit>
+    <trans-unit id="pagePrevText" resname="" approved="yes">
+      <source xml:space="preserve"><![CDATA[Previous]]></source>
+      <target state="translated"><![CDATA[Previous]]></target>
+    </trans-unit>
+    <trans-unit id="pageNextText" resname="" approved="yes">
+      <source xml:space="preserve"><![CDATA[Next]]></source>
+      <target state="translated"><![CDATA[Next]]></target>
+    </trans-unit>
+    <trans-unit id="completeText" resname="" approved="yes">
+      <source xml:space="preserve"><![CDATA[Finish]]></source>
+      <target state="translated"><![CDATA[Finish]]></target>
+    </trans-unit>
+    </body>
+  </file>
+</xliff>
