@@ -54,6 +54,21 @@ This is a comprehensive TypeScript Vue.js application for managing surveys used 
 
 ## 🔄 Backup & Version Control System
 
+### Policy: No base 'es' in survey JSON
+- We do not store base Spanish (`es`) in survey JSON (only regional variants like `es-CO`, `es-AR`).
+- Guard command to enforce this:
+```bash
+npm run translations:guard:no-es
+```
+- Clean up a file if needed:
+```bash
+node scripts/remove-es-translations.js surveys/child_survey_updated.json
+```
+- Ensure English keys are present:
+```bash
+node scripts/ensure-english-keys.js surveys/child_survey_updated.json
+```
+
 > **Comprehensive backup system with automatic versioning and rollback capabilities**
 
 ### **📦 Automatic Backup Features**

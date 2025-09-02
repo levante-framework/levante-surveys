@@ -13,6 +13,7 @@
     "vercel-build": "npm run build-only",
     "preview": "vite preview",
     "build-only": "vite build",
+    "translations:guard:no-es": "node scripts/check-no-es.js",
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix",
     "download-surveys": "node scripts/download-surveys.js",

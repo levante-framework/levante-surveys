@@ -208,6 +208,8 @@ function updateMultilingualTexts(obj, translationsMap, elementName = '', results
       if (bestMatch) {
         // Update with Crowdin translations (avoid overwriting with English fallback)
         for (const [csvLang, jsonLang] of Object.entries(CSV_TO_JSON_MAPPING)) {
+          // Skip legacy base Spanish; we do not store 'es' in JSON
+          if (jsonLang === 'es') continue
           // Never overwrite base English in JSON
           if (jsonLang === 'default') continue
           const val = bestMatch[csvLang]
