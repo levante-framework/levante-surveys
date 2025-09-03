@@ -8,11 +8,11 @@
     </trans-unit>
     <trans-unit id="pages[1].elements[0].title" resname="CaregiverSectionIntro1" approved="yes">
       <source xml:space="preserve"><![CDATA[<block><b><font face="Verdana" size="4">This section asks general information questions and questions about your child's health.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[<block><b><font face="Verdana" size="4">This section asks general information questions and questions about your child's health.]]></target>
     </trans-unit>
     <trans-unit id="pages[1].elements[0].html" resname="CaregiverSectionIntro1" approved="yes">
       <source xml:space="preserve"><![CDATA[<block><b><font face="Verdana" size="4">This section asks general information questions and questions about your child's health.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[<block><b><font face="Verdana" size="4">This section asks general information questions and questions about your child's health.]]></target>
     </trans-unit>
     <trans-unit id="pages[1].elements[1].title" resname="RespondentRelationship" approved="yes">
       <source xml:space="preserve"><![CDATA[Please indicate your relationship to the child participating in this research project.]]></source>
@@ -35,11 +35,11 @@
       <target state="translated"><![CDATA[Step-father]]></target>
     </trans-unit>
     <trans-unit id="pages[1].elements[1].choices[4].text" resname="RespondentRelationship" approved="yes">
-      <source xml:space="preserve"><![CDATA[Abuela]]></source>
+      <source xml:space="preserve"><![CDATA[Großmutter]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[1].elements[1].choices[5].text" resname="RespondentRelationship" approved="yes">
-      <source xml:space="preserve"><![CDATA[Abuela]]></source>
+      <source xml:space="preserve"><![CDATA[Großmutter]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[1].elements[1].choices[6].text" resname="RespondentRelationship" approved="yes">
@@ -60,7 +60,7 @@
     </trans-unit>
     <trans-unit id="pages[1].elements[3].title" resname="RespondentTimeCaring" approved="yes">
       <source xml:space="preserve"><![CDATA[Please indicate for how long you have been caring for this child.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Please indicate for how long you have been caring for this child.]]></target>
     </trans-unit>
     <trans-unit id="pages[1].elements[3].items[0].placeholder" resname="RespondentTimeCaring" approved="yes">
       <source xml:space="preserve"><![CDATA[years]]></source>
@@ -123,11 +123,11 @@
       <target state="translated"><![CDATA[Was your child born early (more than three weeks before due date)?]]></target>
     </trans-unit>
     <trans-unit id="pages[1].elements[7].choices[0].text" resname="ChildBornEarly" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[1].elements[7].choices[1].text" resname="ChildBornEarly" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[1].elements[7].choices[2].text" resname="ChildBornEarly" approved="yes">
@@ -136,7 +136,7 @@
     </trans-unit>
     <trans-unit id="pages[1].elements[8].title" resname="ChildWeightBirth" approved="yes">
       <source xml:space="preserve"><![CDATA[How much did your child weigh at birth? (if you do not know, leave blank)]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[How much did your child weigh at birth? (if you do not know, leave blank)]]></target>
     </trans-unit>
     <trans-unit id="pages[1].elements[8].placeholder" resname="ChildWeightBirth" approved="yes">
       <source xml:space="preserve"><![CDATA[Grams]]></source>
@@ -219,11 +219,11 @@
       <target state="translated"><![CDATA[Breathing or other respiratory problems (such as wheezing or shortness of breath)]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[0].choices[0].text" resname="ChildBreathing" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[0].choices[1].text" resname="ChildBreathing" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[0].choices[2].text" resname="ChildBreathing" approved="yes">
@@ -235,11 +235,11 @@
       <target state="translated"><![CDATA[Eating or swallowing because of a health condition]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[1].choices[0].text" resname="ChildEating" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[1].choices[1].text" resname="ChildEating" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[1].choices[2].text" resname="ChildEating" approved="yes">
@@ -251,11 +251,11 @@
       <target state="translated"><![CDATA[Digesting food, including stomach/intestinal problems, constipation, or diarrhea]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[2].choices[0].text" resname="ChildDigestion" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[2].choices[1].text" resname="ChildDigestion" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[2].choices[2].text" resname="ChildDigestion" approved="yes">
@@ -264,14 +264,14 @@
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[3].title" resname="ChildPain" approved="yes">
       <source xml:space="preserve"><![CDATA[Repeated or chronic physical pain, including headaches or other back or body pain]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Repeated or chronic physical pain, including headaches or other back or body pain]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[3].choices[0].text" resname="ChildPain" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[3].choices[1].text" resname="ChildPain" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[3].choices[2].text" resname="ChildPain" approved="yes">
@@ -283,11 +283,11 @@
       <target state="translated"><![CDATA[Toothaches]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[4].choices[0].text" resname="ChildToothache" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[4].choices[1].text" resname="ChildToothache" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[4].choices[2].text" resname="ChildToothache" approved="yes">
@@ -299,11 +299,11 @@
       <target state="translated"><![CDATA[Bleeding gums]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[5].choices[0].text" resname="ChildGums" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[5].choices[1].text" resname="ChildGums" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[5].choices[2].text" resname="ChildGums" approved="yes">
@@ -315,11 +315,11 @@
       <target state="translated"><![CDATA[Decayed teeth or cavities]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[6].choices[0].text" resname="ChildCavities" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[6].choices[1].text" resname="ChildCavities" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[6].choices[2].text" resname="ChildCavities" approved="yes">
@@ -335,11 +335,11 @@
       <target state="translated"><![CDATA[Serious difficulty concentrating, remembering, or making decisions because of a physical, mental, or emotional condition]]></target>
     </trans-unit>
     <trans-unit id="pages[3].elements[0].elements[0].elements[0].choices[0].text" resname="ChildConcentration" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[3].elements[0].elements[0].elements[0].choices[1].text" resname="ChildConcentration" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[3].elements[0].elements[0].elements[0].choices[2].text" resname="ChildConcentration" approved="yes">
@@ -384,7 +384,7 @@
     </trans-unit>
     <trans-unit id="pages[3].elements[0].elements[0].elements[4].title" resname="ChildEyesight" approved="yes">
       <source xml:space="preserve"><![CDATA[Blindness or problems with seeing, even when wearing glasses]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Blindness or problems with seeing, even when wearing glasses]]></target>
     </trans-unit>
     <trans-unit id="pages[3].elements[0].elements[0].elements[4].labelTrue" resname="ChildEyesight" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
@@ -408,18 +408,18 @@
     </trans-unit>
     <trans-unit id="pages[3].elements[0].elements[2].title" resname="ChildVisionHearingExp" approved="yes">
       <source xml:space="preserve"><![CDATA[If yes, please explain:]]></source>
-      <target state="translated"><![CDATA[beschreiben Sie diese bitte:]]></target>
+      <target state="translated"><![CDATA[If yes, please explain:]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[0].title" resname="ChildGenetic" approved="yes">
       <source xml:space="preserve"><![CDATA[Has a doctor or other health care provider <b>EVER</b> told you that your child has a genetic or inherited condition?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Has a doctor or other health care provider <b>EVER</b> told you that your child has a genetic or inherited condition?]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[0].choices[0].text" resname="ChildGenetic" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[0].choices[1].text" resname="ChildGenetic" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[0].choices[2].text" resname="ChildGenetic" approved="yes">
@@ -432,7 +432,7 @@
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[1].title" resname="ChildGeneticExp" approved="yes">
       <source xml:space="preserve"><![CDATA[If yes, please note or explain the condition:]]></source>
-      <target state="translated"><![CDATA[benennen oder beschreiben Sie diese bitte:]]></target>
+      <target state="translated"><![CDATA[If yes, please note or explain the condition:]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].title" resname="ChildHealthConditions" approved="yes">
       <source xml:space="preserve"><![CDATA[Has a doctor or other health care provider, or educator <b>EVER</b> told you that your child has any of the following:]]></source>
@@ -472,7 +472,7 @@
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[2].title" resname="ChildConductLevel" approved="yes">
       <source xml:space="preserve"><![CDATA[Are the current Behavioral or Conduct Problems, Mild, Moderate, or Severe?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Are the current Behavioral or Conduct Problems, Mild, Moderate, or Severe?]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[2].choices[0].text" resname="ChildConductLevel" approved="yes">
       <source xml:space="preserve"><![CDATA[Mild]]></source>
@@ -491,11 +491,11 @@
       <target state="translated"><![CDATA[Developmental Delay]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[3].choices[0].text" resname="ChildDevDelay" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[3].choices[1].text" resname="ChildDevDelay" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[3].choices[2].text" resname="ChildDevDelay" approved="yes">
@@ -520,7 +520,7 @@
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[5].title" resname="ChildDevDelayLevel" approved="yes">
       <source xml:space="preserve"><![CDATA[Are the current Developmental Delays, Mild, Moderate, or Severe?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Are the current Developmental Delays, Mild, Moderate, or Severe?]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[5].choices[0].text" resname="ChildDevDelayLevel" approved="yes">
       <source xml:space="preserve"><![CDATA[Mild]]></source>
@@ -539,11 +539,11 @@
       <target state="translated"><![CDATA[Intellectual Disability]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[6].choices[0].text" resname="ChildIntellDis" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[6].choices[1].text" resname="ChildIntellDis" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[6].choices[2].text" resname="ChildIntellDis" approved="yes">
@@ -568,7 +568,7 @@
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[8].title" resname="ChildIntellDisLevel" approved="yes">
       <source xml:space="preserve"><![CDATA[Is the current Intellectual Disability, Mild, Moderate, or Severe?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Is the current Intellectual Disability, Mild, Moderate, or Severe?]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[8].choices[0].text" resname="ChildIntellDisLevel" approved="yes">
       <source xml:space="preserve"><![CDATA[Mild]]></source>
@@ -587,11 +587,11 @@
       <target state="translated"><![CDATA[Speech or other language disorder]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[9].choices[0].text" resname="ChildSpeechLang" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[9].choices[1].text" resname="ChildSpeechLang" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[9].choices[2].text" resname="ChildSpeechLang" approved="yes">
@@ -616,7 +616,7 @@
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[11].title" resname="ChildSpeechLangLevel" approved="yes">
       <source xml:space="preserve"><![CDATA[Is the current Speech or other language disorder, Mild, Moderate, or Severe?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Is the current Speech or other language disorder, Mild, Moderate, or Severe?]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[11].choices[0].text" resname="ChildSpeechLangLevel" approved="yes">
       <source xml:space="preserve"><![CDATA[Mild]]></source>
@@ -635,11 +635,11 @@
       <target state="translated"><![CDATA[Learning Disability]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[12].choices[0].text" resname="ChildLearnDis" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[12].choices[1].text" resname="ChildLearnDis" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[12].choices[2].text" resname="ChildLearnDis" approved="yes">
@@ -664,7 +664,7 @@
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[14].title" resname="ChildLearnDisLevel" approved="yes">
       <source xml:space="preserve"><![CDATA[Is the current Learning Disability, Mild, Moderate, or Severe?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Is the current Learning Disability, Mild, Moderate, or Severe?]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[14].choices[0].text" resname="ChildLearnDisLevel" approved="yes">
       <source xml:space="preserve"><![CDATA[Mild]]></source>
@@ -683,11 +683,11 @@
       <target state="translated"><![CDATA[Autism Spectrum Disorder (ASD) <br>(includes Asperger's Disorder or Pervasive Developmental Disorder (PDD))]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[15].choices[0].text" resname="ChildAutism" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[15].choices[1].text" resname="ChildAutism" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[15].choices[2].text" resname="ChildAutism" approved="yes">
@@ -712,7 +712,7 @@
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[17].title" resname="ChildAutismLevel" approved="yes">
       <source xml:space="preserve"><![CDATA[Is the current Autism Spectrum Disorder (includes Asperger's Disorder or Pervasive Developmental Disorder), Mild, Moderate, or Severe?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Is the current Autism Spectrum Disorder (includes Asperger's Disorder or Pervasive Developmental Disorder), Mild, Moderate, or Severe?]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[17].choices[0].text" resname="ChildAutismLevel" approved="yes">
       <source xml:space="preserve"><![CDATA[Mild]]></source>
@@ -731,11 +731,11 @@
       <target state="translated"><![CDATA[Attention Deficit Disorder or Attention Deficit Hyperactivity Disorder (ADD or ADHD)]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[18].choices[0].text" resname="ChildADHD" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[18].choices[1].text" resname="ChildADHD" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[18].choices[2].text" resname="ChildADHD" approved="yes">
@@ -760,7 +760,7 @@
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[20].title" resname="ChildADHDLevel" approved="yes">
       <source xml:space="preserve"><![CDATA[Is the current Attention Deficit Disorder or Attention Deficit Hyperactivity Disorder (ADD or ADHD), Mild, Moderate, or Severe?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Is the current Attention Deficit Disorder or Attention Deficit Hyperactivity Disorder (ADD or ADHD), Mild, Moderate, or Severe?]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[20].choices[0].text" resname="ChildADHDLevel" approved="yes">
       <source xml:space="preserve"><![CDATA[Mild]]></source>
@@ -779,11 +779,11 @@
       <target state="translated"><![CDATA[What was your child's sex at birth (i.e. on their birth certificate)?]]></target>
     </trans-unit>
     <trans-unit id="pages[5].elements[0].choices[0].text" resname="ChildSexBirth" approved="yes">
-      <source xml:space="preserve"><![CDATA[Mujer]]></source>
+      <source xml:space="preserve"><![CDATA[Weiblich]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[5].elements[0].choices[1].text" resname="ChildSexBirth" approved="yes">
-      <source xml:space="preserve"><![CDATA[Mujer]]></source>
+      <source xml:space="preserve"><![CDATA[Weiblich]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[5].elements[0].otherText" resname="ChildSexBirth" approved="yes">
@@ -812,7 +812,7 @@
     </trans-unit>
     <trans-unit id="pages[5].elements[3].title" resname="ChildBehGirls" approved="yes">
       <source xml:space="preserve"><![CDATA[Over the last year, how frequently did your child engage in behaviors or express preferences that are more commonly associated with girls?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Over the last year, how frequently did your child engage in behaviors or express preferences that are more commonly associated with girls?]]></target>
     </trans-unit>
     <trans-unit id="pages[5].elements[3].choices[0].text" resname="ChildBehGirls" approved="yes">
       <source xml:space="preserve"><![CDATA[Never]]></source>
@@ -836,7 +836,7 @@
     </trans-unit>
     <trans-unit id="pages[5].elements[4].title" resname="ChildBeGirl" approved="yes">
       <source xml:space="preserve"><![CDATA[Over the last year, how frequently did your child state that they are, or want to be, a girl?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Over the last year, how frequently did your child state that they are, or want to be, a girl?]]></target>
     </trans-unit>
     <trans-unit id="pages[5].elements[4].choices[0].text" resname="ChildBeGirl" approved="yes">
       <source xml:space="preserve"><![CDATA[Never]]></source>
@@ -860,7 +860,7 @@
     </trans-unit>
     <trans-unit id="pages[5].elements[5].title" resname="ChildBehBoys" approved="yes">
       <source xml:space="preserve"><![CDATA[Over the last year, how frequently did your child engage in behaviors or express preferences that are more commonly associated with boys?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Over the last year, how frequently did your child engage in behaviors or express preferences that are more commonly associated with boys?]]></target>
     </trans-unit>
     <trans-unit id="pages[5].elements[5].choices[0].text" resname="ChildBehBoys" approved="yes">
       <source xml:space="preserve"><![CDATA[Never]]></source>
@@ -884,7 +884,7 @@
     </trans-unit>
     <trans-unit id="pages[5].elements[6].title" resname="ChildBeBoy" approved="yes">
       <source xml:space="preserve"><![CDATA[Over the last year, how frequently did your child state that they are, or want to be, a boy?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Over the last year, how frequently did your child state that they are, or want to be, a boy?]]></target>
     </trans-unit>
     <trans-unit id="pages[5].elements[6].choices[0].text" resname="ChildBeBoy" approved="yes">
       <source xml:space="preserve"><![CDATA[Never]]></source>
@@ -928,7 +928,7 @@
     </trans-unit>
     <trans-unit id="pages[6].elements[1].elements[0].choices[0].text" resname="ChildPubertyGrowthFemale" approved="yes">
       <source xml:space="preserve"><![CDATA[Has not yet begun to spurt ("spurt" means more growth than usual)]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Has not yet begun to spurt ("spurt" means more growth than usual)]]></target>
     </trans-unit>
     <trans-unit id="pages[6].elements[1].elements[0].choices[1].text" resname="ChildPubertyGrowthFemale" approved="yes">
       <source xml:space="preserve"><![CDATA[Has barely started to spurt]]></source>
@@ -944,7 +944,7 @@
     </trans-unit>
     <trans-unit id="pages[6].elements[1].elements[1].title" resname="ChildPubertyHairFemale" approved="yes">
       <source xml:space="preserve"><![CDATA[How about the growth of body hair (e.g. under arms)? Would you say your child's body hair:]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[How about the growth of body hair (e.g. under arms)? Would you say your child's body hair:]]></target>
     </trans-unit>
     <trans-unit id="pages[6].elements[1].elements[1].choices[0].text" resname="ChildPubertyHairFemale" approved="yes">
       <source xml:space="preserve"><![CDATA[Has not started growing]]></source>
@@ -972,11 +972,11 @@
     </trans-unit>
     <trans-unit id="pages[6].elements[1].elements[2].choices[1].text" resname="ChildPubertySkinFemale" approved="yes">
       <source xml:space="preserve"><![CDATA[Have barely started showing changes]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Have barely started showing changes]]></target>
     </trans-unit>
     <trans-unit id="pages[6].elements[1].elements[2].choices[2].text" resname="ChildPubertySkinFemale" approved="yes">
       <source xml:space="preserve"><![CDATA[Skin changes have definitely started but are not finished]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Skin changes have definitely started but are not finished]]></target>
     </trans-unit>
     <trans-unit id="pages[6].elements[1].elements[2].choices[3].text" resname="ChildPubertySkinFemale" approved="yes">
       <source xml:space="preserve"><![CDATA[Skin changes seem completed]]></source>
@@ -996,7 +996,7 @@
     </trans-unit>
     <trans-unit id="pages[6].elements[1].elements[3].choices[2].text" resname="ChildPubertyBreastFemale" approved="yes">
       <source xml:space="preserve"><![CDATA[Breast growth has definitely started but is not finished]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Breast growth has definitely started but is not finished]]></target>
     </trans-unit>
     <trans-unit id="pages[6].elements[1].elements[3].choices[3].text" resname="ChildPubertyBreastFemale" approved="yes">
       <source xml:space="preserve"><![CDATA[Breast growth seems completed]]></source>
@@ -1032,7 +1032,7 @@
     </trans-unit>
     <trans-unit id="pages[6].elements[2].elements[0].choices[0].text" resname="ChildPubertyGrowthMale" approved="yes">
       <source xml:space="preserve"><![CDATA[Has not yet begun to spurt ("spurt" means more growth than usual)]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Has not yet begun to spurt ("spurt" means more growth than usual)]]></target>
     </trans-unit>
     <trans-unit id="pages[6].elements[2].elements[0].choices[1].text" resname="ChildPubertyGrowthMale" approved="yes">
       <source xml:space="preserve"><![CDATA[Has barely started to spurt]]></source>
@@ -1048,7 +1048,7 @@
     </trans-unit>
     <trans-unit id="pages[6].elements[2].elements[1].title" resname="ChildPubertyHairMale" approved="yes">
       <source xml:space="preserve"><![CDATA[How about the growth of body hair (e.g. under arms)? Would you say your child's body hair:]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[How about the growth of body hair (e.g. under arms)? Would you say your child's body hair:]]></target>
     </trans-unit>
     <trans-unit id="pages[6].elements[2].elements[1].choices[0].text" resname="ChildPubertyHairMale" approved="yes">
       <source xml:space="preserve"><![CDATA[Has not started growing]]></source>
@@ -1080,7 +1080,7 @@
     </trans-unit>
     <trans-unit id="pages[6].elements[2].elements[2].choices[2].text" resname="ChildPubertySkinMale" approved="yes">
       <source xml:space="preserve"><![CDATA[Skin changes have definitely started but are not finished]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Skin changes have definitely started but are not finished]]></target>
     </trans-unit>
     <trans-unit id="pages[6].elements[2].elements[2].choices[3].text" resname="ChildPubertySkinMale" approved="yes">
       <source xml:space="preserve"><![CDATA[Skin changes seem completed]]></source>
@@ -1088,19 +1088,19 @@
     </trans-unit>
     <trans-unit id="pages[6].elements[2].elements[3].title" resname="ChildPubertyVoiceMale" approved="yes">
       <source xml:space="preserve"><![CDATA[Has your child's voice started to change?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Has your child's voice started to change?]]></target>
     </trans-unit>
     <trans-unit id="pages[6].elements[2].elements[3].choices[0].text" resname="ChildPubertyVoiceMale" approved="yes">
       <source xml:space="preserve"><![CDATA[Not yet started to change]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Not yet started to change]]></target>
     </trans-unit>
     <trans-unit id="pages[6].elements[2].elements[3].choices[1].text" resname="ChildPubertyVoiceMale" approved="yes">
       <source xml:space="preserve"><![CDATA[Has barely started changing]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Has barely started changing]]></target>
     </trans-unit>
     <trans-unit id="pages[6].elements[2].elements[3].choices[2].text" resname="ChildPubertyVoiceMale" approved="yes">
       <source xml:space="preserve"><![CDATA[Voice change is definitely happening but is not finished]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Voice change is definitely happening but is not finished]]></target>
     </trans-unit>
     <trans-unit id="pages[6].elements[2].elements[3].choices[3].text" resname="ChildPubertyVoiceMale" approved="yes">
       <source xml:space="preserve"><![CDATA[Voice change seems completed]]></source>
@@ -1120,11 +1120,11 @@
     </trans-unit>
     <trans-unit id="pages[6].elements[2].elements[4].choices[2].text" resname="ChildPubertyFaceHairMale" approved="yes">
       <source xml:space="preserve"><![CDATA[Hair growth has definitely started (enough to shave)]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Hair growth has definitely started (enough to shave)]]></target>
     </trans-unit>
     <trans-unit id="pages[6].elements[2].elements[4].choices[3].text" resname="ChildPubertyFaceHairMale" approved="yes">
       <source xml:space="preserve"><![CDATA[Probably grows now as fast as it will ever grow]]></source>
-      <target state="translated"><![CDATA[wie es maximal wachsen kann]]></target>
+      <target state="translated"><![CDATA[Probably grows now as fast as it will ever grow]]></target>
     </trans-unit>
     <trans-unit id="pages[7].elements[0].title" resname="ChildSleep" approved="yes">
       <source xml:space="preserve"><![CDATA[Please respond to each statement about your child's sleep habits.]]></source>
@@ -1152,7 +1152,7 @@
     </trans-unit>
     <trans-unit id="pages[7].elements[0].elements[0].rows[1].text" resname="ChildSleepHabits" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child had difficulty sleeping through the night (woke up once or more during the night).]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child had difficulty sleeping through the night (woke up once or more during the night).]]></target>
     </trans-unit>
     <trans-unit id="pages[7].elements[0].elements[0].rows[2].text" resname="ChildSleepHabits" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child went to bed at about the same time on the weeknights (Monday-Friday).]]></source>
@@ -1196,7 +1196,7 @@
     </trans-unit>
     <trans-unit id="pages[8].elements[1].elements[0].title" resname="ChildSDQitems" approved="yes">
       <source xml:space="preserve"><![CDATA[For each item, please mark "Not at all", "Not very well", "Somewhat well", or "Very well" to indicate <i>how well</i> the sentence applies to your child. Please answer all items as best you can even if you are not absolutely certain.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[For each item, please mark "Not at all", "Not very well", "Somewhat well", or "Very well" to indicate <i>how well</i> the sentence applies to your child. Please answer all items as best you can even if you are not absolutely certain.]]></target>
     </trans-unit>
     <trans-unit id="pages[8].elements[1].elements[0].columns[0].text" resname="ChildSDQitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Not at all]]></source>
@@ -1216,7 +1216,7 @@
     </trans-unit>
     <trans-unit id="pages[8].elements[1].elements[0].rows[0].text" resname="ChildSDQitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child has difficulty staying still or shows periods of over-activity.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child has difficulty staying still or shows periods of over-activity.]]></target>
     </trans-unit>
     <trans-unit id="pages[8].elements[1].elements[0].rows[1].text" resname="ChildSDQitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child often complains about feeling sick (ex: headache, stomach ache).]]></source>
@@ -1240,7 +1240,7 @@
     </trans-unit>
     <trans-unit id="pages[8].elements[1].elements[0].rows[6].text" resname="ChildSDQitems" approved="yes">
       <source xml:space="preserve"><![CDATA[You child often seems sad, depressed, or down.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[You child often seems sad, depressed, or down.]]></target>
     </trans-unit>
     <trans-unit id="pages[8].elements[1].elements[0].rows[7].text" resname="ChildSDQitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child gets along with other children.]]></source>
@@ -1248,7 +1248,7 @@
     </trans-unit>
     <trans-unit id="pages[8].elements[1].elements[0].rows[8].text" resname="ChildSDQitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child gets distracted easily or has trouble staying on task.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child gets distracted easily or has trouble staying on task.]]></target>
     </trans-unit>
     <trans-unit id="pages[8].elements[1].elements[0].rows[9].text" resname="ChildSDQitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child is shy or clingy.]]></source>
@@ -1260,11 +1260,11 @@
     </trans-unit>
     <trans-unit id="pages[8].elements[1].elements[0].rows[11].text" resname="ChildSDQitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child often shows dishonest behavior (e.g. lying, cheating).]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child often shows dishonest behavior (e.g. lying, cheating).]]></target>
     </trans-unit>
     <trans-unit id="pages[8].elements[1].elements[0].rows[12].text" resname="ChildSDQitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child has taken things without permission from home, school, or elsewhere.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child has taken things without permission from home, school, or elsewhere.]]></target>
     </trans-unit>
     <trans-unit id="pages[8].elements[1].elements[0].rows[13].text" resname="ChildSDQitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child prefers adults to children.]]></source>
@@ -1276,7 +1276,7 @@
     </trans-unit>
     <trans-unit id="pages[9].elements[0].elements[0].title" resname="ChildSCSitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Please indicate <i>how well</i> each statement describes your child.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Please indicate <i>how well</i> each statement describes your child.]]></target>
     </trans-unit>
     <trans-unit id="pages[9].elements[0].elements[0].columns[0].text" resname="ChildSCSitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Not at all]]></source>
@@ -1296,7 +1296,7 @@
     </trans-unit>
     <trans-unit id="pages[9].elements[0].elements[0].rows[0].text" resname="ChildSCSitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child accepts things when they do not go their way.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child accepts things when they do not go their way.]]></target>
     </trans-unit>
     <trans-unit id="pages[9].elements[0].elements[0].rows[1].text" resname="ChildSCSitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child copes well with failure.]]></source>
@@ -1304,7 +1304,7 @@
     </trans-unit>
     <trans-unit id="pages[9].elements[0].elements[0].rows[2].text" resname="ChildSCSitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child thinks before acting.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child thinks before acting.]]></target>
     </trans-unit>
     <trans-unit id="pages[9].elements[0].elements[0].rows[3].text" resname="ChildSCSitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child resolves problems with friends on their own.]]></source>
@@ -1312,19 +1312,19 @@
     </trans-unit>
     <trans-unit id="pages[9].elements[0].elements[0].rows[4].text" resname="ChildSCSitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child can calm down when excited.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child can calm down when excited.]]></target>
     </trans-unit>
     <trans-unit id="pages[9].elements[0].elements[0].rows[5].text" resname="ChildSCSitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child does what they are told to do.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child does what they are told to do.]]></target>
     </trans-unit>
     <trans-unit id="pages[9].elements[0].elements[0].rows[6].text" resname="ChildSCSitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child is good at understanding others' feelings.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child is good at understanding others' feelings.]]></target>
     </trans-unit>
     <trans-unit id="pages[9].elements[0].elements[0].rows[7].text" resname="ChildSCSitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child controls their temper when there is a disagreement.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child controls their temper when there is a disagreement.]]></target>
     </trans-unit>
     <trans-unit id="pages[9].elements[0].elements[0].rows[8].text" resname="ChildSCSitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child shares things with others.]]></source>
@@ -1340,11 +1340,11 @@
     </trans-unit>
     <trans-unit id="pages[9].elements[0].elements[0].rows[11].text" resname="ChildSCSitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child can give suggestions without being bossy.]]></source>
-      <target state="translated"><![CDATA[ohne bestimmerisch zu sein.]]></target>
+      <target state="translated"><![CDATA[Your child can give suggestions without being bossy.]]></target>
     </trans-unit>
     <trans-unit id="pages[10].elements[0].elements[0].title" resname="ChildCBQitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Please indicate <i>how well</i> each statement describes your child.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Please indicate <i>how well</i> each statement describes your child.]]></target>
     </trans-unit>
     <trans-unit id="pages[10].elements[0].elements[0].columns[0].text" resname="ChildCBQitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Not at all]]></source>
@@ -1368,11 +1368,11 @@
     </trans-unit>
     <trans-unit id="pages[10].elements[0].elements[0].rows[1].text" resname="ChildCBQitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child is socially aware of what is happening in a situation.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child is socially aware of what is happening in a situation.]]></target>
     </trans-unit>
     <trans-unit id="pages[10].elements[0].elements[0].rows[2].text" resname="ChildCBQitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child accurately interprets what a peer is trying to do.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child accurately interprets what a peer is trying to do.]]></target>
     </trans-unit>
     <trans-unit id="pages[10].elements[0].elements[0].rows[3].text" resname="ChildCBQitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child exhibits good self-control in responding.]]></source>
@@ -1388,11 +1388,11 @@
     </trans-unit>
     <trans-unit id="pages[10].elements[0].elements[0].rows[6].text" resname="ChildCBQitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child is aware of the effects of his/her behavior on others.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child is aware of the effects of his/her behavior on others.]]></target>
     </trans-unit>
     <trans-unit id="pages[10].elements[0].elements[0].rows[7].text" resname="ChildCBQitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child tries to make sad people happier.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child tries to make sad people happier.]]></target>
     </trans-unit>
     <trans-unit id="pages[10].elements[0].elements[0].rows[8].text" resname="ChildCBQitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child helps others with their homework.]]></source>
@@ -1404,7 +1404,7 @@
     </trans-unit>
     <trans-unit id="pages[11].elements[0].elements[0].title" resname="ChildJukesItems" approved="yes">
       <source xml:space="preserve"><![CDATA[Please indicate <i>how well</i> each statement describes your child.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Please indicate <i>how well</i> each statement describes your child.]]></target>
     </trans-unit>
     <trans-unit id="pages[11].elements[0].elements[0].columns[0].text" resname="ChildJukesItems" approved="yes">
       <source xml:space="preserve"><![CDATA[Not at all]]></source>
@@ -1428,11 +1428,11 @@
     </trans-unit>
     <trans-unit id="pages[11].elements[0].elements[0].rows[1].text" resname="ChildJukesItems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child is able to make observations and deductions before being told an answer.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child is able to make observations and deductions before being told an answer.]]></target>
     </trans-unit>
     <trans-unit id="pages[11].elements[0].elements[0].rows[2].text" resname="ChildJukesItems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child gives unique responses that go beyond those of other children.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child gives unique responses that go beyond those of other children.]]></target>
     </trans-unit>
     <trans-unit id="pages[11].elements[0].elements[0].rows[3].text" resname="ChildJukesItems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child often wants to learn new things.]]></source>
@@ -1440,7 +1440,7 @@
     </trans-unit>
     <trans-unit id="pages[11].elements[0].elements[0].rows[4].text" resname="ChildJukesItems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child investigates new objects that appear in the household or community spaces.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child investigates new objects that appear in the household or community spaces.]]></target>
     </trans-unit>
     <trans-unit id="pages[11].elements[0].elements[0].rows[5].text" resname="ChildJukesItems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child likes to ask many questions.]]></source>
@@ -1448,7 +1448,7 @@
     </trans-unit>
     <trans-unit id="pages[11].elements[0].elements[0].rows[6].text" resname="ChildJukesItems" approved="yes">
       <source xml:space="preserve"><![CDATA[If your child makes a mistake, they ask forgiveness.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[If your child makes a mistake, they ask forgiveness.]]></target>
     </trans-unit>
     <trans-unit id="pages[11].elements[0].elements[0].rows[7].text" resname="ChildJukesItems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child often plans their own tasks well.]]></source>
@@ -1456,7 +1456,7 @@
     </trans-unit>
     <trans-unit id="pages[11].elements[0].elements[0].rows[8].text" resname="ChildJukesItems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child completes their own work without being asked or reminded to do so.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child completes their own work without being asked or reminded to do so.]]></target>
     </trans-unit>
     <trans-unit id="pages[11].elements[0].elements[0].rows[9].text" resname="ChildJukesItems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child works diligently when trying to complete tasks or chores.]]></source>
@@ -1464,23 +1464,23 @@
     </trans-unit>
     <trans-unit id="pages[11].elements[0].elements[0].rows[10].text" resname="ChildJukesItems" approved="yes">
       <source xml:space="preserve"><![CDATA[If your child cannot do something, they try again.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[If your child cannot do something, they try again.]]></target>
     </trans-unit>
     <trans-unit id="pages[11].elements[0].elements[0].rows[11].text" resname="ChildJukesItems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child likes to finish tasks properly.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child likes to finish tasks properly.]]></target>
     </trans-unit>
     <trans-unit id="pages[11].elements[0].elements[0].rows[12].text" resname="ChildJukesItems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child is slow and unhurried in deciding what to do next.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child is slow and unhurried in deciding what to do next.]]></target>
     </trans-unit>
     <trans-unit id="pages[11].elements[0].elements[0].rows[13].text" resname="ChildJukesItems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child continues with a task even when it is tiring.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child continues with a task even when it is tiring.]]></target>
     </trans-unit>
     <trans-unit id="pages[11].elements[0].elements[0].rows[14].text" resname="ChildJukesItems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child easily agrees to do tasks or errands.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Your child easily agrees to do tasks or errands.]]></target>
     </trans-unit>
     <trans-unit id="pages[11].elements[0].elements[0].rows[15].text" resname="ChildJukesItems" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child willingly follows instructions.]]></source>
@@ -1504,7 +1504,7 @@
     </trans-unit>
     <trans-unit id="pages[11].elements[1].title" resname="ChildFriends" approved="yes">
       <source xml:space="preserve"><![CDATA[Compared to other children their age, how much difficulty does your child have making or keeping friends?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Compared to other children their age, how much difficulty does your child have making or keeping friends?]]></target>
     </trans-unit>
     <trans-unit id="pages[11].elements[1].choices[0].text" resname="ChildFriends" approved="yes">
       <source xml:space="preserve"><![CDATA[No difficulty]]></source>
@@ -1574,7 +1574,9 @@
       <source xml:space="preserve"><![CDATA[If your child is in primary/elementary school (first grade or higher), think about the time before they started primary/elementary school. If your child has not yet started primary/elementary school, think about what happens right now.
 <br><br>
 <b>How often did/do you or someone else in your home do the following activities with your child?</b>]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[If your child is in primary/elementary school (first grade or higher), think about the time before they started primary/elementary school. If your child has not yet started primary/elementary school, think about what happens right now.
+<br><br>
+<b>How often did/do you or someone else in your home do the following activities with your child?</b>]]></target>
     </trans-unit>
     <trans-unit id="pages[12].elements[1].columns[0].text" resname="ChildELSitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Never or almost never]]></source>
@@ -1606,11 +1608,11 @@
     </trans-unit>
     <trans-unit id="pages[12].elements[1].rows[4].text" resname="ChildELSitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Talk about things you had done]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Talk about things you had done]]></target>
     </trans-unit>
     <trans-unit id="pages[12].elements[1].rows[5].text" resname="ChildELSitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Talk about what you had read]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Talk about what you had read]]></target>
     </trans-unit>
     <trans-unit id="pages[12].elements[1].rows[6].text" resname="ChildELSitems" approved="yes">
       <source xml:space="preserve"><![CDATA[Play word games]]></source>
@@ -1714,7 +1716,7 @@
     </trans-unit>
     <trans-unit id="pages[13].elements[0].elements[3].title" resname="ChildAttendPrimaryAge" approved="yes">
       <source xml:space="preserve"><![CDATA[How old was your child when he/she began the first grade of primary/elementary school?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[How old was your child when he/she began the first grade of primary/elementary school?]]></target>
     </trans-unit>
     <trans-unit id="pages[13].elements[0].elements[3].choices[0].text" resname="ChildAttendPrimaryAge" approved="yes">
       <source xml:space="preserve"><![CDATA[5 years old or younger]]></source>
@@ -1734,7 +1736,7 @@
     </trans-unit>
     <trans-unit id="pages[13].elements[1].title" resname="ChildEdAchieve" approved="yes">
       <source xml:space="preserve"><![CDATA[How far in his/her education do you expect your child to go?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[How far in his/her education do you expect your child to go?]]></target>
     </trans-unit>
     <trans-unit id="pages[13].elements[1].choices[0].text" resname="ChildEdAchieve" approved="yes">
       <source xml:space="preserve"><![CDATA[Less than high school]]></source>
@@ -1794,15 +1796,15 @@
     </trans-unit>
     <trans-unit id="pages[13].elements[2].elements[0].rows[1].text" resname="ChildSchoolItems" approved="yes">
       <source xml:space="preserve"><![CDATA[Work to finish school-related tasks they start?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Work to finish school-related tasks they start?]]></target>
     </trans-unit>
     <trans-unit id="pages[13].elements[2].elements[0].rows[2].text" resname="ChildSchoolItems" approved="yes">
       <source xml:space="preserve"><![CDATA[Stay calm and in control when faced with an academic challenge?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Stay calm and in control when faced with an academic challenge?]]></target>
     </trans-unit>
     <trans-unit id="pages[13].elements[2].elements[0].rows[3].text" resname="ChildSchoolItems" approved="yes">
       <source xml:space="preserve"><![CDATA[Care about doing well in school?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Care about doing well in school?]]></target>
     </trans-unit>
     <trans-unit id="pages[13].elements[2].elements[0].rows[4].text" resname="ChildSchoolItems" approved="yes">
       <source xml:space="preserve"><![CDATA[Do all required homework?]]></source>
@@ -1846,7 +1848,7 @@
     </trans-unit>
     <trans-unit id="pages[13].elements[5].title" resname="ChildPhoneAge" approved="yes">
       <source xml:space="preserve"><![CDATA[If yes, at what age did they get it?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[If yes, at what age did they get it?]]></target>
     </trans-unit>
     <trans-unit id="pages[13].elements[5].placeholder" resname="ChildPhoneAge" approved="yes">
       <source xml:space="preserve"><![CDATA[years of age]]></source>
@@ -1870,7 +1872,7 @@
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[1].title" resname="ChildEFQ1" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Pays attention when an adult is explaining or showing something<b/> (by listening carefully and/or watching with appropriate eye gaze/body orientation).]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[<b>Pays attention when an adult is explaining or showing something<b/> (by listening carefully and/or watching with appropriate eye gaze/body orientation).]]></target>
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[1].choices[0].text" resname="ChildEFQ1" approved="yes">
       <source xml:space="preserve"><![CDATA[(4) Always on their own (No support needed)]]></source>
@@ -1886,11 +1888,11 @@
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[1].choices[3].text" resname="ChildEFQ1" approved="yes">
       <source xml:space="preserve"><![CDATA[(1) Not able on their own (Requires a lot of support)]]></source>
-      <target state="translated"><![CDATA[selbstständig zu sein (benötigt viel Unterstützung)]]></target>
+      <target state="translated"><![CDATA[(1) Not able on their own (Requires a lot of support)]]></target>
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[2].title" resname="ChildEFQ7" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Ignores irrelevant activity/noise</b> (e.g., crying sibling, TV, outside traffic) <b>when working on an assigned task.</b>]]></source>
-      <target state="translated"><![CDATA[<b>Ignoriert irrelevante Aktivitäten/Geräusche</b> (z. B. weinende Geschwister, Fernsehen, Verkehr draußen) <b>wenn es an einer zugewiesenen Aufgabe arbeitet.</b>]]></target>
+      <target state="translated"><![CDATA[<b>Ignores irrelevant activity/noise</b> (e.g., crying sibling, TV, outside traffic) <b>when working on an assigned task.</b>]]></target>
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[3].title" resname="ChildEFQ12" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Waits turn to speak</b> (e.g., does not interrupt others, does not blurt out answers, thinks before speaking).]]></source>
@@ -1914,7 +1916,7 @@
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[8].title" resname="ChildEFQ8" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Completes an assigned task before moving to a next task.</b>]]></source>
-      <target state="translated"><![CDATA[bevor er zur nächsten Aufgabe übergeht.</b>]]></target>
+      <target state="translated"><![CDATA[<b>Completes an assigned task before moving to a next task.</b>]]></target>
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[9].title" resname="ChildEFQ13" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Stops an undesirable behavior when asked</b> (e.g., stops fighting with sibling when asked by parent, stops misbehaving in the household).]]></source>
@@ -1922,7 +1924,7 @@
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[10].title" resname="ChildEFQ18" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Completes activities that require remembering lengthy instructions</b> (e.g., rules of a game, household chores, cooking recipe).]]></source>
-      <target state="translated"><![CDATA[<b>Erledigt Tätigkeiten, bei denen man sich längere Anweisungen merken muss</b> (z. B. Spielregeln, Hausarbeiten, Kochrezepte).]]></target>
+      <target state="translated"><![CDATA[<b>Completes activities that require remembering lengthy instructions</b> (e.g., rules of a game, household chores, cooking recipe).]]></target>
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[11].title" resname="ChildEFQ24" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Expresses themselves in a new way when not understood by others</b> (e.g., tries different ways to communicate their needs and wants).]]></source>
@@ -1946,7 +1948,7 @@
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[16].title" resname="ChildEFQ19" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Communicates in an organized way</b> (e.g., retells the correct sequence of the events, explains how a game works so it is easy to understand).]]></source>
-      <target state="translated"><![CDATA[<b>Kommuniziert auf organisierte Weise</b> (es erzählt z. B. die richtige Reihenfolge der Ereignisse, erklärt, wie ein Spiel funktioniert, so dass es leicht zu verstehen ist).]]></target>
+      <target state="translated"><![CDATA[<b>Communicates in an organized way</b> (e.g., retells the correct sequence of the events, explains how a game works so it is easy to understand).]]></target>
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[17].title" resname="ChildEFQ25" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Adjusts when plans/schedules change</b> (e.g., follows along when daily schedule changes, does not complain when unexpected sickness leads to canceling a family vacation).]]></source>
@@ -1958,15 +1960,15 @@
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[19].title" resname="ChildEFQ4" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Remains focused and engaged during collaborative child-led activities</b> (e.g., playing with siblings/peers).]]></source>
-      <target state="translated"><![CDATA[die das Kind selbst anleitet</b> (z. B. beim Spielen mit Geschwistern oder anderen Kindern gleichen Alters).]]></target>
+      <target state="translated"><![CDATA[<b>Remains focused and engaged during collaborative child-led activities</b> (e.g., playing with siblings/peers).]]></target>
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[20].title" resname="ChildEFQ10" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Ignores a preferred, fun activity</b> (e.g., playing) <b>when asked to complete an assigned task</b> (e.g., cleaning room).]]></source>
-      <target state="translated"><![CDATA[<b>Ignoriert eine bevorzugte, lustige Aktivität</b> (z. B. Spielen), <b>wenn es aufgefordert wird, eine zugewiesene Aufgabe zu erledigen</b> (z. B. Zimmer aufräumen).]]></target>
+      <target state="translated"><![CDATA[<b>Ignores a preferred, fun activity</b> (e.g., playing) <b>when asked to complete an assigned task</b> (e.g., cleaning room).]]></target>
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[21].title" resname="ChildEFQ15" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Waits for their turn to act</b> (e.g., waits patiently in line at a grocery store or when sharing a toy with sibling).]]></source>
-      <target state="translated"><![CDATA[bis es an der Reihe ist</b> (es wartet z. B. geduldig in der Schlange im Supermarkt oder wenn es ein Spielzeug mit einem Geschwisterkind teilt).]]></target>
+      <target state="translated"><![CDATA[<b>Waits for their turn to act</b> (e.g., waits patiently in line at a grocery store or when sharing a toy with sibling).]]></target>
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[22].title" resname="ChildEFQ20" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Completes age-appropriate numerical mental calculation</b> (e.g., adds prices of goods, calculates time, how much they are older than someone else).]]></source>
@@ -1986,15 +1988,15 @@
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[26].title" resname="ChildEFQ11" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Answers questions or tells a story without getting distracted by small details and/or losing train of thought.</b>]]></source>
-      <target state="translated"><![CDATA[ohne sich von kleinen Details ablenken zu lassen und/oder den Gedankengang zu verlieren.</b>]]></target>
+      <target state="translated"><![CDATA[<b>Answers questions or tells a story without getting distracted by small details and/or losing train of thought.</b>]]></target>
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[27].title" resname="ChildEFQ16" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Stops and thinks before acting</b> (e.g., does not run out in front of a car, does not grab things they shouldn't).]]></source>
-      <target state="translated"><![CDATA[<b>Hält inne und denkt nach, bevor es handelt</b> (es rennt z. B. nicht vor ein Auto, greift nicht nach Dingen, die es nicht anfassen sollte).]]></target>
+      <target state="translated"><![CDATA[<b>Stops and thinks before acting</b> (e.g., does not run out in front of a car, does not grab things they shouldn't).]]></target>
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[28].title" resname="ChildEFQ21" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Remembers and considers all options when making a choice</b> (e.g., what to do when they get stuck on a household task or face a problem, food options).]]></source>
-      <target state="translated"><![CDATA[<b>Erinnert sich an alle Optionen und zieht sie in Betracht, wenn es eine Entscheidung trifft</b> (z. B. was zu tun ist, wenn es mit einer Haushaltsaufgabe oder einem Problem nicht weiterkommt, welche Lebensmittel es essen möchte).]]></target>
+      <target state="translated"><![CDATA[<b>Remembers and considers all options when making a choice</b> (e.g., what to do when they get stuck on a household task or face a problem, food options).]]></target>
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[29].title" resname="ChildEFQ27" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Connects ideas/experiences to other ideas/experiences</b> (e.g., identifies connections between books/movies and lived experiences, uses strategies learned at school to complete activities at home).]]></source>
@@ -2010,11 +2012,11 @@
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[32].title" resname="ChildEFQ22" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Remembers physical directions, patterns, and where things are</b> (e.g., knows walking routes, finds things in a grocery store, good at searching for a lost item or playing hide-and-seek).]]></source>
-      <target state="translated"><![CDATA[<b>Erinnert sich an Wegangaben, Muster und den Standort von Dingen</b> (z. B. kennt es Laufwege, findet Dinge in einem Lebensmittelgeschäft, kann gut nach einem verlorenen Gegenstand suchen oder Verstecken spielen).]]></target>
+      <target state="translated"><![CDATA[<b>Remembers physical directions, patterns, and where things are</b> (e.g., knows walking routes, finds things in a grocery store, good at searching for a lost item or playing hide-and-seek).]]></target>
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[33].title" resname="ChildEFQ28" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Adapts behavior based on what is required by the situation</b> (e.g., switches characters/roles while playing a game, changes behavior based on playtime or study time).]]></source>
-      <target state="translated"><![CDATA[Änderung des Verhaltens je nachdem ob gerade Spielzeit oder Hausaufgabenzeit ist).]]></target>
+      <target state="translated"><![CDATA[<b>Adapts behavior based on what is required by the situation</b> (e.g., switches characters/roles while playing a game, changes behavior based on playtime or study time).]]></target>
     </trans-unit>
     <trans-unit id="pages[14].elements[0].elements[34].title" resname="ChildEFQ34" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Negotiates and incorporates peers' suggestions without conflict or resistance</b> (e.g., works with others to plan roles during pretend play, negotiates with sibling about how to complete chores together).]]></source>
@@ -2138,7 +2140,7 @@
     </trans-unit>
     <trans-unit id="pages[15].elements[1].elements[6].title" resname="HomeHOME7" approved="yes">
       <source xml:space="preserve"><![CDATA[How often do you or another adult in your home get a chance to read stories to your child?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[How often do you or another adult in your home get a chance to read stories to your child?]]></target>
     </trans-unit>
     <trans-unit id="pages[15].elements[1].elements[6].choices[0].text" resname="HomeHOME7" approved="yes">
       <source xml:space="preserve"><![CDATA[Every day]]></source>
@@ -2198,7 +2200,7 @@
     </trans-unit>
     <trans-unit id="pages[15].elements[1].elements[9].title" resname="HomeHOME23" approved="yes">
       <source xml:space="preserve"><![CDATA[Does your family have a computer that your child has access to?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Does your family have a computer that your child has access to?]]></target>
     </trans-unit>
     <trans-unit id="pages[15].elements[1].elements[9].labelTrue" resname="HomeHOME23" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
@@ -2210,7 +2212,7 @@
     </trans-unit>
     <trans-unit id="pages[15].elements[1].elements[10].title" resname="HomeHOME22" approved="yes">
       <source xml:space="preserve"><![CDATA[How often has any family member taken or arranged to take your child to any type of museum (children's, scientific, art, historical, etc.) in the past year?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[How often has any family member taken or arranged to take your child to any type of museum (children's, scientific, art, historical, etc.) in the past year?]]></target>
     </trans-unit>
     <trans-unit id="pages[15].elements[1].elements[10].choices[0].text" resname="HomeHOME22" approved="yes">
       <source xml:space="preserve"><![CDATA[About once a week or more]]></source>
@@ -2234,7 +2236,7 @@
     </trans-unit>
     <trans-unit id="pages[15].elements[1].elements[11].title" resname="HomeHOME24" approved="yes">
       <source xml:space="preserve"><![CDATA[Sometimes children get so angry at their parents that they say things like I hate you or swear in a temper tantrum. If your child said something like I hate you or swore at you, would you...]]></source>
-      <target state="translated"><![CDATA[would you...]]></target>
+      <target state="translated"><![CDATA[Sometimes children get so angry at their parents that they say things like I hate you or swear in a temper tantrum. If your child said something like I hate you or swore at you, would you...]]></target>
     </trans-unit>
     <trans-unit id="pages[15].elements[1].elements[11].elements[0].title" resname="HomeHOME24a" approved="yes">
       <source xml:space="preserve"><![CDATA[Ground him/her]]></source>
@@ -2322,7 +2324,7 @@
     </trans-unit>
     <trans-unit id="pages[15].elements[1].elements[11].elements[7].title" resname="HomeHOME24h" approved="yes">
       <source xml:space="preserve"><![CDATA[Take away TV, phone, or other privileges]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Take away TV, phone, or other privileges]]></target>
     </trans-unit>
     <trans-unit id="pages[15].elements[1].elements[11].elements[7].labelTrue" resname="HomeHOME24h" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
@@ -2346,11 +2348,11 @@
     </trans-unit>
     <trans-unit id="pages[15].elements[1].elements[11].elements[9].title" resname="HomeHOME24j" approved="yes">
       <source xml:space="preserve"><![CDATA[Other, please specify]]></source>
-      <target state="translated"><![CDATA[bitte angeben]]></target>
+      <target state="translated"><![CDATA[Other, please specify]]></target>
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[0].title" resname="HomeHOME25" approved="yes">
       <source xml:space="preserve"><![CDATA[How often is your child expected to make his/her own bed?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[How often is your child expected to make his/her own bed?]]></target>
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[0].choices[0].text" resname="HomeHOME25" approved="yes">
       <source xml:space="preserve"><![CDATA[Almost always]]></source>
@@ -2374,7 +2376,7 @@
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[1].title" resname="HomeHOME26" approved="yes">
       <source xml:space="preserve"><![CDATA[How often is your child expected to clean his/her own room?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[How often is your child expected to clean his/her own room?]]></target>
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[1].choices[0].text" resname="HomeHOME26" approved="yes">
       <source xml:space="preserve"><![CDATA[Almost always]]></source>
@@ -2398,7 +2400,7 @@
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[2].title" resname="HomeHOME27" approved="yes">
       <source xml:space="preserve"><![CDATA[How often is your child expected to pick up after him/herself ?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[How often is your child expected to pick up after him/herself ?]]></target>
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[2].choices[0].text" resname="HomeHOME27" approved="yes">
       <source xml:space="preserve"><![CDATA[Almost always]]></source>
@@ -2422,7 +2424,7 @@
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[3].title" resname="HomeHOME28" approved="yes">
       <source xml:space="preserve"><![CDATA[Is there a musical instrument (e.g. piano, drum, guitar, etc.) that your child can use at home?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Is there a musical instrument (e.g. piano, drum, guitar, etc.) that your child can use at home?]]></target>
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[3].labelTrue" resname="HomeHOME28" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
@@ -2458,7 +2460,7 @@
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[5].title" resname="HomeHOME30" approved="yes">
       <source xml:space="preserve"><![CDATA[Does your family encourage your child to start and keep doing hobbies?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Does your family encourage your child to start and keep doing hobbies?]]></target>
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[5].labelTrue" resname="HomeHOME30" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
@@ -2482,7 +2484,7 @@
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[7].title" resname="HomeHOME32" approved="yes">
       <source xml:space="preserve"><![CDATA[How often has a family member taken or arranged to take your child to any type of musical or theatrical performance within the last year?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[How often has a family member taken or arranged to take your child to any type of musical or theatrical performance within the last year?]]></target>
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[7].choices[0].text" resname="HomeHOME32" approved="yes">
       <source xml:space="preserve"><![CDATA[About once a week or more]]></source>
@@ -2506,7 +2508,7 @@
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[8].title" resname="HomeHOME33" approved="yes">
       <source xml:space="preserve"><![CDATA[When your family watches TV or views content online, do you or another adult in the home discuss it with your child?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[When your family watches TV or views content online, do you or another adult in the home discuss it with your child?]]></target>
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[8].choices[0].text" resname="HomeHOME33" approved="yes">
       <source xml:space="preserve"><![CDATA[Almost always]]></source>
@@ -2530,7 +2532,7 @@
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[9].title" resname="HomeHOME34" approved="yes">
       <source xml:space="preserve"><![CDATA[How often is your child expected to clean up after spills?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[How often is your child expected to clean up after spills?]]></target>
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[9].choices[0].text" resname="HomeHOME34" approved="yes">
       <source xml:space="preserve"><![CDATA[Almost always]]></source>
@@ -2554,7 +2556,7 @@
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[10].title" resname="HomeHOME35" approved="yes">
       <source xml:space="preserve"><![CDATA[How often is your child expected to bathe him/herself?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[How often is your child expected to bathe him/herself?]]></target>
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[10].choices[0].text" resname="HomeHOME35" approved="yes">
       <source xml:space="preserve"><![CDATA[Almost always]]></source>
@@ -2578,7 +2580,7 @@
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[11].title" resname="HomeHOME36" approved="yes">
       <source xml:space="preserve"><![CDATA[How often is your child expected to help with keeping shared living areas neat and clean?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[How often is your child expected to help with keeping shared living areas neat and clean?]]></target>
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[11].choices[0].text" resname="HomeHOME36" approved="yes">
       <source xml:space="preserve"><![CDATA[Almost always]]></source>
@@ -2602,7 +2604,7 @@
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[12].title" resname="HomeHOME37" approved="yes">
       <source xml:space="preserve"><![CDATA[How often is your child expected to do routine chores such as mow the lawn, help with dinner, wash dishes, etc.?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[How often is your child expected to do routine chores such as mow the lawn, help with dinner, wash dishes, etc.?]]></target>
     </trans-unit>
     <trans-unit id="pages[16].elements[0].elements[12].choices[0].text" resname="HomeHOME37" approved="yes">
       <source xml:space="preserve"><![CDATA[Almost always]]></source>
@@ -2674,11 +2676,11 @@
     </trans-unit>
     <trans-unit id="pages[17].elements[0].rows[0].text" resname="SelfParentStressNCSHh9" approved="yes">
       <source xml:space="preserve"><![CDATA[that your child is much harder to care for than most children their age?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[that your child is much harder to care for than most children their age?]]></target>
     </trans-unit>
     <trans-unit id="pages[17].elements[0].rows[1].text" resname="SelfParentStressNCSHh9" approved="yes">
       <source xml:space="preserve"><![CDATA[that your child does things that really bother you a lot?]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[that your child does things that really bother you a lot?]]></target>
     </trans-unit>
     <trans-unit id="pages[17].elements[0].rows[2].text" resname="SelfParentStressNCSHh9" approved="yes">
       <source xml:space="preserve"><![CDATA[angry with your child?]]></source>
@@ -2686,7 +2688,7 @@
     </trans-unit>
     <trans-unit id="pages[18].elements[0].title" resname="SelfParentRohner" approved="yes">
       <source xml:space="preserve"><![CDATA[These statements describe ways different caregivers act toward their children. Please think about how well each statement describes the way you treat your child. Respond as to whether you do each item "almost never", "once a month", "once a week", "every day".]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[These statements describe ways different caregivers act toward their children. Please think about how well each statement describes the way you treat your child. Respond as to whether you do each item "almost never", "once a month", "once a week", "every day".]]></target>
     </trans-unit>
     <trans-unit id="pages[18].elements[0].columns[0].text" resname="SelfParentRohner" approved="yes">
       <source xml:space="preserve"><![CDATA[Never or almost never]]></source>
@@ -2710,7 +2712,7 @@
     </trans-unit>
     <trans-unit id="pages[18].elements[0].rows[1].text" resname="SelfParentRohner" approved="yes">
       <source xml:space="preserve"><![CDATA[I always tell my child how (s)he should behave.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[I always tell my child how (s)he should behave.]]></target>
     </trans-unit>
     <trans-unit id="pages[18].elements[0].rows[2].text" resname="SelfParentRohner" approved="yes">
       <source xml:space="preserve"><![CDATA[I insist that my child do exactly as (s)he is told.]]></source>
@@ -2718,27 +2720,27 @@
     </trans-unit>
     <trans-unit id="pages[18].elements[0].rows[3].text" resname="SelfParentRohner" approved="yes">
       <source xml:space="preserve"><![CDATA[I make my child feel wanted and needed.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[I make my child feel wanted and needed.]]></target>
     </trans-unit>
     <trans-unit id="pages[18].elements[0].rows[4].text" resname="SelfParentRohner" approved="yes">
       <source xml:space="preserve"><![CDATA[I let my child do anything (s)he wants to do.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[I let my child do anything (s)he wants to do.]]></target>
     </trans-unit>
     <trans-unit id="pages[18].elements[0].rows[5].text" resname="SelfParentRohner" approved="yes">
       <source xml:space="preserve"><![CDATA[I make my child feel what (s)he does is important.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[I make my child feel what (s)he does is important.]]></target>
     </trans-unit>
     <trans-unit id="pages[18].elements[0].rows[6].text" resname="SelfParentRohner" approved="yes">
       <source xml:space="preserve"><![CDATA[I care about what my child thinks and encourage her/him to talk about it.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[I care about what my child thinks and encourage her/him to talk about it.]]></target>
     </trans-unit>
     <trans-unit id="pages[18].elements[0].rows[7].text" resname="SelfParentRohner" approved="yes">
       <source xml:space="preserve"><![CDATA[I want to control whatever my child does.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[I want to control whatever my child does.]]></target>
     </trans-unit>
     <trans-unit id="pages[18].elements[0].rows[8].text" resname="SelfParentRohner" approved="yes">
       <source xml:space="preserve"><![CDATA[I let my child know I love him/her.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[I let my child know I love him/her.]]></target>
     </trans-unit>
     <trans-unit id="pages[18].elements[0].rows[9].text" resname="SelfParentRohner" approved="yes">
       <source xml:space="preserve"><![CDATA[I treat my child gently and kindly.]]></source>
@@ -2762,7 +2764,7 @@
     </trans-unit>
     <trans-unit id="pages[19].elements[0].elements[1].title" resname="SelfParentMICS2" approved="yes">
       <source xml:space="preserve"><![CDATA[Explained why something (the behavior) was wrong.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Explained why something (the behavior) was wrong.]]></target>
     </trans-unit>
     <trans-unit id="pages[19].elements[0].elements[1].labelTrue" resname="SelfParentMICS2" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
@@ -2786,7 +2788,7 @@
     </trans-unit>
     <trans-unit id="pages[19].elements[0].elements[3].title" resname="SelfParentMICS6" approved="yes">
       <source xml:space="preserve"><![CDATA[Spanked, hit, or slapped him/her.]]></source>
-      <target state="translated"><![CDATA[]]></target>
+      <target state="translated"><![CDATA[Spanked, hit, or slapped him/her.]]></target>
     </trans-unit>
     <trans-unit id="pages[19].elements[0].elements[3].labelTrue" resname="SelfParentMICS6" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>

@@ -35,11 +35,11 @@
       <target state="translated"><![CDATA[Padrastro]]></target>
     </trans-unit>
     <trans-unit id="pages[1].elements[1].choices[4].text" resname="RespondentRelationship" approved="yes">
-      <source xml:space="preserve"><![CDATA[Abuela]]></source>
+      <source xml:space="preserve"><![CDATA[Großmutter]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[1].elements[1].choices[5].text" resname="RespondentRelationship" approved="yes">
-      <source xml:space="preserve"><![CDATA[Abuela]]></source>
+      <source xml:space="preserve"><![CDATA[Großmutter]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[1].elements[1].choices[6].text" resname="RespondentRelationship" approved="yes">
@@ -123,11 +123,11 @@
       <target state="translated"><![CDATA[¿Su niño(a) nació prematuramente (más de tres semanas antes de la fecha prevista de parto)?]]></target>
     </trans-unit>
     <trans-unit id="pages[1].elements[7].choices[0].text" resname="ChildBornEarly" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[1].elements[7].choices[1].text" resname="ChildBornEarly" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[1].elements[7].choices[2].text" resname="ChildBornEarly" approved="yes">
@@ -219,11 +219,11 @@
       <target state="translated"><![CDATA[Respiración u otros problemas respiratorios (tales como respiración sibilante o ruidosa y falta de aire)]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[0].choices[0].text" resname="ChildBreathing" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[0].choices[1].text" resname="ChildBreathing" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[0].choices[2].text" resname="ChildBreathing" approved="yes">
@@ -235,11 +235,11 @@
       <target state="translated"><![CDATA[Comer o tragar debido a una afección de salud]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[1].choices[0].text" resname="ChildEating" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[1].choices[1].text" resname="ChildEating" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[1].choices[2].text" resname="ChildEating" approved="yes">
@@ -251,11 +251,11 @@
       <target state="translated"><![CDATA[Digestión de la comida, incluidos problemas estomacales o intestinales, el estreñimiento o la diarrea]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[2].choices[0].text" resname="ChildDigestion" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[2].choices[1].text" resname="ChildDigestion" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[2].choices[2].text" resname="ChildDigestion" approved="yes">
@@ -267,11 +267,11 @@
       <target state="translated"><![CDATA[Dolor recurrente como dolor de cabeza, dolor de espalda o dolor generalizado, entre otros]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[3].choices[0].text" resname="ChildPain" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[3].choices[1].text" resname="ChildPain" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[3].choices[2].text" resname="ChildPain" approved="yes">
@@ -283,11 +283,11 @@
       <target state="translated"><![CDATA[Dolor de dientes]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[4].choices[0].text" resname="ChildToothache" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[4].choices[1].text" resname="ChildToothache" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[4].choices[2].text" resname="ChildToothache" approved="yes">
@@ -299,11 +299,11 @@
       <target state="translated"><![CDATA[Sangrado en las encías]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[5].choices[0].text" resname="ChildGums" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[5].choices[1].text" resname="ChildGums" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[5].choices[2].text" resname="ChildGums" approved="yes">
@@ -315,11 +315,11 @@
       <target state="translated"><![CDATA[Dientes deteriorados o caries]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[6].choices[0].text" resname="ChildCavities" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[6].choices[1].text" resname="ChildCavities" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[2].elements[0].elements[0].elements[6].choices[2].text" resname="ChildCavities" approved="yes">
@@ -335,11 +335,11 @@
       <target state="translated"><![CDATA[Dificultades serias para concentrarse, recordar o tomar decisiones debido a un trastorno físico, mental o emocional]]></target>
     </trans-unit>
     <trans-unit id="pages[3].elements[0].elements[0].elements[0].choices[0].text" resname="ChildConcentration" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[3].elements[0].elements[0].elements[0].choices[1].text" resname="ChildConcentration" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[3].elements[0].elements[0].elements[0].choices[2].text" resname="ChildConcentration" approved="yes">
@@ -415,11 +415,11 @@
       <target state="translated"><![CDATA[¿<b>ALGUNA VEZ</b> su médico o algún otro profesional de la salud le ha dicho que su niño(a) tiene un trastorno genético o hereditario?]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[0].choices[0].text" resname="ChildGenetic" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[0].choices[1].text" resname="ChildGenetic" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[0].choices[2].text" resname="ChildGenetic" approved="yes">
@@ -491,11 +491,11 @@
       <target state="translated"><![CDATA[Atraso en el desarrollo]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[3].choices[0].text" resname="ChildDevDelay" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[3].choices[1].text" resname="ChildDevDelay" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[3].choices[2].text" resname="ChildDevDelay" approved="yes">
@@ -539,11 +539,11 @@
       <target state="translated"><![CDATA[Discapacidad intelectual]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[6].choices[0].text" resname="ChildIntellDis" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[6].choices[1].text" resname="ChildIntellDis" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[6].choices[2].text" resname="ChildIntellDis" approved="yes">
@@ -587,11 +587,11 @@
       <target state="translated"><![CDATA[Trastorno del habla u otro trastorno del lenguaje]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[9].choices[0].text" resname="ChildSpeechLang" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[9].choices[1].text" resname="ChildSpeechLang" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[9].choices[2].text" resname="ChildSpeechLang" approved="yes">
@@ -635,11 +635,11 @@
       <target state="translated"><![CDATA[Discapacidades del aprendizaje]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[12].choices[0].text" resname="ChildLearnDis" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[12].choices[1].text" resname="ChildLearnDis" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[12].choices[2].text" resname="ChildLearnDis" approved="yes">
@@ -683,11 +683,11 @@
       <target state="translated"><![CDATA[Trastorno del espectro autista (TEA) <br>(incluye el síndrome de Asperger o trastorno generalizado del desarrollo (TGD))]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[15].choices[0].text" resname="ChildAutism" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[15].choices[1].text" resname="ChildAutism" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[15].choices[2].text" resname="ChildAutism" approved="yes">
@@ -731,11 +731,11 @@
       <target state="translated"><![CDATA[Trastorno por déficit de atención (TDA) o trastorno por déficit de atención e hiperactividad (TDAH)]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[18].choices[0].text" resname="ChildADHD" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[18].choices[1].text" resname="ChildADHD" approved="yes">
-      <source xml:space="preserve"><![CDATA[No]]></source>
+      <source xml:space="preserve"><![CDATA[Nein]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[4].elements[0].elements[2].elements[18].choices[2].text" resname="ChildADHD" approved="yes">
@@ -779,11 +779,11 @@
       <target state="translated"><![CDATA[En el registro de nacimiento, ¿cuál sexo le asignaron a su niño(a) al nacer?]]></target>
     </trans-unit>
     <trans-unit id="pages[5].elements[0].choices[0].text" resname="ChildSexBirth" approved="yes">
-      <source xml:space="preserve"><![CDATA[Mujer]]></source>
+      <source xml:space="preserve"><![CDATA[Weiblich]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[5].elements[0].choices[1].text" resname="ChildSexBirth" approved="yes">
-      <source xml:space="preserve"><![CDATA[Mujer]]></source>
+      <source xml:space="preserve"><![CDATA[Weiblich]]></source>
       <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[5].elements[0].otherText" resname="ChildSexBirth" approved="yes">

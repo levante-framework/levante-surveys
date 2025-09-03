@@ -286,10 +286,6 @@
       <source xml:space="preserve"><![CDATA[How often each week do children in this class usually work on lessons or projects in Reading and Language Arts, whether as a whole class, in small groups, or in individualized arrangements ?]]></source>
       <target state="translated"><![CDATA[¿Cuántas veces por semana suelen trabajar los estudiantes de esta clase en lecciones o proyectos de lectura, lenguaje y literatura, ya sea en sesión plenaria, grupos pequeños o individualmente?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[14].choices[0].text" resname="TeacherReadingFrequency" approved="yes">
-      <source xml:space="preserve"><![CDATA[Nunca]]></source>
-      <target state="translated"><![CDATA[]]></target>
-    </trans-unit>
     <trans-unit id="pages[1].elements[14].choices[1].text" resname="TeacherReadingFrequency" approved="yes">
       <source xml:space="preserve"><![CDATA[Less than once per week]]></source>
       <target state="translated"><![CDATA[Menos de una vez por semana]]></target>
@@ -301,10 +297,6 @@
     <trans-unit id="pages[1].elements[14].choices[3].text" resname="TeacherReadingFrequency" approved="yes">
       <source xml:space="preserve"><![CDATA[3 - 4 times per week]]></source>
       <target state="translated"><![CDATA[3 a 4 veces por semana]]></target>
-    </trans-unit>
-    <trans-unit id="pages[1].elements[14].choices[4].text" resname="TeacherReadingFrequency" approved="yes">
-      <source xml:space="preserve"><![CDATA[Nunca]]></source>
-      <target state="translated"><![CDATA[]]></target>
     </trans-unit>
     <trans-unit id="pages[1].elements[15].title" resname="TeacherReadingTime" approved="yes">
       <source xml:space="preserve"><![CDATA[How much time per day do children in this class usually work on lessons or projects in Reading and Language Arts, whether as a whole class, in small groups, or in individualized arrangements?]]></source>

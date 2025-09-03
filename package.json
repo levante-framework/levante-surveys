@@ -14,6 +14,8 @@
     "preview": "vite preview",
     "build-only": "vite build",
     "translations:guard:no-es": "node scripts/check-no-es.js",
+    "sync:en-gh": "node scripts/sync-en-gh.js --all",
+    "smoke:child": "node scripts/smoke-test-child.js",
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix",
     "download-surveys": "node scripts/download-surveys.js",

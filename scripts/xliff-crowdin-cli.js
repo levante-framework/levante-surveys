@@ -49,18 +49,43 @@ async function resolveProjectId(token) {
   throw new Error('levante-xliff project not found via API')
 }
 
+function buildFilesEntries() {
+  const xliffRoot = path.join(projectRoot, 'xliff-out')
+  if (!fs.existsSync(xliffRoot)) return []
+  const entries = []
+  const skip = new Set(['child_survey','child_survey_updated','child_survey_es_updated'])
+  for (const dir of fs.readdirSync(xliffRoot)) {
+    const full = path.join(xliffRoot, dir)
+    if (!fs.statSync(full).isDirectory()) continue
+    if (skip.has(dir)) continue
+    const src = path.join('xliff-out', dir, `${dir}-source-en-US.xliff`)
+    if (!fs.existsSync(path.join(projectRoot, src))) continue
+    const tr = path.join('xliff-out', dir, `${dir}-%locale%.xliff`)
+    entries.push({ source: src, translation: tr })
+  }
+  return entries
+}
+
 function writeTempConfig(projectId, token) {
   const basePath = projectRoot
-  const cfg = [
-    `project_id: ${projectId}`,
-    `api_token: ${token}`,
-    `base_path: ${basePath}`,
-    `preserve_hierarchy: true`,
-    `files:`,
-    // Always include both source and translation patterns; translation must be placeholder-based (no wildcards)
-    `  - source: 'xliff-out/**/*-source-*.xliff'`,
-    `    translation: 'xliff-out/%original_file_name%-%locale%.xliff'`
-  ].join('\n')
+  const lines = []
+  lines.push(`project_id: ${projectId}`)
+  lines.push(`api_token: ${token}`)
+  lines.push(`base_path: ${basePath}`)
+  lines.push(`preserve_hierarchy: true`)
+  lines.push(`files:`)
+  const files = buildFilesEntries()
+  if (files.length === 0) {
+    // Fallback to generic mapping
+    lines.push(`  - source: 'xliff-out/**/*-source-*.xliff'`)
+    lines.push(`    translation: 'xliff-out/%original_file_name%-%locale%.xliff'`)
+  } else {
+    for (const f of files) {
+      lines.push(`  - source: '${f.source}'`)
+      lines.push(`    translation: '${f.translation}'`)
+    }
+  }
+  const cfg = lines.join('\n')
   const tmp = path.join(os.tmpdir(), `crowdin-xliff.${Date.now()}.yml`)
   fs.writeFileSync(tmp, cfg, 'utf8')
   return tmp

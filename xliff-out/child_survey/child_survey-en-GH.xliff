@@ -4,7 +4,7 @@
     <body>
     <trans-unit id="pages[0].elements[0].html" resname="ChildSurveyIntro" approved="yes">
       <source xml:space="preserve"><![CDATA[<font face=Verdana size=4>These questions ask you about how you feel at school and some of the things you do at school. There are no right or wrong answers. Choose the answer that best describes what you think. <b><font face=Verdana size=4>No, never; Yes, some of the time; Yes, most of the time; Yes, all of the time.<br><br>The first two are for practice.]]></source>
-      <target state="translated"><![CDATA[<font face=Verdana size=4>This pesewa ask how you dey feel for school and some things you dey do for school. No correct or wrong answers dey. Choose the answer wey fit what you dey think. <b><font face=Verdana size=4>No, never; Yes, some of the time; Yes, most of the time; Yes, all of the time.<br><br>The first two be practice.]]></target>
+      <target state="translated"><![CDATA[<font face=Verdana size=4>These questions ask you about how you feel at school and some of the things you do at school. There are no right or wrong answers. Choose the answer that best describes what you think. <b><font face=Verdana size=4>No, never; Yes, some of the time; Yes, most of the time; Yes, all of the time.<br><br>The first two are for practice.]]></target>
     </trans-unit>
     <trans-unit id="pages[1].elements[0].elements[0].title" resname="Example1Comic" approved="yes">
       <source xml:space="preserve"><![CDATA[Do you like to read comic books?]]></source>

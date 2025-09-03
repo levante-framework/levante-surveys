@@ -26,18 +26,6 @@
       <source xml:space="preserve"><![CDATA[What is your gender?]]></source>
       <target state="translated"><![CDATA[¿Cuál es su género?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[1].elements[1].choices[0].text" resname="TeacherGender" approved="yes">
-      <source xml:space="preserve"><![CDATA[Femenino]]></source>
-      <target state="translated"><![CDATA[]]></target>
-    </trans-unit>
-    <trans-unit id="pages[1].elements[1].elements[1].choices[1].text" resname="TeacherGender" approved="yes">
-      <source xml:space="preserve"><![CDATA[Femenino]]></source>
-      <target state="translated"><![CDATA[]]></target>
-    </trans-unit>
-    <trans-unit id="pages[1].elements[1].elements[1].choices[2].text" resname="TeacherGender" approved="yes">
-      <source xml:space="preserve"><![CDATA[Femenino]]></source>
-      <target state="translated"><![CDATA[]]></target>
-    </trans-unit>
     <trans-unit id="pages[1].elements[1].elements[1].otherText" resname="TeacherGender" approved="yes">
       <source xml:space="preserve"><![CDATA[Other (please describe)]]></source>
       <target state="translated"><![CDATA[Otro, describa]]></target>
