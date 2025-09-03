@@ -25,6 +25,7 @@
               <label for="bucket-select">Environment:</label>
               <select id="bucket-select" v-model="selectedBucket" @change="onBucketChange" class="control-select">
                 <option value="dev">Development (levante-assets-dev)</option>
+                <option value="dev-xliff">Development XLIFF (levante-assets-dev/surveys-xliff)</option>
                 <option value="legacy-prod">Legacy Production (levante-dashboard-prod)</option>
                 <option value="prod">Production (levante-assets-prod) - Coming Soon</option>
                 <optgroup label="Backups on dev" :disabled="loadingBackups">
@@ -186,6 +187,11 @@ const bucketConfig = {
     baseUrl: 'https://storage.googleapis.com/levante-assets-dev/surveys',
     description: 'Development Environment'
   },
+  'dev-xliff': {
+    name: 'levante-assets-dev/surveys-xliff',
+    baseUrl: 'https://storage.googleapis.com/levante-assets-dev/surveys-xliff',
+    description: 'Development XLIFF Environment'
+  },
   'legacy-prod': {
     name: 'levante-dashboard-prod',
     baseUrl: 'https://storage.googleapis.com/levante-dashboard-prod/surveys',
@@ -236,7 +242,7 @@ const loadSelectedSurvey = async () => {
     const response = await fetch(surveyUrl, {
       cache: 'no-cache'
     })
-    
+
     console.log('Response status:', response.status)
     console.log('Response OK:', response.ok)
     if (!response.ok) {
@@ -280,6 +286,9 @@ const onBucketChange = () => {
         break
       case 'legacy-prod':
         bucketConfig['legacy-prod'].baseUrl = 'https://storage.googleapis.com/levante-dashboard-prod/surveys'
+        break
+      case 'dev-xliff':
+        bucketConfig['dev-xliff'].baseUrl = 'https://storage.googleapis.com/levante-assets-dev/surveys-xliff'
         break
       case 'prod':
         bucketConfig.prod.baseUrl = 'https://storage.googleapis.com/levante-assets-prod/surveys'
