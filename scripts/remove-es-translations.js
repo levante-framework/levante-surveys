@@ -14,6 +14,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { backupAndPrune } from './backup-utils.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -22,9 +23,7 @@ const projectRoot = path.resolve(__dirname, '..')
 const SURVEYS_DIR = path.resolve(projectRoot, 'surveys')
 
 function makeBackup(filePath) {
-  const ts = Date.now()
-  const backupPath = `${filePath}.backup.${ts}`
-  fs.copyFileSync(filePath, backupPath)
+  const { backupPath } = backupAndPrune(filePath, 3)
   return backupPath
 }
 

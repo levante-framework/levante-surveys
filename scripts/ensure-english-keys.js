@@ -14,16 +14,15 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { backupAndPrune } from './backup-utils.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const projectRoot = path.resolve(__dirname, '..')
 
 function backup(filePath) {
-  const ts = Date.now()
-  const dest = `${filePath}.backup.${ts}`
-  fs.copyFileSync(filePath, dest)
-  return dest
+  const { backupPath } = backupAndPrune(filePath, 3)
+  return backupPath
 }
 
 function ensureEnglish(obj) {
