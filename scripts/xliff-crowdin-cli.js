@@ -27,8 +27,12 @@ async function resolveToken() {
   throw new Error('CROWDIN token not found. Set CROWDIN_API_TOKEN or create ~/.crowdin_api_token')
 }
 
-async function resolveProjectId(token) {
+async function resolveProjectId(token, opts = {}) {
+  // Priority: explicit envs → CLI arg → known identifiers
   if (process.env.LEVANTE_XLIFF_PROJECT_ID) return process.env.LEVANTE_XLIFF_PROJECT_ID.trim()
+  if (process.env.LEVANTE_TRANSLATIONS_PROJECT_ID) return process.env.LEVANTE_TRANSLATIONS_PROJECT_ID.trim()
+  if (process.env.CROWDIN_PROJECT_ID) return process.env.CROWDIN_PROJECT_ID.trim()
+
   const client = axios.create({
     baseURL: 'https://api.crowdin.com/api/v2',
     headers: { Authorization: `Bearer ${token}` },
@@ -41,12 +45,19 @@ async function resolveProjectId(token) {
     const arr = (data && data.data) || []
     for (const item of arr) {
       const p = item.data
+      if (opts.project) {
+        // match by numeric id, identifier, or name
+        if (String(p.id) === String(opts.project)) return String(p.id)
+        if (p.identifier === opts.project) return String(p.id)
+        if (p.name === opts.project) return String(p.id)
+      }
       if (p && p.identifier === 'levante-xliff') return String(p.id)
+      if (p && p.identifier === 'levantetranslations') return String(p.id)
     }
     if (arr.length < limit) break
     offset += limit
   }
-  throw new Error('levante-xliff project not found via API')
+  throw new Error('Crowdin project not found (tried envs, --project, levante-xliff, levantetranslations)')
 }
 
 function buildFilesEntries() {
@@ -58,7 +69,7 @@ function buildFilesEntries() {
     const full = path.join(xliffRoot, dir)
     if (!fs.statSync(full).isDirectory()) continue
     if (skip.has(dir)) continue
-    const src = path.join('xliff-out', dir, `${dir}-source-en-US.xliff`)
+    const src = path.join('xliff-out', dir, `${dir}-source.xliff`)
     if (!fs.existsSync(path.join(projectRoot, src))) continue
     const tr = path.join('xliff-out', dir, `${dir}-%locale%.xliff`)
     entries.push({ source: src, translation: tr })
@@ -94,8 +105,23 @@ function writeTempConfig(projectId, token) {
 async function main() {
   const args = process.argv.slice(2)
   const action = args[0] || 'upload-sources'
+  // parse options
+  let projectOpt = null
+  for (let i = 1; i < args.length; i++) {
+    if (args[i] === '--project' || args[i] === '-p') {
+      projectOpt = args[i + 1]
+      i++
+    }
+  }
   const token = await resolveToken()
-  const projectId = await resolveProjectId(token)
+  const projectId = await resolveProjectId(token, { project: projectOpt })
+
+  if (action === 'project-id' || action === 'print-project-id') {
+    // Print only the numeric id so callers can capture it
+    console.log(projectId)
+    return
+  }
+
   const cfgPath = writeTempConfig(projectId, token)
 
   let cmdArgs
@@ -103,7 +129,7 @@ async function main() {
   else if (action === 'upload-translations') cmdArgs = ['upload', 'translations', '--config', cfgPath]
   else if (action === 'download') cmdArgs = ['download', '--config', cfgPath]
   else {
-    console.error('Usage: node scripts/xliff-crowdin-cli.js [upload-sources|upload-translations|download]')
+    console.error('Usage: node scripts/xliff-crowdin-cli.js [upload-sources|upload-translations|download|project-id]')
     process.exit(1)
   }
 

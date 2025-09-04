@@ -133,7 +133,7 @@ function generateForCsv(csvPath) {
 
   // Emit source-only XLIFF
   const sourceXliff = buildXLIFF({ surveyName, units, sourceLang: SOURCE_LANG })
-  const sourceOut = path.join(outDir, `${surveyName}-source-${SOURCE_LANG}.xliff`)
+  const sourceOut = path.join(outDir, `${surveyName}-source.xliff`)
   fs.writeFileSync(sourceOut, sourceXliff, 'utf8')
   console.log(`✅ Wrote ${sourceOut}`)
 

@@ -131,7 +131,7 @@ function exportForJson(jsonPath) {
   ensureDir(outDir)
 
   const sourceX = buildXLIFF({ surveyName, units, sourceLang: SOURCE_LANG })
-  const sourceOut = path.join(outDir, `${surveyName}-source-${SOURCE_LANG}.xliff`)
+  const sourceOut = path.join(outDir, `${surveyName}-source.xliff`)
   fs.writeFileSync(sourceOut, sourceX, 'utf8')
   console.log(`✅ Wrote ${sourceOut}`)
 
