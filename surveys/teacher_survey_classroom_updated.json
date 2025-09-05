@@ -36,7 +36,7 @@
             "de-CH": "Wie viele Klassen unterrichten Sie, in denen Schüler an diesem Forschungsprojekt teilnehmen?",
             "es-AR": "¿En cuántos de los salones donde usted enseña hay estudiantes que participen en este proyecto?",
             "en-US": "How many classrooms do you teach that contain students participating in this research project?",
-            "en-GH": "How many classrooms do you teach that contain students participating in this research project?"
+            "en-GH": "How many classrooms you dey teach wey dey contain students involved in this research project?"
           },
           "showNumber": false,
           "choices": [
@@ -60,7 +60,7 @@
             "nl": "Is er een andere volwassene die betaald wordt om u in dit klaslokaal te helpen (bijvoorbeeld een onderwijsassistent, co-leerkracht, enz.)?",
             "de-CH": "Gibt es einen anderen Erwachsenen, der bezahlt wird, um Ihnen in dieser Klasse zu helfen (z.B. Lehrassistent, Co-Lehrkraft, etc.)?",
             "es-AR": "¿Hay algún otro adulto que reciba remuneración por ayudarle en este salón (por ejemplo, un profesor asistente, profesor que trabaja con usted en docencia compartida, entre otros)?",
-            "en-GH": "Is there another adult who is paid to help you in this classroom (e.g., teaching assistant, co-lead teacher, etc.)?"
+            "en-GH": "E be say another adult dey wey dem dey pay to help you for this classroom (e.g., teaching assistant, co-lead teacher, etc.)?"
           },
           "showNumber": false,
           "labelTrue": {
@@ -98,7 +98,7 @@
             "nl": "Hoeveel studenten zijn er ingeschreven in dit klaslokaal?",
             "de-CH": "Wie viele Schüler sind in dieser Klasse eingeschrieben?",
             "es-AR": "¿Cuántos estudiantes hay matriculados en este salón?",
-            "en-GH": "How many students are enrolled in this classroom?"
+            "en-GH": "How many students dem enroll for this classroom?"
           },
           "showNumber": false,
           "inputType": "number",
@@ -127,7 +127,7 @@
             "de-CH": "Wie viele Kinder jedes Geschlechts gibt es in dieser Klasse?",
             "es-AR": "¿Cuántos niños de cada género hay en esta clase?",
             "en-US": "How many children of each gender are in this class?",
-            "en-GH": "How many children of each gender are in this class?"
+            "en-GH": "How many children of each gender dey inside this class?"
           },
           "showNumber": false,
           "items": [
@@ -246,7 +246,7 @@
             "de-CH": "Wie viele Kinder in dieser Klasse haben zum heutigen Datum jedes der folgenden Altersstufen erreicht?",
             "es-AR": "A hoy, ¿cuántos niños(as) de este salón se ubican en los siguientes rangos de edad?",
             "en-US": "As of today's date, how many children in this class are each of the following age levels?",
-            "en-GH": "As of today's date, how many children in this class are each of the following age levels?"
+            "en-GH": "As of today, how many children de each of these age levels inside this class?"
           },
           "showNumber": false,
           "items": [
@@ -472,7 +472,7 @@
                 "de-CH": "13 Jahre oder älter",
                 "es-AR": "13 años o más",
                 "en-US": "13 years old or older",
-                "en-GH": "13 years old or older"
+                "en-GH": "13 years old or more"
               }
             }
           ],
@@ -489,7 +489,7 @@
             "nl": "Geeft u momenteel les in een multigrade klas?",
             "de-CH": "Unterrichten Sie derzeit eine Mehrstufenklasse?",
             "es-AR": "¿Enseña actualmente en un salón multigrado?",
-            "en-GH": "Do you currently teach a multigrade class?"
+            "en-GH": "Right now, you dey teach multi-grade class?"
           },
           "showNumber": false,
           "labelTrue": {
@@ -528,7 +528,7 @@
             "nl": "Zo ja, welke leerjaren zijn inbegrepen in de klas die u geeft? (selecteer alles wat van toepassing is)",
             "de-CH": "Wenn ja, welche Klassenstufen sind in der Klasse, die Sie unterrichten, eingeschlossen? (Wählen Sie alle, die zutreffen)",
             "es-AR": "En caso afirmativo, ¿cuáles grados se encuentran el salón multigrado que enseña? (Marque todas las que procedan.)",
-            "en-GH": "If yes, what grade levels are included in the class you teach? (select all that apply)"
+            "en-GH": "If yes, which grade levels dey inside the class you dey teach? (select all wey fit)"
           },
           "showNumber": false,
           "clearIfInvisible": "onHidden",
@@ -693,7 +693,7 @@
             "de-CH": "Welche Klassenstufe unterrichten Sie?",
             "es-AR": "¿En qué grado enseña?",
             "en-US": "What grade level do you teach?",
-            "en-GH": "What grade level do you teach?"
+            "en-GH": "Which grade level you dey teach?"
           },
           "showNumber": false,
           "clearIfInvisible": "onHidden",
@@ -712,7 +712,7 @@
             "nl": "Welke talen worden er in deze klas door de studenten gesproken (selecteer alles wat van toepassing is)?",
             "de-CH": "Welche Sprachen sprechen die Schüler in dieser Klasse (Wählen Sie alle, die zutreffen)?",
             "es-AR": "¿Qué idiomas hablan los(as) estudiantes en este salón de clase?",
-            "en-GH": "What languages are spoken by students in this class (select all that apply)?"
+            "en-GH": "Which languages dey speak by students in this class (select all wey fit)?"
           },
           "showNumber": false,
           "choices": [
@@ -849,7 +849,7 @@
             "de-CH": "Welche Sprachen sprechen Sie oder Ihr Assistenzlehrer <b>im Unterricht</b> (Wählen Sie alle, die zutreffen)?",
             "es-AR": "¿Qué idiomas hablan usted o su docente asistente <b>en el aula de clase?</b>",
             "en-US": "What languages do you or your assistant teacher speak <b>in the classroom</b> (select all that apply)?",
-            "en-GH": "What languages do you or your assistant teacher speak <b>in the classroom</b> (select all that apply)?"
+            "en-GH": "Which languages you or your assistant teacher dey speak <b>for the classroom</b> (select all wey fit)?"
           },
           "showNumber": false,
           "choicesFromQuestion": "TeacherLanguageStudents"
@@ -865,7 +865,7 @@
             "nl": "Hoeveel kinderen in deze klas hebben een leesniveau ONDER hun leerjaar?",
             "de-CH": "Wie viele Kinder in dieser Klasse haben ein Lesetempo, das UNTER dem Klassenniveau liegt?",
             "es-AR": "¿Cuántos niños(as) de este salón tienen un nivel de lectura POR DEBAJO del grado que cursan?",
-            "en-GH": "About how many children in this classroom are BELOW grade level in their reading skills?"
+            "en-GH": "Make I know about how many children for this class dey BELOW grade level for their reading skills?"
           },
           "showNumber": false,
           "inputType": "number",
@@ -893,7 +893,7 @@
             "nl": "Hoeveel kinderen in deze klas hebben een leesniveau BOVEN hun leerjaar?",
             "de-CH": "Wie viele Kinder in dieser Klasse haben ein Lesetempo, das ÜBER dem Klassenniveau liegt?",
             "es-AR": "¿Cuántos niños(as) de este salón tienen un nivel de lectura POR ENCIMA del grado que cursan?",
-            "en-GH": "About how many children in this classroom are ABOVE grade level in their reading skills?"
+            "en-GH": "Make I know about how many children for this class dey ABOVE grade level for their reading skills?"
           },
           "showNumber": false,
           "inputType": "number",
@@ -921,7 +921,7 @@
             "nl": "Hoeveel kinderen in deze klas hebben een wiskundeniveau ONDER hun leerjaar?",
             "de-CH": "Wie viele Kinder in dieser Klasse haben ein Mathematikniveau, das UNTER dem Klassenniveau liegt?",
             "es-AR": "¿Cuántos niños(as) de este salón tienen un nivel en matemáticas POR DEBAJO del grado que cursan?",
-            "en-GH": "About how many children in this classroom are BELOW grade level in their math skills?"
+            "en-GH": "Make I know about how many children for this class dey BELOW grade level for their math skills?"
           },
           "showNumber": false,
           "inputType": "number",
@@ -949,7 +949,7 @@
             "nl": "Hoeveel kinderen in deze klas hebben een wiskundeniveau BOVEN hun leerjaar?",
             "de-CH": "Wie viele Kinder in dieser Klasse haben ein Mathematikniveau, das ÜBER dem Klassenniveau liegt?",
             "es-AR": "¿Cuántos niños(as) de este salón tienen un nivel en matemáticas POR ENCIMA del grado que cursan?",
-            "en-GH": "About how many children in this classroom are ABOVE grade level in their math skills?"
+            "en-GH": "Make I know about how many children for this class dey ABOVE grade level for their math skills?"
           },
           "showNumber": false,
           "inputType": "number",
@@ -977,7 +977,7 @@
             "nl": "Hoe vaak per week werken kinderen in deze klas meestal aan lessen of projecten voor Lezen en Taalvakken, hetzij klassikaal, in kleine groepen, of individueel?",
             "de-CH": "Wie oft pro Woche arbeiten die Kinder in dieser Klasse normalerweise an Lese- und Sprachprojekten, sei es in der gesamten Klasse, in kleinen Gruppen oder in individueller Arbeit?",
             "es-AR": "¿Cuántas veces por semana suelen trabajar los estudiantes de esta clase en lecciones o proyectos de lectura, lenguaje y literatura, ya sea en sesión plenaria, grupos pequeños o individualmente?",
-            "en-GH": "How often each week do children in this class usually work on lessons or projects in Reading and Language Arts, whether as a whole class, in small groups, or in individualized arrangements ?"
+            "en-GH": "How many times per week usually children for this class dey work on lessons or projects in Reading and Language Arts, whether as whole class, in small groups or in individualized arrangements?"
           },
           "showNumber": false,
           "choices": [
@@ -1042,7 +1042,7 @@
             "nl": "Hoeveel tijd per dag werken kinderen in deze klas meestal aan lessen of projecten voor Lezen en Taalvakken, hetzij klassikaal, in kleine groepen, of individueel?",
             "de-CH": "Wie viel Zeit pro Tag verbringen die Kinder in dieser Klasse normalerweise damit, an Lese- und Sprachprojekten zu arbeiten, sei es in der gesamten Klasse, in kleinen Gruppen oder in individueller Arbeit?",
             "es-AR": "¿Cuánto tiempo diario dedican trabajar los estudiantes de esta clase en lecciones o proyectos de lectura, lenguaje y literatura, ya sea en sesión plenaria, grupos pequeños o individualmente?",
-            "en-GH": "How much time per day do children in this class usually work on lessons or projects in Reading and Language Arts, whether as a whole class, in small groups, or in individualized arrangements?"
+            "en-GH": "How much time each day children for this class dey usually work on lessons or projects in Reading and Language Arts, whether as whole class, in small groups, or in individualized arrangements?"
           },
           "showNumber": false,
           "choices": [
@@ -1113,7 +1113,7 @@
             "nl": "Hoe vaak per week werken kinderen in deze klas meestal aan lessen of projecten voor Wiskunde, hetzij klassikaal, in kleine groepen, of individueel?",
             "de-CH": "Wie oft pro Woche arbeiten die Kinder in dieser Klasse normalerweise an Mathematikprojekten, sei es in der gesamten Klasse, in kleinen Gruppen oder in individueller Arbeit?",
             "es-AR": "¿Cuántas veces por semana suelen trabajar los estudiantes de esta clase en lecciones o proyectos de matemáticas, ya sea en sesión plenaria, grupos pequeños o individualmente?",
-            "en-GH": "How often each week do children in this class usually work on lessons or projects in Mathematics, whether as a whole class, in small groups, or in individualized arrangements?"
+            "en-GH": "How many times per week usually children for this class dey work on lessons or projects in Mathematics, whether as whole class, in small groups, or in individualized arrangements?"
           },
           "showNumber": false,
           "choicesFromQuestion": "TeacherReadingFrequency",
@@ -1198,7 +1198,7 @@
             "nl": "Hoeveel tijd per dag werken kinderen in deze klas meestal aan lessen of projecten voor Wiskunde, hetzij klassikaal, in kleine groepen, of individueel?",
             "de-CH": "Wie viel Zeit pro Tag verbringen die Kinder in dieser Klasse normalerweise damit, an Mathematikprojekten zu arbeiten, sei es in der gesamten Klasse, in kleinen Gruppen oder in individueller Arbeit?",
             "es-AR": "¿Cuánto tiempo diario dedican trabajar los estudiantes de esta clase en lecciones o proyectos de matemáticas, ya sea en sesión plenaria, grupos pequeños o individualmente?",
-            "en-GH": "How much time per day do children in this class usually work on lessons or projects in Mathematics, whether as a whole class, in small groups, or in individualized arrangements?"
+            "en-GH": "How much time each day children for this class dey usually work on lessons or projects in Mathematics, whether as whole class, in small groups, or in individualized arrangements?"
           },
           "showNumber": false,
           "choicesFromQuestion": "TeacherReadingTime",
@@ -1271,7 +1271,7 @@
             "de-CH": "Denken Sie an die Familien der Kinder in dieser Klasse, die Sie in diesem Schuljahr unterrichtet haben. Für wie viele Familien treffen die folgenden Aussagen zu?",
             "es-AR": "Piense en las familias de los niños(as) de esta clase a quienes usted ha dado clase este año escolar. ¿Aproximadamente para cuántas familias es cierta cada una de las siguientes afirmaciones?",
             "en-US": "Think about the families of the children in this class who you have taught this school year. For about how many families are each of the following statements true?",
-            "en-GH": "Think about the families of the children in this class who you have taught this school year. For about how many families are each of the following statements true?"
+            "en-GH": "Think about the families of the children in this class you don teach this school year. For about how many families are these statements true?"
           },
           "showQuestionNumbers": "off",
           "elements": [
@@ -1286,7 +1286,7 @@
                 "nl": "Gezinnen lijken overweldigd door het proberen te ondersteunen van het leren van hun kinderen.",
                 "de-CH": "Familien scheinen überfordert zu sein, da sie versuchen, das Lernen ihrer Kinder zu unterstützen.",
                 "es-AR": "Las familias parecen estar abrumadas por tratar de apoyar el aprendizaje de sus niños(as).",
-                "en-GH": "Families seem overwhelmed by trying to support their children's learning."
+                "en-GH": "Families dey seem overwhelmed by trying to support their children's learning."
               },
               "choices": [
                 {
@@ -1356,7 +1356,7 @@
                 "nl": "Gezinnen doen hun best om het leren van kinderen te ondersteunen.",
                 "de-CH": "Familien tragen ihren Teil dazu bei, das Lernen der Kinder zu unterstützen.",
                 "es-AR": "Las familias hacen su parte para apoyar el aprendizaje de los niños(as).",
-                "en-GH": "Families are doing their part to support children's learning."
+                "en-GH": "Families dey their part to support children's learning."
               },
               "choices": [
                 {
@@ -1429,7 +1429,7 @@
             "de-CH": "Bitte geben Sie an, wie zufrieden oder unzufrieden Sie in diesem Schuljahr mit den folgenden Aspekten waren.",
             "es-AR": "Por favor, indique cuán satisfecho(a) o insatisfecho(a) ha estado usted este año escolar con los siguientes aspectos.",
             "en-US": "Please indicate how satisfied or dissatisfied you have been with the following this school year.",
-            "en-GH": "Please indicate how satisfied or dissatisfied you have been with the following this school year."
+            "en-GH": "Abeg indicate how satisfied or dissatisfied you don dey with these things this school year."
           },
           "showQuestionNumbers": "off",
           "elements": [

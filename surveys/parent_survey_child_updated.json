@@ -1410,7 +1410,7 @@
                 "de-CH": "beschreiben Sie diese bitte:",
                 "es-AR": "En caso afirmativo, explíquelo:",
                 "en-US": "If yes, please explain:",
-                "en-GH": "If yes, please explain:"
+                "en-GH": "beschreiben Sie diese bitte:"
               },
               "showNumber": false
             }
@@ -1499,7 +1499,7 @@
                 "de-CH": "benennen oder beschreiben Sie diese bitte:",
                 "es-AR": "En caso afirmativo, indique el trastorno:",
                 "en-US": "If yes, please note or explain the condition:",
-                "en-GH": "If yes, please note or explain the condition:"
+                "en-GH": "benennen oder beschreiben Sie diese bitte:"
               },
               "showNumber": false
             },
@@ -4002,7 +4002,7 @@
                     "de-CH": "wie es maximal wachsen kann",
                     "es-AR": "Parece que ya crece a la velocidad que lo hará a futuro",
                     "en-US": "Probably grows now as fast as it will ever grow",
-                    "en-GH": "Probably grows now as fast as it will ever grow"
+                    "en-GH": "wie es maximal wachsen kann"
                   }
                 }
               ],
@@ -4822,7 +4822,7 @@
                     "de-CH": "ohne bestimmerisch zu sein.",
                     "es-AR": "Su niño(a) sabe hacer sugerencias sin ser autoritario.",
                     "en-US": "Your child can give suggestions without being bossy.",
-                    "en-GH": "Your child can give suggestions without being bossy."
+                    "en-GH": "ohne bestimmerisch zu sein."
                   }
                 }
               ]
@@ -6859,7 +6859,7 @@
                     "de-CH": "selbstständig zu sein (benötigt viel Unterstützung)",
                     "es-AR": "(1) No puede por sí mismo (necesita mucho apoyo)",
                     "en-US": "(1) Not able on their own (Requires a lot of support)",
-                    "en-GH": "(1) Not able on their own (Requires a lot of support)"
+                    "en-GH": "selbstständig zu sein (benötigt viel Unterstützung)"
                   }
                 }
               ],
@@ -6878,7 +6878,7 @@
                 "de-CH": "<b>wenn es an einer zugewiesenen Aufgabe arbeitet.</b>",
                 "es-AR": "<b>Ignora actividades y ruidos irrelevantes</b> (p. ej., el llanto de un hermano, la televisión, el tráfico) <b>cuando trabaja en una tarea asignada.</b>",
                 "en-US": "<b>Ignores irrelevant activity/noise</b> (e.g., crying sibling, TV, outside traffic) <b>when working on an assigned task.</b>",
-                "en-GH": "<b>Ignores irrelevant activity/noise</b> (e.g., crying sibling, TV, outside traffic) <b>when working on an assigned task.</b>"
+                "en-GH": "<b>Ignoriert irrelevante Aktivitäten/Geräusche</b> (z. B. weinende Geschwister, Fernsehen, Verkehr draußen) <b>wenn es an einer zugewiesenen Aufgabe arbeitet.</b>"
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -6992,7 +6992,7 @@
                 "de-CH": "bevor er zur nächsten Aufgabe übergeht.</b>",
                 "es-AR": "<b>Termina la tarea asignada antes de pasar a la siguiente.</b>",
                 "en-US": "<b>Completes an assigned task before moving to a next task.</b>",
-                "en-GH": "<b>Completes an assigned task before moving to a next task.</b>"
+                "en-GH": "bevor er zur nächsten Aufgabe übergeht.</b>"
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7030,7 +7030,7 @@
                 "de-CH": "Kochrezepte).",
                 "es-AR": "<b>Completa actividades que requieren recordar instrucciones largas</b> (p. ej., reglas de un juego, tareas domésticas, receta de cocina).",
                 "en-US": "<b>Completes activities that require remembering lengthy instructions</b> (e.g., rules of a game, household chores, cooking recipe).",
-                "en-GH": "<b>Completes activities that require remembering lengthy instructions</b> (e.g., rules of a game, household chores, cooking recipe)."
+                "en-GH": "<b>Erledigt Tätigkeiten, bei denen man sich längere Anweisungen merken muss</b> (z. B. Spielregeln, Hausarbeiten, Kochrezepte)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7144,7 +7144,7 @@
                 "de-CH": "so dass es leicht zu verstehen ist).",
                 "es-AR": "<b>Se comunica de forma organizada</b> (p. ej., vuelve a contar la secuencia correcta de los acontecimientos, explica cómo funciona un juego para que sea fácil de entender).",
                 "en-US": "<b>Communicates in an organized way</b> (e.g., retells the correct sequence of the events, explains how a game works so it is easy to understand).",
-                "en-GH": "<b>Communicates in an organized way</b> (e.g., retells the correct sequence of the events, explains how a game works so it is easy to understand)."
+                "en-GH": "<b>Kommuniziert auf organisierte Weise</b> (es erzählt z. B. die richtige Reihenfolge der Ereignisse, erklärt, wie ein Spiel funktioniert, so dass es leicht zu verstehen ist)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7201,7 +7201,7 @@
                 "de-CH": "die das Kind selbst anleitet</b> (z. B. beim Spielen mit Geschwistern oder anderen Kindern gleichen Alters).",
                 "es-AR": "<b>Se mantiene concentrado e involucrado durante las actividades de colaboración dirigidas por niños</b> (p. ej., jugando con sus hermanos o compañeros).",
                 "en-US": "<b>Remains focused and engaged during collaborative child-led activities</b> (e.g., playing with siblings/peers).",
-                "en-GH": "<b>Remains focused and engaged during collaborative child-led activities</b> (e.g., playing with siblings/peers)."
+                "en-GH": "die das Kind selbst anleitet</b> (z. B. beim Spielen mit Geschwistern oder anderen Kindern gleichen Alters)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7220,7 +7220,7 @@
                 "de-CH": "eine zugewiesene Aufgabe zu erledigen</b> (z. B. Zimmer aufräumen).",
                 "es-AR": "<b>Ignora una actividad preferida y divertida</b> (p. ej., jugar) <b>cuando se le pide que complete una tarea asignada</b> (p. ej., limpiar la habitación).",
                 "en-US": "<b>Ignores a preferred, fun activity</b> (e.g., playing) <b>when asked to complete an assigned task</b> (e.g., cleaning room).",
-                "en-GH": "<b>Ignores a preferred, fun activity</b> (e.g., playing) <b>when asked to complete an assigned task</b> (e.g., cleaning room)."
+                "en-GH": "<b>Ignoriert eine bevorzugte, lustige Aktivität</b> (z. B. Spielen), <b>wenn es aufgefordert wird, eine zugewiesene Aufgabe zu erledigen</b> (z. B. Zimmer aufräumen)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7239,7 +7239,7 @@
                 "de-CH": "bis es an der Reihe ist</b> (es wartet z. B. geduldig in der Schlange im Supermarkt oder wenn es ein Spielzeug mit einem Geschwisterkind teilt).",
                 "es-AR": "<b>Espera su turno para actuar</b> (p. ej., espera pacientemente en la fila del supermercado o cuando comparte un juguete con su hermano).",
                 "en-US": "<b>Waits for their turn to act</b> (e.g., waits patiently in line at a grocery store or when sharing a toy with sibling).",
-                "en-GH": "<b>Waits for their turn to act</b> (e.g., waits patiently in line at a grocery store or when sharing a toy with sibling)."
+                "en-GH": "bis es an der Reihe ist</b> (es wartet z. B. geduldig in der Schlange im Supermarkt oder wenn es ein Spielzeug mit einem Geschwisterkind teilt)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7334,7 +7334,7 @@
                 "de-CH": "ohne sich von kleinen Details ablenken zu lassen und/oder den Gedankengang zu verlieren.</b>",
                 "es-AR": "<b>Responde a preguntas o cuenta una historia sin distraerse con pequeños detalles ni perder el hilo de sus pensamientos.</b>",
                 "en-US": "<b>Answers questions or tells a story without getting distracted by small details and/or losing train of thought.</b>",
-                "en-GH": "<b>Answers questions or tells a story without getting distracted by small details and/or losing train of thought.</b>"
+                "en-GH": "ohne sich von kleinen Details ablenken zu lassen und/oder den Gedankengang zu verlieren.</b>"
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7353,7 +7353,7 @@
                 "de-CH": "die es nicht anfassen sollte).",
                 "es-AR": "<b>Se detiene y piensa antes de actuar</b> (p. ej., no se lanza corriendo delante de un vehículo, no toma un objeto que no debería).",
                 "en-US": "<b>Stops and thinks before acting</b> (e.g., does not run out in front of a car, does not grab things they shouldn't).",
-                "en-GH": "<b>Stops and thinks before acting</b> (e.g., does not run out in front of a car, does not grab things they shouldn't)."
+                "en-GH": "<b>Hält inne und denkt nach, bevor es handelt</b> (es rennt z. B. nicht vor ein Auto, greift nicht nach Dingen, die es nicht anfassen sollte)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7372,7 +7372,7 @@
                 "de-CH": "welche Lebensmittel es essen möchte).",
                 "es-AR": "<b>Recuerda y considera todas las opciones a la hora de elegir</b> (p. ej., qué hacer cuando se complica una tarea doméstica o se enfrenta a un problema, qué comida elegir).",
                 "en-US": "<b>Remembers and considers all options when making a choice</b> (e.g., what to do when they get stuck on a household task or face a problem, food options).",
-                "en-GH": "<b>Remembers and considers all options when making a choice</b> (e.g., what to do when they get stuck on a household task or face a problem, food options)."
+                "en-GH": "<b>Erinnert sich an alle Optionen und zieht sie in Betracht, wenn es eine Entscheidung trifft</b> (z. B. was zu tun ist, wenn es mit einer Haushaltsaufgabe oder einem Problem nicht weiterkommt, welche Lebensmittel es essen möchte)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7448,7 +7448,7 @@
                 "de-CH": "kann gut nach einem verlorenen Gegenstand suchen oder Verstecken spielen).",
                 "es-AR": "<b>Recuerda direcciones, patrones y ubicación de las cosas</b> (p. ej., conoce las rutas para caminar, encuentra las cosas en una tienda de comestibles, es hábil buscando un objeto perdido o jugando al escondite).",
                 "en-US": "<b>Remembers physical directions, patterns, and where things are</b> (e.g., knows walking routes, finds things in a grocery store, good at searching for a lost item or playing hide-and-seek).",
-                "en-GH": "<b>Remembers physical directions, patterns, and where things are</b> (e.g., knows walking routes, finds things in a grocery store, good at searching for a lost item or playing hide-and-seek)."
+                "en-GH": "<b>Erinnert sich an Wegangaben, Muster und den Standort von Dingen</b> (z. B. kennt es Laufwege, findet Dinge in einem Lebensmittelgeschäft, kann gut nach einem verlorenen Gegenstand suchen oder Verstecken spielen)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7467,7 +7467,7 @@
                 "de-CH": "Änderung des Verhaltens je nachdem ob gerade Spielzeit oder Hausaufgabenzeit ist).",
                 "es-AR": "<b>Adapta su comportamiento en función de lo que requiere la situación</b> (p. ej., cambia de personaje o papel en un juego, cambia su comportamiento en función a que se encuentra en tiempo de juego o tiempo de estudio).",
                 "en-US": "<b>Adapts behavior based on what is required by the situation</b> (e.g., switches characters/roles while playing a game, changes behavior based on playtime or study time).",
-                "en-GH": "<b>Adapts behavior based on what is required by the situation</b> (e.g., switches characters/roles while playing a game, changes behavior based on playtime or study time)."
+                "en-GH": "Änderung des Verhaltens je nachdem ob gerade Spielzeit oder Hausaufgabenzeit ist)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -8314,7 +8314,7 @@
                 "de-CH": "would you...",
                 "es-AR": "A veces los niños(as) se enfadan tanto con sus padres que dicen cosas como te odio o dicen palabrotas en medio de un rabieta. Si su niño(a) le dijera te odio o le ofendiera, usted...",
                 "en-US": "Sometimes children get so angry at their parents that they say things like I hate you or swear in a temper tantrum. If your child said something like I hate you or swore at you, would you...",
-                "en-GH": "Sometimes children get so angry at their parents that they say things like I hate you or swear in a temper tantrum. If your child said something like I hate you or swore at you, would you..."
+                "en-GH": "would you..."
               },
               "showQuestionNumbers": "off",
               "elements": [
@@ -8701,7 +8701,7 @@
                     "de-CH": "bitte angeben",
                     "es-AR": "Otra acción, especifique cuál",
                     "en-US": "Other, please specify",
-                    "en-GH": "Other, please specify"
+                    "en-GH": "bitte angeben"
                   }
                 }
               ]

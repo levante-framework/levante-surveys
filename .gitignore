@@ -38,3 +38,6 @@ crowdin.yml
 
 # Python virtual environment
 .venv/
+
+# Local cloud credentials (never commit)
+levante-assets-writer.json

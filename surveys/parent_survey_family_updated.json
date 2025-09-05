@@ -341,7 +341,7 @@
             "fr-CA": "Dans quelle mesure êtes-vous d'accord avec ces déclarations sur votre quartier ou communauté?",
             "de-CH": "Inwieweit stimmen Sie diesen Aussagen über Ihre Nachbarschaft oder Gemeinde zu?",
             "es-AR": "¿En qué medida está de acuerdo con estas afirmaciones sobre su vecindario o comunidad?",
-            "en-GH": "To what extent do you agree with these statements about your neighborhood or community?"
+            "en-GH": "To which level you kind of dey agree with these things wey you hear about your neighborhood or town?"
           },
           "showNumber": false,
           "alternateRows": true,
@@ -357,7 +357,7 @@
                 "fr-CA": "Tout à fait d'accord",
                 "de-CH": "Voll und ganz zustimmen",
                 "es-AR": "Definitivamente de acuerdo",
-                "en-GH": "Definitely Agree"
+                "en-GH": "Absolutely Agree"
               }
             },
             {
@@ -371,7 +371,7 @@
                 "fr-CA": "Plutôt d'accord",
                 "de-CH": "Eher zustimmen",
                 "es-AR": "Algo de acuerdo",
-                "en-GH": "Somewhat Agree"
+                "en-GH": "More or less Agree"
               }
             },
             {
@@ -385,7 +385,7 @@
                 "fr-CA": "Plutôt en désaccord",
                 "de-CH": "Eher nicht zustimmen",
                 "es-AR": "Algo en descuerdo",
-                "en-GH": "Somewhat Disagree"
+                "en-GH": "More or less Disagree"
               }
             },
             {
@@ -399,7 +399,7 @@
                 "fr-CA": "Pas du tout d'accord",
                 "de-CH": "Überhaupt nicht zustimmen",
                 "es-AR": "Definitivamente en desacuerdo",
-                "en-GH": "Definitely Disagree"
+                "en-GH": "Absolutely Disagree"
               }
             }
           ],
@@ -415,7 +415,7 @@
                 "fr-CA": "Les gens dans votre quartier s'entraident.",
                 "de-CH": "Die Menschen in deiner Nachbarschaft helfen sich gegenseitig.",
                 "es-AR": "La gente de su vecindario se ayuda mutuamente.",
-                "en-GH": "People in your neighborhood help each other out."
+                "en-GH": "The people for your place dey like help each other."
               }
             },
             {
@@ -429,7 +429,7 @@
                 "fr-CA": "Les gens dans votre quartier veillent sur les enfants des uns et des autres.",
                 "de-CH": "Die Menschen in Ihrer Nachbarschaft passen auf die Kinder der anderen auf.",
                 "es-AR": "La gente de su vecindario cuida mutuamente de nuestros niños(as).",
-                "en-GH": "People in your neighborhood watch out for each other's children."
+                "en-GH": "The people for your area dey watch out for each other their children."
               }
             },
             {
@@ -443,7 +443,7 @@
                 "fr-CA": "Votre enfant est en sécurité dans votre quartier.",
                 "de-CH": "Ihr Kind ist in Ihrer Nachbarschaft sicher.",
                 "es-AR": "Su niño(a) está seguro(a) en su vecindario.",
-                "en-GH": "Your child is safe in your neighborhood."
+                "en-GH": "Your child dey safe for your place."
               }
             },
             {
@@ -457,7 +457,7 @@
                 "fr-CA": "Quand vous rencontrez des difficultés, vous savez où aller chercher de l'aide dans votre communauté.",
                 "de-CH": "Wenn Sie auf Schwierigkeiten stoßen, wissen Sie, an wen Sie sich in Ihrer Gemeinde wenden können, um Hilfe zu erhalten.",
                 "es-AR": "Ustedes saben a quién acudir en su comunidad para buscar ayuda, cuando enfrentan dificultades.",
-                "en-GH": "When you encounter difficulties, you know where to go for help in your community."
+                "en-GH": "When you face challenges, you know the nose tap wey you go poke for help from the society."
               }
             },
             {
@@ -472,7 +472,7 @@
                 "de-CH": "Ihr Kind ist in der Schule sicher.",
                 "es-AR": "Su niño(a) está seguro(a) en la escuela.",
                 "en-US": "Your child is safe at school.",
-                "en-GH": "Your child is safe at school."
+                "en-GH": "Your child dey safe for school."
               }
             }
           ]
@@ -490,7 +490,7 @@
             "de-CH": "Dies sind Aussagen, die Menschen über ihre Ernährungssituation gemacht haben. Bitte kreuzen Sie für diese Aussagen an, ob die Aussage in den <b>letzten 12 Monaten</b> für Ihren Haushalt oft, manchmal oder nie stimmte.",
             "es-AR": "Estas son declaraciones que las personas han hecho sobre situaciones alimentarias. Para cada uno, favor de indicar si ha ocurrido frecuentemente, a veces, o nunca (a Ud. / en su hogar) en <b>los últimos 12 meses</b>.",
             "en-US": "These are statements people have made about their food situation. For these statements, please mark whether the statement was often true, sometimes true, or never true for your household in the <b>last 12 months</b>.",
-            "en-GH": "These are statements people have made about their food situation. For these statements, please mark whether the statement was often true, sometimes true, or never true for your household in the <b>last 12 months</b>."
+            "en-GH": "These things be what dem say about their food place. For these things, mark if dem always true, sometimes true, or never true for your household within <b>last 12 months</b>."
           },
           "showQuestionNumbers": "off",
           "elements": [
@@ -520,7 +520,7 @@
                     "fr-CA": "Jamais vrai",
                     "de-CH": "Trifft nie zu",
                     "es-AR": "Nunca",
-                    "en-GH": "Never true"
+                    "en-GH": "Not true at all"
                   }
                 },
                 {
@@ -549,7 +549,7 @@
                     "de-CH": "Trifft oft zu",
                     "es-AR": "Frecuentemente",
                     "en-US": "Often true",
-                    "en-GH": "Often true"
+                    "en-GH": "Many times true"
                   }
                 }
               ],
@@ -568,7 +568,7 @@
                 "fr-CA": "Nous ne pouvions pas nous permettre de manger des repas équilibrés.",
                 "de-CH": "Wir konnten es uns nicht leisten, ausgewogene Mahlzeiten zu essen.",
                 "es-AR": "No teníamos recursos suficientes para comer comida variada y nutritiva.",
-                "en-GH": "We couldn't afford to eat balanced meals."
+                "en-GH": "We no fit afford balanced meals."
               },
               "choices": [
                 {
@@ -629,7 +629,7 @@
                 "fr-CA": "Au cours <b>des 12 derniers mois</b>, avez-vous ou d'autres adultes de votre foyer réduit la taille de vos repas ou sauté des repas parce qu'il n'y avait pas assez d'argent pour acheter de la nourriture?",
                 "de-CH": "Haben Sie oder andere Erwachsene in Ihrem Haushalt in den <b>letzten 12 Monaten</b> jemals die Menge Ihrer Mahlzeiten reduziert oder Mahlzeiten ausgelassen, weil nicht genug Geld für Lebensmittel vorhanden war?",
                 "es-AR": "En <b>los últimos 12 meses</b>, ¿usted u otros adultos del hogar redujeron la cantidad de sus comidas o se saltaron comidas porque les faltaba dinero para alimentos?",
-                "en-GH": "In the <b>last 12 months</b>, did you or other adults in your household ever cut the size of your meals or skip meals because there wasn't enough money for food?"
+                "en-GH": "Over the <b>last 12 months</b>, you or the adults for your area ever cut the size of your meals or jump meals because food money no dey?"
               },
               "labelTrue": {
                 "default": "Yes",
@@ -670,7 +670,7 @@
                 "fr-CA": "Si oui, combien de fois est-ce arrivé - presque chaque mois, certains mois mais pas tous les mois, ou seulement dans 1 ou 2 mois?",
                 "de-CH": "Wenn ja, wie oft ist kam dies vor - fast jeden Monat, in einigen Monaten aber nicht in jedem Monat, nur in 1 oder 2 Monaten?",
                 "es-AR": "En caso afirmativo, ¿con qué frecuencia: casi todos los meses, algunos meses, solo 1 o 2 meses?",
-                "en-GH": "If yes, how often did this happen - almost every month, some months but not every month, or in only 1 or 2 months?"
+                "en-GH": "If yes, how often e happen - almost every month, some months but not every month, or only 1 or 2 months?"
               },
               "choices": [
                 {
@@ -739,7 +739,7 @@
             "de-CH": "Im Folgenden finden Sie Aussagen über die häusliche Umgebung. Bitte geben Sie an, inwieweit Sie der Aussage zustimmen, dass sie auf Ihr Zuhause zutrifft.",
             "es-AR": "A continuación encontrará una serie de afirmaciones sobre el entorno de su hogar. Indique qué tan cierta es cada afirmación para su hogar.",
             "en-US": "Below are statements about the environment in your home. Please indicate how much you agree that the statement is true of your home.",
-            "en-GH": "Below are statements about the environment in your home. Please indicate how much you agree that the statement is true of your home."
+            "en-GH": "Below be things for your house wey make am up. Kindly show how you dey feel about them."
           },
           "showQuestionNumbers": "off",
           "elements": [
@@ -755,7 +755,7 @@
                 "fr-CA": "Nous sommes généralement capables de rester au top des choses.",
                 "de-CH": "Wir sind in der Regel in der Lage, den Überblick zu behalten.",
                 "es-AR": "Normalmente somos capaces de estar al día con las actividades.",
-                "en-GH": "We are usually able to stay on top of things."
+                "en-GH": "Usually, we dey keep things on check."
               },
               "choices": [
                 {
@@ -769,7 +769,7 @@
                     "fr-CA": "Totalement faux",
                     "de-CH": "Definitiv unwahr",
                     "es-AR": "Totalmente falso",
-                    "en-GH": "Definitely Untrue"
+                    "en-GH": "Definitely False"
                   }
                 },
                 {
@@ -812,7 +812,7 @@
                     "de-CH": "Definitiv wahr",
                     "es-AR": "Totalmente verdadero",
                     "en-US": "Definitely True",
-                    "en-GH": "Definitely True"
+                    "en-GH": "Truly True"
                   }
                 }
               ],
@@ -830,7 +830,7 @@
                 "fr-CA": "Vous ne pouvez pas vous entendre penser chez nous.",
                 "de-CH": "Bei uns zu Hause versteht man sein eigenes Wort nicht.",
                 "es-AR": "En nuestra casa hay tanto ruido que no escuchas ni tus pensamientos.",
-                "en-GH": "You can't hear yourself think in our home."
+                "en-GH": "For our house, e be noise-oh, you can't hear yourself think so."
               },
               "choices": [
                 {
@@ -905,7 +905,7 @@
                 "fr-CA": "L'atmosphère dans notre maison est calme.",
                 "de-CH": "Die Atmosphäre in unserem Haus ist ruhig.",
                 "es-AR": "El ambiente de nuestra casa es muy calmado.",
-                "en-GH": "The atmosphere in our home is calm."
+                "en-GH": "Our house dey calm."
               },
               "choices": [
                 {
@@ -980,7 +980,7 @@
                 "fr-CA": "Nous avons une routine matinale régulière à la maison.",
                 "de-CH": "Wir haben zu Hause eine regelmäßige Morgenroutine.",
                 "es-AR": "En nuestra casa, tenemos una rutina matutina regular.",
-                "en-GH": "We have a regular morning routine at home."
+                "en-GH": "Our morning routine dey alright for house."
               },
               "choices": [
                 {
@@ -1062,7 +1062,7 @@
                 "fr-CA": "Comment pensez-vous que vous gérez les exigences quotidiennes de l'éducation des enfants?",
                 "de-CH": "Was glauben Sie, wie gut Sie mit den täglichen Anforderungen der Kindererziehung zurechtkommen?",
                 "es-AR": "¿Qué tan bien cree usted que está manejando las exigencias diarias de la crianza de los niños?",
-                "en-GH": "How well do you think you are handling the day-to-day demands of raising children?"
+                "en-GH": "How better you dey manage the daily demands of parenting children?"
               },
               "showNumber": false,
               "choices": [
@@ -1120,7 +1120,7 @@
                     "de-CH": "Überhaupt nicht gut",
                     "es-AR": "Muy mal",
                     "en-US": "Not well at all",
-                    "en-GH": "Not well at all"
+                    "en-GH": "Not good one bit"
                   }
                 }
               ],
@@ -1145,7 +1145,7 @@
             "fr-CA": "Au cours des <b>deux dernières semaines</b>, à quelle fréquence avez-vous été dérangé par les problèmes suivants?",
             "de-CH": "Wie oft wurden Sie in den <b>letzten zwei Wochen</b> von den folgenden Problemen geplagt?",
             "es-AR": "En las <b>últimas dos semanas</b>, ¿con qué frecuencia se sintió usted afectado por los siguientes problemas?",
-            "en-GH": "Over the <b>last two weeks</b>, how often have you been bothered by the following problems?"
+            "en-GH": "In the <b>last two weeks</b>, how frequent have the following things disturb you?"
           },
           "showNumber": false,
           "alternateRows": true,
@@ -1175,7 +1175,7 @@
                 "fr-CA": "Plusieurs jours",
                 "de-CH": "Mehrere Tage",
                 "es-AR": "Varios días",
-                "en-GH": "Several days"
+                "en-GH": "Few days"
               }
             },
             {
@@ -1203,7 +1203,7 @@
                 "fr-CA": "Presque tous les jours",
                 "de-CH": "Fast jeden Tag",
                 "es-AR": "Casi todos los días",
-                "en-GH": "Nearly every day"
+                "en-GH": "Every blessed day"
               }
             }
           ],
@@ -1219,7 +1219,7 @@
                 "fr-CA": "Se sentir nerveux, anxieux ou tendu",
                 "de-CH": "Sich nervös, ängstlich oder gereizt fühlen",
                 "es-AR": "Nerviosismo, ansiedad o irritabilidad",
-                "en-GH": "Feeling nervous, anxious, or on edge"
+                "en-GH": "Feeling nervous, anxious, or like something bad go pop"
               }
             },
             {
@@ -1233,7 +1233,7 @@
                 "fr-CA": "Ne pas être capable d'arrêter ou de contrôler les préoccupations",
                 "de-CH": "Nicht in der Lage zu sein, das Grübeln zu beenden oder zu kontrollieren",
                 "es-AR": "No poder parar o controlar las preocupaciones",
-                "en-GH": "Not being able to stop or control worrying"
+                "en-GH": "Unable to control or stop worrying"
               }
             },
             {
@@ -1247,7 +1247,7 @@
                 "fr-CA": "Se sentir abattu, déprimé ou sans espoir",
                 "de-CH": "Sich niedergeschlagen, deprimiert oder hoffnungslos fühlen",
                 "es-AR": "Sentirse decaído, deprimido o desesperanzado.",
-                "en-GH": "Feeling down, depressed, or hopeless"
+                "en-GH": "Feeling like this depression dey make every corner dark"
               }
             },
             {
@@ -1262,7 +1262,7 @@
                 "de-CH": "Wenig Interesse oder Freude am Tun",
                 "es-AR": "Poco interés o placer por hacer cosas",
                 "en-US": "Little interest or pleasure in doing things",
-                "en-GH": "Little interest or pleasure in doing things"
+                "en-GH": "Little interest or joy dey things you used to love"
               }
             }
           ]
@@ -1279,7 +1279,7 @@
             "fr-CA": "Nous nous intéressons à votre ressenti vis-à-vis des affirmations suivantes. Lisez chaque affirmation attentivement. Indiquez ce que vous ressentez par rapport à chaque affirmation.",
             "de-CH": "Uns interessiert, wie Sie zu den folgenden Aussagen stehen. Lesen Sie jede Aussage sorgfältig durch. Geben Sie an, wie Sie über jede Aussage denken.",
             "es-AR": "Nos interesa conocer su opinión sobre las siguientes afirmaciones. Léalas atentamente e indique cómo se siente respecto a cada una.",
-            "en-GH": "We are interested in how you feel about the following statements. Read each statement carefully. Indicate how you feel about each statement."
+            "en-GH": "Make we see how you feel about the following words. Review each of the words with care, and tell your own feelings toward them."
           },
           "showNumber": false,
           "alternateRows": true,
@@ -1295,7 +1295,7 @@
                 "fr-CA": "Très fortement en désaccord",
                 "de-CH": "Sehr stark ablehnen",
                 "es-AR": "Totalmente en desacuerdo",
-                "en-GH": "Very Strongly Disagree"
+                "en-GH": "Truly Disagree"
               }
             },
             {
@@ -1309,7 +1309,7 @@
                 "fr-CA": "Fortement en désaccord",
                 "de-CH": "Stark ablehnen",
                 "es-AR": "Muy en desacuerdo",
-                "en-GH": "Strongly Disagree"
+                "en-GH": "Disagree"
               }
             },
             {
@@ -1323,7 +1323,7 @@
                 "fr-CA": "Légèrement en désaccord",
                 "de-CH": "Leicht ablehnen",
                 "es-AR": "Algo en desacuerdo",
-                "en-GH": "Mildly Disagree"
+                "en-GH": "Barely Disagree"
               }
             },
             {
@@ -1341,7 +1341,7 @@
                 "fr-CA": "Légèrement d'accord",
                 "de-CH": "Leicht zustimmen",
                 "es-AR": "Ligeramente de acuerdo",
-                "en-GH": "Mildly Agree"
+                "en-GH": "Agree so far"
               }
             },
             {
@@ -1355,7 +1355,7 @@
                 "fr-CA": "Fortement d'accord",
                 "de-CH": "Stark zustimmen",
                 "es-AR": "Muy de acuerdo",
-                "en-GH": "Strongly Agree"
+                "en-GH": "Strong Agree"
               }
             },
             {
@@ -1369,7 +1369,7 @@
                 "fr-CA": "Très fortement d'accord",
                 "de-CH": "Sehr stark zustimmen",
                 "es-AR": "Totalmente de acuerdo",
-                "en-GH": "Very Strongly Agree"
+                "en-GH": "Even more Strongly Agree"
               }
             }
           ],
@@ -1385,7 +1385,7 @@
                 "fr-CA": "Il y a une personne spéciale (ex : conjoint, partenaire, etc.) qui est là quand j'ai besoin.",
                 "de-CH": "Es gibt eine besondere Person (z. B. Ehepartner, Partner usw.), die für mich da ist, wenn ich in Not bin.",
                 "es-AR": "Hay una persona especial (cónyuge, pareja, etc.) que está a mi lado cuando la necesito.",
-                "en-GH": "There is a special person (ex: spouse, partner, etc.) who is around when I am in need."
+                "en-GH": "Got a special someone (spouse, buddy, etc.) when you dey in need?"
               }
             },
             {
@@ -1399,7 +1399,7 @@
                 "fr-CA": "Il y a une personne spéciale (ex : conjoint, partenaire, etc.) avec qui je peux partager joies et peines.",
                 "de-CH": "Es gibt eine besondere Person (z. B. Ehepartner, Partner usw.), mit der ich Freud und Leid teilen kann.",
                 "es-AR": "Hay una persona especial (cónyuge, pareja, etc.) con la que puedo compartir alegrías y penas.",
-                "en-GH": "There is a special person (ex: spouse, partner, etc.) with whom I can share joys and sorrows."
+                "en-GH": "Someone special dey in your corner where you fit share laughter and tears?"
               }
             },
             {
@@ -1413,7 +1413,7 @@
                 "fr-CA": "Ma famille essaie vraiment de m'aider.",
                 "de-CH": "Meine Familie versucht wirklich, mir zu helfen.",
                 "es-AR": "Mi familia realmente trata de ayudarme.",
-                "en-GH": "My family really tries to help me."
+                "en-GH": "Your family too dey help."
               }
             },
             {
@@ -1427,7 +1427,7 @@
                 "fr-CA": "Je reçois l'aide émotionnelle & le soutien dont j'ai besoin de ma famille.",
                 "de-CH": "Ich bekomme die emotionale Hilfe und Unterstützung, die ich brauche, von meiner Familie.",
                 "es-AR": "Recibo la ayuda y el apoyo emocional que necesito de mi familia.",
-                "en-GH": "I get the emotional help & support I need from my family."
+                "en-GH": "The kind of emotional support you dey seek from your family fr get."
               }
             },
             {
@@ -1441,7 +1441,7 @@
                 "fr-CA": "J'ai une personne spéciale (ex : conjoint, partenaire, etc.) qui est une réelle source de réconfort pour moi.",
                 "de-CH": "Ich habe eine besondere Person (z. B. Ehepartner, Partner usw.), die mir wirklich Trost spendet.",
                 "es-AR": "Tengo una persona especial (cónyuge, pareja, etc.) que es una verdadera fuente de consuelo para mí.",
-                "en-GH": "I have a special person (ex: spouse, partner, etc.) who is a real source of comfort to me."
+                "en-GH": "Di someone special (spouse or partner as example), ebi comfort station for you?"
               }
             },
             {
@@ -1455,7 +1455,7 @@
                 "fr-CA": "Mes amis essaient vraiment de m'aider.",
                 "de-CH": "Meine Freunde versuchen wirklich, mir zu helfen.",
                 "es-AR": "Mis amigos realmente tratan de ayudarme.",
-                "en-GH": "My friends really try to help me."
+                "en-GH": "Di people you call fren, them too dey support."
               }
             },
             {
@@ -1469,7 +1469,7 @@
                 "fr-CA": "Je peux compter sur mes amis quand les choses tournent mal.",
                 "de-CH": "Ich kann auf meine Freunde zählen, wenn etwas schief läuft.",
                 "es-AR": "Puedo contar con mis amigos cuando las cosas van mal.",
-                "en-GH": "I can count on my friends when things go wrong."
+                "en-GH": "You fit depend on your friends when things go sideways."
               }
             },
             {
@@ -1483,7 +1483,7 @@
                 "fr-CA": "Je peux parler de mes problèmes avec ma famille.",
                 "de-CH": "Ich kann über meine Probleme mit meiner Familie sprechen.",
                 "es-AR": "Puedo hablar de mis problemas con mi familia.",
-                "en-GH": "I can talk about my problems with my family."
+                "en-GH": "Your family and you dey come to terms, and talk about problems."
               }
             },
             {
@@ -1497,7 +1497,7 @@
                 "fr-CA": "J'ai des amis avec qui je peux partager mes joies et mes peines.",
                 "de-CH": "Ich habe Freunde, mit denen ich meine Freuden und Sorgen teilen kann.",
                 "es-AR": "Tengo amigos con los que puedo compartir mis alegrías y mis penas.",
-                "en-GH": "I have friends with whom I can share my joys and sorrows."
+                "en-GH": "You also have friends with ample ear for thrills and grief."
               }
             },
             {
@@ -1511,7 +1511,7 @@
                 "fr-CA": "Il y a une personne spéciale (ex : conjoint, partenaire, etc.) dans ma vie qui se soucie de mes sentiments.",
                 "de-CH": "Es gibt eine besondere Person (z. B. Ehepartner, Partner usw.) in meinem Leben, die sich um meine Gefühle kümmert.",
                 "es-AR": "Hay una persona especial (cónyuge, pareja, etc.) en mi vida que se preocupa por mis sentimientos.",
-                "en-GH": "There is a special person (ex: spouse, partner, etc.) in my life who cares about my feelings."
+                "en-GH": "Some special individual for your life dey give emotional assurance."
               }
             },
             {
@@ -1525,7 +1525,7 @@
                 "fr-CA": "Ma famille est prête à m'aider à prendre des décisions.",
                 "de-CH": "Meine Familie ist bereit, mir bei Entscheidungsfindungen zu helfen.",
                 "es-AR": "Mi familia está dispuesta a ayudarme a tomar decisiones.",
-                "en-GH": "My family is willing to help me make decisions."
+                "en-GH": "Make your family or family members decision position they dey control."
               }
             },
             {
@@ -1540,7 +1540,7 @@
                 "de-CH": "Ich kann mit meinen Freunden über meine Probleme sprechen.",
                 "es-AR": "Puedo hablar de mis problemas con mis amigos.",
                 "en-US": "I can talk about my problems with my friends.",
-                "en-GH": "I can talk about my problems with my friends."
+                "en-GH": "For problems wey you get, you fit share them within your friend circle."
               }
             }
           ]
@@ -1557,7 +1557,7 @@
             "fr-CA": "Dans votre vie quotidienne, à quelle fréquence vous est-il arrivé l'une des choses suivantes?",
             "de-CH": "Wie oft ist Ihnen in Ihrem Alltag eines der folgenden Dinge passiert?",
             "es-AR": "En su vida cotidiana, ¿con qué frecuencia ha vivido usted alguna de las siguientes situaciones?",
-            "en-GH": "In your day-to-day life how often have any of the following things happened to you?"
+            "en-GH": "In your everyday life, on how many occasions have dey things come for you?"
           },
           "showNumber": false,
           "alternateRows": true,
@@ -1587,7 +1587,7 @@
                 "fr-CA": "Moins d'une fois par an",
                 "de-CH": "Weniger als einmal im Jahr",
                 "es-AR": "Menos de una vez al año",
-                "en-GH": "Less than once a year"
+                "en-GH": "Below the once-a-year marker"
               }
             },
             {
@@ -1601,7 +1601,7 @@
                 "fr-CA": "Quelques fois par an",
                 "de-CH": "Einige Male im Jahr",
                 "es-AR": "Varias veces al año",
-                "en-GH": "A few times a year"
+                "en-GH": "Some earrings every year"
               }
             },
             {
@@ -1615,7 +1615,7 @@
                 "fr-CA": "Quelques fois par mois",
                 "de-CH": "Ein paar Mal im Monat",
                 "es-AR": "Algunas veces al mes",
-                "en-GH": "A few times a month"
+                "en-GH": "Few baskets monthly"
               }
             },
             {
@@ -1629,7 +1629,7 @@
                 "fr-CA": "Au moins une fois par semaine",
                 "de-CH": "Mindestens einmal in der Woche",
                 "es-AR": "Al menos una vez a la semana",
-                "en-GH": "At least once a week"
+                "en-GH": "Weekly occurrences"
               }
             },
             {
@@ -1659,7 +1659,7 @@
                 "fr-CA": "Vous êtes traité avec moins de courtoisie ou de respect que d'autres personnes.",
                 "de-CH": "Sie werden mit weniger Höflichkeit oder Respekt behandelt als andere Menschen.",
                 "es-AR": "Le tratan con menos cortesía o respeto que a otras personas.",
-                "en-GH": "You are treated with less courtesy or respect than other people."
+                "en-GH": "You dey treated with less regard nor respect compared to the next naas."
               }
             },
             {
@@ -1673,7 +1673,7 @@
                 "fr-CA": "Vous recevez un service moins bon que d'autres personnes aux restaurants ou magasins.",
                 "de-CH": "Sie werden in Restaurants oder Geschäften schlechter bedient als andere Menschen.",
                 "es-AR": "Le atienden peor que a otras personas en restaurantes o tiendas.",
-                "en-GH": "You receive poorer service than other people at restaurants or stores."
+                "en-GH": "Receive worse kind of service within joints and shops."
               }
             },
             {
@@ -1687,7 +1687,7 @@
                 "fr-CA": "Les gens agissent comme s'ils pensent que vous n'êtes pas intelligent.",
                 "de-CH": "Die Leute tun so, als ob sie der Meinung wären, dass sie nicht intelligent sind.",
                 "es-AR": "La gente actúa como si pensara que usted no es muy inteligente.",
-                "en-GH": "People act as if they think you are not smart."
+                "en-GH": "People to believe say you no know book."
               }
             },
             {
@@ -1701,7 +1701,7 @@
                 "fr-CA": "Les gens agissent comme s'ils avaient peur de vous.",
                 "de-CH": "Die Leute tun so, als hätten sie Angst vor Ihnen.",
                 "es-AR": "La gente actúa como si le tuviera miedo.",
-                "en-GH": "People act as if they are afraid of you."
+                "en-GH": "Dem relate with you like predator they fear."
               }
             },
             {
@@ -1716,7 +1716,7 @@
                 "de-CH": "Sie werden bedroht oder belästigt.",
                 "es-AR": "Le amenazan o acosan.",
                 "en-US": "You are threatened or harassed.",
-                "en-GH": "You are threatened or harassed."
+                "en-GH": "You dey threatened or dey thrown into harassing situations."
               }
             }
           ]
@@ -1739,7 +1739,7 @@
             "de-CH": "Bitte wählen Sie Ja oder Nein, um anzugeben, ob Ihnen das jeweilige Ereignis im vergangenen Jahr widerfahren ist.",
             "es-AR": "Indique con Sí o No si le ha sucedido alguna de las siguientes cosas <b>en el último año</b>.",
             "en-US": "Please select Yes or No to indicate whether each event has happened to you <b>in the past year</b>.",
-            "en-GH": "Please select Yes or No to indicate whether each event has happened to you <b>in the past year</b>."
+            "en-GH": "Do indicate through Yes or No whether each thing relate to your list of events for <b>last year</b>."
           },
           "showQuestionNumbers": "off",
           "elements": [
@@ -1771,7 +1771,7 @@
                     "fr-CA": "Une blessure ou une maladie qui vous a gardé au lit une semaine ou plus, ou vous a envoyé à l'hôpital.",
                     "de-CH": "Eine Verletzung oder Krankheit, wegen der Sie mindestens eine Woche oder länger im Bett liegen mussten oder Sie ins Krankenhaus brachte.",
                     "es-AR": "Una lesión o enfermedad que le haya mantenido en cama una semana o más, o que le haya mandado al hospital.",
-                    "en-GH": "An injury or illness which kept you in bed a week or more, or sent you to the hospital."
+                    "en-GH": "A serious injury or accident that kept you resorting to bed for over a week or eventually hospital bound."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -1811,7 +1811,7 @@
                     "fr-CA": "Une blessure ou une maladie moins grave que ci-dessus mais qui vous a tout de même envoyé chez le médecin ou gardé au lit pendant un jour ou deux.",
                     "de-CH": "Eine Verletzung oder Erkrankung, die weniger schwerwiegend ist als die oben genannten, die aber dennoch einen Arztbesuch oder Bettruhe für ein oder zwei Tage erforderlich machte.",
                     "es-AR": "Una lesión o enfermedad menos grave que las anteriores, pero que le haya obligado a ir al médico o a guardar cama uno o dos días.",
-                    "en-GH": "An injury or illness which was less serious than above but still sent you to the doctor or kept you in bed for a day or two."
+                    "en-GH": "A less serious matter than an injury or sickness, but one that sent you to the er or stood you two days or less in bed."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -1851,7 +1851,7 @@
                     "fr-CA": "Travaux dentaires majeurs.",
                     "de-CH": "Größere zahnärztliche Behandlungen.",
                     "es-AR": "Tratamiento dental importante.",
-                    "en-GH": "Major dental work."
+                    "en-GH": "Major dental work done."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -1891,7 +1891,7 @@
                     "fr-CA": "Changement majeur dans les habitudes alimentaires.",
                     "de-CH": "Wesentliche Änderung der Essgewohnheiten.",
                     "es-AR": "Cambio importante en los hábitos alimentarios.",
-                    "en-GH": "Major change in eating habits."
+                    "en-GH": "Significant changes in eating habits made."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -1931,7 +1931,7 @@
                     "fr-CA": "Changement important dans les habitudes de sommeil.",
                     "de-CH": "Wesentliche Änderung der Schlafgewohnheiten.",
                     "es-AR": "Cambio importante en los hábitos de sueño.",
-                    "en-GH": "Major change in sleeping habits."
+                    "en-GH": "Changes in sleep patterns or sleep habits engaged."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -1971,7 +1971,7 @@
                     "fr-CA": "Changement significatif dans votre type habituel et/ou quantité de loisirs.",
                     "de-CH": "Wesentliche Änderung der Art und/oder des Umfangs Ihrer üblichen Freizeitgestaltung.",
                     "es-AR": "Cambio importante en el tipo o la cantidad de tiempo de ocio habitual.",
-                    "en-GH": "Major change in your usual type and/or amount of recreation."
+                    "en-GH": "Recreational activities dey change type and/or amount noticeably."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2029,7 +2029,7 @@
                     "fr-CA": "Changement vers un nouveau type de travail.",
                     "de-CH": "Wechsel zu einer neuen Art von Arbeit.",
                     "es-AR": "Cambio de tipo de trabajo.",
-                    "en-GH": "Change to a new type of work."
+                    "en-GH": "Transition into a fresh line of work."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2069,7 +2069,7 @@
                     "fr-CA": "Changement dans vos heures ou conditions de travail.",
                     "de-CH": "Änderung der Arbeitszeiten oder -bedingungen.",
                     "es-AR": "Cambio de horario o de condiciones de trabajo.",
-                    "en-GH": "Change in your work hours or conditions."
+                    "en-GH": "Shift in hours or changes for your current work environment."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2109,7 +2109,7 @@
                     "fr-CA": "Changement dans vos responsabilités au travail (plus de responsabilités).",
                     "de-CH": "Änderung Ihrer Verantwortlichkeiten am Arbeitsplatz (mehr Verantwortung).",
                     "es-AR": "Cambio de responsabilidades en el trabajo (más responsabilidades).",
-                    "en-GH": "Change in your responsibilities at work (more responsibilities)."
+                    "en-GH": "At work, acquirement of more responsibility given."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2149,7 +2149,7 @@
                     "fr-CA": "Changement dans vos responsabilités au travail (moins de responsabilités).",
                     "de-CH": "Änderung Ihrer Verantwortlichkeiten am Arbeitsplatz (weniger Verantwortlichkeiten).",
                     "es-AR": "Cambio de responsabilidades en el trabajo (menos responsabilidades).",
-                    "en-GH": "Change in your responsibilities at work (fewer responsibilities)."
+                    "en-GH": "Lower job responsibilities now."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2189,7 +2189,7 @@
                     "fr-CA": "Changement dans vos responsabilités au travail (promotion).",
                     "de-CH": "Änderung Ihrer Verantwortlichkeiten am Arbeitsplatz (Beförderung).",
                     "es-AR": "Cambio de responsabilidades en el trabajo (ascenso).",
-                    "en-GH": "Change in your responsibilities at work (promotion)."
+                    "en-GH": "Responsibilities at work shot up 'cause of promotion."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2229,7 +2229,7 @@
                     "fr-CA": "Changement dans vos responsabilités au travail (rétrogradation).",
                     "de-CH": "Änderung Ihrer Verantwortlichkeiten am Arbeitsplatz (Herunterstufung).",
                     "es-AR": "Cambio de responsabilidades en el trabajo (descenso).",
-                    "en-GH": "Change in your responsibilities at work (demotion)."
+                    "en-GH": "Responsibilities at work curved low by demotion."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2269,7 +2269,7 @@
                     "fr-CA": "Changement dans vos responsabilités au travail (transfert).",
                     "de-CH": "Änderung Ihrer Verantwortlichkeiten am Arbeitsplatz (Versetzung).",
                     "es-AR": "Cambio de responsabilidades en el trabajo (traslado).",
-                    "en-GH": "Change in your responsibilities at work (transfer)."
+                    "en-GH": "Relocation at job resulted in transfer."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2309,7 +2309,7 @@
                     "fr-CA": "Problèmes au travail (avec votre patron).",
                     "de-CH": "Probleme bei der Arbeit (mit Ihrem Chef).",
                     "es-AR": "Problemas en el trabajo (con el jefe).",
-                    "en-GH": "Troubles at work (with your boss)."
+                    "en-GH": "They dey give you stress at work, like your supervisor dey power."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2349,7 +2349,7 @@
                     "fr-CA": "Problèmes au travail (avec vos collègues).",
                     "de-CH": "Probleme bei der Arbeit (mit Ihren Kollegen).",
                     "es-AR": "Problemas en el trabajo (con los compañeros).",
-                    "en-GH": "Troubles at work (with your coworkers)."
+                    "en-GH": "Work ran into issues, den no like the organization nor amongst co-workers."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2389,7 +2389,7 @@
                     "fr-CA": "Problèmes au travail (avec des personnes sous votre supervision).",
                     "de-CH": "Probleme bei der Arbeit (mit den Ihnen unterstellten Personen).",
                     "es-AR": "Problemas en el trabajo (con subalternos).",
-                    "en-GH": "Troubles at work (with persons under your supervision)."
+                    "en-GH": "Person or people wey you dey manage for work dey trouble you."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2429,7 +2429,7 @@
                     "fr-CA": "Autres problèmes de travail.",
                     "de-CH": "Andere Arbeitsprobleme.",
                     "es-AR": "Otros problemas laborales.",
-                    "en-GH": "Other work problems."
+                    "en-GH": "Some other issues wey sprout towards work."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2469,7 +2469,7 @@
                     "fr-CA": "Ajustement commercial majeur.",
                     "de-CH": "Größere geschäftliche Anpassungen.",
                     "es-AR": "Cambios importantes de la empresa.",
-                    "en-GH": "Major business adjustment."
+                    "en-GH": "Business took sharp turn."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2509,7 +2509,7 @@
                     "fr-CA": "Retraite.",
                     "de-CH": "Ruhestand.",
                     "es-AR": "Jubilación.",
-                    "en-GH": "Retirement."
+                    "en-GH": "Retire time."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2549,7 +2549,7 @@
                     "fr-CA": "Perte d'emploi (licenciement).",
                     "de-CH": "Verlust des Arbeitsplatzes (Entlassung).",
                     "es-AR": "Despido con indemnización",
-                    "en-GH": "Loss of a job (laid off from work)."
+                    "en-GH": "No work, job dey loose with layoff."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2589,7 +2589,7 @@
                     "fr-CA": "Perte d'emploi (renvoi).",
                     "de-CH": "Verlust des Arbeitsplatzes (gekündigt werden).",
                     "es-AR": "Despido sin indemnización",
-                    "en-GH": "Loss of a job (fired from work)."
+                    "en-GH": "Job removal, redundancy mix-up."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2629,7 +2629,7 @@
                     "fr-CA": "Suivre un cours pour vous aider dans votre travail.",
                     "de-CH": "Teilnahme an einem Kurs, der Ihnen bei Ihrer Arbeit hilft.",
                     "es-AR": "Realización de un curso para ayudarle en su trabajo.",
-                    "en-GH": "Taking a course to help you with your work."
+                    "en-GH": "Take up a course, grow business wares."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2687,7 +2687,7 @@
                     "fr-CA": "Changement majeur des conditions de vie.",
                     "de-CH": "Wesentliche Änderung der Lebensumstände.",
                     "es-AR": "Cambio importante en las condiciones de vida.",
-                    "en-GH": "Major change in living conditions."
+                    "en-GH": "Big time change for living quarters."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2727,7 +2727,7 @@
                     "fr-CA": "Changement de résidence (déménagement dans la même ville).",
                     "de-CH": "Wechsel des Wohnsitzes (Umzug innerhalb derselben Stadt).",
                     "es-AR": "Cambio de residencia (traslado dentro de la misma vereda, pueblo o ciudad).",
-                    "en-GH": "Change in residence (move within the same town or city)."
+                    "en-GH": "House displacement (move still dey within same local)."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2767,7 +2767,7 @@
                     "fr-CA": "Changement de résidence (déménagement dans une autre ville, province ou état).",
                     "de-CH": "Änderung des Wohnsitzes (Umzug in eine andere Stadt oder ein anderes Bundesland).",
                     "es-AR": "Cambio de residencia (traslado a otro pueblo, ciudad o estado).",
-                    "en-GH": "Change in residence (move to a different town, city, or state)."
+                    "en-GH": "House shift (went to another city, town, state even)."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2807,7 +2807,7 @@
                     "fr-CA": "Changement dans les réunions de famille.",
                     "de-CH": "Änderung der Familienzusammenkünfte.",
                     "es-AR": "Cambios en los encuentros y reuniones de familia.",
-                    "en-GH": "Change in family get-togethers."
+                    "en-GH": "Family reunion season change."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2847,7 +2847,7 @@
                     "fr-CA": "Changement majeur de santé ou de comportement d'un membre de la famille.",
                     "de-CH": "Wesentliche Änderung des Gesundheitszustands oder Verhaltens eines Familienmitglieds.",
                     "es-AR": "Cambio importante en la salud o el comportamiento de un miembro de la familia.",
-                    "en-GH": "Major change in health or behavior of family member."
+                    "en-GH": "Family member dey trouble with health matters."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2887,7 +2887,7 @@
                     "fr-CA": "Mariage.",
                     "de-CH": "Heirat.",
                     "es-AR": "Matrimonio.",
-                    "en-GH": "Marriage."
+                    "en-GH": "Marriage chapter started."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2927,7 +2927,7 @@
                     "fr-CA": "Grossesse.",
                     "de-CH": "Schwangerschaft.",
                     "es-AR": "Embarazo.",
-                    "en-GH": "Pregnancy."
+                    "en-GH": "Expecting baby."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -2967,7 +2967,7 @@
                     "fr-CA": "Arrivée d'un nouveau membre dans la famille (naissance d'un enfant).",
                     "de-CH": "Zuwachs eines neuen Familienmitglieds (Geburt eines Kindes).",
                     "es-AR": "Llegada de un nuevo miembro a la familia (nacimiento de un niño(a)).",
-                    "en-GH": "Gain of a new family member (birth of a child)."
+                    "en-GH": "One more baby for family a fresh-born baby."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3007,7 +3007,7 @@
                     "fr-CA": "Arrivée d'un nouveau membre dans la famille (adoption d'un enfant).",
                     "de-CH": "Zuwachs eines neuen Familienmitglieds (Adoption eines Kindes).",
                     "es-AR": "Llegada de un nuevo miembro de la familia (adopción de un niño(a)).",
-                    "en-GH": "Gain of a new family member (adoption of a child)."
+                    "en-GH": "Added extension for new member, adopted one."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3047,7 +3047,7 @@
                     "fr-CA": "Arrivée d'un nouveau membre dans la famille (un parent emménage chez vous).",
                     "de-CH": "Zuwachs eines neuen Familienmitglieds (ein Verwandter zieht bei Ihnen ein).",
                     "es-AR": "Llegada de un nuevo familiar (un pariente que se mudó a vivir con usted).",
-                    "en-GH": "Gain of a new family member (a relative moving in with you)."
+                    "en-GH": "Added extension for family, kinsman shifting in."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3087,7 +3087,7 @@
                     "fr-CA": "Début ou fin de travail de l'époux(se).",
                     "de-CH": "Ehepartner beginnt oder beendet seine Arbeit.",
                     "es-AR": "Inicio o terminación de empleo por parte de su cónyuge.",
-                    "en-GH": "Spouse beginning or ending work."
+                    "en-GH": "Life starts with spouse work restarting or ending."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3127,7 +3127,7 @@
                     "fr-CA": "Un enfant quitte la maison (pour aller à l'université).",
                     "de-CH": "Kind verlässt das Haus (um ein Studium zu beginnen).",
                     "es-AR": "Un menor de edad se va de casa (para seguir sus estudios).",
-                    "en-GH": "Child leaving home (to attend college)."
+                    "en-GH": "The child head out (went to learn or hull for college indeed)."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3167,7 +3167,7 @@
                     "fr-CA": "Un enfant quitte la maison (en raison du mariage).",
                     "de-CH": "Kind verlässt das Elternhaus (weil es heiratet).",
                     "es-AR": "Un menor de edad se va de casa (por matrimonio).",
-                    "en-GH": "Child leaving home (due to marriage)."
+                    "en-GH": "The child head some married, however married."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3207,7 +3207,7 @@
                     "fr-CA": "Un enfant quitte la maison (pour d'autres raisons).",
                     "de-CH": "Kind verlässt das Haus (aus anderen Gründen).",
                     "es-AR": "Un menor de edad se va de casa (por otros motivos).",
-                    "en-GH": "Child leaving home (for other reasons)."
+                    "en-GH": "When child went for an excursion, to sum up all."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3247,7 +3247,7 @@
                     "fr-CA": "Changement dans les disputes avec le conjoint.",
                     "de-CH": "Änderung der Streitigkeiten mit dem Ehepartner.",
                     "es-AR": "Cambios en el tipo y forma de las discusiones con el cónyuge.",
-                    "en-GH": "Change in arguments with spouse."
+                    "en-GH": "Spouses exchanged tempers."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3287,7 +3287,7 @@
                     "fr-CA": "Problèmes avec les beaux-parents.",
                     "de-CH": "Schwiegerelternprobleme.",
                     "es-AR": "Problemas con los suegros.",
-                    "en-GH": "In-law problems."
+                    "en-GH": "In-law movie."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3327,7 +3327,7 @@
                     "fr-CA": "Changement de l'état matrimonial de vos parents (divorce).",
                     "de-CH": "Änderung des Ehestandes Ihrer Eltern (Scheidung).",
                     "es-AR": "Cambio en el estado civil de sus padres (divorcio).",
-                    "en-GH": "Change to the marital status of your parents (divorce)."
+                    "en-GH": "Status of parents got altered, the nuptial pull down."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3367,7 +3367,7 @@
                     "fr-CA": "Changement de l'état matrimonial de vos parents (remariage).",
                     "de-CH": "Änderung des Ehestandes Ihrer Eltern (erneute Heirat).",
                     "es-AR": "Cambio de estado civil de sus padres (segundas nupcias).",
-                    "en-GH": "Change to the marital status of your parents (remarriage)."
+                    "en-GH": "Status of parents got altered, re-nuptial promises accepted."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3407,7 +3407,7 @@
                     "fr-CA": "Séparation avec le conjoint (en raison du travail).",
                     "de-CH": "Trennung vom Ehepartner (aus beruflichen Gründen).",
                     "es-AR": "Separación del cónyuge (por motivos de trabajo).",
-                    "en-GH": "Separation from spouse (due to work)."
+                    "en-GH": "Partner part time separated, often work issue."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3447,7 +3447,7 @@
                     "fr-CA": "Séparation avec le conjoint (en raison de problèmes conjugaux).",
                     "de-CH": "Trennung vom Ehepartner (aufgrund von Eheproblemen).",
                     "es-AR": "Separación del cónyuge (por problemas conyugales).",
-                    "en-GH": "Separation from spouse (due to marital problems)."
+                    "en-GH": "Partner part time separated, marriage faced issues."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3487,7 +3487,7 @@
                     "fr-CA": "Divorce.",
                     "de-CH": "Scheidung.",
                     "es-AR": "Divorcio.",
-                    "en-GH": "Divorce."
+                    "en-GH": "Divorce case settled."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3527,7 +3527,7 @@
                     "fr-CA": "Naissance d'un petit-enfant.",
                     "de-CH": "Geburt eines Enkelkindes.",
                     "es-AR": "Nacimiento de un nieto.",
-                    "en-GH": "Birth of a grandchild."
+                    "en-GH": "Grandchild was born."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3567,7 +3567,7 @@
                     "fr-CA": "Décès du conjoint.",
                     "de-CH": "Tod eines Ehepartners.",
                     "es-AR": "Fallecimiento del cónyuge.",
-                    "en-GH": "Death of a spouse."
+                    "en-GH": "Partner dey meet heavenly line."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3607,7 +3607,7 @@
                     "fr-CA": "Décès d'un autre membre de la famille (enfant).",
                     "de-CH": "Tod eines anderen Familienmitglieds (Kind).",
                     "es-AR": "Fallecimiento de otro familiar (hijo o hija).",
-                    "en-GH": "Death of other family member (child)."
+                    "en-GH": "Extended family child resting beyond-life doubt."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3647,7 +3647,7 @@
                     "fr-CA": "Décès d'un autre membre de la famille (frère ou sœur).",
                     "de-CH": "Tod eines anderen Familienmitglieds (Bruder oder Schwester).",
                     "es-AR": "Fallecimiento de otro familiar (hermano o hermana).",
-                    "en-GH": "Death of other family member (brother or sister)."
+                    "en-GH": "Extended family jnr. or sister pa happened to be stopped."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3687,7 +3687,7 @@
                     "fr-CA": "Décès d'un autre membre de la famille (parent).",
                     "de-CH": "Tod eines anderen Familienmitglieds (Elternteil).",
                     "es-AR": "Fallecimiento de otro familiar (padre o madre).",
-                    "en-GH": "Death of other family member (parent)."
+                    "en-GH": "Father go into shadow & quiet city."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3745,7 +3745,7 @@
                     "fr-CA": "Changement dans les habitudes personnelles.",
                     "de-CH": "Änderung der persönlichen Gewohnheiten.",
                     "es-AR": "Cambio de hábitos personales.",
-                    "en-GH": "Change in personal habits."
+                    "en-GH": "Habitual mutation."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3785,7 +3785,7 @@
                     "fr-CA": "Début ou fin de l'école ou de l'université.",
                     "de-CH": "Beginn oder Ende der Schule oder des Studiums.",
                     "es-AR": "Inicio o culminación de escuela o universidad.",
-                    "en-GH": "Beginning or ending school or college."
+                    "en-GH": "A plan concerning academic enrollment or de-enrollment."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3825,7 +3825,7 @@
                     "fr-CA": "Changement d'école ou d'université.",
                     "de-CH": "Schul- oder Hochschulwechsel.",
                     "es-AR": "Cambio de colegio o universidad.",
-                    "en-GH": "Change of school or college."
+                    "en-GH": "Institutes and lab benches adjusted generally."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3865,7 +3865,7 @@
                     "fr-CA": "Changement de convictions politiques.",
                     "de-CH": "Politische Überzeugung geändert.",
                     "es-AR": "Cambio de convicciones políticas.",
-                    "en-GH": "Change in political beliefs."
+                    "en-GH": "Political legacy altered."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3905,7 +3905,7 @@
                     "fr-CA": "Changement de convictions religieuses.",
                     "de-CH": "Religiöse Überzeugung geändert.",
                     "es-AR": "Cambio de creencias religiosas.",
-                    "en-GH": "Change in religious beliefs."
+                    "en-GH": "Faithful eye different order now."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3945,7 +3945,7 @@
                     "fr-CA": "Changement dans les activités sociales.",
                     "de-CH": "Änderung der sozialen Aktivitäten.",
                     "es-AR": "Cambio de actividades sociales.",
-                    "en-GH": "Change in social activities."
+                    "en-GH": "For socialization, whole the activities dey change."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -3985,7 +3985,7 @@
                     "fr-CA": "Vacances.",
                     "de-CH": "Urlaub.",
                     "es-AR": "Vacaciones.",
-                    "en-GH": "Vacation."
+                    "en-GH": "Taking time relax, a retreat."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -4025,7 +4025,7 @@
                     "fr-CA": "Nouvelle relation personnelle proche.",
                     "de-CH": "Neue, enge, persönliche Beziehung.",
                     "es-AR": "Nueva relación personal cercana.",
-                    "en-GH": "New, close, personal relationship."
+                    "en-GH": "Relationships become marvel."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -4065,7 +4065,7 @@
                     "fr-CA": "Fiançailles pour le mariage.",
                     "de-CH": "Verlobung und Heirat.",
                     "es-AR": "Compromiso de matrimonio.",
-                    "en-GH": "Engagement to marry."
+                    "en-GH": "Decide getting married."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -4105,7 +4105,7 @@
                     "fr-CA": "Problèmes avec petit(e)-ami(e).",
                     "de-CH": "Probleme mit der Freundin oder dem Freund.",
                     "es-AR": "Problemas con la novia o el novio.",
-                    "en-GH": "Girlfriend or boyfriend problems."
+                    "en-GH": "Companion crisis day."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -4185,7 +4185,7 @@
                     "fr-CA": "Un accident.",
                     "de-CH": "Ein Unfall.",
                     "es-AR": "Un accidente.",
-                    "en-GH": "An accident."
+                    "en-GH": "Incident with severity."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -4225,7 +4225,7 @@
                     "fr-CA": "Infraction mineure à la loi.",
                     "de-CH": "Geringfügiger Verstoß gegen das Gesetz.",
                     "es-AR": "Infracción leve de la ley.",
-                    "en-GH": "Minor violation of the law."
+                    "en-GH": "Minor law infringement."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -4265,7 +4265,7 @@
                     "fr-CA": "Décès d'un ami proche.",
                     "de-CH": "Tod eines engen Freundes.",
                     "es-AR": "Muerte de un amigo cercano.",
-                    "en-GH": "Death of a close friend."
+                    "en-GH": "Paid bid farewell to a friend's company."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -4305,7 +4305,7 @@
                     "fr-CA": "Décision majeure concernant votre avenir immédiat.",
                     "de-CH": "Wichtige Entscheidung über Ihre unmittelbare Zukunft.",
                     "es-AR": "Decisión importante sobre su futuro inmediato.",
-                    "en-GH": "Major decision regarding your immediate future."
+                    "en-GH": "Outcome came from immediate life plans."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -4345,7 +4345,7 @@
                     "fr-CA": "Grande réalisation personnelle.",
                     "de-CH": "Großer persönlicher Erfolg.",
                     "es-AR": "Mayor logro personal.",
-                    "en-GH": "Major personal achievement."
+                    "en-GH": "Personal success chapter."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -4388,7 +4388,7 @@
                 "de-CH": "Finanzen:",
                 "es-AR": "Financiera:",
                 "en-US": "Financial:",
-                "en-GH": "Financial:"
+                "en-GH": "Finance:"
               },
               "elements": [
                 {
@@ -4403,7 +4403,7 @@
                     "fr-CA": "Changement majeur des finances (revenu accru).",
                     "de-CH": "Größere Veränderung der Finanzen (höheres Einkommen).",
                     "es-AR": "Cambio importante en las finanzas (aumento de los ingresos).",
-                    "en-GH": "Major change in finances (increased income)."
+                    "en-GH": "Finance balloon, net income dey swell."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -4443,7 +4443,7 @@
                     "fr-CA": "Changement majeur des finances (revenu diminué).",
                     "de-CH": "Starke Veränderung der Finanzen (Einkommensrückgang).",
                     "es-AR": "Cambio importante en las finanzas (disminución de ingresos).",
-                    "en-GH": "Major change in finances (decreased income)."
+                    "en-GH": "Finance go thin since earnings lower."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -4483,7 +4483,7 @@
                     "fr-CA": "Changement majeur des finances (difficultés d'investissement et/ou de crédit).",
                     "de-CH": "Größere Veränderung der Finanzen (Investitions- und/oder Kreditschwierigkeiten).",
                     "es-AR": "Cambio importante en las finanzas (dificultades de inversión y/o de crédito).",
-                    "en-GH": "Major change in finances (investment and/or credit difficulties)."
+                    "en-GH": "Too many challenges for saving or investing issues."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -4523,7 +4523,7 @@
                     "fr-CA": "Perte ou dommages de biens personnels.",
                     "de-CH": "Verlust oder Beschädigung von persönlichem Eigentum.",
                     "es-AR": "Pérdida o deterioro de bienes personales.",
-                    "en-GH": "Loss or damage of personal property."
+                    "en-GH": "When possessions dey losses or seem messed up."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -4563,7 +4563,7 @@
                     "fr-CA": "Achat modéré.",
                     "de-CH": "Mittelgroße Anschaffung.",
                     "es-AR": "Compra moderada.",
-                    "en-GH": "Moderate purchase."
+                    "en-GH": "Small scale buy."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -4603,7 +4603,7 @@
                     "fr-CA": "Achat important.",
                     "de-CH": "Größere Anschaffung.",
                     "es-AR": "Compra importante.",
-                    "en-GH": "Major purchase."
+                    "en-GH": "Big change purchase."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -4643,7 +4643,7 @@
                     "fr-CA": "Forclusion d'une hypothèque ou d'un prêt.",
                     "de-CH": "Zwangsvollstreckung einer Hypothek oder eines Kredits.",
                     "es-AR": "Ejecución de una hipoteca o préstamo.",
-                    "en-GH": "Foreclosure on a mortgage or loan."
+                    "en-GH": "Loss of regular inflow as mortgage got exploded."
                   },
                   "labelTrue": {
                     "default": "Yes",
@@ -4693,7 +4693,7 @@
             "de-CH": "<b>Anweisungen:</b> Stellen Sie sich vor, dass diese Linie zeigt, wo sich die Menschen<i>in dem Land, in dem Sie leben, befinden</i>. Auf der <b>rechten</b> Seite befinden sich die Menschen, denen es am besten geht - diejenigen, die das meiste Geld, die beste Ausbildung und die angesehensten Arbeitsplätze haben. Auf der <b>linken</b> Seite befinden sich die Menschen, denen es am schlechtesten geht - diejenigen, die das wenigste Geld, die geringste Bildung, die am wenigsten angesehenen Arbeitsplätze oder gar keinen Arbeitsplatz haben.Je weiter rechts Sie sich auf der Linie befinden, desto näher sind Sie den Menschen ganz oben; je weiter links Sie sind, desto näher sind Sie den Menschen ganz unten.<br><b>Wo würden Sie sich selbst auf dieser Linie einordnen?</b><br>Bewegen Sie den Schieberegler dorthin, wo Sie Ihrer Meinung nach im Vergleich zu anderen Menschen in Ihrem Land derzeit stehen.",
             "es-AR": "<b>Instrucciones:</b> Piense que esta línea representa la situación de la gente en <i>el país en el que vive</i>. <b>A la derecha</b> están las personas más acomodadas: las que tienen más dinero, más educación y los trabajos más respetados. <b>A la izquierda</b> están las personas que están en peor situación: las que tienen menos dinero, menos educación, los trabajos menos respetados o ningún trabajo. Cuanto más a la derecha se encuentre en la línea, más cerca estará de la gente que más tiene; cuanto más a la izquierda, más cerca estará de la gente que menos tiene.<br><b>¿Dónde se situaría usted en esta línea?</b><br>Mueva y ubique el círculo sobre la recta donde usted crea que encontrarse en este momento de su vida en relación con otras personas de su país.",
             "en-US": "<b>Instructions:</b> Think of this line as representing where people stand in the <i>country where you live</i>. To the <b>right</b> are the people who are the best off - those who have the most money, the most education, and the most respected jobs. To the <b>left</b> are the people who are the worst off - those who have the least money, the least education, the least respected jobs, or no job. The further to the right you are on the line, the closer you are to the people at the very top; the further to the left you are, the closer you are to the people at the very bottom.<br><b>Where would you place yourself on this line?</b><br>Move the slider to where you think you stand at this time in your life relative to other people in your country.",
-            "en-GH": "<b>Instructions:</b> Think of this line as representing where people stand in the <i>country where you live</i>. To the <b>right</b> are the people who are the best off - those who have the most money, the most education, and the most respected jobs. To the <b>left</b> are the people who are the worst off - those who have the least money, the least education, the least respected jobs, or no job. The further to the right you are on the line, the closer you are to the people at the very top; the further to the left you are, the closer you are to the people at the very bottom.<br><b>Where would you place yourself on this line?</b><br>Move the slider to where you think you stand at this time in your life relative to other people in your country."
+            "en-GH": "<b>Instructions:</b> You for picture that line as show wey people dey stand for the <i>country weh you live</i>. On the <b>right</b> dey people who dey feel themselves the most — most cash, most degree, job wey dey respect pass. Na the ones wey dey the <b>left</b> that dey struggle pass — least cash, least learning, no job. If you go further right on the line, you go close to top dogs; you go further left, you dey nears the bottom ones.<br><b>Which location you go rate yourself?</b><br>Make slide like the position wey you dey feel yourself at this place in living as one compared to others for your nation."
           },
           "showNumber": false,
           "inputType": "range",
@@ -4713,7 +4713,7 @@
             "de-CH": "<b>Anweisungen:</b> Stellen Sie sich vor, dass diese Linie zeigt, wo die Menschen in ihren <i>Gemeinschaften</i> stehen. Menschen definieren Gemeinschaft auf unterschiedliche Weise; bitte definieren Sie sie so, wie es für Sie am sinnvollsten ist. Auf der <b>rechten</b> Seite stehen die Menschen, die den höchsten Stellenwert in ihrer Gemeinschaft haben. Auf der <b>linken</b> Seite befinden sich die Menschen, die den niedrigsten Stellenwert in ihrer Gemeinschaft haben.<br><b>Wo würden Sie sich auf dieser Linie einordnen?</b><br>Bewegen Sie den Schieberegler dorthin, wo Sie Ihrer Meinung nach im Vergleich zu den anderen Menschen in Ihrer Gemeinschaft stehen.",
             "es-AR": "<b>Instrucciones:</b> Piense que esta línea representa la posición de las personas en sus <i>comunidades</i>. La gente define la comunidad de distintas maneras; por favor, piense en la definición que a usted le resulte más significativa. <b>A la derecha</b> están las personas que gozan de mayor prestigio en su comunidad. <b>A la izquierda</> están las personas que tienen menor prestigio en su comunidad.<br><b>¿Dónde se situaría en esta línea?</b><br>Mueve y ubique el círculo sobre la recta donde usted creas que encontrarse en este momento de su vida en relación con otras personas de su comunidad.",
             "en-US": "<b>Instructions:</b> Think of this line as representing where people stand in their <i>communities</i>. People define community in different ways; please define it in whatever way is most meaningful to you. To the <b>right</b> are people who have the highest standing in their community. To the <b>left</b> are the people who have the lowest standing in their community.<br><b>Where would you place yourself on this line?</b><br>Move the slider to where you think you stand at this time in your life relative to other people in your community.",
-            "en-GH": "<b>Instructions:</b> Think of this line as representing where people stand in their <i>communities</i>. People define community in different ways; please define it in whatever way is most meaningful to you. To the <b>right</b> are people who have the highest standing in their community. To the <b>left</b> are the people who have the lowest standing in their community.<br><b>Where would you place yourself on this line?</b><br>Move the slider to where you think you stand at this time in your life relative to other people in your community."
+            "en-GH": "<b>Instructions:</b> This line dey represent where people relate to in their <i>communities</i>. People see community in different scopes; use any that strike real to you. On the <b>right</b> dey people with high regard in community. On the <b>left</b> dey people wey low rate in community.<br><b>Which location you fit place yourself now?</b><br>Use slider to place where you stand at this moment in this world as relative to different heads for your place."
           },
           "showNumber": false,
           "inputType": "range",
