@@ -1,485 +1,485 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
-  <file original="child_survey.json" source-language="en-US" target-language="de" datatype="plaintext">
+  <file original="child_survey_translations.csv" source-language="en-US" target-language="de" datatype="plaintext">
     <body>
-    <trans-unit id="pages[0].elements[0].html" resname="ChildSurveyIntro" approved="yes">
+    <trans-unit id="ChildSurveyIntro" resname="ChildSurveyIntro" approved="yes">
       <source xml:space="preserve"><![CDATA[<font face=Verdana size=4>These questions ask you about how you feel at school and some of the things you do at school. There are no right or wrong answers. Choose the answer that best describes what you think. <b><font face=Verdana size=4>No, never; Yes, some of the time; Yes, most of the time; Yes, all of the time.<br><br>The first two are for practice.]]></source>
       <target state="translated"><![CDATA[<font face=Verdana size=4>In diesen Fragen geht es darum, wie du dich in der Schule fühlst und was du in der Schule machst. Es gibt keine richtigen oder falschen Antworten. Wähle die Antwort, die am besten beschreibt, was du denkst.<b><font face=Verdana size=4> Nein, nie; Ja, manchmal; Ja, meistens; Ja, immer.<br><br>Die ersten beiden Fragen sind zum Üben.]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[0].title" resname="Example1Comic" approved="yes">
-      <source xml:space="preserve"><![CDATA[Do you like to read comic books?]]></source>
+    <trans-unit id="Example1Comic" resname="Example1Comic" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Liest du gerne Comics?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[0].choices[0].text" resname="Example1Comic" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="Example1Comic" resname="Example1Comic" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[0].choices[1].text" resname="Example1Comic" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="Example1Comic" resname="Example1Comic" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[0].choices[2].text" resname="Example1Comic" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="Example1Comic" resname="Example1Comic" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[0].choices[3].text" resname="Example1Comic" approved="yes">
+    <trans-unit id="Example1Comic" resname="Example1Comic" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[1].title" resname="Example2Neat" approved="yes">
-      <source xml:space="preserve"><![CDATA[Are you neat and tidy at school?]]></source>
+    <trans-unit id="Example2Neat" resname="Example2Neat" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Bist du in der Schule ordentlich?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[1].choices[0].text" resname="Example2Neat" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="Example2Neat" resname="Example2Neat" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[1].choices[1].text" resname="Example2Neat" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="Example2Neat" resname="Example2Neat" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[1].choices[2].text" resname="Example2Neat" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="Example2Neat" resname="Example2Neat" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[1].choices[3].text" resname="Example2Neat" approved="yes">
+    <trans-unit id="Example2Neat" resname="Example2Neat" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[2].title" resname="TeacherNice" approved="yes">
-      <source xml:space="preserve"><![CDATA[Is your teacher nice to you?]]></source>
+    <trans-unit id="TeacherNice" resname="TeacherNice" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ist dein Lehrer nett zu dir?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[2].choices[0].text" resname="TeacherNice" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="TeacherNice" resname="TeacherNice" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[2].choices[1].text" resname="TeacherNice" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="TeacherNice" resname="TeacherNice" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[2].choices[2].text" resname="TeacherNice" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="TeacherNice" resname="TeacherNice" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[2].choices[3].text" resname="TeacherNice" approved="yes">
+    <trans-unit id="TeacherNice" resname="TeacherNice" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[3].title" resname="TeacherLike" approved="yes">
-      <source xml:space="preserve"><![CDATA[Does your teacher like you?]]></source>
+    <trans-unit id="TeacherLike" resname="TeacherLike" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Mag dich dein Lehrer?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[3].choices[0].text" resname="TeacherLike" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="TeacherLike" resname="TeacherLike" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[3].choices[1].text" resname="TeacherLike" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="TeacherLike" resname="TeacherLike" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[3].choices[2].text" resname="TeacherLike" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="TeacherLike" resname="TeacherLike" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[3].choices[3].text" resname="TeacherLike" approved="yes">
+    <trans-unit id="TeacherLike" resname="TeacherLike" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[4].title" resname="TeacherListen" approved="yes">
-      <source xml:space="preserve"><![CDATA[Does your teacher listen to you?]]></source>
+    <trans-unit id="TeacherListen" resname="TeacherListen" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Hört dein Lehrer dir zu?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[4].choices[0].text" resname="TeacherListen" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="TeacherListen" resname="TeacherListen" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[4].choices[1].text" resname="TeacherListen" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="TeacherListen" resname="TeacherListen" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[4].choices[2].text" resname="TeacherListen" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="TeacherListen" resname="TeacherListen" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[4].choices[3].text" resname="TeacherListen" approved="yes">
+    <trans-unit id="TeacherListen" resname="TeacherListen" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[5].title" resname="SchoolFun" approved="yes">
-      <source xml:space="preserve"><![CDATA[Is school fun?]]></source>
+    <trans-unit id="SchoolFun" resname="SchoolFun" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Macht die Schule Spaß?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[5].choices[0].text" resname="SchoolFun" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="SchoolFun" resname="SchoolFun" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[5].choices[1].text" resname="SchoolFun" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="SchoolFun" resname="SchoolFun" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[5].choices[2].text" resname="SchoolFun" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="SchoolFun" resname="SchoolFun" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[5].choices[3].text" resname="SchoolFun" approved="yes">
+    <trans-unit id="SchoolFun" resname="SchoolFun" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[6].title" resname="SchoolEnjoy" approved="yes">
-      <source xml:space="preserve"><![CDATA[Do you enjoy school?]]></source>
+    <trans-unit id="SchoolEnjoy" resname="SchoolEnjoy" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Magst du es, in die Schule zu gehen?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[6].choices[0].text" resname="SchoolEnjoy" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="SchoolEnjoy" resname="SchoolEnjoy" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[6].choices[1].text" resname="SchoolEnjoy" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="SchoolEnjoy" resname="SchoolEnjoy" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[6].choices[2].text" resname="SchoolEnjoy" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="SchoolEnjoy" resname="SchoolEnjoy" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[6].choices[3].text" resname="SchoolEnjoy" approved="yes">
+    <trans-unit id="SchoolEnjoy" resname="SchoolEnjoy" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[7].title" resname="SchoolHappy" approved="yes">
-      <source xml:space="preserve"><![CDATA[Are you happy at school?]]></source>
+    <trans-unit id="SchoolHappy" resname="SchoolHappy" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Bist du glücklich in der Schule?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[7].choices[0].text" resname="SchoolHappy" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="SchoolHappy" resname="SchoolHappy" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[7].choices[1].text" resname="SchoolHappy" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="SchoolHappy" resname="SchoolHappy" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[7].choices[2].text" resname="SchoolHappy" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="SchoolHappy" resname="SchoolHappy" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[7].choices[3].text" resname="SchoolHappy" approved="yes">
+    <trans-unit id="SchoolHappy" resname="SchoolHappy" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[8].title" resname="SchoolSafe" approved="yes">
-      <source xml:space="preserve"><![CDATA[Do you feel safe at school?]]></source>
+    <trans-unit id="SchoolSafe" resname="SchoolSafe" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Fühlst du dich in der Schule sicher?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[8].choices[0].text" resname="SchoolSafe" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="SchoolSafe" resname="SchoolSafe" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[8].choices[1].text" resname="SchoolSafe" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="SchoolSafe" resname="SchoolSafe" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[8].choices[2].text" resname="SchoolSafe" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="SchoolSafe" resname="SchoolSafe" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[8].choices[3].text" resname="SchoolSafe" approved="yes">
+    <trans-unit id="SchoolSafe" resname="SchoolSafe" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[9].title" resname="ClassFriends" approved="yes">
-      <source xml:space="preserve"><![CDATA[Do you have friends in your class?]]></source>
+    <trans-unit id="ClassFriends" resname="ClassFriends" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Hast du Freunde in deiner Klasse?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[9].choices[0].text" resname="ClassFriends" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="ClassFriends" resname="ClassFriends" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[9].choices[1].text" resname="ClassFriends" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="ClassFriends" resname="ClassFriends" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[9].choices[2].text" resname="ClassFriends" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="ClassFriends" resname="ClassFriends" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[9].choices[3].text" resname="ClassFriends" approved="yes">
+    <trans-unit id="ClassFriends" resname="ClassFriends" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[10].title" resname="ClassHelp" approved="yes">
-      <source xml:space="preserve"><![CDATA[Do the kids in your class help you when you need it?]]></source>
+    <trans-unit id="ClassHelp" resname="ClassHelp" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Helfen dir die Kinder in deiner Klasse, wenn du Hilfe brauchst?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[10].choices[0].text" resname="ClassHelp" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="ClassHelp" resname="ClassHelp" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[10].choices[1].text" resname="ClassHelp" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="ClassHelp" resname="ClassHelp" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[10].choices[2].text" resname="ClassHelp" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="ClassHelp" resname="ClassHelp" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[10].choices[3].text" resname="ClassHelp" approved="yes">
+    <trans-unit id="ClassHelp" resname="ClassHelp" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[11].title" resname="ClassPlay" approved="yes">
-      <source xml:space="preserve"><![CDATA[Do the kids in your class play with you?]]></source>
+    <trans-unit id="ClassPlay" resname="ClassPlay" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Spielen die Kinder in deiner Klasse mit dir?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[11].choices[0].text" resname="ClassPlay" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="ClassPlay" resname="ClassPlay" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[11].choices[1].text" resname="ClassPlay" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="ClassPlay" resname="ClassPlay" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[11].choices[2].text" resname="ClassPlay" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="ClassPlay" resname="ClassPlay" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[11].choices[3].text" resname="ClassPlay" approved="yes">
+    <trans-unit id="ClassPlay" resname="ClassPlay" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[12].title" resname="ClassNice" approved="yes">
-      <source xml:space="preserve"><![CDATA[Are the kids in your class nice to you?]]></source>
+    <trans-unit id="ClassNice" resname="ClassNice" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Sind die Kinder in deiner Klasse nett zu dir?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[12].choices[0].text" resname="ClassNice" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="ClassNice" resname="ClassNice" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[12].choices[1].text" resname="ClassNice" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="ClassNice" resname="ClassNice" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[12].choices[2].text" resname="ClassNice" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="ClassNice" resname="ClassNice" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[12].choices[3].text" resname="ClassNice" approved="yes">
+    <trans-unit id="ClassNice" resname="ClassNice" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[13].title" resname="LonelySchool" approved="yes">
-      <source xml:space="preserve"><![CDATA[Do you feel lonely at school?]]></source>
+    <trans-unit id="LonelySchool" resname="LonelySchool" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Fühlst du dich in der Schule einsam?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[13].choices[0].text" resname="LonelySchool" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="LonelySchool" resname="LonelySchool" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[13].choices[1].text" resname="LonelySchool" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="LonelySchool" resname="LonelySchool" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[13].choices[2].text" resname="LonelySchool" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="LonelySchool" resname="LonelySchool" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[13].choices[3].text" resname="LonelySchool" approved="yes">
+    <trans-unit id="LonelySchool" resname="LonelySchool" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[14].title" resname="LearningGood" approved="yes">
-      <source xml:space="preserve"><![CDATA[Are you good at learning things in school?]]></source>
+    <trans-unit id="LearningGood" resname="LearningGood" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Bist du gut darin, in der Schule etwas zu lernen?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[14].choices[0].text" resname="LearningGood" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="LearningGood" resname="LearningGood" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[14].choices[1].text" resname="LearningGood" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="LearningGood" resname="LearningGood" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[14].choices[2].text" resname="LearningGood" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="LearningGood" resname="LearningGood" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[14].choices[3].text" resname="LearningGood" approved="yes">
+    <trans-unit id="LearningGood" resname="LearningGood" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[15].title" resname="SchoolGiveUp" approved="yes">
-      <source xml:space="preserve"><![CDATA[When schoolwork is hard, do you give up right away?]]></source>
+    <trans-unit id="SchoolGiveUp" resname="SchoolGiveUp" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Gibst du sofort auf, wenn dir die Schularbeit schwer fällt?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[15].choices[0].text" resname="SchoolGiveUp" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="SchoolGiveUp" resname="SchoolGiveUp" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[15].choices[1].text" resname="SchoolGiveUp" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="SchoolGiveUp" resname="SchoolGiveUp" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[15].choices[2].text" resname="SchoolGiveUp" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="SchoolGiveUp" resname="SchoolGiveUp" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[15].choices[3].text" resname="SchoolGiveUp" approved="yes">
+    <trans-unit id="SchoolGiveUp" resname="SchoolGiveUp" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[16].title" resname="ReadingEnjoy" approved="yes">
-      <source xml:space="preserve"><![CDATA[Do you enjoy doing reading activities at school?]]></source>
+    <trans-unit id="ReadingEnjoy" resname="ReadingEnjoy" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Macht es dir Spaß in der Schule zu lesen?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[16].choices[0].text" resname="ReadingEnjoy" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="ReadingEnjoy" resname="ReadingEnjoy" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[16].choices[1].text" resname="ReadingEnjoy" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="ReadingEnjoy" resname="ReadingEnjoy" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[16].choices[2].text" resname="ReadingEnjoy" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="ReadingEnjoy" resname="ReadingEnjoy" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[16].choices[3].text" resname="ReadingEnjoy" approved="yes">
+    <trans-unit id="ReadingEnjoy" resname="ReadingEnjoy" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[17].title" resname="MathEnjoy" approved="yes">
-      <source xml:space="preserve"><![CDATA[Do you enjoy doing math activities at school?]]></source>
+    <trans-unit id="MathEnjoy" resname="MathEnjoy" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Hast du Spaß am Fach Mathe?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[17].choices[0].text" resname="MathEnjoy" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="MathEnjoy" resname="MathEnjoy" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[17].choices[1].text" resname="MathEnjoy" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="MathEnjoy" resname="MathEnjoy" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[17].choices[2].text" resname="MathEnjoy" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="MathEnjoy" resname="MathEnjoy" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[17].choices[3].text" resname="MathEnjoy" approved="yes">
+    <trans-unit id="MathEnjoy" resname="MathEnjoy" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[18].title" resname="ReadingGood" approved="yes">
-      <source xml:space="preserve"><![CDATA[Are you good at reading?]]></source>
+    <trans-unit id="ReadingGood" resname="ReadingGood" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Bist du gut im Lesen?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[18].choices[0].text" resname="ReadingGood" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="ReadingGood" resname="ReadingGood" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[18].choices[1].text" resname="ReadingGood" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="ReadingGood" resname="ReadingGood" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[18].choices[2].text" resname="ReadingGood" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="ReadingGood" resname="ReadingGood" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[18].choices[3].text" resname="ReadingGood" approved="yes">
+    <trans-unit id="ReadingGood" resname="ReadingGood" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[19].title" resname="MathGood" approved="yes">
-      <source xml:space="preserve"><![CDATA[Are you good at math?]]></source>
+    <trans-unit id="MathGood" resname="MathGood" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Bist du gut in Mathe?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[19].choices[0].text" resname="MathGood" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="MathGood" resname="MathGood" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[19].choices[1].text" resname="MathGood" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="MathGood" resname="MathGood" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[19].choices[2].text" resname="MathGood" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="MathGood" resname="MathGood" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[19].choices[3].text" resname="MathGood" approved="yes">
+    <trans-unit id="MathGood" resname="MathGood" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[20].title" resname="GrowthMindSmart" approved="yes">
-      <source xml:space="preserve"><![CDATA[Some kids think they can get smarter if they work really hard. Do you think that you can get smarter if you work really hard?]]></source>
+    <trans-unit id="GrowthMindSmart" resname="GrowthMindSmart" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Manche Kinder glauben, dass sie schlauer werden können, wenn sie sich anstrengen. Bist du auch der Meinung, dass du schlauer werden kannst, wenn du dich anstrengst?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[20].choices[0].text" resname="GrowthMindSmart" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="GrowthMindSmart" resname="GrowthMindSmart" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[20].choices[1].text" resname="GrowthMindSmart" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="GrowthMindSmart" resname="GrowthMindSmart" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[20].choices[2].text" resname="GrowthMindSmart" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="GrowthMindSmart" resname="GrowthMindSmart" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[20].choices[3].text" resname="GrowthMindSmart" approved="yes">
+    <trans-unit id="GrowthMindSmart" resname="GrowthMindSmart" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[21].title" resname="GrowthMindRead" approved="yes">
-      <source xml:space="preserve"><![CDATA[Some kids think they can get better at reading if they work really hard. Do you think that you can get better at reading if you work really hard?]]></source>
+    <trans-unit id="GrowthMindRead" resname="GrowthMindRead" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Manche Kinder glauben, dass sie besser lesen können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass du besser lesen kannst, wenn du dich richtig anstrengst?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[21].choices[0].text" resname="GrowthMindRead" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="GrowthMindRead" resname="GrowthMindRead" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[21].choices[1].text" resname="GrowthMindRead" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="GrowthMindRead" resname="GrowthMindRead" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[21].choices[2].text" resname="GrowthMindRead" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="GrowthMindRead" resname="GrowthMindRead" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[21].choices[3].text" resname="GrowthMindRead" approved="yes">
+    <trans-unit id="GrowthMindRead" resname="GrowthMindRead" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[22].title" resname="GrowthMindMath" approved="yes">
-      <source xml:space="preserve"><![CDATA[Some kids think they can get better at math if they work really hard. Do you think that you can get better at math if you work really hard?]]></source>
+    <trans-unit id="GrowthMindMath" resname="GrowthMindMath" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Manche Kinder glauben, dass sie in Mathe besser werden können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass man in Mathe besser wird, wenn man sich richtig anstrengt?]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[22].choices[0].text" resname="GrowthMindMath" approved="yes">
-      <source xml:space="preserve"><![CDATA[No, never]]></source>
+    <trans-unit id="GrowthMindMath" resname="GrowthMindMath" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Nein, nie]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[22].choices[1].text" resname="GrowthMindMath" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, some of the time]]></source>
+    <trans-unit id="GrowthMindMath" resname="GrowthMindMath" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, manchmal]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[22].choices[2].text" resname="GrowthMindMath" approved="yes">
-      <source xml:space="preserve"><![CDATA[Yes, most of the time]]></source>
+    <trans-unit id="GrowthMindMath" resname="GrowthMindMath" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Ja, meistens]]></target>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[22].choices[3].text" resname="GrowthMindMath" approved="yes">
+    <trans-unit id="GrowthMindMath" resname="GrowthMindMath" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes, always]]></source>
       <target state="translated"><![CDATA[Ja, immer]]></target>
     </trans-unit>
-    <trans-unit id="startSurveyText" resname="" approved="yes">
-      <source xml:space="preserve"><![CDATA[Start Survey]]></source>
+    <trans-unit id="navigation.startSurvey" resname="navigation.startSurvey" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Umfrage starten]]></target>
     </trans-unit>
-    <trans-unit id="pagePrevText" resname="" approved="yes">
-      <source xml:space="preserve"><![CDATA[Previous]]></source>
+    <trans-unit id="navigation.previous" resname="navigation.previous" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Zurück]]></target>
     </trans-unit>
-    <trans-unit id="pageNextText" resname="" approved="yes">
-      <source xml:space="preserve"><![CDATA[Next]]></source>
+    <trans-unit id="navigation.next" resname="navigation.next" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Weiter]]></target>
     </trans-unit>
-    <trans-unit id="completeText" resname="" approved="yes">
-      <source xml:space="preserve"><![CDATA[Finish]]></source>
+    <trans-unit id="navigation.finish" resname="navigation.finish" approved="yes">
+      <source xml:space="preserve"><![CDATA[]]></source>
       <target state="translated"><![CDATA[Beenden]]></target>
     </trans-unit>
     </body>

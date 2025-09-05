@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
-  <file original="teacher_survey_general.json" source-language="en" datatype="plaintext" target-language="en-US">
+  <file original="teacher_survey_general.json" source-language="en-US" datatype="plaintext" target-language="en">
     <body>
       <trans-unit id="pages[0].elements[0].html" resname="TeacherSurveyIntro">
         <source xml:space="preserve"><![CDATA[<b><font face=Verdana size=4>Thank you for taking the time (~10 minutes) to respond to this survey!</b><br> <br> <p><font face=Verdana size=4>Some students who you teach are participating in a research project studying how children learn and develop. Your responses in this survey should apply to your classroom, school, and professional beliefs rather than to any one specific child. <br><br><b><font face=Verdana size=4>This survey has two parts: Part A and Part B.</b><br> <br> <p><font face=Verdana size=4>In Part A, the questions relate to your background and beliefs. <br><br>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>Thank you for your participation! Your responses provide invaluable insight into the education of your students. <br><br>When you are ready to begin, select the “Start Survey” button. <br><br><b><font face=Verdana size=4>Thank you!]]></source>
@@ -25,18 +25,6 @@
       <trans-unit id="pages[1].elements[1].elements[1].title" resname="TeacherGender">
         <source xml:space="preserve"><![CDATA[What is your gender?]]></source>
         <target state="needs-translation"><![CDATA[What is your gender?]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[1].choices[0].text" resname="TeacherGender">
-        <source xml:space="preserve"><![CDATA[Femenino]]></source>
-        <target state="needs-translation"><![CDATA[Femenino]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[1].choices[1].text" resname="TeacherGender">
-        <source xml:space="preserve"><![CDATA[Femenino]]></source>
-        <target state="needs-translation"><![CDATA[Femenino]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[1].choices[2].text" resname="TeacherGender">
-        <source xml:space="preserve"><![CDATA[Femenino]]></source>
-        <target state="needs-translation"><![CDATA[Femenino]]></target>
       </trans-unit>
       <trans-unit id="pages[1].elements[1].elements[1].otherText" resname="TeacherGender">
         <source xml:space="preserve"><![CDATA[Other (please describe)]]></source>
@@ -564,15 +552,15 @@
       </trans-unit>
       <trans-unit id="startSurveyText" resname="">
         <source xml:space="preserve"><![CDATA[Start Survey]]></source>
-        <target state="needs-translation"><![CDATA[Start Survey]]></target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm"><![CDATA[Start Survey]]></target>
       </trans-unit>
       <trans-unit id="pagePrevText" resname="">
         <source xml:space="preserve"><![CDATA[Previous]]></source>
-        <target state="needs-translation"><![CDATA[Previous]]></target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm"><![CDATA[Previous]]></target>
       </trans-unit>
       <trans-unit id="pageNextText" resname="">
         <source xml:space="preserve"><![CDATA[Next]]></source>
-        <target state="needs-translation"><![CDATA[Next]]></target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm"><![CDATA[Next]]></target>
       </trans-unit>
       <trans-unit id="completeText" resname="">
         <source xml:space="preserve"><![CDATA[Finish]]></source>

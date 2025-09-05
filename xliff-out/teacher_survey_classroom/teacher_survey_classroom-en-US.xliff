@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
-  <file original="teacher_survey_classroom.json" source-language="en" datatype="plaintext" target-language="en-US">
+  <file original="teacher_survey_classroom.json" source-language="en-US" datatype="plaintext" target-language="en">
     <body>
       <trans-unit id="pages[0].elements[0].html" resname="TeacherSurveyIntro">
         <source xml:space="preserve"><![CDATA[<b><font face=Verdana size=4>This is Part B of the survey.</b><br> <br> <p><font face=Verdana size=4>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>When you are ready to begin, select the “Next” button. <br><br><b><font face=Verdana size=4>Thank you!]]></source>
@@ -286,10 +286,6 @@
         <source xml:space="preserve"><![CDATA[How often each week do children in this class usually work on lessons or projects in Reading and Language Arts, whether as a whole class, in small groups, or in individualized arrangements ?]]></source>
         <target state="needs-translation"><![CDATA[How often each week do children in this class usually work on lessons or projects in Reading and Language Arts, whether as a whole class, in small groups, or in individualized arrangements ?]]></target>
       </trans-unit>
-      <trans-unit id="pages[1].elements[14].choices[0].text" resname="TeacherReadingFrequency">
-        <source xml:space="preserve"><![CDATA[Nunca]]></source>
-        <target state="needs-translation"><![CDATA[Nunca]]></target>
-      </trans-unit>
       <trans-unit id="pages[1].elements[14].choices[1].text" resname="TeacherReadingFrequency">
         <source xml:space="preserve"><![CDATA[Less than once per week]]></source>
         <target state="needs-translation"><![CDATA[Less than once per week]]></target>
@@ -301,10 +297,6 @@
       <trans-unit id="pages[1].elements[14].choices[3].text" resname="TeacherReadingFrequency">
         <source xml:space="preserve"><![CDATA[3 - 4 times per week]]></source>
         <target state="needs-translation"><![CDATA[3 - 4 times per week]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[14].choices[4].text" resname="TeacherReadingFrequency">
-        <source xml:space="preserve"><![CDATA[Nunca]]></source>
-        <target state="needs-translation"><![CDATA[Nunca]]></target>
       </trans-unit>
       <trans-unit id="pages[1].elements[15].title" resname="TeacherReadingTime">
         <source xml:space="preserve"><![CDATA[How much time per day do children in this class usually work on lessons or projects in Reading and Language Arts, whether as a whole class, in small groups, or in individualized arrangements?]]></source>
@@ -468,15 +460,15 @@
       </trans-unit>
       <trans-unit id="startSurveyText" resname="">
         <source xml:space="preserve"><![CDATA[Start Survey]]></source>
-        <target state="needs-translation"><![CDATA[Start Survey]]></target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm"><![CDATA[Start Survey]]></target>
       </trans-unit>
       <trans-unit id="pagePrevText" resname="">
         <source xml:space="preserve"><![CDATA[Previous]]></source>
-        <target state="needs-translation"><![CDATA[Previous]]></target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm"><![CDATA[Previous]]></target>
       </trans-unit>
       <trans-unit id="pageNextText" resname="">
         <source xml:space="preserve"><![CDATA[Next]]></source>
-        <target state="needs-translation"><![CDATA[Next]]></target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm"><![CDATA[Next]]></target>
       </trans-unit>
       <trans-unit id="completeText" resname="">
         <source xml:space="preserve"><![CDATA[Finish]]></source>

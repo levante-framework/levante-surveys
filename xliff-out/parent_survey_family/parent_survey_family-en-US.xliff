@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
-  <file original="parent_survey_family.json" source-language="en" datatype="plaintext" target-language="en-US">
+  <file original="parent_survey_family.json" source-language="en-US" datatype="plaintext" target-language="en">
     <body>
       <trans-unit id="pages[0].elements[0].html" resname="CaregiverSurveyIntroB">
         <source xml:space="preserve"><![CDATA[<block><b><font face=Verdana size=4>]]></source>
@@ -1348,15 +1348,15 @@
       </trans-unit>
       <trans-unit id="startSurveyText" resname="">
         <source xml:space="preserve"><![CDATA[Start Survey]]></source>
-        <target state="needs-translation"><![CDATA[Start Survey]]></target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm"><![CDATA[Start Survey]]></target>
       </trans-unit>
       <trans-unit id="pagePrevText" resname="">
         <source xml:space="preserve"><![CDATA[Previous]]></source>
-        <target state="needs-translation"><![CDATA[Previous]]></target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm"><![CDATA[Previous]]></target>
       </trans-unit>
       <trans-unit id="pageNextText" resname="">
         <source xml:space="preserve"><![CDATA[Next]]></source>
-        <target state="needs-translation"><![CDATA[Next]]></target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm"><![CDATA[Next]]></target>
       </trans-unit>
       <trans-unit id="completeText" resname="">
         <source xml:space="preserve"><![CDATA[Finish]]></source>

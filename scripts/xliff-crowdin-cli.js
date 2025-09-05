@@ -72,7 +72,10 @@ function buildFilesEntries() {
     const src = path.join('xliff-out', dir, `${dir}-source.xliff`)
     if (!fs.existsSync(path.join(projectRoot, src))) continue
     const tr = path.join('xliff-out', dir, `${dir}-%locale%.xliff`)
-    entries.push({ source: src, translation: tr })
+    // Desired destination folders on Crowdin
+    const destSource = path.posix.join('surveys', `${dir}-source.xliff`)
+    const destTranslation = path.posix.join('surveys', `${dir}-%locale%.xliff`)
+    entries.push({ source: src, translation: tr, destSource, destTranslation })
   }
   return entries
 }
@@ -88,12 +91,32 @@ function writeTempConfig(projectId, token) {
   const files = buildFilesEntries()
   if (files.length === 0) {
     // Fallback to generic mapping
-    lines.push(`  - source: 'xliff-out/**/*-source-*.xliff'`)
+    lines.push(`  - source: 'xliff-out/**/*-source*.xliff'`)
     lines.push(`    translation: 'xliff-out/%original_file_name%-%locale%.xliff'`)
+    lines.push(`    dest: 'surveys/%original_path%/%original_file_name%'`)
+    lines.push(`    languages_mapping:`)
+    lines.push(`      locale:`)
+    lines.push(`        de: 'de'`)
+    lines.push(`        de-CH: 'de-CH'`)
+    lines.push(`        nl: 'nl-NL'`)
+    lines.push(`        en-GH: 'en-GH'`)
+    lines.push(`        es-AR: 'es-AR'`)
+    lines.push(`        es-CO: 'es-CO'`)
+    lines.push(`        fr-CA: 'fr-CA'`)
   } else {
     for (const f of files) {
       lines.push(`  - source: '${f.source}'`)
       lines.push(`    translation: '${f.translation}'`)
+      lines.push(`    dest: '${f.destSource}'`)
+      lines.push(`    languages_mapping:`)
+      lines.push(`      locale:`)
+      lines.push(`        de: 'de'`)
+      lines.push(`        de-CH: 'de-CH'`)
+      lines.push(`        nl: 'nl-NL'`)
+      lines.push(`        en-GH: 'en-GH'`)
+      lines.push(`        es-AR: 'es-AR'`)
+      lines.push(`        es-CO: 'es-CO'`)
+      lines.push(`        fr-CA: 'fr-CA'`)
     }
   }
   const cfg = lines.join('\n')
@@ -102,15 +125,46 @@ function writeTempConfig(projectId, token) {
   return tmp
 }
 
+async function listFiles(token, projectId) {
+  const client = axios.create({
+    baseURL: 'https://api.crowdin.com/api/v2',
+    headers: { Authorization: `Bearer ${token}` },
+    timeout: 30000
+  })
+  let offset = 0
+  const limit = 500
+  const files = []
+  while (true) {
+    const { data } = await client.get(`/projects/${projectId}/files`, { params: { offset, limit } })
+    const arr = (data && data.data) || []
+    for (const item of arr) files.push(item.data)
+    if (arr.length < limit) break
+    offset += limit
+  }
+  return files
+}
+
+async function deleteFile(token, projectId, fileId) {
+  const client = axios.create({
+    baseURL: 'https://api.crowdin.com/api/v2',
+    headers: { Authorization: `Bearer ${token}` },
+    timeout: 30000
+  })
+  await client.delete(`/projects/${projectId}/files/${fileId}`)
+}
+
 async function main() {
   const args = process.argv.slice(2)
   const action = args[0] || 'upload-sources'
   // parse options
   let projectOpt = null
+  const passthrough = []
   for (let i = 1; i < args.length; i++) {
     if (args[i] === '--project' || args[i] === '-p') {
       projectOpt = args[i + 1]
       i++
+    } else {
+      passthrough.push(args[i])
     }
   }
   const token = await resolveToken()
@@ -122,14 +176,67 @@ async function main() {
     return
   }
 
+  // If uploading translations, normalize targets to 'translated' for specific locales
+  if (action === 'upload-translations') {
+    // discover explicit --language (Crowdin allows only one)
+    let langArg = null
+    for (let i = 0; i < passthrough.length; i++) {
+      if (passthrough[i] === '--language' || passthrough[i] === '-l') {
+        langArg = passthrough[i + 1]
+        break
+      }
+    }
+    const langsToNormalize = langArg ? [langArg] : ['de', 'nl', 'en-GH']
+    // Never touch de-CH per policy
+    const filtered = langsToNormalize.filter(l => l !== 'de-CH')
+    if (filtered.length > 0) {
+      spawnSync(process.execPath, [path.join(projectRoot, 'scripts', 'normalize-xliff.js'), path.join(projectRoot, 'xliff-out'), ...filtered], { stdio: 'inherit' })
+    }
+  }
+
+  if (action === 'cleanup-old-sources') {
+    const files = await listFiles(token, projectId)
+    const targets = files.filter(f => f.name.endsWith('-source-en-US.xliff'))
+    for (const f of targets) {
+      try {
+        await deleteFile(token, projectId, f.id)
+        console.log(`🗑️  Deleted ${f.name} (id ${f.id})`)
+      } catch (e) {
+        console.error(`Failed to delete ${f.name}: ${e.message}`)
+      }
+    }
+    console.log(`Done. Deleted ${targets.length} old source files.`)
+    return
+  }
+
+  if (action === 'cleanup-nested') {
+    // Remove any files under surveys/<survey>/... to leave only flattened surveys/* files
+    const files = await listFiles(token, projectId)
+    const nested = files.filter(f => /^surveys\/.+\/.+/.test(f.path || f.name))
+    let count = 0
+    for (const f of nested) {
+      try { await deleteFile(token, projectId, f.id); count++; console.log(`🗑️  Deleted nested ${f.path || f.name} (id ${f.id})`) } catch (e) { console.error(`Failed to delete ${f.name}: ${e.message}`) }
+    }
+    console.log(`Done. Deleted ${count} nested files.`)
+    return
+  }
+
   const cfgPath = writeTempConfig(projectId, token)
 
   let cmdArgs
-  if (action === 'upload-sources') cmdArgs = ['upload', 'sources', '--config', cfgPath]
-  else if (action === 'upload-translations') cmdArgs = ['upload', 'translations', '--config', cfgPath]
-  else if (action === 'download') cmdArgs = ['download', '--config', cfgPath]
+  if (action === 'upload-sources') cmdArgs = ['upload', 'sources', '--config', cfgPath, ...passthrough]
+  else if (action === 'upload-translations') {
+    // default helpful flags unless user already provided them
+    const hasImportEq = passthrough.some(a => a === '--import-eq-suggestions' || a === '--no-import-eq-suggestions')
+    const hasAutoApprove = passthrough.some(a => a === '--auto-approve-imported' || a === '--no-auto-approve-imported')
+    const extra = []
+    if (!hasImportEq) extra.push('--import-eq-suggestions')
+    if (!hasAutoApprove) extra.push('--auto-approve-imported')
+    cmdArgs = ['upload', 'translations', '--config', cfgPath, ...extra, ...passthrough]
+  }
+  else if (action === 'download') cmdArgs = ['download', '--config', cfgPath, ...passthrough]
   else {
-    console.error('Usage: node scripts/xliff-crowdin-cli.js [upload-sources|upload-translations|download|project-id]')
+    console.error('Usage: node scripts/xliff-crowdin-cli.js [upload-sources|upload-translations|download|project-id|cleanup-old-sources]')
     process.exit(1)
   }
 

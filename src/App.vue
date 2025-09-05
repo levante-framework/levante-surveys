@@ -8,6 +8,14 @@
 import { RouterView } from 'vue-router'
 </script>
 
+<script setup lang="ts">
+import 'survey-core/survey-core.css';
+</script>
+
+<template>
+  <!-- ... -->
+</template>
+
 <style>
 body {
   margin: 0;
