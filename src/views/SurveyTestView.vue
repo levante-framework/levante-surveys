@@ -173,6 +173,46 @@ const availableSurveys = [
   { value: 'teacher_survey_classroom', label: 'Teacher Survey (Classroom)' }
 ]
 
+// Normalize survey JSON so any choice-like item missing text.default
+// will inherit from its value string
+const normalizeDefaultsFromValues = (root) => {
+  let updatedCount = 0
+  const visit = (node) => {
+    if (!node || typeof node !== 'object') return
+    if (Array.isArray(node)) {
+      node.forEach(visit)
+      return
+    }
+
+    // If this looks like a choice item with a value and optional text
+    if (Object.prototype.hasOwnProperty.call(node, 'value')) {
+      const val = node.value
+      if (typeof val === 'string') {
+        if (!Object.prototype.hasOwnProperty.call(node, 'text') || node.text == null) {
+          node.text = { default: val }
+          updatedCount++
+        } else if (typeof node.text === 'object' && !Array.isArray(node.text)) {
+          if (!Object.prototype.hasOwnProperty.call(node.text, 'default')) {
+            node.text.default = val
+            updatedCount++
+          }
+        }
+      }
+    }
+
+    // Recurse into object properties
+    for (const key of Object.keys(node)) {
+      const child = node[key]
+      if (child && typeof child === 'object') visit(child)
+    }
+  }
+
+  visit(root)
+  if (updatedCount > 0) {
+    console.log(`Normalized ${updatedCount} items: set missing text.default from value`)
+  }
+}
+
 // Generate supported languages from LANGUAGE_INFO
 const supportedLanguages = Object.entries(LANGUAGE_INFO).map(([code, info]) => ({
   code,
@@ -250,6 +290,8 @@ const loadSelectedSurvey = async () => {
     }
 
     const surveyData = await response.json()
+    // Normalize: ensure text.default is present using item's value when missing
+    normalizeDefaultsFromValues(surveyData)
     console.log('Survey data loaded successfully, keys:', Object.keys(surveyData))
     rawSurveyData.value = surveyData
     console.log('About to extract available languages...')

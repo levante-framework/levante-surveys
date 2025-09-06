@@ -221,6 +221,24 @@ async function main() {
     return
   }
 
+  if (action === 'cleanup-updated') {
+    // Delete any files in Crowdin whose name contains '_updated'
+    const files = await listFiles(token, projectId)
+    const targets = files.filter(f => (f.name || '').includes('_updated'))
+    let count = 0
+    for (const f of targets) {
+      try {
+        await deleteFile(token, projectId, f.id)
+        count++
+        console.log(`🗑️  Deleted ${f.path || f.name} (id ${f.id})`)
+      } catch (e) {
+        console.error(`Failed to delete ${f.name}: ${e.message}`)
+      }
+    }
+    console.log(`Done. Deleted ${count} '_updated' files.`)
+    return
+  }
+
   const cfgPath = writeTempConfig(projectId, token)
 
   let cmdArgs
@@ -236,7 +254,7 @@ async function main() {
   }
   else if (action === 'download') cmdArgs = ['download', '--config', cfgPath, ...passthrough]
   else {
-    console.error('Usage: node scripts/xliff-crowdin-cli.js [upload-sources|upload-translations|download|project-id|cleanup-old-sources]')
+    console.error('Usage: node scripts/xliff-crowdin-cli.js [upload-sources|upload-translations|download|project-id|cleanup-old-sources|cleanup-nested|cleanup-updated]')
     process.exit(1)
   }
 

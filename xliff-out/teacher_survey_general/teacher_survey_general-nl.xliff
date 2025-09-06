@@ -26,6 +26,18 @@
       <source xml:space="preserve"><![CDATA[What is your gender?]]></source>
       <target state="translated"><![CDATA[Wat is uw geslacht?]]></target>
     </trans-unit>
+    <trans-unit id="pages[1].elements[1].elements[1].choices[0].text" resname="TeacherGender" approved="yes">
+      <source xml:space="preserve"><![CDATA[Female]]></source>
+      <target state="translated"><![CDATA[]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[1].elements[1].choices[1].text" resname="TeacherGender" approved="yes">
+      <source xml:space="preserve"><![CDATA[Male]]></source>
+      <target state="translated"><![CDATA[]]></target>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[1].elements[1].choices[2].text" resname="TeacherGender" approved="yes">
+      <source xml:space="preserve"><![CDATA[Nonbinary]]></source>
+      <target state="translated"><![CDATA[]]></target>
+    </trans-unit>
     <trans-unit id="pages[1].elements[1].elements[1].otherText" resname="TeacherGender" approved="yes">
       <source xml:space="preserve"><![CDATA[Other (please describe)]]></source>
       <target state="translated"><![CDATA[Anders (beschrijf alstublieft)]]></target>

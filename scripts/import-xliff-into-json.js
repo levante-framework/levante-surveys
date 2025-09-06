@@ -12,6 +12,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { normalizeDefaultsFromValues } from './normalize-utils.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -77,6 +78,11 @@ function getByPath(root, pth) {
 
 function main() {
   const survey = JSON.parse(fs.readFileSync(surveyPath, 'utf8'))
+  // Ensure baseline defaults exist so applying translations has a proper source
+  const normalized = normalizeDefaultsFromValues(survey)
+  if (normalized > 0) {
+    console.log(`🔧 Normalized ${normalized} items missing text.default before import`)
+  }
   const xliffContent = fs.readFileSync(xliffPath, 'utf8')
   const { targetLanguage, units } = parseXLIFF(xliffContent)
   if (!targetLanguage) {

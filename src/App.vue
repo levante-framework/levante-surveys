@@ -6,15 +6,8 @@
 
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
+import 'survey-core/survey-core.css'
 </script>
-
-<script setup lang="ts">
-import 'survey-core/survey-core.css';
-</script>
-
-<template>
-  <!-- ... -->
-</template>
 
 <style>
 body {

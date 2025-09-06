@@ -14,6 +14,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { normalizeDefaultsFromValues } from './normalize-utils.js'
 // No longer need language constants - using dynamic discovery
 
 // Get current directory
@@ -242,6 +243,11 @@ async function extractTranslations(inputFile, outputFile) {
 
     const surveyContent = fs.readFileSync(surveyPath, 'utf8')
     const surveyData = JSON.parse(surveyContent)
+    // Normalize missing text.default from value prior to CSV extraction
+    const normalizedCount = normalizeDefaultsFromValues(surveyData)
+    if (normalizedCount > 0) {
+      console.log(`🔧 Normalized ${normalizedCount} items missing text.default before CSV extraction`)
+    }
 
     // Extract survey name from filename
     const surveyName = path.basename(inputFile, '.json').replace(/_survey$/, '_survey')

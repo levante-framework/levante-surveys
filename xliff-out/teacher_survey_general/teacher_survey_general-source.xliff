@@ -20,6 +20,15 @@
     <trans-unit id="pages[1].elements[1].elements[1].title" resname="TeacherGender" approved="yes">
       <source xml:space="preserve"><![CDATA[What is your gender?]]></source>
     </trans-unit>
+    <trans-unit id="pages[1].elements[1].elements[1].choices[0].text" resname="TeacherGender" approved="yes">
+      <source xml:space="preserve"><![CDATA[Female]]></source>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[1].elements[1].choices[1].text" resname="TeacherGender" approved="yes">
+      <source xml:space="preserve"><![CDATA[Male]]></source>
+    </trans-unit>
+    <trans-unit id="pages[1].elements[1].elements[1].choices[2].text" resname="TeacherGender" approved="yes">
+      <source xml:space="preserve"><![CDATA[Nonbinary]]></source>
+    </trans-unit>
     <trans-unit id="pages[1].elements[1].elements[1].otherText" resname="TeacherGender" approved="yes">
       <source xml:space="preserve"><![CDATA[Other (please describe)]]></source>
     </trans-unit>

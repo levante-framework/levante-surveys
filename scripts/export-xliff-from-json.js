@@ -13,6 +13,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { normalizeDefaultsFromValues } from './normalize-utils.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -109,6 +110,11 @@ function pickSourceText(value) {
 function exportForJson(jsonPath) {
   const surveyName = path.basename(jsonPath, '.json')
   const survey = JSON.parse(fs.readFileSync(jsonPath, 'utf8'))
+  // Normalize missing text.default from value before exporting
+  const updated = normalizeDefaultsFromValues(survey)
+  if (updated > 0) {
+    console.log(`🔧 Normalized ${updated} items missing text.default in ${surveyName}`)
+  }
   const nodes = collectMultilingualNodes(survey)
 
   // discover languages
@@ -152,7 +158,9 @@ function exportForJson(jsonPath) {
 function main() {
   ensureDir(OUT_DIR)
   if (isAll) {
-    const files = fs.readdirSync(SURVEYS_DIR).filter(f => f.endsWith('.json'))
+    const files = fs
+      .readdirSync(SURVEYS_DIR)
+      .filter(f => f.endsWith('.json') && !f.endsWith('_updated.json'))
     for (const f of files) exportForJson(path.join(SURVEYS_DIR, f))
     return
   }

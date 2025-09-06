@@ -37,6 +37,8 @@
     "xliff:export:json": "node scripts/export-xliff-from-json.js",
     "xliff:export:all": "node scripts/export-xliff-from-json.js --all",
     "xliff:import": "node scripts/import-xliff-into-json.js",
+    "normalize:defaults:one": "node scripts/normalize-survey-defaults.js",
+    "normalize:defaults:all": "node scripts/normalize-survey-defaults.js --all",
     "xliff:apply:child": "node scripts/xliff-apply-all.js surveys/child_survey.json",
     "xliff:apply:parent-family": "node scripts/xliff-apply-all.js surveys/parent_survey_family.json",
     "xliff:apply:parent-child": "node scripts/xliff-apply-all.js surveys/parent_survey_child.json",
