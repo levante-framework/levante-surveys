@@ -1,583 +1,583 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
-  <file original="teacher_survey_general.json" source-language="en" datatype="plaintext" target-language="en-US">
+  <file original="teacher_survey_general.json" source-language="en-US" target-language="en-US" datatype="plaintext">
     <body>
-      <trans-unit id="pages[0].elements[0].html" resname="TeacherSurveyIntro">
-        <source xml:space="preserve"><![CDATA[<b><font face=Verdana size=4>Thank you for taking the time (~10 minutes) to respond to this survey!</b><br> <br> <p><font face=Verdana size=4>Some students who you teach are participating in a research project studying how children learn and develop. Your responses in this survey should apply to your classroom, school, and professional beliefs rather than to any one specific child. <br><br><b><font face=Verdana size=4>This survey has two parts: Part A and Part B.</b><br> <br> <p><font face=Verdana size=4>In Part A, the questions relate to your background and beliefs. <br><br>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>Thank you for your participation! Your responses provide invaluable insight into the education of your students. <br><br>When you are ready to begin, select the “Start Survey” button. <br><br><b><font face=Verdana size=4>Thank you!]]></source>
-        <target state="translated"><![CDATA[<b><font face=Verdana size=4>Thank you for taking the time (~10 minutes) to respond to this survey!</b><br> <br> <p><font face=Verdana size=4>Some students who you teach are participating in a research project studying how children learn and develop. Your responses in this survey should apply to your classroom, school, and professional beliefs rather than to any one specific child. <br><br><b><font face=Verdana size=4>This survey has two parts: Part A and Part B.</b><br> <br> <p><font face=Verdana size=4>In Part A, the questions relate to your background and beliefs. <br><br>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>Thank you for your participation! Your responses provide invaluable insight into the education of your students. <br><br>When you are ready to begin, select the “Start Survey” button. <br><br><b><font face=Verdana size=4>Thank you!]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[0].html" resname="TeacherIntroPartA">
-        <source xml:space="preserve"><![CDATA[<b><font face=Verdana size=3>PART A: </b><font face=Verdana size=3>The following questions ask about your background, the school where you teach, your feelings about your job, and your beliefs about teaching and children.]]></source>
-        <target state="translated"><![CDATA[<b><font face=Verdana size=3>PART A: </b><font face=Verdana size=3>The following questions ask about your background, the school where you teach, your feelings about your job, and your beliefs about teaching and children.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].title" resname="TeacherBackground">
-        <source xml:space="preserve"><![CDATA[<b>This set of questions asks about your background.</b>]]></source>
-        <target state="translated"><![CDATA[<b>This set of questions asks about your background.</b>]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[0].title" resname="TeacherAge">
-        <source xml:space="preserve"><![CDATA[What is your current age?]]></source>
-        <target state="translated"><![CDATA[What is your current age?]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[0].placeholder" resname="TeacherAge">
-        <source xml:space="preserve"><![CDATA[years of age]]></source>
-        <target state="translated"><![CDATA[years of age]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[1].title" resname="TeacherGender">
-        <source xml:space="preserve"><![CDATA[What is your gender?]]></source>
-        <target state="translated"><![CDATA[What is your gender?]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[1].choices[0].text" resname="TeacherGender">
-        <source xml:space="preserve"><![CDATA[Female]]></source>
-        <target state="needs-translation"><![CDATA[Female]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[1].choices[1].text" resname="TeacherGender">
-        <source xml:space="preserve"><![CDATA[Male]]></source>
-        <target state="needs-translation"><![CDATA[Male]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[1].choices[2].text" resname="TeacherGender">
-        <source xml:space="preserve"><![CDATA[Nonbinary]]></source>
-        <target state="needs-translation"><![CDATA[Nonbinary]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[1].otherText" resname="TeacherGender">
-        <source xml:space="preserve"><![CDATA[Other (please describe)]]></source>
-        <target state="translated"><![CDATA[Other (please describe)]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[2].title" resname="TeacherEducation">
-        <source xml:space="preserve"><![CDATA[What is the highest level of education you have completed?]]></source>
-        <target state="translated"><![CDATA[What is the highest level of education you have completed?]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[2].choices[0].text" resname="TeacherEducation">
-        <source xml:space="preserve"><![CDATA[Less than high school]]></source>
-        <target state="translated"><![CDATA[Less than high school]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[2].choices[1].text" resname="TeacherEducation">
-        <source xml:space="preserve"><![CDATA[GED or High school equivalency]]></source>
-        <target state="translated"><![CDATA[GED or High school equivalency]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[2].choices[2].text" resname="TeacherEducation">
-        <source xml:space="preserve"><![CDATA[Some college but no degree]]></source>
-        <target state="translated"><![CDATA[Some college but no degree]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[2].choices[3].text" resname="TeacherEducation">
-        <source xml:space="preserve"><![CDATA[High school diploma or equivalent, plus technical training or certificate]]></source>
-        <target state="translated"><![CDATA[High school diploma or equivalent, plus technical training or certificate]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[2].choices[4].text" resname="TeacherEducation">
-        <source xml:space="preserve"><![CDATA[Associate's degree]]></source>
-        <target state="translated"><![CDATA[Associate's degree]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[2].choices[5].text" resname="TeacherEducation">
-        <source xml:space="preserve"><![CDATA[Bachelor's degree]]></source>
-        <target state="translated"><![CDATA[Bachelor's degree]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[2].choices[6].text" resname="TeacherEducation">
-        <source xml:space="preserve"><![CDATA[Master's degree]]></source>
-        <target state="translated"><![CDATA[Master's degree]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[2].choices[7].text" resname="TeacherEducation">
-        <source xml:space="preserve"><![CDATA[Doctoral degree]]></source>
-        <target state="translated"><![CDATA[Doctoral degree]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[3].title" resname="TeacherUndergrad">
-        <source xml:space="preserve"><![CDATA[Indicate your undergraduate field of study. Mark ALL that apply.]]></source>
-        <target state="translated"><![CDATA[Indicate your undergraduate field of study. Mark ALL that apply.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[3].choices[0].text" resname="TeacherUndergrad">
-        <source xml:space="preserve"><![CDATA[Early childhood education]]></source>
-        <target state="translated"><![CDATA[Early childhood education]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[3].choices[1].text" resname="TeacherUndergrad">
-        <source xml:space="preserve"><![CDATA[Elementary education]]></source>
-        <target state="translated"><![CDATA[Elementary education]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[3].choices[2].text" resname="TeacherUndergrad">
-        <source xml:space="preserve"><![CDATA[Special education]]></source>
-        <target state="translated"><![CDATA[Special education]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[3].choices[3].text" resname="TeacherUndergrad">
-        <source xml:space="preserve"><![CDATA[Child development]]></source>
-        <target state="translated"><![CDATA[Child development]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[3].choices[4].text" resname="TeacherUndergrad">
-        <source xml:space="preserve"><![CDATA[Reading specialist]]></source>
-        <target state="translated"><![CDATA[Reading specialist]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[3].choices[5].text" resname="TeacherUndergrad">
-        <source xml:space="preserve"><![CDATA[Curriculum and instruction]]></source>
-        <target state="translated"><![CDATA[Curriculum and instruction]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[3].choices[6].text" resname="TeacherUndergrad">
-        <source xml:space="preserve"><![CDATA[Bilingual/bicultural education]]></source>
-        <target state="translated"><![CDATA[Bilingual/bicultural education]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[3].choices[7].text" resname="TeacherUndergrad">
-        <source xml:space="preserve"><![CDATA[Other education related major (ex: secondary education, educational psychology, education administration, music education, etc.). Please specify:]]></source>
-        <target state="translated"><![CDATA[Other education related major (ex: secondary education, educational psychology, education administration, music education, etc.). Please specify:]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[3].choices[8].text" resname="TeacherUndergrad">
-        <source xml:space="preserve"><![CDATA[Non-education major. Please specify:]]></source>
-        <target state="translated"><![CDATA[Non-education major. Please specify:]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[3].choices[9].text" resname="TeacherUndergrad">
-        <source xml:space="preserve"><![CDATA[Other. Please specify:]]></source>
-        <target state="translated"><![CDATA[Other. Please specify:]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[4].title" resname="TeacherUndergradOtherEd">
-        <source xml:space="preserve"><![CDATA[Please specify other education related major:]]></source>
-        <target state="translated"><![CDATA[Please specify other education related major:]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[5].title" resname="TeacherUndergradNonEd">
-        <source xml:space="preserve"><![CDATA[Please specify non-education major:]]></source>
-        <target state="translated"><![CDATA[Please specify non-education major:]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[6].title" resname="TeacherUndergradOther">
-        <source xml:space="preserve"><![CDATA[Please specify other major:]]></source>
-        <target state="translated"><![CDATA[Please specify other major:]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[7].title" resname="TeacherGrad">
-        <source xml:space="preserve"><![CDATA[Indicate the major field of study of your highest graduate degree. Mark ALL that apply.]]></source>
-        <target state="translated"><![CDATA[Indicate the major field of study of your highest graduate degree. Mark ALL that apply.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[7].choices[0].text" resname="TeacherGrad">
-        <source xml:space="preserve"><![CDATA[Early childhood education]]></source>
-        <target state="translated"><![CDATA[Early childhood education]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[7].choices[1].text" resname="TeacherGrad">
-        <source xml:space="preserve"><![CDATA[Elementary education]]></source>
-        <target state="translated"><![CDATA[Elementary education]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[7].choices[2].text" resname="TeacherGrad">
-        <source xml:space="preserve"><![CDATA[Special education]]></source>
-        <target state="translated"><![CDATA[Special education]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[7].choices[3].text" resname="TeacherGrad">
-        <source xml:space="preserve"><![CDATA[Child development]]></source>
-        <target state="translated"><![CDATA[Child development]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[7].choices[4].text" resname="TeacherGrad">
-        <source xml:space="preserve"><![CDATA[Reading specialist]]></source>
-        <target state="translated"><![CDATA[Reading specialist]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[7].choices[5].text" resname="TeacherGrad">
-        <source xml:space="preserve"><![CDATA[Curriculum and instruction]]></source>
-        <target state="translated"><![CDATA[Curriculum and instruction]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[7].choices[6].text" resname="TeacherGrad">
-        <source xml:space="preserve"><![CDATA[Bilingual/bicultural education]]></source>
-        <target state="translated"><![CDATA[Bilingual/bicultural education]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[7].choices[7].text" resname="TeacherGrad">
-        <source xml:space="preserve"><![CDATA[Other education related major (ex: secondary education, educational psychology, education administration, music education, etc.). Please specify:]]></source>
-        <target state="translated"><![CDATA[Other education related major (ex: secondary education, educational psychology, education administration, music education, etc.). Please specify:]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[7].choices[8].text" resname="TeacherGrad">
-        <source xml:space="preserve"><![CDATA[Non-education major. Please specify:]]></source>
-        <target state="translated"><![CDATA[Non-education major. Please specify:]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[7].choices[9].text" resname="TeacherGrad">
-        <source xml:space="preserve"><![CDATA[Other. Please specify:]]></source>
-        <target state="translated"><![CDATA[Other. Please specify:]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[8].title" resname="TeacherGradOtherEd">
-        <source xml:space="preserve"><![CDATA[Please specify other education related major:]]></source>
-        <target state="translated"><![CDATA[Please specify other education related major:]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[9].title" resname="TeacherGradNonEd">
-        <source xml:space="preserve"><![CDATA[Please specify non-education major:]]></source>
-        <target state="translated"><![CDATA[Please specify non-education major:]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[10].title" resname="TeacherGradOther">
-        <source xml:space="preserve"><![CDATA[Please specify other major:]]></source>
-        <target state="translated"><![CDATA[Please specify other major:]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[11].title" resname="TeacherYears">
-        <source xml:space="preserve"><![CDATA[Counting this school year, how many years have you been a schoolteacher? (please round to the nearest year)]]></source>
-        <target state="translated"><![CDATA[Counting this school year, how many years have you been a schoolteacher? (please round to the nearest year)]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[11].choices[0].text" resname="TeacherYears">
-        <source xml:space="preserve"><![CDATA[Less than one year]]></source>
-        <target state="translated"><![CDATA[Less than one year]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[11].choices[1].text" resname="TeacherYears">
-        <source xml:space="preserve"><![CDATA[1 to 2 years]]></source>
-        <target state="translated"><![CDATA[1 to 2 years]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[11].choices[2].text" resname="TeacherYears">
-        <source xml:space="preserve"><![CDATA[3 to 5 years]]></source>
-        <target state="translated"><![CDATA[3 to 5 years]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[11].choices[3].text" resname="TeacherYears">
-        <source xml:space="preserve"><![CDATA[6 to 10 years]]></source>
-        <target state="translated"><![CDATA[6 to 10 years]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[1].elements[11].choices[4].text" resname="TeacherYears">
-        <source xml:space="preserve"><![CDATA[Over 10 years]]></source>
-        <target state="translated"><![CDATA[Over 10 years]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[2].title" resname="TeacherSchool">
-        <source xml:space="preserve"><![CDATA[<b>This set of questions asks about the school where you currently teach.</b>]]></source>
-        <target state="translated"><![CDATA[<b>This set of questions asks about the school where you currently teach.</b>]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[2].elements[0].title" resname="TeacherYearsSchool">
-        <source xml:space="preserve"><![CDATA[Counting this school year, how many years have you been teaching <b>at this school</b>? (please round to the nearest year)]]></source>
-        <target state="translated"><![CDATA[Counting this school year, how many years have you been teaching <b>at this school</b>? (please round to the nearest year)]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[2].elements[1].title" resname="TeacherClimateItems">
-        <source xml:space="preserve"><![CDATA[Please indicate how much you agree or disagree with the following statements about this school.]]></source>
-        <target state="translated"><![CDATA[Please indicate how much you agree or disagree with the following statements about this school.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[2].elements[1].columns[0].text" resname="TeacherClimateItems">
-        <source xml:space="preserve"><![CDATA[Strongly Disagree]]></source>
-        <target state="translated"><![CDATA[Strongly Disagree]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[2].elements[1].columns[1].text" resname="TeacherClimateItems">
-        <source xml:space="preserve"><![CDATA[Disagree]]></source>
-        <target state="translated"><![CDATA[Disagree]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[2].elements[1].columns[2].text" resname="TeacherClimateItems">
-        <source xml:space="preserve"><![CDATA[Agree]]></source>
-        <target state="translated"><![CDATA[Agree]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[2].elements[1].columns[3].text" resname="TeacherClimateItems">
-        <source xml:space="preserve"><![CDATA[Strongly Agree]]></source>
-        <target state="translated"><![CDATA[Strongly Agree]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[2].elements[1].rows[0].text" resname="TeacherClimateItems">
-        <source xml:space="preserve"><![CDATA[I feel accepted and respected as a colleague by most staff members.]]></source>
-        <target state="translated"><![CDATA[I feel accepted and respected as a colleague by most staff members.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[2].elements[1].rows[1].text" resname="TeacherClimateItems">
-        <source xml:space="preserve"><![CDATA[Parents are supportive of school staff.]]></source>
-        <target state="translated"><![CDATA[Parents are supportive of school staff.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[2].elements[1].rows[2].text" resname="TeacherClimateItems">
-        <source xml:space="preserve"><![CDATA[Students feel supported and comfortable in this school.]]></source>
-        <target state="translated"><![CDATA[Students feel supported and comfortable in this school.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[2].elements[1].rows[3].text" resname="TeacherClimateItems">
-        <source xml:space="preserve"><![CDATA[Staff feel supported and comfortable in this school.]]></source>
-        <target state="translated"><![CDATA[Staff feel supported and comfortable in this school.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[2].elements[1].rows[4].text" resname="TeacherClimateItems">
-        <source xml:space="preserve"><![CDATA[Students are safe when here at this school.]]></source>
-        <target state="translated"><![CDATA[Students are safe when here at this school.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[2].elements[1].rows[5].text" resname="TeacherClimateItems">
-        <source xml:space="preserve"><![CDATA[Staff are safe when here at this school.]]></source>
-        <target state="translated"><![CDATA[Staff are safe when here at this school.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[2].elements[1].rows[6].text" resname="TeacherClimateItems">
-        <source xml:space="preserve"><![CDATA[The facilities and property of this school are kept up well.]]></source>
-        <target state="translated"><![CDATA[The facilities and property of this school are kept up well.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[2].elements[1].rows[7].text" resname="TeacherClimateItems">
-        <source xml:space="preserve"><![CDATA[The facilities and property of this school are clean.]]></source>
-        <target state="translated"><![CDATA[The facilities and property of this school are clean.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[2].elements[1].rows[8].text" resname="TeacherClimateItems">
-        <source xml:space="preserve"><![CDATA[Ongoing collaboration is something adults in this school do well.]]></source>
-        <target state="translated"><![CDATA[Ongoing collaboration is something adults in this school do well.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[2].elements[1].rows[9].text" resname="TeacherClimateItems">
-        <source xml:space="preserve"><![CDATA[Adults working in this school have strong professional relationships.]]></source>
-        <target state="translated"><![CDATA[Adults working in this school have strong professional relationships.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[2].elements[1].rows[10].text" resname="TeacherClimateItems">
-        <source xml:space="preserve"><![CDATA[Adults working in this school are respectful and supportive of one another.]]></source>
-        <target state="translated"><![CDATA[Adults working in this school are respectful and supportive of one another.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].title" resname="TeacherFeelJob">
-        <source xml:space="preserve"><![CDATA[<b>With this set of items, we wish to learn more about teachers' feelings about their job.</b>]]></source>
-        <target state="translated"><![CDATA[<b>With this set of items, we wish to learn more about teachers' feelings about their job.</b>]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].title" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[Please select one answer that indicates how often you agree with each of the following statements.]]></source>
-        <target state="translated"><![CDATA[Please select one answer that indicates how often you agree with each of the following statements.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].columns[0].text" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[Never]]></source>
-        <target state="translated"><![CDATA[Never]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].columns[1].text" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[A few times a year or less]]></source>
-        <target state="translated"><![CDATA[A few times a year or less]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].columns[2].text" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[Once a month or less]]></source>
-        <target state="translated"><![CDATA[Once a month or less]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].columns[3].text" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[A few times a month]]></source>
-        <target state="translated"><![CDATA[A few times a month]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].columns[4].text" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[Once a week]]></source>
-        <target state="translated"><![CDATA[Once a week]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].columns[5].text" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[A few times a week]]></source>
-        <target state="translated"><![CDATA[A few times a week]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].columns[6].text" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[Everyday]]></source>
-        <target state="translated"><![CDATA[Everyday]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].rows[0].text" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[I feel emotionally drained from my work.]]></source>
-        <target state="translated"><![CDATA[I feel emotionally drained from my work.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].rows[1].text" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[I feel fatigued when I get up in the morning and have to face another day on the job.]]></source>
-        <target state="translated"><![CDATA[I feel fatigued when I get up in the morning and have to face another day on the job.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].rows[2].text" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[I can easily understand how my students feel about things.]]></source>
-        <target state="translated"><![CDATA[I can easily understand how my students feel about things.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].rows[3].text" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[I deal very effectively with the problems of my students.]]></source>
-        <target state="translated"><![CDATA[I deal very effectively with the problems of my students.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].rows[4].text" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[I feel burned out from my work.]]></source>
-        <target state="translated"><![CDATA[I feel burned out from my work.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].rows[5].text" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[I feel I'm positively influencing other people's lives through my work.]]></source>
-        <target state="translated"><![CDATA[I feel I'm positively influencing other people's lives through my work.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].rows[6].text" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[I feel frustrated by my job.]]></source>
-        <target state="translated"><![CDATA[I feel frustrated by my job.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].rows[7].text" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[I feel I'm working too hard on my job.]]></source>
-        <target state="translated"><![CDATA[I feel I'm working too hard on my job.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].rows[8].text" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[I can easily create a relaxed atmosphere with my students.]]></source>
-        <target state="translated"><![CDATA[I can easily create a relaxed atmosphere with my students.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].rows[9].text" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[I feel exhilarated after working closely with my students.]]></source>
-        <target state="translated"><![CDATA[I feel exhilarated after working closely with my students.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].rows[10].text" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[I have accomplished many worthwhile things in this job.]]></source>
-        <target state="translated"><![CDATA[I have accomplished many worthwhile things in this job.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].rows[11].text" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[I feel like I'm at the end of my rope.]]></source>
-        <target state="translated"><![CDATA[I feel like I'm at the end of my rope.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[3].elements[0].rows[12].text" resname="TeacherFeelJobItems">
-        <source xml:space="preserve"><![CDATA[In my work, I deal with emotional problems very calmly.]]></source>
-        <target state="translated"><![CDATA[In my work, I deal with emotional problems very calmly.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].title" resname="TeacherBeliefTeach">
-        <source xml:space="preserve"><![CDATA[<b>This set of questions is designed to help us gain a better understanding of the kinds of things that create difficulties for teachers in their school activities.</b>]]></source>
-        <target state="translated"><![CDATA[<b>This set of questions is designed to help us gain a better understanding of the kinds of things that create difficulties for teachers in their school activities.</b>]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[0].title" resname="TeacherBeliefTeachItemsInfluence">
-        <source xml:space="preserve"><![CDATA[<b>How much influence do you have...</b>]]></source>
-        <target state="translated"><![CDATA[<b>How much influence do you have...</b>]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[0].columns[0].text" resname="TeacherBeliefTeachItemsInfluence">
-        <source xml:space="preserve"><![CDATA[Never]]></source>
-        <target state="translated"><![CDATA[Never]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[0].columns[1].text" resname="TeacherBeliefTeachItemsInfluence">
-        <source xml:space="preserve"><![CDATA[Very Little]]></source>
-        <target state="translated"><![CDATA[Very Little]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[0].columns[2].text" resname="TeacherBeliefTeachItemsInfluence">
-        <source xml:space="preserve"><![CDATA[Some Influence]]></source>
-        <target state="translated"><![CDATA[Some Influence]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[0].columns[3].text" resname="TeacherBeliefTeachItemsInfluence">
-        <source xml:space="preserve"><![CDATA[Quite a Bit]]></source>
-        <target state="translated"><![CDATA[Quite a Bit]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[0].columns[4].text" resname="TeacherBeliefTeachItemsInfluence">
-        <source xml:space="preserve"><![CDATA[A Great Deal]]></source>
-        <target state="translated"><![CDATA[A Great Deal]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[0].rows[0].text" resname="TeacherBeliefTeachItemsInfluence">
-        <source xml:space="preserve"><![CDATA[on disruptive behavior in the classroom?]]></source>
-        <target state="translated"><![CDATA[on disruptive behavior in the classroom?]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[0].rows[1].text" resname="TeacherBeliefTeachItemsInfluence">
-        <source xml:space="preserve"><![CDATA[to motivate children who show low interest in activities?]]></source>
-        <target state="translated"><![CDATA[to motivate children who show low interest in activities?]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[0].rows[2].text" resname="TeacherBeliefTeachItemsInfluence">
-        <source xml:space="preserve"><![CDATA[to get children to believe they can do well on activities?]]></source>
-        <target state="translated"><![CDATA[to get children to believe they can do well on activities?]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[0].rows[3].text" resname="TeacherBeliefTeachItemsInfluence">
-        <source xml:space="preserve"><![CDATA[to help children in your classroom(s) value learning?]]></source>
-        <target state="translated"><![CDATA[to help children in your classroom(s) value learning?]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[0].rows[4].text" resname="TeacherBeliefTeachItemsInfluence">
-        <source xml:space="preserve"><![CDATA[on getting children to follow classroom rules?]]></source>
-        <target state="translated"><![CDATA[on getting children to follow classroom rules?]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[0].rows[5].text" resname="TeacherBeliefTeachItemsInfluence">
-        <source xml:space="preserve"><![CDATA[on calming a child who is disruptive or noisy?]]></source>
-        <target state="translated"><![CDATA[on calming a child who is disruptive or noisy?]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[1].title" resname="TeacherBeliefTeachItemsWell">
-        <source xml:space="preserve"><![CDATA[<b>How well can you...</b>]]></source>
-        <target state="translated"><![CDATA[<b>How well can you...</b>]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[1].columns[0].text" resname="TeacherBeliefTeachItemsWell">
-        <source xml:space="preserve"><![CDATA[Not At All]]></source>
-        <target state="translated"><![CDATA[Not At All]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[1].columns[1].text" resname="TeacherBeliefTeachItemsWell">
-        <source xml:space="preserve"><![CDATA[Very Little]]></source>
-        <target state="translated"><![CDATA[Very Little]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[1].columns[2].text" resname="TeacherBeliefTeachItemsWell">
-        <source xml:space="preserve"><![CDATA[Somewhat]]></source>
-        <target state="translated"><![CDATA[Somewhat]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[1].columns[3].text" resname="TeacherBeliefTeachItemsWell">
-        <source xml:space="preserve"><![CDATA[Quite a Bit]]></source>
-        <target state="translated"><![CDATA[Quite a Bit]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[1].columns[4].text" resname="TeacherBeliefTeachItemsWell">
-        <source xml:space="preserve"><![CDATA[A Great Deal]]></source>
-        <target state="translated"><![CDATA[A Great Deal]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[1].rows[0].text" resname="TeacherBeliefTeachItemsWell">
-        <source xml:space="preserve"><![CDATA[establish a classroom management system?]]></source>
-        <target state="translated"><![CDATA[establish a classroom management system?]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[1].rows[1].text" resname="TeacherBeliefTeachItemsWell">
-        <source xml:space="preserve"><![CDATA[use a variety of assessment strategies?]]></source>
-        <target state="translated"><![CDATA[use a variety of assessment strategies?]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[1].rows[2].text" resname="TeacherBeliefTeachItemsWell">
-        <source xml:space="preserve"><![CDATA[provide alternative explanations or examples when children are confused?]]></source>
-        <target state="translated"><![CDATA[provide alternative explanations or examples when children are confused?]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[1].rows[3].text" resname="TeacherBeliefTeachItemsWell">
-        <source xml:space="preserve"><![CDATA[assist families in helping their children do well in school?]]></source>
-        <target state="translated"><![CDATA[assist families in helping their children do well in school?]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[1].rows[4].text" resname="TeacherBeliefTeachItemsWell">
-        <source xml:space="preserve"><![CDATA[implement alternative strategies in your classroom(s)?]]></source>
-        <target state="translated"><![CDATA[implement alternative strategies in your classroom(s)?]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[4].elements[1].rows[5].text" resname="TeacherBeliefTeachItemsWell">
-        <source xml:space="preserve"><![CDATA[create good questions for children in your classroom(s)?]]></source>
-        <target state="translated"><![CDATA[create good questions for children in your classroom(s)?]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].title" resname="TeacherIdeasChildren">
-        <source xml:space="preserve"><![CDATA[<b>With this set of items, we wish to learn more about teachers' ideas and beliefs about children.</b>]]></source>
-        <target state="translated"><![CDATA[<b>With this set of items, we wish to learn more about teachers' ideas and beliefs about children.</b>]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].title" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[Please select one answer that indicates how strongly you agree with each of the following statements.]]></source>
-        <target state="translated"><![CDATA[Please select one answer that indicates how strongly you agree with each of the following statements.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].columns[0].text" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[Strongly Disagree]]></source>
-        <target state="translated"><![CDATA[Strongly Disagree]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].columns[1].text" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[Mildly Disagree]]></source>
-        <target state="translated"><![CDATA[Mildly Disagree]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].columns[2].text" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[Mildly Agree]]></source>
-        <target state="translated"><![CDATA[Mildly Agree]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].columns[3].text" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[Strongly Agree]]></source>
-        <target state="translated"><![CDATA[Strongly Agree]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].rows[0].text" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[Since parents lack special training in education, they should not question the teacher's teaching methods.]]></source>
-        <target state="translated"><![CDATA[Since parents lack special training in education, they should not question the teacher's teaching methods.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].rows[1].text" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[Children should be treated the same regardless of differences among them.]]></source>
-        <target state="translated"><![CDATA[Children should be treated the same regardless of differences among them.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].rows[2].text" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[Children should always obey the teacher.]]></source>
-        <target state="translated"><![CDATA[Children should always obey the teacher.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].rows[3].text" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[Preparing for the future is more important for a child than enjoying today.]]></source>
-        <target state="translated"><![CDATA[Preparing for the future is more important for a child than enjoying today.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].rows[4].text" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[Children will not do the right thing unless they must.]]></source>
-        <target state="translated"><![CDATA[Children will not do the right thing unless they must.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].rows[5].text" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[Children should be allowed to disagree with their parents if they feel their own ideas are better.]]></source>
-        <target state="translated"><![CDATA[Children should be allowed to disagree with their parents if they feel their own ideas are better.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].rows[6].text" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[Children should be kept busy with work and study at home and at school.]]></source>
-        <target state="translated"><![CDATA[Children should be kept busy with work and study at home and at school.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].rows[7].text" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[The major goal of education is to put basic information into the minds of the children.]]></source>
-        <target state="translated"><![CDATA[The major goal of education is to put basic information into the minds of the children.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].rows[8].text" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[In order to be fair, a teacher must treat all children alike.]]></source>
-        <target state="translated"><![CDATA[In order to be fair, a teacher must treat all children alike.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].rows[9].text" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[The most important thing to teach children is absolute obedience to whoever is in authority.]]></source>
-        <target state="translated"><![CDATA[The most important thing to teach children is absolute obedience to whoever is in authority.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].rows[10].text" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[Children learn best by doing things themselves rather than listening to others.]]></source>
-        <target state="translated"><![CDATA[Children learn best by doing things themselves rather than listening to others.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].rows[11].text" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[Children must be carefully trained early in life or their natural impulses will make them unmanageable.]]></source>
-        <target state="translated"><![CDATA[Children must be carefully trained early in life or their natural impulses will make them unmanageable.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].rows[12].text" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[Children have a right to their own point of view and should be allowed to express it.]]></source>
-        <target state="translated"><![CDATA[Children have a right to their own point of view and should be allowed to express it.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].rows[13].text" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[Children's learning results mainly from being presented basic information again and again.]]></source>
-        <target state="translated"><![CDATA[Children's learning results mainly from being presented basic information again and again.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].rows[14].text" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[Children like to teach other children.]]></source>
-        <target state="translated"><![CDATA[Children like to teach other children.]]></target>
-      </trans-unit>
-      <trans-unit id="pages[1].elements[5].elements[0].rows[15].text" resname="TeacherIdeasChildrenItems">
-        <source xml:space="preserve"><![CDATA[The most important thing to teach children is absolute obedience to parents.]]></source>
-        <target state="translated"><![CDATA[The most important thing to teach children is absolute obedience to parents.]]></target>
-      </trans-unit>
-      <trans-unit id="startSurveyText" resname="" approved="yes">
-        <source xml:space="preserve"><![CDATA[Start Survey]]></source>
-        <target state="final"><![CDATA[Start Survey]]></target>
-      </trans-unit>
-      <trans-unit id="pagePrevText" resname="" approved="yes">
-        <source xml:space="preserve"><![CDATA[Previous]]></source>
-        <target state="final"><![CDATA[Previous]]></target>
-      </trans-unit>
-      <trans-unit id="pageNextText" resname="" approved="yes">
-        <source xml:space="preserve"><![CDATA[Next]]></source>
-        <target state="final"><![CDATA[Next]]></target>
-      </trans-unit>
-      <trans-unit id="completeText" resname="">
-        <source xml:space="preserve"><![CDATA[Finish]]></source>
-        <target state="translated"><![CDATA[Finish]]></target>
-      </trans-unit>
+    <trans-unit id="introduction.q.teachersurveyintro.html" resname="q.teachersurveyintro" approved="yes">
+      <source xml:space="preserve"><![CDATA[<b><font face=Verdana size=4>Thank you for taking the time (~10 minutes) to respond to this survey!</b><br> <br> <p><font face=Verdana size=4>Some students who you teach are participating in a research project studying how children learn and develop. Your responses in this survey should apply to your classroom, school, and professional beliefs rather than to any one specific child. <br><br><b><font face=Verdana size=4>This survey has two parts: Part A and Part B.</b><br> <br> <p><font face=Verdana size=4>In Part A, the questions relate to your background and beliefs. <br><br>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>Thank you for your participation! Your responses provide invaluable insight into the education of your students. <br><br>When you are ready to begin, select the “Start Survey” button. <br><br><b><font face=Verdana size=4>Thank you!]]></source>
+      <target state="translated"><![CDATA[<b><font face=Verdana size=4>Thank you for taking the time (~10 minutes) to respond to this survey!</b><br> <br> <p><font face=Verdana size=4>Some students who you teach are participating in a research project studying how children learn and develop. Your responses in this survey should apply to your classroom, school, and professional beliefs rather than to any one specific child. <br><br><b><font face=Verdana size=4>This survey has two parts: Part A and Part B.</b><br> <br> <p><font face=Verdana size=4>In Part A, the questions relate to your background and beliefs. <br><br>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>Thank you for your participation! Your responses provide invaluable insight into the education of your students. <br><br>When you are ready to begin, select the “Start Survey” button. <br><br><b><font face=Verdana size=4>Thank you!]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherintroparta.html" resname="q.teacherintroparta" approved="yes">
+      <source xml:space="preserve"><![CDATA[<b><font face=Verdana size=3>PART A: </b><font face=Verdana size=3>The following questions ask about your background, the school where you teach, your feelings about your job, and your beliefs about teaching and children.]]></source>
+      <target state="translated"><![CDATA[<b><font face=Verdana size=3>PART A: </b><font face=Verdana size=3>The following questions ask about your background, the school where you teach, your feelings about your job, and your beliefs about teaching and children.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.title" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[<b>This set of questions asks about your background.</b>]]></source>
+      <target state="translated"><![CDATA[<b>This set of questions asks about your background.</b>]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacherage.title" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[What is your current age?]]></source>
+      <target state="translated"><![CDATA[What is your current age?]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacherage.placeholder" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[years of age]]></source>
+      <target state="translated"><![CDATA[years of age]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachergender.title" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[What is your gender?]]></source>
+      <target state="translated"><![CDATA[What is your gender?]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachergender.choice.female.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Female]]></source>
+      <target state="translated"><![CDATA[Female]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachergender.choice.male.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Male]]></source>
+      <target state="translated"><![CDATA[Male]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachergender.choice.nonbinary.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Nonbinary]]></source>
+      <target state="translated"><![CDATA[Nonbinary]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachergender.othertext" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Other (please describe)]]></source>
+      <target state="translated"><![CDATA[Other (please describe)]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachereducation.title" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[What is the highest level of education you have completed?]]></source>
+      <target state="translated"><![CDATA[What is the highest level of education you have completed?]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachereducation.choice.uptohighschool.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Less than high school]]></source>
+      <target state="translated"><![CDATA[Less than high school]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachereducation.choice.gedhsdiploma.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[GED or High school equivalency]]></source>
+      <target state="translated"><![CDATA[GED or High school equivalency]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachereducation.choice.somecollege.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Some college but no degree]]></source>
+      <target state="translated"><![CDATA[Some college but no degree]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachereducation.choice.hsdiplomatechnical.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[High school diploma or equivalent, plus technical training or certificate]]></source>
+      <target state="translated"><![CDATA[High school diploma or equivalent, plus technical training or certificate]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachereducation.choice.associate.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Associate's degree]]></source>
+      <target state="translated"><![CDATA[Associate's degree]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachereducation.choice.bachelor.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Bachelor's degree]]></source>
+      <target state="translated"><![CDATA[Bachelor's degree]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachereducation.choice.master.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Master's degree]]></source>
+      <target state="translated"><![CDATA[Master's degree]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachereducation.choice.doctorate.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Doctoral degree]]></source>
+      <target state="translated"><![CDATA[Doctoral degree]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacherundergrad.title" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Indicate your undergraduate field of study. Mark ALL that apply.]]></source>
+      <target state="translated"><![CDATA[Indicate your undergraduate field of study. Mark ALL that apply.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacherundergrad.choice.earlychilded.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Early childhood education]]></source>
+      <target state="translated"><![CDATA[Early childhood education]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacherundergrad.choice.elemed.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Elementary education]]></source>
+      <target state="translated"><![CDATA[Elementary education]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacherundergrad.choice.specialed.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Special education]]></source>
+      <target state="translated"><![CDATA[Special education]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacherundergrad.choice.childdev.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Child development]]></source>
+      <target state="translated"><![CDATA[Child development]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacherundergrad.choice.readspecial.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Reading specialist]]></source>
+      <target state="translated"><![CDATA[Reading specialist]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacherundergrad.choice.curriculuminstruct.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Curriculum and instruction]]></source>
+      <target state="translated"><![CDATA[Curriculum and instruction]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacherundergrad.choice.bilingualed.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Bilingual/bicultural education]]></source>
+      <target state="translated"><![CDATA[Bilingual/bicultural education]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacherundergrad.choice.othered.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Other education related major (ex: secondary education, educational psychology, education administration, music education, etc.). Please specify:]]></source>
+      <target state="translated"><![CDATA[Other education related major (ex: secondary education, educational psychology, education administration, music education, etc.). Please specify:]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacherundergrad.choice.othernoned.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Non-education major. Please specify:]]></source>
+      <target state="translated"><![CDATA[Non-education major. Please specify:]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacherundergrad.choice.other.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Other. Please specify:]]></source>
+      <target state="translated"><![CDATA[Other. Please specify:]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacherundergradothered.title" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Please specify other education related major:]]></source>
+      <target state="translated"><![CDATA[Please specify other education related major:]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacherundergradnoned.title" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Please specify non-education major:]]></source>
+      <target state="translated"><![CDATA[Please specify non-education major:]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacherundergradother.title" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Please specify other major:]]></source>
+      <target state="translated"><![CDATA[Please specify other major:]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachergrad.title" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Indicate the major field of study of your highest graduate degree. Mark ALL that apply.]]></source>
+      <target state="translated"><![CDATA[Indicate the major field of study of your highest graduate degree. Mark ALL that apply.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachergrad.choice.1.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Early childhood education]]></source>
+      <target state="translated"><![CDATA[Early childhood education]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachergrad.choice.2.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Elementary education]]></source>
+      <target state="translated"><![CDATA[Elementary education]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachergrad.choice.3.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Special education]]></source>
+      <target state="translated"><![CDATA[Special education]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachergrad.choice.4.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Child development]]></source>
+      <target state="translated"><![CDATA[Child development]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachergrad.choice.5.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Reading specialist]]></source>
+      <target state="translated"><![CDATA[Reading specialist]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachergrad.choice.6.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Curriculum and instruction]]></source>
+      <target state="translated"><![CDATA[Curriculum and instruction]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachergrad.choice.7.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Bilingual/bicultural education]]></source>
+      <target state="translated"><![CDATA[Bilingual/bicultural education]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachergrad.choice.8.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Other education related major (ex: secondary education, educational psychology, education administration, music education, etc.). Please specify:]]></source>
+      <target state="translated"><![CDATA[Other education related major (ex: secondary education, educational psychology, education administration, music education, etc.). Please specify:]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachergrad.choice.9.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Non-education major. Please specify:]]></source>
+      <target state="translated"><![CDATA[Non-education major. Please specify:]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachergrad.choice.10.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Other. Please specify:]]></source>
+      <target state="translated"><![CDATA[Other. Please specify:]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachergradothered.title" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Please specify other education related major:]]></source>
+      <target state="translated"><![CDATA[Please specify other education related major:]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachergradnoned.title" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Please specify non-education major:]]></source>
+      <target state="translated"><![CDATA[Please specify non-education major:]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teachergradother.title" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Please specify other major:]]></source>
+      <target state="translated"><![CDATA[Please specify other major:]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacheryears.title" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Counting this school year, how many years have you been a schoolteacher? (please round to the nearest year)]]></source>
+      <target state="translated"><![CDATA[Counting this school year, how many years have you been a schoolteacher? (please round to the nearest year)]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacheryears.choice.less1.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Less than one year]]></source>
+      <target state="translated"><![CDATA[Less than one year]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacheryears.choice.1_2.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[1 to 2 years]]></source>
+      <target state="translated"><![CDATA[1 to 2 years]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacheryears.choice.3_5.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[3 to 5 years]]></source>
+      <target state="translated"><![CDATA[3 to 5 years]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacheryears.choice.6_10.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[6 to 10 years]]></source>
+      <target state="translated"><![CDATA[6 to 10 years]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbackground.q.teacheryears.choice.over10.text" resname="q.teacherbackground" approved="yes">
+      <source xml:space="preserve"><![CDATA[Over 10 years]]></source>
+      <target state="translated"><![CDATA[Over 10 years]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherschool.title" resname="q.teacherschool" approved="yes">
+      <source xml:space="preserve"><![CDATA[<b>This set of questions asks about the school where you currently teach.</b>]]></source>
+      <target state="translated"><![CDATA[<b>This set of questions asks about the school where you currently teach.</b>]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherschool.q.teacheryearsschool.title" resname="q.teacherschool" approved="yes">
+      <source xml:space="preserve"><![CDATA[Counting this school year, how many years have you been teaching <b>at this school</b>? (please round to the nearest year)]]></source>
+      <target state="translated"><![CDATA[Counting this school year, how many years have you been teaching <b>at this school</b>? (please round to the nearest year)]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherschool.q.teacherclimateitems.title" resname="q.teacherschool" approved="yes">
+      <source xml:space="preserve"><![CDATA[Please indicate how much you agree or disagree with the following statements about this school.]]></source>
+      <target state="translated"><![CDATA[Please indicate how much you agree or disagree with the following statements about this school.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherschool.q.teacherclimateitems.col.0.text" resname="q.teacherschool" approved="yes">
+      <source xml:space="preserve"><![CDATA[Strongly Disagree]]></source>
+      <target state="translated"><![CDATA[Strongly Disagree]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherschool.q.teacherclimateitems.col.1.text" resname="q.teacherschool" approved="yes">
+      <source xml:space="preserve"><![CDATA[Disagree]]></source>
+      <target state="translated"><![CDATA[Disagree]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherschool.q.teacherclimateitems.col.2.text" resname="q.teacherschool" approved="yes">
+      <source xml:space="preserve"><![CDATA[Agree]]></source>
+      <target state="translated"><![CDATA[Agree]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherschool.q.teacherclimateitems.col.3.text" resname="q.teacherschool" approved="yes">
+      <source xml:space="preserve"><![CDATA[Strongly Agree]]></source>
+      <target state="translated"><![CDATA[Strongly Agree]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherschool.q.teacherclimateitems.row.teacherclimate1.text" resname="q.teacherschool" approved="yes">
+      <source xml:space="preserve"><![CDATA[I feel accepted and respected as a colleague by most staff members.]]></source>
+      <target state="translated"><![CDATA[I feel accepted and respected as a colleague by most staff members.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherschool.q.teacherclimateitems.row.teacherclimate2.text" resname="q.teacherschool" approved="yes">
+      <source xml:space="preserve"><![CDATA[Parents are supportive of school staff.]]></source>
+      <target state="translated"><![CDATA[Parents are supportive of school staff.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherschool.q.teacherclimateitems.row.teacherclimate3.text" resname="q.teacherschool" approved="yes">
+      <source xml:space="preserve"><![CDATA[Students feel supported and comfortable in this school.]]></source>
+      <target state="translated"><![CDATA[Students feel supported and comfortable in this school.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherschool.q.teacherclimateitems.row.teacherclimate4.text" resname="q.teacherschool" approved="yes">
+      <source xml:space="preserve"><![CDATA[Staff feel supported and comfortable in this school.]]></source>
+      <target state="translated"><![CDATA[Staff feel supported and comfortable in this school.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherschool.q.teacherclimateitems.row.teacherclimate5.text" resname="q.teacherschool" approved="yes">
+      <source xml:space="preserve"><![CDATA[Students are safe when here at this school.]]></source>
+      <target state="translated"><![CDATA[Students are safe when here at this school.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherschool.q.teacherclimateitems.row.teacherclimate6.text" resname="q.teacherschool" approved="yes">
+      <source xml:space="preserve"><![CDATA[Staff are safe when here at this school.]]></source>
+      <target state="translated"><![CDATA[Staff are safe when here at this school.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherschool.q.teacherclimateitems.row.teacherclimate7a.text" resname="q.teacherschool" approved="yes">
+      <source xml:space="preserve"><![CDATA[The facilities and property of this school are kept up well.]]></source>
+      <target state="translated"><![CDATA[The facilities and property of this school are kept up well.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherschool.q.teacherclimateitems.row.teacherclimate7b.text" resname="q.teacherschool" approved="yes">
+      <source xml:space="preserve"><![CDATA[The facilities and property of this school are clean.]]></source>
+      <target state="translated"><![CDATA[The facilities and property of this school are clean.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherschool.q.teacherclimateitems.row.teacherclimate8.text" resname="q.teacherschool" approved="yes">
+      <source xml:space="preserve"><![CDATA[Ongoing collaboration is something adults in this school do well.]]></source>
+      <target state="translated"><![CDATA[Ongoing collaboration is something adults in this school do well.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherschool.q.teacherclimateitems.row.teacherclimate9.text" resname="q.teacherschool" approved="yes">
+      <source xml:space="preserve"><![CDATA[Adults working in this school have strong professional relationships.]]></source>
+      <target state="translated"><![CDATA[Adults working in this school have strong professional relationships.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherschool.q.teacherclimateitems.row.teacherclimate10.text" resname="q.teacherschool" approved="yes">
+      <source xml:space="preserve"><![CDATA[Adults working in this school are respectful and supportive of one another.]]></source>
+      <target state="translated"><![CDATA[Adults working in this school are respectful and supportive of one another.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.title" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[<b>With this set of items, we wish to learn more about teachers' feelings about their job.</b>]]></source>
+      <target state="translated"><![CDATA[<b>With this set of items, we wish to learn more about teachers' feelings about their job.</b>]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.title" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[Please select one answer that indicates how often you agree with each of the following statements.]]></source>
+      <target state="translated"><![CDATA[Please select one answer that indicates how often you agree with each of the following statements.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.col.0.text" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[Never]]></source>
+      <target state="translated"><![CDATA[Never]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.col.1.text" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[A few times a year or less]]></source>
+      <target state="translated"><![CDATA[A few times a year or less]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.col.2.text" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[Once a month or less]]></source>
+      <target state="translated"><![CDATA[Once a month or less]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.col.3.text" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[A few times a month]]></source>
+      <target state="translated"><![CDATA[A few times a month]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.col.4.text" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[Once a week]]></source>
+      <target state="translated"><![CDATA[Once a week]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.col.5.text" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[A few times a week]]></source>
+      <target state="translated"><![CDATA[A few times a week]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.col.6.text" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[Everyday]]></source>
+      <target state="translated"><![CDATA[Everyday]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.row.teacherfeeljob1.text" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[I feel emotionally drained from my work.]]></source>
+      <target state="translated"><![CDATA[I feel emotionally drained from my work.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.row.teacherfeeljob2.text" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[I feel fatigued when I get up in the morning and have to face another day on the job.]]></source>
+      <target state="translated"><![CDATA[I feel fatigued when I get up in the morning and have to face another day on the job.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.row.teacherfeeljob3.text" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[I can easily understand how my students feel about things.]]></source>
+      <target state="translated"><![CDATA[I can easily understand how my students feel about things.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.row.teacherfeeljob5.text" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[I deal very effectively with the problems of my students.]]></source>
+      <target state="translated"><![CDATA[I deal very effectively with the problems of my students.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.row.teacherfeeljob6.text" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[I feel burned out from my work.]]></source>
+      <target state="translated"><![CDATA[I feel burned out from my work.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.row.teacherfeeljob7.text" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[I feel I'm positively influencing other people's lives through my work.]]></source>
+      <target state="translated"><![CDATA[I feel I'm positively influencing other people's lives through my work.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.row.teacherfeeljob9.text" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[I feel frustrated by my job.]]></source>
+      <target state="translated"><![CDATA[I feel frustrated by my job.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.row.teacherfeeljob10.text" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[I feel I'm working too hard on my job.]]></source>
+      <target state="translated"><![CDATA[I feel I'm working too hard on my job.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.row.teacherfeeljob12.text" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[I can easily create a relaxed atmosphere with my students.]]></source>
+      <target state="translated"><![CDATA[I can easily create a relaxed atmosphere with my students.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.row.teacherfeeljob13.text" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[I feel exhilarated after working closely with my students.]]></source>
+      <target state="translated"><![CDATA[I feel exhilarated after working closely with my students.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.row.teacherfeeljob14.text" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[I have accomplished many worthwhile things in this job.]]></source>
+      <target state="translated"><![CDATA[I have accomplished many worthwhile things in this job.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.row.teacherfeeljob15.text" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[I feel like I'm at the end of my rope.]]></source>
+      <target state="translated"><![CDATA[I feel like I'm at the end of my rope.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherfeeljob.q.teacherfeeljobitems.row.teacherfeeljob16.text" resname="q.teacherfeeljob" approved="yes">
+      <source xml:space="preserve"><![CDATA[In my work, I deal with emotional problems very calmly.]]></source>
+      <target state="translated"><![CDATA[In my work, I deal with emotional problems very calmly.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.title" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[<b>This set of questions is designed to help us gain a better understanding of the kinds of things that create difficulties for teachers in their school activities.</b>]]></source>
+      <target state="translated"><![CDATA[<b>This set of questions is designed to help us gain a better understanding of the kinds of things that create difficulties for teachers in their school activities.</b>]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemsinfluence.title" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[<b>How much influence do you have...</b>]]></source>
+      <target state="translated"><![CDATA[<b>How much influence do you have...</b>]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemsinfluence.col.0.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[Never]]></source>
+      <target state="translated"><![CDATA[Never]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemsinfluence.col.1.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[Very Little]]></source>
+      <target state="translated"><![CDATA[Very Little]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemsinfluence.col.2.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[Some Influence]]></source>
+      <target state="translated"><![CDATA[Some Influence]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemsinfluence.col.3.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[Quite a Bit]]></source>
+      <target state="translated"><![CDATA[Quite a Bit]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemsinfluence.col.4.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[A Great Deal]]></source>
+      <target state="translated"><![CDATA[A Great Deal]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemsinfluence.row.teacherbeliefteach1.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[on disruptive behavior in the classroom?]]></source>
+      <target state="translated"><![CDATA[on disruptive behavior in the classroom?]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemsinfluence.row.teacherbeliefteach2.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[to motivate children who show low interest in activities?]]></source>
+      <target state="translated"><![CDATA[to motivate children who show low interest in activities?]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemsinfluence.row.teacherbeliefteach3.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[to get children to believe they can do well on activities?]]></source>
+      <target state="translated"><![CDATA[to get children to believe they can do well on activities?]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemsinfluence.row.teacherbeliefteach4.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[to help children in your classroom(s) value learning?]]></source>
+      <target state="translated"><![CDATA[to help children in your classroom(s) value learning?]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemsinfluence.row.teacherbeliefteach6.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[on getting children to follow classroom rules?]]></source>
+      <target state="translated"><![CDATA[on getting children to follow classroom rules?]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemsinfluence.row.teacherbeliefteach7.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[on calming a child who is disruptive or noisy?]]></source>
+      <target state="translated"><![CDATA[on calming a child who is disruptive or noisy?]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemswell.title" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[<b>How well can you...</b>]]></source>
+      <target state="translated"><![CDATA[<b>How well can you...</b>]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemswell.col.0.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[Not At All]]></source>
+      <target state="translated"><![CDATA[Not At All]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemswell.col.1.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[Very Little]]></source>
+      <target state="translated"><![CDATA[Very Little]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemswell.col.2.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[Somewhat]]></source>
+      <target state="translated"><![CDATA[Somewhat]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemswell.col.3.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[Quite a Bit]]></source>
+      <target state="translated"><![CDATA[Quite a Bit]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemswell.col.4.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[A Great Deal]]></source>
+      <target state="translated"><![CDATA[A Great Deal]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemswell.row.teacherbeliefteach8.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[establish a classroom management system?]]></source>
+      <target state="translated"><![CDATA[establish a classroom management system?]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemswell.row.teacherbeliefteach9.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[use a variety of assessment strategies?]]></source>
+      <target state="translated"><![CDATA[use a variety of assessment strategies?]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemswell.row.teacherbeliefteach10.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[provide alternative explanations or examples when children are confused?]]></source>
+      <target state="translated"><![CDATA[provide alternative explanations or examples when children are confused?]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemswell.row.teacherbeliefteach11.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[assist families in helping their children do well in school?]]></source>
+      <target state="translated"><![CDATA[assist families in helping their children do well in school?]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemswell.row.teacherbeliefteach12.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[implement alternative strategies in your classroom(s)?]]></source>
+      <target state="translated"><![CDATA[implement alternative strategies in your classroom(s)?]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherbeliefteach.q.teacherbeliefteachitemswell.row.teacherbeliefteach5.text" resname="q.teacherbeliefteach" approved="yes">
+      <source xml:space="preserve"><![CDATA[create good questions for children in your classroom(s)?]]></source>
+      <target state="translated"><![CDATA[create good questions for children in your classroom(s)?]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.title" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[<b>With this set of items, we wish to learn more about teachers' ideas and beliefs about children.</b>]]></source>
+      <target state="translated"><![CDATA[<b>With this set of items, we wish to learn more about teachers' ideas and beliefs about children.</b>]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.title" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[Please select one answer that indicates how strongly you agree with each of the following statements.]]></source>
+      <target state="translated"><![CDATA[Please select one answer that indicates how strongly you agree with each of the following statements.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.col.0.text" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[Strongly Disagree]]></source>
+      <target state="translated"><![CDATA[Strongly Disagree]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.col.1.text" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[Mildly Disagree]]></source>
+      <target state="translated"><![CDATA[Mildly Disagree]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.col.2.text" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[Mildly Agree]]></source>
+      <target state="translated"><![CDATA[Mildly Agree]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.col.3.text" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[Strongly Agree]]></source>
+      <target state="translated"><![CDATA[Strongly Agree]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.row.teacherideaschildren1.text" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[Since parents lack special training in education, they should not question the teacher's teaching methods.]]></source>
+      <target state="translated"><![CDATA[Since parents lack special training in education, they should not question the teacher's teaching methods.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.row.teacherideaschildren2.text" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[Children should be treated the same regardless of differences among them.]]></source>
+      <target state="translated"><![CDATA[Children should be treated the same regardless of differences among them.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.row.teacherideaschildren3.text" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[Children should always obey the teacher.]]></source>
+      <target state="translated"><![CDATA[Children should always obey the teacher.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.row.teacherideaschildren4.text" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[Preparing for the future is more important for a child than enjoying today.]]></source>
+      <target state="translated"><![CDATA[Preparing for the future is more important for a child than enjoying today.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.row.teacherideaschildren5.text" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[Children will not do the right thing unless they must.]]></source>
+      <target state="translated"><![CDATA[Children will not do the right thing unless they must.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.row.teacherideaschildren6.text" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[Children should be allowed to disagree with their parents if they feel their own ideas are better.]]></source>
+      <target state="translated"><![CDATA[Children should be allowed to disagree with their parents if they feel their own ideas are better.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.row.teacherideaschildren7.text" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[Children should be kept busy with work and study at home and at school.]]></source>
+      <target state="translated"><![CDATA[Children should be kept busy with work and study at home and at school.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.row.teacherideaschildren8.text" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[The major goal of education is to put basic information into the minds of the children.]]></source>
+      <target state="translated"><![CDATA[The major goal of education is to put basic information into the minds of the children.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.row.teacherideaschildren9.text" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[In order to be fair, a teacher must treat all children alike.]]></source>
+      <target state="translated"><![CDATA[In order to be fair, a teacher must treat all children alike.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.row.teacherideaschildren10.text" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[The most important thing to teach children is absolute obedience to whoever is in authority.]]></source>
+      <target state="translated"><![CDATA[The most important thing to teach children is absolute obedience to whoever is in authority.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.row.teacherideaschildren11.text" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[Children learn best by doing things themselves rather than listening to others.]]></source>
+      <target state="translated"><![CDATA[Children learn best by doing things themselves rather than listening to others.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.row.teacherideaschildren12.text" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[Children must be carefully trained early in life or their natural impulses will make them unmanageable.]]></source>
+      <target state="translated"><![CDATA[Children must be carefully trained early in life or their natural impulses will make them unmanageable.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.row.teacherideaschildren13.text" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[Children have a right to their own point of view and should be allowed to express it.]]></source>
+      <target state="translated"><![CDATA[Children have a right to their own point of view and should be allowed to express it.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.row.teacherideaschildren14.text" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[Children's learning results mainly from being presented basic information again and again.]]></source>
+      <target state="translated"><![CDATA[Children's learning results mainly from being presented basic information again and again.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.row.teacherideaschildren15.text" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[Children like to teach other children.]]></source>
+      <target state="translated"><![CDATA[Children like to teach other children.]]></target>
+    </trans-unit>
+    <trans-unit id="page1.q.teacherideaschildren.q.teacherideaschildrenitems.row.teacherideaschildren16.text" resname="q.teacherideaschildren" approved="yes">
+      <source xml:space="preserve"><![CDATA[The most important thing to teach children is absolute obedience to parents.]]></source>
+      <target state="translated"><![CDATA[The most important thing to teach children is absolute obedience to parents.]]></target>
+    </trans-unit>
+    <trans-unit id="startsurveytext" resname="" approved="yes">
+      <source xml:space="preserve"><![CDATA[Start Survey]]></source>
+      <target state="translated"><![CDATA[Start Survey]]></target>
+    </trans-unit>
+    <trans-unit id="pageprevtext" resname="" approved="yes">
+      <source xml:space="preserve"><![CDATA[Previous]]></source>
+      <target state="translated"><![CDATA[Previous]]></target>
+    </trans-unit>
+    <trans-unit id="pagenexttext" resname="" approved="yes">
+      <source xml:space="preserve"><![CDATA[Next]]></source>
+      <target state="translated"><![CDATA[Next]]></target>
+    </trans-unit>
+    <trans-unit id="completetext" resname="" approved="yes">
+      <source xml:space="preserve"><![CDATA[Finish]]></source>
+      <target state="translated"><![CDATA[Finish]]></target>
+    </trans-unit>
     </body>
   </file>
 </xliff>

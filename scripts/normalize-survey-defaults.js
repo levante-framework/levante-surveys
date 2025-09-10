@@ -3,7 +3,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { normalizeDefaultsFromValues } from './normalize-utils.js'
+import { normalizeDefaultsFromValues, sanitizeLocalizedFields, hardenSurveyStructure } from './normalize-utils.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -16,14 +16,17 @@ function normalizeFile(jsonPath) {
     return 0
   }
   const data = JSON.parse(fs.readFileSync(abs, 'utf8'))
-  const count = normalizeDefaultsFromValues(data)
-  if (count > 0) {
+  const count1 = normalizeDefaultsFromValues(data)
+  const count2 = sanitizeLocalizedFields(data)
+  const count3 = hardenSurveyStructure(data)
+  const total = count1 + count2 + count3
+  if (total > 0) {
     fs.writeFileSync(abs.replace(/\.json$/, '_updated.json'), JSON.stringify(data, null, 2), 'utf8')
-    console.log(`✅ ${path.basename(abs)}: normalized ${count} items → wrote _updated.json`)
+    console.log(`✅ ${path.basename(abs)}: normalized ${total} fields → wrote _updated.json`)
   } else {
     console.log(`ℹ️ ${path.basename(abs)}: no changes`)
   }
-  return count
+  return total
 }
 
 function main() {
