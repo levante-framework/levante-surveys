@@ -27,6 +27,7 @@
                 <option value="dev">Development (levante-assets-dev)</option>
                 <option value="dev-xliff">Development XLIFF (levante-assets-dev/surveys-xliff)</option>
                 <option value="legacy-prod">Legacy Production (levante-dashboard-prod)</option>
+                <option value="current-prod">Current Production (levante-assets-prod)</option>
                 <option value="prod">Production (levante-assets-prod) - Coming Soon</option>
                 <optgroup label="Backups on dev" :disabled="loadingBackups">
                   <option v-if="loadingBackups" value="" disabled>Loading backups...</option>
@@ -237,6 +238,11 @@ const bucketConfig = {
     baseUrl: 'https://storage.googleapis.com/levante-dashboard-prod/surveys',
     description: 'Legacy Production Environment'
   },
+  'current-prod': {
+    name: 'levante-assets-prod',
+    baseUrl: 'https://storage.googleapis.com/levante-assets-prod/surveys',
+    description: 'Current Production'
+  },
   prod: {
     name: 'levante-assets-prod',
     baseUrl: 'https://storage.googleapis.com/levante-assets-prod/surveys',
@@ -250,11 +256,7 @@ const loadSelectedSurvey = async () => {
     return
   }
 
-  // Check if trying to use the future prod bucket
-  if (selectedBucket.value === 'prod') {
-    surveyError.value = 'Production bucket (levante-assets-prod) is not yet available. Please use Development or Legacy Production.'
-    return
-  }
+  // Allow loading from production buckets
 
   // Determine which bucket config to use outside try block
   let config
@@ -328,6 +330,9 @@ const onBucketChange = () => {
         break
       case 'legacy-prod':
         bucketConfig['legacy-prod'].baseUrl = 'https://storage.googleapis.com/levante-dashboard-prod/surveys'
+        break
+      case 'current-prod':
+        bucketConfig['current-prod'].baseUrl = 'https://storage.googleapis.com/levante-assets-prod/surveys'
         break
       case 'dev-xliff':
         bucketConfig['dev-xliff'].baseUrl = 'https://storage.googleapis.com/levante-assets-dev/surveys-xliff'
@@ -421,6 +426,8 @@ const getBadgeClass = (bucket) => {
       return 'badge-dev'
     case 'legacy-prod':
       return 'badge-legacy-prod'
+    case 'current-prod':
+      return 'badge-prod-current'
     case 'prod':
       return 'badge-prod-future'
     default:
@@ -859,6 +866,12 @@ onUnmounted(() => {
   color: #b45309;
 }
 
+.info-badge.badge-prod-current {
+  background: rgba(16, 185, 129, 0.1);
+  border: 2px solid rgba(16, 185, 129, 0.3);
+  color: #047857;
+}
+
 .info-badge.badge-prod-future {
   background: rgba(168, 85, 247, 0.1);
   border: 2px solid rgba(168, 85, 247, 0.3);
@@ -1064,6 +1077,12 @@ onUnmounted(() => {
   background: rgba(245, 158, 11, 0.2);
   color: #b45309;
   border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.badge-env.badge-prod-current {
+  background: rgba(16, 185, 129, 0.2);
+  color: #047857;
+  border: 1px solid rgba(16, 185, 129, 0.3);
 }
 
 .badge-env.badge-prod-future {
