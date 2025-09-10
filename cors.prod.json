@@ -1,0 +1,11 @@
+[
+  {
+    "origin": [
+      "https://hs-levante-admin-prod.web.app",
+      "https://hs-levante-admin-staging.web.app"
+    ],
+    "method": ["GET", "HEAD"],
+    "responseHeader": ["Content-Type", "Cache-Control"],
+    "maxAgeSeconds": 3600
+  }
+]

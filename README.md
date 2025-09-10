@@ -210,6 +210,32 @@ node scripts/upload-sources-batch.js --folder /surveys-current
     - `fr-CA` → Column 9 (no base `fr`)
     - `nl` → Column 10
 
+### **🆕 Alternative: JSON → XLIFF with Human‑Readable Keys (Recommended for new work)**
+
+Use the XLIFF exporter to generate survey XLIFF files directly from JSON with readable, path‑based keys and seeded `en-US` values.
+
+```bash
+# Generate XLIFF for all surveys from surveys/*.json
+node scripts/export-xliff-from-json.js --all
+
+# Upload sources to Crowdin (replaces obsolete survey files only)
+node scripts/xliff-crowdin-cli.js upload-sources --delete-obsolete
+
+# Ensure en-US appears in Crowdin by uploading en-US translations
+node scripts/xliff-crowdin-cli.js upload-translations --language en-US
+```
+
+Key format (examples):
+- `pageone.q.attendance.title` → page slug, then `q.<questionName>`, then leaf key
+- `pagetwo.q.behavior.choices.choice_yes.text` → choice values appear as `choice_<value>`
+- `mymatrix.q.reading.rows.row_low.text` and `...columns.col_high.text`
+- Leaf keys come from the parent property: `title`, `html`, `label`, `placeholder`, `text`, `description`, `value`, etc.
+
+`en-US` seeding rule (applied during export):
+1. Use `en` if present
+2. Else use `default`
+3. Else derive from the most meaningful token (choice value → question name → leaf key)
+
 ---
 
 ## **Phase 2: Crowdin → SurveyJS (Import Translations)**

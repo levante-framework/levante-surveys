@@ -2,1024 +2,1024 @@
 <xliff version="1.2">
   <file original="parent_survey_family.json" source-language="en-US" datatype="plaintext">
     <body>
-    <trans-unit id="pages[0].elements[0].html" resname="CaregiverSurveyIntroB" approved="yes">
+    <trans-unit id="introduction.q.caregiversurveyintrob.html" resname="q.caregiversurveyintrob" approved="yes">
       <source xml:space="preserve"><![CDATA[<block><b><font face=Verdana size=4>]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].title" resname="HomeNeighborhood" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.title" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[Please answer the following questions about the community in which you live.]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[0].title" resname="HomeNSCHi7a" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7a.title" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[In your neighborhood, are there sidewalks or walking paths?]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[0].labelTrue" resname="HomeNSCHi7a" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7a.labeltrue" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[0].labelFalse" resname="HomeNSCHi7a" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7a.labelfalse" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[1].title" resname="HomeNSCHi7b" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7b.title" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[In your neighborhood, is there a park or playground?]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[1].labelTrue" resname="HomeNSCHi7b" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7b.labeltrue" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[1].labelFalse" resname="HomeNSCHi7b" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7b.labelfalse" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[2].title" resname="HomeNSCHi7c" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7c.title" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[In your neighborhood, is there a community center or recreation center where families get together?]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[2].labelTrue" resname="HomeNSCHi7c" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7c.labeltrue" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[2].labelFalse" resname="HomeNSCHi7c" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7c.labelfalse" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[3].title" resname="HomeNSCHi7d" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7d.title" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[In your neighborhood, is there a library or other place to get free books?]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[3].labelTrue" resname="HomeNSCHi7d" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7d.labeltrue" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[3].labelFalse" resname="HomeNSCHi7d" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7d.labelfalse" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[4].title" resname="HomeNSCHi7e" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7e.title" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[In your neighborhood, is there litter or garbage on the street or sidewalk?]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[4].labelTrue" resname="HomeNSCHi7e" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7e.labeltrue" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[4].labelFalse" resname="HomeNSCHi7e" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7e.labelfalse" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[5].title" resname="HomeNSCHi7f" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7f.title" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[In your neighborhood is there poorly kept or rundown housing?]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[5].labelTrue" resname="HomeNSCHi7f" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7f.labeltrue" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[5].labelFalse" resname="HomeNSCHi7f" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7f.labelfalse" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[6].title" resname="HomeNSCHi7g" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7g.title" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[In your neighborhood, is there vandalism such as broken windows or graffiti?]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[6].labelTrue" resname="HomeNSCHi7g" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7g.labeltrue" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[0].elements[6].labelFalse" resname="HomeNSCHi7g" approved="yes">
+    <trans-unit id="page1.q.homeneighborhood.q.homenschi7g.labelfalse" resname="q.homeneighborhood" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[1].title" resname="HomeNSCHi8items" approved="yes">
+    <trans-unit id="page1.q.homenschi8items.title" resname="q.homenschi8items" approved="yes">
       <source xml:space="preserve"><![CDATA[To what extent do you agree with these statements about your neighborhood or community?]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[1].columns[0].text" resname="HomeNSCHi8items" approved="yes">
+    <trans-unit id="page1.q.homenschi8items.col.3.text" resname="q.homenschi8items" approved="yes">
       <source xml:space="preserve"><![CDATA[Definitely Agree]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[1].columns[1].text" resname="HomeNSCHi8items" approved="yes">
+    <trans-unit id="page1.q.homenschi8items.col.2.text" resname="q.homenschi8items" approved="yes">
       <source xml:space="preserve"><![CDATA[Somewhat Agree]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[1].columns[2].text" resname="HomeNSCHi8items" approved="yes">
+    <trans-unit id="page1.q.homenschi8items.col.1.text" resname="q.homenschi8items" approved="yes">
       <source xml:space="preserve"><![CDATA[Somewhat Disagree]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[1].columns[3].text" resname="HomeNSCHi8items" approved="yes">
+    <trans-unit id="page1.q.homenschi8items.col.0.text" resname="q.homenschi8items" approved="yes">
       <source xml:space="preserve"><![CDATA[Definitely Disagree]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[1].rows[0].text" resname="HomeNSCHi8items" approved="yes">
+    <trans-unit id="page1.q.homenschi8items.row.homenschi8a.text" resname="q.homenschi8items" approved="yes">
       <source xml:space="preserve"><![CDATA[People in your neighborhood help each other out.]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[1].rows[1].text" resname="HomeNSCHi8items" approved="yes">
+    <trans-unit id="page1.q.homenschi8items.row.homenschi8b.text" resname="q.homenschi8items" approved="yes">
       <source xml:space="preserve"><![CDATA[People in your neighborhood watch out for each other's children.]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[1].rows[2].text" resname="HomeNSCHi8items" approved="yes">
+    <trans-unit id="page1.q.homenschi8items.row.homenschi8c.text" resname="q.homenschi8items" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child is safe in your neighborhood.]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[1].rows[3].text" resname="HomeNSCHi8items" approved="yes">
+    <trans-unit id="page1.q.homenschi8items.row.homenschi8d.text" resname="q.homenschi8items" approved="yes">
       <source xml:space="preserve"><![CDATA[When you encounter difficulties, you know where to go for help in your community.]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[1].rows[4].text" resname="HomeNSCHi8items" approved="yes">
+    <trans-unit id="page1.q.homenschi8items.row.homenschi8e.text" resname="q.homenschi8items" approved="yes">
       <source xml:space="preserve"><![CDATA[Your child is safe at school.]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[2].title" resname="HomeFood" approved="yes">
+    <trans-unit id="page1.q.homefood.title" resname="q.homefood" approved="yes">
       <source xml:space="preserve"><![CDATA[These are statements people have made about their food situation. For these statements, please mark whether the statement was often true, sometimes true, or never true for your household in the <b>last 12 months</b>.]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[2].elements[0].title" resname="HomeFoodLast" approved="yes">
+    <trans-unit id="page1.q.homefood.q.homefoodlast.title" resname="q.homefood" approved="yes">
       <source xml:space="preserve"><![CDATA[The food that we bought just didn't last, and we didn't have enough money to get more.]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[2].elements[0].choices[0].text" resname="HomeFoodLast" approved="yes">
+    <trans-unit id="page1.q.homefood.q.homefoodlast.choice.0.text" resname="q.homefood" approved="yes">
       <source xml:space="preserve"><![CDATA[Never true]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[2].elements[0].choices[1].text" resname="HomeFoodLast" approved="yes">
+    <trans-unit id="page1.q.homefood.q.homefoodlast.choice.1.text" resname="q.homefood" approved="yes">
       <source xml:space="preserve"><![CDATA[Sometimes true]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[2].elements[0].choices[2].text" resname="HomeFoodLast" approved="yes">
+    <trans-unit id="page1.q.homefood.q.homefoodlast.choice.2.text" resname="q.homefood" approved="yes">
       <source xml:space="preserve"><![CDATA[Often true]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[2].elements[1].title" resname="HomeFoodBalanced" approved="yes">
+    <trans-unit id="page1.q.homefood.q.homefoodbalanced.title" resname="q.homefood" approved="yes">
       <source xml:space="preserve"><![CDATA[We couldn't afford to eat balanced meals.]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[2].elements[1].choices[0].text" resname="HomeFoodBalanced" approved="yes">
+    <trans-unit id="page1.q.homefood.q.homefoodbalanced.choice.0.text" resname="q.homefood" approved="yes">
       <source xml:space="preserve"><![CDATA[Never true]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[2].elements[1].choices[1].text" resname="HomeFoodBalanced" approved="yes">
+    <trans-unit id="page1.q.homefood.q.homefoodbalanced.choice.1.text" resname="q.homefood" approved="yes">
       <source xml:space="preserve"><![CDATA[Sometimes true]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[2].elements[1].choices[2].text" resname="HomeFoodBalanced" approved="yes">
+    <trans-unit id="page1.q.homefood.q.homefoodbalanced.choice.2.text" resname="q.homefood" approved="yes">
       <source xml:space="preserve"><![CDATA[Often true]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[2].elements[2].title" resname="HomeFoodSkipMeal" approved="yes">
+    <trans-unit id="page1.q.homefood.q.homefoodskipmeal.title" resname="q.homefood" approved="yes">
       <source xml:space="preserve"><![CDATA[In the <b>last 12 months</b>, did you or other adults in your household ever cut the size of your meals or skip meals because there wasn't enough money for food?]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[2].elements[2].labelTrue" resname="HomeFoodSkipMeal" approved="yes">
+    <trans-unit id="page1.q.homefood.q.homefoodskipmeal.labeltrue" resname="q.homefood" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[2].elements[2].labelFalse" resname="HomeFoodSkipMeal" approved="yes">
+    <trans-unit id="page1.q.homefood.q.homefoodskipmeal.labelfalse" resname="q.homefood" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[2].elements[3].title" resname="HomeFoodSkipMealAmount" approved="yes">
+    <trans-unit id="page1.q.homefood.q.homefoodskipmealamount.title" resname="q.homefood" approved="yes">
       <source xml:space="preserve"><![CDATA[If yes, how often did this happen - almost every month, some months but not every month, or in only 1 or 2 months?]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[2].elements[3].choices[0].text" resname="HomeFoodSkipMealAmount" approved="yes">
+    <trans-unit id="page1.q.homefood.q.homefoodskipmealamount.choice.3.text" resname="q.homefood" approved="yes">
       <source xml:space="preserve"><![CDATA[Almost every month]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[2].elements[3].choices[1].text" resname="HomeFoodSkipMealAmount" approved="yes">
+    <trans-unit id="page1.q.homefood.q.homefoodskipmealamount.choice.2.text" resname="q.homefood" approved="yes">
       <source xml:space="preserve"><![CDATA[Some months but not every month]]></source>
     </trans-unit>
-    <trans-unit id="pages[1].elements[2].elements[3].choices[2].text" resname="HomeFoodSkipMealAmount" approved="yes">
+    <trans-unit id="page1.q.homefood.q.homefoodskipmealamount.choice.1.text" resname="q.homefood" approved="yes">
       <source xml:space="preserve"><![CDATA[Only 1 or 2 months]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].title" resname="HomeCHAOS" approved="yes">
+    <trans-unit id="page2.q.homechaos.title" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[Below are statements about the environment in your home. Please indicate how much you agree that the statement is true of your home.]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].elements[0].title" resname="HomeCHAOS4" approved="yes">
+    <trans-unit id="page2.q.homechaos.q.homechaos4.title" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[We are usually able to stay on top of things.]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].elements[0].choices[0].text" resname="HomeCHAOS4" approved="yes">
+    <trans-unit id="page2.q.homechaos.q.homechaos4.choice.0.text" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[Definitely Untrue]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].elements[0].choices[1].text" resname="HomeCHAOS4" approved="yes">
+    <trans-unit id="page2.q.homechaos.q.homechaos4.choice.1.text" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[Somewhat Untrue]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].elements[0].choices[2].text" resname="HomeCHAOS4" approved="yes">
+    <trans-unit id="page2.q.homechaos.q.homechaos4.choice.2.text" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[Somewhat True]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].elements[0].choices[3].text" resname="HomeCHAOS4" approved="yes">
+    <trans-unit id="page2.q.homechaos.q.homechaos4.choice.3.text" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[Definitely True]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].elements[1].title" resname="HomeCHAOS10" approved="yes">
+    <trans-unit id="page2.q.homechaos.q.homechaos10.title" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[You can't hear yourself think in our home.]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].elements[1].choices[0].text" resname="HomeCHAOS10" approved="yes">
+    <trans-unit id="page2.q.homechaos.q.homechaos10.choice.0.text" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[Definitely Untrue]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].elements[1].choices[1].text" resname="HomeCHAOS10" approved="yes">
+    <trans-unit id="page2.q.homechaos.q.homechaos10.choice.1.text" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[Somewhat Untrue]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].elements[1].choices[2].text" resname="HomeCHAOS10" approved="yes">
+    <trans-unit id="page2.q.homechaos.q.homechaos10.choice.2.text" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[Somewhat True]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].elements[1].choices[3].text" resname="HomeCHAOS10" approved="yes">
+    <trans-unit id="page2.q.homechaos.q.homechaos10.choice.3.text" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[Definitely True]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].elements[2].title" resname="HomeCHAOS14" approved="yes">
+    <trans-unit id="page2.q.homechaos.q.homechaos14.title" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[The atmosphere in our home is calm.]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].elements[2].choices[0].text" resname="HomeCHAOS14" approved="yes">
+    <trans-unit id="page2.q.homechaos.q.homechaos14.choice.0.text" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[Definitely Untrue]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].elements[2].choices[1].text" resname="HomeCHAOS14" approved="yes">
+    <trans-unit id="page2.q.homechaos.q.homechaos14.choice.1.text" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[Somewhat Untrue]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].elements[2].choices[2].text" resname="HomeCHAOS14" approved="yes">
+    <trans-unit id="page2.q.homechaos.q.homechaos14.choice.2.text" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[Somewhat True]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].elements[2].choices[3].text" resname="HomeCHAOS14" approved="yes">
+    <trans-unit id="page2.q.homechaos.q.homechaos14.choice.3.text" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[Definitely True]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].elements[3].title" resname="HomeCHAOS15" approved="yes">
+    <trans-unit id="page2.q.homechaos.q.homechaos15.title" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[We have a regular morning routine at home.]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].elements[3].choices[0].text" resname="HomeCHAOS15" approved="yes">
+    <trans-unit id="page2.q.homechaos.q.homechaos15.choice.0.text" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[Definitely Untrue]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].elements[3].choices[1].text" resname="HomeCHAOS15" approved="yes">
+    <trans-unit id="page2.q.homechaos.q.homechaos15.choice.1.text" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[Somewhat Untrue]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].elements[3].choices[2].text" resname="HomeCHAOS15" approved="yes">
+    <trans-unit id="page2.q.homechaos.q.homechaos15.choice.2.text" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[Somewhat True]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[0].elements[3].choices[3].text" resname="HomeCHAOS15" approved="yes">
+    <trans-unit id="page2.q.homechaos.q.homechaos15.choice.3.text" resname="q.homechaos" approved="yes">
       <source xml:space="preserve"><![CDATA[Definitely True]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[1].elements[0].title" resname="SelfParentStressNSCHh8" approved="yes">
+    <trans-unit id="page2.q.selfparentstress.q.selfparentstressnschh8.title" resname="q.selfparentstress" approved="yes">
       <source xml:space="preserve"><![CDATA[How well do you think you are handling the day-to-day demands of raising children?]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[1].elements[0].choices[0].text" resname="SelfParentStressNSCHh8" approved="yes">
+    <trans-unit id="page2.q.selfparentstress.q.selfparentstressnschh8.choice.1.text" resname="q.selfparentstress" approved="yes">
       <source xml:space="preserve"><![CDATA[Very well]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[1].elements[0].choices[1].text" resname="SelfParentStressNSCHh8" approved="yes">
+    <trans-unit id="page2.q.selfparentstress.q.selfparentstressnschh8.choice.2.text" resname="q.selfparentstress" approved="yes">
       <source xml:space="preserve"><![CDATA[Somewhat well]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[1].elements[0].choices[2].text" resname="SelfParentStressNSCHh8" approved="yes">
+    <trans-unit id="page2.q.selfparentstress.q.selfparentstressnschh8.choice.3.text" resname="q.selfparentstress" approved="yes">
       <source xml:space="preserve"><![CDATA[Not very well]]></source>
     </trans-unit>
-    <trans-unit id="pages[2].elements[1].elements[0].choices[3].text" resname="SelfParentStressNSCHh8" approved="yes">
+    <trans-unit id="page2.q.selfparentstress.q.selfparentstressnschh8.choice.4.text" resname="q.selfparentstress" approved="yes">
       <source xml:space="preserve"><![CDATA[Not well at all]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[0].title" resname="SelfAnxDep" approved="yes">
+    <trans-unit id="page3.q.selfanxdep.title" resname="q.selfanxdep" approved="yes">
       <source xml:space="preserve"><![CDATA[Over the <b>last two weeks</b>, how often have you been bothered by the following problems?]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[0].columns[0].text" resname="SelfAnxDep" approved="yes">
+    <trans-unit id="page3.q.selfanxdep.col.0.text" resname="q.selfanxdep" approved="yes">
       <source xml:space="preserve"><![CDATA[Not at all]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[0].columns[1].text" resname="SelfAnxDep" approved="yes">
+    <trans-unit id="page3.q.selfanxdep.col.1.text" resname="q.selfanxdep" approved="yes">
       <source xml:space="preserve"><![CDATA[Several days]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[0].columns[2].text" resname="SelfAnxDep" approved="yes">
+    <trans-unit id="page3.q.selfanxdep.col.2.text" resname="q.selfanxdep" approved="yes">
       <source xml:space="preserve"><![CDATA[More than half of the days]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[0].columns[3].text" resname="SelfAnxDep" approved="yes">
+    <trans-unit id="page3.q.selfanxdep.col.3.text" resname="q.selfanxdep" approved="yes">
       <source xml:space="preserve"><![CDATA[Nearly every day]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[0].rows[0].text" resname="SelfAnxDep" approved="yes">
+    <trans-unit id="page3.q.selfanxdep.row.selfanxdep1.text" resname="q.selfanxdep" approved="yes">
       <source xml:space="preserve"><![CDATA[Feeling nervous, anxious, or on edge]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[0].rows[1].text" resname="SelfAnxDep" approved="yes">
+    <trans-unit id="page3.q.selfanxdep.row.selfanxdep2.text" resname="q.selfanxdep" approved="yes">
       <source xml:space="preserve"><![CDATA[Not being able to stop or control worrying]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[0].rows[2].text" resname="SelfAnxDep" approved="yes">
+    <trans-unit id="page3.q.selfanxdep.row.selfanxdep3.text" resname="q.selfanxdep" approved="yes">
       <source xml:space="preserve"><![CDATA[Feeling down, depressed, or hopeless]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[0].rows[3].text" resname="SelfAnxDep" approved="yes">
+    <trans-unit id="page3.q.selfanxdep.row.selfanxdep4.text" resname="q.selfanxdep" approved="yes">
       <source xml:space="preserve"><![CDATA[Little interest or pleasure in doing things]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[1].title" resname="SelfSupport" approved="yes">
+    <trans-unit id="page3.q.selfsupport.title" resname="q.selfsupport" approved="yes">
       <source xml:space="preserve"><![CDATA[We are interested in how you feel about the following statements. Read each statement carefully. Indicate how you feel about each statement.]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[1].columns[0].text" resname="SelfSupport" approved="yes">
+    <trans-unit id="page3.q.selfsupport.col.1.text" resname="q.selfsupport" approved="yes">
       <source xml:space="preserve"><![CDATA[Very Strongly Disagree]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[1].columns[1].text" resname="SelfSupport" approved="yes">
+    <trans-unit id="page3.q.selfsupport.col.2.text" resname="q.selfsupport" approved="yes">
       <source xml:space="preserve"><![CDATA[Strongly Disagree]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[1].columns[2].text" resname="SelfSupport" approved="yes">
+    <trans-unit id="page3.q.selfsupport.col.3.text" resname="q.selfsupport" approved="yes">
       <source xml:space="preserve"><![CDATA[Mildly Disagree]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[1].columns[4].text" resname="SelfSupport" approved="yes">
+    <trans-unit id="page3.q.selfsupport.col.5.text" resname="q.selfsupport" approved="yes">
       <source xml:space="preserve"><![CDATA[Mildly Agree]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[1].columns[5].text" resname="SelfSupport" approved="yes">
+    <trans-unit id="page3.q.selfsupport.col.6.text" resname="q.selfsupport" approved="yes">
       <source xml:space="preserve"><![CDATA[Strongly Agree]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[1].columns[6].text" resname="SelfSupport" approved="yes">
+    <trans-unit id="page3.q.selfsupport.col.7.text" resname="q.selfsupport" approved="yes">
       <source xml:space="preserve"><![CDATA[Very Strongly Agree]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[1].rows[0].text" resname="SelfSupport" approved="yes">
+    <trans-unit id="page3.q.selfsupport.row.selfsupport1.text" resname="q.selfsupport" approved="yes">
       <source xml:space="preserve"><![CDATA[There is a special person (ex: spouse, partner, etc.) who is around when I am in need.]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[1].rows[1].text" resname="SelfSupport" approved="yes">
+    <trans-unit id="page3.q.selfsupport.row.selfsupport2.text" resname="q.selfsupport" approved="yes">
       <source xml:space="preserve"><![CDATA[There is a special person (ex: spouse, partner, etc.) with whom I can share joys and sorrows.]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[1].rows[2].text" resname="SelfSupport" approved="yes">
+    <trans-unit id="page3.q.selfsupport.row.selfsupport3.text" resname="q.selfsupport" approved="yes">
       <source xml:space="preserve"><![CDATA[My family really tries to help me.]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[1].rows[3].text" resname="SelfSupport" approved="yes">
+    <trans-unit id="page3.q.selfsupport.row.selfsupport4.text" resname="q.selfsupport" approved="yes">
       <source xml:space="preserve"><![CDATA[I get the emotional help & support I need from my family.]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[1].rows[4].text" resname="SelfSupport" approved="yes">
+    <trans-unit id="page3.q.selfsupport.row.selfsupport5.text" resname="q.selfsupport" approved="yes">
       <source xml:space="preserve"><![CDATA[I have a special person (ex: spouse, partner, etc.) who is a real source of comfort to me.]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[1].rows[5].text" resname="SelfSupport" approved="yes">
+    <trans-unit id="page3.q.selfsupport.row.selfsupport6.text" resname="q.selfsupport" approved="yes">
       <source xml:space="preserve"><![CDATA[My friends really try to help me.]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[1].rows[6].text" resname="SelfSupport" approved="yes">
+    <trans-unit id="page3.q.selfsupport.row.selfsupport7.text" resname="q.selfsupport" approved="yes">
       <source xml:space="preserve"><![CDATA[I can count on my friends when things go wrong.]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[1].rows[7].text" resname="SelfSupport" approved="yes">
+    <trans-unit id="page3.q.selfsupport.row.selfsupport8.text" resname="q.selfsupport" approved="yes">
       <source xml:space="preserve"><![CDATA[I can talk about my problems with my family.]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[1].rows[8].text" resname="SelfSupport" approved="yes">
+    <trans-unit id="page3.q.selfsupport.row.selfsupport9.text" resname="q.selfsupport" approved="yes">
       <source xml:space="preserve"><![CDATA[I have friends with whom I can share my joys and sorrows.]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[1].rows[9].text" resname="SelfSupport" approved="yes">
+    <trans-unit id="page3.q.selfsupport.row.selfsupport10.text" resname="q.selfsupport" approved="yes">
       <source xml:space="preserve"><![CDATA[There is a special person (ex: spouse, partner, etc.) in my life who cares about my feelings.]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[1].rows[10].text" resname="SelfSupport" approved="yes">
+    <trans-unit id="page3.q.selfsupport.row.selfsupport11.text" resname="q.selfsupport" approved="yes">
       <source xml:space="preserve"><![CDATA[My family is willing to help me make decisions.]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[1].rows[11].text" resname="SelfSupport" approved="yes">
+    <trans-unit id="page3.q.selfsupport.row.selfsupport12.text" resname="q.selfsupport" approved="yes">
       <source xml:space="preserve"><![CDATA[I can talk about my problems with my friends.]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[2].title" resname="SelfDiscrim" approved="yes">
+    <trans-unit id="page3.q.selfdiscrim.title" resname="q.selfdiscrim" approved="yes">
       <source xml:space="preserve"><![CDATA[In your day-to-day life how often have any of the following things happened to you?]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[2].columns[0].text" resname="SelfDiscrim" approved="yes">
+    <trans-unit id="page3.q.selfdiscrim.col.0.text" resname="q.selfdiscrim" approved="yes">
       <source xml:space="preserve"><![CDATA[Never]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[2].columns[1].text" resname="SelfDiscrim" approved="yes">
+    <trans-unit id="page3.q.selfdiscrim.col.1.text" resname="q.selfdiscrim" approved="yes">
       <source xml:space="preserve"><![CDATA[Less than once a year]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[2].columns[2].text" resname="SelfDiscrim" approved="yes">
+    <trans-unit id="page3.q.selfdiscrim.col.2.text" resname="q.selfdiscrim" approved="yes">
       <source xml:space="preserve"><![CDATA[A few times a year]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[2].columns[3].text" resname="SelfDiscrim" approved="yes">
+    <trans-unit id="page3.q.selfdiscrim.col.3.text" resname="q.selfdiscrim" approved="yes">
       <source xml:space="preserve"><![CDATA[A few times a month]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[2].columns[4].text" resname="SelfDiscrim" approved="yes">
+    <trans-unit id="page3.q.selfdiscrim.col.4.text" resname="q.selfdiscrim" approved="yes">
       <source xml:space="preserve"><![CDATA[At least once a week]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[2].columns[5].text" resname="SelfDiscrim" approved="yes">
+    <trans-unit id="page3.q.selfdiscrim.col.5.text" resname="q.selfdiscrim" approved="yes">
       <source xml:space="preserve"><![CDATA[Almost everyday]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[2].rows[0].text" resname="SelfDiscrim" approved="yes">
+    <trans-unit id="page3.q.selfdiscrim.row.selfdiscrim1.text" resname="q.selfdiscrim" approved="yes">
       <source xml:space="preserve"><![CDATA[You are treated with less courtesy or respect than other people.]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[2].rows[1].text" resname="SelfDiscrim" approved="yes">
+    <trans-unit id="page3.q.selfdiscrim.row.selfdiscrim2.text" resname="q.selfdiscrim" approved="yes">
       <source xml:space="preserve"><![CDATA[You receive poorer service than other people at restaurants or stores.]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[2].rows[2].text" resname="SelfDiscrim" approved="yes">
+    <trans-unit id="page3.q.selfdiscrim.row.selfdiscrim3.text" resname="q.selfdiscrim" approved="yes">
       <source xml:space="preserve"><![CDATA[People act as if they think you are not smart.]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[2].rows[3].text" resname="SelfDiscrim" approved="yes">
+    <trans-unit id="page3.q.selfdiscrim.row.selfdiscrim4.text" resname="q.selfdiscrim" approved="yes">
       <source xml:space="preserve"><![CDATA[People act as if they are afraid of you.]]></source>
     </trans-unit>
-    <trans-unit id="pages[3].elements[2].rows[4].text" resname="SelfDiscrim" approved="yes">
+    <trans-unit id="page3.q.selfdiscrim.row.selfdiscrim5.text" resname="q.selfdiscrim" approved="yes">
       <source xml:space="preserve"><![CDATA[You are threatened or harassed.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].title" resname="SelfLifeChanges" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Please select Yes or No to indicate whether each event has happened to you <b>in the past year</b>.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[0].title" resname="SelfLifeChangesHealth" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshealth.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Health:]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[0].elements[0].title" resname="SelfLifeChanges1" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshealth.q.selflifechanges1.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[An injury or illness which kept you in bed a week or more, or sent you to the hospital.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[0].elements[0].labelTrue" resname="SelfLifeChanges1" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshealth.q.selflifechanges1.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[0].elements[0].labelFalse" resname="SelfLifeChanges1" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshealth.q.selflifechanges1.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[0].elements[1].title" resname="SelfLifeChanges2" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshealth.q.selflifechanges2.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[An injury or illness which was less serious than above but still sent you to the doctor or kept you in bed for a day or two.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[0].elements[1].labelTrue" resname="SelfLifeChanges2" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshealth.q.selflifechanges2.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[0].elements[1].labelFalse" resname="SelfLifeChanges2" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshealth.q.selflifechanges2.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[0].elements[2].title" resname="SelfLifeChanges3" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshealth.q.selflifechanges3.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Major dental work.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[0].elements[2].labelTrue" resname="SelfLifeChanges3" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshealth.q.selflifechanges3.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[0].elements[2].labelFalse" resname="SelfLifeChanges3" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshealth.q.selflifechanges3.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[0].elements[3].title" resname="SelfLifeChanges4" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshealth.q.selflifechanges4.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Major change in eating habits.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[0].elements[3].labelTrue" resname="SelfLifeChanges4" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshealth.q.selflifechanges4.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[0].elements[3].labelFalse" resname="SelfLifeChanges4" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshealth.q.selflifechanges4.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[0].elements[4].title" resname="SelfLifeChanges5" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshealth.q.selflifechanges5.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Major change in sleeping habits.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[0].elements[4].labelTrue" resname="SelfLifeChanges5" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshealth.q.selflifechanges5.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[0].elements[4].labelFalse" resname="SelfLifeChanges5" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshealth.q.selflifechanges5.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[0].elements[5].title" resname="SelfLifeChanges6" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshealth.q.selflifechanges6.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Major change in your usual type and/or amount of recreation.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[0].elements[5].labelTrue" resname="SelfLifeChanges6" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshealth.q.selflifechanges6.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[0].elements[5].labelFalse" resname="SelfLifeChanges6" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshealth.q.selflifechanges6.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].title" resname="SelfLifeChangesWork" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Work:]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[0].title" resname="SelfLifeChanges7" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges7.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Change to a new type of work.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[0].labelTrue" resname="SelfLifeChanges7" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges7.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[0].labelFalse" resname="SelfLifeChanges7" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges7.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[1].title" resname="SelfLifeChanges8" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges8.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Change in your work hours or conditions.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[1].labelTrue" resname="SelfLifeChanges8" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges8.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[1].labelFalse" resname="SelfLifeChanges8" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges8.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[2].title" resname="SelfLifeChanges9" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges9.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Change in your responsibilities at work (more responsibilities).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[2].labelTrue" resname="SelfLifeChanges9" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges9.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[2].labelFalse" resname="SelfLifeChanges9" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges9.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[3].title" resname="SelfLifeChanges10" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges10.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Change in your responsibilities at work (fewer responsibilities).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[3].labelTrue" resname="SelfLifeChanges10" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges10.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[3].labelFalse" resname="SelfLifeChanges10" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges10.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[4].title" resname="SelfLifeChanges11" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges11.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Change in your responsibilities at work (promotion).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[4].labelTrue" resname="SelfLifeChanges11" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges11.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[4].labelFalse" resname="SelfLifeChanges11" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges11.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[5].title" resname="SelfLifeChanges12" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges12.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Change in your responsibilities at work (demotion).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[5].labelTrue" resname="SelfLifeChanges12" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges12.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[5].labelFalse" resname="SelfLifeChanges12" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges12.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[6].title" resname="SelfLifeChanges13" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges13.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Change in your responsibilities at work (transfer).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[6].labelTrue" resname="SelfLifeChanges13" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges13.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[6].labelFalse" resname="SelfLifeChanges13" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges13.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[7].title" resname="SelfLifeChanges14" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges14.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Troubles at work (with your boss).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[7].labelTrue" resname="SelfLifeChanges14" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges14.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[7].labelFalse" resname="SelfLifeChanges14" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges14.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[8].title" resname="SelfLifeChanges15" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges15.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Troubles at work (with your coworkers).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[8].labelTrue" resname="SelfLifeChanges15" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges15.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[8].labelFalse" resname="SelfLifeChanges15" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges15.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[9].title" resname="SelfLifeChanges16" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges16.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Troubles at work (with persons under your supervision).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[9].labelTrue" resname="SelfLifeChanges16" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges16.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[9].labelFalse" resname="SelfLifeChanges16" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges16.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[10].title" resname="SelfLifeChanges17" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges17.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Other work problems.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[10].labelTrue" resname="SelfLifeChanges17" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges17.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[10].labelFalse" resname="SelfLifeChanges17" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges17.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[11].title" resname="SelfLifeChanges18" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges18.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Major business adjustment.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[11].labelTrue" resname="SelfLifeChanges18" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges18.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[11].labelFalse" resname="SelfLifeChanges18" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges18.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[12].title" resname="SelfLifeChanges19" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges19.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Retirement.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[12].labelTrue" resname="SelfLifeChanges19" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges19.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[12].labelFalse" resname="SelfLifeChanges19" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges19.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[13].title" resname="SelfLifeChanges20" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges20.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Loss of a job (laid off from work).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[13].labelTrue" resname="SelfLifeChanges20" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges20.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[13].labelFalse" resname="SelfLifeChanges20" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges20.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[14].title" resname="SelfLifeChanges21" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges21.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Loss of a job (fired from work).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[14].labelTrue" resname="SelfLifeChanges21" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges21.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[14].labelFalse" resname="SelfLifeChanges21" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges21.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[15].title" resname="SelfLifeChanges22" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges22.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Taking a course to help you with your work.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[15].labelTrue" resname="SelfLifeChanges22" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges22.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[1].elements[15].labelFalse" resname="SelfLifeChanges22" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeswork.q.selflifechanges22.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].title" resname="SelfLifeChangesHome" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Home and Family:]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[0].title" resname="SelfLifeChanges23" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges23.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Major change in living conditions.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[0].labelTrue" resname="SelfLifeChanges23" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges23.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[0].labelFalse" resname="SelfLifeChanges23" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges23.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[1].title" resname="SelfLifeChanges24" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges24.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Change in residence (move within the same town or city).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[1].labelTrue" resname="SelfLifeChanges24" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges24.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[1].labelFalse" resname="SelfLifeChanges24" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges24.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[2].title" resname="SelfLifeChanges25" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges25.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Change in residence (move to a different town, city, or state).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[2].labelTrue" resname="SelfLifeChanges25" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges25.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[2].labelFalse" resname="SelfLifeChanges25" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges25.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[3].title" resname="SelfLifeChanges26" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges26.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Change in family get-togethers.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[3].labelTrue" resname="SelfLifeChanges26" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges26.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[3].labelFalse" resname="SelfLifeChanges26" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges26.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[4].title" resname="SelfLifeChanges27" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges27.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Major change in health or behavior of family member.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[4].labelTrue" resname="SelfLifeChanges27" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges27.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[4].labelFalse" resname="SelfLifeChanges27" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges27.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[5].title" resname="SelfLifeChanges28" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges28.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Marriage.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[5].labelTrue" resname="SelfLifeChanges28" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges28.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[5].labelFalse" resname="SelfLifeChanges28" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges28.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[6].title" resname="SelfLifeChanges29" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges29.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Pregnancy.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[6].labelTrue" resname="SelfLifeChanges29" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges29.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[6].labelFalse" resname="SelfLifeChanges29" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges29.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[7].title" resname="SelfLifeChanges31" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges31.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Gain of a new family member (birth of a child).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[7].labelTrue" resname="SelfLifeChanges31" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges31.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[7].labelFalse" resname="SelfLifeChanges31" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges31.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[8].title" resname="SelfLifeChanges32" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges32.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Gain of a new family member (adoption of a child).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[8].labelTrue" resname="SelfLifeChanges32" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges32.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[8].labelFalse" resname="SelfLifeChanges32" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges32.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[9].title" resname="SelfLifeChanges33" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges33.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Gain of a new family member (a relative moving in with you).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[9].labelTrue" resname="SelfLifeChanges33" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges33.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[9].labelFalse" resname="SelfLifeChanges33" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges33.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[10].title" resname="SelfLifeChanges34" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges34.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Spouse beginning or ending work.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[10].labelTrue" resname="SelfLifeChanges34" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges34.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[10].labelFalse" resname="SelfLifeChanges34" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges34.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[11].title" resname="SelfLifeChanges35" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges35.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Child leaving home (to attend college).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[11].labelTrue" resname="SelfLifeChanges35" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges35.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[11].labelFalse" resname="SelfLifeChanges35" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges35.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[12].title" resname="SelfLifeChanges36" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges36.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Child leaving home (due to marriage).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[12].labelTrue" resname="SelfLifeChanges36" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges36.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[12].labelFalse" resname="SelfLifeChanges36" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges36.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[13].title" resname="SelfLifeChanges37" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges37.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Child leaving home (for other reasons).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[13].labelTrue" resname="SelfLifeChanges37" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges37.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[13].labelFalse" resname="SelfLifeChanges37" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges37.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[14].title" resname="SelfLifeChanges38" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges38.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Change in arguments with spouse.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[14].labelTrue" resname="SelfLifeChanges38" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges38.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[14].labelFalse" resname="SelfLifeChanges38" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges38.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[15].title" resname="SelfLifeChanges39" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges39.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[In-law problems.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[15].labelTrue" resname="SelfLifeChanges39" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges39.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[15].labelFalse" resname="SelfLifeChanges39" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges39.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[16].title" resname="SelfLifeChanges40" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges40.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Change to the marital status of your parents (divorce).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[16].labelTrue" resname="SelfLifeChanges40" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges40.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[16].labelFalse" resname="SelfLifeChanges40" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges40.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[17].title" resname="SelfLifeChanges41" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges41.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Change to the marital status of your parents (remarriage).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[17].labelTrue" resname="SelfLifeChanges41" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges41.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[17].labelFalse" resname="SelfLifeChanges41" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges41.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[18].title" resname="SelfLifeChanges42" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges42.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Separation from spouse (due to work).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[18].labelTrue" resname="SelfLifeChanges42" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges42.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[18].labelFalse" resname="SelfLifeChanges42" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges42.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[19].title" resname="SelfLifeChanges43" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges43.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Separation from spouse (due to marital problems).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[19].labelTrue" resname="SelfLifeChanges43" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges43.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[19].labelFalse" resname="SelfLifeChanges43" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges43.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[20].title" resname="SelfLifeChanges44" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges44.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Divorce.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[20].labelTrue" resname="SelfLifeChanges44" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges44.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[20].labelFalse" resname="SelfLifeChanges44" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges44.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[21].title" resname="SelfLifeChanges45" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges45.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Birth of a grandchild.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[21].labelTrue" resname="SelfLifeChanges45" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges45.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[21].labelFalse" resname="SelfLifeChanges45" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges45.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[22].title" resname="SelfLifeChanges46" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges46.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Death of a spouse.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[22].labelTrue" resname="SelfLifeChanges46" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges46.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[22].labelFalse" resname="SelfLifeChanges46" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges46.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[23].title" resname="SelfLifeChanges47" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges47.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Death of other family member (child).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[23].labelTrue" resname="SelfLifeChanges47" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges47.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[23].labelFalse" resname="SelfLifeChanges47" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges47.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[24].title" resname="SelfLifeChanges48" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges48.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Death of other family member (brother or sister).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[24].labelTrue" resname="SelfLifeChanges48" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges48.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[24].labelFalse" resname="SelfLifeChanges48" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges48.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[25].title" resname="SelfLifeChanges49" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges49.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Death of other family member (parent).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[25].labelTrue" resname="SelfLifeChanges49" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges49.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[2].elements[25].labelFalse" resname="SelfLifeChanges49" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangeshome.q.selflifechanges49.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].title" resname="SelfLifeChangesPersonal" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Personal and Social:]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[0].title" resname="SelfLifeChanges50" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges50.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Change in personal habits.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[0].labelTrue" resname="SelfLifeChanges50" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges50.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[0].labelFalse" resname="SelfLifeChanges50" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges50.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[1].title" resname="SelfLifeChanges51" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges51.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Beginning or ending school or college.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[1].labelTrue" resname="SelfLifeChanges51" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges51.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[1].labelFalse" resname="SelfLifeChanges51" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges51.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[2].title" resname="SelfLifeChanges52" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges52.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Change of school or college.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[2].labelTrue" resname="SelfLifeChanges52" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges52.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[2].labelFalse" resname="SelfLifeChanges52" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges52.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[3].title" resname="SelfLifeChanges53" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges53.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Change in political beliefs.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[3].labelTrue" resname="SelfLifeChanges53" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges53.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[3].labelFalse" resname="SelfLifeChanges53" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges53.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[4].title" resname="SelfLifeChanges54" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges54.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Change in religious beliefs.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[4].labelTrue" resname="SelfLifeChanges54" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges54.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[4].labelFalse" resname="SelfLifeChanges54" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges54.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[5].title" resname="SelfLifeChanges55" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges55.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Change in social activities.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[5].labelTrue" resname="SelfLifeChanges55" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges55.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[5].labelFalse" resname="SelfLifeChanges55" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges55.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[6].title" resname="SelfLifeChanges56" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges56.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Vacation.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[6].labelTrue" resname="SelfLifeChanges56" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges56.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[6].labelFalse" resname="SelfLifeChanges56" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges56.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[7].title" resname="SelfLifeChanges57" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges57.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[New, close, personal relationship.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[7].labelTrue" resname="SelfLifeChanges57" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges57.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[7].labelFalse" resname="SelfLifeChanges57" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges57.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[8].title" resname="SelfLifeChanges58" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges58.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Engagement to marry.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[8].labelTrue" resname="SelfLifeChanges58" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges58.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[8].labelFalse" resname="SelfLifeChanges58" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges58.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[9].title" resname="SelfLifeChanges59" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges59.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Girlfriend or boyfriend problems.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[9].labelTrue" resname="SelfLifeChanges59" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges59.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[9].labelFalse" resname="SelfLifeChanges59" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges59.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[10].title" resname="SelfLifeChanges61" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges61.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA["Falling out" of a close personal relationship.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[10].labelTrue" resname="SelfLifeChanges61" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges61.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[10].labelFalse" resname="SelfLifeChanges61" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges61.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[11].title" resname="SelfLifeChanges62" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges62.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[An accident.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[11].labelTrue" resname="SelfLifeChanges62" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges62.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[11].labelFalse" resname="SelfLifeChanges62" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges62.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[12].title" resname="SelfLifeChanges63" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges63.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Minor violation of the law.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[12].labelTrue" resname="SelfLifeChanges63" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges63.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[12].labelFalse" resname="SelfLifeChanges63" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges63.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[13].title" resname="SelfLifeChanges65" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges65.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Death of a close friend.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[13].labelTrue" resname="SelfLifeChanges65" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges65.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[13].labelFalse" resname="SelfLifeChanges65" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges65.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[14].title" resname="SelfLifeChanges66" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges66.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Major decision regarding your immediate future.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[14].labelTrue" resname="SelfLifeChanges66" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges66.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[14].labelFalse" resname="SelfLifeChanges66" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges66.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[15].title" resname="SelfLifeChanges67" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges67.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Major personal achievement.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[15].labelTrue" resname="SelfLifeChanges67" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges67.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[3].elements[15].labelFalse" resname="SelfLifeChanges67" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangespersonal.q.selflifechanges67.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].title" resname="SelfLifeChangesFinancial" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Financial:]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[0].title" resname="SelfLifeChanges68" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges68.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Major change in finances (increased income).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[0].labelTrue" resname="SelfLifeChanges68" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges68.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[0].labelFalse" resname="SelfLifeChanges68" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges68.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[1].title" resname="SelfLifeChanges69" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges69.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Major change in finances (decreased income).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[1].labelTrue" resname="SelfLifeChanges69" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges69.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[1].labelFalse" resname="SelfLifeChanges69" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges69.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[2].title" resname="SelfLifeChanges70" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges70.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Major change in finances (investment and/or credit difficulties).]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[2].labelTrue" resname="SelfLifeChanges70" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges70.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[2].labelFalse" resname="SelfLifeChanges70" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges70.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[3].title" resname="SelfLifeChanges71" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges71.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Loss or damage of personal property.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[3].labelTrue" resname="SelfLifeChanges71" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges71.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[3].labelFalse" resname="SelfLifeChanges71" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges71.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[4].title" resname="SelfLifeChanges72" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges72.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Moderate purchase.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[4].labelTrue" resname="SelfLifeChanges72" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges72.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[4].labelFalse" resname="SelfLifeChanges72" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges72.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[5].title" resname="SelfLifeChanges73" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges73.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Major purchase.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[5].labelTrue" resname="SelfLifeChanges73" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges73.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[5].labelFalse" resname="SelfLifeChanges73" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges73.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[6].title" resname="SelfLifeChanges74" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges74.title" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Foreclosure on a mortgage or loan.]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[6].labelTrue" resname="SelfLifeChanges74" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges74.labeltrue" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[Yes]]></source>
     </trans-unit>
-    <trans-unit id="pages[4].elements[0].elements[4].elements[6].labelFalse" resname="SelfLifeChanges74" approved="yes">
+    <trans-unit id="page4.q.selflifechanges.q.selflifechangesfinancial.q.selflifechanges74.labelfalse" resname="q.selflifechanges" approved="yes">
       <source xml:space="preserve"><![CDATA[No]]></source>
     </trans-unit>
-    <trans-unit id="pages[5].elements[0].title" resname="SelfMcArthurCountry" approved="yes">
+    <trans-unit id="page5.q.selfmcarthurcountry.title" resname="q.selfmcarthurcountry" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Instructions:</b> Think of this line as representing where people stand in the <i>country where you live</i>. To the <b>right</b> are the people who are the best off - those who have the most money, the most education, and the most respected jobs. To the <b>left</b> are the people who are the worst off - those who have the least money, the least education, the least respected jobs, or no job. The further to the right you are on the line, the closer you are to the people at the very top; the further to the left you are, the closer you are to the people at the very bottom.<br><b>Where would you place yourself on this line?</b><br>Move the slider to where you think you stand at this time in your life relative to other people in your country.]]></source>
     </trans-unit>
-    <trans-unit id="pages[5].elements[1].title" resname="SelfMcArthurCommunity" approved="yes">
+    <trans-unit id="page5.q.selfmcarthurcommunity.title" resname="q.selfmcarthurcommunity" approved="yes">
       <source xml:space="preserve"><![CDATA[<b>Instructions:</b> Think of this line as representing where people stand in their <i>communities</i>. People define community in different ways; please define it in whatever way is most meaningful to you. To the <b>right</b> are people who have the highest standing in their community. To the <b>left</b> are the people who have the lowest standing in their community.<br><b>Where would you place yourself on this line?</b><br>Move the slider to where you think you stand at this time in your life relative to other people in your community.]]></source>
     </trans-unit>
-    <trans-unit id="startSurveyText" resname="" approved="yes">
+    <trans-unit id="startsurveytext" resname="" approved="yes">
       <source xml:space="preserve"><![CDATA[Start Survey]]></source>
     </trans-unit>
-    <trans-unit id="pagePrevText" resname="" approved="yes">
+    <trans-unit id="pageprevtext" resname="" approved="yes">
       <source xml:space="preserve"><![CDATA[Previous]]></source>
     </trans-unit>
-    <trans-unit id="pageNextText" resname="" approved="yes">
+    <trans-unit id="pagenexttext" resname="" approved="yes">
       <source xml:space="preserve"><![CDATA[Next]]></source>
     </trans-unit>
-    <trans-unit id="completeText" resname="" approved="yes">
+    <trans-unit id="completetext" resname="" approved="yes">
       <source xml:space="preserve"><![CDATA[Finish]]></source>
     </trans-unit>
     </body>
