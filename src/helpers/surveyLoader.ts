@@ -50,6 +50,46 @@ export async function loadSurveyFromBucket(surveyKey: SurveyFileKey): Promise<Su
 }
 
 /**
+ * Load a specific survey from a provided base URL (e.g., dev/prod buckets)
+ */
+export async function loadSurveyFromBase(
+  surveyKey: SurveyFileKey,
+  baseUrl: string
+): Promise<SurveyResponse> {
+  const fileName = SURVEY_FILES[surveyKey]
+  const url = `${baseUrl.replace(/\/$/, '')}/${fileName}?_t=${Date.now()}`
+
+  try {
+    console.log(`Loading survey from (base): ${url}`)
+    const response = await axios.get(url, { timeout: 10000 })
+
+    if (!response.data) {
+      throw new Error(`No data received for survey: ${fileName}`)
+    }
+
+    return {
+      data: response.data,
+      metadata: {
+        size: JSON.stringify(response.data).length,
+        lastModified: response.headers['last-modified'],
+        contentType: response.headers['content-type']
+      }
+    }
+  } catch (error: any) {
+    if (axios.isAxiosError(error)) {
+      if (error.response?.status === 404) {
+        throw new Error(`Survey file not found: ${fileName}`)
+      } else if (error.code === 'ECONNABORTED') {
+        throw new Error(`Request timeout loading survey: ${fileName}`)
+      } else {
+        throw new Error(`Network error loading survey ${fileName}: ${error.message}`)
+      }
+    }
+    throw new Error(`Error loading survey ${fileName}: ${error?.message || error}`)
+  }
+}
+
+/**
  * Load all available surveys from the GCS bucket
  */
 export async function loadAllSurveys(): Promise<Record<SurveyFileKey, any>> {
@@ -97,6 +137,38 @@ export async function loadAllSurveys(): Promise<Record<SurveyFileKey, any>> {
   } catch (error: any) {
     console.error('🔍 DEBUG: Error in loadAllSurveys:', error)
     console.error('🔍 DEBUG: Error stack:', error?.stack)
+    throw error
+  }
+}
+
+/**
+ * Load all surveys from a provided base URL (e.g., dev/prod buckets)
+ */
+export async function loadAllSurveysFromBase(baseUrl: string): Promise<Record<SurveyFileKey, any>> {
+  try {
+    const surveys: Record<SurveyFileKey, any> = {}
+    const errors: string[] = []
+    const surveyKeys = Object.keys(SURVEY_FILES) as SurveyFileKey[]
+
+    const promises = surveyKeys.map(async (key) => {
+      try {
+        const response = await loadSurveyFromBase(key, baseUrl)
+        surveys[key] = response.data
+      } catch (error: any) {
+        const errorMsg = `❌ Failed to load ${key}: ${error?.message || error}`
+        errors.push(errorMsg)
+        console.warn(errorMsg)
+      }
+    })
+
+    await Promise.allSettled(promises)
+
+    if (errors.length > 0) {
+      console.warn(`Loaded ${Object.keys(surveys).length}/${surveyKeys.length} surveys from ${baseUrl}`)
+    }
+
+    return surveys
+  } catch (error) {
     throw error
   }
 }

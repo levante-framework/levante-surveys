@@ -9,9 +9,16 @@
 
       <div class="survey-list">
         <div class="actions">
-          <button @click="loadAllSurveysAction" :disabled="isLoading" class="btn btn-primary">
-            {{ isLoading ? 'Loading...' : 'Load Local Surveys' }}
-          </button>
+          <div class="btn-group">
+            <button :disabled="isLoading" class="btn btn-primary" @click="loadAllSurveysAction(selectedSource)">
+              {{ isLoading ? 'Loading...' : 'Load Surveys' }}
+            </button>
+            <select class="btn btn-primary select-right" v-model="selectedSource" @change="onSourceChange" :disabled="isLoading">
+              <option value="local">Local (updated)</option>
+              <option value="dev">Dev (levante-assets-dev)</option>
+              <option value="prod">Prod (levante-assets-prod)</option>
+            </select>
+          </div>
           <button @click="createNewSurvey" class="btn btn-secondary">
             New Survey
           </button>
@@ -93,8 +100,16 @@ const error = computed(() => surveyStore.error)
 const isCreatorReady = ref(false)
 const currentSurveyJson = ref<any>(null)
 
-// Load all surveys from local files
-const loadAllSurveysAction = async () => {
+// Source selector state
+const selectedSource = ref<'local' | 'dev' | 'prod'>('local')
+
+const onSourceChange = () => {
+  // Clear previously cached surveys when switching source to avoid stale data
+  surveyStore.clearSurveys()
+}
+
+// Load all surveys from selected source
+const loadAllSurveysAction = async (source: 'local' | 'dev' | 'prod' = selectedSource.value) => {
   // Prevent multiple simultaneous calls
   if (surveyStore.isLoading) {
     console.log('🔍 Already loading surveys, skipping...')
@@ -105,16 +120,21 @@ const loadAllSurveysAction = async () => {
     surveyStore.isLoading = true
     surveyStore.error = null
 
-    console.log('🔍 Starting to load local surveys...')
+    console.log(`🔍 Starting to load surveys from: ${source}`)
 
-    // Import the remote survey loader (GCS)
-    const remoteSurveyLoaderModule = await import('@/helpers/surveyLoader')
-    console.log('🔍 Loaded remote survey module:', remoteSurveyLoaderModule)
+    let surveysObject: Record<string, any> = {}
+    if (source === 'local') {
+      const localSurveyLoaderModule = await import('@/helpers/localSurveyLoader')
+      surveysObject = await localSurveyLoaderModule.loadAllLocalSurveys()
+    } else {
+      const remoteSurveyLoaderModule = await import('@/helpers/surveyLoader')
+      const baseUrl = source === 'dev'
+        ? 'https://storage.googleapis.com/levante-assets-dev/surveys'
+        : 'https://storage.googleapis.com/levante-assets-prod/surveys'
+      surveysObject = await remoteSurveyLoaderModule.loadAllSurveysFromBase(baseUrl)
+    }
 
-    // Load surveys from the default bucket
-    console.log('🔍 About to call loadAllSurveys (GCS)...')
-    const surveysObject = await remoteSurveyLoaderModule.loadAllSurveys()
-    console.log('🔍 Received local surveys:', surveysObject)
+    console.log('🔍 Received surveys:', surveysObject)
     console.log('🔍 Surveys object type:', typeof surveysObject)
 
     if (!surveysObject || typeof surveysObject !== 'object') {
@@ -132,17 +152,17 @@ const loadAllSurveysAction = async () => {
       surveyStore.setSurvey(key as SurveyFileKey, surveysObject[key])
     })
 
-    console.log(`✅ Successfully loaded ${surveyKeys.length} local surveys`)
+    console.log(`✅ Successfully loaded ${surveyKeys.length} surveys from ${source}`)
   } catch (err: any) {
     const errorMsg = err?.message || 'Unknown error occurred'
-    surveyStore.error = `Failed to load local surveys: ${errorMsg}`
-    console.error('❌ Error loading local surveys:', err)
+    surveyStore.error = `Failed to load surveys: ${errorMsg}`
+    console.error('❌ Error loading surveys:', err)
   } finally {
     surveyStore.isLoading = false
   }
 }
 
-// Select and load a survey
+// Select and load a survey from current source
 const selectSurvey = async (surveyKey: SurveyFileKey) => {
   try {
     surveyStore.isLoading = true
@@ -150,11 +170,20 @@ const selectSurvey = async (surveyKey: SurveyFileKey) => {
 
     let surveyData = surveyStore.surveys[surveyKey]
 
-    // If not already loaded, fetch from GCS bucket
+    // If not already loaded in memory, fetch from selected source
     if (!surveyData) {
-      const remoteSurveyLoaderModule = await import('@/helpers/surveyLoader')
-      const response = await remoteSurveyLoaderModule.loadSurveyFromBucket(surveyKey)
-      surveyData = response.data
+      if (selectedSource.value === 'local') {
+        const localSurveyLoaderModule = await import('@/helpers/localSurveyLoader')
+        const response = await localSurveyLoaderModule.loadLocalSurvey(surveyKey)
+        surveyData = response.data
+      } else {
+        const remoteSurveyLoaderModule = await import('@/helpers/surveyLoader')
+        const baseUrl = selectedSource.value === 'dev'
+          ? 'https://storage.googleapis.com/levante-assets-dev/surveys'
+          : 'https://storage.googleapis.com/levante-assets-prod/surveys'
+        const response = await remoteSurveyLoaderModule.loadSurveyFromBase(surveyKey, baseUrl)
+        surveyData = response.data
+      }
       surveyStore.setSurvey(surveyKey, surveyData)
     }
 
@@ -223,7 +252,7 @@ const getSurveyTitle = (key: SurveyFileKey) => {
 }
 
 // Alias for better naming
-const loadAllSurveys = loadAllSurveysAction
+const loadAllSurveys = () => loadAllSurveysAction(selectedSource.value)
 
 // Initialize on mount
 onMounted(() => {

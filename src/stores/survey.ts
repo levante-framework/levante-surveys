@@ -37,47 +37,50 @@ export const useSurveyStore = defineStore('survey', () => {
   const surveyInfo = computed((): SurveyInfo[] => [
     {
       key: 'PARENT_FAMILY',
-      title: 'Family Survey (Updated)',
-      description: 'Caregiver survey focusing on family dynamics and home environment - Local updated version with multilingual support',
+      title: 'Parent-Family Survey',
+      description: 'Caregiver survey focusing on family dynamics and home environment',
       fileName: 'parent_survey_family_updated.json',
       icon: '👨‍👩‍👧‍👦'
     },
     {
       key: 'PARENT_CHILD',
-      title: 'Parent-Child Survey (Updated)',
-      description: 'Caregiver survey about specific child development and behavior - Local updated version with multilingual support',
+      title: 'Parent-Child Survey',
+      description: 'Caregiver survey about specific child development and behavior',
       fileName: 'parent_survey_child_updated.json',
       icon: '👶'
     },
     {
       key: 'CHILD',
-      title: 'Child Survey (Updated)',
-      description: 'Direct assessment survey for children and students - Local updated version with multilingual support',
+      title: 'Child Survey',
+      description: 'Direct assessment survey for children and students',
       fileName: 'child_survey_updated.json',
       icon: '🎓'
     },
     {
       key: 'TEACHER_GENERAL',
-      title: 'Teacher General (Updated)',
-      description: 'General teacher assessment and classroom observations - Local updated version with multilingual support',
+      title: 'Teacher General',
+      description: 'General teacher assessment and classroom observations',
       fileName: 'teacher_survey_general_updated.json',
       icon: '👨‍🏫'
     },
     {
       key: 'TEACHER_CLASSROOM',
-      title: 'Teacher Classroom (Updated)',
-      description: 'Specific classroom environment and teaching practice assessment - Local updated version with multilingual support',
+      title: 'Teacher Classroom',
+      description: 'Specific classroom environment and teaching practice assessment',
       fileName: 'teacher_survey_classroom_updated.json',
       icon: '🏫'
     }
   ])
 
   const surveyList = computed(() => {
-    return surveyInfo.value.map(info => ({
-      ...info,
-      isLoaded: !!surveys.value[info.key],
-      data: surveys.value[info.key] || null
-    }))
+    return surveyInfo.value
+      .slice()
+      .sort((a, b) => a.title.localeCompare(b.title))
+      .map(info => ({
+        ...info,
+        isLoaded: !!surveys.value[info.key],
+        data: surveys.value[info.key] || null
+      }))
   })
 
   const currentSurveyInfo = computed(() => {
@@ -104,6 +107,10 @@ export const useSurveyStore = defineStore('survey', () => {
 
   const setSurvey = (surveyKey: SurveyFileKey, surveyData: any) => {
     surveys.value[surveyKey] = surveyData
+  }
+
+  const clearSurveys = () => {
+    surveys.value = {} as Record<SurveyFileKey, any>
   }
 
   const setCurrentSurvey = (surveyKey: SurveyFileKey | null, surveyData: any = null) => {
@@ -160,6 +167,7 @@ export const useSurveyStore = defineStore('survey', () => {
     // Actions
     loadSurvey,
     setSurvey,
+    clearSurveys,
     setCurrentSurvey,
     clearCurrentSurvey,
     setSurveyModel,
