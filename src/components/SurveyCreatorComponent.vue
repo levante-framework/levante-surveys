@@ -21,7 +21,8 @@ import { ref, onMounted, watch, nextTick } from 'vue'
 import { SurveyCreatorComponent as SurveyCreatorVue } from 'survey-creator-vue'
 import { SurveyCreatorModel } from 'survey-creator-core'
 import 'survey-creator-core/survey-creator-core.css'
-import { settings as SurveySettings } from 'survey-core'
+import { settings as SurveySettings, slk } from 'survey-core'
+import { settings as CreatorSettings } from 'survey-creator-core'
 
 interface Props {
   json?: any
@@ -49,8 +50,11 @@ const initializeCreator = async () => {
     const licenseKey = import.meta.env.VITE_SURVEYJS_LICENSE_KEY
     if (licenseKey && typeof licenseKey === 'string') {
       try {
-        // @ts-ignore - settings.license can be set at runtime
+        slk(licenseKey)
+        // @ts-ignore - settings.license can be set at runtime (back-compat)
         SurveySettings.license = licenseKey
+        // @ts-ignore
+        CreatorSettings.license = licenseKey
         console.log('✅ SurveyJS license key applied')
       } catch (e) {
         console.warn('⚠️ Failed to apply SurveyJS license key:', (e as Error).message)

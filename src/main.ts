@@ -31,6 +31,28 @@ import 'primeicons/primeicons.css'
 import 'survey-core/survey-core.min.css'
 import 'survey-creator-core/survey-creator-core.min.css'
 import { surveyCreatorPlugin } from 'survey-creator-vue'
+import { settings as SurveySettings, slk } from 'survey-core'
+import { settings as CreatorSettings } from 'survey-creator-core'
+
+// Apply SurveyJS license globally as early as possible
+try {
+  const licenseKey = import.meta.env.VITE_SURVEYJS_LICENSE_KEY
+  if (licenseKey && typeof licenseKey === 'string') {
+    // Preferred API in SurveyJS >= 1.9.101
+    slk(licenseKey)
+    // Back-compat assignment
+    // @ts-ignore
+    SurveySettings.license = licenseKey
+    // Also set for Creator core explicitly (defensive)
+    // @ts-ignore
+    CreatorSettings.license = licenseKey
+    console.log('✅ SurveyJS license key applied (global)')
+  } else {
+    console.warn('⚠️ VITE_SURVEYJS_LICENSE_KEY is not set')
+  }
+} catch (e) {
+  console.warn('⚠️ Failed to apply SurveyJS license key globally:', (e as Error).message)
+}
 
 // Create Vue app
 const app = createApp(App)
