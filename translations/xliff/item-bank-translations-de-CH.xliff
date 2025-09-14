@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file id="83" original="/item-bank-translations.xlsx" source-language="en" target-language="de-CH" datatype="plaintext" project-id="756721" tool-id="crowdin">
+  <file id="83" original="/main/item-bank-translations.xlsx" source-language="en" target-language="de-CH" datatype="plaintext" project-id="756721" tool-id="crowdin">
     <header>
       <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1"/>
     </header>
@@ -8874,9 +8874,9 @@ Einige Fragen könnten einfach für dich sein und andere schwer. Das ist in Ordn
           <context context-type="x-crowdin-label">memory-game</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="52908" resname="memory-game-instruct6-heavy">
+      <trans-unit id="52908" resname="memory-game-instruct6-heavy" approved="yes">
         <source>If you make a mistake, just keep going!</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-tm">Wenn du einen Fehler machst, mach einfach weiter!</target>
+        <target state="final">Wenn du einen Fehler machst, mach einfach weiter!</target>
         <context-group purpose="information">
           <context context-type="source">memory-game-instruct6-heavy
 </context>

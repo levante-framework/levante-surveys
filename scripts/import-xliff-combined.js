@@ -134,6 +134,19 @@ function applyToSurvey({ surveyJsonPath, targetLanguage, units, outPath }) {
   })
 
   let applied = 0
+
+  // Strip all HTML tags from imported targets to keep plain text only
+  function toPlainText(input) {
+    if (input == null) return ''
+    let t = String(input)
+    // Normalize common HTML line breaks before stripping tags
+    t = t.replace(/<br\s*\/?>/gi, ' ')
+    // Remove all remaining tags
+    t = t.replace(/<[^>]+>/g, '')
+    // Collapse whitespace
+    t = t.replace(/\s+/g, ' ').trim()
+    return t
+  }
   for (const u of units) {
     let node = null
     if (u.resname && idToNode.has(u.resname)) {
@@ -144,7 +157,7 @@ function applyToSurvey({ surveyJsonPath, targetLanguage, units, outPath }) {
       node = getByPath(survey, u.id)
     }
     if (node && typeof node === 'object') {
-      let value = u.target
+      let value = toPlainText(u.target)
       node[targetLanguage] = value
       if (targetLanguage === 'en-US') {
         node['default'] = value
@@ -164,7 +177,7 @@ function applyToSurvey({ surveyJsonPath, targetLanguage, units, outPath }) {
             if (firstPage && Array.isArray(firstPage.elements)) {
               const introEl = firstPage.elements.find(e => e && e.type === 'html' && /childsurveyintro/i.test(e.name || ''))
               if (introEl && introEl.html && typeof introEl.html === 'object') {
-                let value = u.target
+                let value = toPlainText(u.target)
                 introEl.html[targetLanguage] = value
                 if (targetLanguage === 'en-US') introEl.html['default'] = value
                 applied++
@@ -177,7 +190,7 @@ function applyToSurvey({ surveyJsonPath, targetLanguage, units, outPath }) {
           if (matchKey) {
             const cand = idToNode.get(matchKey)
             if (cand && typeof cand === 'object') {
-              let value = u.target
+              let value = toPlainText(u.target)
               cand[targetLanguage] = value
               if (targetLanguage === 'en-US') cand['default'] = value
               applied++
@@ -189,6 +202,20 @@ function applyToSurvey({ surveyJsonPath, targetLanguage, units, outPath }) {
   }
 
   fs.mkdirSync(path.dirname(outPath), { recursive: true })
+  // Global sanitize: strip any existing HTML from all multilingual strings
+  for (const node of idToNode.values()) {
+    if (node && typeof node === 'object') {
+      for (const [k, v] of Object.entries(node)) {
+        if (isLanguageKey(k) && typeof v === 'string') {
+          node[k] = toPlainText(v)
+        }
+      }
+      // Keep default synced to en-US when available
+      if (typeof node['en-US'] === 'string') {
+        node['default'] = node['en-US']
+      }
+    }
+  }
   fs.writeFileSync(outPath, JSON.stringify(survey, null, 2), 'utf8')
   console.log(`✅ ${path.basename(surveyJsonPath)}: Applied ${applied} translations for ${targetLanguage} → ${path.relative(projectRoot, outPath)}`)
 }

@@ -20,8 +20,10 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const projectRoot = path.resolve(__dirname, '..')
 
-const force = process.argv.includes('--force')
+const args = process.argv.slice(2)
+const force = args.includes('--force') || args.includes('-force') || args.includes('-f')
 const outDir = path.join(projectRoot, 'translations', 'xliff')
+const manifestPath = path.join(outDir, '.xliff_manifest.json')
 
 function ensureDir(p) { fs.mkdirSync(p, { recursive: true }) }
 
@@ -57,25 +59,41 @@ async function main() {
     console.error('❌ No *-surveys.xliff files found in repo index')
     process.exit(1)
   }
+  // Load existing manifest of remote SHAs we last synced
+  let manifest = {}
+  if (fs.existsSync(manifestPath)) {
+    try { manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8')) } catch (_) { manifest = {} }
+  }
+
   let ok = 0
   for (const f of files) {
     const url = `https://raw.githubusercontent.com/levante-framework/levante_translations/l10n_pending/translations/xliff/${f.name}`
     const dest = path.join(outDir, f.name)
-    if (fs.existsSync(dest) && !force) {
-      console.log(`⏭️  Skip (exists): ${f.name}`)
+    const remoteSha = f.sha
+    const localSha = manifest[f.name]
+    const exists = fs.existsSync(dest)
+
+    const needsUpdate = force || !exists || localSha !== remoteSha
+    if (!needsUpdate) {
+      console.log(`⏭️  Up-to-date: ${f.name}`)
       ok++
       continue
     }
     try {
-      console.log(`⬇️  ${f.name}`)
+      console.log(`⬇️  ${exists && !force ? 'Updating' : 'Downloading'}: ${f.name}`)
       await download(url, dest)
+      manifest[f.name] = remoteSha
       console.log(`   ✅ Saved ${f.name}`)
       ok++
     } catch (e) {
       console.log(`   ❌ Failed ${f.name}: ${e.message}`)
     }
   }
-  console.log(`\n📊 Downloaded: ${ok}/${files.length}`)
+
+  // Persist manifest only if at least one succeeded
+  try { fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2), 'utf8') } catch (_) {}
+
+  console.log(`\n📊 Downloaded/verified: ${ok}/${files.length}`)
   process.exit(ok === files.length ? 0 : 1)
 }
 
