@@ -1,11 +1,11 @@
 <template>
   <div class="survey-creator">
     <div ref="creatorContainer" class="creator-container">
-              <SurveyCreatorVue
-          v-if="isReady && creatorModel"
-          :model="creatorModel"
-          @surveyChanged="onSurveyChanged"
-        />
+      <SurveyCreatorVue
+        v-if="isReady && creatorModel"
+        :model="creatorModel"
+        @surveyChanged="onSurveyChanged"
+      />
       <div v-else class="loading-placeholder">
         <div class="loading-content">
           <h3>🎨 Initializing Survey Creator...</h3>
@@ -21,6 +21,7 @@ import { ref, onMounted, watch, nextTick } from 'vue'
 import { SurveyCreatorComponent as SurveyCreatorVue } from 'survey-creator-vue'
 import { SurveyCreatorModel } from 'survey-creator-core'
 import 'survey-creator-core/survey-creator-core.css'
+import { settings as SurveySettings } from 'survey-core'
 
 interface Props {
   json?: any
@@ -44,6 +45,18 @@ const creatorModel = ref<SurveyCreatorModel | null>(null)
 // Initialize the SurveyJS Creator
 const initializeCreator = async () => {
   try {
+    // Apply SurveyJS license key if provided via env
+    const licenseKey = import.meta.env.VITE_SURVEYJS_LICENSE_KEY
+    if (licenseKey && typeof licenseKey === 'string') {
+      try {
+        // @ts-ignore - settings.license can be set at runtime
+        SurveySettings.license = licenseKey
+        console.log('✅ SurveyJS license key applied')
+      } catch (e) {
+        console.warn('⚠️ Failed to apply SurveyJS license key:', (e as Error).message)
+      }
+    }
+
     // Create SurveyCreator instance
     creatorModel.value = new SurveyCreatorModel()
 

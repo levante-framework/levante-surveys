@@ -16,17 +16,12 @@ export interface SurveyResponse {
  */
 export async function loadSurveyFromBucket(surveyKey: SurveyFileKey): Promise<SurveyResponse> {
   const fileName = SURVEY_FILES[surveyKey]
-  const url = `${LEVANTE_BUCKET_URL}/${fileName}`
+  const url = `${LEVANTE_BUCKET_URL}/${fileName}?_t=${Date.now()}`
 
   try {
     console.log(`Loading survey from: ${url}`)
 
-    const response = await axios.get(url, {
-      timeout: 10000,
-      headers: {
-        'Accept': 'application/json'
-      }
-    })
+    const response = await axios.get(url, { timeout: 10000 })
 
     if (!response.data) {
       throw new Error(`No data received for survey: ${fileName}`)
@@ -111,10 +106,10 @@ export async function loadAllSurveys(): Promise<Record<SurveyFileKey, any>> {
  */
 export async function checkSurveyExists(surveyKey: SurveyFileKey): Promise<boolean> {
   const fileName = SURVEY_FILES[surveyKey]
-  const url = `${LEVANTE_BUCKET_URL}/${fileName}`
+  const url = `${LEVANTE_BUCKET_URL}/${fileName}?_t=${Date.now()}`
 
   try {
-    const response = await axios.head(url, { timeout: 5000 })
+    const response = await axios.head(url, { timeout: 5000, headers: { 'Cache-Control': 'no-cache' } })
     return response.status === 200
   } catch {
     return false
@@ -126,10 +121,10 @@ export async function checkSurveyExists(surveyKey: SurveyFileKey): Promise<boole
  */
 export async function getSurveyMetadata(surveyKey: SurveyFileKey) {
   const fileName = SURVEY_FILES[surveyKey]
-  const url = `${LEVANTE_BUCKET_URL}/${fileName}`
+  const url = `${LEVANTE_BUCKET_URL}/${fileName}?_t=${Date.now()}`
 
   try {
-    const response = await axios.head(url, { timeout: 5000 })
+    const response = await axios.head(url, { timeout: 5000, headers: { 'Cache-Control': 'no-cache' } })
     return {
       exists: true,
       size: response.headers['content-length'],

@@ -107,13 +107,13 @@ const loadAllSurveysAction = async () => {
 
     console.log('🔍 Starting to load local surveys...')
 
-    // Import the local survey loader
-    const localSurveyLoaderModule = await import('@/helpers/localSurveyLoader')
-    console.log('🔍 Loaded local survey module:', localSurveyLoaderModule)
+    // Import the remote survey loader (GCS)
+    const remoteSurveyLoaderModule = await import('@/helpers/surveyLoader')
+    console.log('🔍 Loaded remote survey module:', remoteSurveyLoaderModule)
 
-    // Call the local survey loader
-    console.log('🔍 About to call loadAllLocalSurveys...')
-    const surveysObject = await localSurveyLoaderModule.loadAllLocalSurveys()
+    // Load surveys from the default bucket
+    console.log('🔍 About to call loadAllSurveys (GCS)...')
+    const surveysObject = await remoteSurveyLoaderModule.loadAllSurveys()
     console.log('🔍 Received local surveys:', surveysObject)
     console.log('🔍 Surveys object type:', typeof surveysObject)
 
@@ -150,10 +150,10 @@ const selectSurvey = async (surveyKey: SurveyFileKey) => {
 
     let surveyData = surveyStore.surveys[surveyKey]
 
-    // If not already loaded, fetch from local files
+    // If not already loaded, fetch from GCS bucket
     if (!surveyData) {
-      const localSurveyLoaderModule = await import('@/helpers/localSurveyLoader')
-      const response = await localSurveyLoaderModule.loadLocalSurvey(surveyKey)
+      const remoteSurveyLoaderModule = await import('@/helpers/surveyLoader')
+      const response = await remoteSurveyLoaderModule.loadSurveyFromBucket(surveyKey)
       surveyData = response.data
       surveyStore.setSurvey(surveyKey, surveyData)
     }

@@ -5,7 +5,7 @@
 export const LEVANTE_BUCKET_URL =
   import.meta.env.VITE_FIREBASE_PROJECT === 'road-dashboard'
     ? 'https://storage.googleapis.com/road-dashboard'
-    : 'https://storage.googleapis.com/levante-dashboard-dev'
+    : 'https://storage.googleapis.com/levante-assets-dev/surveys'
 
 /**
  * Available survey files in the bucket
