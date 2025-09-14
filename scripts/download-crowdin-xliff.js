@@ -45,7 +45,14 @@ async function main() {
   const indexUrl = 'https://api.github.com/repos/levante-framework/levante_translations/contents/translations/xliff?ref=l10n_pending'
   console.log('📥 Listing XLIFFs from l10n_pending...')
   const idx = await fetchJson(indexUrl)
-  const files = idx.filter(x => x.type === 'file' && /-surveys\.xliff$/i.test(x.name))
+  const files = idx.filter(x => {
+    if (x.type !== 'file') return false
+    return (
+      /-surveys\.xliff$/i.test(x.name) ||
+      /-itembank\.xliff$/i.test(x.name) ||
+      /item-bank-translations[-_][A-Za-z]{2}(?:-[A-Za-z]{2})?\.xliff$/i.test(x.name)
+    )
+  })
   if (files.length === 0) {
     console.error('❌ No *-surveys.xliff files found in repo index')
     process.exit(1)

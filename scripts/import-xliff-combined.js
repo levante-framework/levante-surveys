@@ -69,17 +69,34 @@ function parseCombinedXLIFF(content) {
     const targetLanguage = normalizeLang(langMatch ? langMatch[1] : null)
 
     const units = []
-    const unitRe = /<trans-unit\b([^>]*)>[\s\S]*?<target[^>]*>([\s\S]*?)<\/target>[\s\S]*?<\/trans-unit>/gi
+    const unitRe = /<trans-unit\b([^>]*)>([\s\S]*?)<\/trans-unit>/gi
     let u
     while ((u = unitRe.exec(block)) !== null) {
       const attrs = u[1] || ''
+      const inner = u[2] || ''
       const idMatch = attrs.match(/\bid="([^"]+)"/i)
       const resnameMatch = attrs.match(/\bresname="([^"]*)"/i)
       const unitId = idMatch ? idMatch[1] : null
       const resname = resnameMatch ? resnameMatch[1] : null
-      let target = u[2]
+      // target content
+      const targetMatch = inner.match(/<target[^>]*>([\s\S]*?)<\/target>/i)
+      let target = targetMatch ? targetMatch[1] : ''
       target = target.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
-      units.push({ id: unitId, resname, target })
+      // context: try to extract survey hint from context-group source
+      let surveyHint = null
+      // Gather all <context> text and search for any *.json hint (handles item bank files)
+      const ctxAll = [...inner.matchAll(/<context[^>]*>([\s\S]*?)<\/context>/gi)]
+      if (ctxAll.length > 0) {
+        for (const m2 of ctxAll) {
+          const ctxText = (m2[1] || '').toString()
+          const jsonMatch = ctxText.match(/([A-Za-z0-9_\-]+\.json)/)
+          if (jsonMatch) {
+            surveyHint = path.basename(jsonMatch[1])
+            break
+          }
+        }
+      }
+      units.push({ id: unitId, resname, target, surveyHint })
     }
 
     files.push({ original, targetLanguage, units })
@@ -128,23 +145,46 @@ function applyToSurvey({ surveyJsonPath, targetLanguage, units, outPath }) {
     }
     if (node && typeof node === 'object') {
       let value = u.target
-      // If this is an HTML field, normalize multi-paragraph text to HTML line breaks
-      const isHtmlField = (u.resname && u.resname.endsWith('.html')) || (u.id && u.id.endsWith('.html'))
-      if (isHtmlField) {
-        value = normalizeParagraphsToHtml(value)
-        // Carry forward leading HTML opener tags from baseline if target lacks them
-        const baseline = node['default'] || node['en-US'] || node['en'] || ''
-        const openerMatch = String(baseline).match(/^((?:<[^>]+>)+)/)
-        if (openerMatch) {
-          const opener = openerMatch[1]
-          const trimmed = value.trim()
-          if (!/^</.test(trimmed)) {
-            value = `${opener} ${trimmed}`
+      node[targetLanguage] = value
+      if (targetLanguage === 'en-US') {
+        node['default'] = value
+      }
+      applied++
+    } else {
+      // Heuristic fallback for item bank: try to match by element token in resname
+      if (u.resname) {
+        // Extract a likely element token (prefer after 'q.' or last segment)
+        const parts = u.resname.split('.')
+        const qPart = parts.find(p => p && p.startsWith('q')) || parts[parts.length - 1]
+        const token = (qPart || '').replace(/^q\.?/, '')
+        if (token) {
+          // Special-case mapping for ChildSurveyIntro to the intro HTML element on the first page
+          if (token.toLowerCase() === 'childsurveyintro' && Array.isArray(survey.pages)) {
+            const firstPage = survey.pages[0]
+            if (firstPage && Array.isArray(firstPage.elements)) {
+              const introEl = firstPage.elements.find(e => e && e.type === 'html' && /childsurveyintro/i.test(e.name || ''))
+              if (introEl && introEl.html && typeof introEl.html === 'object') {
+                let value = u.target
+                introEl.html[targetLanguage] = value
+                if (targetLanguage === 'en-US') introEl.html['default'] = value
+                applied++
+                continue
+              }
+            }
+          }
+          // Find an id that contains the token
+          const matchKey = Array.from(idToNode.keys()).find(k => k.includes(`q.${token}`) || k.endsWith(`.${token}`) || k.includes(token))
+          if (matchKey) {
+            const cand = idToNode.get(matchKey)
+            if (cand && typeof cand === 'object') {
+              let value = u.target
+              cand[targetLanguage] = value
+              if (targetLanguage === 'en-US') cand['default'] = value
+              applied++
+            }
           }
         }
       }
-      node[targetLanguage] = value
-      applied++
     }
   }
 
@@ -160,6 +200,8 @@ function surveyJsonForOriginal(originalAttr) {
   //  "child_survey.json"
   if (!originalAttr) return null
   const base = path.basename(String(originalAttr).trim())
+  // If it's pointing to an Excel-derived item bank filename, skip fallback
+  if (/item-bank/i.test(base) || /\.xlsx$/i.test(base)) return null
   // Strip extension
   const noExt = base.replace(/\.xliff$/i, '').replace(/\.json$/i, '')
   // Remove trailing -source or -<lang>
@@ -265,14 +307,45 @@ function main() {
   }
 
   for (const f of files) {
-    const jsonPath = surveyJsonForOriginal(f.original)
-    if (!jsonPath || !fs.existsSync(jsonPath)) {
-      console.warn(`⚠️  Skipping: could not resolve survey JSON for original="${f.original}"`)
-      continue
+    // Group units by survey json inferred from unit context, fallback to file original
+    const groups = new Map()
+    const knownSurveyJsons = [
+      path.join(surveysDir, 'child_survey.json'),
+      path.join(surveysDir, 'parent_survey_family.json'),
+      path.join(surveysDir, 'parent_survey_child.json'),
+      path.join(surveysDir, 'teacher_survey_general.json'),
+      path.join(surveysDir, 'teacher_survey_classroom.json')
+    ]
+    for (const u of f.units) {
+      let jsonPath = null
+      if (u.surveyHint) {
+        jsonPath = path.join(surveysDir, u.surveyHint)
+      } else {
+        jsonPath = surveyJsonForOriginal(f.original)
+      }
+      if (jsonPath) {
+        const arr = groups.get(jsonPath) || []
+        arr.push(u)
+        groups.set(jsonPath, arr)
+      } else {
+        // Unknown target survey: try all known surveys (only correct ones will match nodes)
+        for (const kp of knownSurveyJsons) {
+          const arr = groups.get(kp) || []
+          arr.push(u)
+          groups.set(kp, arr)
+        }
+      }
     }
-    const base = path.basename(jsonPath, '.json')
-    const outPath = inplace ? jsonPath : path.join(outDir, `${base}_updated.json`)
-    applyToSurvey({ surveyJsonPath: jsonPath, targetLanguage: f.targetLanguage, units: f.units, outPath })
+
+    for (const [jsonPath, unitList] of groups.entries()) {
+      if (!fs.existsSync(jsonPath)) {
+        console.warn(`⚠️  Skipping group: JSON not found ${jsonPath}`)
+        continue
+      }
+      const base = path.basename(jsonPath, '.json')
+      const outPath = inplace ? jsonPath : path.join(outDir, `${base}_updated.json`)
+      applyToSurvey({ surveyJsonPath: jsonPath, targetLanguage: f.targetLanguage, units: unitList, outPath })
+    }
   }
 }
 

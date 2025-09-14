@@ -9,14 +9,15 @@
           "name": "TeacherSurveyIntro",
           "html": {
             "default": "<b><font face=Verdana size=4>This is Part B of the survey.</b><br> <br> <p><font face=Verdana size=4>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>When you are ready to begin, select the “Next” button. <br><br><b><font face=Verdana size=4>Thank you!",
-            "es-CO": "<b><font face=Verdana size=4>This is Part B of the survey.</b><br> <br> <p><font face=Verdana size=4>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>When you are ready to begin, select the “Next” button. <br><br><b><font face=Verdana size=4>Thank you!",
-            "de": "<b><font face=Verdana size=4>Dies ist Teil B der Umfrage.</b><br> <br> <p><font face=Verdana size=4>In Teil B sind die Fragen klassenbezogen. Wenn Sie mehr als eine Klasse unterrichten, die in dieses Projekt einbezogen ist, führen Sie Teil B für jede Klasse separat durch. <br><br>Wenn Sie nur ein Fach unterrichten, beantworten Sie die Fragen, die sich auf andere Fächer beziehen, nach bestem Wissen oder konsultieren Sie für diese Details einen Kollegen. <br><br>Wenn Sie bereit sind zu beginnen, klicken Sie auf die Schaltfläche „Weiter“. <br><br><b><font face=Verdana size=4>Vielen Dank!",
-            "fr-CA": "<b><font face=Verdana size=4>This is Part B of the survey.</b><br> <br> <p><font face=Verdana size=4>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>When you are ready to begin, select the “Next” button. <br><br><b><font face=Verdana size=4>Thank you!",
-            "nl": "<b><font face=Verdana size=4> &lt;b&gt;&lt;font face=Verdana size=4&gt;This is Part B of the survey.&lt;/b&gt;&lt;br&gt; &lt;br&gt; &lt;p&gt;&lt;font face=Verdana size=4&gt;In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. &lt;br&gt;&lt;br&gt;If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. &lt;br&gt;&lt;br&gt;When you are ready to begin, select the “Next” button. &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;Thank you!",
-            "de-CH": "<b><font face=Verdana size=4>This is Part B of the survey.</b><br> <br> <p><font face=Verdana size=4>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>When you are ready to begin, select the “Next” button. <br><br><b><font face=Verdana size=4>Thank you!",
-            "es-AR": "<b><font face=Verdana size=4>This is Part B of the survey.</b><br> <br> <p><font face=Verdana size=4>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>When you are ready to begin, select the “Next” button. <br><br><b><font face=Verdana size=4>Thank you!",
+            "es-CO": "Esta es la Parte B de la encuesta.\n\nEn esta parte las preguntas son específicas a cada salón. Si usted enseña en más de un salón, debe completar esta parte por cada salón en donde tenga estudiantes participando en el proyecto!",
+            "de": "&lt;b&gt;&lt;font face=Verdana size=4&gt;Dies ist Teil B der Umfrage.&lt;/b&gt;&lt;br&gt; &lt;br&gt; &lt;p&gt;&lt;font face=Verdana size=4&gt;In Teil B sind die Fragen klassenbezogen. Wenn Sie mehr als eine Klasse unterrichten, die in dieses Projekt einbezogen ist, führen Sie Teil B für jede Klasse separat durch. &lt;br&gt;&lt;br&gt;Wenn Sie nur ein Fach unterrichten, beantworten Sie die Fragen, die sich auf andere Fächer beziehen, nach bestem Wissen oder konsultieren Sie für diese Details einen Kollegen. &lt;br&gt;&lt;br&gt;Wenn Sie bereit sind zu beginnen, klicken Sie auf die Schaltfläche „Weiter“. &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;Vielen Dank!",
+            "fr-CA": "&lt;b&gt;&lt;font face=Verdana size=4&gt;This is Part B of the survey.&lt;/b&gt;&lt;br&gt; &lt;br&gt; &lt;p&gt;&lt;font face=Verdana size=4&gt;In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. &lt;br&gt;&lt;br&gt;If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. &lt;br&gt;&lt;br&gt;When you are ready to begin, select the “Next” button. &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;Thank you!",
+            "nl": "&lt;b&gt;&lt;font face=Verdana size=4&gt;This is Part B of the survey.&lt;/b&gt;&lt;br&gt; &lt;br&gt; &lt;p&gt;&lt;font face=Verdana size=4&gt;In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. &lt;br&gt;&lt;br&gt;If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. &lt;br&gt;&lt;br&gt;When you are ready to begin, select the “Next” button. &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;Thank you!",
+            "de-CH": "&lt;b&gt;&lt;font face=Verdana size=4&gt;Dies ist Teil B der Umfrage.&lt;/b&gt;&lt;br&gt; &lt;br&gt; &lt;p&gt;&lt;font face=Verdana size=4&gt;In Teil B sind die Fragen klassenbezogen. Wenn Sie mehr als eine Klasse unterrichten, die in dieses Projekt einbezogen ist, führen Sie Teil B für jede Klasse separat durch. &lt;br&gt;&lt;br&gt;Wenn Sie nur ein Fach unterrichten, beantworten Sie die Fragen, die sich auf andere Fächer beziehen, nach bestem Wissen oder konsultieren Sie für diese Details einen Kollegen. &lt;br&gt;&lt;br&gt;Wenn Sie bereit sind zu beginnen, klicken Sie auf die Schaltfläche „Weiter“. &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;Vielen Dank!",
+            "es-AR": "&lt;b&gt;&lt;font face=Verdana size=4&gt;This is Part B of the survey.&lt;/b&gt;&lt;br&gt; &lt;br&gt; &lt;p&gt;&lt;font face=Verdana size=4&gt;In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. &lt;br&gt;&lt;br&gt;If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. &lt;br&gt;&lt;br&gt;When you are ready to begin, select the “Next” button. &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;Thank you!",
             "en-US": "<b><font face=Verdana size=4>This is Part B of the survey.</b><br> <br> <p><font face=Verdana size=4>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>When you are ready to begin, select the “Next” button. <br><br><b><font face=Verdana size=4>Thank you!",
-            "en-GH": "<b><font face=Verdana size=4>This is Part B of the survey.</b><br> <br> <p><font face=Verdana size=4>In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. <br><br>If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. <br><br>When you are ready to begin, select the “Next” button. <br><br><b><font face=Verdana size=4>Thank you!"
+            "en-GH": "&lt;b&gt;&lt;font face=Verdana size=4&gt;This is Part B of the survey.&lt;/b&gt;&lt;br&gt; &lt;br&gt; &lt;p&gt;&lt;font face=Verdana size=4&gt;In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. &lt;br&gt;&lt;br&gt;If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. &lt;br&gt;&lt;br&gt;When you are ready to begin, select the “Next” button. &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;Thank you!",
+            "en": ""
           }
         }
       ]
@@ -36,7 +37,8 @@
             "de-CH": "Wie viele Klassen unterrichten Sie, in denen Schüler an diesem Forschungsprojekt teilnehmen?",
             "es-AR": "¿En cuántos de los salones donde usted enseña hay estudiantes que participen en este proyecto?",
             "en-US": "How many classrooms do you teach that contain students participating in this research project?",
-            "en-GH": "How many classrooms do you teach that contain students participating in this research project?"
+            "en-GH": "How many classrooms do you teach that contain students participating in this research project?",
+            "en": ""
           },
           "showNumber": false,
           "choices": [
@@ -60,7 +62,8 @@
             "nl": "Is there another adult who is paid to help you in this classroom (e.g., teaching assistant, co-lead teacher, etc.)?",
             "de-CH": "Gibt es einen anderen Erwachsenen, der bezahlt wird, um Ihnen in dieser Klasse zu helfen (z.B. Lehrassistent, Co-Lehrkraft, etc.)?",
             "es-AR": "¿Hay algún otro adulto que reciba remuneración por ayudarle en este salón (por ejemplo, un profesor asistente, profesor que trabaja con usted en docencia compartida, entre otros)?",
-            "en-GH": "Is there another adult who is paid to help you in this classroom (e.g., teaching assistant, co-lead teacher, etc.)?"
+            "en-GH": "Is there another adult who is paid to help you in this classroom (e.g., teaching assistant, co-lead teacher, etc.)?",
+            "en": ""
           },
           "showNumber": false,
           "labelTrue": {
@@ -71,7 +74,8 @@
             "nl": "Yes",
             "de-CH": "Ja",
             "es-AR": "Sí",
-            "en-GH": "Yes"
+            "en-GH": "Yes",
+            "en": ""
           },
           "labelFalse": {
             "default": "No",
@@ -82,7 +86,8 @@
             "de-CH": "Nein",
             "es-AR": "No",
             "en-US": "No",
-            "en-GH": "No"
+            "en-GH": "No",
+            "en": ""
           },
           "valueTrue": "Yes",
           "valueFalse": "No"
@@ -98,7 +103,8 @@
             "nl": "How many students are enrolled in this classroom?",
             "de-CH": "Wie viele Schüler sind in dieser Klasse eingeschrieben?",
             "es-AR": "¿Cuántos estudiantes hay matriculados en este salón?",
-            "en-GH": "How many students are enrolled in this classroom?"
+            "en-GH": "How many students are enrolled in this classroom?",
+            "en": ""
           },
           "showNumber": false,
           "inputType": "number",
@@ -112,7 +118,8 @@
             "de-CH": "Anzahl der Schüler",
             "es-AR": "número de estudiantes",
             "en-US": "number of students",
-            "en-GH": "number of students"
+            "en-GH": "number of students",
+            "en": ""
           }
         },
         {
@@ -127,7 +134,8 @@
             "de-CH": "Wie viele Kinder jedes Geschlechts gibt es in dieser Klasse?",
             "es-AR": "¿Cuántos niños de cada género hay en esta clase?",
             "en-US": "How many children of each gender are in this class?",
-            "en-GH": "How many children of each gender are in this class?"
+            "en-GH": "How many children of each gender are in this class?",
+            "en": ""
           },
           "showNumber": false,
           "items": [
@@ -141,7 +149,8 @@
                 "nl": "number",
                 "de-CH": "Anzahl",
                 "es-AR": "número de",
-                "en-GH": "number"
+                "en-GH": "number",
+                "en": ""
               },
               "inputType": "number",
               "title": {
@@ -153,7 +162,8 @@
                 "de-CH": "Mädchen",
                 "es-AR": "Niñas",
                 "en-US": "Girls",
-                "en-GH": "Girls"
+                "en-GH": "Girls",
+                "en": ""
               }
             },
             {
@@ -166,7 +176,8 @@
                 "nl": "number",
                 "de-CH": "Anzahl",
                 "es-AR": "número de",
-                "en-GH": "number"
+                "en-GH": "number",
+                "en": ""
               },
               "inputType": "number",
               "title": {
@@ -178,20 +189,22 @@
                 "de-CH": "Jungen",
                 "es-AR": "Niños",
                 "en-US": "Boys",
-                "en-GH": "Boys"
+                "en-GH": "Boys",
+                "en": ""
               }
             },
             {
               "name": "TeacherStudentsGenderNonbinary",
               "placeholder": {
                 "default": "number",
-                "es-CO": "número de",
-                "de": "Anzahl",
-                "fr-CA": "nombre",
-                "nl": "number",
-                "de-CH": "Anzahl",
-                "es-AR": "número de",
-                "en-GH": "number"
+                "es-CO": "no",
+                "de": "nein",
+                "fr-CA": "non",
+                "nl": "Nee",
+                "de-CH": "nein",
+                "es-AR": "no",
+                "en-GH": "no",
+                "en": ""
               },
               "inputType": "number",
               "title": {
@@ -203,7 +216,8 @@
                 "de-CH": "Nicht-binär",
                 "es-AR": "No binario",
                 "en-US": "Nonbinary",
-                "en-GH": "Nonbinary"
+                "en-GH": "Nonbinary",
+                "en": ""
               }
             },
             {
@@ -216,7 +230,8 @@
                 "nl": "number",
                 "de-CH": "Anzahl",
                 "es-AR": "número de",
-                "en-GH": "number"
+                "en-GH": "number",
+                "en": ""
               },
               "inputType": "number",
               "title": {
@@ -228,7 +243,8 @@
                 "de-CH": "Sonstige",
                 "es-AR": "Otro",
                 "en-US": "Other",
-                "en-GH": "Other"
+                "en-GH": "Other",
+                "en": ""
               }
             }
           ],
@@ -246,7 +262,8 @@
             "de-CH": "Wie viele Kinder in dieser Klasse haben zum heutigen Datum jedes der folgenden Altersstufen erreicht?",
             "es-AR": "A hoy, ¿cuántos niños(as) de este salón se ubican en los siguientes rangos de edad?",
             "en-US": "As of today's date, how many children in this class are each of the following age levels?",
-            "en-GH": "As of today's date, how many children in this class are each of the following age levels?"
+            "en-GH": "As of today's date, how many children in this class are each of the following age levels?",
+            "en": ""
           },
           "showNumber": false,
           "items": [
@@ -254,13 +271,14 @@
               "name": "TeacherStudentsAges5",
               "placeholder": {
                 "default": "number",
-                "es-CO": "Número de niños(as)",
+                "es-CO": "número de",
                 "de": "Anzahl",
                 "fr-CA": "nombre",
                 "nl": "number",
                 "de-CH": "Anzahl",
-                "es-AR": "Número de niños(as)",
-                "en-GH": "number"
+                "es-AR": "número de",
+                "en-GH": "number",
+                "en": ""
               },
               "inputType": "number",
               "title": {
@@ -272,20 +290,22 @@
                 "de-CH": "5 Jahre alt oder jünger",
                 "es-AR": "5 años o menos",
                 "en-US": "5 years old or younger",
-                "en-GH": "5 years old or younger"
+                "en-GH": "5 years old or younger",
+                "en": ""
               }
             },
             {
               "name": "TeacherStudentsAges6",
               "placeholder": {
                 "default": "number",
-                "es-CO": "Número de niños(as)",
+                "es-CO": "número de",
                 "de": "Anzahl",
                 "fr-CA": "nombre",
                 "nl": "number",
                 "de-CH": "Anzahl",
-                "es-AR": "Número de niños(as)",
-                "en-GH": "number"
+                "es-AR": "número de",
+                "en-GH": "number",
+                "en": ""
               },
               "inputType": "number",
               "title": {
@@ -297,20 +317,22 @@
                 "de-CH": "6 Jahre alt",
                 "es-AR": "6 años",
                 "en-US": "6 years old",
-                "en-GH": "6 years old"
+                "en-GH": "6 years old",
+                "en": ""
               }
             },
             {
               "name": "TeacherStudentsAges7",
               "placeholder": {
                 "default": "number",
-                "es-CO": "Número de niños(as)",
+                "es-CO": "número de",
                 "de": "Anzahl",
                 "fr-CA": "nombre",
                 "nl": "number",
                 "de-CH": "Anzahl",
-                "es-AR": "Número de niños(as)",
-                "en-GH": "number"
+                "es-AR": "número de",
+                "en-GH": "number",
+                "en": ""
               },
               "inputType": "number",
               "title": {
@@ -322,20 +344,22 @@
                 "de-CH": "7 Jahre alt",
                 "es-AR": "7 años",
                 "en-US": "7 years old",
-                "en-GH": "7 years old"
+                "en-GH": "7 years old",
+                "en": ""
               }
             },
             {
               "name": "TeacherStudentsAges8",
               "placeholder": {
                 "default": "number",
-                "es-CO": "Número de niños(as)",
+                "es-CO": "número de",
                 "de": "Anzahl",
                 "fr-CA": "nombre",
                 "nl": "number",
                 "de-CH": "Anzahl",
-                "es-AR": "Número de niños(as)",
-                "en-GH": "number"
+                "es-AR": "número de",
+                "en-GH": "number",
+                "en": ""
               },
               "inputType": "number",
               "title": {
@@ -347,20 +371,22 @@
                 "de-CH": "8 Jahre alt",
                 "es-AR": "8 años",
                 "en-US": "8 years old",
-                "en-GH": "8 years old"
+                "en-GH": "8 years old",
+                "en": ""
               }
             },
             {
               "name": "TeacherStudentsAges9",
               "placeholder": {
                 "default": "number",
-                "es-CO": "Número de niños(as)",
+                "es-CO": "número de",
                 "de": "Anzahl",
                 "fr-CA": "nombre",
                 "nl": "number",
                 "de-CH": "Anzahl",
-                "es-AR": "Número de niños(as)",
-                "en-GH": "number"
+                "es-AR": "número de",
+                "en-GH": "number",
+                "en": ""
               },
               "inputType": "number",
               "title": {
@@ -372,20 +398,22 @@
                 "de-CH": "9 Jahre alt",
                 "es-AR": "9 años",
                 "en-US": "9 years old",
-                "en-GH": "9 years old"
+                "en-GH": "9 years old",
+                "en": ""
               }
             },
             {
               "name": "TeacherStudentsAges10",
               "placeholder": {
                 "default": "number",
-                "es-CO": "Número de niños(as)",
+                "es-CO": "número de",
                 "de": "Anzahl",
                 "fr-CA": "nombre",
                 "nl": "number",
                 "de-CH": "Anzahl",
-                "es-AR": "Número de niños(as)",
-                "en-GH": "number"
+                "es-AR": "número de",
+                "en-GH": "number",
+                "en": ""
               },
               "inputType": "number",
               "title": {
@@ -397,20 +425,22 @@
                 "de-CH": "10 Jahre alt",
                 "es-AR": "10 años",
                 "en-US": "10 years old",
-                "en-GH": "10 years old"
+                "en-GH": "10 years old",
+                "en": ""
               }
             },
             {
               "name": "TeacherStudentsAges11",
               "placeholder": {
                 "default": "number",
-                "es-CO": "Número de niños(as)",
+                "es-CO": "número de",
                 "de": "Anzahl",
                 "fr-CA": "nombre",
                 "nl": "number",
                 "de-CH": "Anzahl",
-                "es-AR": "Número de niños(as)",
-                "en-GH": "number"
+                "es-AR": "número de",
+                "en-GH": "number",
+                "en": ""
               },
               "inputType": "number",
               "title": {
@@ -422,20 +452,22 @@
                 "de-CH": "11 Jahre alt",
                 "es-AR": "11 años",
                 "en-US": "11 years old",
-                "en-GH": "11 years old"
+                "en-GH": "11 years old",
+                "en": ""
               }
             },
             {
               "name": "TeacherStudentsAges12",
               "placeholder": {
                 "default": "number",
-                "es-CO": "Número de niños(as)",
+                "es-CO": "número de",
                 "de": "Anzahl",
                 "fr-CA": "nombre",
                 "nl": "number",
                 "de-CH": "Anzahl",
-                "es-AR": "Número de niños(as)",
-                "en-GH": "number"
+                "es-AR": "número de",
+                "en-GH": "number",
+                "en": ""
               },
               "inputType": "number",
               "title": {
@@ -447,20 +479,22 @@
                 "de-CH": "12 Jahre alt",
                 "es-AR": "12 años",
                 "en-US": "12 years old",
-                "en-GH": "12 years old"
+                "en-GH": "12 years old",
+                "en": ""
               }
             },
             {
               "name": "TeacherStudentsAges13",
               "placeholder": {
                 "default": "number",
-                "es-CO": "Número de niños(as)",
+                "es-CO": "número de",
                 "de": "Anzahl",
                 "fr-CA": "nombre",
                 "nl": "number",
                 "de-CH": "Anzahl",
-                "es-AR": "Número de niños(as)",
-                "en-GH": "number"
+                "es-AR": "número de",
+                "en-GH": "number",
+                "en": ""
               },
               "inputType": "number",
               "title": {
@@ -472,7 +506,8 @@
                 "de-CH": "13 Jahre oder älter",
                 "es-AR": "13 años o más",
                 "en-US": "13 years old or older",
-                "en-GH": "13 years old or older"
+                "en-GH": "13 years old or older",
+                "en": ""
               }
             }
           ],
@@ -489,7 +524,8 @@
             "nl": "Do you currently teach a multigrade class?",
             "de-CH": "Unterrichten Sie derzeit eine Mehrstufenklasse?",
             "es-AR": "¿Enseña actualmente en un salón multigrado?",
-            "en-GH": "Do you currently teach a multigrade class?"
+            "en-GH": "Do you currently teach a multigrade class?",
+            "en": ""
           },
           "showNumber": false,
           "labelTrue": {
@@ -500,7 +536,8 @@
             "nl": "Yes",
             "de-CH": "Ja",
             "es-AR": "Sí",
-            "en-GH": "Yes"
+            "en-GH": "Yes",
+            "en": ""
           },
           "labelFalse": {
             "default": "No",
@@ -511,7 +548,8 @@
             "de-CH": "Nein",
             "es-AR": "No",
             "en-US": "No",
-            "en-GH": "No"
+            "en-GH": "No",
+            "en": ""
           },
           "valueTrue": "Yes",
           "valueFalse": "No"
@@ -528,7 +566,8 @@
             "nl": "If yes, what grade levels are included in the class you teach? (select all that apply)",
             "de-CH": "Wenn ja, welche Klassenstufen sind in der Klasse, die Sie unterrichten, eingeschlossen? (Wählen Sie alle, die zutreffen)",
             "es-AR": "En caso afirmativo, ¿cuáles grados se encuentran el salón multigrado que enseña? (Marque todas las que procedan.)",
-            "en-GH": "If yes, what grade levels are included in the class you teach? (select all that apply)"
+            "en-GH": "If yes, what grade levels are included in the class you teach? (select all that apply)",
+            "en": ""
           },
           "showNumber": false,
           "clearIfInvisible": "onHidden",
@@ -543,7 +582,8 @@
                 "nl": "Prekindergarten",
                 "de-CH": "Vorschule",
                 "es-AR": "Prejardín",
-                "en-GH": "Prekindergarten"
+                "en-GH": "Prekindergarten",
+                "en": ""
               }
             },
             {
@@ -556,7 +596,8 @@
                 "nl": "Transitional (or readiness) kindergarten",
                 "de-CH": "Übergangskindergarten",
                 "es-AR": "Transición o Grado cero",
-                "en-GH": "Transitional (or readiness) kindergarten"
+                "en-GH": "Transitional (or readiness) kindergarten",
+                "en": ""
               }
             },
             {
@@ -569,7 +610,8 @@
                 "nl": "Kindergarten",
                 "de-CH": "Kindergarten",
                 "es-AR": "Jardín",
-                "en-GH": "Kindergarten"
+                "en-GH": "Kindergarten",
+                "en": ""
               }
             },
             {
@@ -582,7 +624,8 @@
                 "nl": "1st Grade",
                 "de-CH": "1. Klasse",
                 "es-AR": "Primer grado",
-                "en-GH": "1st Grade"
+                "en-GH": "1st Grade",
+                "en": ""
               }
             },
             {
@@ -595,7 +638,8 @@
                 "nl": "2nd Grade",
                 "de-CH": "2. Klasse",
                 "es-AR": "Segundo grado",
-                "en-GH": "2nd Grade"
+                "en-GH": "2nd Grade",
+                "en": ""
               }
             },
             {
@@ -608,7 +652,8 @@
                 "nl": "3rd Grade",
                 "de-CH": "3. Klasse",
                 "es-AR": "Tercer grado",
-                "en-GH": "3rd Grade"
+                "en-GH": "3rd Grade",
+                "en": ""
               }
             },
             {
@@ -621,7 +666,8 @@
                 "nl": "4th Grade",
                 "de-CH": "4. Klasse",
                 "es-AR": "Cuarto grado",
-                "en-GH": "4th Grade"
+                "en-GH": "4th Grade",
+                "en": ""
               }
             },
             {
@@ -634,7 +680,8 @@
                 "nl": "5th Grade",
                 "de-CH": "5. Klasse",
                 "es-AR": "Quinto grado",
-                "en-GH": "5th Grade"
+                "en-GH": "5th Grade",
+                "en": ""
               }
             },
             {
@@ -647,7 +694,8 @@
                 "nl": "6th Grade",
                 "de-CH": "6. Klasse",
                 "es-AR": "Sexto grado",
-                "en-GH": "6th Grade"
+                "en-GH": "6th Grade",
+                "en": ""
               }
             },
             {
@@ -660,7 +708,8 @@
                 "nl": "7th Grade",
                 "de-CH": "7. Klasse",
                 "es-AR": "Séptimo grado",
-                "en-GH": "7th Grade"
+                "en-GH": "7th Grade",
+                "en": ""
               }
             },
             {
@@ -674,7 +723,8 @@
                 "de-CH": "8. Klasse",
                 "es-AR": "Octavo grado",
                 "en-US": "8th Grade",
-                "en-GH": "8th Grade"
+                "en-GH": "8th Grade",
+                "en": ""
               }
             }
           ],
@@ -693,7 +743,8 @@
             "de-CH": "Welche Klassenstufe unterrichten Sie?",
             "es-AR": "¿En qué grado enseña?",
             "en-US": "What grade level do you teach?",
-            "en-GH": "What grade level do you teach?"
+            "en-GH": "What grade level do you teach?",
+            "en": ""
           },
           "showNumber": false,
           "clearIfInvisible": "onHidden",
@@ -712,7 +763,8 @@
             "nl": "What languages are spoken by students in this class (select all that apply)?",
             "de-CH": "Welche Sprachen sprechen die Schüler in dieser Klasse (Wählen Sie alle, die zutreffen)?",
             "es-AR": "¿Qué idiomas hablan los(as) estudiantes en este salón de clase?",
-            "en-GH": "What languages are spoken by students in this class (select all that apply)?"
+            "en-GH": "What languages are spoken by students in this class (select all that apply)?",
+            "en": ""
           },
           "showNumber": false,
           "choices": [
@@ -726,7 +778,8 @@
                 "nl": "Arabic",
                 "de-CH": "Arabisch",
                 "es-AR": "Árabe",
-                "en-GH": "Arabic"
+                "en-GH": "Arabic",
+                "en": ""
               }
             },
             {
@@ -739,7 +792,8 @@
                 "nl": "Chinese",
                 "de-CH": "Chinesisch",
                 "es-AR": "Chino",
-                "en-GH": "Chinese"
+                "en-GH": "Chinese",
+                "en": ""
               }
             },
             {
@@ -752,7 +806,8 @@
                 "nl": "English",
                 "de-CH": "Englisch",
                 "es-AR": "Inglés",
-                "en-GH": "English"
+                "en-GH": "English",
+                "en": ""
               }
             },
             {
@@ -765,7 +820,8 @@
                 "nl": "French",
                 "de-CH": "Französisch",
                 "es-AR": "Francés",
-                "en-GH": "French"
+                "en-GH": "French",
+                "en": ""
               }
             },
             {
@@ -778,7 +834,8 @@
                 "nl": "German",
                 "de-CH": "Deutsch",
                 "es-AR": "Alemán",
-                "en-GH": "German"
+                "en-GH": "German",
+                "en": ""
               }
             },
             {
@@ -791,7 +848,8 @@
                 "nl": "Korean",
                 "de-CH": "Koreanisch",
                 "es-AR": "Coreano",
-                "en-GH": "Korean"
+                "en-GH": "Korean",
+                "en": ""
               }
             },
             {
@@ -804,7 +862,8 @@
                 "nl": "Spanish",
                 "de-CH": "Spanisch",
                 "es-AR": "Español",
-                "en-GH": "Spanish"
+                "en-GH": "Spanish",
+                "en": ""
               }
             },
             {
@@ -817,7 +876,8 @@
                 "nl": "Tagalog",
                 "de-CH": "Tagalog",
                 "es-AR": "Tagalo",
-                "en-GH": "Tagalog"
+                "en-GH": "Tagalog",
+                "en": ""
               }
             },
             {
@@ -831,7 +891,8 @@
                 "de-CH": "Vietnamesisch",
                 "es-AR": "Vietnamita",
                 "en-US": "Vietnamese",
-                "en-GH": "Vietnamese"
+                "en-GH": "Vietnamese",
+                "en": ""
               }
             }
           ],
@@ -842,14 +903,15 @@
           "name": "TeacherLanguageTeachers",
           "title": {
             "default": "What languages do you or your assistant teacher speak <b>in the classroom</b> (select all that apply)?",
-            "es-CO": "¿Qué idiomas hablan usted o su docente asistente <b>en el aula de clase?</b>",
-            "de": "Welche Sprachen sprechen Sie oder Ihr Assistenzlehrer <b>im Unterricht</b> (Wählen Sie alle, die zutreffen)?",
-            "fr-CA": "Quelles langues parlez-vous ou votre professeur assistant <b>en classe</b> (sélectionnez tout ce qui s'applique) ?",
+            "es-CO": "¿Qué idiomas hablan usted o su docente asistente &lt;b&gt;en el aula de clase?&lt;/b&gt;",
+            "de": "Welche Sprachen sprechen Sie oder Ihr Assistenzlehrer &lt;b&gt;im Unterricht&lt;/b&gt; (Wählen Sie alle, die zutreffen)?",
+            "fr-CA": "Quelles langues parlez-vous ou votre professeur assistant &lt;b&gt;en classe&lt;/b&gt; (sélectionnez tout ce qui s'applique) ?",
             "nl": "What languages do you or your assistant teacher speak &lt;b&gt;in the classroom&lt;/b&gt; (select all that apply)?",
-            "de-CH": "Welche Sprachen sprechen Sie oder Ihr Assistenzlehrer <b>im Unterricht</b> (Wählen Sie alle, die zutreffen)?",
-            "es-AR": "¿Qué idiomas hablan usted o su docente asistente <b>en el aula de clase?</b>",
+            "de-CH": "Welche Sprachen sprechen Sie oder Ihr Assistenzlehrer &lt;b&gt;im Unterricht&lt;/b&gt; (Wählen Sie alle, die zutreffen)?",
+            "es-AR": "¿Qué idiomas hablan usted o su docente asistente &lt;b&gt;en el aula de clase?&lt;/b&gt;",
             "en-US": "What languages do you or your assistant teacher speak <b>in the classroom</b> (select all that apply)?",
-            "en-GH": "What languages do you or your assistant teacher speak <b>in the classroom</b> (select all that apply)?"
+            "en-GH": "What languages do you or your assistant teacher speak &lt;b&gt;in the classroom&lt;/b&gt; (select all that apply)?",
+            "en": ""
           },
           "showNumber": false,
           "choicesFromQuestion": "TeacherLanguageStudents"
@@ -865,7 +927,8 @@
             "nl": "About how many children in this classroom are BELOW grade level in their reading skills?",
             "de-CH": "Wie viele Kinder in dieser Klasse haben ein Lesetempo, das UNTER dem Klassenniveau liegt?",
             "es-AR": "¿Cuántos niños(as) de este salón tienen un nivel de lectura POR DEBAJO del grado que cursan?",
-            "en-GH": "About how many children in this classroom are BELOW grade level in their reading skills?"
+            "en-GH": "About how many children in this classroom are BELOW grade level in their reading skills?",
+            "en": ""
           },
           "showNumber": false,
           "inputType": "number",
@@ -879,7 +942,8 @@
             "de-CH": "Anzahl der Kinder",
             "es-AR": "Número de niños(as)",
             "en-US": "number of children",
-            "en-GH": "number of children"
+            "en-GH": "number of children",
+            "en": ""
           }
         },
         {
@@ -893,7 +957,8 @@
             "nl": "About how many children in this classroom are ABOVE grade level in their reading skills?",
             "de-CH": "Wie viele Kinder in dieser Klasse haben ein Lesetempo, das ÜBER dem Klassenniveau liegt?",
             "es-AR": "¿Cuántos niños(as) de este salón tienen un nivel de lectura POR ENCIMA del grado que cursan?",
-            "en-GH": "About how many children in this classroom are ABOVE grade level in their reading skills?"
+            "en-GH": "About how many children in this classroom are ABOVE grade level in their reading skills?",
+            "en": ""
           },
           "showNumber": false,
           "inputType": "number",
@@ -907,7 +972,8 @@
             "de-CH": "Anzahl der Kinder",
             "es-AR": "Número de niños(as)",
             "en-US": "number of children",
-            "en-GH": "number of children"
+            "en-GH": "number of children",
+            "en": ""
           }
         },
         {
@@ -921,7 +987,8 @@
             "nl": "About how many children in this classroom are BELOW grade level in their math skills?",
             "de-CH": "Wie viele Kinder in dieser Klasse haben ein Mathematikniveau, das UNTER dem Klassenniveau liegt?",
             "es-AR": "¿Cuántos niños(as) de este salón tienen un nivel en matemáticas POR DEBAJO del grado que cursan?",
-            "en-GH": "About how many children in this classroom are BELOW grade level in their math skills?"
+            "en-GH": "About how many children in this classroom are BELOW grade level in their math skills?",
+            "en": ""
           },
           "showNumber": false,
           "inputType": "number",
@@ -935,7 +1002,8 @@
             "de-CH": "Anzahl der Kinder",
             "es-AR": "Número de niños(as)",
             "en-US": "number of children",
-            "en-GH": "number of children"
+            "en-GH": "number of children",
+            "en": ""
           }
         },
         {
@@ -949,7 +1017,8 @@
             "nl": "About how many children in this classroom are ABOVE grade level in their math skills?",
             "de-CH": "Wie viele Kinder in dieser Klasse haben ein Mathematikniveau, das ÜBER dem Klassenniveau liegt?",
             "es-AR": "¿Cuántos niños(as) de este salón tienen un nivel en matemáticas POR ENCIMA del grado que cursan?",
-            "en-GH": "About how many children in this classroom are ABOVE grade level in their math skills?"
+            "en-GH": "About how many children in this classroom are ABOVE grade level in their math skills?",
+            "en": ""
           },
           "showNumber": false,
           "inputType": "number",
@@ -963,7 +1032,8 @@
             "de-CH": "Anzahl der Kinder",
             "es-AR": "Número de niños(as)",
             "en-US": "number of children",
-            "en-GH": "number of children"
+            "en-GH": "number of children",
+            "en": ""
           }
         },
         {
@@ -977,7 +1047,8 @@
             "nl": "How often each week do children in this class usually work on lessons or projects in Reading and Language Arts, whether as a whole class, in small groups, or in individualized arrangements ?",
             "de-CH": "Wie oft pro Woche arbeiten die Kinder in dieser Klasse normalerweise an Lese- und Sprachprojekten, sei es in der gesamten Klasse, in kleinen Gruppen oder in individueller Arbeit?",
             "es-AR": "¿Cuántas veces por semana suelen trabajar los estudiantes de esta clase en lecciones o proyectos de lectura, lenguaje y literatura, ya sea en sesión plenaria, grupos pequeños o individualmente?",
-            "en-GH": "How often each week do children in this class usually work on lessons or projects in Reading and Language Arts, whether as a whole class, in small groups, or in individualized arrangements ?"
+            "en-GH": "How often each week do children in this class usually work on lessons or projects in Reading and Language Arts, whether as a whole class, in small groups, or in individualized arrangements ?",
+            "en": ""
           },
           "showNumber": false,
           "choices": [
@@ -985,6 +1056,13 @@
               "value": "Never",
               "text": {
                 "default": "Never",
+                "de-CH": "Nie",
+                "de": "Nie",
+                "en-GH": "Never",
+                "en": "",
+                "es-AR": "Nada de influencia",
+                "es-CO": "Nada de influencia",
+                "fr-CA": "Jamais",
                 "nl": "Never"
               }
             },
@@ -998,7 +1076,8 @@
                 "nl": "Less than once per week",
                 "de-CH": "Weniger als einmal pro Woche",
                 "es-AR": "Menos de una vez por semana",
-                "en-GH": "Less than once per week"
+                "en-GH": "Less than once per week",
+                "en": ""
               }
             },
             {
@@ -1011,7 +1090,8 @@
                 "nl": "1 -2 times per week",
                 "de-CH": "1 - 2 Mal pro Woche",
                 "es-AR": "1 a 2 veces por semana",
-                "en-GH": "1 -2 times per week"
+                "en-GH": "1 -2 times per week",
+                "en": ""
               }
             },
             {
@@ -1024,13 +1104,21 @@
                 "nl": "3 - 4 times per week",
                 "de-CH": "3 - 4 Mal pro Woche",
                 "es-AR": "3 a 4 veces por semana",
-                "en-GH": "3 - 4 times per week"
+                "en-GH": "3 - 4 times per week",
+                "en": ""
               }
             },
             {
               "value": "Daily",
               "text": {
                 "default": "Daily",
+                "de-CH": "Täglich",
+                "de": "Täglich",
+                "en-GH": "Daily",
+                "en": "",
+                "es-AR": "A diario",
+                "es-CO": "A diario",
+                "fr-CA": "Tous les jours",
                 "nl": "Daily"
               }
             }
@@ -1048,7 +1136,8 @@
             "nl": "How much time per day do children in this class usually work on lessons or projects in Reading and Language Arts, whether as a whole class, in small groups, or in individualized arrangements?",
             "de-CH": "Wie viel Zeit pro Tag verbringen die Kinder in dieser Klasse normalerweise damit, an Lese- und Sprachprojekten zu arbeiten, sei es in der gesamten Klasse, in kleinen Gruppen oder in individueller Arbeit?",
             "es-AR": "¿Cuánto tiempo diario dedican trabajar los estudiantes de esta clase en lecciones o proyectos de lectura, lenguaje y literatura, ya sea en sesión plenaria, grupos pequeños o individualmente?",
-            "en-GH": "How much time per day do children in this class usually work on lessons or projects in Reading and Language Arts, whether as a whole class, in small groups, or in individualized arrangements?"
+            "en-GH": "How much time per day do children in this class usually work on lessons or projects in Reading and Language Arts, whether as a whole class, in small groups, or in individualized arrangements?",
+            "en": ""
           },
           "showNumber": false,
           "choices": [
@@ -1062,7 +1151,8 @@
                 "nl": "1 - 30 minutes a day",
                 "de-CH": "1 - 30 Minuten am Tag",
                 "es-AR": "1 a 30 minutos al día",
-                "en-GH": "1 - 30 minutes a day"
+                "en-GH": "1 - 30 minutes a day",
+                "en": ""
               }
             },
             {
@@ -1075,7 +1165,8 @@
                 "nl": "31 - 60 minutes a day",
                 "de-CH": "31 - 60 Minuten am Tag",
                 "es-AR": "31 a 60 minutos al día",
-                "en-GH": "31 - 60 minutes a day"
+                "en-GH": "31 - 60 minutes a day",
+                "en": ""
               }
             },
             {
@@ -1088,7 +1179,8 @@
                 "nl": "61 - 90 minutes a day",
                 "de-CH": "61 - 90 Minuten am Tag",
                 "es-AR": "61 a 90 minutos al día",
-                "en-GH": "61 - 90 minutes a day"
+                "en-GH": "61 - 90 minutes a day",
+                "en": ""
               }
             },
             {
@@ -1102,7 +1194,8 @@
                 "de-CH": "Mehr als 90 Minuten am Tag",
                 "es-AR": "Más de 90 minutos al día",
                 "en-US": "More than 90 minutes a day",
-                "en-GH": "More than 90 minutes a day"
+                "en-GH": "More than 90 minutes a day",
+                "en": ""
               }
             }
           ],
@@ -1119,7 +1212,8 @@
             "nl": "How often each week do children in this class usually work on lessons or projects in Mathematics, whether as a whole class, in small groups, or in individualized arrangements?",
             "de-CH": "Wie oft pro Woche arbeiten die Kinder in dieser Klasse normalerweise an Mathematikprojekten, sei es in der gesamten Klasse, in kleinen Gruppen oder in individueller Arbeit?",
             "es-AR": "¿Cuántas veces por semana suelen trabajar los estudiantes de esta clase en lecciones o proyectos de matemáticas, ya sea en sesión plenaria, grupos pequeños o individualmente?",
-            "en-GH": "How often each week do children in this class usually work on lessons or projects in Mathematics, whether as a whole class, in small groups, or in individualized arrangements?"
+            "en-GH": "How often each week do children in this class usually work on lessons or projects in Mathematics, whether as a whole class, in small groups, or in individualized arrangements?",
+            "en": ""
           },
           "showNumber": false,
           "choicesFromQuestion": "TeacherReadingFrequency",
@@ -1128,13 +1222,14 @@
               "value": "0",
               "text": {
                 "default": "Never",
-                "es-CO": "Nunca",
+                "es-CO": "Nada de influencia",
                 "de": "Nie",
                 "fr-CA": "Jamais",
                 "nl": "Never",
                 "de-CH": "Nie",
-                "es-AR": "Nunca",
-                "en-GH": "Never"
+                "es-AR": "Nada de influencia",
+                "en-GH": "Never",
+                "en": ""
               }
             },
             {
@@ -1147,7 +1242,8 @@
                 "nl": "Less than once per week",
                 "de-CH": "Weniger als einmal pro Woche",
                 "es-AR": "Menos de una vez por semana",
-                "en-GH": "Less than once per week"
+                "en-GH": "Less than once per week",
+                "en": ""
               }
             },
             {
@@ -1160,7 +1256,8 @@
                 "nl": "1 -2 times per week",
                 "de-CH": "1 - 2 Mal pro Woche",
                 "es-AR": "1 a 2 veces por semana",
-                "en-GH": "1 -2 times per week"
+                "en-GH": "1 -2 times per week",
+                "en": ""
               }
             },
             {
@@ -1173,7 +1270,8 @@
                 "nl": "3 - 4 times per week",
                 "de-CH": "3 - 4 Mal pro Woche",
                 "es-AR": "3 a 4 veces por semana",
-                "en-GH": "3 - 4 times per week"
+                "en-GH": "3 - 4 times per week",
+                "en": ""
               }
             },
             {
@@ -1187,7 +1285,8 @@
                 "de-CH": "Täglich",
                 "es-AR": "A diario",
                 "en-US": "Daily",
-                "en-GH": "Daily"
+                "en-GH": "Daily",
+                "en": ""
               }
             }
           ],
@@ -1204,7 +1303,8 @@
             "nl": "How much time per day do children in this class usually work on lessons or projects in Mathematics, whether as a whole class, in small groups, or in individualized arrangements?",
             "de-CH": "Wie viel Zeit pro Tag verbringen die Kinder in dieser Klasse normalerweise damit, an Mathematikprojekten zu arbeiten, sei es in der gesamten Klasse, in kleinen Gruppen oder in individueller Arbeit?",
             "es-AR": "¿Cuánto tiempo diario dedican trabajar los estudiantes de esta clase en lecciones o proyectos de matemáticas, ya sea en sesión plenaria, grupos pequeños o individualmente?",
-            "en-GH": "How much time per day do children in this class usually work on lessons or projects in Mathematics, whether as a whole class, in small groups, or in individualized arrangements?"
+            "en-GH": "How much time per day do children in this class usually work on lessons or projects in Mathematics, whether as a whole class, in small groups, or in individualized arrangements?",
+            "en": ""
           },
           "showNumber": false,
           "choicesFromQuestion": "TeacherReadingTime",
@@ -1219,7 +1319,8 @@
                 "nl": "1 - 30 minutes a day",
                 "de-CH": "1 - 30 Minuten am Tag",
                 "es-AR": "1 a 30 minutos al día",
-                "en-GH": "1 - 30 minutes a day"
+                "en-GH": "1 - 30 minutes a day",
+                "en": ""
               }
             },
             {
@@ -1232,7 +1333,8 @@
                 "nl": "31 - 60 minutes a day",
                 "de-CH": "31 - 60 Minuten am Tag",
                 "es-AR": "31 a 60 minutos al día",
-                "en-GH": "31 - 60 minutes a day"
+                "en-GH": "31 - 60 minutes a day",
+                "en": ""
               }
             },
             {
@@ -1245,7 +1347,8 @@
                 "nl": "61 - 90 minutes a day",
                 "de-CH": "61 - 90 Minuten am Tag",
                 "es-AR": "61 a 90 minutos al día",
-                "en-GH": "61 - 90 minutes a day"
+                "en-GH": "61 - 90 minutes a day",
+                "en": ""
               }
             },
             {
@@ -1259,7 +1362,8 @@
                 "de-CH": "Mehr als 90 Minuten am Tag",
                 "es-AR": "Más de 90 minutos al día",
                 "en-US": "More than 90 minutes a day",
-                "en-GH": "More than 90 minutes a day"
+                "en-GH": "More than 90 minutes a day",
+                "en": ""
               }
             }
           ],
@@ -1277,7 +1381,8 @@
             "de-CH": "Denken Sie an die Familien der Kinder in dieser Klasse, die Sie in diesem Schuljahr unterrichtet haben. Für wie viele Familien treffen die folgenden Aussagen zu?",
             "es-AR": "Piense en las familias de los niños(as) de esta clase a quienes usted ha dado clase este año escolar. ¿Aproximadamente para cuántas familias es cierta cada una de las siguientes afirmaciones?",
             "en-US": "Think about the families of the children in this class who you have taught this school year. For about how many families are each of the following statements true?",
-            "en-GH": "Think about the families of the children in this class who you have taught this school year. For about how many families are each of the following statements true?"
+            "en-GH": "Think about the families of the children in this class who you have taught this school year. For about how many families are each of the following statements true?",
+            "en": ""
           },
           "showQuestionNumbers": "off",
           "elements": [
@@ -1292,7 +1397,8 @@
                 "nl": "Families seem overwhelmed by trying to support their children's learning.",
                 "de-CH": "Familien scheinen überfordert zu sein, da sie versuchen, das Lernen ihrer Kinder zu unterstützen.",
                 "es-AR": "Las familias parecen estar abrumadas por tratar de apoyar el aprendizaje de sus niños(as).",
-                "en-GH": "Families seem overwhelmed by trying to support their children's learning."
+                "en-GH": "Families seem overwhelmed by trying to support their children's learning.",
+                "en": ""
               },
               "choices": [
                 {
@@ -1305,7 +1411,8 @@
                     "nl": "None",
                     "de-CH": "Keine",
                     "es-AR": "Ninguna",
-                    "en-GH": "None"
+                    "en-GH": "None",
+                    "en": ""
                   }
                 },
                 {
@@ -1318,7 +1425,8 @@
                     "nl": "One or a few",
                     "de-CH": "Eine oder wenige",
                     "es-AR": "Una o pocas",
-                    "en-GH": "One or a few"
+                    "en-GH": "One or a few",
+                    "en": ""
                   }
                 },
                 {
@@ -1331,7 +1439,8 @@
                     "nl": "Many",
                     "de-CH": "Viele",
                     "es-AR": "Muchas",
-                    "en-GH": "Many"
+                    "en-GH": "Many",
+                    "en": ""
                   }
                 },
                 {
@@ -1345,7 +1454,8 @@
                     "de-CH": "Alle oder fast alle",
                     "es-AR": "Todas o casi todas",
                     "en-US": "All or almost all",
-                    "en-GH": "All or almost all"
+                    "en-GH": "All or almost all",
+                    "en": ""
                   }
                 }
               ],
@@ -1362,7 +1472,8 @@
                 "nl": "Families are doing their part to support children's learning.",
                 "de-CH": "Familien tragen ihren Teil dazu bei, das Lernen der Kinder zu unterstützen.",
                 "es-AR": "Las familias hacen su parte para apoyar el aprendizaje de los niños(as).",
-                "en-GH": "Families are doing their part to support children's learning."
+                "en-GH": "Families are doing their part to support children's learning.",
+                "en": ""
               },
               "choices": [
                 {
@@ -1375,7 +1486,8 @@
                     "nl": "None",
                     "de-CH": "Keine",
                     "es-AR": "Ninguna",
-                    "en-GH": "None"
+                    "en-GH": "None",
+                    "en": ""
                   }
                 },
                 {
@@ -1388,7 +1500,8 @@
                     "nl": "One or a few",
                     "de-CH": "Eine oder wenige",
                     "es-AR": "Una o pocas",
-                    "en-GH": "One or a few"
+                    "en-GH": "One or a few",
+                    "en": ""
                   }
                 },
                 {
@@ -1401,7 +1514,8 @@
                     "nl": "Many",
                     "de-CH": "Viele",
                     "es-AR": "Muchas",
-                    "en-GH": "Many"
+                    "en-GH": "Many",
+                    "en": ""
                   }
                 },
                 {
@@ -1415,7 +1529,8 @@
                     "de-CH": "Alle oder fast alle",
                     "es-AR": "Todas o casi todas",
                     "en-US": "All or almost all",
-                    "en-GH": "All or almost all"
+                    "en-GH": "All or almost all",
+                    "en": ""
                   }
                 }
               ],
@@ -1435,7 +1550,8 @@
             "de-CH": "Bitte geben Sie an, wie zufrieden oder unzufrieden Sie in diesem Schuljahr mit den folgenden Aspekten waren.",
             "es-AR": "Por favor, indique cuán satisfecho(a) o insatisfecho(a) ha estado usted este año escolar con los siguientes aspectos.",
             "en-US": "Please indicate how satisfied or dissatisfied you have been with the following this school year.",
-            "en-GH": "Please indicate how satisfied or dissatisfied you have been with the following this school year."
+            "en-GH": "Please indicate how satisfied or dissatisfied you have been with the following this school year.",
+            "en": ""
           },
           "showQuestionNumbers": "off",
           "elements": [
@@ -1450,7 +1566,8 @@
                 "nl": "Communication between you and families.",
                 "de-CH": "Die Kommunikation zwischen Ihnen und den Familien.",
                 "es-AR": "La comunicación entre usted y las familias.",
-                "en-GH": "Communication between you and families."
+                "en-GH": "Communication between you and families.",
+                "en": ""
               },
               "choices": [
                 {
@@ -1463,7 +1580,8 @@
                     "nl": "Not satisfied at all",
                     "de-CH": "Überhaupt nicht zufrieden",
                     "es-AR": "Nada satisfecho",
-                    "en-GH": "Not satisfied at all"
+                    "en-GH": "Not satisfied at all",
+                    "en": ""
                   }
                 },
                 {
@@ -1476,7 +1594,8 @@
                     "nl": "Slightly satisfied",
                     "de-CH": "Wenig zufrieden",
                     "es-AR": "Poco satisfecho",
-                    "en-GH": "Slightly satisfied"
+                    "en-GH": "Slightly satisfied",
+                    "en": ""
                   }
                 },
                 {
@@ -1489,7 +1608,8 @@
                     "nl": "Moderately satisfied",
                     "de-CH": "Mäßig zufrieden",
                     "es-AR": "Medianamente satisfecho",
-                    "en-GH": "Moderately satisfied"
+                    "en-GH": "Moderately satisfied",
+                    "en": ""
                   }
                 },
                 {
@@ -1502,7 +1622,8 @@
                     "nl": "Quite satisfied",
                     "de-CH": "Ganz zufrieden",
                     "es-AR": "Bastante satisfecho",
-                    "en-GH": "Quite satisfied"
+                    "en-GH": "Quite satisfied",
+                    "en": ""
                   }
                 },
                 {
@@ -1516,7 +1637,8 @@
                     "de-CH": "Sehr zufrieden",
                     "es-AR": "Absolutamente satisfecho",
                     "en-US": "Very satisfied",
-                    "en-GH": "Very satisfied"
+                    "en-GH": "Very satisfied",
+                    "en": ""
                   }
                 }
               ],
@@ -1533,7 +1655,8 @@
                 "nl": "Communication between you and your students.",
                 "de-CH": "Die Kommunikation zwischen Ihnen und Ihren Schülern.",
                 "es-AR": "La comunicación entre usted y sus alumnos.",
-                "en-GH": "Communication between you and your students."
+                "en-GH": "Communication between you and your students.",
+                "en": ""
               },
               "choices": [
                 {
@@ -1546,7 +1669,8 @@
                     "nl": "Not satisfied at all",
                     "de-CH": "Überhaupt nicht zufrieden",
                     "es-AR": "Nada satisfecho",
-                    "en-GH": "Not satisfied at all"
+                    "en-GH": "Not satisfied at all",
+                    "en": ""
                   }
                 },
                 {
@@ -1559,7 +1683,8 @@
                     "nl": "Slightly satisfied",
                     "de-CH": "Wenig zufrieden",
                     "es-AR": "Poco satisfecho",
-                    "en-GH": "Slightly satisfied"
+                    "en-GH": "Slightly satisfied",
+                    "en": ""
                   }
                 },
                 {
@@ -1572,7 +1697,8 @@
                     "nl": "Moderately satisfied",
                     "de-CH": "Mäßig zufrieden",
                     "es-AR": "Medianamente satisfecho",
-                    "en-GH": "Moderately satisfied"
+                    "en-GH": "Moderately satisfied",
+                    "en": ""
                   }
                 },
                 {
@@ -1585,7 +1711,8 @@
                     "nl": "Quite satisfied",
                     "de-CH": "Ganz zufrieden",
                     "es-AR": "Bastante satisfecho",
-                    "en-GH": "Quite satisfied"
+                    "en-GH": "Quite satisfied",
+                    "en": ""
                   }
                 },
                 {
@@ -1599,7 +1726,8 @@
                     "de-CH": "Sehr zufrieden",
                     "es-AR": "Absolutamente satisfecho",
                     "en-US": "Very satisfied",
-                    "en-GH": "Very satisfied"
+                    "en-GH": "Very satisfied",
+                    "en": ""
                   }
                 }
               ],
@@ -1621,7 +1749,8 @@
     "es-AR": "Start Survey",
     "de-CH": "Umfrage starten",
     "fr-CA": "Start Survey",
-    "nl": "Start Survey"
+    "nl": "Start Survey",
+    "en": ""
   },
   "pagePrevText": {
     "default": "Previous",
@@ -1631,27 +1760,30 @@
     "es-AR": "Previous",
     "de-CH": "Zurück",
     "fr-CA": "Previous",
-    "nl": "Previous"
+    "nl": "Previous",
+    "en": ""
   },
   "pageNextText": {
     "default": "Next",
-    "de": "Weiter",
+    "de": "Next",
     "en-GH": "Next",
     "es-CO": "Next",
     "es-AR": "Next",
-    "de-CH": "Weiter",
+    "de-CH": "Next",
     "fr-CA": "Next",
-    "nl": "Next"
+    "nl": "Next",
+    "en": ""
   },
   "completeText": {
     "default": "Finish",
-    "de": "Beenden",
+    "de": "Finish",
     "en-GH": "Finish",
     "es-CO": "Finish",
     "es-AR": "Finish",
-    "de-CH": "Beenden",
+    "de-CH": "Finish",
     "fr-CA": "Finish",
-    "nl": "Finish"
+    "nl": "Finish",
+    "en": ""
   },
   "firstPageIsStartPage": true
 }

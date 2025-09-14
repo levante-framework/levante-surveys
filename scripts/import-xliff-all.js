@@ -28,7 +28,14 @@ if (!fs.existsSync(xliffDir)) {
   process.exit(1)
 }
 
-const files = fs.readdirSync(xliffDir).filter(f => f.endsWith('-surveys.xliff'))
+let files = fs.readdirSync(xliffDir).filter(f => /-(surveys|itembank)|item-bank-translations/i.test(f) && f.toLowerCase().endsWith('.xliff'))
+// Ensure item bank files are applied AFTER surveys, so item bank overrides take precedence
+files = files.sort((a, b) => {
+  const aIsItem = /itembank|item-bank-translations/i.test(a)
+  const bIsItem = /itembank|item-bank-translations/i.test(b)
+  if (aIsItem === bIsItem) return a.localeCompare(b)
+  return aIsItem ? 1 : -1
+})
 if (files.length === 0) {
   console.error(`❌ No files matching *-surveys.xliff in ${xliffDir}`)
   process.exit(1)
