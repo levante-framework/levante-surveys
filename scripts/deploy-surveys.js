@@ -36,9 +36,7 @@ import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import { Storage } from '@google-cloud/storage'
-import { importAllSurveys } from './import-individual-surveys.js'
-import { analyzeCSVFile, generateUpdatedConfig, updateLanguagesFile } from './detect-languages.js'
-import { downloadCrowdinSurveys } from './download-crowdin-surveys.js'
+import { spawnSync } from 'child_process'
 
 // Get current directory
 const __filename = fileURLToPath(import.meta.url)
@@ -112,178 +110,53 @@ class PipelineResults {
   }
 }
 
-/**
- * Step 1: Download latest CSV files from Crowdin
- */
-async function downloadLatestCSVFiles(results, skipDownload = false) {
-  console.log(`📥 Step 1: Downloading latest CSV files from Crowdin${skipDownload ? ' (SKIPPED)' : ''}...`)
-
-  if (skipDownload) {
-    console.log('   ⏭️  Skipping download, using existing CSV files')
-    results.addStep('download_csv', 'skipped', { reason: 'user_requested' })
-    return true
-  }
-
-  try {
-    const downloadResult = await downloadCrowdinSurveys({ force: true })
-
-    const successful = downloadResult.results.filter(r => r.status === 'success').length
-    const failed = downloadResult.results.filter(r => r.status === 'error').length
-
-    console.log(`   📊 Downloaded ${successful}/${REQUIRED_CSV_FILES.length} CSV files`)
-
-    if (failed > 0) {
-      results.addWarning(`${failed} CSV files failed to download`, 'download_csv')
-    }
-
-    results.addStep('download_csv', downloadResult.success ? 'success' : 'error', {
-      successful,
-      failed,
-      total: REQUIRED_CSV_FILES.length,
-      results: downloadResult.results
-    })
-
-    return downloadResult.success
-  } catch (error) {
-    console.error(`   ❌ Download failed: ${error.message}`)
-    results.addError(`CSV download failed: ${error.message}`, 'download_csv')
-    results.addStep('download_csv', 'error', { error: error.message })
-    return false
-  }
+// Helper to run node scripts synchronously and capture status
+function runNodeScript(scriptRelativePath, args = [], stepName, results) {
+  const scriptPath = path.join(projectRoot, scriptRelativePath)
+  const cmd = process.execPath
+  const fullArgs = [scriptPath, ...args]
+  const res = spawnSync(cmd, fullArgs, { stdio: 'inherit' })
+  const ok = res.status === 0
+  results.addStep(stepName, ok ? 'success' : 'error', { args: fullArgs.join(' ') })
+  if (!ok) results.addError(`${stepName} failed`, stepName)
+  return ok
 }
 
 /**
- * Step 2: Validate that all required CSV files exist
+ * Step 1 (XLIFF): Download latest XLIFF files from Crowdin l10n_pending
  */
-function validateCSVFiles(results) {
-  console.log('🔍 Step 2: Validating CSV files...')
-
-  const surveysDir = path.join(projectRoot, 'surveys')
-  const missingFiles = []
-  const foundFiles = []
-
-  for (const csvFile of REQUIRED_CSV_FILES) {
-    const filePath = path.join(surveysDir, csvFile)
-    if (fs.existsSync(filePath)) {
-      foundFiles.push(csvFile)
-      console.log(`   ✅ Found: ${csvFile}`)
-    } else {
-      missingFiles.push(csvFile)
-      console.log(`   ❌ Missing: ${csvFile}`)
-    }
+async function downloadLatestXLIFFs(results, skipDownload = false, force = false) {
+  console.log(`📥 Step 1: Downloading latest XLIFF files${skipDownload ? ' (SKIPPED)' : ''}...`)
+  if (skipDownload) {
+    console.log('   ⏭️  Skipping download, using existing XLIFF files')
+    results.addStep('download_xliff', 'skipped', { reason: 'user_requested' })
+    return true
   }
+  const ok = runNodeScript('scripts/download-crowdin-xliff.js', force ? ['--force'] : [], 'download_xliff', results)
+  return ok
+}
 
-  if (missingFiles.length > 0) {
-    results.addError(`Missing required CSV files: ${missingFiles.join(', ')}`, 'validate_csv')
-    results.addStep('validate_csv', 'error', {
-      found: foundFiles.length,
-      missing: missingFiles.length,
-      missingFiles
-    })
-    return false
+// Step 2 (XLIFF): Import translations into *_updated.json using the combined importer
+async function importXLIFFTranslations(results, dryRun = false) {
+  console.log(`🔄 Step 2: Importing XLIFF translations${dryRun ? ' (DRY RUN)' : ''}...`)
+  if (dryRun) {
+    console.log('   🔍 DRY RUN: Would import XLIFF translations but not modifying files')
+    results.addStep('import_xliff', 'skipped', { reason: 'dry_run' })
+    return true
   }
+  // Write *_updated.json (not in-place) so deployment picks them up
+  const ok = runNodeScript('scripts/import-xliff-all.js', [], 'import_xliff', results)
+  return ok
+}
 
-  results.addStep('validate_csv', 'success', { found: foundFiles.length })
+// Step 3 (XLIFF): Languages are carried by XLIFFs; skip explicit detection
+async function detectLanguagesXLIFF(results) {
+  console.log('🌍 Step 3: Languages from XLIFF (SKIPPED explicit detection)')
+  results.addStep('detect_languages', 'skipped', { reason: 'xliff_pipeline' })
   return true
 }
 
-/**
- * Step 3: Detect and configure new languages
- */
-async function detectAndConfigureLanguages(results) {
-  console.log('🌍 Step 3: Detecting languages...')
-
-  try {
-    const surveysDir = path.join(projectRoot, 'surveys')
-    const allDetectedLanguages = []
-
-    // Analyze all CSV files
-    for (const csvFile of REQUIRED_CSV_FILES) {
-      const filePath = path.join(surveysDir, csvFile)
-      const result = analyzeCSVFile(filePath)
-
-      if (result.languages) {
-        allDetectedLanguages.push(...result.languages)
-      }
-    }
-
-    // Remove duplicates
-    const uniqueLanguages = allDetectedLanguages.filter((lang, index, arr) =>
-      arr.findIndex(l => l.csvCode === lang.csvCode) === index
-    )
-
-    const newLanguages = uniqueLanguages.filter(lang => lang.isNew)
-
-    if (newLanguages.length > 0) {
-      console.log(`   🆕 Found ${newLanguages.length} new languages: ${newLanguages.map(l => l.csvCode).join(', ')}`)
-
-      const updateResult = generateUpdatedConfig(uniqueLanguages)
-      if (updateResult) {
-        updateLanguagesFile(updateResult.updatedConfig)
-        results.addStep('detect_languages', 'success', {
-          newLanguages: newLanguages.length,
-          totalLanguages: uniqueLanguages.length,
-          added: newLanguages.map(l => ({ code: l.csvCode, name: l.metadata.name }))
-        })
-      }
-    } else {
-      console.log('   ✅ No new languages detected')
-      results.addStep('detect_languages', 'success', {
-        newLanguages: 0,
-        totalLanguages: uniqueLanguages.length
-      })
-    }
-
-    return true
-  } catch (error) {
-    console.error(`   ❌ Language detection failed: ${error.message}`)
-    results.addError(`Language detection failed: ${error.message}`, 'detect_languages')
-    results.addStep('detect_languages', 'error', { error: error.message })
-    return false
-  }
-}
-
-/**
- * Step 4: Import translations into survey JSON files
- */
-async function importTranslations(results, dryRun = false) {
-  console.log(`🔄 Step 4: Importing translations${dryRun ? ' (DRY RUN)' : ''}...`)
-
-  try {
-    if (dryRun) {
-      console.log('   🔍 DRY RUN: Would import translations but not modifying files')
-      results.addStep('import_translations', 'skipped', { reason: 'dry_run' })
-      return true
-    }
-
-    const importResults = await importAllSurveys(false) // Don't upload yet
-
-    const totalUpdates = importResults.reduce((sum, r) => sum + r.updatedCount, 0)
-    const totalTranslations = importResults.reduce((sum, r) => sum + r.translationsCount, 0)
-    const successRate = Math.round((totalUpdates / totalTranslations) * 100)
-
-    console.log(`   ✅ Updated ${totalUpdates}/${totalTranslations} translations (${successRate}%)`)
-
-    if (successRate < 90) {
-      results.addWarning(`Low translation success rate: ${successRate}%`, 'import_translations')
-    }
-
-    results.addStep('import_translations', 'success', {
-      surveys: importResults.length,
-      totalUpdates,
-      totalTranslations,
-      successRate,
-      results: importResults
-    })
-
-    return true
-  } catch (error) {
-    console.error(`   ❌ Translation import failed: ${error.message}`)
-    results.addError(`Translation import failed: ${error.message}`, 'import_translations')
-    results.addStep('import_translations', 'error', { error: error.message })
-    return false
-  }
-}
+// (CSV import step removed in XLIFF pipeline)
 
 /**
  * Step 5: Validate updated survey JSON files
@@ -717,11 +590,10 @@ async function main() {
   const results = new PipelineResults()
   let success = true
 
-  // Execute pipeline steps
-  success = success && await downloadLatestCSVFiles(results, dryRun || skipDownload)
-  success = success && validateCSVFiles(results)
-  success = success && await detectAndConfigureLanguages(results)
-  success = success && await importTranslations(results, dryRun)
+  // Execute XLIFF pipeline steps
+  success = success && await downloadLatestXLIFFs(results, dryRun || skipDownload, true)
+  success = success && await importXLIFFTranslations(results, dryRun)
+  success = success && await detectLanguagesXLIFF(results)
   success = success && validateSurveyFiles(results, skipValidation)
 
   // Only proceed with cloud operations if local steps succeeded
