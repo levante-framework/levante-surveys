@@ -67,6 +67,8 @@ function parseCombinedXLIFF(content) {
     const original = originalMatch ? originalMatch[1] : null
     const langMatch = block.match(/\btarget-language="([^"]+)"/i)
     const targetLanguage = normalizeLang(langMatch ? langMatch[1] : null)
+    const srcLangMatch = block.match(/\bsource-language="([^"]+)"/i)
+    const sourceLanguage = normalizeLang(srcLangMatch ? srcLangMatch[1] : null)
 
     const units = []
     const unitRe = /<trans-unit\b([^>]*)>([\s\S]*?)<\/trans-unit>/gi
@@ -78,10 +80,13 @@ function parseCombinedXLIFF(content) {
       const resnameMatch = attrs.match(/\bresname="([^"]*)"/i)
       const unitId = idMatch ? idMatch[1] : null
       const resname = resnameMatch ? resnameMatch[1] : null
-      // target content
+      // target and source content
       const targetMatch = inner.match(/<target[^>]*>([\s\S]*?)<\/target>/i)
       let target = targetMatch ? targetMatch[1] : ''
       target = target.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+      const sourceMatch = inner.match(/<source[^>]*>([\s\S]*?)<\/source>/i)
+      let source = sourceMatch ? sourceMatch[1] : ''
+      source = source.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
       // context: try to extract survey hint from context-group source
       let surveyHint = null
       // Gather all <context> text and search for any *.json hint (handles item bank files)
@@ -96,10 +101,10 @@ function parseCombinedXLIFF(content) {
           }
         }
       }
-      units.push({ id: unitId, resname, target, surveyHint })
+      units.push({ id: unitId, resname, target, source, surveyHint })
     }
 
-    files.push({ original, targetLanguage, units })
+    files.push({ original, targetLanguage, sourceLanguage, units })
   }
   return files
 }
@@ -120,7 +125,7 @@ function getByPath(root, pth) {
   return cur
 }
 
-function applyToSurvey({ surveyJsonPath, targetLanguage, units, outPath }) {
+function applyToSurvey({ surveyJsonPath, targetLanguage, sourceLanguage, units, outPath }) {
   const survey = JSON.parse(fs.readFileSync(surveyJsonPath, 'utf8'))
   const normalized = normalizeDefaultsFromValues(survey)
   if (normalized > 0) {
@@ -157,10 +162,33 @@ function applyToSurvey({ surveyJsonPath, targetLanguage, units, outPath }) {
       node = getByPath(survey, u.id)
     }
     if (node && typeof node === 'object') {
-      let value = toPlainText(u.target)
+      // Prefer non-empty target; if empty and file target==source lang, fall back to source
+      let candidate = (u.target || '').trim()
+      if (!candidate) {
+        if (sourceLanguage && targetLanguage === sourceLanguage) {
+          candidate = (u.source || '').trim()
+        } else if (targetLanguage === 'en-US' || targetLanguage === 'en') {
+          candidate = (u.source || '').trim()
+        }
+      }
+      if (!candidate) continue
+      let value = toPlainText(candidate)
+      // Always set the primary target key
       node[targetLanguage] = value
-      if (targetLanguage === 'en-US') {
+      // If we used fallback for English (empty target), also seed en/en-US/default
+      if ((targetLanguage === 'en' || targetLanguage === 'en-US') && (u.target || '').trim() === '' && value) {
+        node['en-US'] = value
+        node['en'] = value
         node['default'] = value
+      }
+      // Keep English variants and default in sync
+      if (targetLanguage === 'en-US' || targetLanguage === 'en') {
+        node['en-US'] = value
+        node['en'] = value
+        node['default'] = value
+      } else if (targetLanguage === 'en-GB') {
+        // If other English regional variants appear, still ensure base 'en' exists
+        if (typeof node['en'] !== 'string' || node['en'] === '') node['en'] = value
       }
       applied++
     } else {
@@ -170,6 +198,7 @@ function applyToSurvey({ surveyJsonPath, targetLanguage, units, outPath }) {
         const parts = u.resname.split('.')
         const qPart = parts.find(p => p && p.startsWith('q')) || parts[parts.length - 1]
         const token = (qPart || '').replace(/^q\.?/, '')
+        const tokenLower = token.toLowerCase()
         if (token) {
           // Special-case mapping for ChildSurveyIntro to the intro HTML element on the first page
           if (token.toLowerCase() === 'childsurveyintro' && Array.isArray(survey.pages)) {
@@ -177,22 +206,92 @@ function applyToSurvey({ surveyJsonPath, targetLanguage, units, outPath }) {
             if (firstPage && Array.isArray(firstPage.elements)) {
               const introEl = firstPage.elements.find(e => e && e.type === 'html' && /childsurveyintro/i.test(e.name || ''))
               if (introEl && introEl.html && typeof introEl.html === 'object') {
-                let value = toPlainText(u.target)
+                let candidate = (u.target || '').trim()
+                if (!candidate) {
+                  if (sourceLanguage && targetLanguage === sourceLanguage) {
+                    candidate = (u.source || '').trim()
+                  } else if (targetLanguage === 'en-US' || targetLanguage === 'en') {
+                    candidate = (u.source || '').trim()
+                  }
+                }
+                if (!candidate) { continue }
+                let value = toPlainText(candidate)
                 introEl.html[targetLanguage] = value
-                if (targetLanguage === 'en-US') introEl.html['default'] = value
+                if ((targetLanguage === 'en' || targetLanguage === 'en-US') && (u.target || '').trim() === '' && value) {
+                  introEl.html['en-US'] = value
+                  introEl.html['en'] = value
+                  introEl.html['default'] = value
+                }
+                if (targetLanguage === 'en-US' || targetLanguage === 'en') {
+                  introEl.html['en-US'] = value
+                  introEl.html['en'] = value
+                  introEl.html['default'] = value
+                }
                 applied++
                 continue
               }
             }
           }
+          // Special-case mapping for CaregiverSurveyIntroB in parent survey
+          if (token.toLowerCase() === 'caregiversurveyintrob' && Array.isArray(survey.pages)) {
+            // Search all pages to be robust (not only first)
+            for (const pg of survey.pages) {
+              if (!pg || !Array.isArray(pg.elements)) continue
+              const el = pg.elements.find(e => e && e.type === 'html' && /caregiversurveyintrob/i.test(e.name || ''))
+              if (el && el.html && typeof el.html === 'object') {
+                let candidate = (u.target || '').trim()
+                if (!candidate) {
+                  if (sourceLanguage && targetLanguage === sourceLanguage) {
+                    candidate = (u.source || '').trim()
+                  } else if (targetLanguage === 'en-US' || targetLanguage === 'en') {
+                    candidate = (u.source || '').trim()
+                  }
+                }
+                if (!candidate) { break }
+                const value = toPlainText(candidate)
+                el.html[targetLanguage] = value
+                if (targetLanguage === 'en-US' || targetLanguage === 'en') {
+                  el.html['en-US'] = value
+                  el.html['en'] = value
+                  el.html['default'] = value
+                }
+                applied++
+                // Found and applied; skip to next unit
+                node = null
+                break
+              }
+            }
+            if (!node) continue
+          }
           // Find an id that contains the token
-          const matchKey = Array.from(idToNode.keys()).find(k => k.includes(`q.${token}`) || k.endsWith(`.${token}`) || k.includes(token))
+          const matchKey = Array.from(idToNode.keys()).find(k => {
+            const kl = k.toLowerCase()
+            return kl.includes(`q.${tokenLower}`) || kl.endsWith(`.${tokenLower}`) || kl.includes(tokenLower)
+          })
           if (matchKey) {
             const cand = idToNode.get(matchKey)
             if (cand && typeof cand === 'object') {
-              let value = toPlainText(u.target)
+              let candidate = (u.target || '').trim()
+              if (!candidate) {
+                if (sourceLanguage && targetLanguage === sourceLanguage) {
+                  candidate = (u.source || '').trim()
+                } else if (targetLanguage === 'en-US' || targetLanguage === 'en') {
+                  candidate = (u.source || '').trim()
+                }
+              }
+              if (!candidate) { continue }
+              let value = toPlainText(candidate)
               cand[targetLanguage] = value
-              if (targetLanguage === 'en-US') cand['default'] = value
+              if ((targetLanguage === 'en' || targetLanguage === 'en-US') && (u.target || '').trim() === '' && value) {
+                cand['en-US'] = value
+                cand['en'] = value
+                cand['default'] = value
+              }
+              if (targetLanguage === 'en-US' || targetLanguage === 'en') {
+                cand['en-US'] = value
+                cand['en'] = value
+                cand['default'] = value
+              }
               applied++
             }
           }
@@ -210,9 +309,13 @@ function applyToSurvey({ surveyJsonPath, targetLanguage, units, outPath }) {
           node[k] = toPlainText(v)
         }
       }
-      // Keep default synced to en-US when available
-      if (typeof node['en-US'] === 'string') {
-        node['default'] = node['en-US']
+      // Keep default/en synced to en-US only when non-empty
+      const enUSValue = typeof node['en-US'] === 'string' ? node['en-US'].trim() : ''
+      if (enUSValue) {
+        node['default'] = enUSValue
+        if (typeof node['en'] !== 'string' || node['en'].trim() === '') {
+          node['en'] = enUSValue
+        }
       }
     }
   }
@@ -371,7 +474,7 @@ function main() {
       }
       const base = path.basename(jsonPath, '.json')
       const outPath = inplace ? jsonPath : path.join(outDir, `${base}_updated.json`)
-      applyToSurvey({ surveyJsonPath: jsonPath, targetLanguage: f.targetLanguage, units: unitList, outPath })
+      applyToSurvey({ surveyJsonPath: jsonPath, targetLanguage: f.targetLanguage, sourceLanguage: f.sourceLanguage, units: unitList, outPath })
     }
   }
 }

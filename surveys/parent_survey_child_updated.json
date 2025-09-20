@@ -203,7 +203,7 @@
                 "es-AR": "no",
                 "en-US": "Other Non-Relative",
                 "en-GH": "no",
-                "en": ""
+                "en": "Other Non-Relative"
               }
             }
           ],
@@ -225,7 +225,7 @@
             "es-AR": "Especifique su relación con el niño.",
             "en-US": "Please specify your relationship to the child.",
             "en-GH": "Please specify your relationship to the child.",
-            "en": ""
+            "en": "Please specify your relationship to the child."
           },
           "showNumber": false
         },
@@ -259,7 +259,7 @@
                 "es-AR": "años",
                 "en-US": "years",
                 "en-GH": "years",
-                "en": ""
+                "en": "years"
               },
               "inputType": "number",
               "title": {
@@ -273,7 +273,7 @@
                 "es-AR": "años",
                 "en-US": "years",
                 "en-GH": "years",
-                "en": ""
+                "en": "years"
               }
             },
             {
@@ -289,7 +289,7 @@
                 "es-AR": "meses",
                 "en-US": "months",
                 "en-GH": "months",
-                "en": ""
+                "en": "months"
               },
               "inputType": "number",
               "title": {
@@ -303,7 +303,7 @@
                 "es-AR": "meses",
                 "en-US": "months",
                 "en-GH": "months",
-                "en": ""
+                "en": "months"
               }
             }
           ],
@@ -340,7 +340,7 @@
             "es-AR": "años",
             "en-US": "years of age",
             "en-GH": "years of age",
-            "en": ""
+            "en": "years of age"
           }
         },
         {
@@ -357,7 +357,7 @@
             "es-AR": "¿Cuál es la estatura ACTUAL de su niño(a)? (por favor, calcule lo más preciso posible)",
             "en-US": "What is your child's CURRENT height? (please estimate to the best of your knowledge)",
             "en-GH": "What is your child's CURRENT height? (please estimate to the best of your knowledge)",
-            "en": ""
+            "en": "What is your child's CURRENT height? (please estimate to the best of your knowledge)"
           },
           "showNumber": false,
           "validators": [
@@ -379,7 +379,7 @@
                 "es-AR": "metros",
                 "en-US": "meters",
                 "en-GH": "meters",
-                "en": ""
+                "en": "meters"
               },
               "inputType": "number",
               "title": {
@@ -393,7 +393,7 @@
                 "es-AR": "metros",
                 "en-US": "meters",
                 "en-GH": "meters",
-                "en": ""
+                "en": "meters"
               }
             },
             {
@@ -409,7 +409,7 @@
                 "es-AR": "centímetros",
                 "en-US": "centimeters",
                 "en-GH": "centimeters",
-                "en": ""
+                "en": "centimeters"
               },
               "inputType": "number",
               "title": {
@@ -423,7 +423,7 @@
                 "es-AR": "centímetros",
                 "en-US": "centimeters",
                 "en-GH": "centimeters",
-                "en": ""
+                "en": "centimeters"
               }
             }
           ],
@@ -443,7 +443,7 @@
             "es-AR": "¿Cuál es el peso ACTUAL de su niño(a)? (por favor, calcule lo más preciso posible)",
             "en-US": "What is your child's CURRENT weight? (please estimate to the best of your knowledge)",
             "en-GH": "What is your child's CURRENT weight? (please estimate to the best of your knowledge)",
-            "en": ""
+            "en": "What is your child's CURRENT weight? (please estimate to the best of your knowledge)"
           },
           "showNumber": false,
           "items": [
@@ -460,7 +460,7 @@
                 "es-AR": "kilos",
                 "en-US": "pounds",
                 "en-GH": "pounds",
-                "en": ""
+                "en": "pounds"
               },
               "inputType": "number",
               "title": {
@@ -474,7 +474,7 @@
                 "es-AR": "kilos",
                 "en-US": "pounds",
                 "en-GH": "pounds",
-                "en": ""
+                "en": "pounds"
               },
               "validators": [
                 {
@@ -543,7 +543,7 @@
                 "es-AR": "No sé",
                 "en-US": "Don't know",
                 "en-GH": "Don't know",
-                "en": ""
+                "en": "Don't know"
               }
             }
           ],
@@ -579,7 +579,7 @@
             "es-AR": "Gramos",
             "en-US": "Grams",
             "en-GH": "Grams",
-            "en": ""
+            "en": "Grams"
           }
         },
         {
@@ -672,7 +672,7 @@
                 "es-AR": "Deficiente",
                 "en-US": "Poor",
                 "en-GH": "Poor",
-                "en": ""
+                "en": "Poor"
               }
             }
           ],
@@ -768,7 +768,7 @@
                 "es-AR": "Deficiente",
                 "en-US": "Poor",
                 "en-GH": "Poor",
-                "en": ""
+                "en": "Poor"
               }
             }
           ],
@@ -849,7 +849,7 @@
                 "es-AR": "Todos los días",
                 "en-US": "Every day",
                 "en-GH": "Every day",
-                "en": ""
+                "en": "Every day"
               }
             }
           ],
@@ -878,7 +878,7 @@
                 "es-AR": "&lt;b&gt;DURANTE LOS ÚLTIMOS 12 MESES&lt;/b&gt;, ¿ha tenido su niño(a) dificultades FRECUENTES o CRÓNICAS en alguno de los siguientes aspectos?",
                 "en-US": "DURING THE PAST 12 MONTHS, has your child had FREQUENT or CHRONIC difficulty with any of the following?",
                 "en-GH": "&lt;b&gt;DURING THE PAST 12 MONTHS&lt;/b&gt;, has your child had FREQUENT or CHRONIC difficulty with any of the following?",
-                "en": ""
+                "en": "DURING THE PAST 12 MONTHS, has your child had FREQUENT or CHRONIC difficulty with any of the following?"
               },
               "showQuestionNumbers": "off",
               "elements": [
@@ -940,7 +940,7 @@
                         "es-AR": "No sé",
                         "en-US": "Don't know",
                         "en-GH": "Don't know",
-                        "en": ""
+                        "en": "Don't know"
                       }
                     }
                   ],
@@ -1003,7 +1003,7 @@
                         "es-AR": "No sé",
                         "en-US": "Don't know",
                         "en-GH": "Don't know",
-                        "en": ""
+                        "en": "Don't know"
                       }
                     }
                   ],
@@ -1066,7 +1066,7 @@
                         "es-AR": "No sé",
                         "en-US": "Don't know",
                         "en-GH": "Don't know",
-                        "en": ""
+                        "en": "Don't know"
                       }
                     }
                   ],
@@ -1129,7 +1129,7 @@
                         "es-AR": "No sé",
                         "en-US": "Don't know",
                         "en-GH": "Don't know",
-                        "en": ""
+                        "en": "Don't know"
                       }
                     }
                   ],
@@ -1192,7 +1192,7 @@
                         "es-AR": "No sé",
                         "en-US": "Don't know",
                         "en-GH": "Don't know",
-                        "en": ""
+                        "en": "Don't know"
                       }
                     }
                   ],
@@ -1255,7 +1255,7 @@
                         "es-AR": "No sé",
                         "en-US": "Don't know",
                         "en-GH": "Don't know",
-                        "en": ""
+                        "en": "Don't know"
                       }
                     }
                   ],
@@ -1318,7 +1318,7 @@
                         "es-AR": "No sé",
                         "en-US": "Don't know",
                         "en-GH": "Don't know",
-                        "en": ""
+                        "en": "Don't know"
                       }
                     }
                   ],
@@ -1351,7 +1351,7 @@
                 "es-AR": "¿Tiene su niño(a) alguna de las siguientes?",
                 "en-US": "Does your child have any of the following?",
                 "en-GH": "Does your child have any of the following?",
-                "en": ""
+                "en": "Does your child have any of the following?"
               },
               "showQuestionNumbers": "off",
               "elements": [
@@ -1413,7 +1413,7 @@
                         "es-AR": "No sé",
                         "en-US": "Don't know",
                         "en-GH": "Don't know",
-                        "en": ""
+                        "en": "Don't know"
                       }
                     }
                   ],
@@ -1457,7 +1457,7 @@
                     "es-AR": "No",
                     "en-US": "No",
                     "en-GH": "No",
-                    "en": ""
+                    "en": "No"
                   },
                   "valueTrue": "Yes",
                   "valueFalse": "No"
@@ -1500,7 +1500,7 @@
                     "es-AR": "No",
                     "en-US": "No",
                     "en-GH": "No",
-                    "en": ""
+                    "en": "No"
                   },
                   "valueTrue": "Yes",
                   "valueFalse": "No"
@@ -1543,7 +1543,7 @@
                     "es-AR": "No",
                     "en-US": "No",
                     "en-GH": "No",
-                    "en": ""
+                    "en": "No"
                   },
                   "valueTrue": "Yes",
                   "valueFalse": "No"
@@ -1586,7 +1586,7 @@
                     "es-AR": "No",
                     "en-US": "No",
                     "en-GH": "No",
-                    "en": ""
+                    "en": "No"
                   },
                   "valueTrue": "Yes",
                   "valueFalse": "No"
@@ -1632,7 +1632,7 @@
                 "es-AR": "No",
                 "en-US": "No",
                 "en-GH": "No",
-                "en": ""
+                "en": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -1652,7 +1652,7 @@
                 "es-AR": "En caso afirmativo, explíquelo:",
                 "en-US": "If yes, please explain:",
                 "en-GH": "If yes, please explain:",
-                "en": ""
+                "en": "If yes, please explain:"
               },
               "showNumber": false
             }
@@ -1740,7 +1740,7 @@
                     "es-AR": "Prefiero no responder",
                     "en-US": "Prefer not to respond",
                     "en-GH": "Prefer not to respond",
-                    "en": ""
+                    "en": "Prefer not to respond"
                   }
                 }
               ],
@@ -1761,7 +1761,7 @@
                 "es-AR": "En caso afirmativo, indique el trastorno:",
                 "en-US": "If yes, please note or explain the condition:",
                 "en-GH": "If yes, please note or explain the condition:",
-                "en": ""
+                "en": "If yes, please note or explain the condition:"
               },
               "showNumber": false
             },
@@ -1779,7 +1779,7 @@
                 "es-AR": "¿&lt;b&gt;ALGUNA VEZ&lt;/b&gt; su médico, otro profesional de la salud o un docente le ha dicho que su niño(a) padece alguna de las siguientes afecciones?",
                 "en-US": "Has a doctor or other health care provider, or educator EVER told you that your child has any of the following:",
                 "en-GH": "Has a doctor or other health care provider, or educator &lt;b&gt;EVER&lt;/b&gt; told you that your child has any of the following:",
-                "en": ""
+                "en": "Has a doctor or other health care provider, or educator EVER told you that your child has any of the following:"
               },
               "showQuestionNumbers": "off",
               "elements": [
@@ -1858,7 +1858,7 @@
                         "es-AR": "Prefiero no responder",
                         "en-US": "Prefer not to respond",
                         "en-GH": "Prefer not to respond",
-                        "en": ""
+                        "en": "Prefer not to respond"
                       }
                     }
                   ],
@@ -1903,7 +1903,7 @@
                     "es-AR": "No",
                     "en-US": "No",
                     "en-GH": "No",
-                    "en": ""
+                    "en": "No"
                   },
                   "valueTrue": "Yes",
                   "valueFalse": "No"
@@ -1968,7 +1968,7 @@
                         "es-AR": "Severo",
                         "en-US": "Severe",
                         "en-GH": "Severe",
-                        "en": ""
+                        "en": "Severe"
                       }
                     }
                   ],
@@ -2046,7 +2046,7 @@
                         "es-AR": "Prefiero no responder",
                         "en-US": "Prefer not to respond",
                         "en-GH": "Prefer not to respond",
-                        "en": ""
+                        "en": "Prefer not to respond"
                       }
                     }
                   ],
@@ -2091,7 +2091,7 @@
                     "es-AR": "No",
                     "en-US": "No",
                     "en-GH": "No",
-                    "en": ""
+                    "en": "No"
                   },
                   "valueTrue": "Yes",
                   "valueFalse": "No"
@@ -2156,7 +2156,7 @@
                         "es-AR": "Severo",
                         "en-US": "Severe",
                         "en-GH": "Severe",
-                        "en": ""
+                        "en": "Severe"
                       }
                     }
                   ],
@@ -2234,7 +2234,7 @@
                         "es-AR": "Prefiero no responder",
                         "en-US": "Prefer not to respond",
                         "en-GH": "Prefer not to respond",
-                        "en": ""
+                        "en": "Prefer not to respond"
                       }
                     }
                   ],
@@ -2279,7 +2279,7 @@
                     "es-AR": "No",
                     "en-US": "No",
                     "en-GH": "No",
-                    "en": ""
+                    "en": "No"
                   },
                   "valueTrue": "Yes",
                   "valueFalse": "No"
@@ -2344,7 +2344,7 @@
                         "es-AR": "Severo",
                         "en-US": "Severe",
                         "en-GH": "Severe",
-                        "en": ""
+                        "en": "Severe"
                       }
                     }
                   ],
@@ -2422,7 +2422,7 @@
                         "es-AR": "Prefiero no responder",
                         "en-US": "Prefer not to respond",
                         "en-GH": "Prefer not to respond",
-                        "en": ""
+                        "en": "Prefer not to respond"
                       }
                     }
                   ],
@@ -2467,7 +2467,7 @@
                     "es-AR": "No",
                     "en-US": "No",
                     "en-GH": "No",
-                    "en": ""
+                    "en": "No"
                   },
                   "valueTrue": "Yes",
                   "valueFalse": "No"
@@ -2532,7 +2532,7 @@
                         "es-AR": "Severo",
                         "en-US": "Severe",
                         "en-GH": "Severe",
-                        "en": ""
+                        "en": "Severe"
                       }
                     }
                   ],
@@ -2610,7 +2610,7 @@
                         "es-AR": "Prefiero no responder",
                         "en-US": "Prefer not to respond",
                         "en-GH": "Prefer not to respond",
-                        "en": ""
+                        "en": "Prefer not to respond"
                       }
                     }
                   ],
@@ -2655,7 +2655,7 @@
                     "es-AR": "No",
                     "en-US": "No",
                     "en-GH": "No",
-                    "en": ""
+                    "en": "No"
                   },
                   "valueTrue": "Yes",
                   "valueFalse": "No"
@@ -2720,7 +2720,7 @@
                         "es-AR": "Severo",
                         "en-US": "Severe",
                         "en-GH": "Severe",
-                        "en": ""
+                        "en": "Severe"
                       }
                     }
                   ],
@@ -2798,7 +2798,7 @@
                         "es-AR": "Prefiero no responder",
                         "en-US": "Prefer not to respond",
                         "en-GH": "Prefer not to respond",
-                        "en": ""
+                        "en": "Prefer not to respond"
                       }
                     }
                   ],
@@ -2843,7 +2843,7 @@
                     "es-AR": "No",
                     "en-US": "No",
                     "en-GH": "No",
-                    "en": ""
+                    "en": "No"
                   },
                   "valueTrue": "Yes",
                   "valueFalse": "No"
@@ -2908,7 +2908,7 @@
                         "es-AR": "Severo",
                         "en-US": "Severe",
                         "en-GH": "Severe",
-                        "en": ""
+                        "en": "Severe"
                       }
                     }
                   ],
@@ -2986,7 +2986,7 @@
                         "es-AR": "Prefiero no responder",
                         "en-US": "Prefer not to respond",
                         "en-GH": "Prefer not to respond",
-                        "en": ""
+                        "en": "Prefer not to respond"
                       }
                     }
                   ],
@@ -3031,7 +3031,7 @@
                     "es-AR": "No",
                     "en-US": "No",
                     "en-GH": "No",
-                    "en": ""
+                    "en": "No"
                   },
                   "valueTrue": "Yes",
                   "valueFalse": "No"
@@ -3096,7 +3096,7 @@
                         "es-AR": "Severo",
                         "en-US": "Severe",
                         "en-GH": "Severe",
-                        "en": ""
+                        "en": "Severe"
                       }
                     }
                   ],
@@ -3168,7 +3168,7 @@
             "es-AR": "Otro (describir)",
             "en-US": "Other (describe)",
             "en-GH": "Other (describe)",
-            "en": ""
+            "en": "Other (describe)"
           },
           "allowClear": true
         },
@@ -3186,7 +3186,7 @@
             "es-AR": "El siguiente grupo de preguntas indaga por la identidad de género.&lt;br&gt;&lt;br&gt; ¿Aceptaría contestar estas preguntas? &lt;br&gt;(aclaración: a su niño(a) NO se le harán estas preguntas)",
             "en-US": "The following set of questions asks about gender identity. Would you like to answer these additional questions about gender? (Note: your child will NOT be asked these questions)",
             "en-GH": "The following set of questions asks about gender identity. &lt;br&gt;&lt;br&gt;Would you like to answer these additional questions about gender? &lt;br&gt;(Note: your child will NOT be asked these questions)",
-            "en": ""
+            "en": "The following set of questions asks about gender identity. Would you like to answer these additional questions about gender? (Note: your child will NOT be asked these questions)"
           },
           "showNumber": false,
           "valueTrue": "Yes",
@@ -3207,7 +3207,7 @@
             "es-AR": "¿Cuál es el género con el que se identifica su niño(a)?",
             "en-US": "What is your child's current gender identification?",
             "en-GH": "What is your child's current gender identification?",
-            "en": ""
+            "en": "What is your child's current gender identification?"
           },
           "showNumber": false,
           "choices": [
@@ -3224,7 +3224,7 @@
                 "es-AR": "¿Cuál es el género con el que se identifica su niño(a)?",
                 "en-US": "What is your child's current gender identification?",
                 "en-GH": "What is your child's current gender identification?",
-                "en": ""
+                "en": "What is your child's current gender identification?"
               }
             },
             {
@@ -3240,7 +3240,7 @@
                 "es-AR": "¿Cuál es el género con el que se identifica su niño(a)?",
                 "en-US": "What is your child's current gender identification?",
                 "en-GH": "What is your child's current gender identification?",
-                "en": ""
+                "en": "What is your child's current gender identification?"
               }
             },
             {
@@ -3256,7 +3256,7 @@
                 "es-AR": "¿Cuál es el género con el que se identifica su niño(a)?",
                 "en-US": "What is your child's current gender identification?",
                 "en-GH": "What is your child's current gender identification?",
-                "en": ""
+                "en": "What is your child's current gender identification?"
               }
             }
           ],
@@ -3354,7 +3354,7 @@
                 "es-AR": "Siempre",
                 "en-US": "Always",
                 "en-GH": "Always",
-                "en": ""
+                "en": "Always"
               }
             }
           ],
@@ -3451,7 +3451,7 @@
                 "es-AR": "Siempre",
                 "en-US": "Always",
                 "en-GH": "Always",
-                "en": ""
+                "en": "Always"
               }
             }
           ],
@@ -3548,7 +3548,7 @@
                 "es-AR": "Siempre",
                 "en-US": "Always",
                 "en-GH": "Always",
-                "en": ""
+                "en": "Always"
               }
             }
           ],
@@ -3645,7 +3645,7 @@
                 "es-AR": "Siempre",
                 "en-US": "Always",
                 "en-GH": "Always",
-                "en": ""
+                "en": "Always"
               }
             }
           ],
@@ -3695,7 +3695,7 @@
             "es-AR": "No",
             "en-US": "No",
             "en-GH": "No",
-            "en": ""
+            "en": "No"
           }
         },
         {
@@ -3713,7 +3713,7 @@
             "es-AR": "Para cada pregunta, seleccione la respuesta que mejor describa lo que le ocurre a su niño en este momento.",
             "en-US": "For each question, please select the answer that best describes what is happening to your child right now.",
             "en-GH": "For each question, please select the answer that best describes what is happening to your child right now.",
-            "en": ""
+            "en": "For each question, please select the answer that best describes what is happening to your child right now."
           },
           "showQuestionNumbers": "off",
           "elements": [
@@ -3792,7 +3792,7 @@
                     "es-AR": "Parece que terminó el estirón (ha alcanzado su estatura que va a tener)",
                     "en-US": "Seems completed (child is about as tall as she is going to get)",
                     "en-GH": "Seems completed (child is about as tall as she is going to get)",
-                    "en": ""
+                    "en": "Seems completed (child is about as tall as she is going to get)"
                   }
                 }
               ],
@@ -3873,7 +3873,7 @@
                     "es-AR": "Parece que ha terminado de crecer (la niña tiene todo el vello corporal que va a tener)",
                     "en-US": "Seems completed (child has as much body hair as she is going to get)",
                     "en-GH": "Seems completed (child has as much body hair as she is going to get)",
-                    "en": ""
+                    "en": "Seems completed (child has as much body hair as she is going to get)"
                   }
                 }
               ],
@@ -3954,7 +3954,7 @@
                     "es-AR": "Parece que los cambios en la piel han terminado",
                     "en-US": "Skin changes seem completed",
                     "en-GH": "Skin changes seem completed",
-                    "en": ""
+                    "en": "Skin changes seem completed"
                   }
                 }
               ],
@@ -4035,7 +4035,7 @@
                     "es-AR": "Parece que el crecimiento de los pechos ha terminado",
                     "en-US": "Breast growth seems completed",
                     "en-GH": "Breast growth seems completed",
-                    "en": ""
+                    "en": "Breast growth seems completed"
                   }
                 }
               ],
@@ -4079,7 +4079,7 @@
                 "es-AR": "No",
                 "en-US": "No",
                 "en-GH": "No",
-                "en": ""
+                "en": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -4112,7 +4112,7 @@
                 "es-AR": "años",
                 "en-US": "years of age",
                 "en-GH": "years of age",
-                "en": ""
+                "en": "years of age"
               }
             }
           ]
@@ -4132,7 +4132,7 @@
             "es-AR": "Para cada pregunta, seleccione la respuesta que mejor describa lo que le ocurre a su niño en este momento.",
             "en-US": "For each question, please select the answer that best describes what is happening to your child right now.",
             "en-GH": "For each question, please select the answer that best describes what is happening to your child right now.",
-            "en": ""
+            "en": "For each question, please select the answer that best describes what is happening to your child right now."
           },
           "showQuestionNumbers": "off",
           "elements": [
@@ -4211,7 +4211,7 @@
                     "es-AR": "Parece que terminó el estirón (ha alcanzado su estatura que va a tener)",
                     "en-US": "Seems completed (child is about as tall as she is going to get)",
                     "en-GH": "Seems completed (child is about as tall as she is going to get)",
-                    "en": ""
+                    "en": "Seems completed (child is about as tall as she is going to get)"
                   }
                 }
               ],
@@ -4292,7 +4292,7 @@
                     "es-AR": "Parece que ha terminado de crecer (el niño tiene todo el vello corporal que va a tener)",
                     "en-US": "Seems completed (child has as much body hair as she is going to get)",
                     "en-GH": "Seems completed (child has as much body hair as she is going to get)",
-                    "en": ""
+                    "en": "Seems completed (child has as much body hair as she is going to get)"
                   }
                 }
               ],
@@ -4373,7 +4373,7 @@
                     "es-AR": "Parece que los cambios en la piel han terminado",
                     "en-US": "Skin changes seem completed",
                     "en-GH": "Skin changes seem completed",
-                    "en": ""
+                    "en": "Skin changes seem completed"
                   }
                 }
               ],
@@ -4454,7 +4454,7 @@
                     "es-AR": "El cambio de voz parece haber terminado",
                     "en-US": "Voice change seems completed",
                     "en-GH": "Voice change seems completed",
-                    "en": ""
+                    "en": "Voice change seems completed"
                   }
                 }
               ],
@@ -4535,7 +4535,7 @@
                     "es-AR": "Parece que ya crece a la velocidad que lo hará a futuro",
                     "en-US": "Probably grows now as fast as it will ever grow",
                     "en-GH": "Probably grows now as fast as it will ever grow",
-                    "en": ""
+                    "en": "Probably grows now as fast as it will ever grow"
                   }
                 }
               ],
@@ -4562,7 +4562,7 @@
             "es-AR": "Responda a cada una de las afirmaciones sobre los hábitos de sueño de su niño(a).",
             "en-US": "Please respond to each statement about your child's sleep habits.",
             "en-GH": "Please respond to each statement about your child's sleep habits.",
-            "en": ""
+            "en": "Please respond to each statement about your child's sleep habits."
           },
           "elements": [
             {
@@ -4673,7 +4673,7 @@
                     "es-AR": "Su niño(a) se acuesta más o menos a la misma hora entre semana (de lunes a viernes).",
                     "en-US": "Your child went to bed at about the same time on the weeknights (Monday-Friday).",
                     "en-GH": "Your child went to bed at about the same time on the weeknights (Monday-Friday).",
-                    "en": ""
+                    "en": "Your child went to bed at about the same time on the weeknights (Monday-Friday)."
                   }
                 }
               ]
@@ -4798,7 +4798,7 @@
                     "es-AR": "11 horas o más",
                     "en-US": "11 hours or more",
                     "en-GH": "11 hours or more",
-                    "en": ""
+                    "en": "11 hours or more"
                   }
                 }
               ],
@@ -4825,7 +4825,7 @@
             "es-AR": "&lt;block&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;Esta sección indaga por el comportamiento y la interacción social de su niño(a).",
             "en-US": "This section asks about your child's behavior and social interaction.",
             "en-GH": "&lt;block&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;This section asks about your child's behavior and social interaction.",
-            "en": ""
+            "en": "This section asks about your child's behavior and social interaction."
           }
         },
         {
@@ -5135,7 +5135,7 @@
                     "es-AR": "Su niño(a) suele estar nervioso o temeroso.",
                     "en-US": "Your child is often nervous or fearful.",
                     "en-GH": "Your child is often nervous or fearful.",
-                    "en": ""
+                    "en": "Your child is often nervous or fearful."
                   }
                 }
               ]
@@ -5409,7 +5409,7 @@
                     "es-AR": "Su niño(a) sabe hacer sugerencias sin ser autoritario.",
                     "en-US": "Your child can give suggestions without being bossy.",
                     "en-GH": "Your child can give suggestions without being bossy.",
-                    "en": ""
+                    "en": "Your child can give suggestions without being bossy."
                   }
                 }
               ]
@@ -5653,7 +5653,7 @@
                     "es-AR": "Su niño(a) permite que los demás usen sus juguetes u objetos.",
                     "en-US": "Your child lets others use her/his toys or items.",
                     "en-GH": "Your child lets others use her/his toys or items.",
-                    "en": ""
+                    "en": "Your child lets others use her/his toys or items."
                   }
                 }
               ]
@@ -6047,7 +6047,7 @@
                     "es-AR": "Su niño(a) es respetuoso con los adultos.",
                     "en-US": "Your child is respectful towards adults.",
                     "en-GH": "Your child is respectful towards adults.",
-                    "en": ""
+                    "en": "Your child is respectful towards adults."
                   }
                 }
               ]
@@ -6114,7 +6114,7 @@
                 "es-AR": "Mucha dificultad",
                 "en-US": "A lot of difficulty",
                 "en-GH": "A lot of difficulty",
-                "en": ""
+                "en": "A lot of difficulty"
               }
             }
           ],
@@ -6211,7 +6211,7 @@
                 "es-AR": "Casi todos los días",
                 "en-US": "Almost every day",
                 "en-GH": "Almost every day",
-                "en": ""
+                "en": "Almost every day"
               }
             }
           ],
@@ -6307,7 +6307,7 @@
                 "es-AR": "Casi todos los días",
                 "en-US": "Almost every day",
                 "en-GH": "Almost every day",
-                "en": ""
+                "en": "Almost every day"
               }
             }
           ],
@@ -6332,7 +6332,7 @@
             "es-AR": "&lt;block&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;Esta sección tiene preguntas que indagan por el aprendizaje.",
             "en-US": "This section asks questions related to learning.",
             "en-GH": "&lt;block&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;This section asks questions related to learning.",
-            "en": ""
+            "en": "This section asks questions related to learning."
           }
         },
         {
@@ -6667,7 +6667,7 @@
                 "es-AR": "Medir o pesar cosas (por ejemplo, para cocinar)",
                 "en-US": "Measure or weigh things (e.g., when cooking)",
                 "en-GH": "Measure or weigh things (e.g., when cooking)",
-                "en": ""
+                "en": "Measure or weigh things (e.g., when cooking)"
               }
             }
           ]
@@ -6720,7 +6720,7 @@
                 "es-AR": "No",
                 "en-US": "No",
                 "en-GH": "No",
-                "en": ""
+                "en": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -6764,7 +6764,7 @@
                 "es-AR": "No",
                 "en-US": "No",
                 "en-GH": "No",
-                "en": ""
+                "en": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -6874,7 +6874,7 @@
                     "es-AR": "4 años o más",
                     "en-US": "4 years or more",
                     "en-GH": "4 years or more",
-                    "en": ""
+                    "en": "4 years or more"
                   }
                 }
               ],
@@ -6955,7 +6955,7 @@
                     "es-AR": "8 años o más",
                     "en-US": "8 years old or older",
                     "en-GH": "8 years old or older",
-                    "en": ""
+                    "en": "8 years old or older"
                   }
                 }
               ],
@@ -7098,7 +7098,7 @@
                 "es-AR": "Grado de programa de doctorado",
                 "en-US": "Doctoral degree",
                 "en-GH": "Doctoral degree",
-                "en": ""
+                "en": "Doctoral degree"
               }
             }
           ],
@@ -7261,7 +7261,7 @@
                     "es-AR": "¿Cumplir con todas la tareas asignadas?",
                     "en-US": "Do all required homework?",
                     "en-GH": "Do all required homework?",
-                    "en": ""
+                    "en": "Do all required homework?"
                   }
                 }
               ]
@@ -7358,7 +7358,7 @@
                 "es-AR": "4 horas o más",
                 "en-US": "4 or more hours",
                 "en-GH": "4 or more hours",
-                "en": ""
+                "en": "4 or more hours"
               }
             }
           ],
@@ -7403,7 +7403,7 @@
             "es-AR": "No",
             "en-US": "No",
             "en-GH": "No",
-            "en": ""
+            "en": "No"
           },
           "valueTrue": "Yes",
           "valueFalse": "No"
@@ -7438,7 +7438,7 @@
             "es-AR": "años",
             "en-US": "years of age",
             "en-GH": "years of age",
-            "en": ""
+            "en": "years of age"
           }
         },
         {
@@ -7480,7 +7480,7 @@
             "es-AR": "No",
             "en-US": "No",
             "en-GH": "No",
-            "en": ""
+            "en": "No"
           },
           "valueTrue": "Yes",
           "valueFalse": "No"
@@ -7509,7 +7509,7 @@
                 "es-AR": "&lt;b&gt;Nos interesa saber con qué frecuencia, de forma independiente, y facilidad su niño(a) despliega estos comportamientos cuando la ocasión lo requiere. Los niños que sobresalen en un comportamiento específico deberían recibir una calificación de 4 (la puntuación más alta). La mayoría de niños recibirán calificaciones de 3 ó 2. Quienes aún están en desarrollo y requieren mucho apoyo deberían recibir una calificación de 1.&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;4&lt;/b&gt; = Siempre por sí mismo (no necesita apoyo) &lt;br&gt;&lt;br&gt;&lt;b&gt;3&lt;/b&gt; = Generalmente por sí mismo (necesita poco apoyo o pocos recordatorios)&lt;br&gt;&lt;br&gt;&lt;b&gt;2&lt;/b&gt; = A veces por sí mismo (necesita apoyo moderado o recordatorios con frecuencia)&lt;br&gt;&lt;br&gt;&lt;b&gt;1&lt;/b&gt; = No puede por sí mismo (necesita mucho apoyo)",
                 "en-US": "We are interested how often, independently, and easily your child shows each behavior when occasions call for it. Children who excel at a specific behavior should receive 4 (the highest rating), whereas most children will be between 3 and 2. Those who are still developing and need a lot of support should receive a rating of 1. 4 = Always on their own (No support needed)",
                 "en-GH": "&lt;b&gt;We are interested how often, independently, and easily your child shows each behavior when occasions call for it. Children who excel at a specific behavior should receive 4 (the highest rating), whereas most children will be between 3 and 2. Those who are still developing and need a lot of support should receive a rating of 1. &lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;4&lt;/b&gt; = Always on their own (No support needed)&lt;br&gt;&lt;br&gt;",
-                "en": ""
+                "en": "We are interested how often, independently, and easily your child shows each behavior when occasions call for it. Children who excel at a specific behavior should receive 4 (the highest rating), whereas most children will be between 3 and 2. Those who are still developing and need a lot of support should receive a rating of 1. 4 = Always on their own (No support needed)"
               }
             },
             {
@@ -7587,7 +7587,7 @@
                     "es-AR": "(1) No puede por sí mismo (necesita mucho apoyo)",
                     "en-US": "(1) Not able on their own (Requires a lot of support)",
                     "en-GH": "(1) Not able on their own (Requires a lot of support)",
-                    "en": ""
+                    "en": "(1) Not able on their own (Requires a lot of support)"
                   }
                 }
               ],
@@ -7607,7 +7607,7 @@
                 "es-AR": "&lt;b&gt;Ignora actividades y ruidos irrelevantes&lt;/b&gt; (p. ej., el llanto de un hermano, la televisión, el tráfico) &lt;b&gt;cuando trabaja en una tarea asignada.&lt;/b&gt;",
                 "en-US": "Ignores irrelevant activity/noise (e.g., crying sibling, TV, outside traffic) when working on an assigned task.",
                 "en-GH": "&lt;b&gt;Ignores irrelevant activity/noise&lt;/b&gt; (e.g., crying sibling, TV, outside traffic) &lt;b&gt;when working on an assigned task.&lt;/b&gt;",
-                "en": ""
+                "en": "Ignores irrelevant activity/noise (e.g., crying sibling, TV, outside traffic) when working on an assigned task."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7627,7 +7627,7 @@
                 "es-AR": "&lt;b&gt;Espera su turno para hablar&lt;/b&gt; (p. ej., no interrumpe a los demás, no apresura sus respuestas, piensa antes de hablar).",
                 "en-US": "Waits turn to speak (e.g., does not interrupt others, does not blurt out answers, thinks before speaking).",
                 "en-GH": "&lt;b&gt;Waits turn to speak&lt;/b&gt; (e.g., does not interrupt others, does not blurt out answers, thinks before speaking).",
-                "en": ""
+                "en": "Waits turn to speak (e.g., does not interrupt others, does not blurt out answers, thinks before speaking)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7647,7 +7647,7 @@
                 "es-AR": "&lt;b&gt;Concluye las actividades que requieren varios pasos&lt;/b&gt; (p. ej., ir a buscar varias cosas a la casa o al mercado, poner la mesa, limpiar una habitación guardando varias cosas).",
                 "en-US": "Completes activities that require multiple steps (e.g., fetching multiple things in home or store/market, setting the table, cleaning a room by putting several things away).",
                 "en-GH": "&lt;b&gt;Completes activities that require multiple steps&lt;/b&gt; (e.g., fetching multiple things in home or store/market, setting the table, cleaning a room by putting several things away).",
-                "en": ""
+                "en": "Completes activities that require multiple steps (e.g., fetching multiple things in home or store/market, setting the table, cleaning a room by putting several things away)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7667,7 +7667,7 @@
                 "es-AR": "&lt;b&gt;Inventa nuevas formas de resolver problemas&lt;/b&gt; (p. ej., reutiliza materiales o juguetes, inventa una nueva forma de construir una torre o un castillo después de que se derrumba, resuelve un rompecabezas de una forma nueva, inventa una nueva estrategia para completar una tarea).",
                 "en-US": "Comes up with new ways for solving challenges (e.g., repurposes materials or toys, comes up with a new way to build a tower or fort after it collapses, solves a puzzle in a new way, comes up with a new strategy to complete a chore).",
                 "en-GH": "&lt;b&gt;Comes up with new ways for solving challenges&lt;/b&gt; (e.g., repurposes materials or toys, comes up with a new way to build a tower or fort after it collapses, solves a puzzle in a new way, comes up with a new strategy to complete a chore).",
-                "en": ""
+                "en": "Comes up with new ways for solving challenges (e.g., repurposes materials or toys, comes up with a new way to build a tower or fort after it collapses, solves a puzzle in a new way, comes up with a new strategy to complete a chore)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7687,7 +7687,7 @@
                 "es-AR": "&lt;b&gt;Identifica y reúne los materiales necesarios antes de una actividad&lt;/b&gt; (p. ej., busca el abrigo, los zapatos o el sombrero adecuados antes de salir a la calle; recoge la lonchera, las tareas y la mochila antes de ir al colegio).",
                 "en-US": "Identifies and gathers necessary materials before an activity (e.g., finds appropriate coat, shoes, hat before going outside; gathers lunch box, homework, and backpack before going to school).",
                 "en-GH": "&lt;b&gt;Identifies and gathers necessary materials before an activity&lt;/b&gt; (e.g., finds appropriate coat, shoes, hat before going outside; gathers lunch box, homework, and backpack before going to school).",
-                "en": ""
+                "en": "Identifies and gathers necessary materials before an activity (e.g., finds appropriate coat, shoes, hat before going outside; gathers lunch box, homework, and backpack before going to school)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7707,7 +7707,7 @@
                 "es-AR": "&lt;b&gt;Concluye una tarea repetitiva asignada&lt;/b&gt; (p. ej., recoger los juguetes, guardar la ropa).",
                 "en-US": "Finishes an assigned task that is repetitive (e.g., picking up toys, putting away laundry).",
                 "en-GH": "&lt;b&gt;Finishes an assigned task that is repetitive&lt;/b&gt; (e.g., picking up toys, putting away laundry).",
-                "en": ""
+                "en": "Finishes an assigned task that is repetitive (e.g., picking up toys, putting away laundry)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7727,7 +7727,7 @@
                 "es-AR": "&lt;b&gt;Termina la tarea asignada antes de pasar a la siguiente.&lt;/b&gt;",
                 "en-US": "Completes an assigned task before moving to a next task.",
                 "en-GH": "&lt;b&gt;Completes an assigned task before moving to a next task.&lt;/b&gt;",
-                "en": ""
+                "en": "Completes an assigned task before moving to a next task."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7747,7 +7747,7 @@
                 "es-AR": "&lt;b&gt;Detiene un comportamiento indeseable cuando se lo piden&lt;/b&gt; (p. ej., deja de pelearse con un hermano cuando se lo piden sus padres, deja de portarse mal en casa).",
                 "en-US": "Stops an undesirable behavior when asked (e.g., stops fighting with sibling when asked by parent, stops misbehaving in the household).",
                 "en-GH": "&lt;b&gt;Stops an undesirable behavior when asked&lt;/b&gt; (e.g., stops fighting with sibling when asked by parent, stops misbehaving in the household).",
-                "en": ""
+                "en": "Stops an undesirable behavior when asked (e.g., stops fighting with sibling when asked by parent, stops misbehaving in the household)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7767,7 +7767,7 @@
                 "es-AR": "&lt;b&gt;Completa actividades que requieren recordar instrucciones largas&lt;/b&gt; (p. ej., reglas de un juego, tareas domésticas, receta de cocina).",
                 "en-US": "Completes activities that require remembering lengthy instructions (e.g., rules of a game, household chores, cooking recipe).",
                 "en-GH": "&lt;b&gt;Completes activities that require remembering lengthy instructions&lt;/b&gt; (e.g., rules of a game, household chores, cooking recipe).",
-                "en": ""
+                "en": "Completes activities that require remembering lengthy instructions (e.g., rules of a game, household chores, cooking recipe)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7787,7 +7787,7 @@
                 "es-AR": "&lt;b&gt;Se expresa de forma diferente cuando los demás no le entienden&lt;/b&gt; (p. ej., intenta comunicar sus necesidades y deseos de distintas maneras).",
                 "en-US": "Expresses themselves in a new way when not understood by others (e.g., tries different ways to communicate their needs and wants).",
                 "en-GH": "&lt;b&gt;Expresses themselves in a new way when not understood by others&lt;/b&gt; (e.g., tries different ways to communicate their needs and wants).",
-                "en": ""
+                "en": "Expresses themselves in a new way when not understood by others (e.g., tries different ways to communicate their needs and wants)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7807,7 +7807,7 @@
                 "es-AR": "&lt;b&gt;Crea una estrategia o un plan para completar una tarea&lt;/b&gt; (p. ej., una tarea, los deberes, un rompecabezas).",
                 "en-US": "Creates a strategy or plan for completing a task (e.g., chore, homework, puzzle).",
                 "en-GH": "&lt;b&gt;Creates a strategy or plan for completing a task&lt;/b&gt; (e.g., chore, homework, puzzle).",
-                "en": ""
+                "en": "Creates a strategy or plan for completing a task (e.g., chore, homework, puzzle)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7827,7 +7827,7 @@
                 "es-AR": "&lt;b&gt;Se mantiene concentrado e involucrado durante las actividades prolongadas dirigidas por adultos&lt;/b&gt; (p. ej., presentaciones o actos religiosos, comidas en familia), &lt;b&gt;escuchando atentamente y participando apropiadamente.&lt;/b&gt;",
                 "en-US": "Remains focused and engaged during lengthy adult-led activities (e.g., religious or performance event, family meal time) by listening carefully and contributing when appropriate.",
                 "en-GH": "&lt;b&gt;Remains focused and engaged during lengthy adult-led activities&lt;/b&gt; (e.g., religious or performance event, family meal time) &lt;b&gt;by listening carefully and contributing when appropriate.&lt;/b&gt;",
-                "en": ""
+                "en": "Remains focused and engaged during lengthy adult-led activities (e.g., religious or performance event, family meal time) by listening carefully and contributing when appropriate."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7847,7 +7847,7 @@
                 "es-AR": "&lt;b&gt;Recupera la concentración o vuelve a centrarse en una tarea asignada cuando se le interrumpe&lt;/b&gt; (p. ej., un miembro de la familia hace una pregunta no relacionada o solicita ayuda).",
                 "en-US": "Regains focus/focuses again on an assigned task when interrupted (e.g., family member asks an unrelated question or needs brief assistance).",
                 "en-GH": "&lt;b&gt;Regains focus/focuses again on an assigned task when interrupted&lt;/b&gt; (e.g., family member asks an unrelated question or needs brief assistance).",
-                "en": ""
+                "en": "Regains focus/focuses again on an assigned task when interrupted (e.g., family member asks an unrelated question or needs brief assistance)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7867,7 +7867,7 @@
                 "es-AR": "&lt;b&gt;Deja de jugar o de hacer algo divertido cuando se lo piden&lt;/b&gt; (p. ej., deja de jugar con sus amigos o deja de ver la televisión cuando se lo piden sus padres).",
                 "en-US": "Stops playing or doing something fun when asked (e.g., stops playing with friends when parent asks, stops watching TV when parent asks).",
                 "en-GH": "&lt;b&gt;Stops playing or doing something fun when asked&lt;/b&gt; (e.g., stops playing with friends when parent asks, stops watching TV when parent asks).",
-                "en": ""
+                "en": "Stops playing or doing something fun when asked (e.g., stops playing with friends when parent asks, stops watching TV when parent asks)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7887,7 +7887,7 @@
                 "es-AR": "&lt;b&gt;Se comunica de forma organizada&lt;/b&gt; (p. ej., vuelve a contar la secuencia correcta de los acontecimientos, explica cómo funciona un juego para que sea fácil de entender).",
                 "en-US": "Communicates in an organized way (e.g., retells the correct sequence of the events, explains how a game works so it is easy to understand).",
                 "en-GH": "&lt;b&gt;Communicates in an organized way&lt;/b&gt; (e.g., retells the correct sequence of the events, explains how a game works so it is easy to understand).",
-                "en": ""
+                "en": "Communicates in an organized way (e.g., retells the correct sequence of the events, explains how a game works so it is easy to understand)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7907,7 +7907,7 @@
                 "es-AR": "&lt;b&gt;Se adapta cuando cambian los planes u horarios&lt;/b&gt; (p. ej., se adapta cuando cambian los horarios, no se queja cuando una enfermedad inesperada obliga a cancelar las vacaciones familiares).",
                 "en-US": "Adjusts when plans/schedules change (e.g., follows along when daily schedule changes, does not complain when unexpected sickness leads to canceling a family vacation).",
                 "en-GH": "&lt;b&gt;Adjusts when plans/schedules change&lt;/b&gt; (e.g., follows along when daily schedule changes, does not complain when unexpected sickness leads to canceling a family vacation).",
-                "en": ""
+                "en": "Adjusts when plans/schedules change (e.g., follows along when daily schedule changes, does not complain when unexpected sickness leads to canceling a family vacation)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7927,7 +7927,7 @@
                 "es-AR": "&lt;b&gt;Termina las tareas a tiempo&lt;/b&gt; (p. ej., termina los deberes a tiempo y no en el último minuto).",
                 "en-US": "Finishes tasks on time (e.g., finishes homework on time and not at the last minute).",
                 "en-GH": "&lt;b&gt;Finishes tasks on time&lt;/b&gt; (e.g., finishes homework on time and not at the last minute).",
-                "en": ""
+                "en": "Finishes tasks on time (e.g., finishes homework on time and not at the last minute)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7947,7 +7947,7 @@
                 "es-AR": "&lt;b&gt;Se mantiene concentrado e involucrado durante las actividades de colaboración dirigidas por niños&lt;/b&gt; (p. ej., jugando con sus hermanos o compañeros).",
                 "en-US": "Remains focused and engaged during collaborative child-led activities (e.g., playing with siblings/peers).",
                 "en-GH": "&lt;b&gt;Remains focused and engaged during collaborative child-led activities&lt;/b&gt; (e.g., playing with siblings/peers).",
-                "en": ""
+                "en": "Remains focused and engaged during collaborative child-led activities (e.g., playing with siblings/peers)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7967,7 +7967,7 @@
                 "es-AR": "&lt;b&gt;Ignora una actividad preferida y divertida&lt;/b&gt; (p. ej., jugar) &lt;b&gt;cuando se le pide que complete una tarea asignada&lt;/b&gt; (p. ej., limpiar la habitación).",
                 "en-US": "Ignores a preferred, fun activity (e.g., playing) when asked to complete an assigned task (e.g., cleaning room).",
                 "en-GH": "&lt;b&gt;Ignores a preferred, fun activity&lt;/b&gt; (e.g., playing) &lt;b&gt;when asked to complete an assigned task&lt;/b&gt; (e.g., cleaning room).",
-                "en": ""
+                "en": "Ignores a preferred, fun activity (e.g., playing) when asked to complete an assigned task (e.g., cleaning room)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -7987,7 +7987,7 @@
                 "es-AR": "&lt;b&gt;Espera su turno para actuar&lt;/b&gt; (p. ej., espera pacientemente en la fila del supermercado o cuando comparte un juguete con su hermano).",
                 "en-US": "Waits for their turn to act (e.g., waits patiently in line at a grocery store or when sharing a toy with sibling).",
                 "en-GH": "&lt;b&gt;Waits for their turn to act&lt;/b&gt; (e.g., waits patiently in line at a grocery store or when sharing a toy with sibling).",
-                "en": ""
+                "en": "Waits for their turn to act (e.g., waits patiently in line at a grocery store or when sharing a toy with sibling)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -8007,7 +8007,7 @@
                 "es-AR": "&lt;b&gt;Realiza cálculos mentales numéricos apropiados para su edad&lt;/b&gt; (p. ej., suma precios de productos, calcula el tiempo, la diferencia de edad que hay entre él/ella y otra persona).",
                 "en-US": "Completes age-appropriate numerical mental calculation (e.g., adds prices of goods, calculates time, how much they are older than someone else).",
                 "en-GH": "&lt;b&gt;Completes age-appropriate numerical mental calculation&lt;/b&gt; (e.g., adds prices of goods, calculates time, how much they are older than someone else).",
-                "en": ""
+                "en": "Completes age-appropriate numerical mental calculation (e.g., adds prices of goods, calculates time, how much they are older than someone else)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -8027,7 +8027,7 @@
                 "es-AR": "&lt;b&gt;Entiende las posiciones o ideas contradictorias&lt;/b&gt; (p. ej., reconoce un punto de vista diferente, acepta distintas formas de hacer las cosas, puede ver una situación desde la perspectiva de otra persona).",
                 "en-US": "Understands conflicting perspectives/ideas (e.g., acknowledges a different point of view, accepts different ways of doing things, can see a situation from someone else’s perspective).",
                 "en-GH": "&lt;b&gt;Understands conflicting perspectives/ideas&lt;/b&gt; (e.g., acknowledges a different point of view, accepts different ways of doing things, can see a situation from someone else’s perspective).",
-                "en": ""
+                "en": "Understands conflicting perspectives/ideas (e.g., acknowledges a different point of view, accepts different ways of doing things, can see a situation from someone else’s perspective)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -8047,7 +8047,7 @@
                 "es-AR": "&lt;b&gt;Verifica si hay errores antes de completar una tarea&lt;/b&gt; (p. ej., revisa y corrige los errores en las tareas de clase).",
                 "en-US": "Checks for mistakes before completing a task (e.g., reviews and corrects errors on class assignments).",
                 "en-GH": "&lt;b&gt;Checks for mistakes before completing a task&lt;/b&gt; (e.g., reviews and corrects errors on class assignments).",
-                "en": ""
+                "en": "Checks for mistakes before completing a task (e.g., reviews and corrects errors on class assignments)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -8067,7 +8067,7 @@
                 "es-AR": "&lt;b&gt;Persiste en tareas con alta demanda cognitiva / de aprendizaje&lt;/b&gt; (p. ej., los deberes) &lt;b&gt;tratando de resolver las cosas, haciendo preguntas, y no abandonando la actividad.&lt;/b&gt;",
                 "en-US": "Persists on a difficult cognitive/learning task (e.g., homework) by trying to figure things out, asking questions, and not quitting.",
                 "en-GH": "&lt;b&gt;Persists on a difficult cognitive/learning task&lt;/b&gt; (e.g., homework) &lt;b&gt;by trying to figure things out, asking questions, and not quitting.&lt;/b&gt;",
-                "en": ""
+                "en": "Persists on a difficult cognitive/learning task (e.g., homework) by trying to figure things out, asking questions, and not quitting."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -8087,7 +8087,7 @@
                 "es-AR": "&lt;b&gt;Responde a preguntas o cuenta una historia sin distraerse con pequeños detalles ni perder el hilo de sus pensamientos.&lt;/b&gt;",
                 "en-US": "Answers questions or tells a story without getting distracted by small details and/or losing train of thought.",
                 "en-GH": "&lt;b&gt;Answers questions or tells a story without getting distracted by small details and/or losing train of thought.&lt;/b&gt;",
-                "en": ""
+                "en": "Answers questions or tells a story without getting distracted by small details and/or losing train of thought."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -8107,7 +8107,7 @@
                 "es-AR": "&lt;b&gt;Se detiene y piensa antes de actuar&lt;/b&gt; (p. ej., no se lanza corriendo delante de un vehículo, no toma un objeto que no debería).",
                 "en-US": "Stops and thinks before acting (e.g., does not run out in front of a car, does not grab things they shouldn't).",
                 "en-GH": "&lt;b&gt;Stops and thinks before acting&lt;/b&gt; (e.g., does not run out in front of a car, does not grab things they shouldn't).",
-                "en": ""
+                "en": "Stops and thinks before acting (e.g., does not run out in front of a car, does not grab things they shouldn't)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -8127,7 +8127,7 @@
                 "es-AR": "&lt;b&gt;Recuerda y considera todas las opciones a la hora de elegir&lt;/b&gt; (p. ej., qué hacer cuando se complica una tarea doméstica o se enfrenta a un problema, qué comida elegir).",
                 "en-US": "Remembers and considers all options when making a choice (e.g., what to do when they get stuck on a household task or face a problem, food options).",
                 "en-GH": "&lt;b&gt;Remembers and considers all options when making a choice&lt;/b&gt; (e.g., what to do when they get stuck on a household task or face a problem, food options).",
-                "en": ""
+                "en": "Remembers and considers all options when making a choice (e.g., what to do when they get stuck on a household task or face a problem, food options)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -8147,7 +8147,7 @@
                 "es-AR": "&lt;b&gt;Conecta unas ideas y experiencias con otras ideas y experiencias&lt;/b&gt; (p. ej., identifica las conexiones entre libros o películas y experiencias vividas, utiliza estrategias aprendidas en la escuela para completar actividades en casa).",
                 "en-US": "Connects ideas/experiences to other ideas/experiences (e.g., identifies connections between books/movies and lived experiences, uses strategies learned at school to complete activities at home).",
                 "en-GH": "&lt;b&gt;Connects ideas/experiences to other ideas/experiences&lt;/b&gt; (e.g., identifies connections between books/movies and lived experiences, uses strategies learned at school to complete activities at home).",
-                "en": ""
+                "en": "Connects ideas/experiences to other ideas/experiences (e.g., identifies connections between books/movies and lived experiences, uses strategies learned at school to complete activities at home)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -8167,7 +8167,7 @@
                 "es-AR": "&lt;b&gt;Inicia actividades o rutinas sin que nadie se lo pida&lt;/b&gt; (p. ej., toma la iniciativa de ayudar a un miembro de la familia, empieza las tareas domésticas diarias por su cuenta).",
                 "en-US": "Begins plans or routines without prompting (e.g., takes an initiative to help a family member, starts daily household chores on their own).",
                 "en-GH": "&lt;b&gt;Begins plans or routines without prompting&lt;/b&gt; (e.g., takes an initiative to help a family member, starts daily household chores on their own).",
-                "en": ""
+                "en": "Begins plans or routines without prompting (e.g., takes an initiative to help a family member, starts daily household chores on their own)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -8187,7 +8187,7 @@
                 "es-AR": "&lt;b&gt;Se involucra profundamente en una actividad elegida por él/ella&lt;/b&gt; (p. ej., dibujar, leer, cocinar, construir, hacer deporte, jugar).",
                 "en-US": "Gets deeply engaged in an activity they choose for themselves (e.g., drawing, reading, cooking, building, sports, games).",
                 "en-GH": "&lt;b&gt;Gets deeply engaged in an activity they choose for themselves&lt;/b&gt; (e.g., drawing, reading, cooking, building, sports, games).",
-                "en": ""
+                "en": "Gets deeply engaged in an activity they choose for themselves (e.g., drawing, reading, cooking, building, sports, games)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -8207,7 +8207,7 @@
                 "es-AR": "&lt;b&gt;Recuerda direcciones, patrones y ubicación de las cosas&lt;/b&gt; (p. ej., conoce las rutas para caminar, encuentra las cosas en una tienda de comestibles, es hábil buscando un objeto perdido o jugando al escondite).",
                 "en-US": "Remembers physical directions, patterns, and where things are (e.g., knows walking routes, finds things in a grocery store, good at searching for a lost item or playing hide-and-seek).",
                 "en-GH": "&lt;b&gt;Remembers physical directions, patterns, and where things are&lt;/b&gt; (e.g., knows walking routes, finds things in a grocery store, good at searching for a lost item or playing hide-and-seek).",
-                "en": ""
+                "en": "Remembers physical directions, patterns, and where things are (e.g., knows walking routes, finds things in a grocery store, good at searching for a lost item or playing hide-and-seek)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -8227,7 +8227,7 @@
                 "es-AR": "&lt;b&gt;Adapta su comportamiento en función de lo que requiere la situación&lt;/b&gt; (p. ej., cambia de personaje o papel en un juego, cambia su comportamiento en función a que se encuentra en tiempo de juego o tiempo de estudio).",
                 "en-US": "Adapts behavior based on what is required by the situation (e.g., switches characters/roles while playing a game, changes behavior based on playtime or study time).",
                 "en-GH": "&lt;b&gt;Adapts behavior based on what is required by the situation&lt;/b&gt; (e.g., switches characters/roles while playing a game, changes behavior based on playtime or study time).",
-                "en": ""
+                "en": "Adapts behavior based on what is required by the situation (e.g., switches characters/roles while playing a game, changes behavior based on playtime or study time)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -8247,7 +8247,7 @@
                 "es-AR": "&lt;b&gt;Negocia con sus compañeros e incorpora sus sugerencias evitando conflicto o resistencia&lt;/b&gt; (p. ej., trabaja con los otros para acordar los personajes que cada uno asume durante un juego de roles, negocia con un hermano cómo completar juntos las tareas del hogar).",
                 "en-US": "Negotiates and incorporates peers' suggestions without conflict or resistance (e.g., works with others to plan roles during pretend play, negotiates with sibling about how to complete chores together).",
                 "en-GH": "&lt;b&gt;Negotiates and incorporates peers' suggestions without conflict or resistance&lt;/b&gt; (e.g., works with others to plan roles during pretend play, negotiates with sibling about how to complete chores together).",
-                "en": ""
+                "en": "Negotiates and incorporates peers' suggestions without conflict or resistance (e.g., works with others to plan roles during pretend play, negotiates with sibling about how to complete chores together)."
               },
               "showNumber": false,
               "choicesFromQuestion": "ChildEFQ1",
@@ -8274,7 +8274,7 @@
             "es-AR": "&lt;block&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;En esta sección se le pregunta por su entorno en el hogar.",
             "en-US": "This section asks about your home environment.",
             "en-GH": "&lt;block&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;This section asks about your home environment.",
-            "en": ""
+            "en": "This section asks about your home environment."
           }
         },
         {
@@ -8339,7 +8339,7 @@
                     "es-AR": "20 o más",
                     "en-US": "20 or more",
                     "en-GH": "20 or more",
-                    "en": ""
+                    "en": "20 or more"
                   }
                 }
               ],
@@ -8450,7 +8450,7 @@
                     "es-AR": "Nada de influencia",
                     "en-US": "Never",
                     "en-GH": "Never",
-                    "en": ""
+                    "en": "Never"
                   }
                 }
               ],
@@ -8484,7 +8484,7 @@
                 "es-AR": "horas al día",
                 "en-US": "hours per day",
                 "en-GH": "hours per day",
-                "en": ""
+                "en": "hours per day"
               }
             },
             {
@@ -8526,7 +8526,7 @@
                 "es-AR": "No",
                 "en-US": "No",
                 "en-GH": "No",
-                "en": ""
+                "en": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -8621,7 +8621,7 @@
                     "es-AR": "Una vez al año o menos",
                     "en-US": "Once a year or less",
                     "en-GH": "Once a year or less",
-                    "en": ""
+                    "en": "Once a year or less"
                   }
                 }
               ],
@@ -8732,7 +8732,7 @@
                     "es-AR": "Nada de influencia",
                     "en-US": "Never",
                     "en-GH": "Never",
-                    "en": ""
+                    "en": "Never"
                   }
                 }
               ],
@@ -8843,7 +8843,7 @@
                     "es-AR": "Nada de influencia",
                     "en-US": "Never",
                     "en-GH": "Never",
-                    "en": ""
+                    "en": "Never"
                   }
                 }
               ],
@@ -8924,7 +8924,7 @@
                     "es-AR": "Casi nunca",
                     "en-US": "Hardly ever",
                     "en-GH": "Hardly ever",
-                    "en": ""
+                    "en": "Hardly ever"
                   }
                 }
               ],
@@ -8969,7 +8969,7 @@
                 "es-AR": "No",
                 "en-US": "No",
                 "en-GH": "No",
-                "en": ""
+                "en": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -9013,7 +9013,7 @@
                 "es-AR": "No",
                 "en-US": "No",
                 "en-GH": "No",
-                "en": ""
+                "en": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -9108,7 +9108,7 @@
                     "es-AR": "Nada de influencia",
                     "en-US": "Never",
                     "en-GH": "Never",
-                    "en": ""
+                    "en": "Never"
                   }
                 }
               ],
@@ -9129,7 +9129,7 @@
                 "es-AR": "A veces los niños(as) se enfadan tanto con sus padres que dicen cosas como te odio o dicen palabrotas en medio de un rabieta. Si su niño(a) le dijera te odio o le ofendiera, usted...",
                 "en-US": "Sometimes children get so angry at their parents that they say things like I hate you or swear in a temper tantrum. If your child said something like I hate you or swore at you, would you...",
                 "en-GH": "Sometimes children get so angry at their parents that they say things like I hate you or swear in a temper tantrum. If your child said something like I hate you or swore at you, would you...",
-                "en": ""
+                "en": "Sometimes children get so angry at their parents that they say things like I hate you or swear in a temper tantrum. If your child said something like I hate you or swore at you, would you..."
               },
               "showQuestionNumbers": "off",
               "elements": [
@@ -9172,7 +9172,7 @@
                     "es-AR": "No",
                     "en-US": "No",
                     "en-GH": "No",
-                    "en": ""
+                    "en": "No"
                   },
                   "valueTrue": "Yes",
                   "valueFalse": "No"
@@ -9216,7 +9216,7 @@
                     "es-AR": "No",
                     "en-US": "No",
                     "en-GH": "No",
-                    "en": ""
+                    "en": "No"
                   },
                   "valueTrue": "Yes",
                   "valueFalse": "No"
@@ -9260,7 +9260,7 @@
                     "es-AR": "No",
                     "en-US": "No",
                     "en-GH": "No",
-                    "en": ""
+                    "en": "No"
                   },
                   "valueTrue": "Yes",
                   "valueFalse": "No"
@@ -9304,7 +9304,7 @@
                     "es-AR": "No",
                     "en-US": "No",
                     "en-GH": "No",
-                    "en": ""
+                    "en": "No"
                   },
                   "valueTrue": "Yes",
                   "valueFalse": "No"
@@ -9348,7 +9348,7 @@
                     "es-AR": "No",
                     "en-US": "No",
                     "en-GH": "No",
-                    "en": ""
+                    "en": "No"
                   },
                   "valueTrue": "Yes",
                   "valueFalse": "No"
@@ -9392,7 +9392,7 @@
                     "es-AR": "No",
                     "en-US": "No",
                     "en-GH": "No",
-                    "en": ""
+                    "en": "No"
                   },
                   "valueTrue": "Yes",
                   "valueFalse": "No"
@@ -9436,7 +9436,7 @@
                     "es-AR": "No",
                     "en-US": "No",
                     "en-GH": "No",
-                    "en": ""
+                    "en": "No"
                   },
                   "valueTrue": "Yes",
                   "valueFalse": "No"
@@ -9480,7 +9480,7 @@
                     "es-AR": "No",
                     "en-US": "No",
                     "en-GH": "No",
-                    "en": ""
+                    "en": "No"
                   },
                   "valueTrue": "Yes",
                   "valueFalse": "No"
@@ -9524,7 +9524,7 @@
                     "es-AR": "No",
                     "en-US": "No",
                     "en-GH": "No",
-                    "en": ""
+                    "en": "No"
                   },
                   "valueTrue": "Yes",
                   "valueFalse": "No"
@@ -9544,7 +9544,7 @@
                     "es-AR": "Otra acción, especifique cuál",
                     "en-US": "Other, please specify",
                     "en-GH": "Other, please specify",
-                    "en": ""
+                    "en": "Other, please specify"
                   }
                 }
               ]
@@ -9651,7 +9651,7 @@
                     "es-AR": "Casi nunca",
                     "en-US": "Almost never",
                     "en-GH": "Almost never",
-                    "en": ""
+                    "en": "Almost never"
                   }
                 }
               ],
@@ -9747,7 +9747,7 @@
                     "es-AR": "Casi nunca",
                     "en-US": "Almost never",
                     "en-GH": "Almost never",
-                    "en": ""
+                    "en": "Almost never"
                   }
                 }
               ],
@@ -9843,7 +9843,7 @@
                     "es-AR": "Casi nunca",
                     "en-US": "Almost never",
                     "en-GH": "Almost never",
-                    "en": ""
+                    "en": "Almost never"
                   }
                 }
               ],
@@ -9888,7 +9888,7 @@
                 "es-AR": "No",
                 "en-US": "No",
                 "en-GH": "No",
-                "en": ""
+                "en": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -9983,7 +9983,7 @@
                     "es-AR": "Nada de influencia",
                     "en-US": "Never",
                     "en-GH": "Never",
-                    "en": ""
+                    "en": "Never"
                   }
                 }
               ],
@@ -10028,7 +10028,7 @@
                 "es-AR": "No",
                 "en-US": "No",
                 "en-GH": "No",
-                "en": ""
+                "en": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -10072,7 +10072,7 @@
                 "es-AR": "No",
                 "en-US": "No",
                 "en-GH": "No",
-                "en": ""
+                "en": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -10167,7 +10167,7 @@
                     "es-AR": "Nada de influencia",
                     "en-US": "Never",
                     "en-GH": "Never",
-                    "en": ""
+                    "en": "Never"
                   }
                 }
               ],
@@ -10263,7 +10263,7 @@
                     "es-AR": "Casi nunca",
                     "en-US": "Almost never",
                     "en-GH": "Almost never",
-                    "en": ""
+                    "en": "Almost never"
                   }
                 }
               ],
@@ -10359,7 +10359,7 @@
                     "es-AR": "Casi nunca",
                     "en-US": "Almost never",
                     "en-GH": "Almost never",
-                    "en": ""
+                    "en": "Almost never"
                   }
                 }
               ],
@@ -10455,7 +10455,7 @@
                     "es-AR": "Casi nunca",
                     "en-US": "Almost never",
                     "en-GH": "Almost never",
-                    "en": ""
+                    "en": "Almost never"
                   }
                 }
               ],
@@ -10551,7 +10551,7 @@
                     "es-AR": "Casi nunca",
                     "en-US": "Almost never",
                     "en-GH": "Almost never",
-                    "en": ""
+                    "en": "Almost never"
                   }
                 }
               ],
@@ -10647,7 +10647,7 @@
                     "es-AR": "Casi nunca",
                     "en-US": "Almost never",
                     "en-GH": "Almost never",
-                    "en": ""
+                    "en": "Almost never"
                   }
                 }
               ],
@@ -10743,7 +10743,7 @@
                     "es-AR": "Casi nunca",
                     "en-US": "Almost never",
                     "en-GH": "Almost never",
-                    "en": ""
+                    "en": "Almost never"
                   }
                 }
               ],
@@ -10894,7 +10894,7 @@
                 "es-AR": "rabia hacia su niño(a)?",
                 "en-US": "angry with your child?",
                 "en-GH": "angry with your child?",
-                "en": ""
+                "en": "angry with your child?"
               }
             }
           ]
@@ -11132,7 +11132,7 @@
                 "es-AR": "Trato a mi niño(a) con delicadeza y amabilidad.",
                 "en-US": "I treat my child gently and kindly.",
                 "en-GH": "I treat my child gently and kindly.",
-                "en": ""
+                "en": "I treat my child gently and kindly."
               }
             }
           ]
@@ -11156,7 +11156,7 @@
             "es-AR": "Todos los adultos utilizan ciertos métodos para enseñar a los niños(as) el comportamiento correcto o para abordar un problema de comportamiento. Por favor, lea los siguientes métodos y, para cada uno, seleccione si usted u otra persona de su hogar lo ha utilizado con este niño(a) en el &lt;b&gt;último mes&lt;/b&gt;.",
             "en-US": "All adults use certain ways to teach children the right behavior or to address a behavior problem. Please read the following methods that are used and select whether you or anyone else in your household has used this with your child in the past month.",
             "en-GH": "All adults use certain ways to teach children the right behavior or to address a behavior problem. Please read the following methods that are used and select whether you or anyone else in your household has used this with your child in the &lt;b&gt;past month&lt;/b&gt;.",
-            "en": ""
+            "en": "All adults use certain ways to teach children the right behavior or to address a behavior problem. Please read the following methods that are used and select whether you or anyone else in your household has used this with your child in the past month."
           },
           "showQuestionNumbers": "off",
           "elements": [
@@ -11198,7 +11198,7 @@
                 "es-AR": "No",
                 "en-US": "No",
                 "en-GH": "No",
-                "en": ""
+                "en": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -11241,7 +11241,7 @@
                 "es-AR": "No",
                 "en-US": "No",
                 "en-GH": "No",
-                "en": ""
+                "en": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -11284,7 +11284,7 @@
                 "es-AR": "No",
                 "en-US": "No",
                 "en-GH": "No",
-                "en": ""
+                "en": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -11327,7 +11327,7 @@
                 "es-AR": "No",
                 "en-US": "No",
                 "en-GH": "No",
-                "en": ""
+                "en": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"
@@ -11370,7 +11370,7 @@
                 "es-AR": "No",
                 "en-US": "No",
                 "en-GH": "No",
-                "en": ""
+                "en": "No"
               },
               "valueTrue": "Yes",
               "valueFalse": "No"

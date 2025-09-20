@@ -17,7 +17,7 @@
             "es-AR": "&lt;b&gt;&lt;font face=Verdana size=4&gt;This is Part B of the survey.&lt;/b&gt;&lt;br&gt; &lt;br&gt; &lt;p&gt;&lt;font face=Verdana size=4&gt;In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. &lt;br&gt;&lt;br&gt;If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. &lt;br&gt;&lt;br&gt;When you are ready to begin, select the “Next” button. &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;Thank you!",
             "en-US": "This is Part B of the survey. In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. When you are ready to begin, select the “Next” button. Thank you!",
             "en-GH": "&lt;b&gt;&lt;font face=Verdana size=4&gt;This is Part B of the survey.&lt;/b&gt;&lt;br&gt; &lt;br&gt; &lt;p&gt;&lt;font face=Verdana size=4&gt;In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. &lt;br&gt;&lt;br&gt;If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. &lt;br&gt;&lt;br&gt;When you are ready to begin, select the “Next” button. &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;Thank you!",
-            "en": ""
+            "en": "This is Part B of the survey. In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. When you are ready to begin, select the “Next” button. Thank you!"
           }
         }
       ]
@@ -38,7 +38,7 @@
             "es-AR": "¿En cuántos de los salones donde usted enseña hay estudiantes que participen en este proyecto?",
             "en-US": "How many classrooms do you teach that contain students participating in this research project?",
             "en-GH": "How many classrooms do you teach that contain students participating in this research project?",
-            "en": ""
+            "en": "How many classrooms do you teach that contain students participating in this research project?"
           },
           "showNumber": false,
           "choices": [
@@ -87,7 +87,7 @@
             "es-AR": "No",
             "en-US": "No",
             "en-GH": "No",
-            "en": ""
+            "en": "No"
           },
           "valueTrue": "Yes",
           "valueFalse": "No"
@@ -119,7 +119,7 @@
             "es-AR": "número de estudiantes",
             "en-US": "number of students",
             "en-GH": "number of students",
-            "en": ""
+            "en": "number of students"
           }
         },
         {
@@ -135,7 +135,7 @@
             "es-AR": "¿Cuántos niños de cada género hay en esta clase?",
             "en-US": "How many children of each gender are in this class?",
             "en-GH": "How many children of each gender are in this class?",
-            "en": ""
+            "en": "How many children of each gender are in this class?"
           },
           "showNumber": false,
           "items": [
@@ -163,7 +163,7 @@
                 "es-AR": "Niñas",
                 "en-US": "Girls",
                 "en-GH": "Girls",
-                "en": ""
+                "en": "Girls"
               }
             },
             {
@@ -190,7 +190,7 @@
                 "es-AR": "Niños",
                 "en-US": "Boys",
                 "en-GH": "Boys",
-                "en": ""
+                "en": "Boys"
               }
             },
             {
@@ -217,7 +217,7 @@
                 "es-AR": "No binario",
                 "en-US": "Nonbinary",
                 "en-GH": "Nonbinary",
-                "en": ""
+                "en": "Nonbinary"
               }
             },
             {
@@ -244,7 +244,7 @@
                 "es-AR": "Otro",
                 "en-US": "Other",
                 "en-GH": "Other",
-                "en": ""
+                "en": "Other"
               }
             }
           ],
@@ -263,7 +263,7 @@
             "es-AR": "A hoy, ¿cuántos niños(as) de este salón se ubican en los siguientes rangos de edad?",
             "en-US": "As of today's date, how many children in this class are each of the following age levels?",
             "en-GH": "As of today's date, how many children in this class are each of the following age levels?",
-            "en": ""
+            "en": "As of today's date, how many children in this class are each of the following age levels?"
           },
           "showNumber": false,
           "items": [
@@ -291,7 +291,7 @@
                 "es-AR": "5 años o menos",
                 "en-US": "5 years old or younger",
                 "en-GH": "5 years old or younger",
-                "en": ""
+                "en": "5 years old or younger"
               }
             },
             {
@@ -318,7 +318,7 @@
                 "es-AR": "6 años",
                 "en-US": "6 years old",
                 "en-GH": "6 years old",
-                "en": ""
+                "en": "6 years old"
               }
             },
             {
@@ -345,7 +345,7 @@
                 "es-AR": "7 años",
                 "en-US": "7 years old",
                 "en-GH": "7 years old",
-                "en": ""
+                "en": "7 years old"
               }
             },
             {
@@ -372,7 +372,7 @@
                 "es-AR": "8 años",
                 "en-US": "8 years old",
                 "en-GH": "8 years old",
-                "en": ""
+                "en": "8 years old"
               }
             },
             {
@@ -399,7 +399,7 @@
                 "es-AR": "9 años",
                 "en-US": "9 years old",
                 "en-GH": "9 years old",
-                "en": ""
+                "en": "9 years old"
               }
             },
             {
@@ -426,7 +426,7 @@
                 "es-AR": "10 años",
                 "en-US": "10 years old",
                 "en-GH": "10 years old",
-                "en": ""
+                "en": "10 years old"
               }
             },
             {
@@ -453,7 +453,7 @@
                 "es-AR": "11 años",
                 "en-US": "11 years old",
                 "en-GH": "11 years old",
-                "en": ""
+                "en": "11 years old"
               }
             },
             {
@@ -480,7 +480,7 @@
                 "es-AR": "12 años",
                 "en-US": "12 years old",
                 "en-GH": "12 years old",
-                "en": ""
+                "en": "12 years old"
               }
             },
             {
@@ -507,7 +507,7 @@
                 "es-AR": "13 años o más",
                 "en-US": "13 years old or older",
                 "en-GH": "13 years old or older",
-                "en": ""
+                "en": "13 years old or older"
               }
             }
           ],
@@ -549,7 +549,7 @@
             "es-AR": "No",
             "en-US": "No",
             "en-GH": "No",
-            "en": ""
+            "en": "No"
           },
           "valueTrue": "Yes",
           "valueFalse": "No"
@@ -724,7 +724,7 @@
                 "es-AR": "Octavo grado",
                 "en-US": "8th Grade",
                 "en-GH": "8th Grade",
-                "en": ""
+                "en": "8th Grade"
               }
             }
           ],
@@ -744,7 +744,7 @@
             "es-AR": "¿En qué grado enseña?",
             "en-US": "What grade level do you teach?",
             "en-GH": "What grade level do you teach?",
-            "en": ""
+            "en": "What grade level do you teach?"
           },
           "showNumber": false,
           "clearIfInvisible": "onHidden",
@@ -892,7 +892,7 @@
                 "es-AR": "Vietnamita",
                 "en-US": "Vietnamese",
                 "en-GH": "Vietnamese",
-                "en": ""
+                "en": "Vietnamese"
               }
             }
           ],
@@ -911,7 +911,7 @@
             "es-AR": "¿Qué idiomas hablan usted o su docente asistente &lt;b&gt;en el aula de clase?&lt;/b&gt;",
             "en-US": "What languages do you or your assistant teacher speak in the classroom (select all that apply)?",
             "en-GH": "What languages do you or your assistant teacher speak &lt;b&gt;in the classroom&lt;/b&gt; (select all that apply)?",
-            "en": ""
+            "en": "What languages do you or your assistant teacher speak in the classroom (select all that apply)?"
           },
           "showNumber": false,
           "choicesFromQuestion": "TeacherLanguageStudents"
@@ -943,7 +943,7 @@
             "es-AR": "Número de niños(as)",
             "en-US": "number of children",
             "en-GH": "number of children",
-            "en": ""
+            "en": "number of children"
           }
         },
         {
@@ -973,7 +973,7 @@
             "es-AR": "Número de niños(as)",
             "en-US": "number of children",
             "en-GH": "number of children",
-            "en": ""
+            "en": "number of children"
           }
         },
         {
@@ -1003,7 +1003,7 @@
             "es-AR": "Número de niños(as)",
             "en-US": "number of children",
             "en-GH": "number of children",
-            "en": ""
+            "en": "number of children"
           }
         },
         {
@@ -1033,7 +1033,7 @@
             "es-AR": "Número de niños(as)",
             "en-US": "number of children",
             "en-GH": "number of children",
-            "en": ""
+            "en": "number of children"
           }
         },
         {
@@ -1195,7 +1195,7 @@
                 "es-AR": "Más de 90 minutos al día",
                 "en-US": "More than 90 minutes a day",
                 "en-GH": "More than 90 minutes a day",
-                "en": ""
+                "en": "More than 90 minutes a day"
               }
             }
           ],
@@ -1286,7 +1286,7 @@
                 "es-AR": "A diario",
                 "en-US": "Daily",
                 "en-GH": "Daily",
-                "en": ""
+                "en": "Daily"
               }
             }
           ],
@@ -1363,7 +1363,7 @@
                 "es-AR": "Más de 90 minutos al día",
                 "en-US": "More than 90 minutes a day",
                 "en-GH": "More than 90 minutes a day",
-                "en": ""
+                "en": "More than 90 minutes a day"
               }
             }
           ],
@@ -1382,7 +1382,7 @@
             "es-AR": "Piense en las familias de los niños(as) de esta clase a quienes usted ha dado clase este año escolar. ¿Aproximadamente para cuántas familias es cierta cada una de las siguientes afirmaciones?",
             "en-US": "Think about the families of the children in this class who you have taught this school year. For about how many families are each of the following statements true?",
             "en-GH": "Think about the families of the children in this class who you have taught this school year. For about how many families are each of the following statements true?",
-            "en": ""
+            "en": "Think about the families of the children in this class who you have taught this school year. For about how many families are each of the following statements true?"
           },
           "showQuestionNumbers": "off",
           "elements": [
@@ -1455,7 +1455,7 @@
                     "es-AR": "Todas o casi todas",
                     "en-US": "All or almost all",
                     "en-GH": "All or almost all",
-                    "en": ""
+                    "en": "All or almost all"
                   }
                 }
               ],
@@ -1530,7 +1530,7 @@
                     "es-AR": "Todas o casi todas",
                     "en-US": "All or almost all",
                     "en-GH": "All or almost all",
-                    "en": ""
+                    "en": "All or almost all"
                   }
                 }
               ],
@@ -1551,7 +1551,7 @@
             "es-AR": "Por favor, indique cuán satisfecho(a) o insatisfecho(a) ha estado usted este año escolar con los siguientes aspectos.",
             "en-US": "Please indicate how satisfied or dissatisfied you have been with the following this school year.",
             "en-GH": "Please indicate how satisfied or dissatisfied you have been with the following this school year.",
-            "en": ""
+            "en": "Please indicate how satisfied or dissatisfied you have been with the following this school year."
           },
           "showQuestionNumbers": "off",
           "elements": [
@@ -1638,7 +1638,7 @@
                     "es-AR": "Absolutamente satisfecho",
                     "en-US": "Very satisfied",
                     "en-GH": "Very satisfied",
-                    "en": ""
+                    "en": "Very satisfied"
                   }
                 }
               ],
@@ -1727,7 +1727,7 @@
                     "es-AR": "Absolutamente satisfecho",
                     "en-US": "Very satisfied",
                     "en-GH": "Very satisfied",
-                    "en": ""
+                    "en": "Very satisfied"
                   }
                 }
               ],

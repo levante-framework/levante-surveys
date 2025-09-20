@@ -17,7 +17,7 @@
             "es-AR": "&lt;b&gt;&lt;font face=Verdana size=4&gt;¡Gracias por tomarse el tiempo (~10 minutos) para responder a esta encuesta!&lt;/b&gt;&lt;br&gt; &lt;br&gt; &lt;p&gt;&lt;font face=Verdana size=4&gt;Algunos estudiantes a los que enseñas están participando en un proyecto de investigación sobre cómo los niños aprenden y se desarrollan. Tus respuestas en esta encuesta deben aplicarse a tu aula, escuela y creencias profesionales en lugar de a un niño en específico. &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;Esta encuesta tiene dos partes: Parte A y Parte B.&lt;/b&gt;&lt;br&gt; &lt;br&gt; &lt;p&gt;&lt;font face=Verdana size=4&gt;En la Parte A, las preguntas se relacionan con tus antecedentes y creencias. &lt;br&gt;&lt;br&gt;En la Parte B, las preguntas son específicas del aula. Si enseñas a más de una clase de estudiantes incluidos en este proyecto, deberás completar la Parte B por separado para cada aula. &lt;br&gt;&lt;br&gt;Si enseñas una sola materia, por favor completa las preguntas que se relacionen con otras materias lo mejor que puedas o consulta con un colega para esos detalles. &lt;br&gt;&lt;br&gt;¡Gracias por tu participación! Tus respuestas proporcionan un conocimiento invaluable sobre la educación de tus estudiantes. &lt;br&gt;&lt;br&gt;Cuando estés listo para comenzar, selecciona el botón “Comenzar Encuesta”. &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;¡Gracias!",
             "en-US": "Thank you for taking the time (~10 minutes) to respond to this survey! Some students who you teach are participating in a research project studying how children learn and develop. Your responses in this survey should apply to your classroom, school, and professional beliefs rather than to any one specific child. This survey has two parts: Part A and Part B. In Part A, the questions relate to your background and beliefs. In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. Thank you for your participation! Your responses provide invaluable insight into the education of your students. When you are ready to begin, select the “Start Survey” button. Thank you!",
             "en-GH": "&lt;b&gt;&lt;font face=Verdana size=4&gt;Thank you for taking the time (~10 minutes) to respond to this survey!&lt;/b&gt;&lt;br&gt; &lt;br&gt; &lt;p&gt;&lt;font face=Verdana size=4&gt;Some students who you teach are participating in a research project studying how children learn and develop. Your responses in this survey should apply to your classroom, school, and professional beliefs rather than to any one specific child. &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;This survey has two parts: Part A and Part B.&lt;/b&gt;&lt;br&gt; &lt;br&gt; &lt;p&gt;&lt;font face=Verdana size=4&gt;In Part A, the questions relate to your background and beliefs. &lt;br&gt;&lt;br&gt;In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. &lt;br&gt;&lt;br&gt;If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. &lt;br&gt;&lt;br&gt;Thank you for your participation! Your responses provide invaluable insight into the education of your students. &lt;br&gt;&lt;br&gt;When you are ready to begin, select the “Start Survey” button. &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;Thank you!",
-            "en": ""
+            "en": "Thank you for taking the time (~10 minutes) to respond to this survey! Some students who you teach are participating in a research project studying how children learn and develop. Your responses in this survey should apply to your classroom, school, and professional beliefs rather than to any one specific child. This survey has two parts: Part A and Part B. In Part A, the questions relate to your background and beliefs. In Part B the questions are classroom specific. If you teach more than one class of students included in this project, you will complete Part B separately for each classroom. If you teach a single subject, please complete the questions that relate to other subjects to the best of your knowledge or consult with a colleague for those details only. Thank you for your participation! Your responses provide invaluable insight into the education of your students. When you are ready to begin, select the “Start Survey” button. Thank you!"
           }
         }
       ]
@@ -38,7 +38,7 @@
             "es-AR": "&lt;b&gt;&lt;font face=Verdana size=3&gt;PARTE A: &lt;/b&gt;&lt;font face=Verdana size=3&gt;Las siguientes preguntas indagan sobre tus antecedentes, la escuela donde enseñas, tus sentimientos sobre tu trabajo y tus creencias sobre la enseñanza y los niños.",
             "en-US": "PART A: The following questions ask about your background, the school where you teach, your feelings about your job, and your beliefs about teaching and children.",
             "en-GH": "&lt;b&gt;&lt;font face=Verdana size=3&gt;PART A: &lt;/b&gt;&lt;font face=Verdana size=3&gt;The following questions ask about your background, the school where you teach, your feelings about your job, and your beliefs about teaching and children.",
-            "en": ""
+            "en": "PART A: The following questions ask about your background, the school where you teach, your feelings about your job, and your beliefs about teaching and children."
           }
         },
         {
@@ -54,7 +54,7 @@
             "es-AR": "&lt;b&gt;Este grupo de preguntas indaga por sus antecedentes.&lt;/b&gt;",
             "en-US": "This set of questions asks about your background.",
             "en-GH": "&lt;b&gt;This set of questions asks about your background.&lt;/b&gt;",
-            "en": ""
+            "en": "This set of questions asks about your background."
           },
           "elements": [
             {
@@ -84,7 +84,7 @@
                 "es-AR": "Edad",
                 "en-US": "years of age",
                 "en-GH": "years of age",
-                "en": ""
+                "en": "years of age"
               }
             },
             {
@@ -157,7 +157,7 @@
                 "es-AR": "Otro, describa",
                 "en-US": "Other (please describe)",
                 "en-GH": "Other (please describe)",
-                "en": ""
+                "en": "Other (please describe)"
               },
               "allowClear": true
             },
@@ -287,7 +287,7 @@
                     "es-AR": "Grado de programa de doctorado",
                     "en-US": "Doctoral degree",
                     "en-GH": "Doctoral degree",
-                    "en": ""
+                    "en": "Doctoral degree"
                   }
                 }
               ],
@@ -448,7 +448,7 @@
                     "es-AR": "Otra. Especifique:",
                     "en-US": "Other. Please specify:",
                     "en-GH": "Other. Please specify:",
-                    "en": ""
+                    "en": "Other. Please specify:"
                   }
                 }
               ]
@@ -467,7 +467,7 @@
                 "es-AR": "Especifique otra especialidad relacionada con la educación:",
                 "en-US": "Please specify other education related major:",
                 "en-GH": "Please specify other education related major:",
-                "en": ""
+                "en": "Please specify other education related major:"
               },
               "showNumber": false
             },
@@ -485,7 +485,7 @@
                 "es-AR": "Especifique alguna especialidad no educativa:",
                 "en-US": "Please specify non-education major:",
                 "en-GH": "Please specify non-education major:",
-                "en": ""
+                "en": "Please specify non-education major:"
               },
               "showNumber": false
             },
@@ -503,7 +503,7 @@
                 "es-AR": "Especifique otra especialidad:",
                 "en-US": "Please specify other major:",
                 "en-GH": "Please specify other major:",
-                "en": ""
+                "en": "Please specify other major:"
               },
               "showNumber": false
             },
@@ -663,7 +663,7 @@
                     "es-AR": "Otra. Especifique:",
                     "en-US": "Other. Please specify:",
                     "en-GH": "Other. Please specify:",
-                    "en": ""
+                    "en": "Other. Please specify:"
                   }
                 }
               ]
@@ -682,7 +682,7 @@
                 "es-AR": "Especifique otra especialidad relacionada con la educación:",
                 "en-US": "Please specify other education related major:",
                 "en-GH": "Please specify other education related major:",
-                "en": ""
+                "en": "Please specify other education related major:"
               },
               "showNumber": false
             },
@@ -700,7 +700,7 @@
                 "es-AR": "Especifique alguna especialidad no educativa:",
                 "en-US": "Please specify non-education major:",
                 "en-GH": "Please specify non-education major:",
-                "en": ""
+                "en": "Please specify non-education major:"
               },
               "showNumber": false
             },
@@ -718,7 +718,7 @@
                 "es-AR": "Especifique otra especialidad:",
                 "en-US": "Please specify other major:",
                 "en-GH": "Please specify other major:",
-                "en": ""
+                "en": "Please specify other major:"
               },
               "showNumber": false
             },
@@ -806,7 +806,7 @@
                     "es-AR": "Más de 10 años",
                     "en-US": "Over 10 years",
                     "en-GH": "Over 10 years",
-                    "en": ""
+                    "en": "Over 10 years"
                   }
                 }
               ],
@@ -827,7 +827,7 @@
             "es-AR": "&lt;b&gt;Este grupo de preguntas indaga por el colegio en el que enseña actualmente.&lt;/b&gt;",
             "en-US": "This set of questions asks about the school where you currently teach.",
             "en-GH": "&lt;b&gt;This set of questions asks about the school where you currently teach.&lt;/b&gt;",
-            "en": ""
+            "en": "This set of questions asks about the school where you currently teach."
           },
           "elements": [
             {
@@ -843,7 +843,7 @@
                 "es-AR": "Contando este año escolar, ¿durante cuántos años ha sido docente escolar &lt;b&gt;en este colegio&lt;/b&gt;?",
                 "en-US": "Counting this school year, how many years have you been teaching at this school? (please round to the nearest year)",
                 "en-GH": "Counting this school year, how many years have you been teaching &lt;b&gt;at this school&lt;/b&gt;? (please round to the nearest year)",
-                "en": ""
+                "en": "Counting this school year, how many years have you been teaching at this school? (please round to the nearest year)"
               },
               "showNumber": false,
               "choicesFromQuestion": "TeacherYears",
@@ -1081,7 +1081,7 @@
                     "es-AR": "Los adultos que trabajan en este colegio son respetuosos y se apoyan mutuamente.",
                     "en-US": "Adults working in this school are respectful and supportive of one another.",
                     "en-GH": "Adults working in this school are respectful and supportive of one another.",
-                    "en": ""
+                    "en": "Adults working in this school are respectful and supportive of one another."
                   }
                 }
               ]
@@ -1101,7 +1101,7 @@
             "es-AR": "&lt;b&gt;Con el siguiente grupo de preguntas queremos conocer cómo se sienten los docentes con relación a su trabajo.&lt;/b&gt;",
             "en-US": "With this set of items, we wish to learn more about teachers' feelings about their job.",
             "en-GH": "&lt;b&gt;With this set of items, we wish to learn more about teachers' feelings about their job.&lt;/b&gt;",
-            "en": ""
+            "en": "With this set of items, we wish to learn more about teachers' feelings about their job."
           },
           "elements": [
             {
@@ -1401,7 +1401,7 @@
                     "es-AR": "En mi trabajo afronto los problemas emocionales con mucha calma.",
                     "en-US": "In my work, I deal with emotional problems very calmly.",
                     "en-GH": "In my work, I deal with emotional problems very calmly.",
-                    "en": ""
+                    "en": "In my work, I deal with emotional problems very calmly."
                   }
                 }
               ]
@@ -1421,7 +1421,7 @@
             "es-AR": "&lt;b&gt;El siguiente grupo de preguntas está diseñado para ayudarnos a comprender los aspectos que les generan dificultades a los docentes en sus actividades escolares.&lt;/b&gt;",
             "en-US": "This set of questions is designed to help us gain a better understanding of the kinds of things that create difficulties for teachers in their school activities.",
             "en-GH": "&lt;b&gt;This set of questions is designed to help us gain a better understanding of the kinds of things that create difficulties for teachers in their school activities.&lt;/b&gt;",
-            "en": ""
+            "en": "This set of questions is designed to help us gain a better understanding of the kinds of things that create difficulties for teachers in their school activities."
           },
           "elements": [
             {
@@ -1595,7 +1595,7 @@
                     "es-AR": "para calmar a un niño(a) problemático(a) o ruidoso(a)?",
                     "en-US": "on calming a child who is disruptive or noisy?",
                     "en-GH": "on calming a child who is disruptive or noisy?",
-                    "en": ""
+                    "en": "on calming a child who is disruptive or noisy?"
                   }
                 }
               ]
@@ -1771,7 +1771,7 @@
                     "es-AR": "elaborar buenas preguntas para los niños(as) de su(s) aula(s)?",
                     "en-US": "create good questions for children in your classroom(s)?",
                     "en-GH": "create good questions for children in your classroom(s)?",
-                    "en": ""
+                    "en": "create good questions for children in your classroom(s)?"
                   }
                 }
               ]
@@ -1791,7 +1791,7 @@
             "es-AR": "&lt;b&gt;Con el siguiente grupo de preguntas deseamos conocer las ideas y creencias de los docentes sobre los niños(as).&lt;/b&gt;",
             "en-US": "With this set of items, we wish to learn more about teachers' ideas and beliefs about children.",
             "en-GH": "&lt;b&gt;With this set of items, we wish to learn more about teachers' ideas and beliefs about children.&lt;/b&gt;",
-            "en": ""
+            "en": "With this set of items, we wish to learn more about teachers' ideas and beliefs about children."
           },
           "elements": [
             {
@@ -2091,7 +2091,7 @@
                     "es-AR": "Lo más importante que hay que enseñar a los niños(as) es la obediencia absoluta a los padres.",
                     "en-US": "The most important thing to teach children is absolute obedience to parents.",
                     "en-GH": "The most important thing to teach children is absolute obedience to parents.",
-                    "en": ""
+                    "en": "The most important thing to teach children is absolute obedience to parents."
                   }
                 }
               ]
