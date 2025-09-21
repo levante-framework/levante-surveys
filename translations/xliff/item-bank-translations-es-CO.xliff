@@ -1078,7 +1078,7 @@ Algunas preguntas te resultarán fáciles y otras difíciles. ¡No pasa nada! Es
       </trans-unit>
       <trans-unit id="51441" resname="number-identification-18" approved="yes">
         <source>Choose the 245.</source>
-        <target state="final">Escoge el 245.</target>
+        <target state="final">Escoge el,, doscientos, cuarenta y cinco.</target>
         <context-group purpose="information">
           <context context-type="source">number-identification-18
 </context>
@@ -1088,7 +1088,7 @@ Algunas preguntas te resultarán fáciles y otras difíciles. ¡No pasa nada! Es
       </trans-unit>
       <trans-unit id="51443" resname="number-identification-19" approved="yes">
         <source>Choose the 587.</source>
-        <target state="final">Escoge el 587.</target>
+        <target state="final">Escoge el quinientos ochenta y siete.</target>
         <context-group purpose="information">
           <context context-type="source">number-identification-19
 </context>
@@ -1098,7 +1098,7 @@ Algunas preguntas te resultarán fáciles y otras difíciles. ¡No pasa nada! Es
       </trans-unit>
       <trans-unit id="51445" resname="number-identification-20" approved="yes">
         <source>Choose the 731.</source>
-        <target state="final">Escoge el 731.</target>
+        <target state="final">Escoge, el,, setecientos, treinta y uno.</target>
         <context-group purpose="information">
           <context context-type="source">number-identification-20
 </context>
@@ -1108,7 +1108,7 @@ Algunas preguntas te resultarán fáciles y otras difíciles. ¡No pasa nada! Es
       </trans-unit>
       <trans-unit id="51447" resname="number-identification-21" approved="yes">
         <source>Choose the 989.</source>
-        <target state="final">Escoge el 989. </target>
+        <target state="final"> Escoge,, el,, novecientos ochenta y nueve</target>
         <context-group purpose="information">
           <context context-type="source">number-identification-21
 </context>
@@ -1199,7 +1199,7 @@ Algunas preguntas te resultarán fáciles y otras difíciles. ¡No pasa nada! Es
       </trans-unit>
       <trans-unit id="52728" resname="number-identification-31" approved="yes">
         <source>Choose the 66.</source>
-        <target state="final">Escoge el 66.</target>
+        <target state="final">Escoge, el, 66.</target>
         <context-group purpose="information">
           <context context-type="source">number-identification-31
 </context>
@@ -1244,7 +1244,8 @@ Algunas preguntas te resultarán fáciles y otras difíciles. ¡No pasa nada! Es
       </trans-unit>
       <trans-unit id="52738" resname="number-identification-36" approved="yes">
         <source>Choose the 131.</source>
-        <target state="final">Escoge el 131.</target>
+        <target state="final"> Escoge,, el ciento, treinta y uno
+</target>
         <context-group purpose="information">
           <context context-type="source">number-identification-36
 </context>
@@ -8970,6 +8971,15 @@ Algunas preguntas pueden ser fáciles para ti y algunas pueden ser difíciles. �
         <target state="final">Escoge el 8. </target>
         <context-group purpose="information">
           <context context-type="source">number-identification-42
+</context>
+          <context context-type="x-crowdin-label">math</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="150494" resname="number-identification-45">
+        <source>Choose the 3.</source>
+        <target state="needs-translation"/>
+        <context-group purpose="information">
+          <context context-type="source">number-identification-45
 </context>
           <context context-type="x-crowdin-label">math</context>
         </context-group>

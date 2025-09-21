@@ -84,6 +84,11 @@ function parseCombinedXLIFF(content) {
       const targetMatch = inner.match(/<target[^>]*>([\s\S]*?)<\/target>/i)
       let target = targetMatch ? targetMatch[1] : ''
       target = target.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+      // also capture target attributes to read state
+      const targetAttrMatch = inner.match(/<target\b([^>]*)>/i)
+      const targetAttrs = targetAttrMatch ? targetAttrMatch[1] : ''
+      const targetStateMatch = targetAttrs.match(/\bstate\s*=\s*"([^"]+)"/i)
+      const targetState = targetStateMatch ? targetStateMatch[1] : ''
       const sourceMatch = inner.match(/<source[^>]*>([\s\S]*?)<\/source>/i)
       let source = sourceMatch ? sourceMatch[1] : ''
       source = source.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
@@ -101,7 +106,7 @@ function parseCombinedXLIFF(content) {
           }
         }
       }
-      units.push({ id: unitId, resname, target, source, surveyHint })
+      units.push({ id: unitId, resname, target, source, surveyHint, targetState })
     }
 
     files.push({ original, targetLanguage, sourceLanguage, units })
@@ -126,10 +131,12 @@ function getByPath(root, pth) {
 }
 
 function applyToSurvey({ surveyJsonPath, targetLanguage, sourceLanguage, units, outPath }) {
-  const survey = JSON.parse(fs.readFileSync(surveyJsonPath, 'utf8'))
+  // Accumulate: if an updated file already exists, start from it; otherwise, start from base JSON
+  const surveyPathToRead = (outPath && fs.existsSync(outPath)) ? outPath : surveyJsonPath
+  const survey = JSON.parse(fs.readFileSync(surveyPathToRead, 'utf8'))
   const normalized = normalizeDefaultsFromValues(survey)
   if (normalized > 0) {
-    console.log(`🔧 Normalized ${normalized} items missing text.default before import in ${path.basename(surveyJsonPath)}`)
+    console.log(`🔧 Normalized ${normalized} items missing text.default before import in ${path.basename(surveyPathToRead)}`)
   }
 
   // Build a map of semantic ids (like page1.q.foo.title) -> node reference
@@ -156,16 +163,11 @@ function applyToSurvey({ surveyJsonPath, targetLanguage, sourceLanguage, units, 
     return t
   }
 
-  // Normalize text; preserve tags for HTML fields, strip for others
+  // Normalize text; preserve raw content (only decode/trim)
   function normalizeText(input, { isHtml }) {
+    if (input == null) return ''
     let t = decodeEntities(input)
-    if (!isHtml) {
-      t = t.replace(/<br\s*\/?>(?=\s|$)/gi, ' ')
-      t = t.replace(/<p\b[^>]*>/gi, ' ').replace(/<\/p>/gi, ' ')
-      t = t.replace(/<[^>]+>/g, '')
-    }
-    t = t.replace(/\s+/g, ' ').trim()
-    return t
+    return String(t).trim()
   }
 
   function isHtmlId(id) {
@@ -174,173 +176,48 @@ function applyToSurvey({ surveyJsonPath, targetLanguage, sourceLanguage, units, 
 
   for (const u of units) {
     let node = null
-    if (u.resname && idToNode.has(u.resname)) {
-      node = idToNode.get(u.resname)
+    if (u.resname) {
+      let key = u.resname
+      if (!idToNode.has(key) && idToNode.has(key + '.value')) key = key + '.value'
+      if (idToNode.has(key)) {
+        node = idToNode.get(key)
+      }
     } else if (u.id && idToNode.has(u.id)) {
       node = idToNode.get(u.id)
     } else if (u.id) {
       node = getByPath(survey, u.id)
     }
     if (node && typeof node === 'object') {
-      // Prefer non-empty target; if empty and file target==source lang, fall back to source
+      // Simple rule: use non-empty <target>. If missing and en-US with needs-translation, use <source>
+      const isEnUS = targetLanguage === 'en-US'
+      const needsTranslation = typeof u.targetState === 'string' && /needs-translation/i.test(u.targetState)
       let candidate = (u.target || '').trim()
-      if (!candidate) {
-        if (sourceLanguage && targetLanguage === sourceLanguage) {
-          candidate = (u.source || '').trim()
-        } else if (targetLanguage === 'en-US' || targetLanguage === 'en') {
-          candidate = (u.source || '').trim()
-        }
+      if (!candidate && isEnUS && needsTranslation) {
+        candidate = (u.source || '').trim()
       }
       if (!candidate) continue
       const isHtml = (u.resname && isHtmlId(u.resname)) || (u.id && isHtmlId(u.id))
-      let value = normalizeText(candidate, { isHtml })
-      // Always set the primary target key
+      const value = normalizeText(candidate, { isHtml })
+      if (!value) continue
+      // Write only the computed language
       node[targetLanguage] = value
-      // If we used fallback for English (empty target), also seed en/en-US/default
-      if ((targetLanguage === 'en' || targetLanguage === 'en-US') && (u.target || '').trim() === '' && value) {
-        node['en-US'] = value
-        node['en'] = value
-        node['default'] = value
-      }
-      // Keep English variants and default in sync
-      if (targetLanguage === 'en-US' || targetLanguage === 'en') {
-        node['en-US'] = value
-        node['en'] = value
-        node['default'] = value
-      } else if (targetLanguage === 'en-GB') {
-        // If other English regional variants appear, still ensure base 'en' exists
-        if (typeof node['en'] !== 'string' || node['en'] === '') node['en'] = value
+      // If we used en-US fallback due to needs-translation, also seed base en/default
+      if (isEnUS && needsTranslation) {
+        if (!node['en'] || String(node['en']).trim() === '') node['en'] = value
+        if (!node['default'] || String(node['default']).trim() === '') node['default'] = value
       }
       applied++
     } else {
-      // Heuristic fallback for item bank: try to match by element token in resname
-      if (u.resname) {
-        // Extract a likely element token (prefer after 'q.' or last segment)
-        const parts = u.resname.split('.')
-        const qPart = parts.find(p => p && p.startsWith('q')) || parts[parts.length - 1]
-        const token = (qPart || '').replace(/^q\.?/, '')
-        const tokenLower = token.toLowerCase()
-        if (token) {
-          // Special-case mapping for ChildSurveyIntro to the intro HTML element on the first page
-          if (token.toLowerCase() === 'childsurveyintro' && Array.isArray(survey.pages)) {
-            const firstPage = survey.pages[0]
-            if (firstPage && Array.isArray(firstPage.elements)) {
-              const introEl = firstPage.elements.find(e => e && e.type === 'html' && /childsurveyintro/i.test(e.name || ''))
-              if (introEl && introEl.html && typeof introEl.html === 'object') {
-                let candidate = (u.target || '').trim()
-                if (!candidate) {
-                  if (sourceLanguage && targetLanguage === sourceLanguage) {
-                    candidate = (u.source || '').trim()
-                  } else if (targetLanguage === 'en-US' || targetLanguage === 'en') {
-                    candidate = (u.source || '').trim()
-                  }
-                }
-                if (!candidate) { continue }
-                const value = normalizeText(candidate, { isHtml: true })
-                introEl.html[targetLanguage] = value
-                if ((targetLanguage === 'en' || targetLanguage === 'en-US') && (u.target || '').trim() === '' && value) {
-                  introEl.html['en-US'] = value
-                  introEl.html['en'] = value
-                  introEl.html['default'] = value
-                }
-                if (targetLanguage === 'en-US' || targetLanguage === 'en') {
-                  introEl.html['en-US'] = value
-                  introEl.html['en'] = value
-                  introEl.html['default'] = value
-                }
-                applied++
-                continue
-              }
-            }
-          }
-          // Special-case mapping for CaregiverSurveyIntroB in parent survey
-          if (token.toLowerCase() === 'caregiversurveyintrob' && Array.isArray(survey.pages)) {
-            // Search all pages to be robust (not only first)
-            for (const pg of survey.pages) {
-              if (!pg || !Array.isArray(pg.elements)) continue
-              const el = pg.elements.find(e => e && e.type === 'html' && /caregiversurveyintrob/i.test(e.name || ''))
-              if (el && el.html && typeof el.html === 'object') {
-                let candidate = (u.target || '').trim()
-                if (!candidate) {
-                  if (sourceLanguage && targetLanguage === sourceLanguage) {
-                    candidate = (u.source || '').trim()
-                  } else if (targetLanguage === 'en-US' || targetLanguage === 'en') {
-                    candidate = (u.source || '').trim()
-                  }
-                }
-                if (!candidate) { break }
-                const value = normalizeText(candidate, { isHtml: true })
-                el.html[targetLanguage] = value
-                if (targetLanguage === 'en-US' || targetLanguage === 'en') {
-                  el.html['en-US'] = value
-                  el.html['en'] = value
-                  el.html['default'] = value
-                }
-                applied++
-                // Found and applied; skip to next unit
-                node = null
-                break
-              }
-            }
-            if (!node) continue
-          }
-          // Find an id that contains the token
-          const matchKey = Array.from(idToNode.keys()).find(k => {
-            const kl = k.toLowerCase()
-            return kl.includes(`q.${tokenLower}`) || kl.endsWith(`.${tokenLower}`) || kl.includes(tokenLower)
-          })
-          if (matchKey) {
-            const cand = idToNode.get(matchKey)
-            if (cand && typeof cand === 'object') {
-              let candidate = (u.target || '').trim()
-              if (!candidate) {
-                if (sourceLanguage && targetLanguage === sourceLanguage) {
-                  candidate = (u.source || '').trim()
-                } else if (targetLanguage === 'en-US' || targetLanguage === 'en') {
-                  candidate = (u.source || '').trim()
-                }
-              }
-              if (!candidate) { continue }
-              const value = normalizeText(candidate, { isHtml: isHtmlId(matchKey) })
-              cand[targetLanguage] = value
-              if ((targetLanguage === 'en' || targetLanguage === 'en-US') && (u.target || '').trim() === '' && value) {
-                cand['en-US'] = value
-                cand['en'] = value
-                cand['default'] = value
-              }
-              if (targetLanguage === 'en-US' || targetLanguage === 'en') {
-                cand['en-US'] = value
-                cand['en'] = value
-                cand['default'] = value
-              }
-              applied++
-            }
-          }
-        }
-      }
+      // Disable heuristic token matching to avoid unintended overwrites
+      if (true) { continue }
+      // Heuristic mapping disabled
     }
   }
 
+  // Final pass disabled to avoid clearing English values unexpectedly
+  const resnameSource = new Map()
+
   fs.mkdirSync(path.dirname(outPath), { recursive: true })
-  // Global sanitize: strip any existing HTML from non-HTML multilingual strings
-  for (const [id, node] of idToNode.entries()) {
-    const treatAsHtml = isHtmlId(id)
-    if (node && typeof node === 'object') {
-      for (const [k, v] of Object.entries(node)) {
-        if (isLanguageKey(k) && typeof v === 'string') {
-          node[k] = normalizeText(v, { isHtml: treatAsHtml })
-        }
-      }
-      // Keep default/en synced to en-US only when non-empty
-      const enUSValue = typeof node['en-US'] === 'string' ? node['en-US'].trim() : ''
-      if (enUSValue) {
-        node['default'] = enUSValue
-        if (typeof node['en'] !== 'string' || node['en'].trim() === '') {
-          node['en'] = enUSValue
-        }
-      }
-    }
-  }
   fs.writeFileSync(outPath, JSON.stringify(survey, null, 2), 'utf8')
   console.log(`✅ ${path.basename(surveyJsonPath)}: Applied ${applied} translations for ${targetLanguage} → ${path.relative(projectRoot, outPath)}`)
 }
@@ -456,6 +333,20 @@ function main() {
   if (files.length === 0) {
     console.error('❌ No <file> entries found in XLIFF')
     process.exit(1)
+  }
+
+  // Derive implied locale from the input filename, e.g., en-US-surveys.xliff or item-bank-translations-en-US.xliff
+  const baseName = path.basename(inPath)
+  let impliedLang = null
+  {
+    const m = baseName.match(/(?:^|[^a-zA-Z])(en-US|en-GH|de-CH|de-DE|es-AR|es-CO|fr-CA|nl-NL)(?:[^a-zA-Z]|$)/i)
+    if (m) impliedLang = normalizeLang(m[1])
+  }
+  // If block target-language is missing or too generic (e.g., 'en'), prefer impliedLang
+  for (const f of files) {
+    if (!f.targetLanguage || /^en$/i.test(f.targetLanguage)) {
+      if (impliedLang) f.targetLanguage = impliedLang
+    }
   }
 
   for (const f of files) {
