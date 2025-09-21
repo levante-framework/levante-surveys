@@ -19,7 +19,7 @@
 <script setup lang="ts">
 import { ref, onMounted, watch, nextTick } from 'vue'
 import { SurveyCreatorComponent as SurveyCreatorVue } from 'survey-creator-vue'
-import { SurveyCreatorModel } from 'survey-creator-core'
+import { SurveyCreatorModel, CreatorThemes } from 'survey-creator-core'
 import 'survey-creator-core/survey-creator-core.css'
 import { settings as SurveySettings, slk } from 'survey-core'
 import { settings as CreatorSettings } from 'survey-creator-core'
@@ -61,15 +61,37 @@ const initializeCreator = async () => {
       }
     }
 
-    // Create SurveyCreator instance
-    creatorModel.value = new SurveyCreatorModel()
+    // Create SurveyCreator instance with options (Theme tab enabled at construction)
+    creatorModel.value = new SurveyCreatorModel({
+      showLogicTab: true,
+      showJSONEditorTab: true,
+      showTestSurveyTab: true,
+      showTranslationTab: true,
+      // Theme tab must be enabled via constructor in v2
+      // @ts-expect-error: not in older type defs
+      showThemeTab: true,
+      // Allow selecting themes in Preview as in demo
+      // @ts-expect-error
+      previewAllowSelectTheme: true
+    } as any)
 
-    // Configure creator options
+    // Ensure Creator themes are registered so the Theme tab has choices
+    try {
+      // touch CreatorThemes to ensure tree-shaking doesn’t drop presets
+      const themeNames = Object.keys(CreatorThemes || {})
+      if (themeNames.length > 0) {
+        // no-op; ensures import side-effects run
+      }
+    } catch {}
+
+    // Configure creator options (post-construction toggles)
     creatorModel.value.showLogicTab = true
     creatorModel.value.showJSONEditorTab = true
     creatorModel.value.showTestSurveyTab = true
-    // creatorModel.value.showEmbeddedSurveyTab = false // Property may not exist in newer versions
     creatorModel.value.showTranslationTab = true
+    // Allow selecting themes in Preview explicitly
+    // @ts-ignore
+    ;(creatorModel.value as any).allowChangeThemeInPreview = true
 
     // Handle survey changes
     creatorModel.value.onModified.add((sender: SurveyCreatorModel) => {

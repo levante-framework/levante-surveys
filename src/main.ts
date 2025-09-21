@@ -27,12 +27,19 @@ import Divider from 'primevue/divider'
 // PrimeIcons
 import 'primeicons/primeicons.css'
 
-// SurveyJS styles and Vue plugin
+// SurveyJS styles and Vue plugin (v2 default theme)
 import 'survey-core/survey-core.min.css'
 import 'survey-creator-core/survey-creator-core.min.css'
+// Ensure Survey and Creator theme registries are loaded so pickers have options
+import 'survey-core/themes/index'
+import 'survey-creator-core/themes/index'
 import { surveyCreatorPlugin } from 'survey-creator-vue'
 import { settings as SurveySettings, slk } from 'survey-core'
 import { settings as CreatorSettings } from 'survey-creator-core'
+// SurveyJS widgets
+import * as SurveyCore from 'survey-core'
+import * as widgets from 'surveyjs-widgets'
+import 'nouislider/dist/nouislider.css'
 
 // Apply SurveyJS license globally as early as possible
 try {
@@ -87,6 +94,20 @@ app.component('PvDivider', Divider)
 
 // Register SurveyJS Creator plugin
 app.use(surveyCreatorPlugin)
+
+// Initialize a subset of SurveyJS widgets for demo parity
+try {
+  widgets.select2?.(SurveyCore as any)
+  widgets.inputmask?.(SurveyCore as any)
+  widgets.signaturepad?.(SurveyCore as any)
+  widgets.nouislider?.(SurveyCore as any)
+  widgets.select2tagbox?.(SurveyCore as any)
+  widgets.sortablejs?.(SurveyCore as any)
+  // Skip editors that add heavy deps unless needed (ckeditor, prettycheckboxes, etc.)
+  console.log('✅ SurveyJS widgets initialized')
+} catch (e) {
+  console.warn('⚠️ Failed to init SurveyJS widgets:', (e as Error).message)
+}
 
 // Use plugins
 app.use(pinia)

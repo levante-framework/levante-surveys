@@ -140,18 +140,38 @@ function applyToSurvey({ surveyJsonPath, targetLanguage, sourceLanguage, units, 
 
   let applied = 0
 
-  // Strip all HTML tags from imported targets to keep plain text only
-  function toPlainText(input) {
+  // Decode entities helper
+  function decodeEntities(input) {
     if (input == null) return ''
     let t = String(input)
-    // Normalize common HTML line breaks before stripping tags
-    t = t.replace(/<br\s*\/?>/gi, ' ')
-    // Remove all remaining tags
-    t = t.replace(/<[^>]+>/g, '')
-    // Collapse whitespace
+    t = t
+      .replace(/&nbsp;/gi, ' ')
+      .replace(/&quot;/gi, '"')
+      .replace(/&apos;/gi, "'")
+      .replace(/&amp;/gi, '&')
+      .replace(/&lt;/gi, '<')
+      .replace(/&gt;/gi, '>')
+      .replace(/&#x([0-9a-fA-F]+);/g, (_, h) => String.fromCharCode(parseInt(h, 16)))
+      .replace(/&#(\d+);/g, (_, d) => String.fromCharCode(Number(d)))
+    return t
+  }
+
+  // Normalize text; preserve tags for HTML fields, strip for others
+  function normalizeText(input, { isHtml }) {
+    let t = decodeEntities(input)
+    if (!isHtml) {
+      t = t.replace(/<br\s*\/?>(?=\s|$)/gi, ' ')
+      t = t.replace(/<p\b[^>]*>/gi, ' ').replace(/<\/p>/gi, ' ')
+      t = t.replace(/<[^>]+>/g, '')
+    }
     t = t.replace(/\s+/g, ' ').trim()
     return t
   }
+
+  function isHtmlId(id) {
+    return typeof id === 'string' && id.toLowerCase().includes('.html')
+  }
+
   for (const u of units) {
     let node = null
     if (u.resname && idToNode.has(u.resname)) {
@@ -172,7 +192,8 @@ function applyToSurvey({ surveyJsonPath, targetLanguage, sourceLanguage, units, 
         }
       }
       if (!candidate) continue
-      let value = toPlainText(candidate)
+      const isHtml = (u.resname && isHtmlId(u.resname)) || (u.id && isHtmlId(u.id))
+      let value = normalizeText(candidate, { isHtml })
       // Always set the primary target key
       node[targetLanguage] = value
       // If we used fallback for English (empty target), also seed en/en-US/default
@@ -215,7 +236,7 @@ function applyToSurvey({ surveyJsonPath, targetLanguage, sourceLanguage, units, 
                   }
                 }
                 if (!candidate) { continue }
-                let value = toPlainText(candidate)
+                const value = normalizeText(candidate, { isHtml: true })
                 introEl.html[targetLanguage] = value
                 if ((targetLanguage === 'en' || targetLanguage === 'en-US') && (u.target || '').trim() === '' && value) {
                   introEl.html['en-US'] = value
@@ -248,7 +269,7 @@ function applyToSurvey({ surveyJsonPath, targetLanguage, sourceLanguage, units, 
                   }
                 }
                 if (!candidate) { break }
-                const value = toPlainText(candidate)
+                const value = normalizeText(candidate, { isHtml: true })
                 el.html[targetLanguage] = value
                 if (targetLanguage === 'en-US' || targetLanguage === 'en') {
                   el.html['en-US'] = value
@@ -280,7 +301,7 @@ function applyToSurvey({ surveyJsonPath, targetLanguage, sourceLanguage, units, 
                 }
               }
               if (!candidate) { continue }
-              let value = toPlainText(candidate)
+              const value = normalizeText(candidate, { isHtml: isHtmlId(matchKey) })
               cand[targetLanguage] = value
               if ((targetLanguage === 'en' || targetLanguage === 'en-US') && (u.target || '').trim() === '' && value) {
                 cand['en-US'] = value
@@ -301,12 +322,13 @@ function applyToSurvey({ surveyJsonPath, targetLanguage, sourceLanguage, units, 
   }
 
   fs.mkdirSync(path.dirname(outPath), { recursive: true })
-  // Global sanitize: strip any existing HTML from all multilingual strings
-  for (const node of idToNode.values()) {
+  // Global sanitize: strip any existing HTML from non-HTML multilingual strings
+  for (const [id, node] of idToNode.entries()) {
+    const treatAsHtml = isHtmlId(id)
     if (node && typeof node === 'object') {
       for (const [k, v] of Object.entries(node)) {
         if (isLanguageKey(k) && typeof v === 'string') {
-          node[k] = toPlainText(v)
+          node[k] = normalizeText(v, { isHtml: treatAsHtml })
         }
       }
       // Keep default/en synced to en-US only when non-empty

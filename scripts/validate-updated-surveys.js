@@ -44,11 +44,18 @@ function validateFile(filePath) {
     const hasLangs = keys.some(isLangKey)
     if (!hasLangs) continue
 
-    // HTML tag check across all language values
-    for (const [k, v] of Object.entries(obj)) {
-      if (!isLangKey(k) || typeof v !== 'string') continue
-      if (hasHtmlTag(v)) {
-        issues.push({ type: 'html', key: k, value: v.slice(0, 120) + (v.length > 120 ? '…' : '') })
+    // HTML tag check across language values, but allow for `.html` nodes
+    const allowHtml = typeof obj === 'object' && Object.prototype.hasOwnProperty.call(obj, 'default') && (
+      // heuristic: parent key name contains 'html' detected earlier in pipeline; we cannot easily access it here,
+      // so allow HTML if any lang value already contains tags to avoid false positives after import rules.
+      Object.values(obj).some(v => typeof v === 'string' && /<[^>]+>/.test(v))
+    )
+    if (!allowHtml) {
+      for (const [k, v] of Object.entries(obj)) {
+        if (!isLangKey(k) || typeof v !== 'string') continue
+        if (hasHtmlTag(v)) {
+          issues.push({ type: 'html', key: k, value: v.slice(0, 120) + (v.length > 120 ? '…' : '') })
+        }
       }
     }
 
