@@ -17,6 +17,7 @@
               <option value="local">Local (updated)</option>
               <option value="dev">Dev (levante-assets-dev)</option>
               <option value="prod">Prod (levante-assets-prod)</option>
+              <option value="draft">Draft (levante-assets-draft)</option>
             </select>
           </div>
           <button @click="createNewSurvey" class="btn btn-secondary">
@@ -55,7 +56,7 @@
         </h2>
         <h2 v-else>Survey Creator</h2>
         <div v-if="currentSurveyKey" class="creator-actions">
-          <button @click="previewSurvey" class="btn btn-outline">Preview</button>
+          <button @click="goBackToPreview" class="btn btn-outline">Back</button>
           <button @click="saveSurvey" class="btn btn-success">Save</button>
         </div>
       </div>
@@ -82,12 +83,14 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
+import { useRouter } from 'vue-router'
 import { useSurveyStore } from '@/stores/survey'
 import { type SurveyFileKey } from '@/constants/bucket'
 import SurveyCreatorComponent from '@/components/SurveyCreatorComponent.vue'
 
 const surveyStore = useSurveyStore()
 const surveyCreator = ref()
+const router = useRouter()
 
 // Computed properties from store
 const currentSurveyKey = computed(() => surveyStore.currentSurveyKey)
@@ -126,6 +129,10 @@ const loadAllSurveysAction = async (source: 'local' | 'dev' | 'prod' = selectedS
     if (source === 'local') {
       const localSurveyLoaderModule = await import('@/helpers/localSurveyLoader')
       surveysObject = await localSurveyLoaderModule.loadAllLocalSurveys()
+    } else if (source === 'draft') {
+      const remoteSurveyLoaderModule = await import('@/helpers/surveyLoader')
+      const baseUrl = 'https://storage.googleapis.com/levante-assets-draft/surveys'
+      surveysObject = await remoteSurveyLoaderModule.loadAllSurveysFromBase(baseUrl)
     } else {
       const remoteSurveyLoaderModule = await import('@/helpers/surveyLoader')
       const baseUrl = source === 'dev'
@@ -175,6 +182,11 @@ const selectSurvey = async (surveyKey: SurveyFileKey) => {
       if (selectedSource.value === 'local') {
         const localSurveyLoaderModule = await import('@/helpers/localSurveyLoader')
         const response = await localSurveyLoaderModule.loadLocalSurvey(surveyKey)
+        surveyData = response.data
+      } else if (selectedSource.value === 'draft') {
+        const remoteSurveyLoaderModule = await import('@/helpers/surveyLoader')
+        const baseUrl = 'https://storage.googleapis.com/levante-assets-draft/surveys'
+        const response = await remoteSurveyLoaderModule.loadSurveyFromBase(surveyKey, baseUrl)
         surveyData = response.data
       } else {
         const remoteSurveyLoaderModule = await import('@/helpers/surveyLoader')
@@ -238,11 +250,40 @@ const previewSurvey = () => {
   alert('Preview functionality coming soon!')
 }
 
+// Navigate back to Preview dashboard (root path)
+const goBackToPreview = () => {
+  router.push({ path: '/' })
+}
+
 // Save survey
-const saveSurvey = () => {
-  // TODO: Implement save to GCS functionality
-  console.log('Save survey:', currentSurveyJson.value)
-  alert('Save functionality coming soon!')
+const saveSurvey = async () => {
+  try {
+    if (!surveyStore.currentSurveyKey || !currentSurveyJson.value) {
+      alert('No survey selected')
+      return
+    }
+    const fileMap = {
+      PARENT_FAMILY: 'parent_survey_family.json',
+      PARENT_CHILD: 'parent_survey_child.json',
+      CHILD: 'child_survey.json',
+      TEACHER_GENERAL: 'teacher_survey_general.json',
+      TEACHER_CLASSROOM: 'teacher_survey_classroom.json'
+    } as const
+    const fileName = fileMap[surveyStore.currentSurveyKey]
+    const res = await fetch('/api/save-draft', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ fileName, json: currentSurveyJson.value })
+    })
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}))
+      throw new Error(err?.error || `HTTP ${res.status}`)
+    }
+    alert('Draft saved to levante-assets-draft/surveys')
+  } catch (e: any) {
+    console.error('Save failed', e)
+    alert(`Save failed: ${e?.message || e}`)
+  }
 }
 
 // Get survey title by key

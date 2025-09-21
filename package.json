@@ -93,7 +93,8 @@
     "test:locales:open": "npm run setup-test-surveys && cypress open --e2e --spec 'cypress/e2e/survey-locales.cy.js'",
     "test:content": "npm run setup-test-surveys && cypress run --spec 'cypress/e2e/survey-content-validation.cy.js'",
     "test:content:open": "npm run setup-test-surveys && cypress open --e2e --spec 'cypress/e2e/survey-content-validation.cy.js'",
-    "test:all": "npm run setup-test-surveys && cypress run --spec 'cypress/e2e/*.cy.js'"
+    "test:all": "npm run setup-test-surveys && cypress run --spec 'cypress/e2e/*.cy.js'",
+    "local:sync:updated": "node scripts/sync-updated-to-public.js"
   },
   "dependencies": {
     "@google-cloud/storage": "^7.16.0",
