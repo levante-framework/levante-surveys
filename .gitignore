@@ -41,3 +41,4 @@ crowdin.yml
 
 # Local cloud credentials (never commit)
 levante-assets-writer.json
+.secrets/levante-draft-writer.json
