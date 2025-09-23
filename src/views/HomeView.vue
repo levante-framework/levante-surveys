@@ -3,21 +3,29 @@
     <!-- Left Panel - Survey List -->
     <div class="left-panel">
       <div class="panel-header">
-        <h1>🔬 Survey Manager</h1>
+        <h1>🔬 Survey Manager <span class="theme-badge">Levante</span></h1>
         <p>Select a local survey to edit (updated versions with multilingual support)</p>
       </div>
 
       <div class="survey-list">
         <div class="actions">
-          <div class="btn-group">
-            <button :disabled="isLoading" class="btn btn-primary" @click="loadAllSurveysAction(selectedSource)">
-              {{ isLoading ? 'Loading...' : 'Load Surveys' }}
-            </button>
-            <select class="btn btn-primary select-right" v-model="selectedSource" @change="onSourceChange" :disabled="isLoading">
+          <div class="source-controls">
+            <label class="select-label">Location</label>
+            <select class="select-control" v-model="selectedSource" @change="onSourceChange" :disabled="isLoading">
               <option value="local">Local (updated)</option>
               <option value="dev">Dev (levante-assets-dev)</option>
               <option value="prod">Prod (levante-assets-prod)</option>
+              <option value="draft">Draft (levante-assets-draft)</option>
             </select>
+            <button :disabled="isLoading" class="btn load-btn" @click="loadAllSurveysAction(selectedSource)">
+              {{ isLoading ? 'Loading…' : 'Load Surveys' }}
+            </button>
+          </div>
+          <div class="theme-toggle">
+            <label>
+              <input type="checkbox" v-model="useLevanteTheme" />
+              <span>Use Levante theme</span>
+            </label>
           </div>
           <button @click="createNewSurvey" class="btn btn-secondary">
             New Survey
@@ -55,7 +63,7 @@
         </h2>
         <h2 v-else>Survey Creator</h2>
         <div v-if="currentSurveyKey" class="creator-actions">
-          <button @click="previewSurvey" class="btn btn-outline">Preview</button>
+          <button @click="goBackToPreview" class="btn btn-outline">Back</button>
           <button @click="saveSurvey" class="btn btn-success">Save</button>
         </div>
       </div>
@@ -81,13 +89,15 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch } from 'vue'
+import { useRouter } from 'vue-router'
 import { useSurveyStore } from '@/stores/survey'
 import { type SurveyFileKey } from '@/constants/bucket'
 import SurveyCreatorComponent from '@/components/SurveyCreatorComponent.vue'
 
 const surveyStore = useSurveyStore()
 const surveyCreator = ref()
+const router = useRouter()
 
 // Computed properties from store
 const currentSurveyKey = computed(() => surveyStore.currentSurveyKey)
@@ -101,7 +111,8 @@ const isCreatorReady = ref(false)
 const currentSurveyJson = ref<any>(null)
 
 // Source selector state
-const selectedSource = ref<'local' | 'dev' | 'prod'>('local')
+const selectedSource = ref<'local' | 'dev' | 'prod' | 'draft'>('local')
+const useLevanteTheme = ref(true)
 
 const onSourceChange = () => {
   // Clear previously cached surveys when switching source to avoid stale data
@@ -126,6 +137,10 @@ const loadAllSurveysAction = async (source: 'local' | 'dev' | 'prod' = selectedS
     if (source === 'local') {
       const localSurveyLoaderModule = await import('@/helpers/localSurveyLoader')
       surveysObject = await localSurveyLoaderModule.loadAllLocalSurveys()
+    } else if (source === 'draft') {
+      const remoteSurveyLoaderModule = await import('@/helpers/surveyLoader')
+      const baseUrl = 'https://storage.googleapis.com/levante-assets-draft/surveys'
+      surveysObject = await remoteSurveyLoaderModule.loadAllSurveysFromBase(baseUrl)
     } else {
       const remoteSurveyLoaderModule = await import('@/helpers/surveyLoader')
       const baseUrl = source === 'dev'
@@ -175,6 +190,11 @@ const selectSurvey = async (surveyKey: SurveyFileKey) => {
       if (selectedSource.value === 'local') {
         const localSurveyLoaderModule = await import('@/helpers/localSurveyLoader')
         const response = await localSurveyLoaderModule.loadLocalSurvey(surveyKey)
+        surveyData = response.data
+      } else if (selectedSource.value === 'draft') {
+        const remoteSurveyLoaderModule = await import('@/helpers/surveyLoader')
+        const baseUrl = 'https://storage.googleapis.com/levante-assets-draft/surveys'
+        const response = await remoteSurveyLoaderModule.loadSurveyFromBase(surveyKey, baseUrl)
         surveyData = response.data
       } else {
         const remoteSurveyLoaderModule = await import('@/helpers/surveyLoader')
@@ -238,11 +258,40 @@ const previewSurvey = () => {
   alert('Preview functionality coming soon!')
 }
 
+// Navigate back to Preview dashboard (root path)
+const goBackToPreview = () => {
+  router.push({ path: '/' })
+}
+
 // Save survey
-const saveSurvey = () => {
-  // TODO: Implement save to GCS functionality
-  console.log('Save survey:', currentSurveyJson.value)
-  alert('Save functionality coming soon!')
+const saveSurvey = async () => {
+  try {
+    if (!surveyStore.currentSurveyKey || !currentSurveyJson.value) {
+      alert('No survey selected')
+      return
+    }
+    const fileMap = {
+      PARENT_FAMILY: 'parent_survey_family.json',
+      PARENT_CHILD: 'parent_survey_child.json',
+      CHILD: 'child_survey.json',
+      TEACHER_GENERAL: 'teacher_survey_general.json',
+      TEACHER_CLASSROOM: 'teacher_survey_classroom.json'
+    } as const
+    const fileName = fileMap[surveyStore.currentSurveyKey]
+    const res = await fetch('/api/save-draft', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ fileName, json: currentSurveyJson.value })
+    })
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}))
+      throw new Error(err?.error || `HTTP ${res.status}`)
+    }
+    alert('Draft saved to levante-assets-draft/surveys')
+  } catch (e: any) {
+    console.error('Save failed', e)
+    alert(`Save failed: ${e?.message || e}`)
+  }
 }
 
 // Get survey title by key
@@ -258,6 +307,21 @@ const loadAllSurveys = () => loadAllSurveysAction(selectedSource.value)
 onMounted(() => {
   // Auto-load surveys on component mount
   loadAllSurveys()
+  // Apply Levante theme toggle
+  watch(useLevanteTheme, (val) => {
+    const root = document.documentElement
+    if (val) {
+      root.style.setProperty('--sjs-font-family', '"Inter", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif')
+      root.style.setProperty('--sjs-primary-backcolor', '#5C6AC4')
+      root.style.setProperty('--sjs-primary-forecolor', '#ffffff')
+      root.style.setProperty('--sjs-corner-radius', '8px')
+    } else {
+      root.style.removeProperty('--sjs-font-family')
+      root.style.removeProperty('--sjs-primary-backcolor')
+      root.style.removeProperty('--sjs-primary-forecolor')
+      root.style.removeProperty('--sjs-corner-radius')
+    }
+  }, { immediate: true })
 })
 </script>
 
@@ -272,12 +336,12 @@ onMounted(() => {
 }
 
 .left-panel {
-  width: 400px;
+  width: 320px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
-  padding: 1.5rem;
+  padding: 1rem 1rem 1.25rem 1rem; /* tighter to left edge */
   overflow-y: auto;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.08);
 }
 
 .right-panel {
@@ -295,6 +359,16 @@ onMounted(() => {
   font-size: 1.8rem;
 }
 
+.theme-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  font-size: 0.85rem;
+  border-radius: 999px;
+  background: #5C6AC4;
+  color: #fff;
+}
+
 .panel-header p {
   margin: 0 0 1.5rem 0;
   opacity: 0.9;
@@ -304,6 +378,7 @@ onMounted(() => {
   display: flex;
   gap: 0.5rem;
   margin-bottom: 1.5rem;
+  align-items: flex-end;
 }
 
 .btn {
@@ -316,15 +391,29 @@ onMounted(() => {
   flex: 1;
 }
 
-.btn-primary {
-  background: rgba(255, 255, 255, 0.2);
-  color: white;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+.source-controls { display: flex; gap: 0.5rem; align-items: flex-end; flex: 1; }
+.select-label { font-size: 0.8rem; color: #fff; opacity: 0.9; display: block; margin-bottom: 0.25rem; }
+.select-control {
+  appearance: none;
+  background: #fff;
+  color: #2c3e50;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  padding: 0.6rem 0.75rem;
+  min-width: 220px;
 }
+.select-control option { color: #2c3e50; background: #fff; }
 
-.btn-primary:hover {
-  background: rgba(255, 255, 255, 0.3);
+.load-btn {
+  background: #ffffff;
+  color: #2c3e50;
+  border: 1px solid #d0d7de;
+  width: auto;
 }
+.load-btn:hover { background: #f6f8fa; }
+
+.theme-toggle { color: #fff; margin-top: 0.5rem; }
+.theme-toggle input { margin-right: 6px; }
 
 .btn-secondary {
   background: #28a745;

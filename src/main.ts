@@ -117,3 +117,9 @@ app.use(router)
 app.mount('#app')
 
 console.log('🔬 Levante Survey Manager initialized')
+
+// Apply Levante custom CSS variables at root to affect SurveyJS v2 default theme
+document.documentElement.style.setProperty('--sjs-font-family', '"Inter", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif')
+document.documentElement.style.setProperty('--sjs-corner-radius', '8px')
+document.documentElement.style.setProperty('--sjs-primary-backcolor', '#5C6AC4')
+document.documentElement.style.setProperty('--sjs-primary-forecolor', '#ffffff')

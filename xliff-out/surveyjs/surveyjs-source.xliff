@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2">
+  <file original="surveyjs.json" source-language="en-US" datatype="plaintext">
+    <body>
+    <trans-unit id="startsurveytext" resname="" approved="yes">
+      <source xml:space="preserve"><![CDATA[Start Survey]]></source>
+    </trans-unit>
+    <trans-unit id="pageprevtext" resname="" approved="yes">
+      <source xml:space="preserve"><![CDATA[Previous]]></source>
+    </trans-unit>
+    <trans-unit id="pagenexttext" resname="" approved="yes">
+      <source xml:space="preserve"><![CDATA[Next]]></source>
+    </trans-unit>
+    <trans-unit id="completetext" resname="" approved="yes">
+      <source xml:space="preserve"><![CDATA[Finish]]></source>
+    </trans-unit>
+    </body>
+  </file>
+</xliff>
