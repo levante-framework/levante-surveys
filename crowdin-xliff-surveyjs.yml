@@ -5,7 +5,10 @@ base_path: '.'
 preserve_hierarchy: true
 files:
   - source: 'xliff-out/surveyjs/surveyjs-source.xliff'
-    translation: 'xliff-out/surveyjs/surveyjs-%locale%.xliff'
+    translation: '/main/surveys/surveyjs_%locale%.xliff'
     dest: '/surveys/surveyjs.xliff'
     branch: 'main'
+  - source: 'xliff-out/surveyjs/surveyjs-source.xliff'
+    translation: '/main/surveys/surveyjs_%locale%.xliff'
+    dest: '/main/surveys/surveyjs.xliff'
 
