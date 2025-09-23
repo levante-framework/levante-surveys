@@ -1,0 +1,14 @@
+project_id: 756721
+api_token: '161834fde81833a72996c125d9c1a1c801ae99ef15eb1d3889dfe9fbc55077aaea02b62f1e24278e'
+base_path: '.'
+
+preserve_hierarchy: true
+files:
+  - source: 'xliff-out/surveyjs/surveyjs-source.xliff'
+    translation: '/main/surveys/surveyjs_%locale%.xliff'
+    dest: '/surveys/surveyjs.xliff'
+    branch: 'main'
+  - source: 'xliff-out/surveyjs/surveyjs-source.xliff'
+    translation: '/main/surveys/surveyjs_%locale%.xliff'
+    dest: '/main/surveys/surveyjs.xliff'
+

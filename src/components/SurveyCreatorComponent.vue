@@ -82,6 +82,18 @@ const initializeCreator = async () => {
       if (themeNames.length > 0) {
         // no-op; ensures import side-effects run
       }
+      // Register a simple Levante creator theme so it appears in the dropdown
+      if (!(CreatorThemes as any)['levante']) {
+        ;(CreatorThemes as any)['levante'] = {
+          themeName: 'levante',
+          colorPalette: 'light',
+          cssVariables: {
+            '--sjs-font-family': '"Inter", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif',
+            '--sjs-primary-backcolor': '#5C6AC4',
+            '--sjs-primary-forecolor': '#ffffff'
+          }
+        }
+      }
     } catch {}
 
     // Configure creator options (post-construction toggles)
@@ -108,6 +120,17 @@ const initializeCreator = async () => {
     isReady.value = true
 
     emit('creatorReady', creatorModel.value)
+
+    // Expose Levante theme in Theme tab dropdown if available
+    try {
+      const anyCreator: any = creatorModel.value
+      if (anyCreator?.themeTab) {
+        const cur = Array.isArray(anyCreator.themeTab.availableThemes) ? anyCreator.themeTab.availableThemes : []
+        if (!cur.includes('levante')) {
+          anyCreator.themeTab.availableThemes = ['levante', ...cur]
+        }
+      }
+    } catch {}
 
     console.log('SurveyJS Creator initialized successfully')
   } catch (error) {

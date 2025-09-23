@@ -93,7 +93,16 @@
     "test:locales:open": "npm run setup-test-surveys && cypress open --e2e --spec 'cypress/e2e/survey-locales.cy.js'",
     "test:content": "npm run setup-test-surveys && cypress run --spec 'cypress/e2e/survey-content-validation.cy.js'",
     "test:content:open": "npm run setup-test-surveys && cypress open --e2e --spec 'cypress/e2e/survey-content-validation.cy.js'",
-    "test:all": "npm run setup-test-surveys && cypress run --spec 'cypress/e2e/*.cy.js'"
+    "test:all": "npm run setup-test-surveys && cypress run --spec 'cypress/e2e/*.cy.js'",
+    "local:sync:updated": "node scripts/sync-updated-to-public.js",
+    "generate:surveyjs": "node scripts/generate-standard-terms.js",
+    "xliff:export:surveyjs": "node scripts/export-xliff-from-json.js fixes/surveyjs.json --source-lang en-US",
+    "crowdin:upload:surveyjs": "node scripts/upload-xliff-source.js xliff-out/surveyjs/surveyjs-source.xliff --dest /main/surveys/surveyjs.xliff",
+    "crowdin:upload:surveyjs:translations": "node scripts/upload-xliff-translations.js",
+    "crowdin:download:surveyjs": "node scripts/download-surveyjs-translations.js",
+    "crowdin:fetch:surveyjs": "node scripts/crowdin-fetch-surveyjs.js",
+    "apply:surveyjs:terms": "node scripts/apply-surveyjs-terms.js",
+    "crowdin:download:surveyjs": "node scripts/download-surveyjs-translations.js"
   },
   "dependencies": {
     "@google-cloud/storage": "^7.16.0",

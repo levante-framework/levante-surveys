@@ -1,5 +1,33 @@
 @import './base.css';
 
+:root {
+  --sjs-font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  --sjs-primary-backcolor: #5C6AC4;
+  --sjs-primary-forecolor: #ffffff;
+  --sjs-corner-radius: 8px;
+  /* Legacy SurveyJS vars */
+  --sd-font-family: var(--sjs-font-family);
+  --sd-primary-color: #5C6AC4;
+  /* App brand */
+  --brand-primary: #5C6AC4;
+}
+
+#app, body, .sd-root, .sd-root-modern, .svc-creator {
+  font-family: var(--sjs-font-family) !important;
+}
+
+/* PrimeVue buttons and our buttons pick brand color */
+.p-button,
+.btn.btn-secondary,
+.btn.load-btn {
+  background: var(--brand-primary);
+  border-color: var(--brand-primary);
+  color: #fff;
+}
+.p-button:hover,
+.btn.load-btn:hover,
+.btn.btn-secondary:hover { filter: brightness(0.95); }
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
