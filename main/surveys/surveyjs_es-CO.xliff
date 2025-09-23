@@ -8,7 +8,7 @@
       </trans-unit>
       <trans-unit id="pageprevtext" resname="" approved="yes">
         <source xml:space="preserve"><![CDATA[Previous]]></source>
-        <target state="final"><![CDATA[Previous]]></target>
+        <target state="final"><![CDATA[Anterior]]></target>
       </trans-unit>
       <trans-unit id="pagenexttext" resname="" approved="yes">
         <source xml:space="preserve"><![CDATA[Next]]></source>
@@ -16,7 +16,7 @@
       </trans-unit>
       <trans-unit id="completetext" resname="" approved="yes">
         <source xml:space="preserve"><![CDATA[Finish]]></source>
-        <target state="final"><![CDATA[Fines]]></target>
+        <target state="final"><![CDATA[Terminar]]></target>
       </trans-unit>
     </body>
   </file>

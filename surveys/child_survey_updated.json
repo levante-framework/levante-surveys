@@ -1741,13 +1741,14 @@
   ],
   "startSurveyText": {
     "default": "Start Survey",
-    "de": "Umfrage starten",
+    "de": "Weiter",
     "es-CO": "Comenzar Encuesta",
     "en-GH": "Start Survey",
     "es-AR": "Comenzar Encuesta",
-    "de-CH": "Umfrage starten",
+    "de-CH": "Weiter",
     "fr-CA": "Démarrer le sondage",
-    "nl": "Start enquête"
+    "nl": "Start enquête",
+    "de-DE": "Weiter"
   },
   "pagePrevText": {
     "default": "Previous",
@@ -1767,7 +1768,8 @@
     "es-AR": "Siguiente",
     "de-CH": "Weiter",
     "fr-CA": "Suivant",
-    "nl": "Volgende"
+    "nl": "Volgende",
+    "de-DE": "Weiter"
   },
   "completeText": {
     "default": "Finish",
