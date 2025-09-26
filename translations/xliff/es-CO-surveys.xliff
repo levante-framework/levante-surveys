@@ -15,7 +15,7 @@ Some questions will note a specific timeframe to consider when answering. If no 
 &lt;br&gt;&lt;br&gt;
 We appreciate you answering as completely and accurately as possible with the information you have available to you. If you have questions about this survey, please reach out to the research coordinator. &lt;br&gt;&lt;br&gt;
 When you are ready to begin, select the “start survey” button. &lt;br&gt;&lt;br&gt;Thank you</source>
-        <target state="final">¡Gracias a usted y a su niño(a) por participar en este proyecto de investigación!&lt;/b&gt;&lt;br&gt; Estimamos que diligenciar la siguiente encuesta le tomará aproximadamente 40 minutos. En la encuesta se le harán preguntas sobre su niño(a).&lt;br&gt;&lt;br&gt;Si tiene más de un niño(a) y solo uno participa en el proyecto de investigación, responda a las preguntas pensando únicamente en ese niño(a). Si tiene más de un(a) niño(a) y más de uno(a) participa en el proyecto de investigación, debe diligenciar esta encuesta por separado para cada niño(a) participante. &lt;br&gt;&lt;br&gt;En algunas preguntas se indica un marco temporal específico que debe tenerse en cuenta al responder. Si no se indica ningún marco temporal, puede pensar en cómo se aplica la respuesta a usted o a su niño(a) en general.&lt;br&gt;&lt;br&gt; Le agradecemos que responda la encuesta de la forma más precisa posible con la información de que dispone. Si tiene alguna duda, comuníquesela a quien apoya esta aplicación.&lt;br&gt;&lt;br&gt;Cuando esté listo(a) para empezar, seleccione el botón \&quot;Comenzar Encuesta\&quot;.&lt;br&gt;&lt;br&gt;¡Muchas gracias</target>
+        <target state="final">¡Gracias a usted y a su niño(a) por participar en este proyecto de investigación!&lt;/b&gt;&lt;br&gt; Estimamos que diligenciar la siguiente encuesta le tomará aproximadamente 40 minutos. En la encuesta se le harán preguntas sobre su niño(a).&lt;br&gt;&lt;br&gt;Si tiene más de un niño(a) y solo uno participa en el proyecto de investigación, responda a las preguntas pensando únicamente en ese niño(a). Si tiene más de un(a) niño(a) y más de uno(a) participa en el proyecto de investigación, debe diligenciar esta encuesta por separado para cada niño(a) participante. &lt;br&gt;&lt;br&gt;En algunas preguntas se indica un marco temporal específico que debe tenerse en cuenta al responder. Si no se indica ningún marco temporal, puede pensar en cómo se aplica la respuesta a usted o a su niño(a) en general.&lt;br&gt;&lt;br&gt; Le agradecemos que responda la encuesta de la forma más precisa posible con la información de que dispone. Si tiene alguna duda, comuníquesela a quien apoya esta aplicación.&lt;br&gt;&lt;br&gt;Cuando esté listo(a) para empezar, seleccione el botón &quot;Comenzar Encuesta&quot;.&lt;br&gt;&lt;br&gt;¡Muchas gracias!</target>
         <context-group purpose="information">
           <context context-type="source">parent_survey_child.json
 introduction.q.caregiversurveyintroa.html
@@ -3535,7 +3535,7 @@ q.childbullyothers</context>
       </trans-unit>
       <trans-unit id="148690" resname="page12.q.caregiversectionintro3.html" approved="yes">
         <source>&lt;block&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;This section asks questions related to learning.</source>
-        <target state="final">&lt;block&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;This section asks questions related to learning.</target>
+        <target state="final">&lt;block&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;Esta sección hace preguntas relacionadas con el aprendizaje.</target>
         <context-group purpose="information">
           <context context-type="source">parent_survey_child.json
 page12.q.caregiversectionintro3.html
@@ -4203,7 +4203,8 @@ q.childsocialmedia</context>
       </trans-unit>
       <trans-unit id="148838" resname="page14.q.childefq.q.childefqintro.html" approved="yes">
         <source>&lt;b&gt;We are interested how often, independently, and easily your child shows each behavior when occasions call for it. Children who excel at a specific behavior should receive 4 (the highest rating), whereas most children will be between 3 and 2. Those who are still developing and need a lot of support should receive a rating of 1. &lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;4&lt;/b&gt; = Always on their own (No support needed)&lt;br&gt;&lt;br&gt;</source>
-        <target state="final">&lt;b&gt;We are interested how often, independently, and easily your child shows each behavior when occasions call for it. Children who excel at a specific behavior should receive 4 (the highest rating), whereas most children will be between 3 and 2. Those who are still developing and need a lot of support should receive a rating of 1. &lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;4&lt;/b&gt; = Always on their own (No support needed)&lt;br&gt;&lt;br&gt;</target>
+        <target state="final">&lt;b&gt;Nos interesa saber con qué frecuencia, de manera independiente, mientras que la mayoría de los niños estarán entre 3 y 2. Aquellos que todavía están desarrollándose y necesitan mucho apoyo deben recibir una calificación de 1. &lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;4&lt;/b&gt; = Siempre por sí solos (No necesitan apoyo)&lt;br&gt;&lt;br&gt;
+</target>
         <context-group purpose="information">
           <context context-type="source">parent_survey_child.json
 page14.q.childefq.q.childefqintro.html
@@ -4554,7 +4555,7 @@ q.childefq</context>
       </trans-unit>
       <trans-unit id="148916" resname="page15.q.caregiversectionintro4.html" approved="yes">
         <source>&lt;block&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;This section asks about your home environment.</source>
-        <target state="final">&lt;block&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;This section asks about your home environment.</target>
+        <target state="final">&lt;block&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;Esta sección pregunta sobre su entorno en el hogar.</target>
         <context-group purpose="information">
           <context context-type="source">parent_survey_child.json
 page15.q.caregiversectionintro4.html
@@ -6325,9 +6326,9 @@ page19.q.selfparentmics.q.selfparentmics12.labelfalse
 q.selfparentmics</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="146692" resname="startsurveytext" approved="yes">
+      <trans-unit id="146692" resname="startsurveytext">
         <source>Start Survey</source>
-        <target state="final">Start Survey</target>
+        <target state="needs-translation"/>
         <context-group purpose="information">
           <context context-type="source">parent_survey_child.json
 startsurveytext</context>
@@ -6343,7 +6344,7 @@ pageprevtext</context>
       </trans-unit>
       <trans-unit id="146696" resname="pagenexttext" approved="yes">
         <source>Next</source>
-        <target state="final">Next</target>
+        <target state="final">Siguiente</target>
         <context-group purpose="information">
           <context context-type="source">parent_survey_child.json
 pagenexttext</context>
@@ -6376,7 +6377,7 @@ Le agradecemos que responda la encuesta de la forma más precisa posible con la 
 
 Cuando esté listo(a) para empezar, seleccione el botón Comenzar Encuesta.
 
-¡Muchas gracias </target>
+¡Muchas gracias!</target>
         <context-group purpose="information">
           <context context-type="source">parent_survey_family.json
 introduction.q.caregiversurveyintrob.html
@@ -9417,7 +9418,7 @@ pageprevtext</context>
       </trans-unit>
       <trans-unit id="147376" resname="pagenexttext" approved="yes">
         <source>Next</source>
-        <target state="final">Next</target>
+        <target state="final">Siguiente</target>
         <context-group purpose="information">
           <context context-type="source">parent_survey_family.json
 pagenexttext</context>
@@ -10486,7 +10487,7 @@ q.teachercomm</context>
       </trans-unit>
       <trans-unit id="147612" resname="startsurveytext" approved="yes">
         <source>Start Survey</source>
-        <target state="final">Start Survey</target>
+        <target state="final">Iniciar encuesta</target>
         <context-group purpose="information">
           <context context-type="source">teacher_survey_classroom.json
 startsurveytext</context>
@@ -10502,7 +10503,7 @@ pageprevtext</context>
       </trans-unit>
       <trans-unit id="147616" resname="pagenexttext" approved="yes">
         <source>Next</source>
-        <target state="final">Next</target>
+        <target state="final">Siguiente</target>
         <context-group purpose="information">
           <context context-type="source">teacher_survey_classroom.json
 pagenexttext</context>
@@ -11785,7 +11786,7 @@ q.teacherideaschildren</context>
       </trans-unit>
       <trans-unit id="147900" resname="startsurveytext" approved="yes">
         <source>Start Survey</source>
-        <target state="final">Start Survey</target>
+        <target state="final">Iniciar encuesta</target>
         <context-group purpose="information">
           <context context-type="source">teacher_survey_general.json
 startsurveytext</context>
@@ -11801,7 +11802,7 @@ pageprevtext</context>
       </trans-unit>
       <trans-unit id="147904" resname="pagenexttext" approved="yes">
         <source>Next</source>
-        <target state="final">Next</target>
+        <target state="final">Siguiente</target>
         <context-group purpose="information">
           <context context-type="source">teacher_survey_general.json
 pagenexttext</context>
@@ -11813,6 +11814,60 @@ pagenexttext</context>
         <context-group purpose="information">
           <context context-type="source">teacher_survey_general.json
 completetext</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+  <file id="712" original="/main/surveys/surveyjs.xliff" source-language="en" target-language="es-CO" datatype="plaintext" project-id="756721" tool-id="crowdin">
+    <header>
+      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1"/>
+    </header>
+    <body>
+      <trans-unit id="150544" resname="startsurveytext" approved="yes">
+        <source>Start Survey</source>
+        <target state="final">Comenzar Encuesta</target>
+        <context-group purpose="information">
+          <context context-type="source">surveyjs.json
+startsurveytext</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="150546" resname="pageprevtext" approved="yes">
+        <source>Previous</source>
+        <target state="final">Anterior</target>
+        <context-group purpose="information">
+          <context context-type="source">surveyjs.json
+pageprevtext</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="150548" resname="pagenexttext" approved="yes">
+        <source>Next</source>
+        <target state="final">Siguiente</target>
+        <context-group purpose="information">
+          <context context-type="source">surveyjs.json
+pagenexttext</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="150550" resname="completetext" approved="yes">
+        <source>Finish</source>
+        <target state="final">Terminar</target>
+        <context-group purpose="information">
+          <context context-type="source">surveyjs.json
+completetext</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="150560" resname="progressText" approved="yes">
+        <source>Page {0} of {1}</source>
+        <target state="final">Página {0} de {1}</target>
+        <context-group purpose="information">
+          <context context-type="source">progressText</context>
+          <context context-type="x-crowdin-label">parent_survey_family</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="150562" resname="requiredError" approved="yes">
+        <source>Response required</source>
+        <target state="final">Por favor conteste la pregunta</target>
+        <context-group purpose="information">
+          <context context-type="source">requiredError</context>
         </context-group>
       </trans-unit>
     </body>

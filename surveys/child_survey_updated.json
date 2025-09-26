@@ -483,7 +483,7 @@
                 "de": "Magst du es, in die Schule zu gehen?",
                 "fr": "Aimez-vous l'école ?",
                 "nl": "Vind je school leuk?",
-                "es-CO": "¿Te gusta la escuela?",
+                "es-CO": "¿Te gusta la colegio?",
                 "fr-CA": "Aimez-vous l'école ?",
                 "de-CH": "Magst du es, in die Schule zu gehen?",
                 "es-AR": "¿Te gusta el colegio?",
@@ -554,15 +554,16 @@
               "name": "SchoolHappy",
               "title": {
                 "default": "Are you happy at school?",
-                "de": "glücklich",
+                "de": "Bist du glücklich in der Schule?",
                 "fr": "Êtes-vous heureux à l'école ?",
-                "nl": "Vrolijk",
-                "es-CO": "feliz",
-                "fr-CA": "heureux",
-                "de-CH": "glücklich",
-                "es-AR": "feliz",
-                "en-GH": "happy",
-                "en": ""
+                "nl": "Ben je blij op school?",
+                "es-CO": "¿Te sientes feliz en la colegio?",
+                "fr-CA": "Êtes-vous heureux à l'école ?",
+                "de-CH": "Bist du glücklich in der Schule?",
+                "es-AR": "¿Te sientes feliz en la escuela?",
+                "en-GH": "Are you happy at school?",
+                "en": "Are you happy at school?",
+                "en-US": "Are you happy at school?"
               },
               "choices": [
                 {

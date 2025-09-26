@@ -3535,7 +3535,7 @@ q.childbullyothers</context>
       </trans-unit>
       <trans-unit id="148690" resname="page12.q.caregiversectionintro3.html" approved="yes">
         <source>&lt;block&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;This section asks questions related to learning.</source>
-        <target state="final">&lt;block&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;This section asks questions related to learning.</target>
+        <target state="final">&lt;block&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;Dieser Abschnitt stellt Fragen zum Lernen.</target>
         <context-group purpose="information">
           <context context-type="source">parent_survey_child.json
 page12.q.caregiversectionintro3.html
@@ -4203,7 +4203,8 @@ q.childsocialmedia</context>
       </trans-unit>
       <trans-unit id="148838" resname="page14.q.childefq.q.childefqintro.html" approved="yes">
         <source>&lt;b&gt;We are interested how often, independently, and easily your child shows each behavior when occasions call for it. Children who excel at a specific behavior should receive 4 (the highest rating), whereas most children will be between 3 and 2. Those who are still developing and need a lot of support should receive a rating of 1. &lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;4&lt;/b&gt; = Always on their own (No support needed)&lt;br&gt;&lt;br&gt;</source>
-        <target state="final">&lt;b&gt;We are interested how often, independently, whereas most children will be between 3 and 2. Those who are still developing and need a lot of support should receive a rating of 1. &lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;4&lt;/b&gt; = Always on their own (No support needed)&lt;br&gt;&lt;br&gt;</target>
+        <target state="final">&lt;b&gt;Uns interessiert, wie oft etwas eigenständig geschieht, während die meisten Kinder zwischen 3 und 2 liegen werden. Diejenigen, die sich noch entwickeln und viel Unterstützung brauchen, sollten eine Bewertung von 1 erhalten. &lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;4&lt;/b&gt; = Immer selbstständig (Keine Unterstützung nötig)&lt;br&gt;&lt;br&gt;
+</target>
         <context-group purpose="information">
           <context context-type="source">parent_survey_child.json
 page14.q.childefq.q.childefqintro.html
@@ -4554,7 +4555,7 @@ q.childefq</context>
       </trans-unit>
       <trans-unit id="148916" resname="page15.q.caregiversectionintro4.html" approved="yes">
         <source>&lt;block&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;This section asks about your home environment.</source>
-        <target state="final">&lt;block&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;This section asks about your home environment.</target>
+        <target state="final">&lt;block&gt;&lt;b&gt;&lt;font face=Verdana size=4&gt;Dieser Abschnitt fragt nach Ihrer häuslichen Umgebung.</target>
         <context-group purpose="information">
           <context context-type="source">parent_survey_child.json
 page15.q.caregiversectionintro4.html
@@ -6327,7 +6328,7 @@ q.selfparentmics</context>
       </trans-unit>
       <trans-unit id="146692" resname="startsurveytext" approved="yes">
         <source>Start Survey</source>
-        <target state="final">Start Survey</target>
+        <target state="final">Weiter</target>
         <context-group purpose="information">
           <context context-type="source">parent_survey_child.json
 startsurveytext</context>
@@ -6343,7 +6344,7 @@ pageprevtext</context>
       </trans-unit>
       <trans-unit id="146696" resname="pagenexttext" approved="yes">
         <source>Next</source>
-        <target state="final">Next</target>
+        <target state="final">Weiter</target>
         <context-group purpose="information">
           <context context-type="source">parent_survey_child.json
 pagenexttext</context>
@@ -9394,7 +9395,7 @@ q.selfmcarthurcommunity</context>
       </trans-unit>
       <trans-unit id="147372" resname="startsurveytext" approved="yes">
         <source>Start Survey</source>
-        <target state="final">Start Survey</target>
+        <target state="final">Umfrage starten</target>
         <context-group purpose="information">
           <context context-type="source">parent_survey_family.json
 startsurveytext</context>
@@ -9410,7 +9411,7 @@ pageprevtext</context>
       </trans-unit>
       <trans-unit id="147376" resname="pagenexttext" approved="yes">
         <source>Next</source>
-        <target state="final">Next</target>
+        <target state="final">Weiter</target>
         <context-group purpose="information">
           <context context-type="source">parent_survey_family.json
 pagenexttext</context>
@@ -10493,7 +10494,7 @@ pageprevtext</context>
       </trans-unit>
       <trans-unit id="147616" resname="pagenexttext" approved="yes">
         <source>Next</source>
-        <target state="final">Next</target>
+        <target state="final">Weiter</target>
         <context-group purpose="information">
           <context context-type="source">teacher_survey_classroom.json
 pagenexttext</context>
@@ -11776,7 +11777,7 @@ q.teacherideaschildren</context>
       </trans-unit>
       <trans-unit id="147900" resname="startsurveytext" approved="yes">
         <source>Start Survey</source>
-        <target state="final">Start Survey</target>
+        <target state="final">Umfrage starten</target>
         <context-group purpose="information">
           <context context-type="source">teacher_survey_general.json
 startsurveytext</context>
@@ -11792,7 +11793,7 @@ pageprevtext</context>
       </trans-unit>
       <trans-unit id="147904" resname="pagenexttext" approved="yes">
         <source>Next</source>
-        <target state="final">Next</target>
+        <target state="final">Weiter</target>
         <context-group purpose="information">
           <context context-type="source">teacher_survey_general.json
 pagenexttext</context>
@@ -11804,6 +11805,60 @@ pagenexttext</context>
         <context-group purpose="information">
           <context context-type="source">teacher_survey_general.json
 completetext</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+  <file id="712" original="/main/surveys/surveyjs.xliff" source-language="en" target-language="de-CH" datatype="plaintext" project-id="756721" tool-id="crowdin">
+    <header>
+      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1"/>
+    </header>
+    <body>
+      <trans-unit id="150544" resname="startsurveytext" approved="yes">
+        <source>Start Survey</source>
+        <target state="final">Weiter</target>
+        <context-group purpose="information">
+          <context context-type="source">surveyjs.json
+startsurveytext</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="150546" resname="pageprevtext" approved="yes">
+        <source>Previous</source>
+        <target state="final">Previous</target>
+        <context-group purpose="information">
+          <context context-type="source">surveyjs.json
+pageprevtext</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="150548" resname="pagenexttext" approved="yes">
+        <source>Next</source>
+        <target state="final">Weiter</target>
+        <context-group purpose="information">
+          <context context-type="source">surveyjs.json
+pagenexttext</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="150550" resname="completetext" approved="yes">
+        <source>Finish</source>
+        <target state="final">Finish</target>
+        <context-group purpose="information">
+          <context context-type="source">surveyjs.json
+completetext</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="150560" resname="progressText">
+        <source>Page {0} of {1}</source>
+        <target state="needs-translation"/>
+        <context-group purpose="information">
+          <context context-type="source">progressText</context>
+          <context context-type="x-crowdin-label">parent_survey_family</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="150562" resname="requiredError">
+        <source>Response required</source>
+        <target state="needs-translation"/>
+        <context-group purpose="information">
+          <context context-type="source">requiredError</context>
         </context-group>
       </trans-unit>
     </body>

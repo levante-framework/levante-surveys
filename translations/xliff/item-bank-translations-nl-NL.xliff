@@ -13,6 +13,8 @@
 </context>
           <context context-type="x-crowdin-label">general</context>
         </context-group>
+        <note from="iliana.karipidis" priority="4">The currently approved translation is not suitable for children. Please review my suggestion:
+&quot;Bitte drehe dein Gerät, um die Aufgaben optimal zu sehen.&quot;</note>
       </trans-unit>
       <trans-unit id="52688" resname="general-device-type">
         <source>Please use a tablet in landscape mode, a desktop computer, or a laptop to complete the activities.</source>
@@ -22,6 +24,8 @@
 </context>
           <context context-type="x-crowdin-label">general</context>
         </context-group>
+        <note from="iliana.karipidis" priority="4">The currently approved translation is not directed to children. Please review my suggestion:
+&quot;Benutze bitte ein Tablet im Querformat, einen Desktop-Computer oder einen Laptop, um die Aufgaben zu lösen.&quot;</note>
       </trans-unit>
       <trans-unit id="51311" resname="general-intro1" approved="yes">
         <source>Hi! We are excited to have you play some games with us today!</source>
@@ -31,6 +35,7 @@
 </context>
           <context context-type="x-crowdin-label">general</context>
         </context-group>
+        <note from="Carolina Gattei - UTDT (Carogattei)" priority="4">Suggestion: &quot;muy contentos&quot; instead of &quot;encantados&quot; (&quot;encantados&quot; is formal and less frequent)</note>
       </trans-unit>
       <trans-unit id="51313" resname="general-intro2">
         <source>First, you get to choose a buddy to play along with you. As you complete the different games, you will get to pick an accessory like a hat or glasses to decorate your buddy.</source>
@@ -5356,6 +5361,7 @@ Some questions might be easy for you and some might be hard. That is okay! Pleas
           <context context-type="x-crowdin-label-1">vocab</context>
           <context context-type="x-crowdin-label-2">Vocabulary</context>
         </context-group>
+        <note from="Amy Lightbody (alkuhns)" priority="4">This item removed from the Spanish, Colombia item bank as of 9/25/25.</note>
       </trans-unit>
       <trans-unit id="52147" resname="vocab-item-065">
         <source>the spatula</source>
@@ -8972,6 +8978,14 @@ Some questions might be easy for you and some might be hard. That is okay! Pleas
           <context context-type="source">number-identification-45
 </context>
           <context context-type="x-crowdin-label">math</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="150570" resname="vocab-item-171">
+        <source>the colander</source>
+        <target state="needs-translation"/>
+        <context-group purpose="information">
+          <context context-type="source">vocab-item-171
+</context>
         </context-group>
       </trans-unit>
     </body>

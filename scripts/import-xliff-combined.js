@@ -187,6 +187,24 @@ function applyToSurvey({ surveyJsonPath, targetLanguage, sourceLanguage, units, 
     } else if (u.id) {
       node = getByPath(survey, u.id)
     }
+    if (!node && u && typeof u.resname === 'string' && u.resname && !u.resname.includes('.')) {
+      // Limited, safe heuristic: map bare resname that matches a question name to its title node
+      // Example: resname "SchoolHappy" → semantic id ending with ".q.schoolhappy.title"
+      const nameSlug = slugify(u.resname)
+      for (const [key, candidateNode] of idToNode.entries()) {
+        if (key.endsWith(`.q.${nameSlug}.title`) || key.endsWith(`.q.${nameSlug}.title.value`)) {
+          // Validate against English baseline to avoid mismatches
+          const enBase = String(candidateNode['en-US'] || candidateNode['en'] || candidateNode['default'] || '').trim()
+          const srcNorm = normalizeText(u.source || '', { isHtml: false })
+          if (!srcNorm || (enBase && enBase && enBase !== srcNorm)) {
+            continue
+          }
+          node = candidateNode
+          break
+        }
+      }
+    }
+
     if (node && typeof node === 'object') {
       // Simple rule: use non-empty <target>. If missing and en-US with needs-translation, use <source>
       const isEnUS = targetLanguage === 'en-US'

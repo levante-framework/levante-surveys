@@ -13,6 +13,8 @@
 </context>
           <context context-type="x-crowdin-label">general</context>
         </context-group>
+        <note from="iliana.karipidis" priority="4">The currently approved translation is not suitable for children. Please review my suggestion:
+&quot;Bitte drehe dein Gerät, um die Aufgaben optimal zu sehen.&quot;</note>
       </trans-unit>
       <trans-unit id="52688" resname="general-device-type" approved="yes">
         <source>Please use a tablet in landscape mode, a desktop computer, or a laptop to complete the activities.</source>
@@ -22,6 +24,8 @@
 </context>
           <context context-type="x-crowdin-label">general</context>
         </context-group>
+        <note from="iliana.karipidis" priority="4">The currently approved translation is not directed to children. Please review my suggestion:
+&quot;Benutze bitte ein Tablet im Querformat, einen Desktop-Computer oder einen Laptop, um die Aufgaben zu lösen.&quot;</note>
       </trans-unit>
       <trans-unit id="51311" resname="general-intro1" approved="yes">
         <source>Hi! We are excited to have you play some games with us today!</source>
@@ -31,6 +35,7 @@
 </context>
           <context context-type="x-crowdin-label">general</context>
         </context-group>
+        <note from="Carolina Gattei - UTDT (Carogattei)" priority="4">Suggestion: &quot;muy contentos&quot; instead of &quot;encantados&quot; (&quot;encantados&quot; is formal and less frequent)</note>
       </trans-unit>
       <trans-unit id="51313" resname="general-intro2" approved="yes">
         <source>First, you get to choose a buddy to play along with you. As you complete the different games, you will get to pick an accessory like a hat or glasses to decorate your buddy.</source>
@@ -2657,7 +2662,7 @@ Algunas preguntas te resultarán fáciles y otras difíciles. ¡No pasa nada! Es
       </trans-unit>
       <trans-unit id="51683" resname="ToM-intro" approved="yes">
         <source>This is the Stories Game. In this game, you will listen to some stories. Then you will answer questions about the stories.</source>
-        <target state="final">Este es el Juego de las historias. En este juego vas a escuchar algunas historias y luego vas a responder preguntas sobre esas historias.</target>
+        <target state="final">Este es el Juego de las Historias. En este juego vas a escuchar algunas historias y luego vas a responder preguntas sobre esas historias. </target>
         <context-group purpose="information">
           <context context-type="source">ToM-intro
 </context>
@@ -5364,6 +5369,7 @@ Mamá llega a casa y le dice a Sam que acaba de pasar por la tienda. &quot;¿Ven
           <context context-type="x-crowdin-label-1">vocab</context>
           <context context-type="x-crowdin-label-2">Vocabulary</context>
         </context-group>
+        <note from="Amy Lightbody (alkuhns)" priority="4">This item removed from the Spanish, Colombia item bank as of 9/25/25.</note>
       </trans-unit>
       <trans-unit id="52147" resname="vocab-item-065" approved="yes">
         <source>the spatula</source>
@@ -5908,7 +5914,7 @@ Mamá llega a casa y le dice a Sam que acaba de pasar por la tienda. &quot;¿Ven
       </trans-unit>
       <trans-unit id="52245" resname="vocab-item-114" approved="yes">
         <source>the dentist</source>
-        <target state="final">la dentista</target>
+        <target state="final">dentista </target>
         <context-group purpose="information">
           <context context-type="source">vocab-item-114
 </context>
@@ -7088,7 +7094,8 @@ Mamá llega a casa y le dice a Sam que acaba de pasar por la tienda. &quot;¿Ven
       </trans-unit>
       <trans-unit id="52465" resname="ToM-scene-9-instruct1" approved="yes">
         <source>This is Mark. Mark is playing a really silly game today and not saying any words all day long. Instead, Mark is drawing pictures. Mark is at the library, deciding which book he would like to read. Mom shows Mark two books, a book about cups and a book about hills.</source>
-        <target state="final">Este es Marco. Marco está jugando hoy un juego un poco loco en el que no dice ninguna palabra en todo el día. En vez de hablar, está haciendo dibujos. Marco está en la biblioteca, decidiendo qué libro le gustaría leer. La mamá le muestra a Marco dos libros: uno sobre tazas y otro sobre montañas.</target>
+        <target state="final">Este es Marco. Marco está jugando hoy un juego un poco loco en el que no dice ninguna palabra en todo el día. En vez de hablar, está haciendo dibujos. Marco está en la biblioteca, decidiendo qué libro le gustaría leer. La mamá le muestra a Marco dos libros: uno sobre tazas y otro sobre montañas.
+</target>
         <context-group purpose="information">
           <context context-type="source">ToM-scene-9-instruct1
 </context>
@@ -8982,6 +8989,14 @@ Algunas preguntas pueden ser fáciles para ti y algunas pueden ser difíciles. �
           <context context-type="source">number-identification-45
 </context>
           <context context-type="x-crowdin-label">math</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="150570" resname="vocab-item-171" approved="yes">
+        <source>the colander</source>
+        <target state="final">el colador</target>
+        <context-group purpose="information">
+          <context context-type="source">vocab-item-171
+</context>
         </context-group>
       </trans-unit>
     </body>
