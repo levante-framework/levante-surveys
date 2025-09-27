@@ -43,7 +43,9 @@
                 "fr-CA": "Aimez-vous lire des bandes dessinées ?",
                 "de-CH": "Liest du gerne Comics?",
                 "es-AR": "¿Te gusta leer historietas (comics)?",
-                "en-GH": "Do you like to read comic books?"
+                "en-GH": "Do you like to read comic books?",
+                "en-US": "Do you like to read comic books?",
+                "en": "Do you like to read comic books?"
               },
               "choices": [
                 {
@@ -117,7 +119,9 @@
                 "fr-CA": "Êtes-vous soigneux et ordonné à l'école ?",
                 "de-CH": "Bist du in der Schule ordentlich?",
                 "es-AR": "¿Eres limpio y ordenado en el colegio?",
-                "en-GH": "Are you neat and tidy at school?"
+                "en-GH": "Are you neat and tidy at school?",
+                "en-US": "Are you neat and tidy at school?",
+                "en": "Are you neat and tidy at school?"
               },
               "choices": [
                 {
@@ -187,11 +191,13 @@
                 "de": "Ist dein Lehrer nett zu dir?",
                 "fr": "Votre enseignant est-il gentil avec vous ?",
                 "nl": "Is je leraar aardig voor je?",
-                "es-CO": "¿Te trata bien tu profesor?",
+                "es-CO": "¿Tu profesor te trata bien?",
                 "fr-CA": "Votre enseignant est-il gentil avec vous ?",
                 "de-CH": "Ist dein Lehrer nett zu dir?",
                 "es-AR": "¿Tu profesor te trata bien?",
-                "en-GH": "Is your teacher nice to you?"
+                "en-GH": "Is your teacher nice to you?",
+                "en-US": "Is your teacher nice to you?",
+                "en": "Is your teacher nice to you?"
               },
               "choices": [
                 {
@@ -265,7 +271,9 @@
                 "fr-CA": "Votre enseignant vous aime-t-il ?",
                 "de-CH": "Mag dich dein Lehrer?",
                 "es-AR": "¿Le caes bien a tu profesor?",
-                "en-GH": "Does your teacher like you?"
+                "en-GH": "Does your teacher like you?",
+                "en-US": "Does your teacher like you?",
+                "en": "Does your teacher like you?"
               },
               "choices": [
                 {
@@ -335,11 +343,13 @@
                 "de": "Hört dein Lehrer dir zu?",
                 "fr": "Votre enseignant vous écoute-t-il ?",
                 "nl": "Luistert je leraar naar je?",
-                "es-CO": "¿Te escucha tu profesor?",
+                "es-CO": "¿Tu profesor te escucha?",
                 "fr-CA": "Votre enseignant vous écoute-t-il ?",
                 "de-CH": "Hört dein Lehrer dir zu?",
                 "es-AR": "¿Tu profesor te escucha?",
-                "en-GH": "Does your teacher listen to you?"
+                "en-GH": "Does your teacher listen to you?",
+                "en-US": "Does your teacher listen to you?",
+                "en": "Does your teacher listen to you?"
               },
               "choices": [
                 {
@@ -409,11 +419,13 @@
                 "de": "Macht die Schule Spaß?",
                 "fr": "L'école est-elle amusante ?",
                 "nl": "Is school leuk?",
-                "es-CO": "¿Te diviertes en el colegio?",
+                "es-CO": "¿Es divertido ir al colegio?",
                 "fr-CA": "L'école est-elle amusante ?",
                 "de-CH": "Macht die Schule Spaß?",
                 "es-AR": "¿Es divertido ir al colegio?",
-                "en-GH": "Is school fun?"
+                "en-GH": "Is school fun?",
+                "en-US": "Is school fun?",
+                "en": "Is school fun?"
               },
               "choices": [
                 {
@@ -483,11 +495,13 @@
                 "de": "Magst du es, in die Schule zu gehen?",
                 "fr": "Aimez-vous l'école ?",
                 "nl": "Vind je school leuk?",
-                "es-CO": "¿Te gusta la colegio?",
+                "es-CO": "¿Te gusta el colegio?",
                 "fr-CA": "Aimez-vous l'école ?",
                 "de-CH": "Magst du es, in die Schule zu gehen?",
                 "es-AR": "¿Te gusta el colegio?",
-                "en-GH": "Do you enjoy school?"
+                "en-GH": "Do you enjoy school?",
+                "en-US": "Do you enjoy school?",
+                "en": "Do you enjoy school?"
               },
               "choices": [
                 {
@@ -557,7 +571,7 @@
                 "de": "Bist du glücklich in der Schule?",
                 "fr": "Êtes-vous heureux à l'école ?",
                 "nl": "Ben je blij op school?",
-                "es-CO": "¿Te sientes feliz en la colegio?",
+                "es-CO": "¿Te sientes feliz en la escuela?",
                 "fr-CA": "Êtes-vous heureux à l'école ?",
                 "de-CH": "Bist du glücklich in der Schule?",
                 "es-AR": "¿Te sientes feliz en la escuela?",
@@ -637,7 +651,9 @@
                 "fr-CA": "Vous sentez-vous en sécurité à l'école ?",
                 "de-CH": "Fühlst du dich in der Schule sicher?",
                 "es-AR": "¿Te sientes seguro o segura en el colegio?",
-                "en-GH": "Do you feel safe at school?"
+                "en-GH": "Do you feel safe at school?",
+                "en-US": "Do you feel safe at school?",
+                "en": "Do you feel safe at school?"
               },
               "choices": [
                 {
@@ -707,11 +723,13 @@
                 "de": "Hast du Freunde in deiner Klasse?",
                 "fr": "Avez-vous des amis dans votre classe ?",
                 "nl": "Heb je vrienden in je klas?",
-                "es-CO": "¿Tienes amigos o amigas en tu clase?",
+                "es-CO": "¿Tienes amigos o amigas en tu salón?",
                 "fr-CA": "Avez-vous des amis dans votre classe ?",
                 "de-CH": "Hast du Freunde in deiner Klasse?",
                 "es-AR": "¿Tienes amigos o amigas en tu salón?",
-                "en-GH": "Do you have friends in your class?"
+                "en-GH": "Do you have friends in your class?",
+                "en-US": "Do you have friends in your class?",
+                "en": "Do you have friends in your class?"
               },
               "choices": [
                 {
@@ -781,11 +799,13 @@
                 "de": "Helfen dir die Kinder in deiner Klasse, wenn du Hilfe brauchst?",
                 "fr": "Les enfants de votre classe vous aident-ils quand vous en avez besoin ?",
                 "nl": "Helpen de kinderen in je klas je wanneer je het nodig hebt?",
-                "es-CO": "¿Te ayudan los niños y las niñas de tu clase cuando lo necesitas?",
+                "es-CO": "¿Te ayudan los niños y las niñas de tu salón cuando lo necesitas?",
                 "fr-CA": "Les enfants de votre classe vous aident-ils quand vous en avez besoin ?",
                 "de-CH": "Helfen dir die Kinder in deiner Klasse, wenn du Hilfe brauchst?",
                 "es-AR": "¿Te ayudan los niños y las niñas de tu salón cuando lo necesitas?",
-                "en-GH": "Do the kids in your class help you when you need it?"
+                "en-GH": "Do the kids in your class help you when you need it?",
+                "en-US": "Do the kids in your class help you when you need it?",
+                "en": "Do the kids in your class help you when you need it?"
               },
               "choices": [
                 {
@@ -855,11 +875,13 @@
                 "de": "Spielen die Kinder in deiner Klasse mit dir?",
                 "fr": "Les enfants de votre classe jouent-ils avec vous ?",
                 "nl": "Spelen de kinderen in je klas met je?",
-                "es-CO": "¿Los niños y las niñas de tu clase juegan contigo?",
+                "es-CO": "¿Los niños y las niñas de tu salón juegan contigo?",
                 "fr-CA": "Les enfants de votre classe jouent-ils avec vous ?",
                 "de-CH": "Spielen die Kinder in deiner Klasse mit dir?",
                 "es-AR": "¿Los niños y las niñas de tu salón juegan contigo?",
-                "en-GH": "Do the kids in your class play with you?"
+                "en-GH": "Do the kids in your class play with you?",
+                "en-US": "Do the kids in your class play with you?",
+                "en": "Do the kids in your class play with you?"
               },
               "choices": [
                 {
@@ -929,11 +951,13 @@
                 "de": "Sind die Kinder in deiner Klasse nett zu dir?",
                 "fr": "Les enfants de votre classe sont-ils gentils avec vous ?",
                 "nl": "Zijn de kinderen in je klas aardig voor je?",
-                "es-CO": "¿Los niños y las niñas de tu clase son amables contigo?",
+                "es-CO": "¿Los niños y las niñas de tu salón son amables contigo?",
                 "fr-CA": "Les enfants de votre classe sont-ils gentils avec vous ?",
                 "de-CH": "Sind die Kinder in deiner Klasse nett zu dir?",
                 "es-AR": "¿Los niños y las niñas de tu salón son amables contigo?",
-                "en-GH": "Are the kids in your class nice to you?"
+                "en-GH": "Are the kids in your class nice to you?",
+                "en-US": "Are the kids in your class nice to you?",
+                "en": "Are the kids in your class nice to you?"
               },
               "choices": [
                 {
@@ -1007,7 +1031,9 @@
                 "fr-CA": "Vous sentez-vous seul à l'école ?",
                 "de-CH": "Fühlst du dich in der Schule einsam?",
                 "es-AR": "¿Te sientes solo o sola en el colegio?",
-                "en-GH": "Do you feel lonely at school?"
+                "en-GH": "Do you feel lonely at school?",
+                "en-US": "Do you feel lonely at school?",
+                "en": "Do you feel lonely at school?"
               },
               "choices": [
                 {
@@ -1077,11 +1103,13 @@
                 "de": "Bist du gut darin, in der Schule etwas zu lernen?",
                 "fr": "Êtes-vous bon pour apprendre des choses à l'école ?",
                 "nl": "Ben je goed in het leren van dingen op school?",
-                "es-CO": "¿Eres bueno o buena para aprender en el colegio?",
+                "es-CO": "¿Te queda fácil aprender en el colegio?",
                 "fr-CA": "Êtes-vous bon pour apprendre des choses à l'école ?",
                 "de-CH": "Bist du gut darin, in der Schule etwas zu lernen?",
                 "es-AR": "¿Te queda fácil aprender en el colegio?",
-                "en-GH": "Are you good at learning things in school?"
+                "en-GH": "Are you good at learning things in school?",
+                "en-US": "Are you good at learning things in school?",
+                "en": "Are you good at learning things in school?"
               },
               "choices": [
                 {
@@ -1155,7 +1183,9 @@
                 "fr-CA": "Abandonnez-vous tout de suite quand le travail scolaire est difficile ?",
                 "de-CH": "Gibst du sofort auf, wenn dir die Schularbeit schwer fällt?",
                 "es-AR": "Cuando las tareas escolares son difíciles, ¿te rindes enseguida?",
-                "en-GH": "When schoolwork is hard, do you give up right away?"
+                "en-GH": "When schoolwork is hard, do you give up right away?",
+                "en-US": "When schoolwork is hard, do you give up right away?",
+                "en": "When schoolwork is hard, do you give up right away?"
               },
               "choices": [
                 {
@@ -1229,7 +1259,9 @@
                 "fr-CA": "Aimez-vous faire des activités de lecture à l'école ?",
                 "de-CH": "Macht es dir Spaß in der Schule zu lesen?",
                 "es-AR": "¿Te gusta hacer actividades de lectura en el colegio?",
-                "en-GH": "Do you enjoy doing reading activities at school?"
+                "en-GH": "Do you enjoy doing reading activities at school?",
+                "en-US": "Do you enjoy doing reading activities at school?",
+                "en": "Do you enjoy doing reading activities at school?"
               },
               "choices": [
                 {
@@ -1303,7 +1335,9 @@
                 "fr-CA": "Aimez-vous faire des activités de mathématiques à l'école ?",
                 "de-CH": "Hast du Spaß am Fach Mathe?",
                 "es-AR": "¿Te gusta hacer actividades de matemáticas en el colegio?",
-                "en-GH": "Do you enjoy doing math activities at school?"
+                "en-GH": "Do you enjoy doing math activities at school?",
+                "en-US": "Do you enjoy doing math activities at school?",
+                "en": "Do you enjoy doing math activities at school?"
               },
               "choices": [
                 {
@@ -1377,7 +1411,9 @@
                 "fr-CA": "Êtes-vous bon en lecture ?",
                 "de-CH": "Bist du gut im Lesen?",
                 "es-AR": "¿Eres bueno o buena para la lectura?",
-                "en-GH": "Are you good at reading?"
+                "en-GH": "Are you good at reading?",
+                "en-US": "Are you good at reading?",
+                "en": "Are you good at reading?"
               },
               "choices": [
                 {
@@ -1451,7 +1487,9 @@
                 "fr-CA": "Êtes-vous bon en maths ?",
                 "de-CH": "Bist du gut in Mathe?",
                 "es-AR": "¿Eres bueno o buena para las matemáticas?",
-                "en-GH": "Are you good at math?"
+                "en-GH": "Are you good at math?",
+                "en-US": "Are you good at math?",
+                "en": "Are you good at math?"
               },
               "choices": [
                 {
@@ -1525,7 +1563,9 @@
                 "fr-CA": "Certains enfants pensent qu'ils peuvent devenir plus intelligents s'ils travaillent très dur. Pensez-vous que vous pouvez devenir plus intelligent si vous travaillez très dur ?",
                 "de-CH": "Manche Kinder glauben, dass sie schlauer werden können, wenn sie sich anstrengen. Bist du auch der Meinung, dass du schlauer werden kannst, wenn du dich anstrengst?",
                 "es-AR": "Algunos niños y niñas piensan que pueden ser más inteligentes si se esfuerzan mucho. ¿Crees que tú puedes ser más inteligente si te esfuerzas mucho?",
-                "en-GH": "Some kids think they can get smarter if they work really hard. Do you think that you can get smarter if you work really hard?"
+                "en-GH": "Some kids think they can get smarter if they work really hard. Do you think that you can get smarter if you work really hard?",
+                "en-US": "Some kids think they can get smarter if they work really hard. Do you think that you can get smarter if you work really hard?",
+                "en": "Some kids think they can get smarter if they work really hard. Do you think that you can get smarter if you work really hard?"
               },
               "choices": [
                 {
@@ -1599,7 +1639,9 @@
                 "fr-CA": "Certains enfants pensent qu'ils peuvent s'améliorer en lecture s'ils travaillent très dur. Pensez-vous que vous pouvez vous améliorer en lecture si vous travaillez très dur ?",
                 "de-CH": "Manche Kinder glauben, dass sie besser lesen können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass du besser lesen kannst, wenn du dich richtig anstrengst?",
                 "es-AR": "Algunos niños y niñas creen que pueden mejorar en lectura si se esfuerzan mucho. ¿Crees que tú puedes mejorar en lectura si te esfuerzas mucho?",
-                "en-GH": "Some kids think they can get better at reading if they work really hard. Do you think that you can get better at reading if you work really hard?"
+                "en-GH": "Some kids think they can get better at reading if they work really hard. Do you think that you can get better at reading if you work really hard?",
+                "en-US": "Some kids think they can get better at reading if they work really hard. Do you think that you can get better at reading if you work really hard?",
+                "en": "Some kids think they can get better at reading if they work really hard. Do you think that you can get better at reading if you work really hard?"
               },
               "choices": [
                 {
@@ -1666,14 +1708,16 @@
               "name": "GrowthMindMath",
               "title": {
                 "default": "Some kids think they can get better at math if they work really hard. Do you think that you can get better at math if you work really hard?",
-                "de": "Manche Kinder glauben, dass sie in Mathe besser werden können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass man in Mathe besser wird, wenn man sich richtig anstrengt?",
+                "de": "Manche Kinder glauben, dass sie in Mathematik besser werden können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass man in Mathe besser wird, wenn man sich richtig anstrengt?",
                 "fr": "Certains enfants pensent qu'ils peuvent s'améliorer en maths s'ils travaillent très dur. Pensez-vous que vous pouvez vous améliorer en maths si vous travaillez très dur ?",
                 "nl": "Sommige kinderen denken dat ze beter kunnen worden in wiskunde als ze heel hard werken. Denk je dat je beter kunt worden in wiskunde als je heel hard werkt?",
                 "es-CO": "Algunos niños y niñas creen que pueden mejorar en matemáticas si se esfuerzan mucho. ¿Crees que tú puedes mejorar en matemáticas si te esfuerzas mucho?",
                 "fr-CA": "Certains enfants pensent qu'ils peuvent s'améliorer en maths s'ils travaillent très dur. Pensez-vous que vous pouvez vous améliorer en maths si vous travaillez très dur ?",
                 "de-CH": "Manche Kinder glauben, dass sie in Mathematik besser werden können, wenn sie sich richtig anstrengen. Bist du auch der Meinung, dass man in Mathe besser wird, wenn man sich richtig anstrengt?",
                 "es-AR": "Algunos niños y niñas creen que pueden mejorar en matemáticas si se esfuerzan mucho. ¿Crees que tú puedes mejorar en matemáticas si te esfuerzas mucho?",
-                "en-GH": "Some kids think they can get better at math if they work really hard. Do you think that you can get better at math if you work really hard?"
+                "en-GH": "Some kids think they can get better at math if they work really hard. Do you think that you can get better at math if you work really hard?",
+                "en-US": "Some kids think they can get better at math if they work really hard. Do you think that you can get better at math if you work really hard?",
+                "en": "Some kids think they can get better at math if they work really hard. Do you think that you can get better at math if you work really hard?"
               },
               "choices": [
                 {
