@@ -52,8 +52,27 @@ function rsyncToBucket(bucketUri) {
 
 function main() {
   copyUpdatedFiles()
-  // Deploy to levante-assets-dev/surveys
-  rsyncToBucket('gs://levante-assets-dev/surveys')
+  // CLI args: --bucket=levante-assets-dev|levante-assets-prod or --env=DEV|PROD
+  const args = process.argv.slice(2)
+  const bucketArg = args.find(a => a.startsWith('--bucket='))
+  const envArg = args.find(a => a.startsWith('--env='))
+  let bucketName = 'levante-assets-dev'
+  if (envArg) {
+    const env = envArg.split('=')[1].toUpperCase()
+    if (env === 'PROD' || env === 'PRODUCTION') {
+      bucketName = 'levante-assets-prod'
+    } else if (env === 'DEV' || env === 'DEVELOPMENT') {
+      bucketName = 'levante-assets-dev'
+    }
+  }
+  if (bucketArg) {
+    const val = bucketArg.split('=')[1]
+    if (val && !val.startsWith('gs://')) {
+      bucketName = val
+    }
+  }
+  const bucketUri = bucketName.startsWith('gs://') ? bucketName : `gs://${bucketName}/surveys`
+  rsyncToBucket(bucketUri)
 }
 
 main()
