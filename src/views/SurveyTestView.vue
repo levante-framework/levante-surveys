@@ -308,9 +308,40 @@ const loadSelectedSurvey = async () => {
   }
 }
 
+const resolveLocale = (requestedLocale) => {
+  const availableCodes = new Set(availableLanguages.value.map(lang => lang.code))
+
+  // Prefer de-DE when German is selected and available.
+  if (requestedLocale === 'de' && availableCodes.has('de-DE')) {
+    return 'de-DE'
+  }
+
+  if (availableCodes.has(requestedLocale)) {
+    return requestedLocale
+  }
+
+  // If a regional code is requested but only the base exists, fall back to base.
+  if (requestedLocale.includes('-')) {
+    const base = requestedLocale.split('-')[0]
+    if (availableCodes.has(base)) {
+      return base
+    }
+  }
+
+  // If a base code is requested but only regional variants exist, use the first match.
+  const regionalMatch = availableLanguages.value.find(lang =>
+    lang.code.startsWith(`${requestedLocale}-`)
+  )
+  if (regionalMatch) {
+    return regionalMatch.code
+  }
+
+  return requestedLocale
+}
+
 const changeLanguage = () => {
   if (currentSurvey.value) {
-    currentSurvey.value.locale = selectedLanguage.value
+    currentSurvey.value.locale = resolveLocale(selectedLanguage.value)
     updateSurveyInfo()
   }
 }
@@ -542,8 +573,8 @@ const loadSurvey = async (surveyData) => {
     // Create new survey instance
     const surveyModel = new Model(surveyData)
 
-    // Set initial language
-    surveyModel.locale = selectedLanguage.value
+    // Set initial language (normalize base/regional mismatch)
+    surveyModel.locale = resolveLocale(selectedLanguage.value)
 
     // Set reactive reference
     currentSurvey.value = surveyModel
