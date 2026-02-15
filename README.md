@@ -821,6 +821,22 @@ npm run preview
    - Check TypeScript configuration
    - Verify all import paths are correct
 
+## Validation Utilities
+
+### Validate parent surveys (per-language anomalies)
+Checks missing language keys, empty strings, and entries identical to `default`.
+
+```bash
+# Validate surveys from dev bucket (default)
+python scripts/validate_parent_surveys.py
+
+# Validate surveys from a specific bucket
+python scripts/validate_parent_surveys.py --source gcs --bucket levante-assets-prod
+
+# Validate local survey files
+python scripts/validate_parent_surveys.py --source local --local-root surveys
+```
+
 ## Contact & Support
 
 This project is part of the LEVANTE research platform. For questions or issues:
