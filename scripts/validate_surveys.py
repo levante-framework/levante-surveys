@@ -1,24 +1,28 @@
 #!/usr/bin/env python3
 """
 Validate per-language coverage and translation anomalies
-for parent surveys (child/family).
+for surveys in a GCS environment (dev/prod) or locally.
 
 Checks:
 - Missing language keys per localized object
 - Empty strings for any language
-- Strings identical to default (potential untranslated)
+- Strings identical to default (possible untranslated)
 """
 from __future__ import annotations
 
 import argparse
 import json
 import subprocess
-import sys
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
 
-PARENT_SURVEYS = [
+ENV_BUCKETS = {
+    "dev": "levante-assets-dev",
+    "prod": "levante-assets-prod",
+}
+
+DEFAULT_SURVEYS = [
     "parent_survey_child",
     "parent_survey_family",
 ]
@@ -44,6 +48,24 @@ def load_from_local(root: Path, name: str) -> Dict[str, Any]:
     if not path.exists():
         raise RuntimeError(f"Missing local file: {path}")
     return json.loads(path.read_text())
+
+
+def list_gcs_surveys(bucket: str) -> List[str]:
+    try:
+        output = subprocess.check_output(
+            ["gsutil", "ls", f"gs://{bucket}/surveys/*.json"]
+        ).decode("utf-8")
+    except subprocess.CalledProcessError as exc:
+        raise RuntimeError(f"Failed to list surveys in gs://{bucket}/surveys") from exc
+
+    names = []
+    for line in output.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        name = line.rsplit("/", 1)[-1].removesuffix(".json")
+        names.append(name)
+    return sorted(names)
 
 
 def collect_localized(obj: Any, path: str = "") -> List[Tuple[str, Dict[str, Any]]]:
@@ -119,7 +141,13 @@ def print_report(name: str, report: Dict[str, Any], max_examples: int) -> None:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Validate parent surveys per-language coverage.")
+    parser = argparse.ArgumentParser(description="Validate surveys per-language coverage.")
+    parser.add_argument(
+        "--env",
+        choices=ENV_BUCKETS.keys(),
+        default="dev",
+        help="Target environment (default: dev).",
+    )
     parser.add_argument(
         "--source",
         choices=["gcs", "local"],
@@ -127,9 +155,14 @@ def main() -> int:
         help="Read surveys from GCS or local files (default: gcs).",
     )
     parser.add_argument(
+        "--all",
+        action="store_true",
+        help="Validate all surveys in the source location.",
+    )
+    parser.add_argument(
         "--bucket",
-        default="levante-assets-dev",
-        help="GCS bucket for surveys when --source gcs (default: levante-assets-dev).",
+        default=None,
+        help="GCS bucket for surveys when --source gcs (default: env bucket).",
     )
     parser.add_argument(
         "--local-root",
@@ -144,9 +177,19 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    for name in PARENT_SURVEYS:
+    bucket = args.bucket or ENV_BUCKETS[args.env]
+    if args.all:
         if args.source == "gcs":
-            data = load_from_gcs(args.bucket, name)
+            survey_names = list_gcs_surveys(bucket)
+        else:
+            root = Path(args.local_root)
+            survey_names = sorted(p.stem for p in root.glob("*.json"))
+    else:
+        survey_names = DEFAULT_SURVEYS
+
+    for name in survey_names:
+        if args.source == "gcs":
+            data = load_from_gcs(bucket, name)
         else:
             data = load_from_local(Path(args.local_root), name)
         report = analyze_survey(data)

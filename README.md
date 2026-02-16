@@ -625,6 +625,10 @@ npm run test:surveys
 
 # Validate JSON structure and content
 npx cypress run --spec "cypress/e2e/survey-json-validation.cy.js"
+
+# Validate per-language coverage on dev/prod surveys
+python scripts/validate_surveys.py --env dev
+python scripts/validate_surveys.py --env prod
 ```
 
 ### **For Emergency Deployment**
@@ -823,18 +827,24 @@ npm run preview
 
 ## Validation Utilities
 
-### Validate parent surveys (per-language anomalies)
+### Validate surveys (per-language anomalies)
 Checks missing language keys, empty strings, and entries identical to `default`.
 
 ```bash
-# Validate surveys from dev bucket (default)
-python scripts/validate_parent_surveys.py
+# Validate parent surveys from dev bucket (default)
+python scripts/validate_surveys.py
 
-# Validate surveys from a specific bucket
-python scripts/validate_parent_surveys.py --source gcs --bucket levante-assets-prod
+# Validate parent surveys from prod bucket
+python scripts/validate_surveys.py --env prod
 
-# Validate local survey files
-python scripts/validate_parent_surveys.py --source local --local-root surveys
+# Validate all surveys from a bucket
+python scripts/validate_surveys.py --env dev --all
+
+# Validate local parent surveys
+python scripts/validate_surveys.py --source local --local-root surveys
+
+# Validate all local surveys
+python scripts/validate_surveys.py --source local --local-root surveys --all
 ```
 
 ## Contact & Support
